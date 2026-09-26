@@ -414,5 +414,395 @@
       "DNS"
     ],
     "correct_index": 1
+  },
+  {
+    "id": "tec-033",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla 'PDF'?",
+    "options": [
+      "Portable Document Format",
+      "Personal Data File",
+      "Print Document Format",
+      "Processed Data Format"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-034",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa desenvolveu o console de videogame PlayStation?",
+    "options": [
+      "Microsoft",
+      "Sony",
+      "Nintendo",
+      "Sega"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-035",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do aplicativo de mensagens instantâneas mais usado no Brasil, de propriedade da Meta?",
+    "options": [
+      "Telegram",
+      "WhatsApp",
+      "Signal",
+      "Messenger"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-036",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla 'GIF'?",
+    "options": [
+      "Graphics Interchange Format",
+      "General Image File",
+      "Global Internet Format",
+      "Graphic Information File"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-037",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa fabrica os processadores Snapdragon, muito usados em smartphones Android?",
+    "options": [
+      "Intel",
+      "Qualcomm",
+      "AMD",
+      "Samsung"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-038",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do sistema operacional móvel desenvolvido pela Apple?",
+    "options": [
+      "Android",
+      "iOS",
+      "HarmonyOS",
+      "Windows Phone"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-039",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual é o nome da rede social de fotos e vídeos comprada pelo Facebook (hoje Meta) em 2012?",
+    "options": [
+      "Snapchat",
+      "Instagram",
+      "Pinterest",
+      "Flickr"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-040",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa criou o navegador de internet Safari?",
+    "options": [
+      "Google",
+      "Apple",
+      "Microsoft",
+      "Mozilla"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-041",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla 'USB'?",
+    "options": [
+      "Universal Serial Bus",
+      "United System Board",
+      "Universal System Bit",
+      "Unique Serial Bus"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-042",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual rede social é conhecida pelo limite original de 140 (depois 280) caracteres por postagem e hoje se chama X?",
+    "options": [
+      "Twitter",
+      "Tumblr",
+      "Reddit",
+      "Mastodon"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-043",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa desenvolveu a linguagem de programação JavaScript originalmente, em 1995?",
+    "options": [
+      "Microsoft",
+      "Netscape",
+      "Sun Microsystems",
+      "IBM"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-044",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "O que significa a sigla 'API', muito usada em desenvolvimento de software?",
+    "options": [
+      "Application Programming Interface",
+      "Automated Program Integration",
+      "Advanced Protocol Interface",
+      "Application Process Index"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-045",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual rede social, lançada em 2003, foi uma das pioneiras e antecessora do Facebook, muito popular nos EUA?",
+    "options": [
+      "Orkut",
+      "MySpace",
+      "Friendster",
+      "Hi5"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-046",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do protocolo de rede usado para traduzir nomes de domínio, como google.com, em endereços IP?",
+    "options": [
+      "FTP",
+      "DNS",
+      "SMTP",
+      "DHCP"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-047",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa é responsável pelo desenvolvimento do ChatGPT?",
+    "options": [
+      "Google DeepMind",
+      "OpenAI",
+      "Meta AI",
+      "Microsoft Research"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-048",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "O que significa a sigla 'VPN'?",
+    "options": [
+      "Virtual Private Network",
+      "Verified Public Node",
+      "Virtual Personal Network",
+      "Value Protected Network"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-049",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual linguagem de programação, criada em 1991, foi nomeada em homenagem a um grupo de comédia britânico (Monty Python)?",
+    "options": [
+      "Python",
+      "Ruby",
+      "Perl",
+      "Java"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-050",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa é dona da plataforma de streaming de jogos e vídeos Twitch?",
+    "options": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-051",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "O que significa a sigla 'IoT', usada para descrever dispositivos conectados à internet como geladeiras e lâmpadas inteligentes?",
+    "options": [
+      "Internet of Things",
+      "Internet over Terminal",
+      "Interconnected Online Technology",
+      "Integrated Online Tools"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-052",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa criou o sistema de pagamento digital PayPal, que teve Elon Musk como um de seus cofundadores?",
+    "options": [
+      "Stripe",
+      "PayPal",
+      "Square",
+      "Venmo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-053",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do primeiro computador eletrônico digital de uso geral, construído nos EUA em 1945?",
+    "options": [
+      "ENIAC",
+      "UNIVAC",
+      "Colossus",
+      "Z3"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-054",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Quem é considerado o criador da World Wide Web, em 1989, enquanto trabalhava no CERN?",
+    "options": [
+      "Vint Cerf",
+      "Tim Berners-Lee",
+      "Marc Andreessen",
+      "Larry Page"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-055",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do algoritmo de criptografia assimétrica, criado em 1977, cujo nome vem das iniciais de seus criadores Rivest, Shamir e Adleman?",
+    "options": [
+      "AES",
+      "RSA",
+      "SHA-256",
+      "DES"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-056",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da lei que prevê a duplicação do número de transistores em um chip a cada dois anos, aproximadamente?",
+    "options": [
+      "Lei de Moore",
+      "Lei de Amdahl",
+      "Lei de Metcalfe",
+      "Lei de Kryder"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-057",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual linguagem de marcação, irmã do HTML, é amplamente usada para armazenar e transportar dados estruturados entre sistemas?",
+    "options": [
+      "XML",
+      "JSON",
+      "YAML",
+      "CSV"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-058",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual foi o primeiro vírus de computador amplamente conhecido a se espalhar pela internet, em 1988, ficando conhecido como 'Morris Worm'?",
+    "options": [
+      "ILOVEYOU",
+      "Morris Worm",
+      "Melissa",
+      "Code Red"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-059",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual empresa criou a arquitetura de processadores ARM, muito usada em smartphones por seu baixo consumo de energia?",
+    "options": [
+      "Intel",
+      "ARM Holdings",
+      "AMD",
+      "Qualcomm"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-060",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do formato de compressão de áudio popularizado nos anos 1990 e 2000, que reduz o tamanho de arquivos de música?",
+    "options": [
+      "WAV",
+      "MP3",
+      "FLAC",
+      "AAC"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-061",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Quem é o cofundador e atual CEO da Nvidia, empresa líder em GPUs para inteligência artificial?",
+    "options": [
+      "Lisa Su",
+      "Jensen Huang",
+      "Satya Nadella",
+      "Sundar Pichai"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-062",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do primeiro satélite artificial da história, lançado pela União Soviética em 1957?",
+    "options": [
+      "Sputnik 1",
+      "Explorer 1",
+      "Vostok 1",
+      "Telstar 1"
+    ],
+    "correct_index": 0
   }
 ]

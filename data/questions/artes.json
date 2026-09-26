@@ -414,5 +414,395 @@
       "Shepard Fairey"
     ],
     "correct_index": 0
+  },
+  {
+    "id": "art-033",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou 'A Última Ceia'?",
+    "options": [
+      "Michelangelo",
+      "Rafael",
+      "Leonardo da Vinci",
+      "Ticiano"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "art-034",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual pintor holandês cortou parte da própria orelha após uma crise?",
+    "options": [
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Edgar Degas",
+      "Paul Cézanne"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-035",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Em que país nasceu o pintor Rembrandt?",
+    "options": [
+      "Bélgica",
+      "Alemanha",
+      "Holanda",
+      "França"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "art-036",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem esculpiu o 'Moisés', obra exposta em Roma?",
+    "options": [
+      "Donatello",
+      "Michelangelo",
+      "Bernini",
+      "Rafael"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-037",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual movimento artístico é caracterizado por formas geométricas e cores primárias, tendo Piet Mondrian como principal nome?",
+    "options": [
+      "Cubismo",
+      "Neoplasticismo",
+      "Barroco",
+      "Impressionismo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-038",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual famosa escultura grega antiga, sem os braços, está exposta no Museu do Louvre?",
+    "options": [
+      "Vitória de Samotrácia",
+      "Vênus de Milo",
+      "Laocoonte",
+      "Discóbolo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-039",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou 'A Persistência da Memória', com os relógios derretidos?",
+    "options": [
+      "Salvador Dalí",
+      "René Magritte",
+      "Joan Miró",
+      "Max Ernst"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-040",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual técnica artística cria imagens com pequenas peças de vidro, pedra ou cerâmica?",
+    "options": [
+      "Afresco",
+      "Mosaico",
+      "Gravura",
+      "Colagem"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-041",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual pintor francês é famoso por suas pinturas de bailarinas?",
+    "options": [
+      "Édouard Manet",
+      "Edgar Degas",
+      "Henri Matisse",
+      "Paul Gauguin"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-042",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou 'A Escola de Atenas', afresco exposto no Vaticano?",
+    "options": [
+      "Michelangelo",
+      "Rafael",
+      "Leonardo da Vinci",
+      "Donatello"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-043",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual movimento artístico do início do século XX exaltava a velocidade e a tecnologia, tendo Filippo Marinetti como um de seus fundadores?",
+    "options": [
+      "Futurismo",
+      "Dadaísmo",
+      "Fauvismo",
+      "Construtivismo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-044",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual pintor belga é conhecido pela obra surrealista 'O Filho do Homem', com uma maçã cobrindo o rosto?",
+    "options": [
+      "Yves Tanguy",
+      "René Magritte",
+      "Paul Delvaux",
+      "Max Ernst"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-045",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual escultor italiano barroco criou 'O Êxtase de Santa Teresa'?",
+    "options": [
+      "Donatello",
+      "Michelangelo",
+      "Gian Lorenzo Bernini",
+      "Antonio Canova"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "art-046",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Em que cidade está localizado o Museu do Prado?",
+    "options": [
+      "Barcelona",
+      "Lisboa",
+      "Madrid",
+      "Sevilha"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "art-047",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual pintora brasileira modernista pintou a obra 'Antropofagia' (1929)?",
+    "options": [
+      "Anita Malfatti",
+      "Tarsila do Amaral",
+      "Djanira da Motta e Silva",
+      "Beatriz Milhazes"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-048",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Como se chama a técnica de pintura sobre gesso fresco, usada por Michelangelo na Capela Sistina?",
+    "options": [
+      "Têmpera",
+      "Afresco",
+      "Encáustica",
+      "Aquarela"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-049",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual movimento do Barroco brasileiro floresceu em Minas Gerais no século XVIII, com destaque para as obras de Aleijadinho?",
+    "options": [
+      "Barroco Mineiro",
+      "Rococó Paulista",
+      "Neoclassicismo Baiano",
+      "Maneirismo Colonial"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-050",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Quem foi o escultor e arquiteto conhecido como 'Aleijadinho', autor dos Profetas de Congonhas (MG)?",
+    "options": [
+      "Mestre Valentim",
+      "Antônio Francisco Lisboa",
+      "Manuel da Costa Ataíde",
+      "Frei Galvão"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-051",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual movimento artístico do final do século XIX e início do XX buscava expressar emoções intensas através da distorção da realidade, tendo Áustria e Alemanha como polos importantes?",
+    "options": [
+      "Impressionismo",
+      "Expressionismo",
+      "Realismo",
+      "Rococó"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-052",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do estilo artístico grandioso e dramático, com muito contraste de luz e sombra, que predominou na Europa entre os séculos XVII e XVIII?",
+    "options": [
+      "Rococó",
+      "Barroco",
+      "Neoclassicismo",
+      "Romantismo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-053",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual escultura de mármore, descoberta em Roma em 1506, retrata um sacerdote troiano e seus filhos atacados por serpentes marinhas e influenciou Michelangelo?",
+    "options": [
+      "O Rapto de Perséfone",
+      "Laocoonte e Seus Filhos",
+      "Apolo e Dafne",
+      "Vênus de Milo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-054",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual pintor flamengo do século XV, pioneiro da pintura a óleo, é autor de 'O Casal Arnolfini'?",
+    "options": [
+      "Hieronymus Bosch",
+      "Jan van Eyck",
+      "Pieter Bruegel",
+      "Hans Memling"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-055",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual movimento artístico brasileiro do final dos anos 1950 combinou arte e experimentação sensorial, tendo Hélio Oiticica e Lygia Clark como expoentes?",
+    "options": [
+      "Neoconcretismo",
+      "Antropofagia",
+      "Tropicalismo Plástico",
+      "Construtivismo Carioca"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-056",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual escultor francês criou 'Os Burgueses de Calais'?",
+    "options": [
+      "Auguste Rodin",
+      "Camille Claudel",
+      "Antoine Bourdelle",
+      "Aristide Maillol"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-057",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual pintora italiana barroca, uma das poucas mulheres reconhecidas em sua época, pintou 'Judite Decapitando Holofernes'?",
+    "options": [
+      "Sofonisba Anguissola",
+      "Artemisia Gentileschi",
+      "Élisabeth Vigée Le Brun",
+      "Rosalba Carriera"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-058",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual arquiteto brasileiro projetou os principais edifícios de Brasília, como o Palácio do Planalto?",
+    "options": [
+      "Lúcio Costa",
+      "Oscar Niemeyer",
+      "Vilanova Artigas",
+      "Paulo Mendes da Rocha"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-059",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual movimento de arte conceitual, iniciado por Marcel Duchamp com seus 'ready-mades', desafiou a definição tradicional de arte?",
+    "options": [
+      "Dadaísmo",
+      "Surrealismo",
+      "Minimalismo",
+      "Fluxus"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-060",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual artista contemporânea japonesa é conhecida por instalações com bolinhas coloridas e pelas 'Infinity Rooms'?",
+    "options": [
+      "Yoko Ono",
+      "Yayoi Kusama",
+      "Chiharu Shiota",
+      "Mariko Mori"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-061",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual escultor barroco italiano projetou a Fonte dos Quatro Rios, na Piazza Navona, em Roma?",
+    "options": [
+      "Francesco Borromini",
+      "Gian Lorenzo Bernini",
+      "Carlo Maderno",
+      "Pietro da Cortona"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-062",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual pintor espanhol, autor de 'O Fuzilamento de 3 de Maio', é considerado precursor do Romantismo e da arte moderna?",
+    "options": [
+      "Diego Velázquez",
+      "Francisco Goya",
+      "El Greco",
+      "Bartolomé Esteban Murillo"
+    ],
+    "correct_index": 1
   }
 ]

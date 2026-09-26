@@ -5194,5 +5194,3845 @@
       "Marcel Proust"
     ],
     "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou 'A Última Ceia'?",
+    "options": [
+      "Michelangelo",
+      "Rafael",
+      "Leonardo da Vinci",
+      "Ticiano"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual pintor holandês cortou parte da própria orelha após uma crise?",
+    "options": [
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Edgar Degas",
+      "Paul Cézanne"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Em que país nasceu o pintor Rembrandt?",
+    "options": [
+      "Bélgica",
+      "Alemanha",
+      "Holanda",
+      "França"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem esculpiu o 'Moisés', obra exposta em Roma?",
+    "options": [
+      "Donatello",
+      "Michelangelo",
+      "Bernini",
+      "Rafael"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual movimento artístico é caracterizado por formas geométricas e cores primárias, tendo Piet Mondrian como principal nome?",
+    "options": [
+      "Cubismo",
+      "Neoplasticismo",
+      "Barroco",
+      "Impressionismo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual famosa escultura grega antiga, sem os braços, está exposta no Museu do Louvre?",
+    "options": [
+      "Vitória de Samotrácia",
+      "Vênus de Milo",
+      "Laocoonte",
+      "Discóbolo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou 'A Persistência da Memória', com os relógios derretidos?",
+    "options": [
+      "Salvador Dalí",
+      "René Magritte",
+      "Joan Miró",
+      "Max Ernst"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual técnica artística cria imagens com pequenas peças de vidro, pedra ou cerâmica?",
+    "options": [
+      "Afresco",
+      "Mosaico",
+      "Gravura",
+      "Colagem"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual pintor francês é famoso por suas pinturas de bailarinas?",
+    "options": [
+      "Édouard Manet",
+      "Edgar Degas",
+      "Henri Matisse",
+      "Paul Gauguin"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou 'A Escola de Atenas', afresco exposto no Vaticano?",
+    "options": [
+      "Michelangelo",
+      "Rafael",
+      "Leonardo da Vinci",
+      "Donatello"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual movimento artístico do início do século XX exaltava a velocidade e a tecnologia, tendo Filippo Marinetti como um de seus fundadores?",
+    "options": [
+      "Futurismo",
+      "Dadaísmo",
+      "Fauvismo",
+      "Construtivismo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual pintor belga é conhecido pela obra surrealista 'O Filho do Homem', com uma maçã cobrindo o rosto?",
+    "options": [
+      "Yves Tanguy",
+      "René Magritte",
+      "Paul Delvaux",
+      "Max Ernst"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual escultor italiano barroco criou 'O Êxtase de Santa Teresa'?",
+    "options": [
+      "Donatello",
+      "Michelangelo",
+      "Gian Lorenzo Bernini",
+      "Antonio Canova"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Em que cidade está localizado o Museu do Prado?",
+    "options": [
+      "Barcelona",
+      "Lisboa",
+      "Madrid",
+      "Sevilha"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual pintora brasileira modernista pintou a obra 'Antropofagia' (1929)?",
+    "options": [
+      "Anita Malfatti",
+      "Tarsila do Amaral",
+      "Djanira da Motta e Silva",
+      "Beatriz Milhazes"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Como se chama a técnica de pintura sobre gesso fresco, usada por Michelangelo na Capela Sistina?",
+    "options": [
+      "Têmpera",
+      "Afresco",
+      "Encáustica",
+      "Aquarela"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual movimento do Barroco brasileiro floresceu em Minas Gerais no século XVIII, com destaque para as obras de Aleijadinho?",
+    "options": [
+      "Barroco Mineiro",
+      "Rococó Paulista",
+      "Neoclassicismo Baiano",
+      "Maneirismo Colonial"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Quem foi o escultor e arquiteto conhecido como 'Aleijadinho', autor dos Profetas de Congonhas (MG)?",
+    "options": [
+      "Mestre Valentim",
+      "Antônio Francisco Lisboa",
+      "Manuel da Costa Ataíde",
+      "Frei Galvão"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual movimento artístico do final do século XIX e início do XX buscava expressar emoções intensas através da distorção da realidade, tendo Áustria e Alemanha como polos importantes?",
+    "options": [
+      "Impressionismo",
+      "Expressionismo",
+      "Realismo",
+      "Rococó"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do estilo artístico grandioso e dramático, com muito contraste de luz e sombra, que predominou na Europa entre os séculos XVII e XVIII?",
+    "options": [
+      "Rococó",
+      "Barroco",
+      "Neoclassicismo",
+      "Romantismo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual escultura de mármore, descoberta em Roma em 1506, retrata um sacerdote troiano e seus filhos atacados por serpentes marinhas e influenciou Michelangelo?",
+    "options": [
+      "O Rapto de Perséfone",
+      "Laocoonte e Seus Filhos",
+      "Apolo e Dafne",
+      "Vênus de Milo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual pintor flamengo do século XV, pioneiro da pintura a óleo, é autor de 'O Casal Arnolfini'?",
+    "options": [
+      "Hieronymus Bosch",
+      "Jan van Eyck",
+      "Pieter Bruegel",
+      "Hans Memling"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual movimento artístico brasileiro do final dos anos 1950 combinou arte e experimentação sensorial, tendo Hélio Oiticica e Lygia Clark como expoentes?",
+    "options": [
+      "Neoconcretismo",
+      "Antropofagia",
+      "Tropicalismo Plástico",
+      "Construtivismo Carioca"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual escultor francês criou 'Os Burgueses de Calais'?",
+    "options": [
+      "Auguste Rodin",
+      "Camille Claudel",
+      "Antoine Bourdelle",
+      "Aristide Maillol"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual pintora italiana barroca, uma das poucas mulheres reconhecidas em sua época, pintou 'Judite Decapitando Holofernes'?",
+    "options": [
+      "Sofonisba Anguissola",
+      "Artemisia Gentileschi",
+      "Élisabeth Vigée Le Brun",
+      "Rosalba Carriera"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual arquiteto brasileiro projetou os principais edifícios de Brasília, como o Palácio do Planalto?",
+    "options": [
+      "Lúcio Costa",
+      "Oscar Niemeyer",
+      "Vilanova Artigas",
+      "Paulo Mendes da Rocha"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual movimento de arte conceitual, iniciado por Marcel Duchamp com seus 'ready-mades', desafiou a definição tradicional de arte?",
+    "options": [
+      "Dadaísmo",
+      "Surrealismo",
+      "Minimalismo",
+      "Fluxus"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual artista contemporânea japonesa é conhecida por instalações com bolinhas coloridas e pelas 'Infinity Rooms'?",
+    "options": [
+      "Yoko Ono",
+      "Yayoi Kusama",
+      "Chiharu Shiota",
+      "Mariko Mori"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual escultor barroco italiano projetou a Fonte dos Quatro Rios, na Piazza Navona, em Roma?",
+    "options": [
+      "Francesco Borromini",
+      "Gian Lorenzo Bernini",
+      "Carlo Maderno",
+      "Pietro da Cortona"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual pintor espanhol, autor de 'O Fuzilamento de 3 de Maio', é considerado precursor do Romantismo e da arte moderna?",
+    "options": [
+      "Diego Velázquez",
+      "Francisco Goya",
+      "El Greco",
+      "Bartolomé Esteban Murillo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o símbolo químico do ouro?",
+    "options": [
+      "Ag",
+      "Au",
+      "Fe",
+      "Go"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Quantos planetas existem no Sistema Solar atualmente reconhecidos pela União Astronômica Internacional?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o órgão responsável pela visão nos seres humanos?",
+    "options": [
+      "Olho",
+      "Ouvido",
+      "Pele",
+      "Nariz"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o menor planeta do Sistema Solar?",
+    "options": [
+      "Vênus",
+      "Marte",
+      "Mercúrio",
+      "Plutão"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é a fórmula química da água?",
+    "options": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do processo de mudança do estado líquido para o gasoso?",
+    "options": [
+      "Fusão",
+      "Solidificação",
+      "Evaporação",
+      "Condensação"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Quantos sentidos básicos os humanos possuem, segundo a classificação tradicional?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o maior órgão do corpo humano?",
+    "options": [
+      "Fígado",
+      "Pele",
+      "Coração",
+      "Pulmão"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual planeta é conhecido por seus anéis visíveis e é o segundo maior do Sistema Solar?",
+    "options": [
+      "Netuno",
+      "Saturno",
+      "Urano",
+      "Júpiter"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do único satélite natural da Terra?",
+    "options": [
+      "Fobos",
+      "Lua",
+      "Titã",
+      "Europa"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do processo pelo qual uma célula se divide para formar duas células idênticas?",
+    "options": [
+      "Meiose",
+      "Mitose",
+      "Fecundação",
+      "Osmose"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é a principal função dos glóbulos vermelhos no sangue?",
+    "options": [
+      "Combater infecções",
+      "Transportar oxigênio",
+      "Coagular o sangue",
+      "Produzir anticorpos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o nome da camada da Terra localizada entre o núcleo e a crosta?",
+    "options": [
+      "Litosfera",
+      "Manto",
+      "Estratosfera",
+      "Crosta"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual vitamina é produzida pelo corpo humano quando exposto à luz solar?",
+    "options": [
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina B12",
+      "Vitamina K"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual cientista propôs a teoria da deriva continental?",
+    "options": [
+      "Charles Darwin",
+      "Alfred Wegener",
+      "Isaac Newton",
+      "Nicolau Copérnico"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é a unidade popularmente usada para expressar a quantidade de energia contida nos alimentos?",
+    "options": [
+      "Joule",
+      "Watt",
+      "Caloria",
+      "Newton"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do processo de divisão celular que forma os gametas (óvulos e espermatozoides)?",
+    "options": [
+      "Mitose",
+      "Meiose",
+      "Citocinese",
+      "Mitocôndria"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual cientista propôs o modelo atômico conhecido como 'pudim de passas'?",
+    "options": [
+      "Ernest Rutherford",
+      "J.J. Thomson",
+      "Niels Bohr",
+      "John Dalton"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do gás nobre utilizado em balões de festa por ser mais leve que o ar?",
+    "options": [
+      "Neônio",
+      "Hélio",
+      "Argônio",
+      "Hidrogênio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o principal hormônio responsável por regular os níveis de glicose no sangue, produzido pelo pâncreas?",
+    "options": [
+      "Adrenalina",
+      "Insulina",
+      "Testosterona",
+      "Tiroxina"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da molécula que carrega a informação genética nos seres vivos?",
+    "options": [
+      "RNA",
+      "DNA",
+      "ATP",
+      "Proteína"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do fenômeno em que a luz muda de direção ao passar de um meio para outro, como do ar para a água?",
+    "options": [
+      "Reflexão",
+      "Refração",
+      "Difração",
+      "Dispersão"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da lei que afirma que a energia não pode ser criada nem destruída, apenas transformada?",
+    "options": [
+      "Lei de Newton",
+      "Lei da Conservação da Energia",
+      "Lei de Ohm",
+      "Lei de Boyle"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do processo pelo qual núcleos atômicos leves se combinam formando um núcleo mais pesado e liberando grande energia, como ocorre no Sol?",
+    "options": [
+      "Fissão nuclear",
+      "Fusão nuclear",
+      "Radioatividade",
+      "Ionização"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da unidade usada para medir a intensidade sonora?",
+    "options": [
+      "Hertz",
+      "Decibel",
+      "Watt",
+      "Pascal"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual cientista é considerado o pai da microbiologia, por observar microrganismos ao microscópio pela primeira vez?",
+    "options": [
+      "Robert Hooke",
+      "Antonie van Leeuwenhoek",
+      "Louis Pasteur",
+      "Robert Koch"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da teoria que explica a expansão do universo a partir de um ponto extremamente denso e quente?",
+    "options": [
+      "Teoria da Relatividade",
+      "Teoria do Big Bang",
+      "Teoria do Estado Estacionário",
+      "Teoria da Inflação Cósmica"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do processo metabólico que ocorre na ausência de oxigênio e produz ácido lático nas células musculares?",
+    "options": [
+      "Respiração aeróbica",
+      "Fermentação lática",
+      "Fotossíntese",
+      "Quimiossíntese"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o elemento químico natural com maior número atômico encontrado em quantidade significativa na Terra?",
+    "options": [
+      "Chumbo",
+      "Urânio",
+      "Ouro",
+      "Rádio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da camada da atmosfera onde ocorrem os fenômenos meteorológicos, como chuva e vento, sendo a mais próxima da superfície terrestre?",
+    "options": [
+      "Estratosfera",
+      "Troposfera",
+      "Mesosfera",
+      "Termosfera"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem interpreta o personagem Jack Dawson no filme 'Titanic' (1997)?",
+    "options": [
+      "Brad Pitt",
+      "Leonardo DiCaprio",
+      "Matt Damon",
+      "Tom Cruise"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual ator interpreta Harry Potter nos filmes da saga?",
+    "options": [
+      "Rupert Grint",
+      "Daniel Radcliffe",
+      "Tom Felton",
+      "James Phelps"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual é o nome do leão que ruge na abertura dos filmes da MGM?",
+    "options": [
+      "Simba",
+      "Leo",
+      "Aslan",
+      "Alex"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual estúdio de animação produziu os filmes 'Shrek' e 'Madagascar'?",
+    "options": [
+      "Pixar",
+      "DreamWorks Animation",
+      "Illumination",
+      "Blue Sky Studios"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem interpreta o personagem Wolverine na franquia X-Men?",
+    "options": [
+      "Hugh Jackman",
+      "Patrick Stewart",
+      "Ian McKellen",
+      "Ryan Reynolds"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual é o nome do vilão principal na trilogia de filmes 'De Volta para o Futuro'?",
+    "options": [
+      "Biff Tannen",
+      "Doc Brown",
+      "George McFly",
+      "Marty McFly"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem interpreta o personagem Batman no filme 'Batman: O Cavaleiro das Trevas' (2008)?",
+    "options": [
+      "Ben Affleck",
+      "Christian Bale",
+      "George Clooney",
+      "Val Kilmer"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual filme de animação da Pixar conta a história de um robô solitário que limpa uma Terra poluída e abandonada?",
+    "options": [
+      "Up: Altas Aventuras",
+      "WALL-E",
+      "Vida de Inseto",
+      "Os Incríveis"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual atriz interpreta a Mulher-Maravilha nos filmes do universo estendido da DC?",
+    "options": [
+      "Margot Robbie",
+      "Gal Gadot",
+      "Scarlett Johansson",
+      "Brie Larson"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual diretor mexicano venceu o Oscar de Melhor Diretor por 'A Forma da Água' (2018)?",
+    "options": [
+      "Alfonso Cuarón",
+      "Guillermo del Toro",
+      "Alejandro González Iñárritu",
+      "Robert Rodriguez"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual filme de Christopher Nolan retrata a vida do físico J. Robert Oppenheimer e venceu o Oscar de Melhor Filme em 2024?",
+    "options": [
+      "Dunkirk",
+      "Oppenheimer",
+      "Interestelar",
+      "Tenet"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual diretor é conhecido pelos filmes 'Bastardos Inglórios' e 'Django Livre'?",
+    "options": [
+      "Martin Scorsese",
+      "Quentin Tarantino",
+      "David Fincher",
+      "Guy Ritchie"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual filme de terror de 1973, sobre uma garota possuída, foi indicado ao Oscar de Melhor Filme?",
+    "options": [
+      "Halloween",
+      "O Exorcista",
+      "A Profecia",
+      "Poltergeist"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem dirigiu a saga de filmes 'De Volta para o Futuro'?",
+    "options": [
+      "Steven Spielberg",
+      "Robert Zemeckis",
+      "Ivan Reitman",
+      "Chris Columbus"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual atriz interpreta a personagem Viúva Negra no Universo Cinematográfico Marvel?",
+    "options": [
+      "Elizabeth Olsen",
+      "Scarlett Johansson",
+      "Brie Larson",
+      "Zoe Saldana"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual filme brasileiro dirigido por Fernando Meirelles retrata a violência nas favelas do Rio de Janeiro nos anos 1970 e 80?",
+    "options": [
+      "Central do Brasil",
+      "Cidade de Deus",
+      "Tropa de Elite",
+      "Carandiru"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual é o nome do estúdio responsável por filmes como 'Divertida Mente' e 'Procurando Nemo'?",
+    "options": [
+      "DreamWorks",
+      "Pixar",
+      "Illumination",
+      "Sony Pictures Animation"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem interpreta o Capitão Jack Sparrow na franquia 'Piratas do Caribe'?",
+    "options": [
+      "Orlando Bloom",
+      "Johnny Depp",
+      "Geoffrey Rush",
+      "Javier Bardem"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual filme, dirigido pelas 'Daniels' (Daniel Kwan e Daniel Scheinert), venceu o Oscar de Melhor Filme em 2023?",
+    "options": [
+      "Tudo em Todo Lugar ao Mesmo Tempo",
+      "Os Fabelmans",
+      "Elvis",
+      "Top Gun: Maverick"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual atriz brasileira foi indicada ao Oscar de Melhor Atriz por 'Ainda Estou Aqui', dirigido por Walter Salles?",
+    "options": [
+      "Fernanda Montenegro",
+      "Fernanda Torres",
+      "Sônia Braga",
+      "Alice Braga"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual foi o primeiro filme brasileiro a vencer o Oscar de Melhor Filme Internacional, em 2025?",
+    "options": [
+      "Central do Brasil",
+      "Cidade de Deus",
+      "Ainda Estou Aqui",
+      "Bacurau"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor brasileiro dirigiu o filme 'Ainda Estou Aqui' (2024)?",
+    "options": [
+      "Fernando Meirelles",
+      "Walter Salles",
+      "Kleber Mendonça Filho",
+      "José Padilha"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme de 1941, dirigido e estrelado por Orson Welles, é frequentemente citado entre os melhores da história do cinema?",
+    "options": [
+      "Casablanca",
+      "Cidadão Kane",
+      "E o Vento Levou",
+      "Rebeca"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor japonês, considerado mestre do cinema, dirigiu 'Rashomon' e 'Os Sete Samurais'?",
+    "options": [
+      "Yasujiro Ozu",
+      "Akira Kurosawa",
+      "Hayao Miyazaki",
+      "Takeshi Kitano"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual atriz venceu o Oscar de Melhor Atriz por 'O Cisne Negro' (2010)?",
+    "options": [
+      "Nicole Kidman",
+      "Natalie Portman",
+      "Jennifer Lawrence",
+      "Anne Hathaway"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual foi o primeiro filme da história a ganhar o Oscar de Melhor Filme, na cerimônia de 1929?",
+    "options": [
+      "Wings (Asas)",
+      "Sunrise",
+      "O Cantor de Jazz",
+      "Metropolis"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor é conhecido por filmes como 'O Iluminado' e 'Laranja Mecânica'?",
+    "options": [
+      "Stanley Kubrick",
+      "Alfred Hitchcock",
+      "William Friedkin",
+      "Roman Polanski"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual atriz interpretou a Rainha Elizabeth II no filme 'A Rainha' (2006), vencendo o Oscar de Melhor Atriz?",
+    "options": [
+      "Judi Dench",
+      "Helen Mirren",
+      "Meryl Streep",
+      "Emma Thompson"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor mexicano venceu o Oscar de Melhor Diretor por 'Birdman' (2015) e 'O Regresso' (2016), em anos consecutivos?",
+    "options": [
+      "Alfonso Cuarón",
+      "Alejandro González Iñárritu",
+      "Guillermo del Toro",
+      "Guillermo Arriaga"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor sueco é autor de clássicos do cinema de arte como 'O Sétimo Selo' e 'Morangos Silvestres'?",
+    "options": [
+      "Ingmar Bergman",
+      "Roy Andersson",
+      "Lukas Moodysson",
+      "Lasse Hallström"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos jogadores compõem uma equipe de basquete em quadra?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual esporte se usa uma bola oval e os jogadores tentam levá-la até a end zone adversária?",
+    "options": [
+      "Rúgbi",
+      "Futebol Americano",
+      "Críquete",
+      "Beisebol"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Qual é a cor da faixa mais alta no judô, indicando o maior nível de graduação?",
+    "options": [
+      "Vermelha",
+      "Preta",
+      "Marrom",
+      "Azul"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos jogadores titulares compõem uma equipe de beisebol em campo, na defesa?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual esporte olímpico os atletas competem em provas como salto com vara e arremesso de peso?",
+    "options": [
+      "Natação",
+      "Atletismo",
+      "Ginástica",
+      "Halterofilismo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos toques, no máximo, cada equipe pode dar na bola antes de enviá-la para o lado adversário no vôlei?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual país surgiu o críquete, esporte muito popular na Inglaterra e em países da Commonwealth?",
+    "options": [
+      "Índia",
+      "Inglaterra",
+      "Austrália",
+      "África do Sul"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em que esporte olímpico os atletas usam patins para disputar corridas de velocidade em uma pista oval de gelo?",
+    "options": [
+      "Hóquei no gelo",
+      "Patinação de velocidade",
+      "Curling",
+      "Bobsled"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Qual é o número de jogadores de uma equipe de futsal em quadra, sem contar os reservas?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Qual país sediará a Copa do Mundo de futebol feminino de 2027?",
+    "options": [
+      "Brasil",
+      "Estados Unidos",
+      "Austrália e Nova Zelândia",
+      "Marrocos"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual país venceu a Copa do Mundo de futebol de 2022, disputada no Catar?",
+    "options": [
+      "França",
+      "Argentina",
+      "Brasil",
+      "Croácia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Quantas medalhas de ouro olímpicas o Brasil conquistou nos Jogos de Tóquio 2020 (disputados em 2021)?",
+    "options": [
+      "5",
+      "7",
+      "10",
+      "3"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual tenista suíço é considerado um dos maiores da história, com 20 títulos de Grand Slam?",
+    "options": [
+      "Rafael Nadal",
+      "Roger Federer",
+      "Novak Djokovic",
+      "Andy Murray"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual esporte compete a ginasta brasileira Rebeca Andrade, medalhista olímpica?",
+    "options": [
+      "Ginástica artística",
+      "Ginástica rítmica",
+      "Natação artística",
+      "Patinação artística"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Quais países serão os principais anfitriões da Copa do Mundo de futebol de 2030, celebrando o centenário do torneio?",
+    "options": [
+      "Espanha, Portugal e Marrocos",
+      "Argentina, Uruguai, Paraguai e Chile",
+      "México, EUA e Canadá",
+      "Arábia Saudita"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual país sediará a Copa do Mundo de futebol masculino de 2034?",
+    "options": [
+      "Arábia Saudita",
+      "Catar",
+      "Estados Unidos",
+      "Espanha"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do torneio de tênis disputado em quadra de saibro em Paris, um dos quatro Grand Slams?",
+    "options": [
+      "Wimbledon",
+      "Roland Garros",
+      "US Open",
+      "Australian Open"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual país venceu a Copa América de 2024, disputada nos Estados Unidos?",
+    "options": [
+      "Colômbia",
+      "Argentina",
+      "Brasil",
+      "Uruguai"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do estádio de Londres que sediou a final da Eurocopa de 2020 (disputada em 2021)?",
+    "options": [
+      "Emirates Stadium",
+      "Wembley Stadium",
+      "Stamford Bridge",
+      "Old Trafford"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do movimento técnico do vôlei em que o jogador ataca a bola com um salto e uma cortada forte por cima da rede?",
+    "options": [
+      "Saque",
+      "Cortada (ataque)",
+      "Levantamento",
+      "Bloqueio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual atleta etíope venceu a maratona olímpica correndo descalço nos Jogos de Roma, em 1960?",
+    "options": [
+      "Haile Gebrselassie",
+      "Abebe Bikila",
+      "Kenenisa Bekele",
+      "Miruts Yifter"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual foi o primeiro país bicampeão da Copa do Mundo de futebol, com títulos em 1934 e 1938?",
+    "options": [
+      "Uruguai",
+      "Itália",
+      "Brasil",
+      "Alemanha"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual boxeador americano, três vezes campeão mundial dos pesos-pesados, ficou conhecido pela frase 'flutuar como uma borboleta, picar como uma abelha'?",
+    "options": [
+      "Mike Tyson",
+      "Muhammad Ali",
+      "George Foreman",
+      "Joe Frazier"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Em que ano o voleibol se tornou esporte olímpico oficial pela primeira vez?",
+    "options": [
+      "1964",
+      "1972",
+      "1980",
+      "1956"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual país venceu a primeira Copa do Mundo de futebol feminino, em 1991, disputada na China?",
+    "options": [
+      "Estados Unidos",
+      "Noruega",
+      "Alemanha",
+      "Suécia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual ginasta romena marcou história ao ser a primeira a receber nota 10 perfeita em uma Olimpíada, em Montreal 1976?",
+    "options": [
+      "Simona Amânar",
+      "Nadia Comăneci",
+      "Larisa Latynina",
+      "Svetlana Khorkina"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual país africano sediou a Copa do Mundo de futebol de 2010, a primeira realizada no continente?",
+    "options": [
+      "Egito",
+      "África do Sul",
+      "Marrocos",
+      "Nigéria"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual tenista sérvio superou Roger Federer e Rafael Nadal em número total de títulos de Grand Slam, tornando-se o maior vencedor da história masculina até 2023?",
+    "options": [
+      "Andy Murray",
+      "Novak Djokovic",
+      "Stan Wawrinka",
+      "Daniil Medvedev"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual país sediou os primeiros Jogos Olímpicos da Era Moderna, em 1896?",
+    "options": [
+      "França",
+      "Grécia",
+      "Estados Unidos",
+      "Reino Unido"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual nadador norte-americano, antes de Michael Phelps, foi o maior vencedor de medalhas de ouro em uma única edição olímpica, com 7 em Munique 1972?",
+    "options": [
+      "Michael Phelps",
+      "Mark Spitz",
+      "Ian Thorpe",
+      "Matt Biondi"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o menor continente do mundo em área territorial?",
+    "options": [
+      "Europa",
+      "Oceania",
+      "Antártida",
+      "América do Sul"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital dos Estados Unidos?",
+    "options": [
+      "Nova York",
+      "Los Angeles",
+      "Washington D.C.",
+      "Chicago"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em qual continente está localizado o deserto do Atacama, um dos mais secos do mundo?",
+    "options": [
+      "África",
+      "Ásia",
+      "América do Sul",
+      "Oceania"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital da Itália?",
+    "options": [
+      "Milão",
+      "Roma",
+      "Veneza",
+      "Nápoles"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual oceano fica entre a América e a Europa/África?",
+    "options": [
+      "Oceano Pacífico",
+      "Oceano Atlântico",
+      "Oceano Índico",
+      "Oceano Ártico"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o rio mais longo da Ásia, que corta a China?",
+    "options": [
+      "Rio Ganges",
+      "Rio Yangtzé",
+      "Rio Mekong",
+      "Rio Amarelo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital da Argentina?",
+    "options": [
+      "Córdoba",
+      "Buenos Aires",
+      "Rosário",
+      "Mendoza"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em que continente está localizado o Canadá?",
+    "options": [
+      "Europa",
+      "América do Norte",
+      "América do Sul",
+      "Oceania"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do maior deserto frio do mundo?",
+    "options": [
+      "Saara",
+      "Antártida",
+      "Gobi",
+      "Atacama"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual país é conhecido por abrigar a Grande Muralha, uma das construções mais extensas do mundo?",
+    "options": [
+      "Japão",
+      "China",
+      "Coreia do Sul",
+      "Mongólia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o país mais populoso do mundo atualmente, tendo superado a China na última década?",
+    "options": [
+      "China",
+      "Índia",
+      "Indonésia",
+      "Estados Unidos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o nome da cordilheira que forma a fronteira natural entre a França e a Espanha?",
+    "options": [
+      "Alpes",
+      "Pirineus",
+      "Cárpatos",
+      "Apeninos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o maior lago de água doce do mundo em volume, localizado na Rússia?",
+    "options": [
+      "Lago Vitória",
+      "Lago Baikal",
+      "Lago Superior",
+      "Mar Cáspio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual estreito separa a Ásia da América do Norte?",
+    "options": [
+      "Estreito de Gibraltar",
+      "Estreito de Bering",
+      "Estreito de Málaca",
+      "Estreito de Ormuz"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do bioma predominante no centro do Brasil, conhecido por sua vegetação de savana tropical?",
+    "options": [
+      "Caatinga",
+      "Cerrado",
+      "Pantanal",
+      "Mata Atlântica"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual país foi dividido por um extenso muro que marcava a fronteira entre capitalismo e comunismo durante a Guerra Fria, hoje reunificado?",
+    "options": [
+      "Coreia",
+      "Alemanha",
+      "Vietnã",
+      "Chipre"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Como se chama o fenômeno geográfico em que um rio deságua formando múltiplos braços antes de chegar ao mar, como no Rio Amazonas?",
+    "options": [
+      "Delta",
+      "Foz em estuário",
+      "Cachoeira",
+      "Meandro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é a capital da Rússia?",
+    "options": [
+      "São Petersburgo",
+      "Moscou",
+      "Kiev",
+      "Minsk"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual país insular fica ao sul da Índia e é conhecido por suas plantações de chá?",
+    "options": [
+      "Maldivas",
+      "Sri Lanka",
+      "Bangladesh",
+      "Nepal"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual região do Brasil concentra a maior parte da Floresta Amazônica?",
+    "options": [
+      "Nordeste",
+      "Norte",
+      "Centro-Oeste",
+      "Sudeste"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do fenômeno climático oposto ao El Niño, caracterizado pelo resfriamento anormal das águas do Pacífico?",
+    "options": [
+      "La Niña",
+      "El Verano",
+      "Oscilação do Atlântico",
+      "Corrente de Humboldt"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual país tem o maior número de fusos horários do mundo, contando seus territórios ultramarinos?",
+    "options": [
+      "Rússia",
+      "Estados Unidos",
+      "França",
+      "China"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da linha imaginária que marca a longitude 0° e passa por Greenwich, na Inglaterra?",
+    "options": [
+      "Linha do Equador",
+      "Meridiano de Greenwich",
+      "Trópico de Câncer",
+      "Linha Internacional de Data"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o maior país sem litoral (encravado) do mundo em extensão territorial?",
+    "options": [
+      "Mongólia",
+      "Cazaquistão",
+      "Bolívia",
+      "Etiópia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do maior recife de coral do mundo, localizado na costa da Austrália?",
+    "options": [
+      "Recife de Belize",
+      "Grande Barreira de Coral",
+      "Recife de Tubbataha",
+      "Recife de Rocas"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é a capital administrativa da África do Sul, país que tem três capitais?",
+    "options": [
+      "Cidade do Cabo",
+      "Pretória",
+      "Joanesburgo",
+      "Durban"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o ponto mais alto da América do Sul, localizado na Argentina?",
+    "options": [
+      "Aconcágua",
+      "Chimborazo",
+      "Huascarán",
+      "Cotopaxi"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Como se chama o fenômeno em que o Sol não se põe por vários dias seguidos em regiões próximas aos polos durante o verão local?",
+    "options": [
+      "Aurora Boreal",
+      "Sol da Meia-Noite",
+      "Eclipse Solar",
+      "Solstício"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do canal artificial que liga o Mar Mediterrâneo ao Mar Vermelho, encurtando a rota entre Europa e Ásia?",
+    "options": [
+      "Canal do Panamá",
+      "Canal de Suez",
+      "Canal da Mancha",
+      "Canal de Corinto"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o país mais extenso da África em área territorial?",
+    "options": [
+      "República Democrática do Congo",
+      "Argélia",
+      "Sudão",
+      "Líbia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu 'A Moreninha', considerado um dos primeiros romances urbanos brasileiros?",
+    "options": [
+      "Machado de Assis",
+      "Joaquim Manuel de Macedo",
+      "José de Alencar",
+      "Aluísio Azevedo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a saga de livros 'As Crônicas de Nárnia'?",
+    "options": [
+      "J.R.R. Tolkien",
+      "C.S. Lewis",
+      "Philip Pullman",
+      "Roald Dahl"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu 'Alice no País das Maravilhas'?",
+    "options": [
+      "Lewis Carroll",
+      "Hans Christian Andersen",
+      "Charles Dickens",
+      "J.M. Barrie"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem é o autor da peça 'Hamlet'?",
+    "options": [
+      "Christopher Marlowe",
+      "William Shakespeare",
+      "Molière",
+      "Sófocles"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu o romance que originou o filme 'O Poderoso Chefão'?",
+    "options": [
+      "Mario Puzo",
+      "Ernest Hemingway",
+      "Truman Capote",
+      "John Grisham"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu 'Diário de Um Banana' ('Diary of a Wimpy Kid')?",
+    "options": [
+      "Jeff Kinney",
+      "R.L. Stine",
+      "Dav Pilkey",
+      "Rick Riordan"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu o livro 'O Alquimista'?",
+    "options": [
+      "Rubem Fonseca",
+      "Paulo Coelho",
+      "Jorge Amado",
+      "Machado de Assis"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Qual escritor brasileiro foi o fundador e primeiro presidente da Academia Brasileira de Letras?",
+    "options": [
+      "José de Alencar",
+      "Machado de Assis",
+      "Castro Alves",
+      "Euclides da Cunha"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu 'Peter Pan'?",
+    "options": [
+      "J.M. Barrie",
+      "Lewis Carroll",
+      "Rudyard Kipling",
+      "A.A. Milne"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a saga de fantasia 'As Crônicas de Gelo e Fogo' ('A Guerra dos Tronos')?",
+    "options": [
+      "George R.R. Martin",
+      "J.R.R. Tolkien",
+      "Brandon Sanderson",
+      "Patrick Rothfuss"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritor brasileiro escreveu 'Os Sertões', obra que retrata a Guerra de Canudos?",
+    "options": [
+      "Euclides da Cunha",
+      "Graciliano Ramos",
+      "Lima Barreto",
+      "Monteiro Lobato"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'Memórias Póstumas de Brás Cubas'?",
+    "options": [
+      "José de Alencar",
+      "Machado de Assis",
+      "Aluísio Azevedo",
+      "Raul Pompeia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritor criou o universo infantil do Sítio do Picapau Amarelo?",
+    "options": [
+      "Monteiro Lobato",
+      "Ziraldo",
+      "Ruth Rocha",
+      "Ana Maria Machado"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu o romance distópico 'Admirável Mundo Novo'?",
+    "options": [
+      "George Orwell",
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "Philip K. Dick"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritora britânica criou o detetive Hercule Poirot?",
+    "options": [
+      "Dorothy L. Sayers",
+      "Agatha Christie",
+      "P.D. James",
+      "Ruth Rendell"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'O Retrato de Dorian Gray'?",
+    "options": [
+      "Oscar Wilde",
+      "Bram Stoker",
+      "Robert Louis Stevenson",
+      "Arthur Conan Doyle"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritor russo escreveu 'Guerra e Paz' e 'Anna Kariênina'?",
+    "options": [
+      "Fiódor Dostoiévski",
+      "Liev Tolstói",
+      "Anton Tchekhov",
+      "Ivan Turguêniev"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu a peça 'O Auto da Compadecida'?",
+    "options": [
+      "Ariano Suassuna",
+      "Nelson Rodrigues",
+      "Chico Buarque",
+      "Dias Gomes"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritor criou o detetive Sherlock Holmes?",
+    "options": [
+      "Agatha Christie",
+      "Arthur Conan Doyle",
+      "Edgar Allan Poe",
+      "Wilkie Collins"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'A Culpa é das Estrelas' ('The Fault in Our Stars')?",
+    "options": [
+      "John Green",
+      "Nicholas Sparks",
+      "Rainbow Rowell",
+      "Jay Asher"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor francês escreveu 'Em Busca do Tempo Perdido', obra fundamental da literatura moderna?",
+    "options": [
+      "Albert Camus",
+      "Marcel Proust",
+      "Jean-Paul Sartre",
+      "André Gide"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu 'Ulysses', romance modernista ambientado em Dublin?",
+    "options": [
+      "James Joyce",
+      "Samuel Beckett",
+      "Oscar Wilde",
+      "W.B. Yeats"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritora inglesa do século XIX, autora de 'O Morro dos Ventos Uivantes', pertencia a uma família de escritoras irmãs?",
+    "options": [
+      "Charlotte Brontë",
+      "Emily Brontë",
+      "Jane Austen",
+      "George Eliot"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu o poema épico 'Paraíso Perdido'?",
+    "options": [
+      "William Blake",
+      "John Milton",
+      "Alexander Pope",
+      "Lord Byron"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor argentino é famoso por contos e ensaios como 'Ficções' e 'O Aleph'?",
+    "options": [
+      "Julio Cortázar",
+      "Jorge Luis Borges",
+      "Ernesto Sabato",
+      "Adolfo Bioy Casares"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritora brasileira, nascida na Ucrânia, é autora de 'A Paixão Segundo G.H.' e 'Perto do Coração Selvagem'?",
+    "options": [
+      "Clarice Lispector",
+      "Cecília Meireles",
+      "Rachel de Queiroz",
+      "Lygia Fagundes Telles"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu 'O Nome da Rosa', romance policial ambientado em um mosteiro medieval?",
+    "options": [
+      "Umberto Eco",
+      "Italo Calvino",
+      "Primo Levi",
+      "Dario Fo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual dramaturgo brasileiro escreveu 'Vestido de Noiva' e é considerado um renovador do teatro nacional?",
+    "options": [
+      "Nelson Rodrigues",
+      "Ariano Suassuna",
+      "Oduvaldo Vianna Filho",
+      "Plínio Marcos"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor colombiano, além de 'Cem Anos de Solidão', escreveu 'O Amor nos Tempos do Cólera'?",
+    "options": [
+      "Mario Vargas Llosa",
+      "Gabriel García Márquez",
+      "Carlos Fuentes",
+      "Julio Cortázar"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual poeta modernista brasileiro escreveu 'No Meio do Caminho' e integrou a Semana de Arte Moderna de 1922?",
+    "options": [
+      "Carlos Drummond de Andrade",
+      "Manuel Bandeira",
+      "Mário de Andrade",
+      "Oswald de Andrade"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Quantas teclas tem um piano de cauda padrão?",
+    "options": [
+      "76",
+      "88",
+      "96",
+      "100"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual cantora americana é conhecida como a 'Diva da Música Pop' e por hits como 'I Will Always Love You'?",
+    "options": [
+      "Mariah Carey",
+      "Whitney Houston",
+      "Celine Dion",
+      "Barbra Streisand"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda brasileira de rock lançou o hit 'Tempo Perdido' e teve Renato Russo como vocalista?",
+    "options": [
+      "Titãs",
+      "Legião Urbana",
+      "Capital Inicial",
+      "Engenheiros do Hawaii"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual instrumento de percussão de uma bateria de escola de samba é o mais grave, marcando a base do ritmo?",
+    "options": [
+      "Tamborim",
+      "Surdo",
+      "Caixa",
+      "Cuíca"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda de rock britânica é formada por Mick Jagger e Keith Richards?",
+    "options": [
+      "The Who",
+      "The Rolling Stones",
+      "Led Zeppelin",
+      "Deep Purple"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual é o nome do instrumento de cordas dedilhado, típico do samba e do choro, menor que o violão?",
+    "options": [
+      "Cavaquinho",
+      "Bandolim",
+      "Violino",
+      "Viola caipira"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda brasileira, liderada por Herbert Vianna, ficou famosa com o hit 'Alagados'?",
+    "options": [
+      "Titãs",
+      "Paralamas do Sucesso",
+      "Barão Vermelho",
+      "RPM"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual é o nome do gênero musical de origem jamaicana caracterizado por batidas aceleradas e MCs que cantam rapidamente?",
+    "options": [
+      "Reggae",
+      "Dancehall",
+      "Ska",
+      "Dub"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual cantor brasileiro é conhecido como o 'Rei do Baião'?",
+    "options": [
+      "Luiz Gonzaga",
+      "Jackson do Pandeiro",
+      "Dominguinhos",
+      "Gilberto Gil"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual cantora britânica é conhecida por hits como 'Rolling in the Deep' e 'Someone Like You'?",
+    "options": [
+      "Amy Winehouse",
+      "Adele",
+      "Duffy",
+      "Florence Welch"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Quem compôs a música do Hino Nacional Brasileiro?",
+    "options": [
+      "Carlos Gomes",
+      "Francisco Manuel da Silva",
+      "Heitor Villa-Lobos",
+      "Joaquim Osório Duque-Estrada"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual compositor brasileiro é o principal nome da música erudita nacional, autor das 'Bachianas Brasileiras'?",
+    "options": [
+      "Carlos Gomes",
+      "Heitor Villa-Lobos",
+      "Cláudio Santoro",
+      "Camargo Guarnieri"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantora brasileira, morta em 1982, é considerada uma das maiores intérpretes da MPB, com o álbum 'Elis & Tom'?",
+    "options": [
+      "Elis Regina",
+      "Maria Bethânia",
+      "Gal Costa",
+      "Rita Lee"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual dupla de cantores baianos é considerada a principal fundadora do movimento Tropicalista?",
+    "options": [
+      "Chico Buarque e Caetano Veloso",
+      "Caetano Veloso e Gilberto Gil",
+      "Gilberto Gil e Chico Buarque",
+      "Tom Zé e Caetano Veloso"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é o nome do gênero musical eletrônico surgido nos anos 1980-90, caracterizado por batidas repetitivas e tocado em festas rave?",
+    "options": [
+      "Jazz Fusion",
+      "Música Eletrônica (Techno/House)",
+      "Funk Soul",
+      "Disco"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantor sertanejo forma dupla com Zezé Di Camargo?",
+    "options": [
+      "Chitãozinho",
+      "Luciano",
+      "Bruno",
+      "Leonardo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual banda de rock americana é famosa por hits como 'Smells Like Teen Spirit' e teve Kurt Cobain como vocalista?",
+    "options": [
+      "Pearl Jam",
+      "Nirvana",
+      "Soundgarden",
+      "Alice in Chains"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é o nome do gênero musical brasileiro que mistura ritmos nordestinos com rock, criado nos anos 1990 principalmente por Chico Science?",
+    "options": [
+      "Mangue Beat",
+      "Axé Music",
+      "Brega Funk",
+      "Piseiro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantora brasileira é irmã do músico Caetano Veloso e uma das vozes mais importantes da MPB?",
+    "options": [
+      "Gal Costa",
+      "Maria Bethânia",
+      "Elis Regina",
+      "Rita Lee"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é o nome do instrumento de teclas antigo, antecessor do piano, muito usado na música barroca?",
+    "options": [
+      "Acordeão",
+      "Cravo (cravo-cêmbalo)",
+      "Órgão de tubos",
+      "Celesta"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor alemão é autor de óperas como 'O Anel do Nibelungo' e revolucionou a música do século XIX?",
+    "options": [
+      "Johannes Brahms",
+      "Richard Wagner",
+      "Johann Strauss II",
+      "Felix Mendelssohn"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor russo escreveu o balé 'O Lago dos Cisnes'?",
+    "options": [
+      "Sergei Prokofiev",
+      "Piotr Ilitch Tchaikovsky",
+      "Igor Stravinsky",
+      "Dmitri Shostakovich"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantor e compositor brasileiro, exilado durante a ditadura militar, é autor de 'Cálice', em parceria com Gilberto Gil?",
+    "options": [
+      "Caetano Veloso",
+      "Chico Buarque",
+      "Milton Nascimento",
+      "Geraldo Vandré"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do movimento musical do início do século XX que rompeu com a tonalidade tradicional, tendo Arnold Schoenberg como pioneiro?",
+    "options": [
+      "Serialismo/Atonalismo",
+      "Impressionismo Musical",
+      "Minimalismo",
+      "Neoclassicismo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantor de blues americano, conhecido como 'Rei do Blues', tocava uma guitarra apelidada de 'Lucille'?",
+    "options": [
+      "Muddy Waters",
+      "B.B. King",
+      "John Lee Hooker",
+      "Buddy Guy"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor italiano é autor das óperas 'Aída' e 'La Traviata'?",
+    "options": [
+      "Giacomo Puccini",
+      "Giuseppe Verdi",
+      "Gioachino Rossini",
+      "Vincenzo Bellini"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do ritmo afro-brasileiro ligado à religiosidade de matriz africana, associado ao candomblé e ao orixá Oxum?",
+    "options": [
+      "Maracatu",
+      "Ijexá",
+      "Coco de Roda",
+      "Jongo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual banda de rock progressivo britânica é autora do álbum conceitual 'The Wall' (1979)?",
+    "options": [
+      "Genesis",
+      "Pink Floyd",
+      "Yes",
+      "King Crimson"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor barroco alemão é autor das 'Variações Goldberg' e das 'Suítes para Violoncelo Solo'?",
+    "options": [
+      "Johann Sebastian Bach",
+      "Georg Friedrich Händel",
+      "Antonio Vivaldi",
+      "Henry Purcell"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantora norte-americana de soul e R&B, conhecida como a 'Rainha do Soul', gravou o clássico 'Respect'?",
+    "options": [
+      "Diana Ross",
+      "Aretha Franklin",
+      "Tina Turner",
+      "Whitney Houston"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla 'PDF'?",
+    "options": [
+      "Portable Document Format",
+      "Personal Data File",
+      "Print Document Format",
+      "Processed Data Format"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa desenvolveu o console de videogame PlayStation?",
+    "options": [
+      "Microsoft",
+      "Sony",
+      "Nintendo",
+      "Sega"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do aplicativo de mensagens instantâneas mais usado no Brasil, de propriedade da Meta?",
+    "options": [
+      "Telegram",
+      "WhatsApp",
+      "Signal",
+      "Messenger"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla 'GIF'?",
+    "options": [
+      "Graphics Interchange Format",
+      "General Image File",
+      "Global Internet Format",
+      "Graphic Information File"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa fabrica os processadores Snapdragon, muito usados em smartphones Android?",
+    "options": [
+      "Intel",
+      "Qualcomm",
+      "AMD",
+      "Samsung"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do sistema operacional móvel desenvolvido pela Apple?",
+    "options": [
+      "Android",
+      "iOS",
+      "HarmonyOS",
+      "Windows Phone"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual é o nome da rede social de fotos e vídeos comprada pelo Facebook (hoje Meta) em 2012?",
+    "options": [
+      "Snapchat",
+      "Instagram",
+      "Pinterest",
+      "Flickr"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa criou o navegador de internet Safari?",
+    "options": [
+      "Google",
+      "Apple",
+      "Microsoft",
+      "Mozilla"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla 'USB'?",
+    "options": [
+      "Universal Serial Bus",
+      "United System Board",
+      "Universal System Bit",
+      "Unique Serial Bus"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual rede social é conhecida pelo limite original de 140 (depois 280) caracteres por postagem e hoje se chama X?",
+    "options": [
+      "Twitter",
+      "Tumblr",
+      "Reddit",
+      "Mastodon"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa desenvolveu a linguagem de programação JavaScript originalmente, em 1995?",
+    "options": [
+      "Microsoft",
+      "Netscape",
+      "Sun Microsystems",
+      "IBM"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "O que significa a sigla 'API', muito usada em desenvolvimento de software?",
+    "options": [
+      "Application Programming Interface",
+      "Automated Program Integration",
+      "Advanced Protocol Interface",
+      "Application Process Index"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual rede social, lançada em 2003, foi uma das pioneiras e antecessora do Facebook, muito popular nos EUA?",
+    "options": [
+      "Orkut",
+      "MySpace",
+      "Friendster",
+      "Hi5"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do protocolo de rede usado para traduzir nomes de domínio, como google.com, em endereços IP?",
+    "options": [
+      "FTP",
+      "DNS",
+      "SMTP",
+      "DHCP"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa é responsável pelo desenvolvimento do ChatGPT?",
+    "options": [
+      "Google DeepMind",
+      "OpenAI",
+      "Meta AI",
+      "Microsoft Research"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "O que significa a sigla 'VPN'?",
+    "options": [
+      "Virtual Private Network",
+      "Verified Public Node",
+      "Virtual Personal Network",
+      "Value Protected Network"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual linguagem de programação, criada em 1991, foi nomeada em homenagem a um grupo de comédia britânico (Monty Python)?",
+    "options": [
+      "Python",
+      "Ruby",
+      "Perl",
+      "Java"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa é dona da plataforma de streaming de jogos e vídeos Twitch?",
+    "options": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Meta"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "O que significa a sigla 'IoT', usada para descrever dispositivos conectados à internet como geladeiras e lâmpadas inteligentes?",
+    "options": [
+      "Internet of Things",
+      "Internet over Terminal",
+      "Interconnected Online Technology",
+      "Integrated Online Tools"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa criou o sistema de pagamento digital PayPal, que teve Elon Musk como um de seus cofundadores?",
+    "options": [
+      "Stripe",
+      "PayPal",
+      "Square",
+      "Venmo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do primeiro computador eletrônico digital de uso geral, construído nos EUA em 1945?",
+    "options": [
+      "ENIAC",
+      "UNIVAC",
+      "Colossus",
+      "Z3"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Quem é considerado o criador da World Wide Web, em 1989, enquanto trabalhava no CERN?",
+    "options": [
+      "Vint Cerf",
+      "Tim Berners-Lee",
+      "Marc Andreessen",
+      "Larry Page"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do algoritmo de criptografia assimétrica, criado em 1977, cujo nome vem das iniciais de seus criadores Rivest, Shamir e Adleman?",
+    "options": [
+      "AES",
+      "RSA",
+      "SHA-256",
+      "DES"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da lei que prevê a duplicação do número de transistores em um chip a cada dois anos, aproximadamente?",
+    "options": [
+      "Lei de Moore",
+      "Lei de Amdahl",
+      "Lei de Metcalfe",
+      "Lei de Kryder"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual linguagem de marcação, irmã do HTML, é amplamente usada para armazenar e transportar dados estruturados entre sistemas?",
+    "options": [
+      "XML",
+      "JSON",
+      "YAML",
+      "CSV"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual foi o primeiro vírus de computador amplamente conhecido a se espalhar pela internet, em 1988, ficando conhecido como 'Morris Worm'?",
+    "options": [
+      "ILOVEYOU",
+      "Morris Worm",
+      "Melissa",
+      "Code Red"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual empresa criou a arquitetura de processadores ARM, muito usada em smartphones por seu baixo consumo de energia?",
+    "options": [
+      "Intel",
+      "ARM Holdings",
+      "AMD",
+      "Qualcomm"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do formato de compressão de áudio popularizado nos anos 1990 e 2000, que reduz o tamanho de arquivos de música?",
+    "options": [
+      "WAV",
+      "MP3",
+      "FLAC",
+      "AAC"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Quem é o cofundador e atual CEO da Nvidia, empresa líder em GPUs para inteligência artificial?",
+    "options": [
+      "Lisa Su",
+      "Jensen Huang",
+      "Satya Nadella",
+      "Sundar Pichai"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do primeiro satélite artificial da história, lançado pela União Soviética em 1957?",
+    "options": [
+      "Sputnik 1",
+      "Explorer 1",
+      "Vostok 1",
+      "Telstar 1"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital da França?",
+    "options": [
+      "Berlim",
+      "Madri",
+      "Roma",
+      "Paris"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o maior país da América do Sul em território?",
+    "options": [
+      "Argentina",
+      "Peru",
+      "Colômbia",
+      "Brasil"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em que continente está localizado o Brasil?",
+    "options": [
+      "América do Norte",
+      "América do Sul",
+      "América Central",
+      "Europa"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em que continente fica a China?",
+    "options": [
+      "Europa",
+      "África",
+      "Ásia",
+      "Oceania"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do fenômeno climático caracterizado pelo aquecimento anormal das águas do Oceano Pacífico?",
+    "options": [
+      "La Niña",
+      "El Niño",
+      "Furacão",
+      "Monção"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual estreito separa a Europa da África no ponto mais próximo entre Espanha e Marrocos?",
+    "options": [
+      "Estreito de Gibraltar",
+      "Canal da Mancha",
+      "Estreito de Bering",
+      "Canal do Panamá"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é a capital do Japão?",
+    "options": [
+      "Osaka",
+      "Quioto",
+      "Tóquio",
+      "Yokohama"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual país europeu tem formato de \"bota\" no mapa?",
+    "options": [
+      "Grécia",
+      "Espanha",
+      "Portugal",
+      "Itália"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o país com a maior extensão de litoral (costa) do mundo?",
+    "options": [
+      "Rússia",
+      "Estados Unidos",
+      "Austrália",
+      "Canadá"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual cordilheira percorre toda a costa oeste da América do Sul?",
+    "options": [
+      "Cordilheira dos Alpes",
+      "Cordilheira dos Andes",
+      "Montanhas Rochosas",
+      "Himalaia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem dirigiu a trilogia original de \"Star Wars\" (Episódios IV a VI)?",
+    "options": [
+      "Steven Spielberg",
+      "James Cameron",
+      "Ridley Scott",
+      "George Lucas"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual ator interpreta o personagem Neo na trilogia \"Matrix\"?",
+    "options": [
+      "Tom Cruise",
+      "Brad Pitt",
+      "Keanu Reeves",
+      "Will Smith"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual diretor é conhecido por filmes de suspense como \"Psicose\" e \"Os Pássaros\"?",
+    "options": [
+      "Steven Spielberg",
+      "Alfred Hitchcock",
+      "Stanley Kubrick",
+      "Martin Scorsese"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual foi o primeiro filme do Universo Cinematográfico Marvel (MCU), lançado em 2008?",
+    "options": [
+      "Thor",
+      "Homem de Ferro",
+      "Capitão América",
+      "Hulk"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual atriz interpreta a personagem Katniss Everdeen na saga \"Jogos Vorazes\"?",
+    "options": [
+      "Emma Watson",
+      "Kristen Stewart",
+      "Jennifer Lawrence",
+      "Shailene Woodley"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme de Christopher Nolan explora sonhos dentro de sonhos e conta com Leonardo DiCaprio no elenco?",
+    "options": [
+      "Interestelar",
+      "Amnésia (Memento)",
+      "O Grande Truque",
+      "A Origem (Inception)"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem dirigiu o filme \"Parasita\" (2019), vencedor do Oscar de Melhor Filme?",
+    "options": [
+      "Park Chan-wook",
+      "Kim Ki-duk",
+      "Lee Chang-dong",
+      "Bong Joon-ho"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual é o nome do vilão principal na trilogia original \"Star Wars\"?",
+    "options": [
+      "Darth Maul",
+      "Imperador Palpatine",
+      "Boba Fett",
+      "Darth Vader"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual atriz venceu o Oscar de Melhor Atriz por seu papel no filme \"La La Land\" (2017)?",
+    "options": [
+      "Emma Stone",
+      "Natalie Portman",
+      "Meryl Streep",
+      "Amy Adams"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual estúdio é responsável pela franquia de filmes \"Harry Potter\"?",
+    "options": [
+      "Warner Bros.",
+      "Universal Pictures",
+      "Walt Disney Pictures",
+      "Sony Pictures"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou \"As Meninas\" (Las Meninas)?",
+    "options": [
+      "Francisco Goya",
+      "Diego Velázquez",
+      "El Greco",
+      "Joaquín Sorolla"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Em que país nasceu o pintor Pablo Picasso?",
+    "options": [
+      "Itália",
+      "França",
+      "Espanha",
+      "Portugal"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual movimento artístico teve Salvador Dalí como um dos principais representantes?",
+    "options": [
+      "Cubismo",
+      "Impressionismo",
+      "Fauvismo",
+      "Surrealismo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Quem pintou \"O Nascimento de Vênus\"?",
+    "options": [
+      "Michelangelo",
+      "Rafael",
+      "Sandro Botticelli",
+      "Ticiano"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Em qual museu de Paris está exposta a Mona Lisa?",
+    "options": [
+      "Museu Britânico",
+      "Galeria Uffizi",
+      "Museu do Prado",
+      "Museu do Louvre"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quais são as três cores primárias tradicionais usadas na pintura?",
+    "options": [
+      "Verde, laranja e roxo",
+      "Vermelho, azul e amarelo",
+      "Preto, branco e cinza",
+      "Vermelho, verde e azul"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual fotógrafo brasileiro é famoso por projetos como \"Gênesis\" e \"Êxodos\", retratando temas sociais e ambientais?",
+    "options": [
+      "Vik Muniz",
+      "Miguel Rio Branco",
+      "Sebastião Salgado",
+      "Mário Cravo Neto"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual estilo arquitetônico medieval é marcado por arcos ogivais e vitrais coloridos, muito usado em catedrais europeias?",
+    "options": [
+      "Barroco",
+      "Românico",
+      "Gótico",
+      "Renascentista"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual pintor holandês do século XVII é famoso pela obra \"A Ronda Noturna\"?",
+    "options": [
+      "Rembrandt",
+      "Johannes Vermeer",
+      "Frans Hals",
+      "Pieter Bruegel"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual artista britânico anônimo é conhecido por grafites com forte crítica social, como \"Balão de Menina\"?",
+    "options": [
+      "Banksy",
+      "Jean-Michel Basquiat",
+      "Keith Haring",
+      "Shepard Fairey"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual é o instrumento de percussão típico do samba, tocado com as mãos e muito usado nas rodas de samba?",
+    "options": [
+      "Pandeiro",
+      "Cavaquinho",
+      "Cuíca",
+      "Tamborim"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Quem canta o hit \"Shape of You\"?",
+    "options": [
+      "Shawn Mendes",
+      "Justin Bieber",
+      "Charlie Puth",
+      "Ed Sheeran"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantor brasileiro ficou mundialmente famoso com o hit \"Ai Se Eu Te Pego\"?",
+    "options": [
+      "Gusttavo Lima",
+      "Luan Santana",
+      "Wesley Safadão",
+      "Michel Teló"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é o gênero musical que tem Bob Marley como um de seus maiores ícones?",
+    "options": [
+      "Ska",
+      "Reggae",
+      "Rock",
+      "Samba"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda brasileira de rock lançou o hit \"Pais e Filhos\"?",
+    "options": [
+      "Capital Inicial",
+      "Legião Urbana",
+      "Titãs",
+      "Engenheiros do Hawaii"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor austríaco do século XVIII, considerado uma criança prodígio, compôs mais de 600 obras antes de morrer aos 35 anos?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Johann Sebastian Bach",
+      "Wolfgang Amadeus Mozart",
+      "Franz Schubert"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é outro nome popular para a harmônica, instrumento de sopro muito usado no blues e no forró?",
+    "options": [
+      "Gaita",
+      "Sanfona",
+      "Berimbau",
+      "Flauta"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual cantora é conhecida como a \"Rainha do Pop\" e por hits como \"Like a Virgin\"?",
+    "options": [
+      "Cher",
+      "Cyndi Lauper",
+      "Whitney Houston",
+      "Madonna"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual instrumento de cordas dedilhado, de origem árabe, é usado tradicionalmente no fado português?",
+    "options": [
+      "Bandolim",
+      "Cavaquinho",
+      "Guitarra portuguesa",
+      "Viola caipira"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é o nome do gênero musical brasileiro que mistura funk, batidas eletrônicas e teve origem nas favelas cariocas nos anos 1990?",
+    "options": [
+      "Brega funk",
+      "Funk carioca",
+      "Tecnobrega",
+      "Piseiro"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos jogadores de cada equipe ficam em quadra no handebol?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "11"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos anéis compõem o símbolo olímpico?",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "5"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Qual é a duração padrão de uma partida de futebol, sem contar acréscimos?",
+    "options": [
+      "80 minutos",
+      "100 minutos",
+      "120 minutos",
+      "90 minutos"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual país surgiram as primeiras regras oficiais do futebol moderno, no século XIX?",
+    "options": [
+      "Escócia",
+      "França",
+      "Inglaterra",
+      "Itália"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Quais países sediarão em conjunto a Copa do Mundo de futebol de 2026?",
+    "options": [
+      "Catar",
+      "Alemanha",
+      "Arábia Saudita",
+      "Estados Unidos, México e Canadá"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em que ano o Brasil conquistou seu primeiro título de Copa do Mundo de futebol?",
+    "options": [
+      "1950",
+      "1962",
+      "1958",
+      "1970"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Como é chamada a prova de natação em que o atleta nada os quatro estilos (borboleta, costas, peito e livre) numa mesma prova?",
+    "options": [
+      "Revezamento",
+      "Livre combinado",
+      "Medley",
+      "Estafeta"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Quantos jogadores de cada equipe ficam em campo no rúgbi union?",
+    "options": [
+      "15",
+      "11",
+      "13",
+      "22"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual esporte olímpico os atletas usam raquete e uma peteca?",
+    "options": [
+      "Squash",
+      "Badminton",
+      "Tênis de mesa",
+      "Tênis"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual cidade sediará os Jogos Olímpicos de Verão de 2028?",
+    "options": [
+      "Paris",
+      "Brisbane",
+      "Los Angeles",
+      "Tóquio"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o maior planeta do Sistema Solar?",
+    "options": [
+      "Saturno",
+      "Netuno",
+      "Urano",
+      "Júpiter"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o gás mais abundante na atmosfera terrestre?",
+    "options": [
+      "Oxigênio",
+      "Gás carbônico",
+      "Hidrogênio",
+      "Nitrogênio"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual cientista formulou a tabela periódica dos elementos químicos?",
+    "options": [
+      "Antoine Lavoisier",
+      "Dmitri Mendeleiev",
+      "Marie Curie",
+      "Niels Bohr"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do processo pelo qual uma lagarta se transforma em borboleta?",
+    "options": [
+      "Fotossíntese",
+      "Fermentação",
+      "Osmose",
+      "Metamorfose"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual órgão do corpo humano é responsável pela filtragem do sangue e produção da urina?",
+    "options": [
+      "Fígado",
+      "Rins",
+      "Pâncreas",
+      "Baço"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é a unidade de medida usada para expressar a acidez ou basicidade de uma solução?",
+    "options": [
+      "Densidade",
+      "Viscosidade",
+      "pH",
+      "Salinidade"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual gás é produzido pelas plantas durante a fotossíntese e liberado na atmosfera?",
+    "options": [
+      "Oxigênio",
+      "Gás carbônico",
+      "Nitrogênio",
+      "Metano"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o nome da camada mais externa e sólida da Terra, onde vivemos?",
+    "options": [
+      "Núcleo",
+      "Manto",
+      "Crosta terrestre",
+      "Atmosfera"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Quem descobriu a penicilina, o primeiro antibiótico amplamente usado?",
+    "options": [
+      "Louis Pasteur",
+      "Robert Koch",
+      "Alexander Fleming",
+      "Edward Jenner"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o nome da força que mantém os planetas em órbita ao redor do Sol?",
+    "options": [
+      "Inércia",
+      "Força centrípeta",
+      "Gravidade",
+      "Magnetismo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla \"RAM\" em informática?",
+    "options": [
+      "Memória de Acesso Aleatório",
+      "Memória de Armazenamento Rápido",
+      "Registro de Aplicação Móvel",
+      "Módulo de Análise de Rede"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa é dona da rede social Instagram?",
+    "options": [
+      "Meta",
+      "Google",
+      "Microsoft",
+      "Twitter/X"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "O que significa a sigla \"IA\"?",
+    "options": [
+      "Interface Automatizada",
+      "Inteligência Artificial",
+      "Integração Analógica",
+      "Informação Autônoma"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual linguagem de programação foi criada por James Gosling e é usada principalmente em aplicações corporativas e Android?",
+    "options": [
+      "Java",
+      "Python",
+      "C++",
+      "Ruby"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do sistema operacional de código aberto criado por Linus Torvalds?",
+    "options": [
+      "Windows",
+      "macOS",
+      "Unix",
+      "Linux"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "O que significa a sigla \"SQL\", usada para consultar bancos de dados relacionais?",
+    "options": [
+      "System Query Logic",
+      "Structured Query Language",
+      "Simple Query List",
+      "Software Query Language"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa desenvolveu o assistente virtual \"Alexa\"?",
+    "options": [
+      "Amazon",
+      "Google",
+      "Apple",
+      "Microsoft"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual rede social é conhecida pelo formato de vídeos curtos e é de propriedade da empresa chinesa ByteDance?",
+    "options": [
+      "Instagram",
+      "Snapchat",
+      "Kwai",
+      "TikTok"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "O que significa a sigla \"GPU\"?",
+    "options": [
+      "Unidade de Processamento Geral",
+      "Gerenciador de Programas Únicos",
+      "Unidade de Processamento Gráfico",
+      "Unidade Periférica Gráfica"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do protocolo usado para enviar e-mails entre servidores?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "DNS"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"Os Miseráveis\"?",
+    "options": [
+      "Alexandre Dumas",
+      "Émile Zola",
+      "Gustave Flaubert",
+      "Victor Hugo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Qual escritor brasileiro escreveu \"Vidas Secas\", um dos principais nomes do romance de 30?",
+    "options": [
+      "Graciliano Ramos",
+      "Jorge Amado",
+      "José Lins do Rego",
+      "Rachel de Queiroz"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Dom Quixote\"?",
+    "options": [
+      "Lope de Vega",
+      "Federico García Lorca",
+      "Miguel de Cervantes",
+      "Gabriel García Márquez"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritora inglesa escreveu \"Orgulho e Preconceito\"?",
+    "options": [
+      "Charlotte Brontë",
+      "Jane Austen",
+      "Emily Dickinson",
+      "Virginia Woolf"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a trilogia \"Jogos Vorazes\"?",
+    "options": [
+      "Veronica Roth",
+      "Stephenie Meyer",
+      "Suzanne Collins",
+      "J.K. Rowling"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual movimento literário brasileiro, anterior ao Modernismo, valorizava temas indígenas e nacionalistas, com José de Alencar como destaque?",
+    "options": [
+      "Modernismo",
+      "Barroco",
+      "Realismo",
+      "Romantismo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"O Cortiço\", romance naturalista brasileiro?",
+    "options": [
+      "Machado de Assis",
+      "Lima Barreto",
+      "Euclides da Cunha",
+      "Aluísio Azevedo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a saga \"Crepúsculo\"?",
+    "options": [
+      "Stephenie Meyer",
+      "Cassandra Clare",
+      "Veronica Roth",
+      "John Green"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor português escreveu \"Memorial do Convento\" e recebeu o Prêmio Nobel de Literatura em 1998?",
+    "options": [
+      "Fernando Pessoa",
+      "Eça de Queirós",
+      "António Lobo Antunes",
+      "José Saramago"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Capitães da Areia\", romance ambientado na Bahia?",
+    "options": [
+      "Jorge Amado",
+      "Graciliano Ramos",
+      "Érico Veríssimo",
+      "Rachel de Queiroz"
+    ],
+    "correct_index": 0
   }
 ]

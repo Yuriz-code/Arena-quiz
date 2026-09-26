@@ -401,5 +401,395 @@
       "Rachel de Queiroz"
     ],
     "correct_index": 0
+  },
+  {
+    "id": "lit-032",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu 'A Moreninha', considerado um dos primeiros romances urbanos brasileiros?",
+    "options": [
+      "Machado de Assis",
+      "Joaquim Manuel de Macedo",
+      "José de Alencar",
+      "Aluísio Azevedo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-033",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a saga de livros 'As Crônicas de Nárnia'?",
+    "options": [
+      "J.R.R. Tolkien",
+      "C.S. Lewis",
+      "Philip Pullman",
+      "Roald Dahl"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-034",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu 'Alice no País das Maravilhas'?",
+    "options": [
+      "Lewis Carroll",
+      "Hans Christian Andersen",
+      "Charles Dickens",
+      "J.M. Barrie"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-035",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem é o autor da peça 'Hamlet'?",
+    "options": [
+      "Christopher Marlowe",
+      "William Shakespeare",
+      "Molière",
+      "Sófocles"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-036",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu o romance que originou o filme 'O Poderoso Chefão'?",
+    "options": [
+      "Mario Puzo",
+      "Ernest Hemingway",
+      "Truman Capote",
+      "John Grisham"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-037",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu 'Diário de Um Banana' ('Diary of a Wimpy Kid')?",
+    "options": [
+      "Jeff Kinney",
+      "R.L. Stine",
+      "Dav Pilkey",
+      "Rick Riordan"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-038",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu o livro 'O Alquimista'?",
+    "options": [
+      "Rubem Fonseca",
+      "Paulo Coelho",
+      "Jorge Amado",
+      "Machado de Assis"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-039",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Qual escritor brasileiro foi o fundador e primeiro presidente da Academia Brasileira de Letras?",
+    "options": [
+      "José de Alencar",
+      "Machado de Assis",
+      "Castro Alves",
+      "Euclides da Cunha"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-040",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu 'Peter Pan'?",
+    "options": [
+      "J.M. Barrie",
+      "Lewis Carroll",
+      "Rudyard Kipling",
+      "A.A. Milne"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-041",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a saga de fantasia 'As Crônicas de Gelo e Fogo' ('A Guerra dos Tronos')?",
+    "options": [
+      "George R.R. Martin",
+      "J.R.R. Tolkien",
+      "Brandon Sanderson",
+      "Patrick Rothfuss"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-042",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritor brasileiro escreveu 'Os Sertões', obra que retrata a Guerra de Canudos?",
+    "options": [
+      "Euclides da Cunha",
+      "Graciliano Ramos",
+      "Lima Barreto",
+      "Monteiro Lobato"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-043",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'Memórias Póstumas de Brás Cubas'?",
+    "options": [
+      "José de Alencar",
+      "Machado de Assis",
+      "Aluísio Azevedo",
+      "Raul Pompeia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-044",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritor criou o universo infantil do Sítio do Picapau Amarelo?",
+    "options": [
+      "Monteiro Lobato",
+      "Ziraldo",
+      "Ruth Rocha",
+      "Ana Maria Machado"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-045",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu o romance distópico 'Admirável Mundo Novo'?",
+    "options": [
+      "George Orwell",
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "Philip K. Dick"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-046",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritora britânica criou o detetive Hercule Poirot?",
+    "options": [
+      "Dorothy L. Sayers",
+      "Agatha Christie",
+      "P.D. James",
+      "Ruth Rendell"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-047",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'O Retrato de Dorian Gray'?",
+    "options": [
+      "Oscar Wilde",
+      "Bram Stoker",
+      "Robert Louis Stevenson",
+      "Arthur Conan Doyle"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-048",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritor russo escreveu 'Guerra e Paz' e 'Anna Kariênina'?",
+    "options": [
+      "Fiódor Dostoiévski",
+      "Liev Tolstói",
+      "Anton Tchekhov",
+      "Ivan Turguêniev"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-049",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu a peça 'O Auto da Compadecida'?",
+    "options": [
+      "Ariano Suassuna",
+      "Nelson Rodrigues",
+      "Chico Buarque",
+      "Dias Gomes"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-050",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritor criou o detetive Sherlock Holmes?",
+    "options": [
+      "Agatha Christie",
+      "Arthur Conan Doyle",
+      "Edgar Allan Poe",
+      "Wilkie Collins"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-051",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'A Culpa é das Estrelas' ('The Fault in Our Stars')?",
+    "options": [
+      "John Green",
+      "Nicholas Sparks",
+      "Rainbow Rowell",
+      "Jay Asher"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-052",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor francês escreveu 'Em Busca do Tempo Perdido', obra fundamental da literatura moderna?",
+    "options": [
+      "Albert Camus",
+      "Marcel Proust",
+      "Jean-Paul Sartre",
+      "André Gide"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-053",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu 'Ulysses', romance modernista ambientado em Dublin?",
+    "options": [
+      "James Joyce",
+      "Samuel Beckett",
+      "Oscar Wilde",
+      "W.B. Yeats"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-054",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritora inglesa do século XIX, autora de 'O Morro dos Ventos Uivantes', pertencia a uma família de escritoras irmãs?",
+    "options": [
+      "Charlotte Brontë",
+      "Emily Brontë",
+      "Jane Austen",
+      "George Eliot"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-055",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu o poema épico 'Paraíso Perdido'?",
+    "options": [
+      "William Blake",
+      "John Milton",
+      "Alexander Pope",
+      "Lord Byron"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-056",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor argentino é famoso por contos e ensaios como 'Ficções' e 'O Aleph'?",
+    "options": [
+      "Julio Cortázar",
+      "Jorge Luis Borges",
+      "Ernesto Sabato",
+      "Adolfo Bioy Casares"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-057",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritora brasileira, nascida na Ucrânia, é autora de 'A Paixão Segundo G.H.' e 'Perto do Coração Selvagem'?",
+    "options": [
+      "Clarice Lispector",
+      "Cecília Meireles",
+      "Rachel de Queiroz",
+      "Lygia Fagundes Telles"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-058",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu 'O Nome da Rosa', romance policial ambientado em um mosteiro medieval?",
+    "options": [
+      "Umberto Eco",
+      "Italo Calvino",
+      "Primo Levi",
+      "Dario Fo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-059",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual dramaturgo brasileiro escreveu 'Vestido de Noiva' e é considerado um renovador do teatro nacional?",
+    "options": [
+      "Nelson Rodrigues",
+      "Ariano Suassuna",
+      "Oduvaldo Vianna Filho",
+      "Plínio Marcos"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-060",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor colombiano, além de 'Cem Anos de Solidão', escreveu 'O Amor nos Tempos do Cólera'?",
+    "options": [
+      "Mario Vargas Llosa",
+      "Gabriel García Márquez",
+      "Carlos Fuentes",
+      "Julio Cortázar"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-061",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual poeta modernista brasileiro escreveu 'No Meio do Caminho' e integrou a Semana de Arte Moderna de 1922?",
+    "options": [
+      "Carlos Drummond de Andrade",
+      "Manuel Bandeira",
+      "Mário de Andrade",
+      "Oswald de Andrade"
+    ],
+    "correct_index": 0
   }
 ]

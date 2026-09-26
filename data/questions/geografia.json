@@ -401,5 +401,395 @@
       "Himalaia"
     ],
     "correct_index": 1
+  },
+  {
+    "id": "geo-032",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o menor continente do mundo em área territorial?",
+    "options": [
+      "Europa",
+      "Oceania",
+      "Antártida",
+      "América do Sul"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-033",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital dos Estados Unidos?",
+    "options": [
+      "Nova York",
+      "Los Angeles",
+      "Washington D.C.",
+      "Chicago"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "geo-034",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em qual continente está localizado o deserto do Atacama, um dos mais secos do mundo?",
+    "options": [
+      "África",
+      "Ásia",
+      "América do Sul",
+      "Oceania"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "geo-035",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital da Itália?",
+    "options": [
+      "Milão",
+      "Roma",
+      "Veneza",
+      "Nápoles"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-036",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual oceano fica entre a América e a Europa/África?",
+    "options": [
+      "Oceano Pacífico",
+      "Oceano Atlântico",
+      "Oceano Índico",
+      "Oceano Ártico"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-037",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o rio mais longo da Ásia, que corta a China?",
+    "options": [
+      "Rio Ganges",
+      "Rio Yangtzé",
+      "Rio Mekong",
+      "Rio Amarelo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-038",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital da Argentina?",
+    "options": [
+      "Córdoba",
+      "Buenos Aires",
+      "Rosário",
+      "Mendoza"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-039",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em que continente está localizado o Canadá?",
+    "options": [
+      "Europa",
+      "América do Norte",
+      "América do Sul",
+      "Oceania"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-040",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do maior deserto frio do mundo?",
+    "options": [
+      "Saara",
+      "Antártida",
+      "Gobi",
+      "Atacama"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-041",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual país é conhecido por abrigar a Grande Muralha, uma das construções mais extensas do mundo?",
+    "options": [
+      "Japão",
+      "China",
+      "Coreia do Sul",
+      "Mongólia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-042",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o país mais populoso do mundo atualmente, tendo superado a China na última década?",
+    "options": [
+      "China",
+      "Índia",
+      "Indonésia",
+      "Estados Unidos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-043",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o nome da cordilheira que forma a fronteira natural entre a França e a Espanha?",
+    "options": [
+      "Alpes",
+      "Pirineus",
+      "Cárpatos",
+      "Apeninos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-044",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o maior lago de água doce do mundo em volume, localizado na Rússia?",
+    "options": [
+      "Lago Vitória",
+      "Lago Baikal",
+      "Lago Superior",
+      "Mar Cáspio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-045",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual estreito separa a Ásia da América do Norte?",
+    "options": [
+      "Estreito de Gibraltar",
+      "Estreito de Bering",
+      "Estreito de Málaca",
+      "Estreito de Ormuz"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-046",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do bioma predominante no centro do Brasil, conhecido por sua vegetação de savana tropical?",
+    "options": [
+      "Caatinga",
+      "Cerrado",
+      "Pantanal",
+      "Mata Atlântica"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-047",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual país foi dividido por um extenso muro que marcava a fronteira entre capitalismo e comunismo durante a Guerra Fria, hoje reunificado?",
+    "options": [
+      "Coreia",
+      "Alemanha",
+      "Vietnã",
+      "Chipre"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-048",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Como se chama o fenômeno geográfico em que um rio deságua formando múltiplos braços antes de chegar ao mar, como no Rio Amazonas?",
+    "options": [
+      "Delta",
+      "Foz em estuário",
+      "Cachoeira",
+      "Meandro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "geo-049",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é a capital da Rússia?",
+    "options": [
+      "São Petersburgo",
+      "Moscou",
+      "Kiev",
+      "Minsk"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-050",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual país insular fica ao sul da Índia e é conhecido por suas plantações de chá?",
+    "options": [
+      "Maldivas",
+      "Sri Lanka",
+      "Bangladesh",
+      "Nepal"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-051",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual região do Brasil concentra a maior parte da Floresta Amazônica?",
+    "options": [
+      "Nordeste",
+      "Norte",
+      "Centro-Oeste",
+      "Sudeste"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-052",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do fenômeno climático oposto ao El Niño, caracterizado pelo resfriamento anormal das águas do Pacífico?",
+    "options": [
+      "La Niña",
+      "El Verano",
+      "Oscilação do Atlântico",
+      "Corrente de Humboldt"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "geo-053",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual país tem o maior número de fusos horários do mundo, contando seus territórios ultramarinos?",
+    "options": [
+      "Rússia",
+      "Estados Unidos",
+      "França",
+      "China"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "geo-054",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da linha imaginária que marca a longitude 0° e passa por Greenwich, na Inglaterra?",
+    "options": [
+      "Linha do Equador",
+      "Meridiano de Greenwich",
+      "Trópico de Câncer",
+      "Linha Internacional de Data"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-055",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o maior país sem litoral (encravado) do mundo em extensão territorial?",
+    "options": [
+      "Mongólia",
+      "Cazaquistão",
+      "Bolívia",
+      "Etiópia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-056",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do maior recife de coral do mundo, localizado na costa da Austrália?",
+    "options": [
+      "Recife de Belize",
+      "Grande Barreira de Coral",
+      "Recife de Tubbataha",
+      "Recife de Rocas"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-057",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é a capital administrativa da África do Sul, país que tem três capitais?",
+    "options": [
+      "Cidade do Cabo",
+      "Pretória",
+      "Joanesburgo",
+      "Durban"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-058",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o ponto mais alto da América do Sul, localizado na Argentina?",
+    "options": [
+      "Aconcágua",
+      "Chimborazo",
+      "Huascarán",
+      "Cotopaxi"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "geo-059",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Como se chama o fenômeno em que o Sol não se põe por vários dias seguidos em regiões próximas aos polos durante o verão local?",
+    "options": [
+      "Aurora Boreal",
+      "Sol da Meia-Noite",
+      "Eclipse Solar",
+      "Solstício"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-060",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do canal artificial que liga o Mar Mediterrâneo ao Mar Vermelho, encurtando a rota entre Europa e Ásia?",
+    "options": [
+      "Canal do Panamá",
+      "Canal de Suez",
+      "Canal da Mancha",
+      "Canal de Corinto"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-061",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o país mais extenso da África em área territorial?",
+    "options": [
+      "República Democrática do Congo",
+      "Argélia",
+      "Sudão",
+      "Líbia"
+    ],
+    "correct_index": 1
   }
 ]

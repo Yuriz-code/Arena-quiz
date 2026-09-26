@@ -414,5 +414,395 @@
       "Magnetismo"
     ],
     "correct_index": 2
+  },
+  {
+    "id": "cie-033",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o símbolo químico do ouro?",
+    "options": [
+      "Ag",
+      "Au",
+      "Fe",
+      "Go"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-034",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Quantos planetas existem no Sistema Solar atualmente reconhecidos pela União Astronômica Internacional?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-035",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o órgão responsável pela visão nos seres humanos?",
+    "options": [
+      "Olho",
+      "Ouvido",
+      "Pele",
+      "Nariz"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cie-036",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o menor planeta do Sistema Solar?",
+    "options": [
+      "Vênus",
+      "Marte",
+      "Mercúrio",
+      "Plutão"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-037",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é a fórmula química da água?",
+    "options": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-038",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do processo de mudança do estado líquido para o gasoso?",
+    "options": [
+      "Fusão",
+      "Solidificação",
+      "Evaporação",
+      "Condensação"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-039",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Quantos sentidos básicos os humanos possuem, segundo a classificação tradicional?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-040",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o maior órgão do corpo humano?",
+    "options": [
+      "Fígado",
+      "Pele",
+      "Coração",
+      "Pulmão"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-041",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual planeta é conhecido por seus anéis visíveis e é o segundo maior do Sistema Solar?",
+    "options": [
+      "Netuno",
+      "Saturno",
+      "Urano",
+      "Júpiter"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-042",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do único satélite natural da Terra?",
+    "options": [
+      "Fobos",
+      "Lua",
+      "Titã",
+      "Europa"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-043",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do processo pelo qual uma célula se divide para formar duas células idênticas?",
+    "options": [
+      "Meiose",
+      "Mitose",
+      "Fecundação",
+      "Osmose"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-044",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é a principal função dos glóbulos vermelhos no sangue?",
+    "options": [
+      "Combater infecções",
+      "Transportar oxigênio",
+      "Coagular o sangue",
+      "Produzir anticorpos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-045",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o nome da camada da Terra localizada entre o núcleo e a crosta?",
+    "options": [
+      "Litosfera",
+      "Manto",
+      "Estratosfera",
+      "Crosta"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-046",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual vitamina é produzida pelo corpo humano quando exposto à luz solar?",
+    "options": [
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina B12",
+      "Vitamina K"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-047",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual cientista propôs a teoria da deriva continental?",
+    "options": [
+      "Charles Darwin",
+      "Alfred Wegener",
+      "Isaac Newton",
+      "Nicolau Copérnico"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-048",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é a unidade popularmente usada para expressar a quantidade de energia contida nos alimentos?",
+    "options": [
+      "Joule",
+      "Watt",
+      "Caloria",
+      "Newton"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-049",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do processo de divisão celular que forma os gametas (óvulos e espermatozoides)?",
+    "options": [
+      "Mitose",
+      "Meiose",
+      "Citocinese",
+      "Mitocôndria"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-050",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual cientista propôs o modelo atômico conhecido como 'pudim de passas'?",
+    "options": [
+      "Ernest Rutherford",
+      "J.J. Thomson",
+      "Niels Bohr",
+      "John Dalton"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-051",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do gás nobre utilizado em balões de festa por ser mais leve que o ar?",
+    "options": [
+      "Neônio",
+      "Hélio",
+      "Argônio",
+      "Hidrogênio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-052",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o principal hormônio responsável por regular os níveis de glicose no sangue, produzido pelo pâncreas?",
+    "options": [
+      "Adrenalina",
+      "Insulina",
+      "Testosterona",
+      "Tiroxina"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-053",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da molécula que carrega a informação genética nos seres vivos?",
+    "options": [
+      "RNA",
+      "DNA",
+      "ATP",
+      "Proteína"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-054",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do fenômeno em que a luz muda de direção ao passar de um meio para outro, como do ar para a água?",
+    "options": [
+      "Reflexão",
+      "Refração",
+      "Difração",
+      "Dispersão"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-055",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da lei que afirma que a energia não pode ser criada nem destruída, apenas transformada?",
+    "options": [
+      "Lei de Newton",
+      "Lei da Conservação da Energia",
+      "Lei de Ohm",
+      "Lei de Boyle"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-056",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do processo pelo qual núcleos atômicos leves se combinam formando um núcleo mais pesado e liberando grande energia, como ocorre no Sol?",
+    "options": [
+      "Fissão nuclear",
+      "Fusão nuclear",
+      "Radioatividade",
+      "Ionização"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-057",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da unidade usada para medir a intensidade sonora?",
+    "options": [
+      "Hertz",
+      "Decibel",
+      "Watt",
+      "Pascal"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-058",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual cientista é considerado o pai da microbiologia, por observar microrganismos ao microscópio pela primeira vez?",
+    "options": [
+      "Robert Hooke",
+      "Antonie van Leeuwenhoek",
+      "Louis Pasteur",
+      "Robert Koch"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-059",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da teoria que explica a expansão do universo a partir de um ponto extremamente denso e quente?",
+    "options": [
+      "Teoria da Relatividade",
+      "Teoria do Big Bang",
+      "Teoria do Estado Estacionário",
+      "Teoria da Inflação Cósmica"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-060",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do processo metabólico que ocorre na ausência de oxigênio e produz ácido lático nas células musculares?",
+    "options": [
+      "Respiração aeróbica",
+      "Fermentação lática",
+      "Fotossíntese",
+      "Quimiossíntese"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-061",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o elemento químico natural com maior número atômico encontrado em quantidade significativa na Terra?",
+    "options": [
+      "Chumbo",
+      "Urânio",
+      "Ouro",
+      "Rádio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-062",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da camada da atmosfera onde ocorrem os fenômenos meteorológicos, como chuva e vento, sendo a mais próxima da superfície terrestre?",
+    "options": [
+      "Estratosfera",
+      "Troposfera",
+      "Mesosfera",
+      "Termosfera"
+    ],
+    "correct_index": 1
   }
 ]

@@ -401,5 +401,395 @@
       "Tóquio"
     ],
     "correct_index": 2
+  },
+  {
+    "id": "esp-032",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos jogadores compõem uma equipe de basquete em quadra?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-033",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual esporte se usa uma bola oval e os jogadores tentam levá-la até a end zone adversária?",
+    "options": [
+      "Rúgbi",
+      "Futebol Americano",
+      "Críquete",
+      "Beisebol"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-034",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Qual é a cor da faixa mais alta no judô, indicando o maior nível de graduação?",
+    "options": [
+      "Vermelha",
+      "Preta",
+      "Marrom",
+      "Azul"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-035",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos jogadores titulares compõem uma equipe de beisebol em campo, na defesa?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-036",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual esporte olímpico os atletas competem em provas como salto com vara e arremesso de peso?",
+    "options": [
+      "Natação",
+      "Atletismo",
+      "Ginástica",
+      "Halterofilismo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-037",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos toques, no máximo, cada equipe pode dar na bola antes de enviá-la para o lado adversário no vôlei?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-038",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual país surgiu o críquete, esporte muito popular na Inglaterra e em países da Commonwealth?",
+    "options": [
+      "Índia",
+      "Inglaterra",
+      "Austrália",
+      "África do Sul"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-039",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em que esporte olímpico os atletas usam patins para disputar corridas de velocidade em uma pista oval de gelo?",
+    "options": [
+      "Hóquei no gelo",
+      "Patinação de velocidade",
+      "Curling",
+      "Bobsled"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-040",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Qual é o número de jogadores de uma equipe de futsal em quadra, sem contar os reservas?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-041",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Qual país sediará a Copa do Mundo de futebol feminino de 2027?",
+    "options": [
+      "Brasil",
+      "Estados Unidos",
+      "Austrália e Nova Zelândia",
+      "Marrocos"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-042",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual país venceu a Copa do Mundo de futebol de 2022, disputada no Catar?",
+    "options": [
+      "França",
+      "Argentina",
+      "Brasil",
+      "Croácia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-043",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Quantas medalhas de ouro olímpicas o Brasil conquistou nos Jogos de Tóquio 2020 (disputados em 2021)?",
+    "options": [
+      "5",
+      "7",
+      "10",
+      "3"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-044",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual tenista suíço é considerado um dos maiores da história, com 20 títulos de Grand Slam?",
+    "options": [
+      "Rafael Nadal",
+      "Roger Federer",
+      "Novak Djokovic",
+      "Andy Murray"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-045",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual esporte compete a ginasta brasileira Rebeca Andrade, medalhista olímpica?",
+    "options": [
+      "Ginástica artística",
+      "Ginástica rítmica",
+      "Natação artística",
+      "Patinação artística"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-046",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Quais países serão os principais anfitriões da Copa do Mundo de futebol de 2030, celebrando o centenário do torneio?",
+    "options": [
+      "Espanha, Portugal e Marrocos",
+      "Argentina, Uruguai, Paraguai e Chile",
+      "México, EUA e Canadá",
+      "Arábia Saudita"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-047",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual país sediará a Copa do Mundo de futebol masculino de 2034?",
+    "options": [
+      "Arábia Saudita",
+      "Catar",
+      "Estados Unidos",
+      "Espanha"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-048",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do torneio de tênis disputado em quadra de saibro em Paris, um dos quatro Grand Slams?",
+    "options": [
+      "Wimbledon",
+      "Roland Garros",
+      "US Open",
+      "Australian Open"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-049",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual país venceu a Copa América de 2024, disputada nos Estados Unidos?",
+    "options": [
+      "Colômbia",
+      "Argentina",
+      "Brasil",
+      "Uruguai"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-050",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do estádio de Londres que sediou a final da Eurocopa de 2020 (disputada em 2021)?",
+    "options": [
+      "Emirates Stadium",
+      "Wembley Stadium",
+      "Stamford Bridge",
+      "Old Trafford"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-051",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do movimento técnico do vôlei em que o jogador ataca a bola com um salto e uma cortada forte por cima da rede?",
+    "options": [
+      "Saque",
+      "Cortada (ataque)",
+      "Levantamento",
+      "Bloqueio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-052",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual atleta etíope venceu a maratona olímpica correndo descalço nos Jogos de Roma, em 1960?",
+    "options": [
+      "Haile Gebrselassie",
+      "Abebe Bikila",
+      "Kenenisa Bekele",
+      "Miruts Yifter"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-053",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual foi o primeiro país bicampeão da Copa do Mundo de futebol, com títulos em 1934 e 1938?",
+    "options": [
+      "Uruguai",
+      "Itália",
+      "Brasil",
+      "Alemanha"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-054",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual boxeador americano, três vezes campeão mundial dos pesos-pesados, ficou conhecido pela frase 'flutuar como uma borboleta, picar como uma abelha'?",
+    "options": [
+      "Mike Tyson",
+      "Muhammad Ali",
+      "George Foreman",
+      "Joe Frazier"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-055",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Em que ano o voleibol se tornou esporte olímpico oficial pela primeira vez?",
+    "options": [
+      "1964",
+      "1972",
+      "1980",
+      "1956"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-056",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual país venceu a primeira Copa do Mundo de futebol feminino, em 1991, disputada na China?",
+    "options": [
+      "Estados Unidos",
+      "Noruega",
+      "Alemanha",
+      "Suécia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-057",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual ginasta romena marcou história ao ser a primeira a receber nota 10 perfeita em uma Olimpíada, em Montreal 1976?",
+    "options": [
+      "Simona Amânar",
+      "Nadia Comăneci",
+      "Larisa Latynina",
+      "Svetlana Khorkina"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-058",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual país africano sediou a Copa do Mundo de futebol de 2010, a primeira realizada no continente?",
+    "options": [
+      "Egito",
+      "África do Sul",
+      "Marrocos",
+      "Nigéria"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-059",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual tenista sérvio superou Roger Federer e Rafael Nadal em número total de títulos de Grand Slam, tornando-se o maior vencedor da história masculina até 2023?",
+    "options": [
+      "Andy Murray",
+      "Novak Djokovic",
+      "Stan Wawrinka",
+      "Daniil Medvedev"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-060",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual país sediou os primeiros Jogos Olímpicos da Era Moderna, em 1896?",
+    "options": [
+      "França",
+      "Grécia",
+      "Estados Unidos",
+      "Reino Unido"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-061",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual nadador norte-americano, antes de Michael Phelps, foi o maior vencedor de medalhas de ouro em uma única edição olímpica, com 7 em Munique 1972?",
+    "options": [
+      "Michael Phelps",
+      "Mark Spitz",
+      "Ian Thorpe",
+      "Matt Biondi"
+    ],
+    "correct_index": 1
   }
 ]

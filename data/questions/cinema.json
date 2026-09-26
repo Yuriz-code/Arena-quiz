@@ -401,5 +401,395 @@
       "Sony Pictures"
     ],
     "correct_index": 0
+  },
+  {
+    "id": "cin-032",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem interpreta o personagem Jack Dawson no filme 'Titanic' (1997)?",
+    "options": [
+      "Brad Pitt",
+      "Leonardo DiCaprio",
+      "Matt Damon",
+      "Tom Cruise"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-033",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual ator interpreta Harry Potter nos filmes da saga?",
+    "options": [
+      "Rupert Grint",
+      "Daniel Radcliffe",
+      "Tom Felton",
+      "James Phelps"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-034",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual é o nome do leão que ruge na abertura dos filmes da MGM?",
+    "options": [
+      "Simba",
+      "Leo",
+      "Aslan",
+      "Alex"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-035",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual estúdio de animação produziu os filmes 'Shrek' e 'Madagascar'?",
+    "options": [
+      "Pixar",
+      "DreamWorks Animation",
+      "Illumination",
+      "Blue Sky Studios"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-036",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem interpreta o personagem Wolverine na franquia X-Men?",
+    "options": [
+      "Hugh Jackman",
+      "Patrick Stewart",
+      "Ian McKellen",
+      "Ryan Reynolds"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-037",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual é o nome do vilão principal na trilogia de filmes 'De Volta para o Futuro'?",
+    "options": [
+      "Biff Tannen",
+      "Doc Brown",
+      "George McFly",
+      "Marty McFly"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-038",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem interpreta o personagem Batman no filme 'Batman: O Cavaleiro das Trevas' (2008)?",
+    "options": [
+      "Ben Affleck",
+      "Christian Bale",
+      "George Clooney",
+      "Val Kilmer"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-039",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual filme de animação da Pixar conta a história de um robô solitário que limpa uma Terra poluída e abandonada?",
+    "options": [
+      "Up: Altas Aventuras",
+      "WALL-E",
+      "Vida de Inseto",
+      "Os Incríveis"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-040",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual atriz interpreta a Mulher-Maravilha nos filmes do universo estendido da DC?",
+    "options": [
+      "Margot Robbie",
+      "Gal Gadot",
+      "Scarlett Johansson",
+      "Brie Larson"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-041",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual diretor mexicano venceu o Oscar de Melhor Diretor por 'A Forma da Água' (2018)?",
+    "options": [
+      "Alfonso Cuarón",
+      "Guillermo del Toro",
+      "Alejandro González Iñárritu",
+      "Robert Rodriguez"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-042",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual filme de Christopher Nolan retrata a vida do físico J. Robert Oppenheimer e venceu o Oscar de Melhor Filme em 2024?",
+    "options": [
+      "Dunkirk",
+      "Oppenheimer",
+      "Interestelar",
+      "Tenet"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-043",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual diretor é conhecido pelos filmes 'Bastardos Inglórios' e 'Django Livre'?",
+    "options": [
+      "Martin Scorsese",
+      "Quentin Tarantino",
+      "David Fincher",
+      "Guy Ritchie"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-044",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual filme de terror de 1973, sobre uma garota possuída, foi indicado ao Oscar de Melhor Filme?",
+    "options": [
+      "Halloween",
+      "O Exorcista",
+      "A Profecia",
+      "Poltergeist"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-045",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem dirigiu a saga de filmes 'De Volta para o Futuro'?",
+    "options": [
+      "Steven Spielberg",
+      "Robert Zemeckis",
+      "Ivan Reitman",
+      "Chris Columbus"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-046",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual atriz interpreta a personagem Viúva Negra no Universo Cinematográfico Marvel?",
+    "options": [
+      "Elizabeth Olsen",
+      "Scarlett Johansson",
+      "Brie Larson",
+      "Zoe Saldana"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-047",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual filme brasileiro dirigido por Fernando Meirelles retrata a violência nas favelas do Rio de Janeiro nos anos 1970 e 80?",
+    "options": [
+      "Central do Brasil",
+      "Cidade de Deus",
+      "Tropa de Elite",
+      "Carandiru"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-048",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual é o nome do estúdio responsável por filmes como 'Divertida Mente' e 'Procurando Nemo'?",
+    "options": [
+      "DreamWorks",
+      "Pixar",
+      "Illumination",
+      "Sony Pictures Animation"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-049",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem interpreta o Capitão Jack Sparrow na franquia 'Piratas do Caribe'?",
+    "options": [
+      "Orlando Bloom",
+      "Johnny Depp",
+      "Geoffrey Rush",
+      "Javier Bardem"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-050",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual filme, dirigido pelas 'Daniels' (Daniel Kwan e Daniel Scheinert), venceu o Oscar de Melhor Filme em 2023?",
+    "options": [
+      "Tudo em Todo Lugar ao Mesmo Tempo",
+      "Os Fabelmans",
+      "Elvis",
+      "Top Gun: Maverick"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-051",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual atriz brasileira foi indicada ao Oscar de Melhor Atriz por 'Ainda Estou Aqui', dirigido por Walter Salles?",
+    "options": [
+      "Fernanda Montenegro",
+      "Fernanda Torres",
+      "Sônia Braga",
+      "Alice Braga"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-052",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual foi o primeiro filme brasileiro a vencer o Oscar de Melhor Filme Internacional, em 2025?",
+    "options": [
+      "Central do Brasil",
+      "Cidade de Deus",
+      "Ainda Estou Aqui",
+      "Bacurau"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-053",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor brasileiro dirigiu o filme 'Ainda Estou Aqui' (2024)?",
+    "options": [
+      "Fernando Meirelles",
+      "Walter Salles",
+      "Kleber Mendonça Filho",
+      "José Padilha"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-054",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme de 1941, dirigido e estrelado por Orson Welles, é frequentemente citado entre os melhores da história do cinema?",
+    "options": [
+      "Casablanca",
+      "Cidadão Kane",
+      "E o Vento Levou",
+      "Rebeca"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-055",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor japonês, considerado mestre do cinema, dirigiu 'Rashomon' e 'Os Sete Samurais'?",
+    "options": [
+      "Yasujiro Ozu",
+      "Akira Kurosawa",
+      "Hayao Miyazaki",
+      "Takeshi Kitano"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-056",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual atriz venceu o Oscar de Melhor Atriz por 'O Cisne Negro' (2010)?",
+    "options": [
+      "Nicole Kidman",
+      "Natalie Portman",
+      "Jennifer Lawrence",
+      "Anne Hathaway"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-057",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual foi o primeiro filme da história a ganhar o Oscar de Melhor Filme, na cerimônia de 1929?",
+    "options": [
+      "Wings (Asas)",
+      "Sunrise",
+      "O Cantor de Jazz",
+      "Metropolis"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-058",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor é conhecido por filmes como 'O Iluminado' e 'Laranja Mecânica'?",
+    "options": [
+      "Stanley Kubrick",
+      "Alfred Hitchcock",
+      "William Friedkin",
+      "Roman Polanski"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-059",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual atriz interpretou a Rainha Elizabeth II no filme 'A Rainha' (2006), vencendo o Oscar de Melhor Atriz?",
+    "options": [
+      "Judi Dench",
+      "Helen Mirren",
+      "Meryl Streep",
+      "Emma Thompson"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-060",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor mexicano venceu o Oscar de Melhor Diretor por 'Birdman' (2015) e 'O Regresso' (2016), em anos consecutivos?",
+    "options": [
+      "Alfonso Cuarón",
+      "Alejandro González Iñárritu",
+      "Guillermo del Toro",
+      "Guillermo Arriaga"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-061",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor sueco é autor de clássicos do cinema de arte como 'O Sétimo Selo' e 'Morangos Silvestres'?",
+    "options": [
+      "Ingmar Bergman",
+      "Roy Andersson",
+      "Lukas Moodysson",
+      "Lasse Hallström"
+    ],
+    "correct_index": 0
   }
 ]

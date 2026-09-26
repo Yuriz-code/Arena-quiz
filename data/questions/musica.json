@@ -401,5 +401,395 @@
       "Piseiro"
     ],
     "correct_index": 1
+  },
+  {
+    "id": "mus-032",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Quantas teclas tem um piano de cauda padrão?",
+    "options": [
+      "76",
+      "88",
+      "96",
+      "100"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-033",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual cantora americana é conhecida como a 'Diva da Música Pop' e por hits como 'I Will Always Love You'?",
+    "options": [
+      "Mariah Carey",
+      "Whitney Houston",
+      "Celine Dion",
+      "Barbra Streisand"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-034",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda brasileira de rock lançou o hit 'Tempo Perdido' e teve Renato Russo como vocalista?",
+    "options": [
+      "Titãs",
+      "Legião Urbana",
+      "Capital Inicial",
+      "Engenheiros do Hawaii"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-035",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual instrumento de percussão de uma bateria de escola de samba é o mais grave, marcando a base do ritmo?",
+    "options": [
+      "Tamborim",
+      "Surdo",
+      "Caixa",
+      "Cuíca"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-036",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda de rock britânica é formada por Mick Jagger e Keith Richards?",
+    "options": [
+      "The Who",
+      "The Rolling Stones",
+      "Led Zeppelin",
+      "Deep Purple"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-037",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual é o nome do instrumento de cordas dedilhado, típico do samba e do choro, menor que o violão?",
+    "options": [
+      "Cavaquinho",
+      "Bandolim",
+      "Violino",
+      "Viola caipira"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-038",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda brasileira, liderada por Herbert Vianna, ficou famosa com o hit 'Alagados'?",
+    "options": [
+      "Titãs",
+      "Paralamas do Sucesso",
+      "Barão Vermelho",
+      "RPM"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-039",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual é o nome do gênero musical de origem jamaicana caracterizado por batidas aceleradas e MCs que cantam rapidamente?",
+    "options": [
+      "Reggae",
+      "Dancehall",
+      "Ska",
+      "Dub"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-040",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual cantor brasileiro é conhecido como o 'Rei do Baião'?",
+    "options": [
+      "Luiz Gonzaga",
+      "Jackson do Pandeiro",
+      "Dominguinhos",
+      "Gilberto Gil"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-041",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual cantora britânica é conhecida por hits como 'Rolling in the Deep' e 'Someone Like You'?",
+    "options": [
+      "Amy Winehouse",
+      "Adele",
+      "Duffy",
+      "Florence Welch"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-042",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Quem compôs a música do Hino Nacional Brasileiro?",
+    "options": [
+      "Carlos Gomes",
+      "Francisco Manuel da Silva",
+      "Heitor Villa-Lobos",
+      "Joaquim Osório Duque-Estrada"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-043",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual compositor brasileiro é o principal nome da música erudita nacional, autor das 'Bachianas Brasileiras'?",
+    "options": [
+      "Carlos Gomes",
+      "Heitor Villa-Lobos",
+      "Cláudio Santoro",
+      "Camargo Guarnieri"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-044",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantora brasileira, morta em 1982, é considerada uma das maiores intérpretes da MPB, com o álbum 'Elis & Tom'?",
+    "options": [
+      "Elis Regina",
+      "Maria Bethânia",
+      "Gal Costa",
+      "Rita Lee"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-045",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual dupla de cantores baianos é considerada a principal fundadora do movimento Tropicalista?",
+    "options": [
+      "Chico Buarque e Caetano Veloso",
+      "Caetano Veloso e Gilberto Gil",
+      "Gilberto Gil e Chico Buarque",
+      "Tom Zé e Caetano Veloso"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-046",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é o nome do gênero musical eletrônico surgido nos anos 1980-90, caracterizado por batidas repetitivas e tocado em festas rave?",
+    "options": [
+      "Jazz Fusion",
+      "Música Eletrônica (Techno/House)",
+      "Funk Soul",
+      "Disco"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-047",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantor sertanejo forma dupla com Zezé Di Camargo?",
+    "options": [
+      "Chitãozinho",
+      "Luciano",
+      "Bruno",
+      "Leonardo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-048",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual banda de rock americana é famosa por hits como 'Smells Like Teen Spirit' e teve Kurt Cobain como vocalista?",
+    "options": [
+      "Pearl Jam",
+      "Nirvana",
+      "Soundgarden",
+      "Alice in Chains"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-049",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é o nome do gênero musical brasileiro que mistura ritmos nordestinos com rock, criado nos anos 1990 principalmente por Chico Science?",
+    "options": [
+      "Mangue Beat",
+      "Axé Music",
+      "Brega Funk",
+      "Piseiro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-050",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantora brasileira é irmã do músico Caetano Veloso e uma das vozes mais importantes da MPB?",
+    "options": [
+      "Gal Costa",
+      "Maria Bethânia",
+      "Elis Regina",
+      "Rita Lee"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-051",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é o nome do instrumento de teclas antigo, antecessor do piano, muito usado na música barroca?",
+    "options": [
+      "Acordeão",
+      "Cravo (cravo-cêmbalo)",
+      "Órgão de tubos",
+      "Celesta"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-052",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor alemão é autor de óperas como 'O Anel do Nibelungo' e revolucionou a música do século XIX?",
+    "options": [
+      "Johannes Brahms",
+      "Richard Wagner",
+      "Johann Strauss II",
+      "Felix Mendelssohn"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-053",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor russo escreveu o balé 'O Lago dos Cisnes'?",
+    "options": [
+      "Sergei Prokofiev",
+      "Piotr Ilitch Tchaikovsky",
+      "Igor Stravinsky",
+      "Dmitri Shostakovich"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-054",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantor e compositor brasileiro, exilado durante a ditadura militar, é autor de 'Cálice', em parceria com Gilberto Gil?",
+    "options": [
+      "Caetano Veloso",
+      "Chico Buarque",
+      "Milton Nascimento",
+      "Geraldo Vandré"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-055",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do movimento musical do início do século XX que rompeu com a tonalidade tradicional, tendo Arnold Schoenberg como pioneiro?",
+    "options": [
+      "Serialismo/Atonalismo",
+      "Impressionismo Musical",
+      "Minimalismo",
+      "Neoclassicismo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-056",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantor de blues americano, conhecido como 'Rei do Blues', tocava uma guitarra apelidada de 'Lucille'?",
+    "options": [
+      "Muddy Waters",
+      "B.B. King",
+      "John Lee Hooker",
+      "Buddy Guy"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-057",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor italiano é autor das óperas 'Aída' e 'La Traviata'?",
+    "options": [
+      "Giacomo Puccini",
+      "Giuseppe Verdi",
+      "Gioachino Rossini",
+      "Vincenzo Bellini"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-058",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do ritmo afro-brasileiro ligado à religiosidade de matriz africana, associado ao candomblé e ao orixá Oxum?",
+    "options": [
+      "Maracatu",
+      "Ijexá",
+      "Coco de Roda",
+      "Jongo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-059",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual banda de rock progressivo britânica é autora do álbum conceitual 'The Wall' (1979)?",
+    "options": [
+      "Genesis",
+      "Pink Floyd",
+      "Yes",
+      "King Crimson"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-060",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor barroco alemão é autor das 'Variações Goldberg' e das 'Suítes para Violoncelo Solo'?",
+    "options": [
+      "Johann Sebastian Bach",
+      "Georg Friedrich Händel",
+      "Antonio Vivaldi",
+      "Henry Purcell"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-061",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantora norte-americana de soul e R&B, conhecida como a 'Rainha do Soul', gravou o clássico 'Respect'?",
+    "options": [
+      "Diana Ross",
+      "Aretha Franklin",
+      "Tina Turner",
+      "Whitney Houston"
+    ],
+    "correct_index": 1
   }
 ]
