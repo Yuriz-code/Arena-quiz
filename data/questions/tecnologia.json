@@ -6,11 +6,11 @@
     "question": "Qual protocolo é a base para comunicação bidirecional em tempo real, usado neste próprio quiz?",
     "options": [
       "SMTP",
-      "WebSocket",
       "HTTP/2 Server Push",
+      "WebSocket",
       "FTP"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "tec-002",
@@ -33,10 +33,10 @@
     "options": [
       "Microsoft",
       "Apple",
-      "Samsung",
-      "Google"
+      "Google",
+      "Samsung"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "tec-004",
@@ -45,11 +45,11 @@
     "question": "O que significa a sigla 'HTML'?",
     "options": [
       "Hyperlink and Text Markup Language",
-      "Hyper Text Markup Language",
       "High Tech Modern Language",
-      "Home Tool Markup Language"
+      "Home Tool Markup Language",
+      "Hyper Text Markup Language"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "tec-005",
@@ -57,12 +57,12 @@
     "difficulty": "medio",
     "question": "Qual linguagem de programação é conhecida por rodar nativamente em navegadores web?",
     "options": [
+      "JavaScript",
       "C++",
       "Java",
-      "Python",
-      "JavaScript"
+      "Python"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "tec-006",
@@ -71,11 +71,11 @@
     "question": "Qual algoritmo de ordenação tem complexidade média O(n log n) e é amplamente usado por sua eficiência?",
     "options": [
       "Selection Sort",
-      "Quick Sort",
       "Insertion Sort",
+      "Quick Sort",
       "Bubble Sort"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "tec-007",
@@ -83,12 +83,12 @@
     "difficulty": "facil",
     "question": "Qual empresa criou o sistema operacional Windows?",
     "options": [
-      "Microsoft",
       "IBM",
       "Apple",
-      "Google"
+      "Google",
+      "Microsoft"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "tec-008",
@@ -97,11 +97,11 @@
     "question": "O que significa a sigla \"WWW\"?",
     "options": [
       "Wide World Web",
+      "World Wide Web",
       "World Wide Wire",
-      "Web Wide World",
-      "World Wide Web"
+      "Web Wide World"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "tec-009",
@@ -136,11 +136,11 @@
     "question": "Qual matemático britânico é amplamente considerado um dos pais da computação moderna?",
     "options": [
       "Ada Lovelace",
-      "Alan Turing",
       "Charles Babbage",
-      "John von Neumann"
+      "John von Neumann",
+      "Alan Turing"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "tec-012",
@@ -148,12 +148,12 @@
     "difficulty": "facil",
     "question": "Qual empresa é dona do buscador Google?",
     "options": [
-      "Alphabet",
       "Amazon",
       "Meta",
+      "Alphabet",
       "Microsoft"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "tec-013",
@@ -162,11 +162,11 @@
     "question": "Em que ano foi lançado o primeiro iPhone?",
     "options": [
       "2001",
-      "2007",
       "2010",
+      "2007",
       "2005"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "tec-014",
@@ -175,11 +175,11 @@
     "question": "Qual é o navegador de internet desenvolvido pelo Google?",
     "options": [
       "Safari",
-      "Google Chrome",
       "Edge",
-      "Firefox"
+      "Firefox",
+      "Google Chrome"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "tec-015",
@@ -189,10 +189,10 @@
     "options": [
       "C++",
       "JavaScript",
-      "Python",
-      "Java"
+      "Java",
+      "Python"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "tec-016",
@@ -213,12 +213,12 @@
     "difficulty": "facil",
     "question": "O que é um \"byte\" na computação?",
     "options": [
-      "Um tipo de vírus de computador",
       "Uma unidade de medida de dados digitais",
+      "Um tipo de vírus de computador",
       "Um cabo de rede",
       "Um protocolo de internet"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "tec-018",
@@ -226,12 +226,12 @@
     "difficulty": "medio",
     "question": "Qual empresa criou o assistente virtual \"Siri\"?",
     "options": [
-      "Microsoft",
       "Apple",
+      "Microsoft",
       "Google",
       "Amazon"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "tec-019",
@@ -241,10 +241,10 @@
     "options": [
       "SMTP",
       "TCP",
-      "HTTP",
-      "FTP"
+      "FTP",
+      "HTTP"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "tec-020",
@@ -265,12 +265,12 @@
     "difficulty": "medio",
     "question": "Quem criou a linguagem de programação Python?",
     "options": [
-      "Guido van Rossum",
       "Dennis Ritchie",
+      "Guido van Rossum",
       "James Gosling",
       "Bjarne Stroustrup"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "tec-022",
@@ -278,11 +278,141 @@
     "difficulty": "dificil",
     "question": "Qual é a porta padrão usada pelo protocolo HTTPS?",
     "options": [
-      "443",
       "80",
+      "443",
       "21",
       "25"
     ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-023",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla \"RAM\" em informática?",
+    "options": [
+      "Memória de Acesso Aleatório",
+      "Memória de Armazenamento Rápido",
+      "Registro de Aplicação Móvel",
+      "Módulo de Análise de Rede"
+    ],
     "correct_index": 0
+  },
+  {
+    "id": "tec-024",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa é dona da rede social Instagram?",
+    "options": [
+      "Meta",
+      "Google",
+      "Microsoft",
+      "Twitter/X"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-025",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "O que significa a sigla \"IA\"?",
+    "options": [
+      "Interface Automatizada",
+      "Inteligência Artificial",
+      "Integração Analógica",
+      "Informação Autônoma"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-026",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual linguagem de programação foi criada por James Gosling e é usada principalmente em aplicações corporativas e Android?",
+    "options": [
+      "Java",
+      "Python",
+      "C++",
+      "Ruby"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-027",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do sistema operacional de código aberto criado por Linus Torvalds?",
+    "options": [
+      "Windows",
+      "macOS",
+      "Unix",
+      "Linux"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "tec-028",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "O que significa a sigla \"SQL\", usada para consultar bancos de dados relacionais?",
+    "options": [
+      "System Query Logic",
+      "Structured Query Language",
+      "Simple Query List",
+      "Software Query Language"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-029",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa desenvolveu o assistente virtual \"Alexa\"?",
+    "options": [
+      "Amazon",
+      "Google",
+      "Apple",
+      "Microsoft"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-030",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual rede social é conhecida pelo formato de vídeos curtos e é de propriedade da empresa chinesa ByteDance?",
+    "options": [
+      "Instagram",
+      "Snapchat",
+      "Kwai",
+      "TikTok"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "tec-031",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "O que significa a sigla \"GPU\"?",
+    "options": [
+      "Unidade de Processamento Geral",
+      "Gerenciador de Programas Únicos",
+      "Unidade de Processamento Gráfico",
+      "Unidade Periférica Gráfica"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "tec-032",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual é o nome do protocolo usado para enviar e-mails entre servidores?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "DNS"
+    ],
+    "correct_index": 1
   }
 ]

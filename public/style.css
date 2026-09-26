@@ -460,23 +460,48 @@ input[type="text"]:focus-visible, input[type="password"]:focus-visible {
   cursor: pointer; font-family: var(--font-body, inherit);
 }
 .btn-text-danger:hover { background: rgba(229, 72, 77, 0.12); }
+/* "Você" no placar: destaque + selo textual, tanto no placar geral (já
+   existia) quanto na revelação de cada pergunta e no pódio final (ver
+   .podium-slot.is-you logo abaixo) — mesma linguagem visual nos três lugares. */
 .scoreboard-row.is-you { outline: 2px solid var(--accent); outline-offset: -1px; }
+.scoreboard-row.is-you .player-name::after { content: " (você)"; color: var(--accent); font-weight: 600; }
 
 /* ---------- Pódio ---------- */
-.podium-title { font-family: var(--font-display); font-size: 1.8rem; text-align: center; margin: 0 0 24px; }
-.podium-top3 { display: flex; align-items: flex-end; justify-content: center; gap: 12px; margin-bottom: 28px; }
+.podium-title { font-family: var(--font-display); font-size: 1.8rem; text-align: center; margin: 0 0 8px; }
+.podium-winner-announce {
+  text-align: center; color: var(--text-dim); font-size: 1rem; margin: 0 0 24px;
+}
+.podium-winner-announce strong { color: var(--accent); }
+
+/* Cada bloco da tela final (pódio, placar pessoal, placar geral) ganha seu
+   próprio "cartão", pra ficar claro que são assuntos diferentes em vez de
+   tudo escorrer como um texto só. */
+.podium-section {
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-md);
+  padding: 20px; margin-bottom: 16px;
+}
+.podium-section .section-subtitle:first-child,
+.podium-section .section-subtitle-row:first-child { margin-top: 0; }
+
+.podium-top3 { display: flex; align-items: flex-end; justify-content: center; gap: 12px; margin-bottom: 20px; }
 .podium-slot { display: flex; flex-direction: column; align-items: center; gap: 6px; }
 .podium-bar {
   width: 88px; border-radius: 10px 10px 0 0; display: flex; align-items: flex-start; justify-content: center;
   padding-top: 10px; font-family: var(--font-display); font-weight: 700; color: var(--accent-contrast);
 }
-.podium-slot[data-place="1"] .podium-bar { height: 130px; background: var(--accent); order: 2; }
+.podium-slot[data-place="1"] .podium-bar { height: 130px; background: var(--accent); order: 2; box-shadow: 0 0 24px rgba(255,138,61,0.45); }
 .podium-slot[data-place="2"] .podium-bar { height: 96px; background: #C9C3EF; order: 1; }
 .podium-slot[data-place="3"] .podium-bar { height: 72px; background: #8F86C9; order: 3; }
 .podium-top3 { align-items: flex-end; }
 .podium-avatar { font-size: 1.8rem; }
 .podium-name { font-weight: 600; font-size: 0.9rem; text-align: center; max-width: 90px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .podium-score { color: var(--text-dim); font-size: 0.85rem; }
+/* Destaque de "você" dentro do pódio (top 3): mesma ideia do .scoreboard-row.is-you,
+   adaptada pro layout em coluna do pódio (barra + nome), com o selo dentro do
+   max-width truncado do nome — por isso aqui é só cor, sem o "(você)" que
+   estufaria o nome já limitado a 90px. */
+.podium-slot.is-you .podium-bar { outline: 3px solid #fff; outline-offset: 2px; }
+.podium-slot.is-you .podium-name { color: var(--accent); }
 
 /* ---------- Indicador de conexão ---------- */
 .conn-indicator {

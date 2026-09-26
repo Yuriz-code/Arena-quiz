@@ -33,10 +33,10 @@
     "options": [
       "Rolling Stones",
       "Pink Floyd",
-      "The Beatles",
-      "Queen"
+      "Queen",
+      "The Beatles"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "mus-004",
@@ -57,12 +57,12 @@
     "difficulty": "medio",
     "question": "Qual gênero musical brasileiro tem origem na Bahia e forte presença do berimbau?",
     "options": [
-      "Capoeira/toque de berimbau",
       "Samba-canção",
+      "Capoeira/toque de berimbau",
       "Forró",
       "Maracatu"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "mus-006",
@@ -83,12 +83,12 @@
     "difficulty": "facil",
     "question": "Qual banda britânica lançou o álbum \"Abbey Road\"?",
     "options": [
-      "The Rolling Stones",
       "The Beatles",
+      "The Rolling Stones",
       "Pink Floyd",
       "Queen"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "mus-008",
@@ -98,10 +98,10 @@
     "options": [
       "Elvis Presley",
       "Prince",
-      "Michael Jackson",
-      "Freddie Mercury"
+      "Freddie Mercury",
+      "Michael Jackson"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "mus-009",
@@ -110,11 +110,11 @@
     "question": "Qual cantora brasileira é conhecida como uma das grandes vozes do rock nacional, com o hit \"Ovelha Negra\"?",
     "options": [
       "Gal Costa",
-      "Cássia Eller",
       "Rita Lee",
+      "Cássia Eller",
       "Elis Regina"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "mus-010",
@@ -123,11 +123,11 @@
     "question": "Quem compôs a ópera \"A Flauta Mágica\"?",
     "options": [
       "Franz Schubert",
-      "Wolfgang Amadeus Mozart",
       "Johann Sebastian Bach",
+      "Wolfgang Amadeus Mozart",
       "Ludwig van Beethoven"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "mus-011",
@@ -175,11 +175,11 @@
     "question": "Qual banda gravou a música \"Bohemian Rhapsody\"?",
     "options": [
       "Led Zeppelin",
+      "Queen",
       "The Beatles",
-      "The Who",
-      "Queen"
+      "The Who"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "mus-015",
@@ -187,12 +187,12 @@
     "difficulty": "dificil",
     "question": "Em que década surgiu o movimento musical Tropicália no Brasil?",
     "options": [
-      "Década de 1950",
       "Década de 1960",
+      "Década de 1950",
       "Década de 1970",
       "Década de 1980"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "mus-016",
@@ -214,11 +214,11 @@
     "question": "Qual instrumento de cordas é tocado com um arco?",
     "options": [
       "Violão",
-      "Violino",
       "Baixo",
+      "Violino",
       "Piano"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "mus-018",
@@ -226,12 +226,12 @@
     "difficulty": "dificil",
     "question": "Quem compôs a \"Nona Sinfonia\", que inclui a \"Ode à Alegria\"?",
     "options": [
+      "Ludwig van Beethoven",
       "Richard Wagner",
       "Johannes Brahms",
-      "Franz Liszt",
-      "Ludwig van Beethoven"
+      "Franz Liszt"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "mus-019",
@@ -239,12 +239,12 @@
     "difficulty": "medio",
     "question": "Qual cantora ficou conhecida por hits como \"Halo\" e \"Single Ladies\"?",
     "options": [
-      "Beyoncé",
       "Britney Spears",
       "Rihanna",
+      "Beyoncé",
       "Christina Aguilera"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "mus-020",
@@ -265,11 +265,141 @@
     "difficulty": "medio",
     "question": "Qual banda de rock é famosa pelo álbum \"The Dark Side of the Moon\"?",
     "options": [
-      "Pink Floyd",
       "Deep Purple",
       "Led Zeppelin",
-      "Queen"
+      "Queen",
+      "Pink Floyd"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-022",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual é o instrumento de percussão típico do samba, tocado com as mãos e muito usado nas rodas de samba?",
+    "options": [
+      "Pandeiro",
+      "Cavaquinho",
+      "Cuíca",
+      "Tamborim"
     ],
     "correct_index": 0
+  },
+  {
+    "id": "mus-023",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Quem canta o hit \"Shape of You\"?",
+    "options": [
+      "Shawn Mendes",
+      "Justin Bieber",
+      "Charlie Puth",
+      "Ed Sheeran"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-024",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantor brasileiro ficou mundialmente famoso com o hit \"Ai Se Eu Te Pego\"?",
+    "options": [
+      "Gusttavo Lima",
+      "Luan Santana",
+      "Wesley Safadão",
+      "Michel Teló"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-025",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é o gênero musical que tem Bob Marley como um de seus maiores ícones?",
+    "options": [
+      "Ska",
+      "Reggae",
+      "Rock",
+      "Samba"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-026",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda brasileira de rock lançou o hit \"Pais e Filhos\"?",
+    "options": [
+      "Capital Inicial",
+      "Legião Urbana",
+      "Titãs",
+      "Engenheiros do Hawaii"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-027",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor austríaco do século XVIII, considerado uma criança prodígio, compôs mais de 600 obras antes de morrer aos 35 anos?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Johann Sebastian Bach",
+      "Wolfgang Amadeus Mozart",
+      "Franz Schubert"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-028",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é outro nome popular para a harmônica, instrumento de sopro muito usado no blues e no forró?",
+    "options": [
+      "Gaita",
+      "Sanfona",
+      "Berimbau",
+      "Flauta"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-029",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual cantora é conhecida como a \"Rainha do Pop\" e por hits como \"Like a Virgin\"?",
+    "options": [
+      "Cher",
+      "Cyndi Lauper",
+      "Whitney Houston",
+      "Madonna"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-030",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual instrumento de cordas dedilhado, de origem árabe, é usado tradicionalmente no fado português?",
+    "options": [
+      "Bandolim",
+      "Cavaquinho",
+      "Guitarra portuguesa",
+      "Viola caipira"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-031",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual é o nome do gênero musical brasileiro que mistura funk, batidas eletrônicas e teve origem nas favelas cariocas nos anos 1990?",
+    "options": [
+      "Brega funk",
+      "Funk carioca",
+      "Tecnobrega",
+      "Piseiro"
+    ],
+    "correct_index": 1
   }
 ]

@@ -5,12 +5,12 @@
     "difficulty": "medio",
     "question": "Quem escreveu 'Dom Casmurro'?",
     "options": [
-      "Machado de Assis",
       "Clarice Lispector",
+      "Machado de Assis",
       "Graciliano Ramos",
       "José de Alencar"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "lit-002",
@@ -18,12 +18,12 @@
     "difficulty": "facil",
     "question": "Quem escreveu a saga 'Harry Potter'?",
     "options": [
-      "C.S. Lewis",
       "J.K. Rowling",
+      "C.S. Lewis",
       "George R.R. Martin",
       "J.R.R. Tolkien"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "lit-003",
@@ -31,12 +31,12 @@
     "difficulty": "facil",
     "question": "Qual é o autor de 'Romeu e Julieta'?",
     "options": [
-      "William Shakespeare",
       "Victor Hugo",
       "Charles Dickens",
+      "William Shakespeare",
       "Oscar Wilde"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "lit-004",
@@ -46,10 +46,10 @@
     "options": [
       "Érico Veríssimo",
       "Jorge Amado",
-      "Rachel de Queiroz",
-      "Guimarães Rosa"
+      "Guimarães Rosa",
+      "Rachel de Queiroz"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "lit-005",
@@ -71,11 +71,11 @@
     "question": "Quem escreveu 'Cem Anos de Solidão'?",
     "options": [
       "Pablo Neruda",
-      "Gabriel García Márquez",
       "Mario Vargas Llosa",
-      "Jorge Luis Borges"
+      "Jorge Luis Borges",
+      "Gabriel García Márquez"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "lit-007",
@@ -83,12 +83,12 @@
     "difficulty": "facil",
     "question": "Quem é a autora da saga \"Harry Potter\"?",
     "options": [
-      "J.K. Rowling",
       "Suzanne Collins",
       "J.R.R. Tolkien",
-      "C.S. Lewis"
+      "C.S. Lewis",
+      "J.K. Rowling"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "lit-008",
@@ -110,11 +110,11 @@
     "question": "Qual escritor brasileiro escreveu \"Grande Sertão: Veredas\"?",
     "options": [
       "Jorge Amado",
+      "João Guimarães Rosa",
       "Clarice Lispector",
-      "Machado de Assis",
-      "João Guimarães Rosa"
+      "Machado de Assis"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "lit-010",
@@ -122,12 +122,12 @@
     "difficulty": "dificil",
     "question": "Quem escreveu o romance \"Cem Anos de Solidão\"?",
     "options": [
-      "Gabriel García Márquez",
       "Mario Vargas Llosa",
       "Pablo Neruda",
+      "Gabriel García Márquez",
       "Jorge Luis Borges"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "lit-011",
@@ -137,10 +137,10 @@
     "options": [
       "Albert Camus",
       "Victor Hugo",
-      "Antoine de Saint-Exupéry",
-      "Jules Verne"
+      "Jules Verne",
+      "Antoine de Saint-Exupéry"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "lit-012",
@@ -148,12 +148,12 @@
     "difficulty": "medio",
     "question": "Qual escritora brasileira é autora de \"A Hora da Estrela\"?",
     "options": [
-      "Clarice Lispector",
       "Rachel de Queiroz",
       "Lygia Fagundes Telles",
+      "Clarice Lispector",
       "Cecília Meireles"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "lit-013",
@@ -161,12 +161,12 @@
     "difficulty": "dificil",
     "question": "Quem escreveu a \"Divina Comédia\"?",
     "options": [
+      "Dante Alighieri",
       "Francesco Petrarca",
       "Petrarca",
-      "Dante Alighieri",
       "Giovanni Boccaccio"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "lit-014",
@@ -175,11 +175,11 @@
     "question": "Quem escreveu \"Iracema\" e \"O Guarani\"?",
     "options": [
       "Machado de Assis",
+      "José de Alencar",
       "Gonçalves Dias",
-      "Castro Alves",
-      "José de Alencar"
+      "Castro Alves"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "lit-015",
@@ -188,11 +188,11 @@
     "question": "Qual é o sobrenome do autor da trilogia \"O Senhor dos Anéis\"?",
     "options": [
       "Martin",
-      "Rowling",
       "Tolkien",
+      "Rowling",
       "Lewis"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "lit-016",
@@ -228,10 +228,10 @@
     "options": [
       "Ray Bradbury",
       "H.G. Wells",
-      "Aldous Huxley",
-      "George Orwell"
+      "George Orwell",
+      "Aldous Huxley"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "lit-019",
@@ -240,11 +240,11 @@
     "question": "Qual escritor português escreveu \"Os Lusíadas\"?",
     "options": [
       "Eça de Queirós",
-      "Fernando Pessoa",
       "Luís de Camões",
+      "Fernando Pessoa",
       "José Saramago"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "lit-020",
@@ -269,6 +269,136 @@
       "Albert Camus",
       "Fiódor Dostoiévski",
       "Marcel Proust"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-022",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"Os Miseráveis\"?",
+    "options": [
+      "Alexandre Dumas",
+      "Émile Zola",
+      "Gustave Flaubert",
+      "Victor Hugo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-023",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Qual escritor brasileiro escreveu \"Vidas Secas\", um dos principais nomes do romance de 30?",
+    "options": [
+      "Graciliano Ramos",
+      "Jorge Amado",
+      "José Lins do Rego",
+      "Rachel de Queiroz"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-024",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Dom Quixote\"?",
+    "options": [
+      "Lope de Vega",
+      "Federico García Lorca",
+      "Miguel de Cervantes",
+      "Gabriel García Márquez"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-025",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritora inglesa escreveu \"Orgulho e Preconceito\"?",
+    "options": [
+      "Charlotte Brontë",
+      "Jane Austen",
+      "Emily Dickinson",
+      "Virginia Woolf"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-026",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a trilogia \"Jogos Vorazes\"?",
+    "options": [
+      "Veronica Roth",
+      "Stephenie Meyer",
+      "Suzanne Collins",
+      "J.K. Rowling"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-027",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual movimento literário brasileiro, anterior ao Modernismo, valorizava temas indígenas e nacionalistas, com José de Alencar como destaque?",
+    "options": [
+      "Modernismo",
+      "Barroco",
+      "Realismo",
+      "Romantismo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-028",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"O Cortiço\", romance naturalista brasileiro?",
+    "options": [
+      "Machado de Assis",
+      "Lima Barreto",
+      "Euclides da Cunha",
+      "Aluísio Azevedo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-029",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a saga \"Crepúsculo\"?",
+    "options": [
+      "Stephenie Meyer",
+      "Cassandra Clare",
+      "Veronica Roth",
+      "John Green"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-030",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor português escreveu \"Memorial do Convento\" e recebeu o Prêmio Nobel de Literatura em 1998?",
+    "options": [
+      "Fernando Pessoa",
+      "Eça de Queirós",
+      "António Lobo Antunes",
+      "José Saramago"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-031",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Capitães da Areia\", romance ambientado na Bahia?",
+    "options": [
+      "Jorge Amado",
+      "Graciliano Ramos",
+      "Érico Veríssimo",
+      "Rachel de Queiroz"
     ],
     "correct_index": 0
   }

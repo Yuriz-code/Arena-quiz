@@ -455,15 +455,13 @@
     pendingRecoveryContinue = null;
     if (fn) fn();
   });
-  $('btn-copy-recovery').addEventListener('click', async () => {
+  $('btn-copy-recovery').addEventListener('click', () => {
     const code = $('recovery-code-text').textContent;
-    try {
-      await navigator.clipboard.writeText(code);
-      $('btn-copy-recovery').textContent = 'Copiado!';
-      setTimeout(() => ($('btn-copy-recovery').textContent = 'Copiar código'), 1500);
-    } catch {
-      prompt('Copie o código de recuperação:', code);
-    }
+    copyToClipboard($('btn-copy-recovery'), code, {
+      copiedLabel: 'Copiado!',
+      idleLabel: 'Copiar código',
+      promptMessage: 'Copie o código de recuperação:',
+    });
   });
 
   /** Chamado tanto após login quanto após cadastro quanto após auth:resume quanto após redefinir senha. */
@@ -1060,15 +1058,13 @@
     state.socket.emit('host:start_game', { roomId: state.roomId, sessionToken: state.sessionToken });
   });
 
-  $('btn-copy-link').addEventListener('click', async () => {
+  $('btn-copy-link').addEventListener('click', () => {
     const url = `${location.origin}/?join=${state.roomId}`;
-    try {
-      await navigator.clipboard.writeText(url);
-      $('btn-copy-link').textContent = 'Copiado!';
-      setTimeout(() => ($('btn-copy-link').textContent = 'Copiar convite'), 1500);
-    } catch {
-      prompt('Copie o link da sala:', url);
-    }
+    copyToClipboard($('btn-copy-link'), url, {
+      copiedLabel: 'Copiado!',
+      idleLabel: 'Copiar convite',
+      promptMessage: 'Copie o link da sala:',
+    });
   });
 
   // ------------------------------------------------------------------
@@ -1240,16 +1236,26 @@
   // ------------------------------------------------------------------
   // Revelação
   // ------------------------------------------------------------------
-  function renderScoreboardInto(el, scoreboard) {
+  /**
+   * Renderiza uma lista de linhas "scoreboard-row" (rank + avatar + nome +
+   * pontuação) — mesmo template usado tanto no placar da revelação de cada
+   * pergunta quanto na lista "demais colocados" do pódio final (ver
+   * onGameOver). `toRow` normaliza cada item pra { rank, avatar, nickname,
+   * score }; o padrão cobre o caso da revelação (rank = posição na lista,
+   * score = p.score) e onGameOver passa um mapeamento próprio (rank =
+   * p.position, score = p.totalScore).
+   */
+  function renderScoreboardInto(el, scoreboard, toRow = (p, i) => ({ rank: i + 1, avatar: p.avatar, nickname: p.nickname, score: p.score, isMe: p.playerId === state.playerId })) {
     el.innerHTML = '';
     scoreboard.forEach((p, i) => {
+      const { rank, avatar, nickname, score, isMe } = toRow(p, i);
       const li = document.createElement('li');
-      li.className = 'scoreboard-row';
+      li.className = isMe ? 'scoreboard-row is-you' : 'scoreboard-row';
       li.innerHTML = `
-        <span class="scoreboard-rank">${i + 1}</span>
-        <span class="player-avatar">${p.avatar}</span>
-        <span class="player-name">${escapeHtml(p.nickname)}</span>
-        <span class="scoreboard-score">${p.score} pts</span>
+        <span class="scoreboard-rank">${rank}</span>
+        <span class="player-avatar">${avatar}</span>
+        <span class="player-name">${escapeHtml(nickname)}</span>
+        <span class="scoreboard-score">${score} pts</span>
       `;
       el.appendChild(li);
     });
@@ -1331,34 +1337,35 @@
     const top3 = podium.slice(0, 3);
     const rest = podium.slice(3);
 
+    // Anúncio do vencedor logo abaixo do título — o pódio já mostra quem
+    // ficou em 1º pela barra mais alta, mas nomear explicitamente deixa a
+    // vitória mais clara de bater o olho, sem precisar procurar na lista.
+    const winner = top3[0];
+    $('podium-winner-announce').innerHTML = winner
+      ? `${winner.avatar} <strong>${escapeHtml(winner.nickname)}</strong> venceu a partida!`
+      : '';
+
     const top3Container = $('podium-top3');
     top3Container.innerHTML = '';
     top3.forEach((p) => {
+      const isMe = p.playerId === state.playerId;
       const slot = document.createElement('div');
-      slot.className = 'podium-slot';
+      slot.className = isMe ? 'podium-slot is-you' : 'podium-slot';
       slot.dataset.place = String(p.position);
+      const barLabel = p.position === 1 ? `🏆 ${p.position}º` : `${p.position}º`;
       slot.innerHTML = `
         <span class="podium-avatar">${p.avatar}</span>
         <span class="podium-name">${escapeHtml(p.nickname)}</span>
         <span class="podium-score">${p.totalScore} pts</span>
-        <div class="podium-bar">${p.position}º</div>
+        <div class="podium-bar">${barLabel}</div>
       `;
       top3Container.appendChild(slot);
     });
 
-    const restList = $('podium-rest');
-    restList.innerHTML = '';
-    rest.forEach((p) => {
-      const li = document.createElement('li');
-      li.className = 'scoreboard-row';
-      li.innerHTML = `
-        <span class="scoreboard-rank">${p.position}</span>
-        <span class="player-avatar">${p.avatar}</span>
-        <span class="player-name">${escapeHtml(p.nickname)}</span>
-        <span class="scoreboard-score">${p.totalScore} pts</span>
-      `;
-      restList.appendChild(li);
-    });
+    renderScoreboardInto($('podium-rest'), rest, (p) => ({
+      rank: p.position, avatar: p.avatar, nickname: p.nickname, score: p.totalScore,
+      isMe: p.playerId === state.playerId,
+    }));
 
     const mine = podium.find((p) => p.playerId === state.playerId);
     renderPersonalStats(mine?.allTimeStats);
@@ -1608,6 +1615,23 @@
     const div = document.createElement('div');
     div.textContent = str;
     return div.innerHTML;
+  }
+
+  /**
+   * Copia `text` pra área de transferência e dá feedback visual no botão
+   * (usado por "copiar código de recuperação" e "copiar link de convite").
+   * Se o clipboard não estiver disponível (navegador antigo, permissão
+   * negada etc.), cai pro `prompt()` como último recurso pra pessoa copiar
+   * manualmente.
+   */
+  async function copyToClipboard(btn, text, { copiedLabel, idleLabel, promptMessage }) {
+    try {
+      await navigator.clipboard.writeText(text);
+      btn.textContent = copiedLabel;
+      setTimeout(() => (btn.textContent = idleLabel), 1500);
+    } catch {
+      prompt(promptMessage, text);
+    }
   }
 
   // ------------------------------------------------------------------

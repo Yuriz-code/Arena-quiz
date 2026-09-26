@@ -375,19 +375,26 @@
   <section class="screen" id="screen-podium" data-active="false">
     <div class="stage-card wide">
       <h2 class="podium-title">Fim de jogo!</h2>
-      <div id="podium-top3" class="podium-top3"></div>
-      <ol id="podium-rest" class="scoreboard-list"></ol>
+      <p id="podium-winner-announce" class="podium-winner-announce"></p>
 
-      <h3 class="section-subtitle">Seu placar pessoal</h3>
-      <div id="personal-stats" class="personal-stats"></div>
-
-      <p id="ranked-note" class="ranked-note" hidden></p>
-
-      <div class="section-subtitle-row">
-        <h3 class="section-subtitle">Placar geral</h3>
-        <button id="btn-clear-leaderboard" class="btn-text-danger" type="button">Limpar placar geral</button>
+      <div class="podium-section">
+        <div id="podium-top3" class="podium-top3"></div>
+        <ol id="podium-rest" class="scoreboard-list"></ol>
       </div>
-      <div id="lb-podium" class="lb"></div>
+
+      <div class="podium-section">
+        <h3 class="section-subtitle">Seu placar pessoal</h3>
+        <div id="personal-stats" class="personal-stats"></div>
+        <p id="ranked-note" class="ranked-note" hidden></p>
+      </div>
+
+      <div class="podium-section">
+        <div class="section-subtitle-row">
+          <h3 class="section-subtitle">Placar geral</h3>
+          <button id="btn-clear-leaderboard" class="btn-text-danger" type="button">Limpar placar geral</button>
+        </div>
+        <div id="lb-podium" class="lb"></div>
+      </div>
 
       <button id="btn-play-again" class="btn btn-primary">Voltar ao início</button>
     </div>

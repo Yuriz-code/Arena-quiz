@@ -6,11 +6,11 @@
     "question": "Quem dirigiu o filme 'Pulp Fiction' (1994)?",
     "options": [
       "David Fincher",
+      "Quentin Tarantino",
       "Christopher Nolan",
-      "Martin Scorsese",
-      "Quentin Tarantino"
+      "Martin Scorsese"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "cin-002",
@@ -18,12 +18,12 @@
     "difficulty": "facil",
     "question": "Qual filme venceu o Oscar de Melhor Filme em 2020?",
     "options": [
-      "1917",
       "Parasita",
+      "1917",
       "Coringa",
       "Jojo Rabbit"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cin-003",
@@ -31,12 +31,12 @@
     "difficulty": "facil",
     "question": "Quem interpreta o Homem de Ferro no Universo Cinematográfico Marvel?",
     "options": [
+      "Robert Downey Jr.",
       "Mark Ruffalo",
       "Chris Evans",
-      "Robert Downey Jr.",
       "Chris Hemsworth"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "cin-004",
@@ -59,10 +59,10 @@
     "options": [
       "1980",
       "1983",
-      "1977",
-      "1975"
+      "1975",
+      "1977"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "cin-006",
@@ -70,12 +70,12 @@
     "difficulty": "dificil",
     "question": "Qual filme brasileiro foi indicado ao Oscar de Melhor Filme Internacional em 1999?",
     "options": [
+      "Central do Brasil",
       "Tropa de Elite",
       "O Auto da Compadecida",
-      "Cidade de Deus",
-      "Central do Brasil"
+      "Cidade de Deus"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cin-007",
@@ -98,10 +98,10 @@
     "options": [
       "Gladiador",
       "Coração Valente",
-      "Titanic",
-      "Forrest Gump"
+      "Forrest Gump",
+      "Titanic"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "cin-009",
@@ -122,12 +122,12 @@
     "difficulty": "medio",
     "question": "Qual estúdio de animação produziu \"Toy Story\"?",
     "options": [
-      "Pixar",
       "Disney Animation",
       "DreamWorks",
+      "Pixar",
       "Illumination"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cin-011",
@@ -161,12 +161,12 @@
     "difficulty": "medio",
     "question": "Qual atriz interpretou Hermione Granger na saga Harry Potter?",
     "options": [
+      "Emma Watson",
       "Kristen Stewart",
       "Natalie Portman",
-      "Emma Stone",
-      "Emma Watson"
+      "Emma Stone"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cin-014",
@@ -187,12 +187,12 @@
     "difficulty": "dificil",
     "question": "Qual filme sul-coreano foi o primeiro não falado em inglês a ganhar o Oscar de Melhor Filme?",
     "options": [
-      "Parasita",
       "Adoráveis Mulheres",
+      "Parasita",
       "Coringa",
       "1917"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "cin-016",
@@ -215,10 +215,10 @@
     "options": [
       "Jaws",
       "Baby",
-      "Nemo",
-      "Bruce"
+      "Bruce",
+      "Nemo"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "cin-018",
@@ -227,11 +227,11 @@
     "question": "Quem interpreta Tony Stark / Homem de Ferro no Universo Cinematográfico Marvel?",
     "options": [
       "Mark Ruffalo",
+      "Robert Downey Jr.",
       "Chris Evans",
-      "Chris Hemsworth",
-      "Robert Downey Jr."
+      "Chris Hemsworth"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "cin-019",
@@ -239,12 +239,12 @@
     "difficulty": "dificil",
     "question": "Qual diretor é conhecido por filmes como \"Amadeus\" e \"Um Estranho no Ninho\"?",
     "options": [
-      "Milos Forman",
       "Stanley Kubrick",
       "Ridley Scott",
+      "Milos Forman",
       "Roman Polanski"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cin-020",
@@ -265,10 +265,140 @@
     "difficulty": "medio",
     "question": "Qual foi o primeiro longa-metragem de animação totalmente feito por computador?",
     "options": [
-      "Toy Story",
       "A Era do Gelo",
+      "Toy Story",
       "Procurando Nemo",
       "Shrek"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-022",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem dirigiu a trilogia original de \"Star Wars\" (Episódios IV a VI)?",
+    "options": [
+      "Steven Spielberg",
+      "James Cameron",
+      "Ridley Scott",
+      "George Lucas"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-023",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual ator interpreta o personagem Neo na trilogia \"Matrix\"?",
+    "options": [
+      "Tom Cruise",
+      "Brad Pitt",
+      "Keanu Reeves",
+      "Will Smith"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-024",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual diretor é conhecido por filmes de suspense como \"Psicose\" e \"Os Pássaros\"?",
+    "options": [
+      "Steven Spielberg",
+      "Alfred Hitchcock",
+      "Stanley Kubrick",
+      "Martin Scorsese"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-025",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual foi o primeiro filme do Universo Cinematográfico Marvel (MCU), lançado em 2008?",
+    "options": [
+      "Thor",
+      "Homem de Ferro",
+      "Capitão América",
+      "Hulk"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-026",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual atriz interpreta a personagem Katniss Everdeen na saga \"Jogos Vorazes\"?",
+    "options": [
+      "Emma Watson",
+      "Kristen Stewart",
+      "Jennifer Lawrence",
+      "Shailene Woodley"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-027",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme de Christopher Nolan explora sonhos dentro de sonhos e conta com Leonardo DiCaprio no elenco?",
+    "options": [
+      "Interestelar",
+      "Amnésia (Memento)",
+      "O Grande Truque",
+      "A Origem (Inception)"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-028",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem dirigiu o filme \"Parasita\" (2019), vencedor do Oscar de Melhor Filme?",
+    "options": [
+      "Park Chan-wook",
+      "Kim Ki-duk",
+      "Lee Chang-dong",
+      "Bong Joon-ho"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-029",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual é o nome do vilão principal na trilogia original \"Star Wars\"?",
+    "options": [
+      "Darth Maul",
+      "Imperador Palpatine",
+      "Boba Fett",
+      "Darth Vader"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-030",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual atriz venceu o Oscar de Melhor Atriz por seu papel no filme \"La La Land\" (2017)?",
+    "options": [
+      "Emma Stone",
+      "Natalie Portman",
+      "Meryl Streep",
+      "Amy Adams"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-031",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual estúdio é responsável pela franquia de filmes \"Harry Potter\"?",
+    "options": [
+      "Warner Bros.",
+      "Universal Pictures",
+      "Walt Disney Pictures",
+      "Sony Pictures"
     ],
     "correct_index": 0
   }

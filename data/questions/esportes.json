@@ -5,12 +5,12 @@
     "difficulty": "facil",
     "question": "Quantos jogadores compõem um time de vôlei em quadra?",
     "options": [
+      "6",
       "7",
       "8",
-      "5",
-      "6"
+      "5"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "esp-002",
@@ -18,12 +18,12 @@
     "difficulty": "facil",
     "question": "A cada quantos anos ocorrem os Jogos Olímpicos de Verão?",
     "options": [
-      "3",
       "4",
+      "3",
       "5",
       "2"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-003",
@@ -45,11 +45,11 @@
     "question": "Em qual esporte se disputa a Copa Davis?",
     "options": [
       "Natação",
-      "Tênis",
       "Rúgbi",
+      "Tênis",
       "Golfe"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "esp-005",
@@ -58,11 +58,11 @@
     "question": "Qual país sediou a primeira Copa do Mundo de Futebol, em 1930?",
     "options": [
       "Itália",
-      "Uruguai",
       "França",
+      "Uruguai",
       "Brasil"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "esp-006",
@@ -72,10 +72,10 @@
     "options": [
       "2 de 5",
       "1 único",
-      "3 de 5",
-      "2 de 3"
+      "2 de 3",
+      "3 de 5"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "esp-007",
@@ -83,12 +83,12 @@
     "difficulty": "facil",
     "question": "Quantos jogadores de cada time ficam em campo no futebol, sem contar os reservas?",
     "options": [
-      "12",
       "11",
+      "12",
       "10",
       "9"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-008",
@@ -96,12 +96,12 @@
     "difficulty": "facil",
     "question": "Em qual esporte é comum o termo \"enterrada\" (slam dunk)?",
     "options": [
-      "Basquete",
       "Handebol",
+      "Basquete",
       "Vôlei",
       "Tênis"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "esp-009",
@@ -109,12 +109,12 @@
     "difficulty": "medio",
     "question": "Qual país sediou a Copa do Mundo de futebol de 2014?",
     "options": [
-      "Brasil",
       "África do Sul",
+      "Brasil",
       "Catar",
       "Rússia"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "esp-010",
@@ -123,11 +123,11 @@
     "question": "Quantas vezes o Brasil foi campeão da Copa do Mundo de futebol masculino até 2022?",
     "options": [
       "6",
+      "5",
       "3",
-      "4",
-      "5"
+      "4"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "esp-011",
@@ -135,12 +135,12 @@
     "difficulty": "medio",
     "question": "Em qual esporte compete Novak Djokovic?",
     "options": [
-      "Badminton",
       "Tênis",
+      "Badminton",
       "Squash",
       "Golfe"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-012",
@@ -150,10 +150,10 @@
     "options": [
       "Carl Lewis",
       "Tyson Gay",
-      "Usain Bolt",
-      "Justin Gatlin"
+      "Justin Gatlin",
+      "Usain Bolt"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "esp-013",
@@ -161,12 +161,12 @@
     "difficulty": "medio",
     "question": "Em que cidade foram realizados os Jogos Olímpicos de Verão de 2016?",
     "options": [
+      "Rio de Janeiro",
       "Pequim",
       "Tóquio",
-      "Londres",
-      "Rio de Janeiro"
+      "Londres"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "esp-014",
@@ -175,11 +175,11 @@
     "question": "Qual nadador conquistou 23 medalhas de ouro olímpicas ao longo da carreira?",
     "options": [
       "Mark Spitz",
-      "Michael Phelps",
       "Ryan Lochte",
-      "Ian Thorpe"
+      "Ian Thorpe",
+      "Michael Phelps"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "esp-015",
@@ -188,11 +188,11 @@
     "question": "No vôlei, quantos sets, no máximo, uma partida costuma ter na maioria das competições?",
     "options": [
       "3",
+      "5",
       "7",
-      "4",
-      "5"
+      "4"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "esp-016",
@@ -200,12 +200,12 @@
     "difficulty": "medio",
     "question": "Qual é o nome do troféu atual entregue ao campeão da Copa do Mundo de futebol?",
     "options": [
-      "Taça Jules Rimet",
       "Taça FIFA da Copa do Mundo",
+      "Taça Jules Rimet",
       "Copa das Confederações",
       "Bola de Ouro"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-017",
@@ -226,12 +226,12 @@
     "difficulty": "dificil",
     "question": "Qual piloto brasileiro é tricampeão mundial de Fórmula 1?",
     "options": [
-      "Nelson Piquet",
       "Ayrton Senna",
+      "Nelson Piquet",
       "Rubens Barrichello",
       "Emerson Fittipaldi"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-019",
@@ -240,11 +240,11 @@
     "question": "Em qual modalidade olímpica compete a ginasta Simone Biles?",
     "options": [
       "Patinação",
-      "Atletismo",
       "Ginástica artística",
+      "Atletismo",
       "Natação"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "esp-020",
@@ -252,12 +252,12 @@
     "difficulty": "facil",
     "question": "Qual é o nome do estádio do Rio de Janeiro que já sediou finais de Copa do Mundo?",
     "options": [
-      "Maracanã",
       "Morumbi",
+      "Maracanã",
       "Pacaembu",
       "Mineirão"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "esp-021",
@@ -271,5 +271,135 @@
       "Bota de Ouro"
     ],
     "correct_index": 1
+  },
+  {
+    "id": "esp-022",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos jogadores de cada equipe ficam em quadra no handebol?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "11"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-023",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos anéis compõem o símbolo olímpico?",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "5"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "esp-024",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Qual é a duração padrão de uma partida de futebol, sem contar acréscimos?",
+    "options": [
+      "80 minutos",
+      "100 minutos",
+      "120 minutos",
+      "90 minutos"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "esp-025",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual país surgiram as primeiras regras oficiais do futebol moderno, no século XIX?",
+    "options": [
+      "Escócia",
+      "França",
+      "Inglaterra",
+      "Itália"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-026",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Quais países sediarão em conjunto a Copa do Mundo de futebol de 2026?",
+    "options": [
+      "Catar",
+      "Alemanha",
+      "Arábia Saudita",
+      "Estados Unidos, México e Canadá"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "esp-027",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em que ano o Brasil conquistou seu primeiro título de Copa do Mundo de futebol?",
+    "options": [
+      "1950",
+      "1962",
+      "1958",
+      "1970"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-028",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Como é chamada a prova de natação em que o atleta nada os quatro estilos (borboleta, costas, peito e livre) numa mesma prova?",
+    "options": [
+      "Revezamento",
+      "Livre combinado",
+      "Medley",
+      "Estafeta"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-029",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Quantos jogadores de cada equipe ficam em campo no rúgbi union?",
+    "options": [
+      "15",
+      "11",
+      "13",
+      "22"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-030",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual esporte olímpico os atletas usam raquete e uma peteca?",
+    "options": [
+      "Squash",
+      "Badminton",
+      "Tênis de mesa",
+      "Tênis"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-031",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual cidade sediará os Jogos Olímpicos de Verão de 2028?",
+    "options": [
+      "Paris",
+      "Brisbane",
+      "Los Angeles",
+      "Tóquio"
+    ],
+    "correct_index": 2
   }
 ]

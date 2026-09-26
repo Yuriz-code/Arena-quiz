@@ -6,11 +6,11 @@
     "question": "Qual religião tem o Papa como líder máximo?",
     "options": [
       "Anglicanismo",
+      "Catolicismo",
       "Ortodoxa",
-      "Protestantismo",
-      "Catolicismo"
+      "Protestantismo"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "rel-002",
@@ -19,11 +19,11 @@
     "question": "Qual é o livro sagrado do Cristianismo?",
     "options": [
       "Torá",
-      "Bíblia",
       "Bhagavad Gita",
-      "Alcorão"
+      "Alcorão",
+      "Bíblia"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "rel-003",
@@ -31,12 +31,12 @@
     "difficulty": "facil",
     "question": "Em que cidade nasceu Jesus Cristo, segundo a tradição cristã?",
     "options": [
+      "Belém",
       "Jerusalém",
       "Roma",
-      "Belém",
       "Nazaré"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "rel-004",
@@ -45,11 +45,11 @@
     "question": "Qual figura é considerada a mãe de Jesus Cristo no Cristianismo?",
     "options": [
       "Marta",
-      "Isabel",
       "Maria",
+      "Isabel",
       "Madalena"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "rel-005",
@@ -58,11 +58,11 @@
     "question": "Qual papa católico convocou o histórico Concílio Vaticano II em 1962?",
     "options": [
       "Papa Pio XII",
-      "Papa Paulo VI",
       "Papa João XXIII",
+      "Papa Paulo VI",
       "Papa João Paulo II"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "rel-006",
@@ -70,12 +70,12 @@
     "difficulty": "medio",
     "question": "Qual imperador romano converteu-se ao Cristianismo e transferiu a capital imperial para Constantinopla?",
     "options": [
+      "Constantino I",
       "Juliano",
       "Diocleciano",
-      "Teodósio I",
-      "Constantino I"
+      "Teodósio I"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "rel-007",
@@ -84,11 +84,11 @@
     "question": "Qual sacramento católico simboliza a purificação do pecado original e a entrada na Igreja?",
     "options": [
       "Crisma",
-      "Eucaristia",
       "Batismo",
+      "Eucaristia",
       "Confissão"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "rel-008",
@@ -97,11 +97,11 @@
     "question": "Qual apóstolo de Jesus é tradicionalmente considerado pela Igreja Católica como o primeiro papa?",
     "options": [
       "João",
-      "Pedro",
       "Tiago",
+      "Pedro",
       "Paulo"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "rel-009",
@@ -122,12 +122,12 @@
     "difficulty": "medio",
     "question": "Qual ramo do Cristianismo surgiu no século XVI a partir de protestos contra indulgências e autoridade papal?",
     "options": [
+      "Protestantismo",
       "Ortodoxia",
       "Catolicismo",
-      "Anglicanismo",
-      "Protestantismo"
+      "Anglicanismo"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "rel-011",
@@ -137,10 +137,10 @@
     "options": [
       "Arcanjo Miguel",
       "Arcanjo Uriel",
-      "Arcanjo Rafael",
-      "Arcanjo Gabriel"
+      "Arcanjo Gabriel",
+      "Arcanjo Rafael"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "rel-012",
@@ -149,11 +149,11 @@
     "question": "Qual apóstolo traiu Jesus Cristo entregando-o às autoridades por trinta moedas de prata?",
     "options": [
       "Simão",
-      "Tomé",
       "Judas Iscariotes",
+      "Tomé",
       "Pedro"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "rel-013",
@@ -162,11 +162,11 @@
     "question": "Qual é o principal símbolo religioso do Cristianismo?",
     "options": [
       "Estrela de Davi",
-      "Crescente",
       "Cruz",
+      "Crescente",
       "Roda do Dharma"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "rel-014",
@@ -174,12 +174,12 @@
     "difficulty": "medio",
     "question": "Qual teólogo francês formulou a doutrina da predestinação absoluta durante a Reforma Protestante?",
     "options": [
+      "João Calvino",
       "John Knox",
       "Martinho Lutero",
-      "João Calvino",
       "Ulrico Zwínglio"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "rel-015",
@@ -213,12 +213,12 @@
     "difficulty": "medio",
     "question": "Qual é o livro sagrado do Judaísmo composto pelos cinco primeiros livros da Bíblia hebraica?",
     "options": [
-      "Torá",
       "Mishná",
       "Talmude",
+      "Torá",
       "Talmud Bavli"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "rel-018",
@@ -241,10 +241,10 @@
     "options": [
       "5",
       "12",
-      "10",
-      "7"
+      "7",
+      "10"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-020",
@@ -267,10 +267,10 @@
     "options": [
       "A Torá completa",
       "O Talmude",
-      "Os Dez Mandamentos",
-      "As Bem-Aventuranças"
+      "As Bem-Aventuranças",
+      "Os Dez Mandamentos"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-022",
@@ -280,10 +280,10 @@
     "options": [
       "Isaque",
       "Noé",
-      "Moisés",
-      "Abraão"
+      "Abraão",
+      "Moisés"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "rel-023",
@@ -304,12 +304,12 @@
     "difficulty": "medio",
     "question": "Qual cidade é considerada sagrada simultaneamente por cristãos, judeus e muçulmanos?",
     "options": [
+      "Jerusalém",
       "Belém",
       "Roma",
-      "Jerusalém",
       "Meca"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "rel-025",
@@ -319,10 +319,10 @@
     "options": [
       "Yom Kipur",
       "Shabat",
-      "Bar Mitzvah",
-      "Brit Milá"
+      "Brit Milá",
+      "Bar Mitzvah"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-026",
@@ -345,10 +345,10 @@
     "options": [
       "Salomão",
       "Saul",
-      "Davi",
-      "Samuel"
+      "Samuel",
+      "Davi"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-028",
@@ -356,12 +356,12 @@
     "difficulty": "medio",
     "question": "Qual é o dia mais sagrado e solene do calendário judaico, conhecido como o 'Dia do Perdão'?",
     "options": [
-      "Yom Kipur",
       "Pessach",
       "Rosh Hashaná",
+      "Yom Kipur",
       "Sucot"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "rel-029",
@@ -396,11 +396,11 @@
     "question": "Qual é o livro sagrado do Islã?",
     "options": [
       "Torá",
-      "Alcorão",
       "Tripitaka",
+      "Alcorão",
       "Bíblia"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "rel-032",
@@ -410,10 +410,10 @@
     "options": [
       "Sharia",
       "Ramadã",
-      "Zakat",
-      "Hajj"
+      "Hajj",
+      "Zakat"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "rel-033",
@@ -449,10 +449,10 @@
     "options": [
       "Bagdá",
       "Jerusalém",
-      "Meca",
-      "Medina"
+      "Medina",
+      "Meca"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-036",
@@ -461,11 +461,11 @@
     "question": "Quais são as duas principais vertentes históricas em que o Islã se divide?",
     "options": [
       "Drusos e Alauitas",
+      "Sunitas e Xiitas",
       "Ismaelitas e Zaiditas",
-      "Sufis e Ahmadis",
-      "Sunitas e Xiitas"
+      "Sufis e Ahmadis"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "rel-037",
@@ -473,12 +473,12 @@
     "difficulty": "medio",
     "question": "Qual é o local de culto coletivo e adoração dos muçulmanos?",
     "options": [
+      "Mesquita",
       "Igreja",
       "Sinagoga",
-      "Templo",
-      "Mesquita"
+      "Templo"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "rel-038",
@@ -488,10 +488,10 @@
     "options": [
       "Jerusalém",
       "Meca",
-      "Lumbini",
-      "Varanasi"
+      "Varanasi",
+      "Lumbini"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-039",
@@ -512,12 +512,12 @@
     "difficulty": "medio",
     "question": "Quem é considerado o fundador do Budismo?",
     "options": [
-      "Confúcio",
       "Sidarta Gautama (Buda)",
+      "Confúcio",
       "Mahavira",
       "Lao-Tsé"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "rel-041",
@@ -526,11 +526,11 @@
     "question": "Qual é o nome do texto sagrado hindu que narra o diálogo entre Krishna e Arjuna?",
     "options": [
       "Alcorão",
-      "Bhagavad Gita",
       "Torá",
+      "Bhagavad Gita",
       "Tao Te Ching"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "rel-042",
@@ -540,10 +540,10 @@
     "options": [
       "Karma",
       "Nirvana",
-      "Samsara",
-      "Dharma"
+      "Dharma",
+      "Samsara"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-043",
@@ -553,10 +553,10 @@
     "options": [
       "Mitraísmo",
       "Maniqueísmo",
-      "Zoroastrismo",
-      "Manicheísmo"
+      "Manicheísmo",
+      "Zoroastrismo"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-044",
@@ -565,11 +565,11 @@
     "question": "Qual líder religioso e místico alcançou a iluminação debaixo da árvore Bodhi, tornando-se o Buda?",
     "options": [
       "Confúcio",
-      "Siddhartha Gautama",
       "Mahavira",
-      "Lao-Tsé"
+      "Lao-Tsé",
+      "Siddhartha Gautama"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "rel-045",
@@ -578,11 +578,11 @@
     "question": "Qual deusa ou orixá das religiões de matriz afro-brasileira é associada aos mares e oceanos?",
     "options": [
       "Oxum",
+      "Iemanjá",
       "Iansã",
-      "Nanã",
-      "Iemanjá"
+      "Nanã"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "rel-046",
@@ -590,12 +590,12 @@
     "difficulty": "medio",
     "question": "Qual conceito no Hinduísmo e Budismo define a lei de causa e efeito das ações de um indivíduo?",
     "options": [
-      "Carma",
       "Moksha",
       "Dharma",
-      "Samsara"
+      "Samsara",
+      "Carma"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "rel-047",
@@ -603,12 +603,12 @@
     "difficulty": "medio",
     "question": "Qual divindade hindu com cabeça de elefante é venerada como o removedor de obstáculos?",
     "options": [
+      "Ganesha",
       "Hanuman",
       "Vishnu",
-      "Ganesha",
       "Shiva"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "rel-048",
@@ -617,11 +617,11 @@
     "question": "Qual é o título dado ao líder espiritual e temporal tradicional do Budismo Tibetano?",
     "options": [
       "Rinpoche",
-      "Dalai Lama",
       "Lama Tulku",
-      "Panchen Lama"
+      "Panchen Lama",
+      "Dalai Lama"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "rel-049",
@@ -631,10 +631,10 @@
     "options": [
       "Ogum",
       "Oxóssi",
-      "Omulu",
-      "Exu"
+      "Exu",
+      "Omulu"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "rel-050",
@@ -643,11 +643,11 @@
     "question": "Qual é a trindade suprema de divindades do Hinduísmo, conhecida como Trimúrti?",
     "options": [
       "Rama, Krishna e Hanuman",
-      "Brahma, Vishnu e Shiva",
       "Indra, Agni e Surya",
-      "Shiva, Kali e Durga"
+      "Shiva, Kali e Durga",
+      "Brahma, Vishnu e Shiva"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "rel-051",
@@ -657,10 +657,10 @@
     "options": [
       "Budismo Zen",
       "Taoísmo",
-      "Xintoísmo",
-      "Confucionismo"
+      "Confucionismo",
+      "Xintoísmo"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-052",
@@ -668,12 +668,12 @@
     "difficulty": "medio",
     "question": "Qual filósofo chinês antigo fundou o Taoísmo com o texto clássico 'Tao Te Ching'?",
     "options": [
+      "Lao Tsé",
       "Chuang Tzu",
       "Confúcio",
-      "Lao Tsé",
       "Mêncio"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "rel-053",
@@ -681,12 +681,12 @@
     "difficulty": "medio",
     "question": "Qual orixá ligado à justiça, ao trovão e ao fogo empunha o machado bipene (oxê)?",
     "options": [
-      "Xangô",
       "Obaluaê",
+      "Xangô",
       "Ogum",
       "Oxumaré"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "rel-054",
@@ -707,12 +707,12 @@
     "difficulty": "medio",
     "question": "Qual termo teológico designa a crença na existência de um único Deus?",
     "options": [
-      "Monoteísmo",
       "Ateísmo",
+      "Monoteísmo",
       "Politeísmo",
       "Panteísmo"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "rel-056",
@@ -720,12 +720,12 @@
     "difficulty": "medio",
     "question": "Qual estado supremo de libertação do ciclo de renascimentos e sofrimento é buscado no Budismo?",
     "options": [
-      "Karma",
       "Nirvana",
+      "Karma",
       "Samsara",
       "Dharma"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "rel-057",
@@ -733,12 +733,12 @@
     "difficulty": "medio",
     "question": "Em qual religião monoteísta originada na Índia os homens praticantes usam turbantes e deixam o cabelo sem cortar?",
     "options": [
-      "Sikhismo",
       "Jainismo",
+      "Sikhismo",
       "Budismo",
       "Hinduísmo"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "rel-058",
@@ -746,12 +746,12 @@
     "difficulty": "medio",
     "question": "Qual orixá guerreiro associado ao ferro, à tecnologia e aos caminhos abertos é cultuado no Candomblé?",
     "options": [
+      "Ogum",
       "Xangô",
       "Exu",
-      "Oxóssi",
-      "Ogum"
+      "Oxóssi"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "rel-059",
@@ -759,12 +759,12 @@
     "difficulty": "medio",
     "question": "Qual é o nome das escrituras sagradas mais antigas do Hinduísmo, compostas em sânscrito védico?",
     "options": [
-      "Vedas",
       "Bhagavad Gita",
       "Upanixades",
+      "Vedas",
       "Puranas"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "rel-060",
@@ -773,11 +773,11 @@
     "question": "Qual educador francês codificou a doutrina espírita no século XIX através de 'O Livro dos Espíritos'?",
     "options": [
       "Léon Denis",
-      "Divaldo Franco",
       "Allan Kardec",
+      "Divaldo Franco",
       "Chico Xavier"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "rel-061",

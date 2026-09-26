@@ -6,11 +6,11 @@
     "question": "Em que continente fica o Egito Antigo?",
     "options": [
       "Europa",
-      "África",
       "América",
-      "Ásia"
+      "Ásia",
+      "África"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "his-002",
@@ -18,12 +18,12 @@
     "difficulty": "medio",
     "question": "Em que ano ocorreu a Queda do Muro de Berlim?",
     "options": [
+      "1989",
       "1987",
       "1991",
-      "1993",
-      "1989"
+      "1993"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "his-003",
@@ -33,10 +33,10 @@
     "options": [
       "Dom Pedro II",
       "Marechal Deodoro",
-      "Dom João VI",
-      "Dom Pedro I"
+      "Dom Pedro I",
+      "Dom João VI"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "his-004",
@@ -45,11 +45,11 @@
     "question": "Em que ano foi assinado o Tratado de Tordesilhas?",
     "options": [
       "1488",
+      "1494",
       "1500",
-      "1512",
-      "1494"
+      "1512"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-005",
@@ -70,12 +70,12 @@
     "difficulty": "dificil",
     "question": "Quem liderou a Revolta dos Alfaiates na Bahia (1798)?",
     "options": [
+      "João de Deus do Nascimento",
       "Zumbi dos Palmares",
       "Tiradentes",
-      "João de Deus do Nascimento",
       "Frei Caneca"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "his-007",
@@ -83,12 +83,12 @@
     "difficulty": "facil",
     "question": "Em que ano começou a Segunda Guerra Mundial?",
     "options": [
+      "1939",
       "1929",
       "1918",
-      "1945",
-      "1939"
+      "1945"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "his-008",
@@ -98,10 +98,10 @@
     "options": [
       "Getúlio Vargas",
       "Juscelino Kubitschek",
-      "Deodoro da Fonseca",
-      "Prudente de Morais"
+      "Prudente de Morais",
+      "Deodoro da Fonseca"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "his-009",
@@ -110,11 +110,11 @@
     "question": "Qual revolução ocorreu na França em 1789?",
     "options": [
       "Revolução Russa",
+      "Revolução Francesa",
       "Revolução Industrial",
-      "Revolução Americana",
-      "Revolução Francesa"
+      "Revolução Americana"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-010",
@@ -148,12 +148,12 @@
     "difficulty": "facil",
     "question": "Quem foi o principal líder da Revolução Cubana de 1959?",
     "options": [
+      "Fidel Castro",
       "Simón Bolívar",
       "Hugo Chávez",
-      "Fidel Castro",
       "Che Guevara"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "his-013",
@@ -161,12 +161,12 @@
     "difficulty": "medio",
     "question": "Em que século os portugueses chegaram ao território que hoje é o Brasil?",
     "options": [
-      "Século XVI",
       "Século XIV",
       "Século XV",
-      "Século XVII"
+      "Século XVII",
+      "Século XVI"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "his-014",
@@ -174,12 +174,12 @@
     "difficulty": "facil",
     "question": "Qual rio era considerado essencial para a agricultura e a vida no Egito Antigo?",
     "options": [
+      "Nilo",
       "Eufrates",
       "Jordão",
-      "Nilo",
       "Tigre"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "his-015",
@@ -201,11 +201,11 @@
     "question": "Em que ano foi assinada a Lei Áurea, que aboliu a escravidão no Brasil?",
     "options": [
       "1889",
-      "1888",
       "1822",
-      "1850"
+      "1850",
+      "1888"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "his-017",
@@ -215,10 +215,10 @@
     "options": [
       "Fernão de Magalhães",
       "Vasco da Gama",
-      "Pedro Álvares Cabral",
-      "Cristóvão Colombo"
+      "Cristóvão Colombo",
+      "Pedro Álvares Cabral"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "his-018",
@@ -227,11 +227,11 @@
     "question": "Qual foi a capital do Império Romano?",
     "options": [
       "Constantinopla",
+      "Roma",
       "Atenas",
-      "Cartago",
-      "Roma"
+      "Cartago"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-019",
@@ -240,11 +240,11 @@
     "question": "Quem liderou a resistência não-violenta contra o domínio britânico na Índia?",
     "options": [
       "Ho Chi Minh",
+      "Mahatma Gandhi",
       "Jawaharlal Nehru",
-      "Nelson Mandela",
-      "Mahatma Gandhi"
+      "Nelson Mandela"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-020",
@@ -292,11 +292,11 @@
     "question": "Qual faraó egípcio teve sua tumba quase intacta descoberta em 1922 por Howard Carter?",
     "options": [
       "Quéops",
-      "Tutancâmon",
       "Ramsés II",
-      "Akhenaton"
+      "Akhenaton",
+      "Tutancâmon"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "his-024",
@@ -343,12 +343,12 @@
     "difficulty": "medio",
     "question": "Qual general e imperador francês conquistou grande parte da Europa no início do século XIX?",
     "options": [
-      "Napoleão Bonaparte",
       "Luís XVI",
       "Luís XIV",
+      "Napoleão Bonaparte",
       "Carlos Magno"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "his-028",
@@ -356,12 +356,12 @@
     "difficulty": "medio",
     "question": "A queda de qual cidade em 1453 marcou tradicionalmente o fim da Idade Média?",
     "options": [
+      "Constantinopla",
       "Roma",
       "Alexandria",
-      "Constantinopla",
       "Jerusalém"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "his-029",
@@ -408,12 +408,12 @@
     "difficulty": "medio",
     "question": "Qual documento assinado pelo rei João Sem Terra em 1215 limitou o poder monárquico na Inglaterra?",
     "options": [
-      "Magna Carta",
       "Bill of Rights",
       "Ato de União",
-      "Declaração de Direitos"
+      "Declaração de Direitos",
+      "Magna Carta"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "his-033",
@@ -422,11 +422,11 @@
     "question": "Qual presidente norte-americano assinou a Proclamação de Emancipação durante a Guerra Civil Americana?",
     "options": [
       "Ulysses Grant",
-      "Abraham Lincoln",
       "Thomas Jefferson",
-      "George Washington"
+      "George Washington",
+      "Abraham Lincoln"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "his-034",
@@ -461,11 +461,11 @@
     "question": "Quem governou o Brasil como presidente e ditador de 1930 a 1945?",
     "options": [
       "Eurico Gaspar Dutra",
+      "Getúlio Vargas",
       "Juscelino Kubitschek",
-      "Washington Luís",
-      "Getúlio Vargas"
+      "Washington Luís"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-037",
@@ -474,11 +474,11 @@
     "question": "Qual cidade-estado grega era famosa por sua rígida disciplina e formação estritamente militar?",
     "options": [
       "Tebas",
+      "Esparta",
       "Atenas",
-      "Corinto",
-      "Esparta"
+      "Corinto"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-038",
@@ -488,10 +488,10 @@
     "options": [
       "Torre de Londres",
       "Louvre",
-      "Palácio de Versalhes",
-      "Bastilha"
+      "Bastilha",
+      "Palácio de Versalhes"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "his-039",
@@ -512,12 +512,12 @@
     "difficulty": "medio",
     "question": "Quem iniciou a Reforma Protestante ao fixar suas 95 Teses em 1517?",
     "options": [
+      "Martinho Lutero",
       "João Calvino",
       "Henrique VIII",
-      "Ulrico Zuínglio",
-      "Martinho Lutero"
+      "Ulrico Zuínglio"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "his-041",
@@ -525,12 +525,12 @@
     "difficulty": "medio",
     "question": "Entre quais décadas vigorou o regime de ditadura militar no Brasil (1964–1985)?",
     "options": [
-      "Décadas de 1930 a 1940",
       "Décadas de 1960 a 1980",
+      "Décadas de 1930 a 1940",
       "Décadas de 1880 a 1900",
       "Décadas de 1940 a 1950"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "his-042",
@@ -538,12 +538,12 @@
     "difficulty": "medio",
     "question": "Qual líder romano foi assassinado nos Idos de Março de 44 a.C. por membros do Senado?",
     "options": [
-      "Júlio César",
       "Augusto",
       "Marco Antônio",
+      "Júlio César",
       "Pompeu"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "his-043",
@@ -564,12 +564,12 @@
     "difficulty": "medio",
     "question": "Quem era a governante do Egito Antigo durante a conquista romana liderada por Otaviano?",
     "options": [
-      "Cleópatra",
       "Nefertiti",
       "Hatshepsut",
+      "Cleópatra",
       "Néfertari"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "his-045",
@@ -577,12 +577,12 @@
     "difficulty": "medio",
     "question": "Qual crise econômica mundial começou com o crash da Bolsa de Valores de Nova York em 1929?",
     "options": [
+      "Grande Depressão",
       "Bolha das Pontocom",
       "Crise do Petróleo",
-      "Grande Depressão",
       "Crise de 2008"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "his-046",
@@ -591,11 +591,11 @@
     "question": "Qual dinastia chinesa foi responsável pelo início da construção da Grande Muralha unificada?",
     "options": [
       "Dinastia Ming",
-      "Dinastia Qin",
       "Dinastia Tang",
-      "Dinastia Han"
+      "Dinastia Han",
+      "Dinastia Qin"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "his-047",
@@ -605,10 +605,10 @@
     "options": [
       "Café",
       "Borracha",
-      "Ouro",
-      "Cana-de-açúcar"
+      "Cana-de-açúcar",
+      "Ouro"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "his-048",
@@ -630,11 +630,11 @@
     "question": "Qual conferência de 1884–1885 dividiu o continente africano entre potências europeias?",
     "options": [
       "Conferência de Potsdam",
+      "Conferência de Berlim",
       "Congresso de Viena",
-      "Conferência de Yalta",
-      "Conferência de Berlim"
+      "Conferência de Yalta"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-050",
@@ -642,12 +642,12 @@
     "difficulty": "medio",
     "question": "Qual rainha consorte foi decapitada durante o período mais radical da Revolução Francesa?",
     "options": [
-      "Maria Antonieta",
       "Catarina de Médici",
+      "Maria Antonieta",
       "Ana Bolena",
       "Josefina de Beauharnais"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "his-051",
@@ -655,12 +655,12 @@
     "difficulty": "medio",
     "question": "Qual movimento artístico e cultural marcou a transição da Idade Média para a Idade Moderna?",
     "options": [
-      "Renascimento",
       "Barroco",
       "Iluminismo",
-      "Romantismo"
+      "Romantismo",
+      "Renascimento"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "his-052",
@@ -669,11 +669,11 @@
     "question": "Em qual país asiático ocorreu a Revolta dos Boxers, entre 1899 e 1901, contra potências estrangeiras?",
     "options": [
       "Japão",
-      "Vietnã",
       "China",
+      "Vietnã",
       "Coreia"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "his-053",
@@ -683,10 +683,10 @@
     "options": [
       "Pedro Álvares Cabral",
       "Cristóvão Colombo",
-      "Vasco da Gama",
-      "Fernão de Magalhães"
+      "Fernão de Magalhães",
+      "Vasco da Gama"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "his-054",
@@ -708,11 +708,11 @@
     "question": "Qual princesa assinou a Lei Áurea em 1888, extinguindo a escravidão no Brasil?",
     "options": [
       "Rainha Vitória",
-      "Princesa Isabel",
       "Maria I de Portugal",
+      "Princesa Isabel",
       "Princesa Leopoldina"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "his-056",
@@ -733,12 +733,12 @@
     "difficulty": "medio",
     "question": "Qual código mesopotâmico ficou conhecido pela regra de 'olho por olho, dente por dente'?",
     "options": [
-      "Código de Hamurabi",
       "Código Justiniano",
+      "Código de Hamurabi",
       "Lei das Doze Tábuas",
       "Código de Ur-Nammu"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "his-058",
@@ -747,11 +747,11 @@
     "question": "Qual rainha governou a Grã-Bretanha durante o ápice da expansão imperial, no século XIX?",
     "options": [
       "Rainha Elizabeth I",
-      "Rainha Vitória",
       "Rainha Maria II",
+      "Rainha Vitória",
       "Rainha Ana"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "his-059",
@@ -759,12 +759,12 @@
     "difficulty": "medio",
     "question": "Qual presidente dos Estados Unidos renunciou ao cargo após o escândalo de Watergate, em 1974?",
     "options": [
+      "Richard Nixon",
       "Jimmy Carter",
       "Lyndon Johnson",
-      "Gerald Ford",
-      "Richard Nixon"
+      "Gerald Ford"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "his-060",
@@ -774,10 +774,10 @@
     "options": [
       "Rota das Especiarias",
       "Rota Transaariana",
-      "Rota da Seda",
-      "Rota do Âmbar"
+      "Rota do Âmbar",
+      "Rota da Seda"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "his-061",
@@ -800,10 +800,10 @@
     "options": [
       "Maias",
       "Astecas",
-      "Zapotecas",
-      "Olmecas"
+      "Olmecas",
+      "Zapotecas"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "his-063",
@@ -824,12 +824,12 @@
     "difficulty": "medio",
     "question": "Qual imperador romano atribuiu aos cristãos a culpa pelo grande incêndio de Roma de 64 d.C.?",
     "options": [
+      "Nero",
       "Calígula",
       "Cláudio",
-      "Nero",
       "Trajano"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "his-065",
@@ -837,12 +837,12 @@
     "difficulty": "medio",
     "question": "Em qual país norte-africano teve início a onda de protestos da Primavera Árabe, em 2010?",
     "options": [
-      "Tunísia",
       "Marrocos",
       "Egito",
+      "Tunísia",
       "Líbia"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "his-066",
@@ -852,9 +852,9 @@
     "options": [
       "Guerra Napoleônica",
       "Guerra Russo-Japonesa",
-      "Guerra Russo-Turca",
-      "Guerra da Crimeia"
+      "Guerra da Crimeia",
+      "Guerra Russo-Turca"
     ],
-    "correct_index": 3
+    "correct_index": 2
   }
 ]
