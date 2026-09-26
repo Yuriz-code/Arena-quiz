@@ -1,0 +1,119 @@
+[
+  {
+    "id": "isl-001",
+    "category": "islamismo",
+    "difficulty": "medio",
+    "question": "Qual é o livro sagrado central do Islamismo?",
+    "options": [
+      "Bhagavad Gita",
+      "Alcorão",
+      "Tao Te Ching",
+      "Torá"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "isl-002",
+    "category": "islamismo",
+    "difficulty": "dificil",
+    "question": "Como se chama o jejum anual observado durante o mês sagrado do Islã?",
+    "options": [
+      "Shahada",
+      "Hajj",
+      "Ramadã",
+      "Zakat"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "isl-003",
+    "category": "islamismo",
+    "difficulty": "facil",
+    "question": "Qual é o livro sagrado do Islã?",
+    "options": [
+      "Torá",
+      "Alcorão",
+      "Tripitaka",
+      "Bíblia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "isl-004",
+    "category": "islamismo",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da peregrinação anual que os muçulmanos fazem a Meca?",
+    "options": [
+      "Sharia",
+      "Ramadã",
+      "Zakat",
+      "Hajj"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "isl-005",
+    "category": "islamismo",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do mês sagrado de jejum no Islã?",
+    "options": [
+      "Ramadã",
+      "Hajj",
+      "Zakat",
+      "Eid"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "isl-006",
+    "category": "islamismo",
+    "difficulty": "facil",
+    "question": "Qual é o nome do templo sagrado dos muçulmanos localizado em Meca?",
+    "options": [
+      "Caaba",
+      "Cúpula da Rocha",
+      "Mesquita de Medina",
+      "Mesquita Azul"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "isl-007",
+    "category": "islamismo",
+    "difficulty": "medio",
+    "question": "Qual é a cidade mais sagrada para os muçulmanos, onde fica a Caaba?",
+    "options": [
+      "Bagdá",
+      "Jerusalém",
+      "Meca",
+      "Medina"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "isl-008",
+    "category": "islamismo",
+    "difficulty": "medio",
+    "question": "Quais são as duas principais vertentes históricas em que o Islã se divide?",
+    "options": [
+      "Drusos e Alauitas",
+      "Ismaelitas e Zaiditas",
+      "Sufis e Ahmadis",
+      "Sunitas e Xiitas"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "isl-009",
+    "category": "islamismo",
+    "difficulty": "medio",
+    "question": "Qual é o local de culto coletivo e adoração dos muçulmanos?",
+    "options": [
+      "Igreja",
+      "Sinagoga",
+      "Templo",
+      "Mesquita"
+    ],
+    "correct_index": 3
+  }
+]

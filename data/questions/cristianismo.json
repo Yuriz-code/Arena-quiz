@@ -1,0 +1,210 @@
+[
+  {
+    "id": "cri-001",
+    "category": "cristianismo",
+    "difficulty": "facil",
+    "question": "Qual religião tem o Papa como líder máximo?",
+    "options": [
+      "Anglicanismo",
+      "Ortodoxa",
+      "Protestantismo",
+      "Catolicismo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cri-002",
+    "category": "cristianismo",
+    "difficulty": "facil",
+    "question": "Qual é o livro sagrado do Cristianismo?",
+    "options": [
+      "Torá",
+      "Bíblia",
+      "Bhagavad Gita",
+      "Alcorão"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cri-003",
+    "category": "cristianismo",
+    "difficulty": "facil",
+    "question": "Em que cidade nasceu Jesus Cristo, segundo a tradição cristã?",
+    "options": [
+      "Jerusalém",
+      "Roma",
+      "Belém",
+      "Nazaré"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cri-004",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual figura é considerada a mãe de Jesus Cristo no Cristianismo?",
+    "options": [
+      "Marta",
+      "Isabel",
+      "Maria",
+      "Madalena"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cri-005",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual papa católico convocou o histórico Concílio Vaticano II em 1962?",
+    "options": [
+      "Papa Pio XII",
+      "Papa Paulo VI",
+      "Papa João XXIII",
+      "Papa João Paulo II"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cri-006",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual imperador romano converteu-se ao Cristianismo e transferiu a capital imperial para Constantinopla?",
+    "options": [
+      "Juliano",
+      "Diocleciano",
+      "Teodósio I",
+      "Constantino I"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cri-007",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual sacramento católico simboliza a purificação do pecado original e a entrada na Igreja?",
+    "options": [
+      "Crisma",
+      "Eucaristia",
+      "Batismo",
+      "Confissão"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cri-008",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual apóstolo de Jesus é tradicionalmente considerado pela Igreja Católica como o primeiro papa?",
+    "options": [
+      "João",
+      "Pedro",
+      "Tiago",
+      "Paulo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cri-009",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual cisma religioso em 1054 dividiu a Igreja cristã entre Igreja Católica e Igreja Ortodoxa?",
+    "options": [
+      "Cisma do Ocidente",
+      "Concílio de Niceia",
+      "Reforma Protestante",
+      "Grande Cisma do Oriente"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cri-010",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual ramo do Cristianismo surgiu no século XVI a partir de protestos contra indulgências e autoridade papal?",
+    "options": [
+      "Ortodoxia",
+      "Catolicismo",
+      "Anglicanismo",
+      "Protestantismo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cri-011",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual anjo da tradição judaico-cristã e islâmica anunciou à Virgem Maria o nascimento de Jesus?",
+    "options": [
+      "Arcanjo Miguel",
+      "Arcanjo Uriel",
+      "Arcanjo Rafael",
+      "Arcanjo Gabriel"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cri-012",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual apóstolo traiu Jesus Cristo entregando-o às autoridades por trinta moedas de prata?",
+    "options": [
+      "Simão",
+      "Tomé",
+      "Judas Iscariotes",
+      "Pedro"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cri-013",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual é o principal símbolo religioso do Cristianismo?",
+    "options": [
+      "Estrela de Davi",
+      "Crescente",
+      "Cruz",
+      "Roda do Dharma"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cri-014",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual teólogo francês formulou a doutrina da predestinação absoluta durante a Reforma Protestante?",
+    "options": [
+      "John Knox",
+      "Martinho Lutero",
+      "João Calvino",
+      "Ulrico Zwínglio"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cri-015",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual rito sacramental protestante e católico comemora a Última Ceia com pão e vinho?",
+    "options": [
+      "Batismo",
+      "Unção dos Enfermos",
+      "Eucaristia (ou Santa Ceia)",
+      "Crisma"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cri-016",
+    "category": "cristianismo",
+    "difficulty": "medio",
+    "question": "Qual festa católica comemora a descida do Espírito Santo sobre os apóstolos cinquenta dias após a Páscoa?",
+    "options": [
+      "Epifania",
+      "Páscoa",
+      "Pentecostes",
+      "Corpus Christi"
+    ],
+    "correct_index": 2
+  }
+]

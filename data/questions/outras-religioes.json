@@ -1,0 +1,314 @@
+[
+  {
+    "id": "out-001",
+    "category": "outras-religioes",
+    "difficulty": "facil",
+    "question": "Em que cidade nasceu Buda, segundo a tradição budista?",
+    "options": [
+      "Jerusalém",
+      "Meca",
+      "Lumbini",
+      "Varanasi"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "out-002",
+    "category": "outras-religioes",
+    "difficulty": "dificil",
+    "question": "Qual religião de matriz africana, praticada no Brasil, cultua os Orixás?",
+    "options": [
+      "Candomblé",
+      "Xintoísmo",
+      "Xamanismo",
+      "Vodu"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "out-003",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Quem é considerado o fundador do Budismo?",
+    "options": [
+      "Confúcio",
+      "Sidarta Gautama (Buda)",
+      "Mahavira",
+      "Lao-Tsé"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "out-004",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do texto sagrado hindu que narra o diálogo entre Krishna e Arjuna?",
+    "options": [
+      "Alcorão",
+      "Bhagavad Gita",
+      "Torá",
+      "Tao Te Ching"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "out-005",
+    "category": "outras-religioes",
+    "difficulty": "dificil",
+    "question": "Qual é o termo para o ciclo de nascimento, morte e renascimento em religiões orientais como Hinduísmo e Budismo?",
+    "options": [
+      "Karma",
+      "Nirvana",
+      "Samsara",
+      "Dharma"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "out-006",
+    "category": "outras-religioes",
+    "difficulty": "dificil",
+    "question": "Qual religião monoteísta antiga, originária da Pérsia, é praticada pelos zoroastristas?",
+    "options": [
+      "Mitraísmo",
+      "Maniqueísmo",
+      "Zoroastrismo",
+      "Manicheísmo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "out-007",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual líder religioso e místico alcançou a iluminação debaixo da árvore Bodhi, tornando-se o Buda?",
+    "options": [
+      "Confúcio",
+      "Siddhartha Gautama",
+      "Mahavira",
+      "Lao-Tsé"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "out-008",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual deusa ou orixá das religiões de matriz afro-brasileira é associada aos mares e oceanos?",
+    "options": [
+      "Oxum",
+      "Iansã",
+      "Nanã",
+      "Iemanjá"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "out-009",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual conceito no Hinduísmo e Budismo define a lei de causa e efeito das ações de um indivíduo?",
+    "options": [
+      "Carma",
+      "Moksha",
+      "Dharma",
+      "Samsara"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "out-010",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual divindade hindu com cabeça de elefante é venerada como o removedor de obstáculos?",
+    "options": [
+      "Hanuman",
+      "Vishnu",
+      "Ganesha",
+      "Shiva"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "out-011",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual é o título dado ao líder espiritual e temporal tradicional do Budismo Tibetano?",
+    "options": [
+      "Rinpoche",
+      "Dalai Lama",
+      "Lama Tulku",
+      "Panchen Lama"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "out-012",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "No Candomblé e na Umbanda, qual orixá é considerado o guardião dos caminhos e mensageiro dos deuses?",
+    "options": [
+      "Ogum",
+      "Oxóssi",
+      "Omulu",
+      "Exu"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "out-013",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual é a trindade suprema de divindades do Hinduísmo, conhecida como Trimúrti?",
+    "options": [
+      "Rama, Krishna e Hanuman",
+      "Brahma, Vishnu e Shiva",
+      "Indra, Agni e Surya",
+      "Shiva, Kali e Durga"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "out-014",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual tradição espiritual e religiosa nativa do Japão venera espíritos da natureza chamados Kami?",
+    "options": [
+      "Budismo Zen",
+      "Taoísmo",
+      "Xintoísmo",
+      "Confucionismo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "out-015",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual filósofo chinês antigo fundou o Taoísmo com o texto clássico 'Tao Te Ching'?",
+    "options": [
+      "Chuang Tzu",
+      "Confúcio",
+      "Lao Tsé",
+      "Mêncio"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "out-016",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual orixá ligado à justiça, ao trovão e ao fogo empunha o machado bipene (oxê)?",
+    "options": [
+      "Xangô",
+      "Obaluaê",
+      "Ogum",
+      "Oxumaré"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "out-017",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual animal é considerado sagrado e símbolo de maternidade e abundância no Hinduísmo tradicional?",
+    "options": [
+      "Vaca",
+      "Elefante",
+      "Cobra",
+      "Macaco"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "out-018",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual termo teológico designa a crença na existência de um único Deus?",
+    "options": [
+      "Monoteísmo",
+      "Ateísmo",
+      "Politeísmo",
+      "Panteísmo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "out-019",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual estado supremo de libertação do ciclo de renascimentos e sofrimento é buscado no Budismo?",
+    "options": [
+      "Karma",
+      "Nirvana",
+      "Samsara",
+      "Dharma"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "out-020",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Em qual religião monoteísta originada na Índia os homens praticantes usam turbantes e deixam o cabelo sem cortar?",
+    "options": [
+      "Sikhismo",
+      "Jainismo",
+      "Budismo",
+      "Hinduísmo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "out-021",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual orixá guerreiro associado ao ferro, à tecnologia e aos caminhos abertos é cultuado no Candomblé?",
+    "options": [
+      "Xangô",
+      "Exu",
+      "Oxóssi",
+      "Ogum"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "out-022",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual é o nome das escrituras sagradas mais antigas do Hinduísmo, compostas em sânscrito védico?",
+    "options": [
+      "Vedas",
+      "Bhagavad Gita",
+      "Upanixades",
+      "Puranas"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "out-023",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual educador francês codificou a doutrina espírita no século XIX através de 'O Livro dos Espíritos'?",
+    "options": [
+      "Léon Denis",
+      "Divaldo Franco",
+      "Allan Kardec",
+      "Chico Xavier"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "out-024",
+    "category": "outras-religioes",
+    "difficulty": "medio",
+    "question": "Qual orixá ancião da criação é representado pela cor branca e pelo respeito à vida e à paz?",
+    "options": [
+      "Obaluaê",
+      "Oxalá",
+      "Nanã",
+      "Oxum"
+    ],
+    "correct_index": 1
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "jud-001",
+    "category": "judaismo",
+    "difficulty": "medio",
+    "question": "Qual é o livro sagrado do Judaísmo composto pelos cinco primeiros livros da Bíblia hebraica?",
+    "options": [
+      "Torá",
+      "Mishná",
+      "Talmude",
+      "Talmud Bavli"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "jud-002",
+    "category": "judaismo",
+    "difficulty": "medio",
+    "question": "Qual é o livro sagrado do Judaísmo?",
+    "options": [
+      "Alcorão",
+      "Bíblia",
+      "Torá",
+      "Vedas"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "jud-003",
+    "category": "judaismo",
+    "difficulty": "facil",
+    "question": "Quantos mandamentos, segundo a tradição bíblica, Moisés recebeu de Deus?",
+    "options": [
+      "5",
+      "12",
+      "10",
+      "7"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "jud-004",
+    "category": "judaismo",
+    "difficulty": "facil",
+    "question": "Qual é o dia sagrado de descanso semanal no Judaísmo?",
+    "options": [
+      "Shabat",
+      "Yom Kippur",
+      "Domingo",
+      "Ramadã"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "jud-005",
+    "category": "judaismo",
+    "difficulty": "medio",
+    "question": "Qual conjunto de leis divinas Moisés teria recebido no Monte Sinai segundo a tradição bíblica?",
+    "options": [
+      "A Torá completa",
+      "O Talmude",
+      "Os Dez Mandamentos",
+      "As Bem-Aventuranças"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "jud-006",
+    "category": "judaismo",
+    "difficulty": "medio",
+    "question": "Qual patriarca bíblico é considerado o ancestral fundador comum do Judaísmo, Cristianismo e Islã?",
+    "options": [
+      "Isaque",
+      "Noé",
+      "Moisés",
+      "Abraão"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "jud-007",
+    "category": "judaismo",
+    "difficulty": "medio",
+    "question": "Qual festa judaica de oito dias celebra a rededicação do Segundo Templo através do acendimento da Menorá?",
+    "options": [
+      "Yom Kipur",
+      "Hanukkah (Chanucá)",
+      "Pessach",
+      "Purim"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "jud-008",
+    "category": "judaismo",
+    "difficulty": "medio",
+    "question": "Qual cidade é considerada sagrada simultaneamente por cristãos, judeus e muçulmanos?",
+    "options": [
+      "Belém",
+      "Roma",
+      "Jerusalém",
+      "Meca"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "jud-009",
+    "category": "judaismo",
+    "difficulty": "medio",
+    "question": "Qual cerimônia de transição no Judaísmo celebra a maioridade religiosa de um jovem aos 13 anos?",
+    "options": [
+      "Yom Kipur",
+      "Shabat",
+      "Bar Mitzvah",
+      "Brit Milá"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "jud-010",
+    "category": "judaismo",
+    "difficulty": "medio",
+    "question": "Qual é o templo ou casa de oração e estudos do Judaísmo?",
+    "options": [
+      "Igreja",
+      "Templo",
+      "Sinagoga",
+      "Mesquita"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "jud-011",
+    "category": "judaismo",
+    "difficulty": "medio",
+    "question": "Qual rei de Israel e autor de muitos salmos derrotou o gigante Golias com uma funda quando jovem?",
+    "options": [
+      "Salomão",
+      "Saul",
+      "Davi",
+      "Samuel"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "jud-012",
+    "category": "judaismo",
+    "difficulty": "medio",
+    "question": "Qual é o dia mais sagrado e solene do calendário judaico, conhecido como o 'Dia do Perdão'?",
+    "options": [
+      "Yom Kipur",
+      "Pessach",
+      "Rosh Hashaná",
+      "Sucot"
+    ],
+    "correct_index": 0
+  }
+]
