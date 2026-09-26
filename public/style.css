@@ -357,12 +357,15 @@ input[type="text"]:focus-visible, input[type="password"]:focus-visible {
   border: none; border-radius: var(--radius-md); padding: 18px 16px;
   font-size: 1rem; font-weight: 600; color: #fff; cursor: pointer;
   min-height: 64px; text-align: left; position: relative;
+  transition: opacity 0.25s ease, filter 0.25s ease, transform 0.15s ease;
 }
 .option-btn[data-key="a"] { background: var(--opt-a); }
 .option-btn[data-key="b"] { background: var(--opt-b); }
 .option-btn[data-key="c"] { background: var(--opt-c); color: #1A1200; }
 .option-btn[data-key="d"] { background: var(--opt-d); }
-.option-hidden { opacity: 0.25; filter: grayscale(1); }
+/* Efeito do 50/50: as duas opções descartadas encolhem e "apagam" em vez de
+   sumir num corte seco — dá tempo do olho acompanhar qual foi removida. */
+.option-hidden { opacity: 0.25; filter: grayscale(1); transform: scale(0.97); }
 .option-shape { font-size: 1.1rem; }
 .option-btn[data-selected="true"] { outline: 3px solid #fff; outline-offset: -3px; }
 .option-btn:disabled { opacity: 0.55; cursor: default; }
