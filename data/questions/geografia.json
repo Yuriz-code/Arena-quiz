@@ -258,5 +258,18 @@
       "Filipinas"
     ],
     "correct_index": 2
+  },
+  {
+    "id": "geo-021",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual rio corta a cidade de Paris?",
+    "options": [
+      "Sena",
+      "Tâmisa",
+      "Reno",
+      "Danúbio"
+    ],
+    "correct_index": 0
   }
 ]

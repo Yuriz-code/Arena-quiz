@@ -258,5 +258,18 @@
       "Veronica Roth"
     ],
     "correct_index": 2
+  },
+  {
+    "id": "lit-021",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'A Metamorfose'?",
+    "options": [
+      "Franz Kafka",
+      "Albert Camus",
+      "Fiódor Dostoiévski",
+      "Marcel Proust"
+    ],
+    "correct_index": 0
   }
 ]

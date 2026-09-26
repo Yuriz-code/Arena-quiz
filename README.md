@@ -17,7 +17,7 @@ sem build step), para até 8 jogadores remotos.
   antes da revelação
 - Critério de desempate final em cascata (pontuação → acertos → tempo total
   → ordem de entrada), eliminando empates no pódio
-- 12 categorias com um banco de 423 perguntas reais (validadas, sem
+- 12 categorias com um banco de 433 perguntas reais (validadas, sem
   duplicatas) — importe mais via CSV ou edite o banco bruto para chegar a
   100/categoria (ver seção própria)
 
@@ -341,9 +341,9 @@ server/
   sobrevivem — ver seção de persistência). Para escalar horizontalmente
   entre múltiplas instâncias, use o `@socket.io/redis-adapter` e mova
   `rooms`/`sessionIndex` para Redis.
-- Banco de perguntas com 423 itens reais (validados e sem duplicatas, ver
+- Banco de perguntas com 433 itens reais (validados e sem duplicatas, ver
   relatório do gerador) distribuídos de forma desigual entre as 12
-  categorias (19 a 68 cada); use a importação por CSV ou edite
+  categorias (21 a 68 cada); use a importação por CSV ou edite
   `raw-bank-full.json` para chegar a 100/categoria (1.200 no total).
 - `node:sqlite` é um recurso experimental do Node (estável desde a 22.5,
   mas a própria documentação do Node avisa que a API pode mudar em versões

@@ -314,6 +314,10 @@
     <div class="question-header">
       <span id="question-progress" class="question-progress">Pergunta 1/10</span>
       <span id="question-category" class="question-category-tag">Categoria</span>
+      <!-- Quebra de linha CSS-only: só vira uma linha de fato em telas
+           estreitas (ver .header-break em style.css), pra separar
+           progresso+categoria de badge+timer quando não cabem juntos. -->
+      <span class="header-break" aria-hidden="true"></span>
       <span id="question-bonus-badge" class="question-bonus-badge" hidden>⭐ 2x pontos</span>
       <div class="timer-ring-wrap">
         <svg class="timer-ring" viewBox="0 0 64 64" aria-hidden="true">

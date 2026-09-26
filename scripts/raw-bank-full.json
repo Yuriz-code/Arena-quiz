@@ -5074,5 +5074,125 @@
       "Hanami"
     ],
     "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o principal gás responsável pelo efeito estufa?",
+    "options": [
+      "Dióxido de carbono",
+      "Oxigênio",
+      "Hidrogênio",
+      "Nitrogênio"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Quantos pares de cromossomos tem uma célula humana comum?",
+    "options": [
+      "23 pares",
+      "21 pares",
+      "24 pares",
+      "46 pares"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é a velocidade aproximada da luz no vácuo?",
+    "options": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "900 mil km/s"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla 'URL'?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Reference Link",
+      "User Response Log",
+      "Unified Retrieval Language"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Quem criou a linguagem de programação Python?",
+    "options": [
+      "Guido van Rossum",
+      "Dennis Ritchie",
+      "James Gosling",
+      "Bjarne Stroustrup"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é a porta padrão usada pelo protocolo HTTPS?",
+    "options": [
+      "443",
+      "80",
+      "21",
+      "25"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual movimento artístico brasileiro teve a Semana de Arte Moderna de 1922 como marco?",
+    "options": [
+      "Modernismo",
+      "Barroco",
+      "Neoclassicismo",
+      "Impressionismo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Onde está exposta a escultura 'A Pietà', de Michelangelo?",
+    "options": [
+      "Basílica de São Pedro (Vaticano)",
+      "Museu do Louvre (Paris)",
+      "Galeria Uffizi (Florença)",
+      "Museu do Prado (Madri)"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual rio corta a cidade de Paris?",
+    "options": [
+      "Sena",
+      "Tâmisa",
+      "Reno",
+      "Danúbio"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'A Metamorfose'?",
+    "options": [
+      "Franz Kafka",
+      "Albert Camus",
+      "Fiódor Dostoiévski",
+      "Marcel Proust"
+    ],
+    "correct_index": 0
   }
 ]

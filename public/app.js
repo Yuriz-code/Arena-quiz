@@ -90,7 +90,7 @@
     settings: null,
     selectedCategories: new Set(),
     currentQuestion: null,
-    countdownRAF: null,
+    countdownTimer: null, // id do setInterval do cronômetro visual (ver startCountdown)
     hasAnswered: false,
     clockOffsetMs: null, // relógio local menos relógio do servidor, estimado via ping_check (ver startCountdown)
     powerups: { fiftyFifty: 0, doublePoints: 0 }, // cargas disponíveis agora (ver 'you:state')
@@ -1199,8 +1199,15 @@
     const ring = $('timer-ring-fg');
     const label = $('timer-seconds');
     const circumference = 175.9;
+    // Passo do setInterval: o texto em segundos só muda 1x/s e o anel já
+    // tem "transition: stroke-dashoffset 0.25s linear" no CSS, então não
+    // precisamos de um passo por frame (rAF, ~60x/s) pra parecer fluido —
+    // 100ms é suave o bastante e roda uma fração do trabalho de DOM,
+    // o que importa porque esse loop roda em paralelo em cada cliente
+    // conectado à sala durante toda a pergunta.
+    const TICK_MS = 100;
 
-    cancelAnimationFrame(state.countdownRAF);
+    clearInterval(state.countdownTimer);
 
     function tick() {
       const nowServerEstimate = Date.now() - clockOffset;
@@ -1215,13 +1222,15 @@
       else if (fraction > 0.2) ring.dataset.state = 'warn';
       else ring.dataset.state = 'danger';
 
-      if (remainingMs > 0) {
-        state.countdownRAF = requestAnimationFrame(tick);
-      } else if (!state.hasAnswered) {
-        [...$('options-grid').children].forEach((b) => (b.disabled = true));
+      if (remainingMs <= 0) {
+        clearInterval(state.countdownTimer);
+        if (!state.hasAnswered) {
+          [...$('options-grid').children].forEach((b) => (b.disabled = true));
+        }
       }
     }
     tick();
+    state.countdownTimer = setInterval(tick, TICK_MS);
   }
 
   function onAnswersProgress({ answered, total }) {
@@ -1247,7 +1256,7 @@
   }
 
   function onReveal({ correctIndex, perPlayerResults, updatedScoreboard }) {
-    cancelAnimationFrame(state.countdownRAF);
+    clearInterval(state.countdownTimer);
     const mine = perPlayerResults.find((r) => r.playerId === state.playerId);
 
     // Mostra visualmente qual era a correta na própria tela de pergunta por um instante

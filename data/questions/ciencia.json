@@ -245,5 +245,44 @@
       "Vênus"
     ],
     "correct_index": 2
+  },
+  {
+    "id": "cie-020",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o principal gás responsável pelo efeito estufa?",
+    "options": [
+      "Dióxido de carbono",
+      "Oxigênio",
+      "Hidrogênio",
+      "Nitrogênio"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cie-021",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Quantos pares de cromossomos tem uma célula humana comum?",
+    "options": [
+      "23 pares",
+      "21 pares",
+      "24 pares",
+      "46 pares"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cie-022",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é a velocidade aproximada da luz no vácuo?",
+    "options": [
+      "300 mil km/s",
+      "150 mil km/s",
+      "3 mil km/s",
+      "900 mil km/s"
+    ],
+    "correct_index": 0
   }
 ]

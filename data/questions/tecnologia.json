@@ -245,5 +245,44 @@
       "FTP"
     ],
     "correct_index": 2
+  },
+  {
+    "id": "tec-020",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla 'URL'?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Reference Link",
+      "User Response Log",
+      "Unified Retrieval Language"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-021",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Quem criou a linguagem de programação Python?",
+    "options": [
+      "Guido van Rossum",
+      "Dennis Ritchie",
+      "James Gosling",
+      "Bjarne Stroustrup"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-022",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual é a porta padrão usada pelo protocolo HTTPS?",
+    "options": [
+      "443",
+      "80",
+      "21",
+      "25"
+    ],
+    "correct_index": 0
   }
 ]

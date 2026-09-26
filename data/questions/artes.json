@@ -258,5 +258,31 @@
       "Rembrandt"
     ],
     "correct_index": 2
+  },
+  {
+    "id": "art-021",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual movimento artístico brasileiro teve a Semana de Arte Moderna de 1922 como marco?",
+    "options": [
+      "Modernismo",
+      "Barroco",
+      "Neoclassicismo",
+      "Impressionismo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-022",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Onde está exposta a escultura 'A Pietà', de Michelangelo?",
+    "options": [
+      "Basílica de São Pedro (Vaticano)",
+      "Museu do Louvre (Paris)",
+      "Galeria Uffizi (Florença)",
+      "Museu do Prado (Madri)"
+    ],
+    "correct_index": 0
   }
 ]
