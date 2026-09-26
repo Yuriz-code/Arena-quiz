@@ -59,12 +59,72 @@ body {
 button { font-family: inherit; }
 input { font-family: inherit; }
 
+/* ---------- Layout com barra lateral (contas logadas) ---------- */
+/* Sem conta ou fora das abas de navegação, #app-nav fica [hidden] e o
+   .app-layout se comporta como antes (.app sozinho, centralizado). */
+.app-layout { display: flex; min-height: 100vh; }
+
 .app {
+  flex: 1;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 24px 16px 96px; /* folga embaixo pro botão do chat não cobrir o conteúdo */
+}
+
+.app-nav {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 220px;
+  padding: 28px 14px;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+}
+.app-nav[hidden] { display: none; }
+.app-nav-label {
+  color: var(--text-faint);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  margin: 4px 10px 10px;
+}
+.app-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--text-dim);
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 12px 12px;
+  min-height: 44px;
+  cursor: pointer;
+}
+.app-nav-item:hover { background: var(--surface-2); color: var(--text); }
+.app-nav-item[data-active="true"] { background: var(--surface-2); color: var(--text); font-weight: 600; box-shadow: inset 3px 0 0 var(--accent); }
+.app-nav-icon { font-size: 1.15rem; line-height: 1; }
+
+@media (max-width: 780px) {
+  .app-layout { flex-direction: column; }
+  .app-nav {
+    width: 100%;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 6px;
+    padding: 10px 12px;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+  .app-nav-label { display: none; }
+  .app-nav-item { width: auto; flex-shrink: 0; padding: 10px 14px; }
 }
 
 .screen { width: 100%; display: none; }
@@ -623,3 +683,20 @@ input[type="text"]:focus-visible, input[type="password"]:focus-visible {
   background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-sm);
   padding: 8px 12px; margin: 18px 0 0;
 }
+
+/* ---------- Nível (aba Níveis) ---------- */
+.level-badge { display: flex; justify-content: center; margin: 8px 0 18px; }
+.level-number {
+  display: flex; align-items: center; justify-content: center;
+  width: 96px; height: 96px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, var(--accent), var(--accent-dark));
+  color: var(--accent-contrast);
+  font-family: var(--font-display); font-weight: 700; font-size: 2.4rem;
+  box-shadow: 0 0 0 6px rgba(255,138,61,0.14);
+}
+.level-progress-track {
+  height: 10px; border-radius: 999px; background: var(--bg); border: 1px solid var(--border);
+  overflow: hidden; margin: 0 0 10px;
+}
+.level-progress-fill { height: 100%; background: var(--accent); border-radius: 999px; transition: width 0.3s ease; }
+.level-progress-text { text-align: center; color: var(--text-dim); font-size: 0.85rem; margin: 0 0 20px; }

@@ -33,6 +33,31 @@
   </div>
 </aside>
 
+<div id="app-layout" class="app-layout">
+
+<!-- ===================== NAVEGAÇÃO (SÓ PARA CONTAS LOGADAS) ===================== -->
+<!-- Escondida por padrão; showScreen() em app.js mostra/esconde e marca o
+     item ativo. Convidado (sem conta) nunca vê essa barra — ver isGuest. -->
+<nav id="app-nav" class="app-nav" aria-label="Navegação principal" hidden>
+  <p class="app-nav-label">Navegar</p>
+  <button type="button" class="app-nav-item" data-nav="entry" data-active="true">
+    <span class="app-nav-icon" aria-hidden="true">🏠</span>
+    <span class="app-nav-text">Início</span>
+  </button>
+  <button type="button" class="app-nav-item" data-nav="ranking" data-active="false">
+    <span class="app-nav-icon" aria-hidden="true">🏆</span>
+    <span class="app-nav-text">Ranking</span>
+  </button>
+  <button type="button" class="app-nav-item" data-nav="levels" data-active="false">
+    <span class="app-nav-icon" aria-hidden="true">📈</span>
+    <span class="app-nav-text">Níveis</span>
+  </button>
+  <button type="button" class="app-nav-item" data-nav="achievements" data-active="false">
+    <span class="app-nav-icon" aria-hidden="true">🎖️</span>
+    <span class="app-nav-text">Conquistas</span>
+  </button>
+</nav>
+
 <main id="app" class="app">
 
   <!-- ===================== TELA: LOGIN (CONTA) ===================== -->
@@ -205,6 +230,59 @@
 
       <h3 class="section-subtitle">Placar geral</h3>
       <div id="lb-home" class="lb"></div>
+    </div>
+  </section>
+
+  <!-- ===================== TELA: RANKING (ABA DA BARRA LATERAL) ===================== -->
+  <!-- Mesmo placar geral da tela de início, só que em foco próprio — reaproveita
+       LB_CONTAINERS/buildLeaderboardShell/renderLeaderboard em app.js, só
+       adicionando 'lb-ranking' à lista de containers. -->
+  <section class="screen" id="screen-ranking" data-active="false">
+    <div class="stage-card wide">
+      <h2 class="podium-title">Ranking</h2>
+      <div id="lb-ranking" class="lb"></div>
+    </div>
+  </section>
+
+  <!-- ===================== TELA: NÍVEIS (ABA DA BARRA LATERAL) ===================== -->
+  <!-- Nível calculado no cliente a partir do placar geral (all-time) que a
+       conta já tem em player_stats — não existe coluna de XP/nível no banco;
+       ver levelFromStats()/refreshLevelCard() em app.js. -->
+  <section class="screen" id="screen-levels" data-active="false">
+    <div class="stage-card" id="level-card">
+      <h2 class="podium-title">Seu nível</h2>
+      <div class="level-badge">
+        <span id="level-number" class="level-number">1</span>
+      </div>
+      <div class="level-progress-track">
+        <div id="level-progress-fill" class="level-progress-fill" style="width:0%"></div>
+      </div>
+      <p id="level-progress-text" class="level-progress-text">Jogue sua primeira partida para começar a ganhar XP.</p>
+
+      <div class="personal-stats">
+        <div class="personal-stat">
+          <span id="level-stat-games" class="personal-stat-value" data-kind="games">0</span>
+          <span class="personal-stat-label">Partidas jogadas</span>
+        </div>
+        <div class="personal-stat">
+          <span id="level-stat-wins" class="personal-stat-value" data-kind="wins">0</span>
+          <span class="personal-stat-label">Vitórias</span>
+        </div>
+        <div class="personal-stat">
+          <span id="level-stat-correct" class="personal-stat-value" data-kind="correct">0</span>
+          <span class="personal-stat-label">Questões acertadas</span>
+        </div>
+      </div>
+      <p id="level-error" class="error-text" role="alert"></p>
+    </div>
+  </section>
+
+  <!-- ===================== TELA: CONQUISTAS (ABA DA BARRA LATERAL) ===================== -->
+  <!-- Em breve: sistema de conquistas ainda não existe no banco de dados. -->
+  <section class="screen" id="screen-achievements" data-active="false">
+    <div class="stage-card">
+      <h2 class="podium-title">Conquistas</h2>
+      <p class="empty-hint">Em breve! Selos e conquistas por partidas, sequências de acertos e muito mais estão a caminho.</p>
     </div>
   </section>
 
@@ -401,6 +479,8 @@
   </section>
 
 </main>
+
+</div>
 
 <script src="/socket.io/socket.io.js"></script>
 <script src="/app.js"></script>

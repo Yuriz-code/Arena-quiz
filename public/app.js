@@ -182,6 +182,9 @@
   const screens = {
     login: $('screen-login'),
     entry: $('screen-entry'),
+    ranking: $('screen-ranking'),
+    levels: $('screen-levels'),
+    achievements: $('screen-achievements'),
     profile: $('screen-profile'),
     password: $('screen-password'),
     lobby: $('screen-lobby'),
@@ -190,10 +193,36 @@
     podium: $('screen-podium'),
   };
 
+  // Abas da barra lateral (#app-nav) — só existem/fazem sentido para quem
+  // está logado com conta de verdade (convidado não tem "Início" persistente
+  // entre partidas, então nem vê a barra). Ver updateNavVisibility.
+  const NAV_SCREENS = new Set(['entry', 'ranking', 'levels', 'achievements']);
+
+  function updateNavVisibility(name) {
+    const nav = $('app-nav');
+    const show = NAV_SCREENS.has(name) && !state.isGuest;
+    nav.hidden = !show;
+    if (!show) return;
+    nav.querySelectorAll('.app-nav-item').forEach((btn) => {
+      btn.setAttribute('data-active', String(btn.dataset.nav === name));
+    });
+  }
+
   function showScreen(name) {
     Object.entries(screens).forEach(([key, el]) => el.setAttribute('data-active', key === name ? 'true' : 'false'));
     updateChatVisibility(name);
-    if (name === 'entry' || name === 'podium') refreshLeaderboards(); // função hoisted; sem socket conectado, não faz nada
+    updateNavVisibility(name);
+    if (name === 'entry' || name === 'ranking' || name === 'podium') refreshLeaderboards(); // função hoisted; sem socket conectado, não faz nada
+    if (name === 'levels') refreshLevelCard();
+  }
+
+  $('app-nav').querySelectorAll('.app-nav-item').forEach((btn) => {
+    btn.addEventListener('click', () => showScreen(btn.dataset.nav));
+  });
+
+  /** Início e Ranking mostram o mesmo placar geral — true se uma das duas está na tela agora. */
+  function isLeaderboardScreenActive() {
+    return screens.entry.getAttribute('data-active') === 'true' || screens.ranking.getAttribute('data-active') === 'true';
   }
 
   // ------------------------------------------------------------------
@@ -1049,7 +1078,8 @@
         : `Iniciar partida (${connectedCount} jogadores)`;
     }
 
-    if (payload.phase === 'lobby' && screens.entry.getAttribute('data-active') !== 'true') {
+    const onNavScreen = Object.entries(screens).some(([key, el]) => NAV_SCREENS.has(key) && el.getAttribute('data-active') === 'true');
+    if (payload.phase === 'lobby' && !onNavScreen) {
       showScreen('lobby');
     }
   }
@@ -1409,11 +1439,68 @@
   }
 
   // ------------------------------------------------------------------
+  // Nível (aba Níveis) — calculado no cliente a partir do placar geral
+  // all-time (mesmo dado da aba Ranking, sem coluna nova no banco).
+  // XP: cada acerto vale 10, cada vitória vale 50. Curva de nível: o degrau
+  // até o próximo nível cresce 100 XP por nível (nível 1→2 custa 100, 2→3
+  // custa 200, 3→4 custa 300...), então o requinte de rodar 100 partidas
+  // não trava logo nos primeiros níveis nem deixa os últimos triviais.
+  // ------------------------------------------------------------------
+  const XP_PER_CORRECT = 10;
+  const XP_PER_WIN = 50;
+  const XP_LEVEL_STEP = 100;
+
+  function xpForStats({ correct, wins }) {
+    return correct * XP_PER_CORRECT + wins * XP_PER_WIN;
+  }
+  /** XP acumulado necessário para ALCANÇAR este nível (nível 1 = 0 XP). */
+  function xpToReachLevel(level) {
+    return XP_LEVEL_STEP * ((level - 1) * level) / 2;
+  }
+  function levelForXp(xp) {
+    let level = 1;
+    while (xpToReachLevel(level + 1) <= xp) level++;
+    return level;
+  }
+
+  function renderLevelCard(mine) {
+    const stats = mine || { games: 0, wins: 0, correct: 0, wrong: 0, score: 0 };
+    const xp = xpForStats(stats);
+    const level = levelForXp(xp);
+    const base = xpToReachLevel(level);
+    const next = xpToReachLevel(level + 1);
+    const pct = next > base ? Math.min(100, Math.round(((xp - base) / (next - base)) * 100)) : 100;
+
+    $('level-number').textContent = String(level);
+    $('level-progress-fill').style.width = `${pct}%`;
+    $('level-progress-text').textContent = stats.games > 0
+      ? `${fmtNum(xp)} XP · faltam ${fmtNum(next - xp)} XP para o nível ${level + 1}`
+      : 'Jogue sua primeira partida para começar a ganhar XP.';
+
+    $('level-stat-games').textContent = fmtNum(stats.games);
+    $('level-stat-wins').textContent = fmtNum(stats.wins);
+    $('level-stat-correct').textContent = fmtNum(stats.correct);
+  }
+
+  function refreshLevelCard() {
+    if (!state.socket || !state.socket.connected) return;
+    $('level-error').textContent = '';
+    const payload = { period: 'all', metric: 'points', authToken: roomAuthToken(), deviceId: state.deviceId };
+    emitWithTimeout('leaderboard:get', payload, 8000, (res) => {
+      if (!res || !res.ok) {
+        $('level-error').textContent = 'Não foi possível carregar seu nível agora.';
+        return;
+      }
+      renderLevelCard(res.me);
+    });
+  }
+
+  // ------------------------------------------------------------------
   // Ranking (placar geral) — período + critério, com a sua posição.
   // Um recorte só (lbSel) vale para os dois lugares onde aparece (menu e pódio);
   // cada troca de aba pede ao servidor (leaderboard:get) e redesenha os dois.
   // ------------------------------------------------------------------
-  const LB_CONTAINERS = ['lb-home', 'lb-podium'];
+  const LB_CONTAINERS = ['lb-home', 'lb-ranking', 'lb-podium'];
   const LB_PERIODS = [['all', 'Sempre'], ['month', '30 dias'], ['week', '7 dias']];
   const LB_METRICS = [['points', 'Pontos'], ['average', 'Média'], ['wins', 'Vitórias'], ['accuracy', 'Precisão']];
   const lbSel = { period: 'all', metric: 'points' };
@@ -1650,7 +1737,7 @@
     state.socket.on('connect', () => {
       setConnIndicator('ok');
       updateConnStatus('connected');
-      if (screens.entry.getAttribute('data-active') === 'true') refreshLeaderboards();
+      if (isLeaderboardScreenActive()) refreshLeaderboards();
 
       // Reconexão de SALA (sessionToken) — independente de estar logado ou
       // não na conta; se a pessoa já estava numa partida, ela continua nela.
@@ -1744,7 +1831,7 @@
     // Aviso do servidor de que o placar mudou (fim de partida) / conexão nova:
     // quem está olhando o menu recarrega o recorte atual.
     state.socket.on('overall_leaderboard', () => {
-      if (screens.entry.getAttribute('data-active') === 'true') refreshLeaderboards();
+      if (isLeaderboardScreenActive()) refreshLeaderboards();
     });
     state.socket.on('you_were_kicked', () => backToEntryWithMessage('Você foi removido da sala pelo host.'));
     state.socket.on('you_were_banned', () => backToEntryWithMessage('Você foi banido desta sala.'));
