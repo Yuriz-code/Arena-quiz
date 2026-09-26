@@ -1,0 +1,275 @@
+[
+  {
+    "id": "cin-001",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem dirigiu o filme 'Pulp Fiction' (1994)?",
+    "options": [
+      "David Fincher",
+      "Christopher Nolan",
+      "Martin Scorsese",
+      "Quentin Tarantino"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-002",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual filme venceu o Oscar de Melhor Filme em 2020?",
+    "options": [
+      "1917",
+      "Parasita",
+      "Coringa",
+      "Jojo Rabbit"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-003",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem interpreta o Homem de Ferro no Universo Cinematográfico Marvel?",
+    "options": [
+      "Mark Ruffalo",
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Chris Hemsworth"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-004",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor é conhecido por filmar sempre em formato 4:3, como em 'Grand Budapest Hotel'?",
+    "options": [
+      "Wes Anderson",
+      "Denis Villeneuve",
+      "Yorgos Lanthimos",
+      "Tim Burton"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-005",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Em que ano foi lançado o primeiro filme de 'Star Wars'?",
+    "options": [
+      "1980",
+      "1983",
+      "1977",
+      "1975"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-006",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme brasileiro foi indicado ao Oscar de Melhor Filme Internacional em 1999?",
+    "options": [
+      "Tropa de Elite",
+      "O Auto da Compadecida",
+      "Cidade de Deus",
+      "Central do Brasil"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-007",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem dirigiu o filme \"Tubarão\" (1975)?",
+    "options": [
+      "James Cameron",
+      "George Lucas",
+      "Steven Spielberg",
+      "Martin Scorsese"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-008",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual filme sobre o naufrágio do Titanic ganhou o Oscar de Melhor Filme em 1998?",
+    "options": [
+      "Gladiador",
+      "Coração Valente",
+      "Titanic",
+      "Forrest Gump"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-009",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem interpretou o Coringa no filme \"Coringa\" (2019)?",
+    "options": [
+      "Jack Nicholson",
+      "Joaquin Phoenix",
+      "Heath Ledger",
+      "Jared Leto"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-010",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual estúdio de animação produziu \"Toy Story\"?",
+    "options": [
+      "Pixar",
+      "Disney Animation",
+      "DreamWorks",
+      "Illumination"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-011",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Quem dirigiu a trilogia original de \"O Poderoso Chefão\"?",
+    "options": [
+      "Francis Ford Coppola",
+      "Stanley Kubrick",
+      "Martin Scorsese",
+      "Sergio Leone"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-012",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Em qual franquia aparece o personagem pirata Jack Sparrow?",
+    "options": [
+      "Jogos Vorazes",
+      "Percy Jackson",
+      "Piratas do Caribe",
+      "Harry Potter"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-013",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual atriz interpretou Hermione Granger na saga Harry Potter?",
+    "options": [
+      "Kristen Stewart",
+      "Natalie Portman",
+      "Emma Stone",
+      "Emma Watson"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-014",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual diretor é conhecido por filmes como \"Kill Bill\" e \"Pulp Fiction\"?",
+    "options": [
+      "Guy Ritchie",
+      "Christopher Nolan",
+      "Quentin Tarantino",
+      "David Fincher"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-015",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme sul-coreano foi o primeiro não falado em inglês a ganhar o Oscar de Melhor Filme?",
+    "options": [
+      "Parasita",
+      "Adoráveis Mulheres",
+      "Coringa",
+      "1917"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-016",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem dirigiu a trilogia cinematográfica \"O Senhor dos Anéis\"?",
+    "options": [
+      "James Cameron",
+      "Peter Jackson",
+      "Ridley Scott",
+      "Tim Burton"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-017",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual é o apelido do tubarão mecânico usado nas filmagens de \"Tubarão\" (1975)?",
+    "options": [
+      "Jaws",
+      "Baby",
+      "Nemo",
+      "Bruce"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-018",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem interpreta Tony Stark / Homem de Ferro no Universo Cinematográfico Marvel?",
+    "options": [
+      "Mark Ruffalo",
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Robert Downey Jr."
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-019",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor é conhecido por filmes como \"Amadeus\" e \"Um Estranho no Ninho\"?",
+    "options": [
+      "Milos Forman",
+      "Stanley Kubrick",
+      "Ridley Scott",
+      "Roman Polanski"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-020",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual estúdio criou a franquia \"Star Wars\"?",
+    "options": [
+      "Universal",
+      "Marvel Studios",
+      "Warner Bros.",
+      "Lucasfilm"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-021",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual foi o primeiro longa-metragem de animação totalmente feito por computador?",
+    "options": [
+      "Toy Story",
+      "A Era do Gelo",
+      "Procurando Nemo",
+      "Shrek"
+    ],
+    "correct_index": 0
+  }
+]

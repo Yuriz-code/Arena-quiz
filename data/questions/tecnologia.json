@@ -1,0 +1,249 @@
+[
+  {
+    "id": "tec-001",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual protocolo é a base para comunicação bidirecional em tempo real, usado neste próprio quiz?",
+    "options": [
+      "SMTP",
+      "WebSocket",
+      "HTTP/2 Server Push",
+      "FTP"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-002",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla 'CPU'?",
+    "options": [
+      "Central Process Unit",
+      "Central Processing Unit",
+      "Central Processor Utility",
+      "Computer Personal Unit"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-003",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa desenvolveu o sistema operacional Android?",
+    "options": [
+      "Microsoft",
+      "Apple",
+      "Samsung",
+      "Google"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "tec-004",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "O que significa a sigla 'HTML'?",
+    "options": [
+      "Hyperlink and Text Markup Language",
+      "Hyper Text Markup Language",
+      "High Tech Modern Language",
+      "Home Tool Markup Language"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-005",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual linguagem de programação é conhecida por rodar nativamente em navegadores web?",
+    "options": [
+      "C++",
+      "Java",
+      "Python",
+      "JavaScript"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "tec-006",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual algoritmo de ordenação tem complexidade média O(n log n) e é amplamente usado por sua eficiência?",
+    "options": [
+      "Selection Sort",
+      "Quick Sort",
+      "Insertion Sort",
+      "Bubble Sort"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-007",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa criou o sistema operacional Windows?",
+    "options": [
+      "Microsoft",
+      "IBM",
+      "Apple",
+      "Google"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-008",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla \"WWW\"?",
+    "options": [
+      "Wide World Web",
+      "World Wide Wire",
+      "Web Wide World",
+      "World Wide Web"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "tec-009",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Quem são os cofundadores da Apple?",
+    "options": [
+      "Larry Page e Sergey Brin",
+      "Jeff Bezos e Elon Musk",
+      "Bill Gates e Paul Allen",
+      "Steve Jobs e Steve Wozniak"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "tec-010",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual rede social foi fundada por Mark Zuckerberg?",
+    "options": [
+      "Instagram",
+      "Facebook",
+      "Twitter",
+      "LinkedIn"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-011",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual matemático britânico é amplamente considerado um dos pais da computação moderna?",
+    "options": [
+      "Ada Lovelace",
+      "Alan Turing",
+      "Charles Babbage",
+      "John von Neumann"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-012",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa é dona do buscador Google?",
+    "options": [
+      "Alphabet",
+      "Amazon",
+      "Meta",
+      "Microsoft"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-013",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Em que ano foi lançado o primeiro iPhone?",
+    "options": [
+      "2001",
+      "2007",
+      "2010",
+      "2005"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-014",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual é o navegador de internet desenvolvido pelo Google?",
+    "options": [
+      "Safari",
+      "Google Chrome",
+      "Edge",
+      "Firefox"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-015",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual linguagem de programação é representada pelo símbolo de uma xícara de café?",
+    "options": [
+      "C++",
+      "JavaScript",
+      "Python",
+      "Java"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "tec-016",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Quem cofundou a Microsoft ao lado de Bill Gates?",
+    "options": [
+      "Larry Ellison",
+      "Steve Jobs",
+      "Paul Allen",
+      "Steve Ballmer"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "tec-017",
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que é um \"byte\" na computação?",
+    "options": [
+      "Um tipo de vírus de computador",
+      "Uma unidade de medida de dados digitais",
+      "Um cabo de rede",
+      "Um protocolo de internet"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-018",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa criou o assistente virtual \"Siri\"?",
+    "options": [
+      "Microsoft",
+      "Apple",
+      "Google",
+      "Amazon"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-019",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual protocolo é usado para transferir páginas da web?",
+    "options": [
+      "SMTP",
+      "TCP",
+      "HTTP",
+      "FTP"
+    ],
+    "correct_index": 2
+  }
+]

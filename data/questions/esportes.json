@@ -1,0 +1,275 @@
+[
+  {
+    "id": "esp-001",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos jogadores compõem um time de vôlei em quadra?",
+    "options": [
+      "7",
+      "8",
+      "5",
+      "6"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "esp-002",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "A cada quantos anos ocorrem os Jogos Olímpicos de Verão?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-003",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Quantas vezes o Brasil foi campeão da Copa do Mundo FIFA (até 2022)?",
+    "options": [
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "esp-004",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual esporte se disputa a Copa Davis?",
+    "options": [
+      "Natação",
+      "Tênis",
+      "Rúgbi",
+      "Golfe"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-005",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual país sediou a primeira Copa do Mundo de Futebol, em 1930?",
+    "options": [
+      "Itália",
+      "Uruguai",
+      "França",
+      "Brasil"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-006",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Quantos sets são necessários para vencer uma partida de tênis em Grand Slam masculino (padrão)?",
+    "options": [
+      "2 de 5",
+      "1 único",
+      "3 de 5",
+      "2 de 3"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-007",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos jogadores de cada time ficam em campo no futebol, sem contar os reservas?",
+    "options": [
+      "12",
+      "11",
+      "10",
+      "9"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-008",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual esporte é comum o termo \"enterrada\" (slam dunk)?",
+    "options": [
+      "Basquete",
+      "Handebol",
+      "Vôlei",
+      "Tênis"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-009",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual país sediou a Copa do Mundo de futebol de 2014?",
+    "options": [
+      "Brasil",
+      "África do Sul",
+      "Catar",
+      "Rússia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-010",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantas vezes o Brasil foi campeão da Copa do Mundo de futebol masculino até 2022?",
+    "options": [
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "esp-011",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual esporte compete Novak Djokovic?",
+    "options": [
+      "Badminton",
+      "Tênis",
+      "Squash",
+      "Golfe"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-012",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual atleta jamaicano detém o recorde mundial dos 100m rasos?",
+    "options": [
+      "Carl Lewis",
+      "Tyson Gay",
+      "Usain Bolt",
+      "Justin Gatlin"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-013",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em que cidade foram realizados os Jogos Olímpicos de Verão de 2016?",
+    "options": [
+      "Pequim",
+      "Tóquio",
+      "Londres",
+      "Rio de Janeiro"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "esp-014",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual nadador conquistou 23 medalhas de ouro olímpicas ao longo da carreira?",
+    "options": [
+      "Mark Spitz",
+      "Michael Phelps",
+      "Ryan Lochte",
+      "Ian Thorpe"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-015",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "No vôlei, quantos sets, no máximo, uma partida costuma ter na maioria das competições?",
+    "options": [
+      "3",
+      "7",
+      "4",
+      "5"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "esp-016",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do troféu atual entregue ao campeão da Copa do Mundo de futebol?",
+    "options": [
+      "Taça Jules Rimet",
+      "Taça FIFA da Copa do Mundo",
+      "Copa das Confederações",
+      "Bola de Ouro"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-017",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual esporte é disputado o torneio de Wimbledon?",
+    "options": [
+      "Natação",
+      "Golfe",
+      "Tênis",
+      "Automobilismo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-018",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual piloto brasileiro é tricampeão mundial de Fórmula 1?",
+    "options": [
+      "Nelson Piquet",
+      "Ayrton Senna",
+      "Rubens Barrichello",
+      "Emerson Fittipaldi"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-019",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual modalidade olímpica compete a ginasta Simone Biles?",
+    "options": [
+      "Patinação",
+      "Atletismo",
+      "Ginástica artística",
+      "Natação"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-020",
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Qual é o nome do estádio do Rio de Janeiro que já sediou finais de Copa do Mundo?",
+    "options": [
+      "Maracanã",
+      "Morumbi",
+      "Pacaembu",
+      "Mineirão"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-021",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do troféu entregue ao melhor jogador de futebol do ano pela revista France Football?",
+    "options": [
+      "Chuteira de Ouro",
+      "Bola de Ouro",
+      "Luva de Ouro",
+      "Bota de Ouro"
+    ],
+    "correct_index": 1
+  }
+]

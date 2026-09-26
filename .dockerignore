@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+
+# Dados de runtime — nunca devem ir dentro da imagem (a instância rodando
+# gera os seus próprios, em DATA_DIR).
+data/quizarena.db
+data/quizarena.db-*
+data/player-stats.json*
+data/question-history.json*
+
+tests
+.git
+.gitignore
+.env
+Dockerfile
+.dockerignore

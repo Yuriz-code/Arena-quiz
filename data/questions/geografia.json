@@ -1,0 +1,262 @@
+[
+  {
+    "id": "geo-001",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o maior país do mundo em extensão territorial?",
+    "options": [
+      "Rússia",
+      "Estados Unidos",
+      "China",
+      "Canadá"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "geo-002",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital da Austrália?",
+    "options": [
+      "Perth",
+      "Melbourne",
+      "Sydney",
+      "Canberra"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "geo-003",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual rio é o mais extenso do mundo?",
+    "options": [
+      "Mississippi",
+      "Amazonas",
+      "Yangtzé",
+      "Nilo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-004",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Quantos estados compõem a Região Nordeste do Brasil?",
+    "options": [
+      "10",
+      "8",
+      "9",
+      "7"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "geo-005",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o ponto mais baixo da superfície terrestre em terra firme?",
+    "options": [
+      "Mar Morto",
+      "Depressão de Qattara",
+      "Fossa das Marianas",
+      "Vale da Morte"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "geo-006",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em que continente fica o deserto do Saara?",
+    "options": [
+      "América do Sul",
+      "África",
+      "Ásia",
+      "Oceania"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-007",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o maior país do mundo em área territorial?",
+    "options": [
+      "China",
+      "Rússia",
+      "Canadá",
+      "Estados Unidos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-008",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o maior deserto quente do mundo?",
+    "options": [
+      "Kalahari",
+      "Gobi",
+      "Saara",
+      "Atacama"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "geo-009",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em que continente fica o Egito?",
+    "options": [
+      "África",
+      "Oceania",
+      "Ásia",
+      "Europa"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "geo-010",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é a montanha mais alta do mundo?",
+    "options": [
+      "Aconcágua",
+      "K2",
+      "Monte Everest",
+      "Kilimanjaro"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "geo-011",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital do Brasil?",
+    "options": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Brasília",
+      "Salvador"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "geo-012",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual istmo liga a América do Norte à América do Sul?",
+    "options": [
+      "Canal de Suez",
+      "Istmo do Panamá",
+      "Golfo do México",
+      "Estreito de Bering"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-013",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o menor país do mundo em área territorial?",
+    "options": [
+      "San Marino",
+      "Liechtenstein",
+      "Mônaco",
+      "Vaticano"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "geo-014",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o maior oceano do planeta?",
+    "options": [
+      "Oceano Ártico",
+      "Oceano Pacífico",
+      "Oceano Atlântico",
+      "Oceano Índico"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-015",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em que país está localizada a Torre Eiffel?",
+    "options": [
+      "França",
+      "Itália",
+      "Alemanha",
+      "Espanha"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "geo-016",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o país mais populoso do mundo atualmente?",
+    "options": [
+      "Indonésia",
+      "Índia",
+      "China",
+      "Estados Unidos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-017",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual linha imaginária divide a Terra nos hemisférios Norte e Sul?",
+    "options": [
+      "Trópico de Capricórnio",
+      "Trópico de Câncer",
+      "Linha do Equador",
+      "Meridiano de Greenwich"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "geo-018",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o continente mais frio do planeta?",
+    "options": [
+      "Ásia",
+      "Europa",
+      "Antártida",
+      "América do Norte"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "geo-019",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual país é conhecido como a \"terra do sol nascente\"?",
+    "options": [
+      "Tailândia",
+      "Japão",
+      "China",
+      "Coreia do Sul"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-020",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o maior arquipélago do mundo?",
+    "options": [
+      "Maldivas",
+      "Japão",
+      "Indonésia",
+      "Filipinas"
+    ],
+    "correct_index": 2
+  }
+]

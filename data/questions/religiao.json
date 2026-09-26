@@ -1,0 +1,795 @@
+[
+  {
+    "id": "rel-001",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual religião tem o Papa como líder máximo?",
+    "options": [
+      "Anglicanismo",
+      "Ortodoxa",
+      "Protestantismo",
+      "Catolicismo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-002",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual é o livro sagrado do Cristianismo?",
+    "options": [
+      "Torá",
+      "Bíblia",
+      "Bhagavad Gita",
+      "Alcorão"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-003",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Em que cidade nasceu Jesus Cristo, segundo a tradição cristã?",
+    "options": [
+      "Jerusalém",
+      "Roma",
+      "Belém",
+      "Nazaré"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-004",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual figura é considerada a mãe de Jesus Cristo no Cristianismo?",
+    "options": [
+      "Marta",
+      "Isabel",
+      "Maria",
+      "Madalena"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-005",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual papa católico convocou o histórico Concílio Vaticano II em 1962?",
+    "options": [
+      "Papa Pio XII",
+      "Papa Paulo VI",
+      "Papa João XXIII",
+      "Papa João Paulo II"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-006",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual imperador romano converteu-se ao Cristianismo e transferiu a capital imperial para Constantinopla?",
+    "options": [
+      "Juliano",
+      "Diocleciano",
+      "Teodósio I",
+      "Constantino I"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-007",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual sacramento católico simboliza a purificação do pecado original e a entrada na Igreja?",
+    "options": [
+      "Crisma",
+      "Eucaristia",
+      "Batismo",
+      "Confissão"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-008",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual apóstolo de Jesus é tradicionalmente considerado pela Igreja Católica como o primeiro papa?",
+    "options": [
+      "João",
+      "Pedro",
+      "Tiago",
+      "Paulo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-009",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual cisma religioso em 1054 dividiu a Igreja cristã entre Igreja Católica e Igreja Ortodoxa?",
+    "options": [
+      "Cisma do Ocidente",
+      "Concílio de Niceia",
+      "Reforma Protestante",
+      "Grande Cisma do Oriente"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-010",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual ramo do Cristianismo surgiu no século XVI a partir de protestos contra indulgências e autoridade papal?",
+    "options": [
+      "Ortodoxia",
+      "Catolicismo",
+      "Anglicanismo",
+      "Protestantismo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-011",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual anjo da tradição judaico-cristã e islâmica anunciou à Virgem Maria o nascimento de Jesus?",
+    "options": [
+      "Arcanjo Miguel",
+      "Arcanjo Uriel",
+      "Arcanjo Rafael",
+      "Arcanjo Gabriel"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-012",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual apóstolo traiu Jesus Cristo entregando-o às autoridades por trinta moedas de prata?",
+    "options": [
+      "Simão",
+      "Tomé",
+      "Judas Iscariotes",
+      "Pedro"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-013",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o principal símbolo religioso do Cristianismo?",
+    "options": [
+      "Estrela de Davi",
+      "Crescente",
+      "Cruz",
+      "Roda do Dharma"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-014",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual teólogo francês formulou a doutrina da predestinação absoluta durante a Reforma Protestante?",
+    "options": [
+      "John Knox",
+      "Martinho Lutero",
+      "João Calvino",
+      "Ulrico Zwínglio"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-015",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual rito sacramental protestante e católico comemora a Última Ceia com pão e vinho?",
+    "options": [
+      "Batismo",
+      "Unção dos Enfermos",
+      "Eucaristia (ou Santa Ceia)",
+      "Crisma"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-016",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual festa católica comemora a descida do Espírito Santo sobre os apóstolos cinquenta dias após a Páscoa?",
+    "options": [
+      "Epifania",
+      "Páscoa",
+      "Pentecostes",
+      "Corpus Christi"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-017",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o livro sagrado do Judaísmo composto pelos cinco primeiros livros da Bíblia hebraica?",
+    "options": [
+      "Torá",
+      "Mishná",
+      "Talmude",
+      "Talmud Bavli"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-018",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o livro sagrado do Judaísmo?",
+    "options": [
+      "Alcorão",
+      "Bíblia",
+      "Torá",
+      "Vedas"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-019",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Quantos mandamentos, segundo a tradição bíblica, Moisés recebeu de Deus?",
+    "options": [
+      "5",
+      "12",
+      "10",
+      "7"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-020",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual é o dia sagrado de descanso semanal no Judaísmo?",
+    "options": [
+      "Shabat",
+      "Yom Kippur",
+      "Domingo",
+      "Ramadã"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-021",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual conjunto de leis divinas Moisés teria recebido no Monte Sinai segundo a tradição bíblica?",
+    "options": [
+      "A Torá completa",
+      "O Talmude",
+      "Os Dez Mandamentos",
+      "As Bem-Aventuranças"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-022",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual patriarca bíblico é considerado o ancestral fundador comum do Judaísmo, Cristianismo e Islã?",
+    "options": [
+      "Isaque",
+      "Noé",
+      "Moisés",
+      "Abraão"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-023",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual festa judaica de oito dias celebra a rededicação do Segundo Templo através do acendimento da Menorá?",
+    "options": [
+      "Yom Kipur",
+      "Hanukkah (Chanucá)",
+      "Pessach",
+      "Purim"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-024",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual cidade é considerada sagrada simultaneamente por cristãos, judeus e muçulmanos?",
+    "options": [
+      "Belém",
+      "Roma",
+      "Jerusalém",
+      "Meca"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-025",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual cerimônia de transição no Judaísmo celebra a maioridade religiosa de um jovem aos 13 anos?",
+    "options": [
+      "Yom Kipur",
+      "Shabat",
+      "Bar Mitzvah",
+      "Brit Milá"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-026",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o templo ou casa de oração e estudos do Judaísmo?",
+    "options": [
+      "Igreja",
+      "Templo",
+      "Sinagoga",
+      "Mesquita"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-027",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual rei de Israel e autor de muitos salmos derrotou o gigante Golias com uma funda quando jovem?",
+    "options": [
+      "Salomão",
+      "Saul",
+      "Davi",
+      "Samuel"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-028",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o dia mais sagrado e solene do calendário judaico, conhecido como o 'Dia do Perdão'?",
+    "options": [
+      "Yom Kipur",
+      "Pessach",
+      "Rosh Hashaná",
+      "Sucot"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-029",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o livro sagrado central do Islamismo?",
+    "options": [
+      "Bhagavad Gita",
+      "Alcorão",
+      "Tao Te Ching",
+      "Torá"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-030",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Como se chama o jejum anual observado durante o mês sagrado do Islã?",
+    "options": [
+      "Shahada",
+      "Hajj",
+      "Ramadã",
+      "Zakat"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-031",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual é o livro sagrado do Islã?",
+    "options": [
+      "Torá",
+      "Alcorão",
+      "Tripitaka",
+      "Bíblia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-032",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da peregrinação anual que os muçulmanos fazem a Meca?",
+    "options": [
+      "Sharia",
+      "Ramadã",
+      "Zakat",
+      "Hajj"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-033",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do mês sagrado de jejum no Islã?",
+    "options": [
+      "Ramadã",
+      "Hajj",
+      "Zakat",
+      "Eid"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-034",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual é o nome do templo sagrado dos muçulmanos localizado em Meca?",
+    "options": [
+      "Caaba",
+      "Cúpula da Rocha",
+      "Mesquita de Medina",
+      "Mesquita Azul"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-035",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é a cidade mais sagrada para os muçulmanos, onde fica a Caaba?",
+    "options": [
+      "Bagdá",
+      "Jerusalém",
+      "Meca",
+      "Medina"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-036",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Quais são as duas principais vertentes históricas em que o Islã se divide?",
+    "options": [
+      "Drusos e Alauitas",
+      "Ismaelitas e Zaiditas",
+      "Sufis e Ahmadis",
+      "Sunitas e Xiitas"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-037",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o local de culto coletivo e adoração dos muçulmanos?",
+    "options": [
+      "Igreja",
+      "Sinagoga",
+      "Templo",
+      "Mesquita"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-038",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Em que cidade nasceu Buda, segundo a tradição budista?",
+    "options": [
+      "Jerusalém",
+      "Meca",
+      "Lumbini",
+      "Varanasi"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-039",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual religião de matriz africana, praticada no Brasil, cultua os Orixás?",
+    "options": [
+      "Candomblé",
+      "Xintoísmo",
+      "Xamanismo",
+      "Vodu"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-040",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Quem é considerado o fundador do Budismo?",
+    "options": [
+      "Confúcio",
+      "Sidarta Gautama (Buda)",
+      "Mahavira",
+      "Lao-Tsé"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-041",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o nome do texto sagrado hindu que narra o diálogo entre Krishna e Arjuna?",
+    "options": [
+      "Alcorão",
+      "Bhagavad Gita",
+      "Torá",
+      "Tao Te Ching"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-042",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual é o termo para o ciclo de nascimento, morte e renascimento em religiões orientais como Hinduísmo e Budismo?",
+    "options": [
+      "Karma",
+      "Nirvana",
+      "Samsara",
+      "Dharma"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-043",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual religião monoteísta antiga, originária da Pérsia, é praticada pelos zoroastristas?",
+    "options": [
+      "Mitraísmo",
+      "Maniqueísmo",
+      "Zoroastrismo",
+      "Manicheísmo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-044",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual líder religioso e místico alcançou a iluminação debaixo da árvore Bodhi, tornando-se o Buda?",
+    "options": [
+      "Confúcio",
+      "Siddhartha Gautama",
+      "Mahavira",
+      "Lao-Tsé"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-045",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual deusa ou orixá das religiões de matriz afro-brasileira é associada aos mares e oceanos?",
+    "options": [
+      "Oxum",
+      "Iansã",
+      "Nanã",
+      "Iemanjá"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-046",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual conceito no Hinduísmo e Budismo define a lei de causa e efeito das ações de um indivíduo?",
+    "options": [
+      "Carma",
+      "Moksha",
+      "Dharma",
+      "Samsara"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-047",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual divindade hindu com cabeça de elefante é venerada como o removedor de obstáculos?",
+    "options": [
+      "Hanuman",
+      "Vishnu",
+      "Ganesha",
+      "Shiva"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-048",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o título dado ao líder espiritual e temporal tradicional do Budismo Tibetano?",
+    "options": [
+      "Rinpoche",
+      "Dalai Lama",
+      "Lama Tulku",
+      "Panchen Lama"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-049",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "No Candomblé e na Umbanda, qual orixá é considerado o guardião dos caminhos e mensageiro dos deuses?",
+    "options": [
+      "Ogum",
+      "Oxóssi",
+      "Omulu",
+      "Exu"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-050",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é a trindade suprema de divindades do Hinduísmo, conhecida como Trimúrti?",
+    "options": [
+      "Rama, Krishna e Hanuman",
+      "Brahma, Vishnu e Shiva",
+      "Indra, Agni e Surya",
+      "Shiva, Kali e Durga"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-051",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual tradição espiritual e religiosa nativa do Japão venera espíritos da natureza chamados Kami?",
+    "options": [
+      "Budismo Zen",
+      "Taoísmo",
+      "Xintoísmo",
+      "Confucionismo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-052",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual filósofo chinês antigo fundou o Taoísmo com o texto clássico 'Tao Te Ching'?",
+    "options": [
+      "Chuang Tzu",
+      "Confúcio",
+      "Lao Tsé",
+      "Mêncio"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-053",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual orixá ligado à justiça, ao trovão e ao fogo empunha o machado bipene (oxê)?",
+    "options": [
+      "Xangô",
+      "Obaluaê",
+      "Ogum",
+      "Oxumaré"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-054",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual animal é considerado sagrado e símbolo de maternidade e abundância no Hinduísmo tradicional?",
+    "options": [
+      "Vaca",
+      "Elefante",
+      "Cobra",
+      "Macaco"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-055",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual termo teológico designa a crença na existência de um único Deus?",
+    "options": [
+      "Monoteísmo",
+      "Ateísmo",
+      "Politeísmo",
+      "Panteísmo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-056",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual estado supremo de libertação do ciclo de renascimentos e sofrimento é buscado no Budismo?",
+    "options": [
+      "Karma",
+      "Nirvana",
+      "Samsara",
+      "Dharma"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-057",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Em qual religião monoteísta originada na Índia os homens praticantes usam turbantes e deixam o cabelo sem cortar?",
+    "options": [
+      "Sikhismo",
+      "Jainismo",
+      "Budismo",
+      "Hinduísmo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-058",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual orixá guerreiro associado ao ferro, à tecnologia e aos caminhos abertos é cultuado no Candomblé?",
+    "options": [
+      "Xangô",
+      "Exu",
+      "Oxóssi",
+      "Ogum"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-059",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o nome das escrituras sagradas mais antigas do Hinduísmo, compostas em sânscrito védico?",
+    "options": [
+      "Vedas",
+      "Bhagavad Gita",
+      "Upanixades",
+      "Puranas"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-060",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual educador francês codificou a doutrina espírita no século XIX através de 'O Livro dos Espíritos'?",
+    "options": [
+      "Léon Denis",
+      "Divaldo Franco",
+      "Allan Kardec",
+      "Chico Xavier"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-061",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual orixá ancião da criação é representado pela cor branca e pelo respeito à vida e à paz?",
+    "options": [
+      "Obaluaê",
+      "Oxalá",
+      "Nanã",
+      "Oxum"
+    ],
+    "correct_index": 1
+  }
+]

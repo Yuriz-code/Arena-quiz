@@ -1,0 +1,262 @@
+[
+  {
+    "id": "lit-001",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'Dom Casmurro'?",
+    "options": [
+      "Machado de Assis",
+      "Clarice Lispector",
+      "Graciliano Ramos",
+      "José de Alencar"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-002",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a saga 'Harry Potter'?",
+    "options": [
+      "C.S. Lewis",
+      "J.K. Rowling",
+      "George R.R. Martin",
+      "J.R.R. Tolkien"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-003",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Qual é o autor de 'Romeu e Julieta'?",
+    "options": [
+      "William Shakespeare",
+      "Victor Hugo",
+      "Charles Dickens",
+      "Oscar Wilde"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-004",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'Grande Sertão: Veredas'?",
+    "options": [
+      "Érico Veríssimo",
+      "Jorge Amado",
+      "Rachel de Queiroz",
+      "Guimarães Rosa"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-005",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual obra de Machado de Assis é narrada por um defunto-autor?",
+    "options": [
+      "Iaiá Garcia",
+      "Memórias Póstumas de Brás Cubas",
+      "Esaú e Jacó",
+      "Quincas Borba"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-006",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu 'Cem Anos de Solidão'?",
+    "options": [
+      "Pablo Neruda",
+      "Gabriel García Márquez",
+      "Mario Vargas Llosa",
+      "Jorge Luis Borges"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-007",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem é a autora da saga \"Harry Potter\"?",
+    "options": [
+      "J.K. Rowling",
+      "Suzanne Collins",
+      "J.R.R. Tolkien",
+      "C.S. Lewis"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-008",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Romeu e Julieta\"?",
+    "options": [
+      "Oscar Wilde",
+      "William Shakespeare",
+      "Charles Dickens",
+      "Victor Hugo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-009",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritor brasileiro escreveu \"Grande Sertão: Veredas\"?",
+    "options": [
+      "Jorge Amado",
+      "Clarice Lispector",
+      "Machado de Assis",
+      "João Guimarães Rosa"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-010",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu o romance \"Cem Anos de Solidão\"?",
+    "options": [
+      "Gabriel García Márquez",
+      "Mario Vargas Llosa",
+      "Pablo Neruda",
+      "Jorge Luis Borges"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-011",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"O Pequeno Príncipe\"?",
+    "options": [
+      "Albert Camus",
+      "Victor Hugo",
+      "Antoine de Saint-Exupéry",
+      "Jules Verne"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-012",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritora brasileira é autora de \"A Hora da Estrela\"?",
+    "options": [
+      "Clarice Lispector",
+      "Rachel de Queiroz",
+      "Lygia Fagundes Telles",
+      "Cecília Meireles"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-013",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu a \"Divina Comédia\"?",
+    "options": [
+      "Francesco Petrarca",
+      "Petrarca",
+      "Dante Alighieri",
+      "Giovanni Boccaccio"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-014",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"Iracema\" e \"O Guarani\"?",
+    "options": [
+      "Machado de Assis",
+      "Gonçalves Dias",
+      "Castro Alves",
+      "José de Alencar"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-015",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual é o sobrenome do autor da trilogia \"O Senhor dos Anéis\"?",
+    "options": [
+      "Martin",
+      "Rowling",
+      "Tolkien",
+      "Lewis"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-016",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu \"Crime e Castigo\"?",
+    "options": [
+      "Fiódor Dostoiévski",
+      "Liev Tolstói",
+      "Nikolai Gógol",
+      "Anton Tchekhov"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-017",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Qual poeta brasileiro é conhecido como \"Poeta dos Escravos\" por seus poemas abolicionistas?",
+    "options": [
+      "Castro Alves",
+      "Gonçalves Dias",
+      "Olavo Bilac",
+      "Manuel Bandeira"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-018",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"1984\" e \"A Revolução dos Bichos\"?",
+    "options": [
+      "Ray Bradbury",
+      "H.G. Wells",
+      "Aldous Huxley",
+      "George Orwell"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-019",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor português escreveu \"Os Lusíadas\"?",
+    "options": [
+      "Eça de Queirós",
+      "Fernando Pessoa",
+      "Luís de Camões",
+      "José Saramago"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-020",
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a série de livros \"Percy Jackson\"?",
+    "options": [
+      "Suzanne Collins",
+      "J.K. Rowling",
+      "Rick Riordan",
+      "Veronica Roth"
+    ],
+    "correct_index": 2
+  }
+]

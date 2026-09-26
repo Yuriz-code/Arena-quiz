@@ -1,0 +1,16 @@
+[
+  {
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Quem proclamou a independência do Brasil, em 1822?",
+    "options": ["Dom Pedro I", "Tiradentes", "Dom João VI", "Getúlio Vargas"],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa criou a linguagem de programação Python?",
+    "options": ["Não é ligada a uma empresa (criada por Guido van Rossum)", "Google", "Microsoft", "Oracle"],
+    "correct_index": 0
+  }
+]

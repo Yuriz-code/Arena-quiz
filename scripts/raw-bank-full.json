@@ -1,0 +1,5078 @@
+[
+  {
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Qual é o nome do protagonista de 'Naruto'?",
+    "options": [
+      "Itachi Uchiha",
+      "Sasuke Uchiha",
+      "Kakashi Hatake",
+      "Naruto Uzumaki"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Em 'One Piece', qual é o sonho de Monkey D. Luffy?",
+    "options": [
+      "Encontrar seu pai",
+      "Derrotar o Império Mundial",
+      "Virar o Rei dos Piratas",
+      "Ser Hokage"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual estúdio de animação produziu 'A Viagem de Chihiro'?",
+    "options": [
+      "Madhouse",
+      "Studio Ghibli",
+      "Kyoto Animation",
+      "Toei Animation"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Death Note', qual é o nome do caderno sobrenatural?",
+    "options": [
+      "Diário Sombrio",
+      "Caderno Shinigami",
+      "Livro da Morte",
+      "Death Note"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Quem é o criador do mangá 'Attack on Titan' (Shingeki no Kyojin)?",
+    "options": [
+      "Eiichiro Oda",
+      "Kentaro Miura",
+      "Masashi Kishimoto",
+      "Hajime Isayama"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Em 'Cavaleiros do Zodíaco', qual constelação representa o protagonista Seiya?",
+    "options": [
+      "Fênix",
+      "Cisne",
+      "Dragão",
+      "Pégaso"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Qual é o nome do time de piratas liderado por Monkey D. Luffy em 'One Piece'?",
+    "options": [
+      "Piratas do Chapéu de Palha",
+      "Piratas do Coração",
+      "Piratas da Barba Negra",
+      "Piratas Kid"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual filme do Studio Ghibli conta a história de uma princesa guerreira protegendo a floresta contra a industrialização?",
+    "options": [
+      "Princesa Mononoke",
+      "A Viagem de Chihiro",
+      "Meu Amigo Totoro",
+      "O Castelo Animado"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Qual é o nome da organização vilã de criminosos rank S em \"Naruto\"?",
+    "options": [
+      "Espada",
+      "Shinigami",
+      "Akatsuki",
+      "Hollow"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em \"Dragon Ball\", qual é o nome do planeta natal de Goku?",
+    "options": [
+      "Namekusei",
+      "Planeta Freeza",
+      "Planeta Vegeta",
+      "Terra"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Quem é o criador do mangá \"One Piece\"?",
+    "options": [
+      "Masashi Kishimoto",
+      "Tite Kubo",
+      "Akira Toriyama",
+      "Eiichiro Oda"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Qual universidade prestigiada Light Yagami frequenta em 'Death Note'?",
+    "options": [
+      "Universidade To-Oh",
+      "Universidade de Tóquio",
+      "Academia Kira",
+      "Instituto Yagami"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em \"Attack on Titan\", qual é a principal ameaça enfrentada pela humanidade?",
+    "options": [
+      "Zumbis",
+      "Dragões",
+      "Titãs",
+      "Robôs"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Qual é o verdadeiro nome do personagem que se autodenomina \"Kira\" em \"Death Note\"?",
+    "options": [
+      "Light Yagami",
+      "Ryuk",
+      "L",
+      "Near"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Qual é o nome da turma principal do protagonista em \"My Hero Academia\"?",
+    "options": [
+      "U.A. Staff",
+      "Liga dos Vilões",
+      "Classe 1-B",
+      "Classe 1-A"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Quem criou o mangá e anime \"Dragon Ball\"?",
+    "options": [
+      "Eiichiro Oda",
+      "Masashi Kishimoto",
+      "Hajime Isayama",
+      "Akira Toriyama"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da vila natal de Naruto Uzumaki?",
+    "options": [
+      "Iwa",
+      "Kiri",
+      "Konoha",
+      "Suna"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Em \"Pokémon\", qual é o nome do protagonista clássico que viaja com Pikachu?",
+    "options": [
+      "Misty",
+      "Brock",
+      "Gary Oak",
+      "Ash Ketchum"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual anime apresenta caçadores de recompensas viajando pelo espaço na nave Bebop?",
+    "options": [
+      "Trigun",
+      "Space Dandy",
+      "Outlaw Star",
+      "Cowboy Bebop"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Em qual revista japonesa o mangá 'Attack on Titan' foi originalmente serializado?",
+    "options": [
+      "Bessatsu Shonen Magazine",
+      "Weekly Shonen Jump",
+      "Weekly Shonen Magazine",
+      "Young Jump"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou a obra 'A Noite Estrelada'?",
+    "options": [
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Salvador Dalí",
+      "Pablo Picasso"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou a Mona Lisa?",
+    "options": [
+      "Rafael",
+      "Leonardo da Vinci",
+      "Donatello",
+      "Michelangelo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual movimento artístico Pablo Picasso ajudou a fundar?",
+    "options": [
+      "Barroco",
+      "Impressionismo",
+      "Cubismo",
+      "Surrealismo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Quem pintou os painéis do teto da Capela Sistina?",
+    "options": [
+      "Ticiano",
+      "Rafael",
+      "Michelangelo",
+      "Bernini"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual artista brasileira é conhecida pela obra 'Abaporu'?",
+    "options": [
+      "Lygia Clark",
+      "Tarsila do Amaral",
+      "Djanira",
+      "Anita Malfatti"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "O movimento Art Nouveau se popularizou principalmente em qual período?",
+    "options": [
+      "Fim do século XIX/início do XX",
+      "Meados do século XX",
+      "Século XVII",
+      "Século XVIII"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou \"A Noite Estrelada\"?",
+    "options": [
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Claude Monet"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou \"Guernica\"?",
+    "options": [
+      "Pablo Picasso",
+      "Diego Rivera",
+      "Frida Kahlo",
+      "Joan Miró"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual escultura renascentista de Michelangelo representa o rei bíblico Davi?",
+    "options": [
+      "O Pensador",
+      "Pietà",
+      "Davi",
+      "Moisés"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual pintora mexicana é famosa por seus autorretratos?",
+    "options": [
+      "Georgia O'Keeffe",
+      "Anita Malfatti",
+      "Frida Kahlo",
+      "Tarsila do Amaral"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual artista brasileira pintou \"Abaporu\"?",
+    "options": [
+      "Tarsila do Amaral",
+      "Frida Kahlo",
+      "Anita Malfatti",
+      "Cândido Portinari"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual movimento artístico é associado a Claude Monet e Edgar Degas?",
+    "options": [
+      "Cubismo",
+      "Expressionismo",
+      "Barroco",
+      "Impressionismo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Quem esculpiu \"O Pensador\"?",
+    "options": [
+      "Gian Lorenzo Bernini",
+      "Auguste Rodin",
+      "Michelangelo",
+      "Donatello"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Em que país nasceu o pintor Leonardo da Vinci?",
+    "options": [
+      "Itália",
+      "Espanha",
+      "Holanda",
+      "França"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual artista é conhecido por suas obras com latas de sopa Campbell?",
+    "options": [
+      "Roy Lichtenstein",
+      "Andy Warhol",
+      "Jackson Pollock",
+      "Keith Haring"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual técnica de pintura tornou Jackson Pollock famoso?",
+    "options": [
+      "Afresco",
+      "Aquarela",
+      "Respingos de tinta (dripping)",
+      "Pontilhismo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou \"O Grito\"?",
+    "options": [
+      "Henri Matisse",
+      "Gustav Klimt",
+      "Vincent van Gogh",
+      "Edvard Munch"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual artista brasileiro pintou \"Os Retirantes\"?",
+    "options": [
+      "Cândido Portinari",
+      "Tarsila do Amaral",
+      "Di Cavalcanti",
+      "Anita Malfatti"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Em que cidade italiana está localizada a Galeria Uffizi?",
+    "options": [
+      "Roma",
+      "Florença",
+      "Veneza",
+      "Milão"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual pintor holandês é famoso pela obra \"A Moça com Brinco de Pérola\"?",
+    "options": [
+      "Piet Mondrian",
+      "Rembrandt",
+      "Vincent van Gogh",
+      "Johannes Vermeer"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o elemento químico de símbolo 'Fe'?",
+    "options": [
+      "Flúor",
+      "Ferro",
+      "Frâncio",
+      "Fósforo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o planeta mais próximo do Sol?",
+    "options": [
+      "Vênus",
+      "Marte",
+      "Mercúrio",
+      "Terra"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual gás os seres humanos precisam respirar para viver?",
+    "options": [
+      "Nitrogênio",
+      "Hidrogênio",
+      "Oxigênio",
+      "Gás carbônico"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Quem formulou a Teoria da Relatividade?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileu Galilei",
+      "Niels Bohr"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é a unidade de medida da força no Sistema Internacional?",
+    "options": [
+      "Newton",
+      "Pascal",
+      "Joule",
+      "Watt"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual estrutura celular é responsável pela respiração celular e produção de ATP?",
+    "options": [
+      "Mitocôndria",
+      "Ribossomo",
+      "Núcleo",
+      "Complexo de Golgi"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual gás os seres humanos precisam respirar para sobreviver?",
+    "options": [
+      "Oxigênio",
+      "Hidrogênio",
+      "Nitrogênio",
+      "Gás carbônico"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é a unidade básica da vida?",
+    "options": [
+      "Tecido",
+      "Célula",
+      "Molécula",
+      "Átomo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual cientista é considerado o pai da genética moderna por seus estudos com ervilhas?",
+    "options": [
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Alfred Wegener",
+      "Charles Darwin"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Quantos ossos, aproximadamente, tem o corpo humano adulto?",
+    "options": [
+      "300",
+      "206",
+      "100",
+      "150"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o processo pelo qual as plantas produzem seu próprio alimento usando luz solar?",
+    "options": [
+      "Respiração celular",
+      "Fermentação",
+      "Fotossíntese",
+      "Osmose"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o elemento químico mais abundante no universo?",
+    "options": [
+      "Carbono",
+      "Oxigênio",
+      "Hidrogênio",
+      "Hélio"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual órgão do corpo humano é responsável por bombear o sangue?",
+    "options": [
+      "Fígado",
+      "Coração",
+      "Pulmão",
+      "Rim"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Quem propôs a Teoria da Evolução das espécies por seleção natural?",
+    "options": [
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Charles Darwin",
+      "Alfred Wegener"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual camada da atmosfera terrestre concentra a maior parte da camada de ozônio?",
+    "options": [
+      "Estratosfera",
+      "Mesosfera",
+      "Termosfera",
+      "Troposfera"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o estado físico da água em forma de gelo?",
+    "options": [
+      "Líquido",
+      "Sólido",
+      "Gasoso",
+      "Plasma"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual cientista é conhecido pelas leis do movimento e da gravitação universal?",
+    "options": [
+      "Nikola Tesla",
+      "Albert Einstein",
+      "Galileu Galilei",
+      "Isaac Newton"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é a partícula subatômica com carga elétrica negativa?",
+    "options": [
+      "Fóton",
+      "Próton",
+      "Elétron",
+      "Nêutron"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual planeta é conhecido como o \"planeta vermelho\"?",
+    "options": [
+      "Vênus",
+      "Júpiter",
+      "Marte",
+      "Saturno"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem dirigiu o filme 'Pulp Fiction' (1994)?",
+    "options": [
+      "Quentin Tarantino",
+      "Christopher Nolan",
+      "David Fincher",
+      "Martin Scorsese"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual filme venceu o Oscar de Melhor Filme em 2020?",
+    "options": [
+      "Parasita",
+      "Jojo Rabbit",
+      "Coringa",
+      "1917"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem interpreta o Homem de Ferro no Universo Cinematográfico Marvel?",
+    "options": [
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Chris Evans",
+      "Robert Downey Jr."
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor é conhecido por filmar sempre em formato 4:3, como em 'Grand Budapest Hotel'?",
+    "options": [
+      "Wes Anderson",
+      "Denis Villeneuve",
+      "Yorgos Lanthimos",
+      "Tim Burton"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Em que ano foi lançado o primeiro filme de 'Star Wars'?",
+    "options": [
+      "1977",
+      "1983",
+      "1980",
+      "1975"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme brasileiro foi indicado ao Oscar de Melhor Filme Internacional em 1999?",
+    "options": [
+      "O Auto da Compadecida",
+      "Cidade de Deus",
+      "Tropa de Elite",
+      "Central do Brasil"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem dirigiu o filme \"Tubarão\" (1975)?",
+    "options": [
+      "George Lucas",
+      "Steven Spielberg",
+      "Martin Scorsese",
+      "James Cameron"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual filme sobre o naufrágio do Titanic ganhou o Oscar de Melhor Filme em 1998?",
+    "options": [
+      "Titanic",
+      "Forrest Gump",
+      "Gladiador",
+      "Coração Valente"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem interpretou o Coringa no filme \"Coringa\" (2019)?",
+    "options": [
+      "Heath Ledger",
+      "Joaquin Phoenix",
+      "Jack Nicholson",
+      "Jared Leto"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual estúdio de animação produziu \"Toy Story\"?",
+    "options": [
+      "DreamWorks",
+      "Disney Animation",
+      "Illumination",
+      "Pixar"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Quem dirigiu a trilogia original de \"O Poderoso Chefão\"?",
+    "options": [
+      "Martin Scorsese",
+      "Stanley Kubrick",
+      "Sergio Leone",
+      "Francis Ford Coppola"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Em qual franquia aparece o personagem pirata Jack Sparrow?",
+    "options": [
+      "Piratas do Caribe",
+      "Percy Jackson",
+      "Harry Potter",
+      "Jogos Vorazes"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual atriz interpretou Hermione Granger na saga Harry Potter?",
+    "options": [
+      "Natalie Portman",
+      "Emma Watson",
+      "Emma Stone",
+      "Kristen Stewart"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual diretor é conhecido por filmes como \"Kill Bill\" e \"Pulp Fiction\"?",
+    "options": [
+      "Christopher Nolan",
+      "Quentin Tarantino",
+      "Guy Ritchie",
+      "David Fincher"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme sul-coreano foi o primeiro não falado em inglês a ganhar o Oscar de Melhor Filme?",
+    "options": [
+      "Coringa",
+      "1917",
+      "Adoráveis Mulheres",
+      "Parasita"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem dirigiu a trilogia cinematográfica \"O Senhor dos Anéis\"?",
+    "options": [
+      "Ridley Scott",
+      "James Cameron",
+      "Peter Jackson",
+      "Tim Burton"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual é o apelido do tubarão mecânico usado nas filmagens de \"Tubarão\" (1975)?",
+    "options": [
+      "Jaws",
+      "Nemo",
+      "Bruce",
+      "Baby"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem interpreta Tony Stark / Homem de Ferro no Universo Cinematográfico Marvel?",
+    "options": [
+      "Mark Ruffalo",
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Chris Hemsworth"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor é conhecido por filmes como \"Amadeus\" e \"Um Estranho no Ninho\"?",
+    "options": [
+      "Milos Forman",
+      "Roman Polanski",
+      "Stanley Kubrick",
+      "Ridley Scott"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual estúdio criou a franquia \"Star Wars\"?",
+    "options": [
+      "Lucasfilm",
+      "Warner Bros.",
+      "Marvel Studios",
+      "Universal"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual foi o primeiro longa-metragem de animação totalmente feito por computador?",
+    "options": [
+      "Toy Story",
+      "A Era do Gelo",
+      "Shrek",
+      "Procurando Nemo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Em 'Bob Esponja', qual é a profissão do personagem principal?",
+    "options": [
+      "Cozinheiro de hambúrgueres",
+      "Salva-vidas",
+      "Motorista de táxi",
+      "Pescador"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Qual é o nome do cão falante de 'Scooby-Doo'?",
+    "options": [
+      "Astro",
+      "Scooby-Doo",
+      "Rex",
+      "Scrappy-Doo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Os Simpsons', qual é o nome da cidade onde a família mora?",
+    "options": [
+      "Springfield",
+      "Ogdenville",
+      "Capital City",
+      "Shelbyville"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome do gato que persegue o rato Jerry?",
+    "options": [
+      "Garfield",
+      "Felix",
+      "Tom",
+      "Sylvester"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Em 'Avatar: A Lenda de Aang', qual elemento Aang domina por último antes de enfrentar o Senhor do Fogo?",
+    "options": [
+      "Ar (já dominava)",
+      "Água",
+      "Terra",
+      "Fogo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Quem criou o desenho 'Turma da Mônica'?",
+    "options": [
+      "Laerte",
+      "Ziraldo",
+      "Fernando Gonsales",
+      "Maurício de Sousa"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Qual é o nome do rato mais famoso da Disney?",
+    "options": [
+      "Pato Donald",
+      "Mickey Mouse",
+      "Pluto",
+      "Pateta"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Em \"Bob Esponja\", qual é o nome do melhor amigo do protagonista?",
+    "options": [
+      "Sandy",
+      "Patrick Estrela",
+      "Lula Molusco",
+      "Seu Sirigueijo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual estúdio produziu o desenho \"Shrek\"?",
+    "options": [
+      "Illumination",
+      "DreamWorks",
+      "Disney",
+      "Pixar"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Qual coelho malandro costuma cumprimentar seus rivais com a frase 'Que tal, camarada?' nos clássicos Looney Tunes?",
+    "options": [
+      "Pernalonga (Bugs Bunny)",
+      "Patolino (Daffy Duck)",
+      "Piu-Piu",
+      "Taz"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome do vizinho super religioso e bem-humorado dos Simpsons?",
+    "options": [
+      "Ned Flanders",
+      "Moe Szyslak",
+      "Milhouse Van Houten",
+      "Comandante Skinner"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Em \"Os Flintstones\", em que era se passa o desenho?",
+    "options": [
+      "Idade da Pedra",
+      "Era Vitoriana",
+      "Era Espacial",
+      "Idade Média"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Quem criou o desenho animado \"Tom e Jerry\"?",
+    "options": [
+      "Chuck Jones",
+      "William Hanna e Joseph Barbera",
+      "Matt Groening",
+      "Walt Disney"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome da irmã mais nova da família em \"Os Simpsons\"?",
+    "options": [
+      "Maggie",
+      "Marge",
+      "Patty",
+      "Lisa"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Qual herói se transforma ao gritar \"Pelos poderes de Grayskull\"?",
+    "options": [
+      "Ben 10",
+      "Voltron",
+      "He-Man",
+      "Thundercats"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do coelho de pelúcia surrado que a personagem Mônica carrega e usa para bater nos amigos?",
+    "options": [
+      "Sansão",
+      "Bidu",
+      "Floquinho",
+      "Louco"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é a marca registrada sonora do personagem principal de \"Pica-Pau\"?",
+    "options": [
+      "Seu assobio",
+      "Sua risada característica",
+      "Seu canto",
+      "Seu grito de guerra"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Qual desenho animado apresenta os personagens Pinky e Cérebro tentando dominar o mundo?",
+    "options": [
+      "Tiny Toons",
+      "Animaniacs",
+      "Pinky e Cérebro",
+      "Looney Tunes"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Qual é o nome do polvo rabugento vizinho de Bob Esponja?",
+    "options": [
+      "Patrick",
+      "Sandy",
+      "Seu Sirigueijo",
+      "Lula Molusco"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual estúdio é responsável pelo desenho \"Gravity Falls\"?",
+    "options": [
+      "Disney Television Animation",
+      "Nickelodeon Animation Studio",
+      "Cartoon Network Studios",
+      "Warner Bros. Animation"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos jogadores compõem um time de vôlei em quadra?",
+    "options": [
+      "6",
+      "8",
+      "5",
+      "7"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "A cada quantos anos ocorrem os Jogos Olímpicos de Verão?",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Quantas vezes o Brasil foi campeão da Copa do Mundo FIFA (até 2022)?",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "5"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual esporte se disputa a Copa Davis?",
+    "options": [
+      "Natação",
+      "Tênis",
+      "Golfe",
+      "Rúgbi"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual país sediou a primeira Copa do Mundo de Futebol, em 1930?",
+    "options": [
+      "França",
+      "Itália",
+      "Uruguai",
+      "Brasil"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Quantos sets são necessários para vencer uma partida de tênis em Grand Slam masculino (padrão)?",
+    "options": [
+      "2 de 3",
+      "1 único",
+      "2 de 5",
+      "3 de 5"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantos jogadores de cada time ficam em campo no futebol, sem contar os reservas?",
+    "options": [
+      "10",
+      "9",
+      "12",
+      "11"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual esporte é comum o termo \"enterrada\" (slam dunk)?",
+    "options": [
+      "Tênis",
+      "Basquete",
+      "Vôlei",
+      "Handebol"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual país sediou a Copa do Mundo de futebol de 2014?",
+    "options": [
+      "Catar",
+      "Brasil",
+      "Rússia",
+      "África do Sul"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Quantas vezes o Brasil foi campeão da Copa do Mundo de futebol masculino até 2022?",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "5"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual esporte compete Novak Djokovic?",
+    "options": [
+      "Tênis",
+      "Golfe",
+      "Badminton",
+      "Squash"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual atleta jamaicano detém o recorde mundial dos 100m rasos?",
+    "options": [
+      "Tyson Gay",
+      "Justin Gatlin",
+      "Usain Bolt",
+      "Carl Lewis"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em que cidade foram realizados os Jogos Olímpicos de Verão de 2016?",
+    "options": [
+      "Rio de Janeiro",
+      "Tóquio",
+      "Londres",
+      "Pequim"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual nadador conquistou 23 medalhas de ouro olímpicas ao longo da carreira?",
+    "options": [
+      "Michael Phelps",
+      "Mark Spitz",
+      "Ryan Lochte",
+      "Ian Thorpe"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "No vôlei, quantos sets, no máximo, uma partida costuma ter na maioria das competições?",
+    "options": [
+      "7",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do troféu atual entregue ao campeão da Copa do Mundo de futebol?",
+    "options": [
+      "Taça FIFA da Copa do Mundo",
+      "Copa das Confederações",
+      "Taça Jules Rimet",
+      "Bola de Ouro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Em qual esporte é disputado o torneio de Wimbledon?",
+    "options": [
+      "Tênis",
+      "Automobilismo",
+      "Natação",
+      "Golfe"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual piloto brasileiro é tricampeão mundial de Fórmula 1?",
+    "options": [
+      "Rubens Barrichello",
+      "Emerson Fittipaldi",
+      "Nelson Piquet",
+      "Ayrton Senna"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual modalidade olímpica compete a ginasta Simone Biles?",
+    "options": [
+      "Patinação",
+      "Atletismo",
+      "Ginástica artística",
+      "Natação"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "esportes",
+    "difficulty": "facil",
+    "question": "Qual é o nome do estádio do Rio de Janeiro que já sediou finais de Copa do Mundo?",
+    "options": [
+      "Mineirão",
+      "Morumbi",
+      "Maracanã",
+      "Pacaembu"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do troféu entregue ao melhor jogador de futebol do ano pela revista France Football?",
+    "options": [
+      "Bota de Ouro",
+      "Luva de Ouro",
+      "Bola de Ouro",
+      "Chuteira de Ouro"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o maior país do mundo em extensão territorial?",
+    "options": [
+      "Rússia",
+      "China",
+      "Estados Unidos",
+      "Canadá"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital da Austrália?",
+    "options": [
+      "Melbourne",
+      "Canberra",
+      "Sydney",
+      "Perth"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual rio é o mais extenso do mundo?",
+    "options": [
+      "Amazonas",
+      "Nilo",
+      "Yangtzé",
+      "Mississippi"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Quantos estados compõem a Região Nordeste do Brasil?",
+    "options": [
+      "10",
+      "9",
+      "8",
+      "7"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o ponto mais baixo da superfície terrestre em terra firme?",
+    "options": [
+      "Vale da Morte",
+      "Fossa das Marianas",
+      "Depressão de Qattara",
+      "Mar Morto"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em que continente fica o deserto do Saara?",
+    "options": [
+      "Ásia",
+      "Oceania",
+      "África",
+      "América do Sul"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o maior país do mundo em área territorial?",
+    "options": [
+      "Canadá",
+      "Rússia",
+      "China",
+      "Estados Unidos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o maior deserto quente do mundo?",
+    "options": [
+      "Kalahari",
+      "Atacama",
+      "Saara",
+      "Gobi"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em que continente fica o Egito?",
+    "options": [
+      "África",
+      "Europa",
+      "Oceania",
+      "Ásia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é a montanha mais alta do mundo?",
+    "options": [
+      "Kilimanjaro",
+      "K2",
+      "Aconcágua",
+      "Monte Everest"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital do Brasil?",
+    "options": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Brasília",
+      "Salvador"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual istmo liga a América do Norte à América do Sul?",
+    "options": [
+      "Istmo do Panamá",
+      "Canal de Suez",
+      "Golfo do México",
+      "Estreito de Bering"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o menor país do mundo em área territorial?",
+    "options": [
+      "Liechtenstein",
+      "Mônaco",
+      "San Marino",
+      "Vaticano"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o maior oceano do planeta?",
+    "options": [
+      "Oceano Atlântico",
+      "Oceano Índico",
+      "Oceano Ártico",
+      "Oceano Pacífico"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em que país está localizada a Torre Eiffel?",
+    "options": [
+      "França",
+      "Alemanha",
+      "Itália",
+      "Espanha"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o país mais populoso do mundo atualmente?",
+    "options": [
+      "Indonésia",
+      "Índia",
+      "Estados Unidos",
+      "China"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual linha imaginária divide a Terra nos hemisférios Norte e Sul?",
+    "options": [
+      "Meridiano de Greenwich",
+      "Linha do Equador",
+      "Trópico de Câncer",
+      "Trópico de Capricórnio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o continente mais frio do planeta?",
+    "options": [
+      "Ásia",
+      "América do Norte",
+      "Antártida",
+      "Europa"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual país é conhecido como a \"terra do sol nascente\"?",
+    "options": [
+      "Japão",
+      "Coreia do Sul",
+      "China",
+      "Tailândia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o maior arquipélago do mundo?",
+    "options": [
+      "Indonésia",
+      "Maldivas",
+      "Filipinas",
+      "Japão"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Em que continente fica o Egito Antigo?",
+    "options": [
+      "África",
+      "Ásia",
+      "Europa",
+      "América"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Em que ano ocorreu a Queda do Muro de Berlim?",
+    "options": [
+      "1993",
+      "1989",
+      "1991",
+      "1987"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Quem foi o primeiro imperador do Brasil?",
+    "options": [
+      "Dom Pedro I",
+      "Dom Pedro II",
+      "Marechal Deodoro",
+      "Dom João VI"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em que ano foi assinado o Tratado de Tordesilhas?",
+    "options": [
+      "1488",
+      "1512",
+      "1494",
+      "1500"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Qual civilização construiu as pirâmides de Gizé?",
+    "options": [
+      "Grega",
+      "Maia",
+      "Romana",
+      "Egípcia"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Quem liderou a Revolta dos Alfaiates na Bahia (1798)?",
+    "options": [
+      "Zumbi dos Palmares",
+      "Frei Caneca",
+      "João de Deus do Nascimento",
+      "Tiradentes"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Em que ano começou a Segunda Guerra Mundial?",
+    "options": [
+      "1939",
+      "1929",
+      "1918",
+      "1945"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Quem foi o primeiro presidente do Brasil?",
+    "options": [
+      "Deodoro da Fonseca",
+      "Juscelino Kubitschek",
+      "Prudente de Morais",
+      "Getúlio Vargas"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual revolução ocorreu na França em 1789?",
+    "options": [
+      "Revolução Russa",
+      "Revolução Francesa",
+      "Revolução Americana",
+      "Revolução Industrial"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Em que ano o Muro de Berlim caiu?",
+    "options": [
+      "1979",
+      "1989",
+      "1985",
+      "1991"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual tratado encerrou oficialmente a Primeira Guerra Mundial?",
+    "options": [
+      "Tratado de Utrecht",
+      "Tratado de Paris",
+      "Tratado de Tordesilhas",
+      "Tratado de Versalhes"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Quem foi o principal líder da Revolução Cubana de 1959?",
+    "options": [
+      "Simón Bolívar",
+      "Che Guevara",
+      "Fidel Castro",
+      "Hugo Chávez"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Em que século os portugueses chegaram ao território que hoje é o Brasil?",
+    "options": [
+      "Século XV",
+      "Século XVII",
+      "Século XVI",
+      "Século XIV"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Qual rio era considerado essencial para a agricultura e a vida no Egito Antigo?",
+    "options": [
+      "Nilo",
+      "Tigre",
+      "Eufrates",
+      "Jordão"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual imperador francês foi derrotado na Batalha de Waterloo?",
+    "options": [
+      "Carlos Magno",
+      "Luís XIV",
+      "Napoleão Bonaparte",
+      "Luís XVI"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em que ano foi assinada a Lei Áurea, que aboliu a escravidão no Brasil?",
+    "options": [
+      "1850",
+      "1889",
+      "1822",
+      "1888"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Quem chegou ao Brasil em 1500, segundo a história oficial?",
+    "options": [
+      "Fernão de Magalhães",
+      "Pedro Álvares Cabral",
+      "Cristóvão Colombo",
+      "Vasco da Gama"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual foi a capital do Império Romano?",
+    "options": [
+      "Constantinopla",
+      "Atenas",
+      "Cartago",
+      "Roma"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Quem liderou a resistência não-violenta contra o domínio britânico na Índia?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Ho Chi Minh",
+      "Mahatma Gandhi",
+      "Nelson Mandela"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Em que ano ocorreu a Proclamação da República no Brasil?",
+    "options": [
+      "1500",
+      "1889",
+      "1822",
+      "1888"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "A Queda do Muro de Berlim, em 1989, é vista como símbolo do fim de qual conflito?",
+    "options": [
+      "Guerra Fria",
+      "Segunda Guerra Mundial",
+      "Guerra da Coreia",
+      "Guerra do Vietnã"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'Dom Casmurro'?",
+    "options": [
+      "Graciliano Ramos",
+      "Clarice Lispector",
+      "Machado de Assis",
+      "José de Alencar"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a saga 'Harry Potter'?",
+    "options": [
+      "J.R.R. Tolkien",
+      "George R.R. Martin",
+      "C.S. Lewis",
+      "J.K. Rowling"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Qual é o autor de 'Romeu e Julieta'?",
+    "options": [
+      "Oscar Wilde",
+      "William Shakespeare",
+      "Victor Hugo",
+      "Charles Dickens"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu 'Grande Sertão: Veredas'?",
+    "options": [
+      "Érico Veríssimo",
+      "Guimarães Rosa",
+      "Rachel de Queiroz",
+      "Jorge Amado"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual obra de Machado de Assis é narrada por um defunto-autor?",
+    "options": [
+      "Memórias Póstumas de Brás Cubas",
+      "Quincas Borba",
+      "Iaiá Garcia",
+      "Esaú e Jacó"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu 'Cem Anos de Solidão'?",
+    "options": [
+      "Mario Vargas Llosa",
+      "Pablo Neruda",
+      "Jorge Luis Borges",
+      "Gabriel García Márquez"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem é a autora da saga \"Harry Potter\"?",
+    "options": [
+      "C.S. Lewis",
+      "J.R.R. Tolkien",
+      "J.K. Rowling",
+      "Suzanne Collins"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Romeu e Julieta\"?",
+    "options": [
+      "Victor Hugo",
+      "Charles Dickens",
+      "Oscar Wilde",
+      "William Shakespeare"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritor brasileiro escreveu \"Grande Sertão: Veredas\"?",
+    "options": [
+      "Machado de Assis",
+      "Clarice Lispector",
+      "João Guimarães Rosa",
+      "Jorge Amado"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu o romance \"Cem Anos de Solidão\"?",
+    "options": [
+      "Mario Vargas Llosa",
+      "Jorge Luis Borges",
+      "Pablo Neruda",
+      "Gabriel García Márquez"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"O Pequeno Príncipe\"?",
+    "options": [
+      "Victor Hugo",
+      "Antoine de Saint-Exupéry",
+      "Jules Verne",
+      "Albert Camus"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual escritora brasileira é autora de \"A Hora da Estrela\"?",
+    "options": [
+      "Cecília Meireles",
+      "Rachel de Queiroz",
+      "Clarice Lispector",
+      "Lygia Fagundes Telles"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu a \"Divina Comédia\"?",
+    "options": [
+      "Dante Alighieri",
+      "Giovanni Boccaccio",
+      "Petrarca",
+      "Francesco Petrarca"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"Iracema\" e \"O Guarani\"?",
+    "options": [
+      "Gonçalves Dias",
+      "Machado de Assis",
+      "José de Alencar",
+      "Castro Alves"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual é o sobrenome do autor da trilogia \"O Senhor dos Anéis\"?",
+    "options": [
+      "Tolkien",
+      "Martin",
+      "Lewis",
+      "Rowling"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu \"Crime e Castigo\"?",
+    "options": [
+      "Nikolai Gógol",
+      "Liev Tolstói",
+      "Anton Tchekhov",
+      "Fiódor Dostoiévski"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Qual poeta brasileiro é conhecido como \"Poeta dos Escravos\" por seus poemas abolicionistas?",
+    "options": [
+      "Gonçalves Dias",
+      "Manuel Bandeira",
+      "Olavo Bilac",
+      "Castro Alves"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"1984\" e \"A Revolução dos Bichos\"?",
+    "options": [
+      "George Orwell",
+      "Ray Bradbury",
+      "H.G. Wells",
+      "Aldous Huxley"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor português escreveu \"Os Lusíadas\"?",
+    "options": [
+      "José Saramago",
+      "Luís de Camões",
+      "Eça de Queirós",
+      "Fernando Pessoa"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "literatura",
+    "difficulty": "facil",
+    "question": "Quem escreveu a série de livros \"Percy Jackson\"?",
+    "options": [
+      "Suzanne Collins",
+      "Veronica Roth",
+      "J.K. Rowling",
+      "Rick Riordan"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual instrumento é conhecido como 'rei dos instrumentos'?",
+    "options": [
+      "Violoncelo",
+      "Órgão de tubos",
+      "Piano",
+      "Violino"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Quantas cordas tem um violão clássico padrão?",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda gravou o álbum 'Abbey Road'?",
+    "options": [
+      "Rolling Stones",
+      "Queen",
+      "The Beatles",
+      "Pink Floyd"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Quem compôs a ópera 'O Guarani'?",
+    "options": [
+      "Ernesto Nazareth",
+      "Chiquinha Gonzaga",
+      "Heitor Villa-Lobos",
+      "Carlos Gomes"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual gênero musical brasileiro tem origem na Bahia e forte presença do berimbau?",
+    "options": [
+      "Samba-canção",
+      "Capoeira/toque de berimbau",
+      "Maracatu",
+      "Forró"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem é considerado o 'Pai do Choro' no Brasil?",
+    "options": [
+      "Joaquim Callado",
+      "Pixinguinha",
+      "Jacob do Bandolim",
+      "Waldir Azevedo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda britânica lançou o álbum \"Abbey Road\"?",
+    "options": [
+      "Queen",
+      "The Beatles",
+      "Pink Floyd",
+      "The Rolling Stones"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Quem é conhecido como o \"Rei do Pop\"?",
+    "options": [
+      "Elvis Presley",
+      "Freddie Mercury",
+      "Prince",
+      "Michael Jackson"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantora brasileira é conhecida como uma das grandes vozes do rock nacional, com o hit \"Ovelha Negra\"?",
+    "options": [
+      "Rita Lee",
+      "Elis Regina",
+      "Gal Costa",
+      "Cássia Eller"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Quem compôs a ópera \"A Flauta Mágica\"?",
+    "options": [
+      "Johann Sebastian Bach",
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Franz Schubert"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor ficou surdo e mesmo assim compôs sinfonias como a Nona?",
+    "options": [
+      "Bach",
+      "Mozart",
+      "Chopin",
+      "Ludwig van Beethoven"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual é o instrumento principal tocado por um pianista?",
+    "options": [
+      "Bateria",
+      "Flauta",
+      "Violino",
+      "Piano"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Tom Jobim é considerado um dos fundadores de qual gênero musical brasileiro?",
+    "options": [
+      "Forró",
+      "Sertanejo",
+      "Bossa Nova",
+      "Samba"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda gravou a música \"Bohemian Rhapsody\"?",
+    "options": [
+      "Queen",
+      "Led Zeppelin",
+      "The Beatles",
+      "The Who"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Em que década surgiu o movimento musical Tropicália no Brasil?",
+    "options": [
+      "Década de 1980",
+      "Década de 1950",
+      "Década de 1960",
+      "Década de 1970"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Quem canta o clássico hit \"Thriller\"?",
+    "options": [
+      "Lionel Richie",
+      "Michael Jackson",
+      "Stevie Wonder",
+      "Prince"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual instrumento de cordas é tocado com um arco?",
+    "options": [
+      "Violino",
+      "Violão",
+      "Piano",
+      "Baixo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem compôs a \"Nona Sinfonia\", que inclui a \"Ode à Alegria\"?",
+    "options": [
+      "Richard Wagner",
+      "Franz Liszt",
+      "Ludwig van Beethoven",
+      "Johannes Brahms"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantora ficou conhecida por hits como \"Halo\" e \"Single Ladies\"?",
+    "options": [
+      "Britney Spears",
+      "Christina Aguilera",
+      "Rihanna",
+      "Beyoncé"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual gênero musical brasileiro é tocado tradicionalmente com sanfona, zabumba e triângulo?",
+    "options": [
+      "Forró",
+      "Samba",
+      "Bossa Nova",
+      "Axé"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual banda de rock é famosa pelo álbum \"The Dark Side of the Moon\"?",
+    "options": [
+      "Led Zeppelin",
+      "Deep Purple",
+      "Queen",
+      "Pink Floyd"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o livro sagrado central do Islamismo?",
+    "options": [
+      "Bhagavad Gita",
+      "Alcorão",
+      "Torá",
+      "Tao Te Ching"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual religião tem o Papa como líder máximo?",
+    "options": [
+      "Catolicismo",
+      "Anglicanismo",
+      "Protestantismo",
+      "Ortodoxa"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Em que cidade nasceu Buda, segundo a tradição budista?",
+    "options": [
+      "Meca",
+      "Varanasi",
+      "Jerusalém",
+      "Lumbini"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o livro sagrado do Judaísmo composto pelos cinco primeiros livros da Bíblia hebraica?",
+    "options": [
+      "Torá",
+      "Mishná",
+      "Talmude",
+      "Talmud Bavli"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Como se chama o jejum anual observado durante o mês sagrado do Islã?",
+    "options": [
+      "Ramadã",
+      "Hajj",
+      "Shahada",
+      "Zakat"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual religião de matriz africana, praticada no Brasil, cultua os Orixás?",
+    "options": [
+      "Xamanismo",
+      "Candomblé",
+      "Vodu",
+      "Xintoísmo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual é o livro sagrado do Cristianismo?",
+    "options": [
+      "Bíblia",
+      "Alcorão",
+      "Torá",
+      "Bhagavad Gita"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual é o livro sagrado do Islã?",
+    "options": [
+      "Torá",
+      "Bíblia",
+      "Tripitaka",
+      "Alcorão"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Quem é considerado o fundador do Budismo?",
+    "options": [
+      "Confúcio",
+      "Mahavira",
+      "Lao-Tsé",
+      "Sidarta Gautama (Buda)"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o livro sagrado do Judaísmo?",
+    "options": [
+      "Torá",
+      "Alcorão",
+      "Vedas",
+      "Bíblia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da peregrinação anual que os muçulmanos fazem a Meca?",
+    "options": [
+      "Hajj",
+      "Sharia",
+      "Ramadã",
+      "Zakat"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Em que cidade nasceu Jesus Cristo, segundo a tradição cristã?",
+    "options": [
+      "Roma",
+      "Nazaré",
+      "Jerusalém",
+      "Belém"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do mês sagrado de jejum no Islã?",
+    "options": [
+      "Ramadã",
+      "Eid",
+      "Hajj",
+      "Zakat"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Quantos mandamentos, segundo a tradição bíblica, Moisés recebeu de Deus?",
+    "options": [
+      "5",
+      "10",
+      "12",
+      "7"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o nome do texto sagrado hindu que narra o diálogo entre Krishna e Arjuna?",
+    "options": [
+      "Bhagavad Gita",
+      "Alcorão",
+      "Tao Te Ching",
+      "Torá"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual é o termo para o ciclo de nascimento, morte e renascimento em religiões orientais como Hinduísmo e Budismo?",
+    "options": [
+      "Dharma",
+      "Nirvana",
+      "Samsara",
+      "Karma"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual é o dia sagrado de descanso semanal no Judaísmo?",
+    "options": [
+      "Shabat",
+      "Yom Kippur",
+      "Ramadã",
+      "Domingo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual figura é considerada a mãe de Jesus Cristo no Cristianismo?",
+    "options": [
+      "Isabel",
+      "Maria",
+      "Madalena",
+      "Marta"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual religião monoteísta antiga, originária da Pérsia, é praticada pelos zoroastristas?",
+    "options": [
+      "Manicheísmo",
+      "Zoroastrismo",
+      "Maniqueísmo",
+      "Mitraísmo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual é o nome do templo sagrado dos muçulmanos localizado em Meca?",
+    "options": [
+      "Caaba",
+      "Mesquita Azul",
+      "Cúpula da Rocha",
+      "Mesquita de Medina"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual líder religioso e místico alcançou a iluminação debaixo da árvore Bodhi, tornando-se o Buda?",
+    "options": [
+      "Siddhartha Gautama",
+      "Lao-Tsé",
+      "Confúcio",
+      "Mahavira"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é a cidade mais sagrada para os muçulmanos, onde fica a Caaba?",
+    "options": [
+      "Medina",
+      "Bagdá",
+      "Jerusalém",
+      "Meca"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual conjunto de leis divinas Moisés teria recebido no Monte Sinai segundo a tradição bíblica?",
+    "options": [
+      "As Bem-Aventuranças",
+      "A Torá completa",
+      "Os Dez Mandamentos",
+      "O Talmude"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual deusa ou orixá das religiões de matriz afro-brasileira é associada aos mares e oceanos?",
+    "options": [
+      "Nanã",
+      "Oxum",
+      "Iansã",
+      "Iemanjá"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual conceito no Hinduísmo e Budismo define a lei de causa e efeito das ações de um indivíduo?",
+    "options": [
+      "Carma",
+      "Moksha",
+      "Samsara",
+      "Dharma"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual papa católico convocou o histórico Concílio Vaticano II em 1962?",
+    "options": [
+      "Papa João XXIII",
+      "Papa João Paulo II",
+      "Papa Pio XII",
+      "Papa Paulo VI"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual divindade hindu com cabeça de elefante é venerada como o removedor de obstáculos?",
+    "options": [
+      "Hanuman",
+      "Vishnu",
+      "Ganesha",
+      "Shiva"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual imperador romano converteu-se ao Cristianismo e transferiu a capital imperial para Constantinopla?",
+    "options": [
+      "Teodósio I",
+      "Constantino I",
+      "Diocleciano",
+      "Juliano"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o título dado ao líder espiritual e temporal tradicional do Budismo Tibetano?",
+    "options": [
+      "Rinpoche",
+      "Lama Tulku",
+      "Dalai Lama",
+      "Panchen Lama"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual sacramento católico simboliza a purificação do pecado original e a entrada na Igreja?",
+    "options": [
+      "Crisma",
+      "Eucaristia",
+      "Batismo",
+      "Confissão"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "No Candomblé e na Umbanda, qual orixá é considerado o guardião dos caminhos e mensageiro dos deuses?",
+    "options": [
+      "Oxóssi",
+      "Ogum",
+      "Omulu",
+      "Exu"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é a trindade suprema de divindades do Hinduísmo, conhecida como Trimúrti?",
+    "options": [
+      "Rama, Krishna e Hanuman",
+      "Brahma, Vishnu e Shiva",
+      "Shiva, Kali e Durga",
+      "Indra, Agni e Surya"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual patriarca bíblico é considerado o ancestral fundador comum do Judaísmo, Cristianismo e Islã?",
+    "options": [
+      "Noé",
+      "Abraão",
+      "Moisés",
+      "Isaque"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual festa judaica de oito dias celebra a rededicação do Segundo Templo através do acendimento da Menorá?",
+    "options": [
+      "Pessach",
+      "Yom Kipur",
+      "Hanukkah (Chanucá)",
+      "Purim"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual cidade é considerada sagrada simultaneamente por cristãos, judeus e muçulmanos?",
+    "options": [
+      "Meca",
+      "Roma",
+      "Jerusalém",
+      "Belém"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual tradição espiritual e religiosa nativa do Japão venera espíritos da natureza chamados Kami?",
+    "options": [
+      "Budismo Zen",
+      "Xintoísmo",
+      "Taoísmo",
+      "Confucionismo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual apóstolo de Jesus é tradicionalmente considerado pela Igreja Católica como o primeiro papa?",
+    "options": [
+      "Paulo",
+      "João",
+      "Tiago",
+      "Pedro"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual filósofo chinês antigo fundou o Taoísmo com o texto clássico 'Tao Te Ching'?",
+    "options": [
+      "Lao Tsé",
+      "Confúcio",
+      "Mêncio",
+      "Chuang Tzu"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual cisma religioso em 1054 dividiu a Igreja cristã entre Igreja Católica e Igreja Ortodoxa?",
+    "options": [
+      "Concílio de Niceia",
+      "Grande Cisma do Oriente",
+      "Cisma do Ocidente",
+      "Reforma Protestante"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual orixá ligado à justiça, ao trovão e ao fogo empunha o machado bipene (oxê)?",
+    "options": [
+      "Ogum",
+      "Xangô",
+      "Obaluaê",
+      "Oxumaré"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual ramo do Cristianismo surgiu no século XVI a partir de protestos contra indulgências e autoridade papal?",
+    "options": [
+      "Catolicismo",
+      "Ortodoxia",
+      "Anglicanismo",
+      "Protestantismo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual animal é considerado sagrado e símbolo de maternidade e abundância no Hinduísmo tradicional?",
+    "options": [
+      "Cobra",
+      "Vaca",
+      "Macaco",
+      "Elefante"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual termo teológico designa a crença na existência de um único Deus?",
+    "options": [
+      "Politeísmo",
+      "Ateísmo",
+      "Monoteísmo",
+      "Panteísmo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual anjo da tradição judaico-cristã e islâmica anunciou à Virgem Maria o nascimento de Jesus?",
+    "options": [
+      "Arcanjo Rafael",
+      "Arcanjo Gabriel",
+      "Arcanjo Uriel",
+      "Arcanjo Miguel"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual estado supremo de libertação do ciclo de renascimentos e sofrimento é buscado no Budismo?",
+    "options": [
+      "Nirvana",
+      "Dharma",
+      "Karma",
+      "Samsara"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Em qual religião monoteísta originada na Índia os homens praticantes usam turbantes e deixam o cabelo sem cortar?",
+    "options": [
+      "Jainismo",
+      "Sikhismo",
+      "Budismo",
+      "Hinduísmo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual cerimônia de transição no Judaísmo celebra a maioridade religiosa de um jovem aos 13 anos?",
+    "options": [
+      "Shabat",
+      "Yom Kipur",
+      "Brit Milá",
+      "Bar Mitzvah"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual apóstolo traiu Jesus Cristo entregando-o às autoridades por trinta moedas de prata?",
+    "options": [
+      "Pedro",
+      "Simão",
+      "Tomé",
+      "Judas Iscariotes"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o principal símbolo religioso do Cristianismo?",
+    "options": [
+      "Estrela de Davi",
+      "Cruz",
+      "Roda do Dharma",
+      "Crescente"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual teólogo francês formulou a doutrina da predestinação absoluta durante a Reforma Protestante?",
+    "options": [
+      "Ulrico Zwínglio",
+      "Martinho Lutero",
+      "John Knox",
+      "João Calvino"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual orixá guerreiro associado ao ferro, à tecnologia e aos caminhos abertos é cultuado no Candomblé?",
+    "options": [
+      "Oxóssi",
+      "Xangô",
+      "Ogum",
+      "Exu"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o nome das escrituras sagradas mais antigas do Hinduísmo, compostas em sânscrito védico?",
+    "options": [
+      "Bhagavad Gita",
+      "Upanixades",
+      "Puranas",
+      "Vedas"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual rito sacramental protestante e católico comemora a Última Ceia com pão e vinho?",
+    "options": [
+      "Crisma",
+      "Eucaristia (ou Santa Ceia)",
+      "Batismo",
+      "Unção dos Enfermos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Quais são as duas principais vertentes históricas em que o Islã se divide?",
+    "options": [
+      "Sufis e Ahmadis",
+      "Sunitas e Xiitas",
+      "Ismaelitas e Zaiditas",
+      "Drusos e Alauitas"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual festa católica comemora a descida do Espírito Santo sobre os apóstolos cinquenta dias após a Páscoa?",
+    "options": [
+      "Corpus Christi",
+      "Páscoa",
+      "Epifania",
+      "Pentecostes"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o templo ou casa de oração e estudos do Judaísmo?",
+    "options": [
+      "Igreja",
+      "Sinagoga",
+      "Templo",
+      "Mesquita"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual educador francês codificou a doutrina espírita no século XIX através de 'O Livro dos Espíritos'?",
+    "options": [
+      "Léon Denis",
+      "Divaldo Franco",
+      "Chico Xavier",
+      "Allan Kardec"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual orixá ancião da criação é representado pela cor branca e pelo respeito à vida e à paz?",
+    "options": [
+      "Nanã",
+      "Obaluaê",
+      "Oxum",
+      "Oxalá"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual rei de Israel e autor de muitos salmos derrotou o gigante Golias com uma funda quando jovem?",
+    "options": [
+      "Davi",
+      "Salomão",
+      "Samuel",
+      "Saul"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o local de culto coletivo e adoração dos muçulmanos?",
+    "options": [
+      "Templo",
+      "Igreja",
+      "Mesquita",
+      "Sinagoga"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual é o dia mais sagrado e solene do calendário judaico, conhecido como o 'Dia do Perdão'?",
+    "options": [
+      "Pessach",
+      "Rosh Hashaná",
+      "Sucot",
+      "Yom Kipur"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual protocolo é a base para comunicação bidirecional em tempo real, usado neste próprio quiz?",
+    "options": [
+      "HTTP/2 Server Push",
+      "WebSocket",
+      "FTP",
+      "SMTP"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla 'CPU'?",
+    "options": [
+      "Computer Personal Unit",
+      "Central Processor Utility",
+      "Central Processing Unit",
+      "Central Process Unit"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa desenvolveu o sistema operacional Android?",
+    "options": [
+      "Apple",
+      "Google",
+      "Samsung",
+      "Microsoft"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "O que significa a sigla 'HTML'?",
+    "options": [
+      "Hyperlink and Text Markup Language",
+      "Hyper Text Markup Language",
+      "Home Tool Markup Language",
+      "High Tech Modern Language"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual linguagem de programação é conhecida por rodar nativamente em navegadores web?",
+    "options": [
+      "Java",
+      "Python",
+      "C++",
+      "JavaScript"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual algoritmo de ordenação tem complexidade média O(n log n) e é amplamente usado por sua eficiência?",
+    "options": [
+      "Insertion Sort",
+      "Selection Sort",
+      "Quick Sort",
+      "Bubble Sort"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa criou o sistema operacional Windows?",
+    "options": [
+      "IBM",
+      "Google",
+      "Apple",
+      "Microsoft"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que significa a sigla \"WWW\"?",
+    "options": [
+      "World Wide Web",
+      "Web Wide World",
+      "World Wide Wire",
+      "Wide World Web"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Quem são os cofundadores da Apple?",
+    "options": [
+      "Steve Jobs e Steve Wozniak",
+      "Jeff Bezos e Elon Musk",
+      "Bill Gates e Paul Allen",
+      "Larry Page e Sergey Brin"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual rede social foi fundada por Mark Zuckerberg?",
+    "options": [
+      "Instagram",
+      "Twitter",
+      "LinkedIn",
+      "Facebook"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual matemático britânico é amplamente considerado um dos pais da computação moderna?",
+    "options": [
+      "Ada Lovelace",
+      "Alan Turing",
+      "Charles Babbage",
+      "John von Neumann"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual empresa é dona do buscador Google?",
+    "options": [
+      "Alphabet",
+      "Amazon",
+      "Microsoft",
+      "Meta"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Em que ano foi lançado o primeiro iPhone?",
+    "options": [
+      "2007",
+      "2010",
+      "2001",
+      "2005"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "Qual é o navegador de internet desenvolvido pelo Google?",
+    "options": [
+      "Safari",
+      "Edge",
+      "Firefox",
+      "Google Chrome"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual linguagem de programação é representada pelo símbolo de uma xícara de café?",
+    "options": [
+      "Java",
+      "JavaScript",
+      "Python",
+      "C++"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Quem cofundou a Microsoft ao lado de Bill Gates?",
+    "options": [
+      "Steve Jobs",
+      "Paul Allen",
+      "Larry Ellison",
+      "Steve Ballmer"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "facil",
+    "question": "O que é um \"byte\" na computação?",
+    "options": [
+      "Um tipo de vírus de computador",
+      "Um protocolo de internet",
+      "Uma unidade de medida de dados digitais",
+      "Um cabo de rede"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa criou o assistente virtual \"Siri\"?",
+    "options": [
+      "Microsoft",
+      "Amazon",
+      "Google",
+      "Apple"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual protocolo é usado para transferir páginas da web?",
+    "options": [
+      "SMTP",
+      "FTP",
+      "TCP",
+      "HTTP"
+    ],
+    "correct_index": 3
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual evento em 1914 foi o estopim direto para o início da Primeira Guerra Mundial?",
+    "options": [
+      "O naufrágio do Titanic",
+      "A invasão da Polônia",
+      "O assassinato do Arquiduque Francisco Ferdinando",
+      "A Revolução Russa"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual faraó egípcio teve sua tumba quase intacta descoberta em 1922 por Howard Carter?",
+    "options": [
+      "Ramsés II",
+      "Tutancâmon",
+      "Akhenaton",
+      "Quéops"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Quem liderou a Revolução Russa de 1917 e fundou o Estado Soviético?",
+    "options": [
+      "Josef Stálin",
+      "Leon Trótski",
+      "Vladimir Lenin",
+      "Nicolau II"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual líder sul-africano passou 27 anos na prisão e tornou-se presidente após o fim do Apartheid?",
+    "options": [
+      "Desmond Tutu",
+      "Nelson Mandela",
+      "Jacob Zuma",
+      "Thabo Mbeki"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Em qual país teve início a Revolução Industrial no século XVIII?",
+    "options": [
+      "França",
+      "Alemanha",
+      "Inglaterra",
+      "Estados Unidos"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual general e imperador francês conquistou grande parte da Europa no início do século XIX?",
+    "options": [
+      "Luís XIV",
+      "Napoleão Bonaparte",
+      "Carlos Magno",
+      "Luís XVI"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "A queda de qual cidade em 1453 marcou tradicionalmente o fim da Idade Média?",
+    "options": [
+      "Roma",
+      "Jerusalém",
+      "Constantinopla",
+      "Alexandria"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual civilização pré-colombiana construiu a cidadela de Machu Picchu?",
+    "options": [
+      "Maias",
+      "Astecas",
+      "Incas",
+      "Olmecas"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Quem proclamou a Independência do Brasil em 1822?",
+    "options": [
+      "Dom Pedro II",
+      "Dom João VI",
+      "Dom Pedro I",
+      "Marechal Deodoro"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual conflito bélico opôs indiretamente Estados Unidos e União Soviética ao longo de boa parte do século XX?",
+    "options": [
+      "Guerra da Coreia",
+      "Guerra Fria",
+      "Guerra do Vietnã",
+      "Guerra do Golfo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual documento assinado pelo rei João Sem Terra em 1215 limitou o poder monárquico na Inglaterra?",
+    "options": [
+      "Magna Carta",
+      "Bill of Rights",
+      "Declaração de Direitos",
+      "Ato de União"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual presidente norte-americano assinou a Proclamação de Emancipação durante a Guerra Civil Americana?",
+    "options": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "Ulysses Grant"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual civilização antiga floresceu entre os rios Tigre e Eufrates?",
+    "options": [
+      "Egípcia",
+      "Mesopotâmica",
+      "Fenícia",
+      "Persa"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "O ataque surpresa a qual base naval levou os Estados Unidos a entrarem na Segunda Guerra Mundial?",
+    "options": [
+      "Normandia",
+      "Pearl Harbor",
+      "Midway",
+      "Okinawa"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Quem governou o Brasil como presidente e ditador de 1930 a 1945?",
+    "options": [
+      "Juscelino Kubitschek",
+      "Getúlio Vargas",
+      "Washington Luís",
+      "Eurico Gaspar Dutra"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual cidade-estado grega era famosa por sua rígida disciplina e formação estritamente militar?",
+    "options": [
+      "Atenas",
+      "Esparta",
+      "Corinto",
+      "Tebas"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "A tomada de qual fortaleza parisiense em 14 de julho de 1789 simbolizou o início da Revolução Francesa?",
+    "options": [
+      "Bastilha",
+      "Louvre",
+      "Palácio de Versalhes",
+      "Torre de Londres"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual expedição militar e religiosa os europeus organizaram durante a Idade Média para retomar Jerusalém?",
+    "options": [
+      "Cruzadas",
+      "Reconquista",
+      "Inquisição",
+      "Guerras Púnicas"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Quem iniciou a Reforma Protestante ao fixar suas 95 Teses em 1517?",
+    "options": [
+      "João Calvino",
+      "Martinho Lutero",
+      "Henrique VIII",
+      "Ulrico Zuínglio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Entre quais décadas vigorou o regime de ditadura militar no Brasil (1964–1985)?",
+    "options": [
+      "Décadas de 1930 a 1940",
+      "Décadas de 1960 a 1980",
+      "Décadas de 1880 a 1900",
+      "Décadas de 1940 a 1950"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual líder romano foi assassinado nos Idos de Março de 44 a.C. por membros do Senado?",
+    "options": [
+      "Júlio César",
+      "Augusto",
+      "Marco Antônio",
+      "Pompeu"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual conflito travado entre França e Inglaterra durou mais de um século, entre 1337 e 1453?",
+    "options": [
+      "Guerra dos Cem Anos",
+      "Guerra das Duas Rosas",
+      "Guerra dos Sete Anos",
+      "Guerra da Sucessão Espanhola"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Quem era a governante do Egito Antigo durante a conquista romana liderada por Otaviano?",
+    "options": [
+      "Nefertiti",
+      "Hatshepsut",
+      "Cleópatra",
+      "Néfertari"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual crise econômica mundial começou com o crash da Bolsa de Valores de Nova York em 1929?",
+    "options": [
+      "Grande Depressão",
+      "Crise do Petróleo",
+      "Bolha das Pontocom",
+      "Crise de 2008"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual dinastia chinesa foi responsável pelo início da construção da Grande Muralha unificada?",
+    "options": [
+      "Dinastia Ming",
+      "Dinastia Han",
+      "Dinastia Qin",
+      "Dinastia Tang"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual foi o principal produto da economia colonial do Brasil nos séculos XVI e XVII?",
+    "options": [
+      "Café",
+      "Ouro",
+      "Cana-de-açúcar",
+      "Borracha"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual batalha naval na costa da Grécia, em 480 a.C., barrou o avanço do Império Persa?",
+    "options": [
+      "Batalha de Salamina",
+      "Batalha de Maratona",
+      "Batalha das Termópilas",
+      "Batalha de Platéias"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual conferência de 1884–1885 dividiu o continente africano entre potências europeias?",
+    "options": [
+      "Conferência de Berlim",
+      "Conferência de Yalta",
+      "Congresso de Viena",
+      "Conferência de Potsdam"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual rainha consorte foi decapitada durante o período mais radical da Revolução Francesa?",
+    "options": [
+      "Maria Antonieta",
+      "Josefina de Beauharnais",
+      "Ana Bolena",
+      "Catarina de Médici"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual movimento artístico e cultural marcou a transição da Idade Média para a Idade Moderna?",
+    "options": [
+      "Barroco",
+      "Renascimento",
+      "Iluminismo",
+      "Romantismo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Em qual país asiático ocorreu a Revolta dos Boxers, entre 1899 e 1901, contra potências estrangeiras?",
+    "options": [
+      "Japão",
+      "China",
+      "Coreia",
+      "Vietnã"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual navegador liderou a primeira expedição a dar a volta ao mundo, a partir de 1519?",
+    "options": [
+      "Vasco da Gama",
+      "Cristóvão Colombo",
+      "Fernão de Magalhães",
+      "Pedro Álvares Cabral"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual cidade foi o primeiro alvo de uma bomba atômica na história, em agosto de 1945?",
+    "options": [
+      "Nagasaki",
+      "Hiroshima",
+      "Tóquio",
+      "Quioto"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual princesa assinou a Lei Áurea em 1888, extinguindo a escravidão no Brasil?",
+    "options": [
+      "Princesa Isabel",
+      "Rainha Vitória",
+      "Princesa Leopoldina",
+      "Maria I de Portugal"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual aliança militar ocidental foi fundada em 1949 para conter o bloco soviético?",
+    "options": [
+      "ONU",
+      "OTAN",
+      "Pacto de Varsóvia",
+      "União Europeia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual código mesopotâmico ficou conhecido pela regra de 'olho por olho, dente por dente'?",
+    "options": [
+      "Código de Hamurabi",
+      "Lei das Doze Tábuas",
+      "Código de Ur-Nammu",
+      "Código Justiniano"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual rainha governou a Grã-Bretanha durante o ápice da expansão imperial, no século XIX?",
+    "options": [
+      "Rainha Vitória",
+      "Rainha Elizabeth I",
+      "Rainha Ana",
+      "Rainha Maria II"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual presidente dos Estados Unidos renunciou ao cargo após o escândalo de Watergate, em 1974?",
+    "options": [
+      "Gerald Ford",
+      "Richard Nixon",
+      "Lyndon Johnson",
+      "Jimmy Carter"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual rede de rotas comerciais ligava o Oriente e a China ao Mar Mediterrâneo?",
+    "options": [
+      "Rota da Seda",
+      "Rota das Especiarias",
+      "Rota do Âmbar",
+      "Rota Transaariana"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Quem liderou as forças agrárias do sul durante a Revolução Mexicana?",
+    "options": [
+      "Pancho Villa",
+      "Emiliano Zapata",
+      "Porfírio Díaz",
+      "Venustiano Carranza"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual povo mesoamericano antigo esculpiu imensas cabeças colossais de basalto?",
+    "options": [
+      "Maias",
+      "Astecas",
+      "Olmecas",
+      "Zapotecas"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual iluminista francês teorizou a separação dos poderes em Executivo, Legislativo e Judiciário?",
+    "options": [
+      "Voltaire",
+      "Rousseau",
+      "Montesquieu",
+      "Diderot"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual imperador romano atribuiu aos cristãos a culpa pelo grande incêndio de Roma de 64 d.C.?",
+    "options": [
+      "Calígula",
+      "Nero",
+      "Cláudio",
+      "Trajano"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Em qual país norte-africano teve início a onda de protestos da Primavera Árabe, em 2010?",
+    "options": [
+      "Egito",
+      "Líbia",
+      "Tunísia",
+      "Marrocos"
+    ],
+    "correct_index": 2
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual conflito oitocentista colocou o Império Russo contra turcos, britânicos e franceses?",
+    "options": [
+      "Guerra da Crimeia",
+      "Guerra Russo-Japonesa",
+      "Guerra Russo-Turca",
+      "Guerra Napoleônica"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o ingrediente secreto fundamental da receita do Hambúrguer de Siri em 'Bob Esponja' que Plankton tenta roubar?",
+    "options": [
+      "A Fórmula Secreta do Hambúrguer de Siri",
+      "Água do mar filtrada",
+      "Alga marinha especial",
+      "Molho picante do Sr. Sirigueijo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Avatar: A Lenda de Aang', qual personagem cega descobre e cria a dobra de metal?",
+    "options": [
+      "Katara",
+      "Toph Beifong",
+      "Azula",
+      "Suki"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual elemento acidental adicionado pelo Professor Utônio deu superpoderes às 'Meninas Superpoderosas'?",
+    "options": [
+      "Elemento X",
+      "Kryptonita",
+      "Vibranium",
+      "Adamantium"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é a raça do cão medroso Scooby-Doo?",
+    "options": [
+      "Labrador",
+      "Dogue Alemão",
+      "Buldogue",
+      "Pastor Alemão"
+    ],
+    "correct_index": 1
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Ben 10', qual é o nome do dispositivo alienígena em forma de relógio usado por Ben?",
+    "options": [
+      "Omnitrix",
+      "Ultimatrix",
+      "Infinity Gauntlet",
+      "Chronotrix"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Hora de Aventura', qual é a lendária terra mística pós-apocalíptica habitada por Finn e Jake?",
+    "options": [
+      "Terra de Ooo",
+      "Reino Gelado",
+      "Terra do Nunca",
+      "Equestria"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome da irmã mais velha e intrometida de Dexter em 'O Laboratório de Dexter'?",
+    "options": [
+      "Dee Dee",
+      "Blossom",
+      "Susie",
+      "Mandy"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Os Padrinhos Mágicos', quais são os nomes dos dois padrinhos fadas de Timmy Turner?",
+    "options": [
+      "Cosmo e Wanda",
+      "Jorgen e Blonda",
+      "Binky e Sparky",
+      "Fred e Wilma"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual cidade fictícia do Oregon serve como cenário principal para as desventuras de 'Gravity Falls'?",
+    "options": [
+      "Gravity Falls",
+      "South Park",
+      "Springfield",
+      "Fenda do Biquíni"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Apenas um Show', quais espécies de animais são os protagonistas Mordecai e Rigby?",
+    "options": [
+      "Gaio-azul e Guaxinim",
+      "Corvo e Esquilo",
+      "Papagaio e Gambá",
+      "Falcão e Lontra"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome do demônio metamorfo e mestre da escuridão que baniu o herói no tempo em 'Samurai Jack'?",
+    "options": [
+      "Aku",
+      "Mumm-Ra",
+      "Shredder",
+      "Vandal Savage"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Phineas e Ferb', qual é o disfarce de agente secreto do ornitorrinco da família?",
+    "options": [
+      "Agente P",
+      "Agente K",
+      "Agente Bicudo",
+      "Agente O"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Coragem, o Cão Covarde', qual é o nome do casal de idosos donos de Coragem em Lugar Nenhum?",
+    "options": [
+      "Muriel e Eustáquio Bagge",
+      "Wilma e Fred Bagge",
+      "Mabel e Stan Bagge",
+      "Doris e Earl Bagge"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual cientista alcoólatra e niilista viaja pelas dimensões com seu neto na animação 'Rick and Morty'?",
+    "options": [
+      "Rick Sanchez",
+      "Doc Brown",
+      "Professor Farnsworth",
+      "Dexter"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Steven Universe', de qual raça alienígena vêm as Crystal Gems Pérola, Garnet e Ametista?",
+    "options": [
+      "Gems",
+      "Kryptonianas",
+      "Na'vi",
+      "Asgardianos"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual vilão dos Looney Tunes fala de forma arrastada e sempre caça Pernalonga repetindo 'faça silêncio, estou caçando coelhos'?",
+    "options": [
+      "Elmer Fudd",
+      "Patolino",
+      "Pernalonga",
+      "Piu-Piu"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Danny Phantom', qual acidente concede a Danny seus poderes ectoplasmáticos de meio-fantasma?",
+    "options": [
+      "Entrar acidentalmente no portal fantasma dos pais",
+      "Ser mordido por um morcego radioativo",
+      "Cair em um reator nuclear",
+      "Beber uma poção mágica"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual clássico animado da Hanna-Barbera retrata uma família da Idade da Pedra convivendo com dinossauros domesticados?",
+    "options": [
+      "Os Flintstones",
+      "Os Jetsons",
+      "A Caverna do Dragão",
+      "123 Avenida Sésamo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'X-Men: A Série Animada' dos anos 90, qual mutante do futuro viaja no tempo com um braço biônico e um olho cibernético?",
+    "options": [
+      "Cable",
+      "Wolverine",
+      "Ciclope",
+      "Bishop"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é a cidade pré-histórica onde moram Fred Flintstone e Barney Rubble?",
+    "options": [
+      "Bedrock",
+      "Springfield",
+      "Quahog",
+      "Gotham"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Kim Possible', quem é o melhor amigo e parceiro estabanado da heroína que tem uma toupeira-careca?",
+    "options": [
+      "Ron Stoppable",
+      "Wade Load",
+      "Felix Renton",
+      "Drakken"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual pássaro veloz corre pelas estradas do deserto sempre escapando das armadilhas da ACME do Coiote?",
+    "options": [
+      "Papa-Léguas",
+      "Pica-Pau",
+      "Piu-Piu",
+      "Corvo Malandro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Mansão Foster para Amigos Imaginários', qual é o amigo imaginário azul criado pelo garoto Mac?",
+    "options": [
+      "Bloo",
+      "Wilt",
+      "Eduardo",
+      "Coco"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome da van usada pela Mistério S/A para viajar desvendando casos assombrados?",
+    "options": [
+      "Máquina do Mistério",
+      "Batmóvel",
+      "Ecto-1",
+      "Van Fantasma"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Du, Dudu e Edu', qual doce gigante esférico os três amigos são obcecados em comprar com moedas de 25 centavos?",
+    "options": [
+      "Bala de caramelo (Jawbreaker)",
+      "Pirulito gigante",
+      "Chiclete de bola",
+      "Pastilha de menta"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual pato sovina e bilionário nada em uma caixa-forte repleta de moedas de ouro em 'DuckTales'?",
+    "options": [
+      "Tio Patinhas",
+      "Pato Donald",
+      "Pato Lucas",
+      "Zé Carioca"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Tartarugas Ninja', qual é o nome do mestre rato mutante que treina as quatro tartarugas no esgoto?",
+    "options": [
+      "Mestre Splinter",
+      "Shredder",
+      "April O'Neil",
+      "Casey Jones"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual marinheiro de desenho animado ganha superforça instantânea ao engolir uma lata de espinafre?",
+    "options": [
+      "Popeye",
+      "Capitão Gancho",
+      "Sinbad",
+      "Bluto"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'As Trapalhadas de Flapjack', qual ilha mística lendária feita inteiramente de guloseimas os personagens procuram?",
+    "options": [
+      "Ilha Açúcar",
+      "Ilha da Caveira",
+      "Ilha do Tesouro",
+      "Ilha Chiclete"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é a profissão do pai de família Homer Simpson na série 'Os Simpsons'?",
+    "options": [
+      "Inspetor de segurança da Usina Nuclear de Springfield",
+      "Motorista de ônibus escolar",
+      "Policial de Springfield",
+      "Dono de um bar"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'KND: A Turma do Bairro', qual número designa o líder e estrategista careca da equipe, Nigel Uno?",
+    "options": [
+      "Número 1",
+      "Número 2",
+      "Número 5",
+      "Número 4"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual felino de cor de rosa refinado anda na ponta dos pés ao som do famoso tema instrumental de Henry Mancini?",
+    "options": [
+      "A Pantera Cor-de-Rosa",
+      "Tom",
+      "Garfield",
+      "Top Cat"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Gárgulas' (Gargoyles), qual líder guerreiro de pedra desperta no topo de um arranha-céu moderno em Manhattan?",
+    "options": [
+      "Goliath",
+      "Brooklyn",
+      "Hudson",
+      "Demona"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual galã metido, de topete loiro, vive cantando e tentando conquistar garotas em 'Johnny Bravo'?",
+    "options": [
+      "Johnny Bravo",
+      "Flash Gordon",
+      "Zé Colmeia",
+      "Speedy Gonzales"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Rugrats: Os Anjinhos', qual é o nome do bebê calvo e corajoso que carrega uma chave de fenda na fralda?",
+    "options": [
+      "Tommy Pickles",
+      "Chuckie Finster",
+      "Phil DeVille",
+      "Dil Pickles"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual pássaro louco e de risada estridente foi criado pelo animador Walter Lantz?",
+    "options": [
+      "Pica-Pau",
+      "Papa-Léguas",
+      "Piu-Piu",
+      "Corvo Malandro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'As Terríveis Aventuras de Billy e Mandy', quem é a entidade da Morte que se torna escrava dos dois garotos após perder um jogo de limbo?",
+    "options": [
+      "Puro Osso (Grim)",
+      "Coringa",
+      "Aku",
+      "Hades"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é a cidade subaquática onde se passam as histórias de Bob Esponja Calça Quadrada?",
+    "options": [
+      "Fenda do Biquíni",
+      "Atlântida",
+      "Recife de Coral",
+      "Baía Marítima"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Futurama', qual entregador de pizza é congelado criogenicamente por engano em 1999 e acorda no ano 3000?",
+    "options": [
+      "Philip J. Fry",
+      "Bender Rodriguez",
+      "Hermes Conrad",
+      "Zapp Brannigan"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual cachorro beagle filósofo e imaginativo dorme em cima da casinha de cachorro nas tiras e animações de 'Peanuts'?",
+    "options": [
+      "Snoopy",
+      "Scooby-Doo",
+      "Pluto",
+      "Rex"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Liga da Justiça Sem Limites', qual membro fundador e homem mais rápido do mundo é Wally West?",
+    "options": [
+      "Flash",
+      "Mercúrio",
+      "Quicksilver",
+      "Speedy"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Batman: A Série Animada' dos anos 90, qual vilã e cúmplice do Coringa foi criada originalmente para o desenho animado?",
+    "options": [
+      "Arlequina (Harley Quinn)",
+      "Hera Venenosa",
+      "Gata Malhada (Catwoman)",
+      "Renee Montoya"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual desenho da Hanna-Barbera retratava uma família em uma sociedade futurista repleta de carros voadores e robôs domésticos?",
+    "options": [
+      "Os Jetsons",
+      "Os Flintstones",
+      "Meteoro",
+      "Speed Racer"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'She-Ra e as Princesas do Poder', qual espada mágica transforma Adora na guerreira protetora de Etheria?",
+    "options": [
+      "Espada de Proteção",
+      "Espada do Poder",
+      "Excalibur",
+      "Espada de Grayskull"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual desenho de 1985 contava com Lion-O e guerreiros felinos humanoides empunhando a Espada Justiceira?",
+    "options": [
+      "ThunderCats",
+      "He-Man",
+      "Voltron",
+      "Os Cavaleiros do Zodíaco"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Os Jovens Titãs' (2003), qual princesa guerreira alienígena do planeta Tamaran faz parte do grupo?",
+    "options": [
+      "Estelar (Starfire)",
+      "Ravena (Raven)",
+      "Terra (Terra)",
+      "Argente (Argent)"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual clássico animado da Disney de 1937 foi o primeiro longa-metragem de animação sonoro e totalmente colorido da história?",
+    "options": [
+      "Branca de Neve e os Sete Anões",
+      "Pinóquio",
+      "Fantasia",
+      "Bambi"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em animações clássicas infantis da TV Cultura, qual cobra rosa vivia dentro de uma árvore falando no interfone?",
+    "options": [
+      "Celeste",
+      "Nino",
+      "Bruxa Configurando",
+      "Morgana"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Naruto', qual besta de caudas está selada dentro do protagonista Naruto Uzumaki?",
+    "options": [
+      "Kurama (Raposa de Nove Caudas)",
+      "Shukaku (Guaxinim de Uma Cauda)",
+      "Gyuki (Touro-Polvo de Oito Caudas)",
+      "Matatabi (Gato de Duas Caudas)"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o nome da Akuma no Mi consumida por Monkey D. Luffy em 'One Piece'?",
+    "options": [
+      "Gomu Gomu no Mi",
+      "Mera Mera no Mi",
+      "Yami Yami no Mi",
+      "Tori Tori no Mi"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Death Note', qual shinigami deixa o caderno da morte cair no mundo humano por puro tédio?",
+    "options": [
+      "Ryuk",
+      "Rem",
+      "Sidoh",
+      "Gelus"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é a principal lei da alquimia apresentada em 'Fullmetal Alchemist'?",
+    "options": [
+      "Troca Equivalente",
+      "Tabu de Sangue",
+      "Lei da Ressonância",
+      "Princípio da Transmutação Humana"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do protagonista de 'Attack on Titan' (Shingeki no Kyojin)?",
+    "options": [
+      "Eren Jaeger",
+      "Armin Arlert",
+      "Levi Ackerman",
+      "Reiner Braun"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Hunter x Hunter', qual tipo de Nen permite transformar a aura em propriedades elétricas, como faz Killua?",
+    "options": [
+      "Transmutação",
+      "Emissão",
+      "Manipulação",
+      "Materialização"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual espadachim usa o lendário estilo de três espadas (Santoryu) em 'One Piece'?",
+    "options": [
+      "Roronoa Zoro",
+      "Sanji",
+      "Usopp",
+      "Jinbe"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Bleach', qual é o nome da espada espiritual de Ichigo Kurosaki?",
+    "options": [
+      "Zangetsu",
+      "Senbonzakura",
+      "Hyorinmaru",
+      "Zabimaru"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual feiticeiro jujutsu de olhos vendados é considerado o mais forte em 'Jujutsu Kaisen'?",
+    "options": [
+      "Satoru Gojo",
+      "Suguru Geto",
+      "Yuji Itadori",
+      "Toji Fushiguro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual clássico filme de anime de 1988 dirigido por Katsuhiro Otomo se passa em Neo-Tóquio?",
+    "options": [
+      "Akira",
+      "Ghost in the Shell",
+      "Paprika",
+      "Metropolis"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Demon Slayer' (Kimetsu no Yaiba), quem é o criador e progenitor de todos os demônios (onis)?",
+    "options": [
+      "Muzan Kibutsuji",
+      "Doma",
+      "Kokushibo",
+      "Akaza"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Neon Genesis Evangelion', qual garoto tímido pilota a gigantesca Unidade-01 (EVA-01)?",
+    "options": [
+      "Shinji Ikari",
+      "Asuka Langley",
+      "Rei Ayanami",
+      "Kaworu Nagisa"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual herói careca de 'One-Punch Man' consegue derrotar praticamente qualquer inimigo com um só golpe?",
+    "options": [
+      "Saitama",
+      "Genos",
+      "Mumen Rider",
+      "Bang"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Os Cavaleiros do Zodíaco', qual deusa grega Seiya e os outros cavaleiros de bronze protegem?",
+    "options": [
+      "Atena",
+      "Afrodite",
+      "Ártemis",
+      "Perséfone"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual poder ocular lendário do clã Uchiha em 'Naruto' evolui após um grande trauma emocional?",
+    "options": [
+      "Sharingan",
+      "Byakugan",
+      "Rinnegan",
+      "Tenseigan"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'My Hero Academia' (Boku no Hero Academia), qual individualidade é passada de geração em geração para Deku?",
+    "options": [
+      "One For All",
+      "All For One",
+      "Overhaul",
+      "Decay"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual cientista renasce milhares de anos no futuro e busca reconstruir a civilização com a ciência em 'Dr. Stone'?",
+    "options": [
+      "Senku Ishigami",
+      "Taiju Oki",
+      "Gen Asagiri",
+      "Chrome"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'JoJo's Bizarre Adventure', a partir da Parte 3 (Stardust Crusaders), as batalhas passam a usar qual tipo de manifestação espiritual?",
+    "options": [
+      "Stands",
+      "Nen",
+      "Chakra",
+      "Quirks"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual garota humana se torna demônio após o massacre da família Kamado em 'Demon Slayer'?",
+    "options": [
+      "Nezuko Kamado",
+      "Shinobu Kocho",
+      "Kanao Tsuyuri",
+      "Mitsuri Kanroji"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual ciborgue e líder da Seção 9 é a protagonista de 'Ghost in the Shell'?",
+    "options": [
+      "Major Motoko Kusanagi",
+      "Rei Ayanami",
+      "Ryoko Yakushimaru",
+      "Balsa"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Yu Yu Hakusho', qual golpe principal Yusuke Urameshi dispara concentrando energia na ponta do dedo?",
+    "options": [
+      "Leigan (Raio Espiritual)",
+      "Kamehameha",
+      "Rasengan",
+      "Getsuga Tensho"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do jogo de realidade virtual letal em que os jogadores ficam presos no primeiro arco de 'Sword Art Online'?",
+    "options": [
+      "Aincrad",
+      "Alfheim",
+      "Gun Gale Online",
+      "Underworld"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Code Geass', qual habilidade sobrenatural Lelouch vi Britannia recebe de C.C. nos seus olhos?",
+    "options": [
+      "Geass",
+      "Nen",
+      "Haki",
+      "Quirk"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o primeiro Pokémon inicial recebido por Ash Ketchum na região de Kanto?",
+    "options": [
+      "Pikachu",
+      "Charmander",
+      "Bulbasaur",
+      "Squirtle"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Dragon Ball', quantas esferas do dragão são necessárias reunir para invocar Shenlong na Terra?",
+    "options": [
+      "7 esferas",
+      "5 esferas",
+      "9 esferas",
+      "3 esferas"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o objetivo máximo de Gon Freecss ao se tornar um caçador profissional em 'Hunter x Hunter'?",
+    "options": [
+      "Encontrar seu pai (Ging Freecss)",
+      "Vingar sua família",
+      "Vencer o Hunter Exam",
+      "Salvar sua vila natal"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Chainsaw Man', qual pequeno demônio-motosserra forma um pacto e vira o coração de Denji?",
+    "options": [
+      "Pochita",
+      "Power",
+      "Makima",
+      "Aki Hayakawa"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Steins;Gate', qual aparelho doméstico acoplado a um telefone celular funciona como máquina do tempo acidental?",
+    "options": [
+      "Micro-ondas",
+      "Geladeira",
+      "Televisor",
+      "Rádio"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual capitão do Esquadrão de Reconhecimento em 'Attack on Titan' é apelidado de 'o soldado mais forte da humanidade'?",
+    "options": [
+      "Levi Ackerman",
+      "Erwin Smith",
+      "Hange Zoe",
+      "Mike Zacharias"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Inuyasha', qual joia mágica quebrada os protagonistas precisam juntar os fragmentos espalhados?",
+    "options": [
+      "Joia de Quatro Almas (Shikon no Tama)",
+      "Espada Tessaiga",
+      "Pergaminho Sagrado",
+      "Colar Rosário"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual alquimista federal e melhor amigo de Roy Mustang é tragicamente assassinado em 'Fullmetal Alchemist'?",
+    "options": [
+      "Maes Hughes",
+      "Alex Louis Armstrong",
+      "Kimblee",
+      "Ling Yao"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual clássico mecha de 1979 criado por Yoshiyuki Tomino iniciou a era dos 'robôs reais' no Japão?",
+    "options": [
+      "Mobile Suit Gundam",
+      "Macross",
+      "Neon Genesis Evangelion",
+      "Voltron"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Sailor Moon', qual gata preta mágica com uma lua crescente na testa guia Usagi Tsukino?",
+    "options": [
+      "Luna",
+      "Artemis",
+      "Diana",
+      "Kero"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual prodígio detetive rivaliza mentalmente com Light Yagami na primeira metade de 'Death Note'?",
+    "options": [
+      "L (L Lawliet)",
+      "Near",
+      "Mello",
+      "Soichiro Yagami"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Fairy Tail', qual tipo de magia rara é utilizada pelo protagonista Natsu Dragneel?",
+    "options": [
+      "Dragon Slayer do Fogo",
+      "Magia Celestial",
+      "Magia de Gelo",
+      "Magia de Requip"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual anime de vôlei super popular acompanha a trajetória da equipe do colégio Karasuno?",
+    "options": [
+      "Haikyuu!!",
+      "Kuroko no Basket",
+      "Slam Dunk",
+      "Ace of Diamond"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Black Clover', qual garoto desprovido de qualquer poder mágico recebe um grimório de cinco folhas?",
+    "options": [
+      "Asta",
+      "Yuno",
+      "Noelle Silva",
+      "Yami Sukehiro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é a classificação dos espíritos monstruosos combatidos pela Soul Society em 'Bleach'?",
+    "options": [
+      "Hollows",
+      "Arrancars",
+      "Quincys",
+      "Shinigamis"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Tokyo Ghoul', qual estudante se torna meio-ghoul após receber transplante de órgãos de Rize Kamishiro?",
+    "options": [
+      "Ken Kaneki",
+      "Touka Kirishima",
+      "Shu Tsukiyama",
+      "Uta"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual guerreiro Sayajin do futuro viaja no tempo em 'Dragon Ball Z' para alertar sobre os androides?",
+    "options": [
+      "Trunks",
+      "Gohan",
+      "Goten",
+      "Vegeta"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Berserk', qual comandante do Bando do Falcão sacrifica seus companheiros durante o Eclipse para virar Femto?",
+    "options": [
+      "Griffith",
+      "Guts",
+      "Casca",
+      "Zodd"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é a alcunha pirata do protagonista Monkey D. Luffy em 'One Piece'?",
+    "options": [
+      "Luffy do Chapéu de Palha",
+      "Zoro Caçador de Piratas",
+      "Sanji Perna Negra",
+      "Barba Negra"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Mob Psycho 100', qual trapaceiro carismático atua como mestre espiritual autodeclarado de Mob?",
+    "options": [
+      "Reigen Arataka",
+      "Mob (Shigeo Kageyama)",
+      "Dimple",
+      "Ritsu Kageyama"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o nome da garotinha telepata adotada pela família Forger em 'Spy x Family'?",
+    "options": [
+      "Anya Forger",
+      "Yor Forger",
+      "Loid Forger",
+      "Bond"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Os Cavaleiros do Zodíaco', qual armadura de ouro guarda a primeira das Doze Casas do Santuário?",
+    "options": [
+      "Áries",
+      "Touro",
+      "Gêmeos",
+      "Câncer"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual espadachim errante com uma cicatriz em cruz no rosto tenta expiar seu passado em 'Samurai X' (Rurouni Kenshin)?",
+    "options": [
+      "Kenshin Himura",
+      "Sanosuke Sagara",
+      "Saito Hajime",
+      "Aoshi Shinomori"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Jujutsu Kaisen', qual lendário 'Rei das Maldições' possui 20 dedos selados que Yuji Itadori passa a consumir?",
+    "options": [
+      "Ryomen Sukuna",
+      "Mahito",
+      "Jogo",
+      "Hanami"
+    ],
+    "correct_index": 0
+  }
+]

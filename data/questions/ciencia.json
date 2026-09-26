@@ -1,0 +1,249 @@
+[
+  {
+    "id": "cie-001",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o elemento químico de símbolo 'Fe'?",
+    "options": [
+      "Ferro",
+      "Flúor",
+      "Fósforo",
+      "Frâncio"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cie-002",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o planeta mais próximo do Sol?",
+    "options": [
+      "Terra",
+      "Marte",
+      "Mercúrio",
+      "Vênus"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-003",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual gás os seres humanos precisam respirar para viver?",
+    "options": [
+      "Hidrogênio",
+      "Oxigênio",
+      "Gás carbônico",
+      "Nitrogênio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-004",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Quem formulou a Teoria da Relatividade?",
+    "options": [
+      "Isaac Newton",
+      "Galileu Galilei",
+      "Albert Einstein",
+      "Niels Bohr"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-005",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é a unidade de medida da força no Sistema Internacional?",
+    "options": [
+      "Watt",
+      "Pascal",
+      "Newton",
+      "Joule"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-006",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual estrutura celular é responsável pela respiração celular e produção de ATP?",
+    "options": [
+      "Núcleo",
+      "Mitocôndria",
+      "Ribossomo",
+      "Complexo de Golgi"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-007",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual gás os seres humanos precisam respirar para sobreviver?",
+    "options": [
+      "Hidrogênio",
+      "Nitrogênio",
+      "Gás carbônico",
+      "Oxigênio"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cie-008",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é a unidade básica da vida?",
+    "options": [
+      "Molécula",
+      "Célula",
+      "Átomo",
+      "Tecido"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-009",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual cientista é considerado o pai da genética moderna por seus estudos com ervilhas?",
+    "options": [
+      "Alfred Wegener",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Charles Darwin"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-010",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Quantos ossos, aproximadamente, tem o corpo humano adulto?",
+    "options": [
+      "206",
+      "100",
+      "150",
+      "300"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cie-011",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual é o processo pelo qual as plantas produzem seu próprio alimento usando luz solar?",
+    "options": [
+      "Respiração celular",
+      "Fotossíntese",
+      "Osmose",
+      "Fermentação"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-012",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é o elemento químico mais abundante no universo?",
+    "options": [
+      "Hidrogênio",
+      "Carbono",
+      "Hélio",
+      "Oxigênio"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cie-013",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual órgão do corpo humano é responsável por bombear o sangue?",
+    "options": [
+      "Rim",
+      "Pulmão",
+      "Fígado",
+      "Coração"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cie-014",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Quem propôs a Teoria da Evolução das espécies por seleção natural?",
+    "options": [
+      "Louis Pasteur",
+      "Gregor Mendel",
+      "Alfred Wegener",
+      "Charles Darwin"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cie-015",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual camada da atmosfera terrestre concentra a maior parte da camada de ozônio?",
+    "options": [
+      "Mesosfera",
+      "Troposfera",
+      "Estratosfera",
+      "Termosfera"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-016",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual é o estado físico da água em forma de gelo?",
+    "options": [
+      "Plasma",
+      "Gasoso",
+      "Líquido",
+      "Sólido"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cie-017",
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual cientista é conhecido pelas leis do movimento e da gravitação universal?",
+    "options": [
+      "Galileu Galilei",
+      "Nikola Tesla",
+      "Isaac Newton",
+      "Albert Einstein"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-018",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é a partícula subatômica com carga elétrica negativa?",
+    "options": [
+      "Nêutron",
+      "Elétron",
+      "Próton",
+      "Fóton"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-019",
+    "category": "ciencia",
+    "difficulty": "facil",
+    "question": "Qual planeta é conhecido como o \"planeta vermelho\"?",
+    "options": [
+      "Saturno",
+      "Júpiter",
+      "Marte",
+      "Vênus"
+    ],
+    "correct_index": 2
+  }
+]

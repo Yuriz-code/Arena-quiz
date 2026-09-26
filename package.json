@@ -1,0 +1,24 @@
+{
+  "name": "quizarena-server",
+  "version": "1.0.0",
+  "description": "Servidor autoritativo do QuizArena — quiz multiplayer via WebSocket",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test",
+    "generate-questions": "node scripts/generate-questions.js ./scripts/raw-bank-full.json ./data/questions",
+    "generate-questions:example": "node scripts/generate-questions.js ./scripts/raw-bank.example.json ./data/questions"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.7.5"
+  }
+}

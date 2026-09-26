@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>QuizArena — Quiz Multiplayer</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<div id="connection-indicator" class="conn-indicator" aria-live="polite"></div>
+
+<!-- ===================== CHAT DA SALA ===================== -->
+<button id="chat-toggle" class="chat-toggle" type="button" aria-label="Abrir chat da sala" aria-expanded="false" aria-controls="chat-panel" hidden>
+  <span aria-hidden="true">💬</span>
+  <span id="chat-badge" class="chat-badge" hidden>0</span>
+</button>
+<aside id="chat-panel" class="chat-panel" aria-label="Chat da sala" hidden>
+  <div class="chat-header">
+    <span class="chat-title">Chat da sala</span>
+    <button id="chat-close" class="chat-close" type="button" aria-label="Fechar chat">✕</button>
+  </div>
+  <ol id="chat-messages" class="chat-messages" aria-live="polite"></ol>
+  <p id="chat-empty" class="chat-empty">Nenhuma mensagem ainda. Diga oi! 👋</p>
+  <p id="chat-error" class="chat-error" role="alert"></p>
+  <div class="chat-compose">
+    <input id="chat-input" type="text" maxlength="200" placeholder="Escreva uma mensagem…" autocomplete="off" enterkeyhint="send" />
+    <button id="chat-send" class="chat-send" type="button">Enviar</button>
+  </div>
+</aside>
+
+<main id="app" class="app">
+
+  <!-- ===================== TELA: LOGIN (CONTA) ===================== -->
+  <!-- Login de CONTA — independente de sala. Autentica usuário+senha contra
+       o servidor (persistido em SQLite); funciona em qualquer dispositivo.
+       Só depois de logado a pessoa chega na tela de criar/entrar em sala. -->
+  <section class="screen" id="screen-login" data-active="true">
+    <div class="stage-card" id="login-main-card">
+      <h1 class="logo">Quiz<span>Arena</span></h1>
+      <p class="tagline">Entre com sua conta ou jogue sem login — você escolhe.</p>
+
+      <!-- Só aparece para quem chegou por link de convite (?join=XXXX). Quem
+           clica num convite quer entrar na partida, não criar conta — por
+           isso "Jogar sem login" vira o botão principal nesse caso (ver
+           applyInviteEmphasis em app.js). -->
+      <p id="invite-banner" class="invite-banner" hidden>Você foi convidado para a sala <strong id="invite-room-code"></strong></p>
+
+      <div class="auth-tabs" role="tablist" aria-label="Entrar ou criar conta">
+        <button type="button" id="tab-login" class="auth-tab" data-active="true" role="tab" aria-selected="true">Entrar</button>
+        <button type="button" id="tab-register" class="auth-tab" data-active="false" role="tab" aria-selected="false">Criar conta</button>
+      </div>
+
+      <p id="auth-conn-status" class="conn-status-hint" role="status" aria-live="polite">Conectando ao servidor…</p>
+
+      <form id="form-login" class="auth-form" data-active="true">
+        <label class="field">
+          <span class="field-label">Usuário</span>
+          <input id="login-username" type="text" maxlength="20" placeholder="seu_usuario" autocomplete="username" />
+          <span id="login-username-error" class="field-error" role="alert"></span>
+        </label>
+        <label class="field">
+          <span class="field-label">Senha</span>
+          <div class="password-field">
+            <input id="login-password" type="password" placeholder="Sua senha" autocomplete="current-password" />
+            <button type="button" class="password-toggle" data-target="login-password" aria-label="Mostrar senha">👁️</button>
+          </div>
+          <span id="login-password-error" class="field-error" role="alert"></span>
+        </label>
+        <label class="checkbox-field">
+          <input id="login-remember" type="checkbox" checked />
+          <span>Manter conectado neste aparelho</span>
+        </label>
+        <button id="btn-login" type="submit" class="btn btn-primary" disabled>Entrar</button>
+        <button id="btn-forgot-open" type="button" class="btn-link">Esqueci minha senha</button>
+      </form>
+
+      <form id="form-register" class="auth-form" data-active="false" hidden>
+        <label class="field">
+          <span class="field-label">Escolha um usuário</span>
+          <input id="register-username" type="text" maxlength="20" placeholder="3 a 20 letras, números ou _" autocomplete="username" />
+          <span id="register-username-error" class="field-error" role="alert"></span>
+          <span id="register-username-hint" class="field-hint" aria-live="polite"></span>
+        </label>
+        <label class="field">
+          <span class="field-label">Escolha uma senha</span>
+          <div class="password-field">
+            <input id="register-password" type="password" placeholder="Mínimo 6 caracteres" autocomplete="new-password" />
+            <button type="button" class="password-toggle" data-target="register-password" aria-label="Mostrar senha">👁️</button>
+          </div>
+          <span id="register-password-error" class="field-error" role="alert"></span>
+        </label>
+        <div class="field">
+          <span class="field-label">Escolha seu avatar</span>
+          <div id="register-avatar-grid" class="avatar-grid" role="radiogroup" aria-label="Escolha de avatar"></div>
+        </div>
+        <label class="checkbox-field">
+          <input id="register-remember" type="checkbox" checked />
+          <span>Manter conectado neste aparelho</span>
+        </label>
+        <button id="btn-register" type="submit" class="btn btn-primary" disabled>Criar conta e entrar</button>
+      </form>
+
+      <!-- "Esqueci minha senha": prova de identidade é o código de recuperação
+           mostrado uma única vez no cadastro (não a senha atual). -->
+      <form id="form-forgot" class="auth-form" data-active="false" hidden>
+        <p class="field-hint-block">Digite seu usuário, o código de recuperação que você anotou no cadastro e uma nova senha.</p>
+        <label class="field">
+          <span class="field-label">Usuário</span>
+          <input id="forgot-username" type="text" maxlength="20" placeholder="seu_usuario" autocomplete="username" />
+        </label>
+        <label class="field">
+          <span class="field-label">Código de recuperação</span>
+          <input id="forgot-code" type="text" placeholder="EX: A1B2-C3D4-E5F6" autocomplete="off" style="text-transform:uppercase" />
+          <span id="forgot-code-error" class="field-error" role="alert"></span>
+        </label>
+        <label class="field">
+          <span class="field-label">Nova senha</span>
+          <div class="password-field">
+            <input id="forgot-password" type="password" placeholder="Mínimo 6 caracteres" autocomplete="new-password" />
+            <button type="button" class="password-toggle" data-target="forgot-password" aria-label="Mostrar senha">👁️</button>
+          </div>
+          <span id="forgot-password-error" class="field-error" role="alert"></span>
+        </label>
+        <button id="btn-forgot-submit" type="submit" class="btn btn-primary">Redefinir senha</button>
+        <button id="btn-forgot-back" type="button" class="btn-link">← Voltar para entrar</button>
+      </form>
+
+      <!-- Jogar sem login: só escolhe apelido + avatar. Não cria conta nem
+           guarda senha; vale só neste navegador. -->
+      <div id="guest-entry-block">
+        <div class="divider"><span>ou</span></div>
+        <button id="btn-guest-open" type="button" class="btn btn-secondary">Jogar sem login</button>
+      </div>
+
+      <form id="form-guest" class="auth-form" data-active="false" hidden>
+        <label class="field">
+          <span class="field-label">Seu apelido</span>
+          <input id="guest-nickname" type="text" maxlength="20" placeholder="2 a 20 caracteres" autocomplete="nickname" />
+          <span id="guest-nickname-error" class="field-error" role="alert"></span>
+        </label>
+        <div class="field">
+          <span class="field-label">Escolha seu avatar</span>
+          <div id="guest-avatar-grid" class="avatar-grid" role="radiogroup" aria-label="Escolha de avatar"></div>
+        </div>
+        <button id="btn-guest-continue" type="submit" class="btn btn-primary">Continuar sem login</button>
+        <button id="btn-guest-back" type="button" class="btn-link">← Voltar para entrar / criar conta</button>
+      </form>
+
+      <p id="auth-error" class="error-text" role="alert"></p>
+    </div>
+
+    <!-- Código de recuperação mostrado UMA VEZ (cadastro, ou toda vez que
+         "esqueci a senha" é usado com sucesso — o código é de uso único e um
+         novo substitui o antigo). Cobre a tela inteira até a pessoa confirmar
+         que anotou, para não passar batido sem perceber a importância. -->
+    <div id="recovery-reveal" class="stage-card recovery-reveal" hidden>
+      <h2 class="podium-title">Anote este código</h2>
+      <p class="field-hint-block">É a única forma de redefinir sua senha se você a esquecer. Guarde num lugar seguro — ele só aparece esta vez.</p>
+      <p id="recovery-code-text" class="recovery-code-text">----</p>
+      <button id="btn-copy-recovery" type="button" class="btn btn-ghost btn-small">Copiar código</button>
+      <button id="btn-recovery-continue" type="button" class="btn btn-primary">Já anotei, continuar</button>
+    </div>
+  </section>
+
+  <!-- ===================== TELA: ENTRADA (SALA) ===================== -->
+  <!-- Só aparece depois do login. Usa nickname/avatar da CONTA — não pede
+       nome de novo aqui; é exatamente esse o ponto de separar login da
+       criação de sala. -->
+  <section class="screen" id="screen-entry" data-active="false">
+    <div class="stage-card">
+      <h1 class="logo">Quiz<span>Arena</span></h1>
+      <p class="tagline">Um quiz ao vivo para até 8 pessoas. Sem instalar nada.</p>
+
+      <div class="account-badge">
+        <span id="account-avatar" class="account-avatar"></span>
+        <span id="account-username" class="account-username"></span>
+        <button id="btn-logout" type="button" class="btn-text-danger">Sair</button>
+      </div>
+      <!-- Só para quem está logado de verdade (não aparece em modo convidado,
+           que não tem perfil, senha nem outros aparelhos pra gerenciar). -->
+      <div id="account-links" class="account-links" hidden>
+        <button id="btn-open-profile" type="button" class="btn-link-small">Editar perfil</button>
+        <button id="btn-open-password" type="button" class="btn-link-small">Trocar senha</button>
+        <button id="btn-logout-all" type="button" class="btn-link-small">Sair de todos os aparelhos</button>
+      </div>
+
+      <p id="conn-status-entry" class="conn-status-hint" role="status" aria-live="polite" hidden></p>
+
+      <div class="entry-actions">
+        <button id="btn-create-room" class="btn btn-primary" disabled>Criar sala</button>
+        <div class="divider"><span>ou</span></div>
+        <label class="field">
+          <span class="field-label">Código da sala</span>
+          <input id="room-code-input" type="text" maxlength="4" placeholder="EX: X7K2" autocomplete="off" style="text-transform:uppercase" />
+        </label>
+        <button id="btn-join-room" class="btn btn-secondary" disabled>Entrar com código</button>
+      </div>
+
+      <p id="entry-error" class="error-text" role="alert"></p>
+
+      <h3 class="section-subtitle">Placar geral</h3>
+      <div id="lb-home" class="lb"></div>
+    </div>
+  </section>
+
+  <!-- ===================== TELA: EDITAR PERFIL ===================== -->
+  <section class="screen" id="screen-profile" data-active="false">
+    <div class="stage-card">
+      <button id="btn-profile-back" type="button" class="btn-link btn-back">← Voltar</button>
+      <h2 class="podium-title">Editar perfil</h2>
+      <form id="form-profile" class="auth-form" data-active="true">
+        <label class="field">
+          <span class="field-label">Usuário</span>
+          <input id="profile-username" type="text" maxlength="20" placeholder="3 a 20 letras, números ou _" autocomplete="username" />
+          <span id="profile-username-error" class="field-error" role="alert"></span>
+          <span id="profile-username-hint" class="field-hint" aria-live="polite"></span>
+        </label>
+        <div class="field">
+          <span class="field-label">Avatar</span>
+          <div id="profile-avatar-grid" class="avatar-grid" role="radiogroup" aria-label="Escolha de avatar"></div>
+        </div>
+        <button id="btn-profile-save" type="submit" class="btn btn-primary">Salvar alterações</button>
+      </form>
+      <p id="profile-error" class="error-text" role="alert"></p>
+    </div>
+  </section>
+
+  <!-- ===================== TELA: TROCAR SENHA ===================== -->
+  <section class="screen" id="screen-password" data-active="false">
+    <div class="stage-card">
+      <button id="btn-password-back" type="button" class="btn-link btn-back">← Voltar</button>
+      <h2 class="podium-title">Trocar senha</h2>
+      <form id="form-change-password" class="auth-form" data-active="true">
+        <label class="field">
+          <span class="field-label">Senha atual</span>
+          <div class="password-field">
+            <input id="current-password" type="password" placeholder="Sua senha atual" autocomplete="current-password" />
+            <button type="button" class="password-toggle" data-target="current-password" aria-label="Mostrar senha">👁️</button>
+          </div>
+          <span id="current-password-error" class="field-error" role="alert"></span>
+        </label>
+        <label class="field">
+          <span class="field-label">Nova senha</span>
+          <div class="password-field">
+            <input id="new-password" type="password" placeholder="Mínimo 6 caracteres" autocomplete="new-password" />
+            <button type="button" class="password-toggle" data-target="new-password" aria-label="Mostrar senha">👁️</button>
+          </div>
+          <span id="new-password-error" class="field-error" role="alert"></span>
+        </label>
+        <button id="btn-password-save" type="submit" class="btn btn-primary">Salvar nova senha</button>
+      </form>
+      <p id="password-error" class="error-text" role="alert"></p>
+    </div>
+  </section>
+
+  <!-- ===================== TELA: LOBBY ===================== -->
+  <section class="screen" id="screen-lobby" data-active="false">
+    <div class="stage-card wide">
+      <button id="btn-leave-room" type="button" class="btn-link btn-back">← Voltar ao menu inicial</button>
+      <div class="lobby-header">
+        <div>
+          <p class="eyebrow-plain">Sala</p>
+          <h2 id="lobby-room-code" class="room-code">----</h2>
+        </div>
+        <button id="btn-copy-link" class="btn btn-ghost btn-small">Copiar convite</button>
+      </div>
+
+      <div class="lobby-grid">
+        <div class="lobby-players">
+          <h3 class="section-title">Jogadores (<span id="player-count">0</span>/8)</h3>
+          <ul id="player-list" class="player-list"></ul>
+        </div>
+
+        <div id="host-panel" class="host-panel" hidden>
+          <h3 class="section-title">Configurações do host</h3>
+
+          <div class="field">
+            <span class="field-label">Tempo por rodada</span>
+            <div id="round-time-options" class="pill-group"></div>
+          </div>
+
+          <div class="field">
+            <span class="field-label">Nº de perguntas</span>
+            <div id="total-questions-options" class="pill-group">
+              <button data-value="8" class="pill">8</button>
+              <button data-value="10" class="pill">10</button>
+              <button data-value="15" class="pill">15</button>
+              <button data-value="20" class="pill">20</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <span class="field-label">Categorias</span>
+            <div id="category-grid" class="category-grid"></div>
+          </div>
+
+          <button id="btn-start-game" class="btn btn-primary" disabled>Iniciar partida (mín. 2 jogadores)</button>
+        </div>
+
+        <div id="guest-waiting" class="guest-waiting">
+          <p>Aguardando o host iniciar a partida…</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TELA: JOGO (PERGUNTA) ===================== -->
+  <section class="screen" id="screen-question" data-active="false">
+    <div class="question-header">
+      <span id="question-progress" class="question-progress">Pergunta 1/10</span>
+      <span id="question-category" class="question-category-tag">Categoria</span>
+      <span id="question-bonus-badge" class="question-bonus-badge" hidden>⭐ 2x pontos</span>
+      <div class="timer-ring-wrap">
+        <svg class="timer-ring" viewBox="0 0 64 64" aria-hidden="true">
+          <circle class="timer-ring-bg" cx="32" cy="32" r="28"></circle>
+          <circle id="timer-ring-fg" class="timer-ring-fg" cx="32" cy="32" r="28"></circle>
+        </svg>
+        <span id="timer-seconds" class="timer-seconds">15</span>
+      </div>
+    </div>
+
+    <h2 id="question-text" class="question-text">Carregando pergunta…</h2>
+
+    <div id="options-grid" class="options-grid"></div>
+
+    <div id="powerup-bar" class="powerup-bar">
+      <span id="streak-indicator" class="streak-indicator" hidden>🔥 <span id="streak-count">0</span></span>
+      <button type="button" id="btn-powerup-fifty" class="powerup-btn" data-type="fiftyFifty" hidden>
+        🎯 50/50 <span class="powerup-charge-count" id="charge-fiftyFifty">0</span>
+      </button>
+      <button type="button" id="btn-powerup-double" class="powerup-btn" data-type="doublePoints" hidden>
+        ⚡ Pontos em dobro <span class="powerup-charge-count" id="charge-doublePoints">0</span>
+      </button>
+    </div>
+
+    <p id="answers-progress" class="answers-progress-text"></p>
+  </section>
+
+  <!-- ===================== TELA: REVELAÇÃO ===================== -->
+  <section class="screen" id="screen-reveal" data-active="false">
+    <div class="stage-card">
+      <p id="reveal-verdict" class="reveal-verdict">—</p>
+      <p id="reveal-points" class="reveal-points"></p>
+      <p id="reveal-powerup-notice" class="reveal-powerup-notice" hidden></p>
+      <div class="reveal-scoreboard">
+        <h3 class="section-title">Placar</h3>
+        <ol id="reveal-scoreboard-list" class="scoreboard-list"></ol>
+      </div>
+      <p class="reveal-next-hint">Próxima pergunta em instantes…</p>
+
+      <div class="report-question">
+        <button type="button" id="btn-report-question" class="report-toggle">🚩 Pergunta com problema?</button>
+        <div id="report-reasons" class="pill-group" hidden>
+          <button type="button" class="pill" data-reason="resposta_errada">Resposta errada</button>
+          <button type="button" class="pill" data-reason="pergunta_ambigua">Ambígua</button>
+          <button type="button" class="pill" data-reason="erro_digitacao">Erro de digitação</button>
+          <button type="button" class="pill" data-reason="desatualizada">Desatualizada</button>
+          <button type="button" class="pill" data-reason="outro">Outro motivo</button>
+        </div>
+        <p id="report-thanks" class="report-thanks" hidden>Valeu, reportado! 🙏</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TELA: PÓDIO FINAL ===================== -->
+  <section class="screen" id="screen-podium" data-active="false">
+    <div class="stage-card wide">
+      <h2 class="podium-title">Fim de jogo!</h2>
+      <div id="podium-top3" class="podium-top3"></div>
+      <ol id="podium-rest" class="scoreboard-list"></ol>
+
+      <h3 class="section-subtitle">Seu placar pessoal</h3>
+      <div id="personal-stats" class="personal-stats"></div>
+
+      <p id="ranked-note" class="ranked-note" hidden></p>
+
+      <div class="section-subtitle-row">
+        <h3 class="section-subtitle">Placar geral</h3>
+        <button id="btn-clear-leaderboard" class="btn-text-danger" type="button">Limpar placar geral</button>
+      </div>
+      <div id="lb-podium" class="lb"></div>
+
+      <button id="btn-play-again" class="btn btn-primary">Voltar ao início</button>
+    </div>
+  </section>
+
+</main>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

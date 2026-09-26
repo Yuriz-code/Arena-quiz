@@ -1,0 +1,886 @@
+[
+  {
+    "id": "des-001",
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Em 'Bob Esponja', qual é a profissão do personagem principal?",
+    "options": [
+      "Salva-vidas",
+      "Cozinheiro de hambúrgueres",
+      "Pescador",
+      "Motorista de táxi"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-002",
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Qual é o nome do cão falante de 'Scooby-Doo'?",
+    "options": [
+      "Astro",
+      "Rex",
+      "Scrappy-Doo",
+      "Scooby-Doo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-003",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Os Simpsons', qual é o nome da cidade onde a família mora?",
+    "options": [
+      "Shelbyville",
+      "Capital City",
+      "Springfield",
+      "Ogdenville"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-004",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome do gato que persegue o rato Jerry?",
+    "options": [
+      "Tom",
+      "Garfield",
+      "Sylvester",
+      "Felix"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-005",
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Em 'Avatar: A Lenda de Aang', qual elemento Aang domina por último antes de enfrentar o Senhor do Fogo?",
+    "options": [
+      "Fogo",
+      "Água",
+      "Ar (já dominava)",
+      "Terra"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-006",
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Quem criou o desenho 'Turma da Mônica'?",
+    "options": [
+      "Fernando Gonsales",
+      "Laerte",
+      "Maurício de Sousa",
+      "Ziraldo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-007",
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Qual é o nome do rato mais famoso da Disney?",
+    "options": [
+      "Pluto",
+      "Pateta",
+      "Mickey Mouse",
+      "Pato Donald"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-008",
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Em \"Bob Esponja\", qual é o nome do melhor amigo do protagonista?",
+    "options": [
+      "Seu Sirigueijo",
+      "Patrick Estrela",
+      "Lula Molusco",
+      "Sandy"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-009",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual estúdio produziu o desenho \"Shrek\"?",
+    "options": [
+      "Pixar",
+      "DreamWorks",
+      "Illumination",
+      "Disney"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-010",
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Qual coelho malandro costuma cumprimentar seus rivais com a frase 'Que tal, camarada?' nos clássicos Looney Tunes?",
+    "options": [
+      "Pernalonga (Bugs Bunny)",
+      "Patolino (Daffy Duck)",
+      "Taz",
+      "Piu-Piu"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-011",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome do vizinho super religioso e bem-humorado dos Simpsons?",
+    "options": [
+      "Moe Szyslak",
+      "Comandante Skinner",
+      "Milhouse Van Houten",
+      "Ned Flanders"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-012",
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Em \"Os Flintstones\", em que era se passa o desenho?",
+    "options": [
+      "Idade da Pedra",
+      "Era Espacial",
+      "Idade Média",
+      "Era Vitoriana"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-013",
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Quem criou o desenho animado \"Tom e Jerry\"?",
+    "options": [
+      "Chuck Jones",
+      "William Hanna e Joseph Barbera",
+      "Walt Disney",
+      "Matt Groening"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-014",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome da irmã mais nova da família em \"Os Simpsons\"?",
+    "options": [
+      "Maggie",
+      "Lisa",
+      "Marge",
+      "Patty"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-015",
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Qual herói se transforma ao gritar \"Pelos poderes de Grayskull\"?",
+    "options": [
+      "Voltron",
+      "He-Man",
+      "Ben 10",
+      "Thundercats"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-016",
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do coelho de pelúcia surrado que a personagem Mônica carrega e usa para bater nos amigos?",
+    "options": [
+      "Sansão",
+      "Floquinho",
+      "Bidu",
+      "Louco"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-017",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é a marca registrada sonora do personagem principal de \"Pica-Pau\"?",
+    "options": [
+      "Seu grito de guerra",
+      "Sua risada característica",
+      "Seu canto",
+      "Seu assobio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-018",
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Qual desenho animado apresenta os personagens Pinky e Cérebro tentando dominar o mundo?",
+    "options": [
+      "Pinky e Cérebro",
+      "Tiny Toons",
+      "Looney Tunes",
+      "Animaniacs"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-019",
+    "category": "desenhos",
+    "difficulty": "facil",
+    "question": "Qual é o nome do polvo rabugento vizinho de Bob Esponja?",
+    "options": [
+      "Seu Sirigueijo",
+      "Sandy",
+      "Lula Molusco",
+      "Patrick"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-020",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual estúdio é responsável pelo desenho \"Gravity Falls\"?",
+    "options": [
+      "Cartoon Network Studios",
+      "Nickelodeon Animation Studio",
+      "Warner Bros. Animation",
+      "Disney Television Animation"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-021",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o ingrediente secreto fundamental da receita do Hambúrguer de Siri em 'Bob Esponja' que Plankton tenta roubar?",
+    "options": [
+      "Molho picante do Sr. Sirigueijo",
+      "Alga marinha especial",
+      "A Fórmula Secreta do Hambúrguer de Siri",
+      "Água do mar filtrada"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-022",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Avatar: A Lenda de Aang', qual personagem cega descobre e cria a dobra de metal?",
+    "options": [
+      "Suki",
+      "Katara",
+      "Azula",
+      "Toph Beifong"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-023",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual elemento acidental adicionado pelo Professor Utônio deu superpoderes às 'Meninas Superpoderosas'?",
+    "options": [
+      "Adamantium",
+      "Elemento X",
+      "Kryptonita",
+      "Vibranium"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-024",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é a raça do cão medroso Scooby-Doo?",
+    "options": [
+      "Dogue Alemão",
+      "Labrador",
+      "Pastor Alemão",
+      "Buldogue"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-025",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Ben 10', qual é o nome do dispositivo alienígena em forma de relógio usado por Ben?",
+    "options": [
+      "Omnitrix",
+      "Chronotrix",
+      "Ultimatrix",
+      "Infinity Gauntlet"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-026",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Hora de Aventura', qual é a lendária terra mística pós-apocalíptica habitada por Finn e Jake?",
+    "options": [
+      "Terra de Ooo",
+      "Reino Gelado",
+      "Terra do Nunca",
+      "Equestria"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-027",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome da irmã mais velha e intrometida de Dexter em 'O Laboratório de Dexter'?",
+    "options": [
+      "Susie",
+      "Mandy",
+      "Dee Dee",
+      "Blossom"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-028",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Os Padrinhos Mágicos', quais são os nomes dos dois padrinhos fadas de Timmy Turner?",
+    "options": [
+      "Jorgen e Blonda",
+      "Cosmo e Wanda",
+      "Binky e Sparky",
+      "Fred e Wilma"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-029",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual cidade fictícia do Oregon serve como cenário principal para as desventuras de 'Gravity Falls'?",
+    "options": [
+      "Fenda do Biquíni",
+      "South Park",
+      "Springfield",
+      "Gravity Falls"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-030",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Apenas um Show', quais espécies de animais são os protagonistas Mordecai e Rigby?",
+    "options": [
+      "Papagaio e Gambá",
+      "Corvo e Esquilo",
+      "Falcão e Lontra",
+      "Gaio-azul e Guaxinim"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-031",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome do demônio metamorfo e mestre da escuridão que baniu o herói no tempo em 'Samurai Jack'?",
+    "options": [
+      "Shredder",
+      "Mumm-Ra",
+      "Vandal Savage",
+      "Aku"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-032",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Phineas e Ferb', qual é o disfarce de agente secreto do ornitorrinco da família?",
+    "options": [
+      "Agente P",
+      "Agente O",
+      "Agente K",
+      "Agente Bicudo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-033",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Coragem, o Cão Covarde', qual é o nome do casal de idosos donos de Coragem em Lugar Nenhum?",
+    "options": [
+      "Muriel e Eustáquio Bagge",
+      "Mabel e Stan Bagge",
+      "Wilma e Fred Bagge",
+      "Doris e Earl Bagge"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-034",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual cientista alcoólatra e niilista viaja pelas dimensões com seu neto na animação 'Rick and Morty'?",
+    "options": [
+      "Dexter",
+      "Professor Farnsworth",
+      "Rick Sanchez",
+      "Doc Brown"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-035",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Steven Universe', de qual raça alienígena vêm as Crystal Gems Pérola, Garnet e Ametista?",
+    "options": [
+      "Asgardianos",
+      "Kryptonianas",
+      "Gems",
+      "Na'vi"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-036",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual vilão dos Looney Tunes fala de forma arrastada e sempre caça Pernalonga repetindo 'faça silêncio, estou caçando coelhos'?",
+    "options": [
+      "Patolino",
+      "Elmer Fudd",
+      "Piu-Piu",
+      "Pernalonga"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-037",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Danny Phantom', qual acidente concede a Danny seus poderes ectoplasmáticos de meio-fantasma?",
+    "options": [
+      "Ser mordido por um morcego radioativo",
+      "Cair em um reator nuclear",
+      "Entrar acidentalmente no portal fantasma dos pais",
+      "Beber uma poção mágica"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-038",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual clássico animado da Hanna-Barbera retrata uma família da Idade da Pedra convivendo com dinossauros domesticados?",
+    "options": [
+      "A Caverna do Dragão",
+      "Os Jetsons",
+      "Os Flintstones",
+      "123 Avenida Sésamo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-039",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'X-Men: A Série Animada' dos anos 90, qual mutante do futuro viaja no tempo com um braço biônico e um olho cibernético?",
+    "options": [
+      "Bishop",
+      "Cable",
+      "Ciclope",
+      "Wolverine"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-040",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é a cidade pré-histórica onde moram Fred Flintstone e Barney Rubble?",
+    "options": [
+      "Quahog",
+      "Gotham",
+      "Springfield",
+      "Bedrock"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-041",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Kim Possible', quem é o melhor amigo e parceiro estabanado da heroína que tem uma toupeira-careca?",
+    "options": [
+      "Felix Renton",
+      "Drakken",
+      "Wade Load",
+      "Ron Stoppable"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-042",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual pássaro veloz corre pelas estradas do deserto sempre escapando das armadilhas da ACME do Coiote?",
+    "options": [
+      "Piu-Piu",
+      "Corvo Malandro",
+      "Papa-Léguas",
+      "Pica-Pau"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-043",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Mansão Foster para Amigos Imaginários', qual é o amigo imaginário azul criado pelo garoto Mac?",
+    "options": [
+      "Coco",
+      "Eduardo",
+      "Wilt",
+      "Bloo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-044",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome da van usada pela Mistério S/A para viajar desvendando casos assombrados?",
+    "options": [
+      "Van Fantasma",
+      "Ecto-1",
+      "Máquina do Mistério",
+      "Batmóvel"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-045",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Du, Dudu e Edu', qual doce gigante esférico os três amigos são obcecados em comprar com moedas de 25 centavos?",
+    "options": [
+      "Pastilha de menta",
+      "Pirulito gigante",
+      "Chiclete de bola",
+      "Bala de caramelo (Jawbreaker)"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-046",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual pato sovina e bilionário nada em uma caixa-forte repleta de moedas de ouro em 'DuckTales'?",
+    "options": [
+      "Zé Carioca",
+      "Pato Donald",
+      "Pato Lucas",
+      "Tio Patinhas"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-047",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Tartarugas Ninja', qual é o nome do mestre rato mutante que treina as quatro tartarugas no esgoto?",
+    "options": [
+      "April O'Neil",
+      "Shredder",
+      "Casey Jones",
+      "Mestre Splinter"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-048",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual marinheiro de desenho animado ganha superforça instantânea ao engolir uma lata de espinafre?",
+    "options": [
+      "Bluto",
+      "Capitão Gancho",
+      "Popeye",
+      "Sinbad"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-049",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'As Trapalhadas de Flapjack', qual ilha mística lendária feita inteiramente de guloseimas os personagens procuram?",
+    "options": [
+      "Ilha Chiclete",
+      "Ilha Açúcar",
+      "Ilha da Caveira",
+      "Ilha do Tesouro"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-050",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é a profissão do pai de família Homer Simpson na série 'Os Simpsons'?",
+    "options": [
+      "Motorista de ônibus escolar",
+      "Policial de Springfield",
+      "Inspetor de segurança da Usina Nuclear de Springfield",
+      "Dono de um bar"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-051",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'KND: A Turma do Bairro', qual número designa o líder e estrategista careca da equipe, Nigel Uno?",
+    "options": [
+      "Número 1",
+      "Número 2",
+      "Número 4",
+      "Número 5"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-052",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual felino de cor de rosa refinado anda na ponta dos pés ao som do famoso tema instrumental de Henry Mancini?",
+    "options": [
+      "Garfield",
+      "Tom",
+      "A Pantera Cor-de-Rosa",
+      "Top Cat"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-053",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Gárgulas' (Gargoyles), qual líder guerreiro de pedra desperta no topo de um arranha-céu moderno em Manhattan?",
+    "options": [
+      "Goliath",
+      "Hudson",
+      "Demona",
+      "Brooklyn"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-054",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual galã metido, de topete loiro, vive cantando e tentando conquistar garotas em 'Johnny Bravo'?",
+    "options": [
+      "Speedy Gonzales",
+      "Zé Colmeia",
+      "Johnny Bravo",
+      "Flash Gordon"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-055",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Rugrats: Os Anjinhos', qual é o nome do bebê calvo e corajoso que carrega uma chave de fenda na fralda?",
+    "options": [
+      "Chuckie Finster",
+      "Dil Pickles",
+      "Tommy Pickles",
+      "Phil DeVille"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-056",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual pássaro louco e de risada estridente foi criado pelo animador Walter Lantz?",
+    "options": [
+      "Corvo Malandro",
+      "Pica-Pau",
+      "Papa-Léguas",
+      "Piu-Piu"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-057",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'As Terríveis Aventuras de Billy e Mandy', quem é a entidade da Morte que se torna escrava dos dois garotos após perder um jogo de limbo?",
+    "options": [
+      "Hades",
+      "Aku",
+      "Puro Osso (Grim)",
+      "Coringa"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-058",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é a cidade subaquática onde se passam as histórias de Bob Esponja Calça Quadrada?",
+    "options": [
+      "Baía Marítima",
+      "Fenda do Biquíni",
+      "Atlântida",
+      "Recife de Coral"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-059",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Futurama', qual entregador de pizza é congelado criogenicamente por engano em 1999 e acorda no ano 3000?",
+    "options": [
+      "Philip J. Fry",
+      "Hermes Conrad",
+      "Bender Rodriguez",
+      "Zapp Brannigan"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-060",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual cachorro beagle filósofo e imaginativo dorme em cima da casinha de cachorro nas tiras e animações de 'Peanuts'?",
+    "options": [
+      "Scooby-Doo",
+      "Snoopy",
+      "Rex",
+      "Pluto"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-061",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Liga da Justiça Sem Limites', qual membro fundador e homem mais rápido do mundo é Wally West?",
+    "options": [
+      "Speedy",
+      "Flash",
+      "Quicksilver",
+      "Mercúrio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-062",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Batman: A Série Animada' dos anos 90, qual vilã e cúmplice do Coringa foi criada originalmente para o desenho animado?",
+    "options": [
+      "Hera Venenosa",
+      "Renee Montoya",
+      "Arlequina (Harley Quinn)",
+      "Gata Malhada (Catwoman)"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-063",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual desenho da Hanna-Barbera retratava uma família em uma sociedade futurista repleta de carros voadores e robôs domésticos?",
+    "options": [
+      "Os Jetsons",
+      "Os Flintstones",
+      "Meteoro",
+      "Speed Racer"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-064",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'She-Ra e as Princesas do Poder', qual espada mágica transforma Adora na guerreira protetora de Etheria?",
+    "options": [
+      "Espada do Poder",
+      "Espada de Grayskull",
+      "Excalibur",
+      "Espada de Proteção"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-065",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual desenho de 1985 contava com Lion-O e guerreiros felinos humanoides empunhando a Espada Justiceira?",
+    "options": [
+      "ThunderCats",
+      "He-Man",
+      "Os Cavaleiros do Zodíaco",
+      "Voltron"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-066",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em 'Os Jovens Titãs' (2003), qual princesa guerreira alienígena do planeta Tamaran faz parte do grupo?",
+    "options": [
+      "Terra (Terra)",
+      "Estelar (Starfire)",
+      "Ravena (Raven)",
+      "Argente (Argent)"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-067",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual clássico animado da Disney de 1937 foi o primeiro longa-metragem de animação sonoro e totalmente colorido da história?",
+    "options": [
+      "Bambi",
+      "Branca de Neve e os Sete Anões",
+      "Pinóquio",
+      "Fantasia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-068",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Em animações clássicas infantis da TV Cultura, qual cobra rosa vivia dentro de uma árvore falando no interfone?",
+    "options": [
+      "Celeste",
+      "Morgana",
+      "Nino",
+      "Bruxa Configurando"
+    ],
+    "correct_index": 0
+  }
+]

@@ -1,0 +1,873 @@
+[
+  {
+    "id": "ani-001",
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Qual é o nome do protagonista de 'Naruto'?",
+    "options": [
+      "Naruto Uzumaki",
+      "Kakashi Hatake",
+      "Itachi Uchiha",
+      "Sasuke Uchiha"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-002",
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Em 'One Piece', qual é o sonho de Monkey D. Luffy?",
+    "options": [
+      "Virar o Rei dos Piratas",
+      "Encontrar seu pai",
+      "Ser Hokage",
+      "Derrotar o Império Mundial"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-003",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual estúdio de animação produziu 'A Viagem de Chihiro'?",
+    "options": [
+      "Madhouse",
+      "Kyoto Animation",
+      "Toei Animation",
+      "Studio Ghibli"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-004",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Death Note', qual é o nome do caderno sobrenatural?",
+    "options": [
+      "Death Note",
+      "Livro da Morte",
+      "Diário Sombrio",
+      "Caderno Shinigami"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-005",
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Quem é o criador do mangá 'Attack on Titan' (Shingeki no Kyojin)?",
+    "options": [
+      "Kentaro Miura",
+      "Eiichiro Oda",
+      "Hajime Isayama",
+      "Masashi Kishimoto"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-006",
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Em 'Cavaleiros do Zodíaco', qual constelação representa o protagonista Seiya?",
+    "options": [
+      "Cisne",
+      "Fênix",
+      "Pégaso",
+      "Dragão"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-007",
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Qual é o nome do time de piratas liderado por Monkey D. Luffy em 'One Piece'?",
+    "options": [
+      "Piratas da Barba Negra",
+      "Piratas do Chapéu de Palha",
+      "Piratas Kid",
+      "Piratas do Coração"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-008",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual filme do Studio Ghibli conta a história de uma princesa guerreira protegendo a floresta contra a industrialização?",
+    "options": [
+      "Princesa Mononoke",
+      "Meu Amigo Totoro",
+      "A Viagem de Chihiro",
+      "O Castelo Animado"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-009",
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Qual é o nome da organização vilã de criminosos rank S em \"Naruto\"?",
+    "options": [
+      "Shinigami",
+      "Hollow",
+      "Akatsuki",
+      "Espada"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-010",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em \"Dragon Ball\", qual é o nome do planeta natal de Goku?",
+    "options": [
+      "Terra",
+      "Namekusei",
+      "Planeta Vegeta",
+      "Planeta Freeza"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-011",
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Quem é o criador do mangá \"One Piece\"?",
+    "options": [
+      "Akira Toriyama",
+      "Eiichiro Oda",
+      "Tite Kubo",
+      "Masashi Kishimoto"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-012",
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Qual universidade prestigiada Light Yagami frequenta em 'Death Note'?",
+    "options": [
+      "Academia Kira",
+      "Universidade de Tóquio",
+      "Universidade To-Oh",
+      "Instituto Yagami"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-013",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em \"Attack on Titan\", qual é a principal ameaça enfrentada pela humanidade?",
+    "options": [
+      "Dragões",
+      "Titãs",
+      "Robôs",
+      "Zumbis"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-014",
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Qual é o verdadeiro nome do personagem que se autodenomina \"Kira\" em \"Death Note\"?",
+    "options": [
+      "L",
+      "Near",
+      "Ryuk",
+      "Light Yagami"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-015",
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Qual é o nome da turma principal do protagonista em \"My Hero Academia\"?",
+    "options": [
+      "U.A. Staff",
+      "Liga dos Vilões",
+      "Classe 1-B",
+      "Classe 1-A"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-016",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Quem criou o mangá e anime \"Dragon Ball\"?",
+    "options": [
+      "Hajime Isayama",
+      "Akira Toriyama",
+      "Eiichiro Oda",
+      "Masashi Kishimoto"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-017",
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da vila natal de Naruto Uzumaki?",
+    "options": [
+      "Iwa",
+      "Konoha",
+      "Kiri",
+      "Suna"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-018",
+    "category": "animes",
+    "difficulty": "facil",
+    "question": "Em \"Pokémon\", qual é o nome do protagonista clássico que viaja com Pikachu?",
+    "options": [
+      "Gary Oak",
+      "Ash Ketchum",
+      "Misty",
+      "Brock"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-019",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual anime apresenta caçadores de recompensas viajando pelo espaço na nave Bebop?",
+    "options": [
+      "Trigun",
+      "Outlaw Star",
+      "Space Dandy",
+      "Cowboy Bebop"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-020",
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Em qual revista japonesa o mangá 'Attack on Titan' foi originalmente serializado?",
+    "options": [
+      "Weekly Shonen Magazine",
+      "Bessatsu Shonen Magazine",
+      "Young Jump",
+      "Weekly Shonen Jump"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-021",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Naruto', qual besta de caudas está selada dentro do protagonista Naruto Uzumaki?",
+    "options": [
+      "Shukaku (Guaxinim de Uma Cauda)",
+      "Matatabi (Gato de Duas Caudas)",
+      "Gyuki (Touro-Polvo de Oito Caudas)",
+      "Kurama (Raposa de Nove Caudas)"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-022",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o nome da Akuma no Mi consumida por Monkey D. Luffy em 'One Piece'?",
+    "options": [
+      "Mera Mera no Mi",
+      "Gomu Gomu no Mi",
+      "Yami Yami no Mi",
+      "Tori Tori no Mi"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-023",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Death Note', qual shinigami deixa o caderno da morte cair no mundo humano por puro tédio?",
+    "options": [
+      "Sidoh",
+      "Ryuk",
+      "Gelus",
+      "Rem"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-024",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é a principal lei da alquimia apresentada em 'Fullmetal Alchemist'?",
+    "options": [
+      "Tabu de Sangue",
+      "Lei da Ressonância",
+      "Troca Equivalente",
+      "Princípio da Transmutação Humana"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-025",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do protagonista de 'Attack on Titan' (Shingeki no Kyojin)?",
+    "options": [
+      "Reiner Braun",
+      "Levi Ackerman",
+      "Armin Arlert",
+      "Eren Jaeger"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-026",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Hunter x Hunter', qual tipo de Nen permite transformar a aura em propriedades elétricas, como faz Killua?",
+    "options": [
+      "Emissão",
+      "Manipulação",
+      "Transmutação",
+      "Materialização"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-027",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual espadachim usa o lendário estilo de três espadas (Santoryu) em 'One Piece'?",
+    "options": [
+      "Usopp",
+      "Jinbe",
+      "Roronoa Zoro",
+      "Sanji"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-028",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Bleach', qual é o nome da espada espiritual de Ichigo Kurosaki?",
+    "options": [
+      "Hyorinmaru",
+      "Zangetsu",
+      "Zabimaru",
+      "Senbonzakura"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-029",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual feiticeiro jujutsu de olhos vendados é considerado o mais forte em 'Jujutsu Kaisen'?",
+    "options": [
+      "Toji Fushiguro",
+      "Yuji Itadori",
+      "Suguru Geto",
+      "Satoru Gojo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-030",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual clássico filme de anime de 1988 dirigido por Katsuhiro Otomo se passa em Neo-Tóquio?",
+    "options": [
+      "Akira",
+      "Metropolis",
+      "Paprika",
+      "Ghost in the Shell"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-031",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Demon Slayer' (Kimetsu no Yaiba), quem é o criador e progenitor de todos os demônios (onis)?",
+    "options": [
+      "Doma",
+      "Muzan Kibutsuji",
+      "Kokushibo",
+      "Akaza"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-032",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Neon Genesis Evangelion', qual garoto tímido pilota a gigantesca Unidade-01 (EVA-01)?",
+    "options": [
+      "Rei Ayanami",
+      "Kaworu Nagisa",
+      "Shinji Ikari",
+      "Asuka Langley"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-033",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual herói careca de 'One-Punch Man' consegue derrotar praticamente qualquer inimigo com um só golpe?",
+    "options": [
+      "Bang",
+      "Genos",
+      "Saitama",
+      "Mumen Rider"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-034",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Os Cavaleiros do Zodíaco', qual deusa grega Seiya e os outros cavaleiros de bronze protegem?",
+    "options": [
+      "Atena",
+      "Perséfone",
+      "Afrodite",
+      "Ártemis"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-035",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual poder ocular lendário do clã Uchiha em 'Naruto' evolui após um grande trauma emocional?",
+    "options": [
+      "Sharingan",
+      "Rinnegan",
+      "Byakugan",
+      "Tenseigan"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-036",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'My Hero Academia' (Boku no Hero Academia), qual individualidade é passada de geração em geração para Deku?",
+    "options": [
+      "Overhaul",
+      "One For All",
+      "Decay",
+      "All For One"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-037",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual cientista renasce milhares de anos no futuro e busca reconstruir a civilização com a ciência em 'Dr. Stone'?",
+    "options": [
+      "Gen Asagiri",
+      "Senku Ishigami",
+      "Taiju Oki",
+      "Chrome"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-038",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'JoJo's Bizarre Adventure', a partir da Parte 3 (Stardust Crusaders), as batalhas passam a usar qual tipo de manifestação espiritual?",
+    "options": [
+      "Quirks",
+      "Stands",
+      "Chakra",
+      "Nen"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-039",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual garota humana se torna demônio após o massacre da família Kamado em 'Demon Slayer'?",
+    "options": [
+      "Mitsuri Kanroji",
+      "Nezuko Kamado",
+      "Shinobu Kocho",
+      "Kanao Tsuyuri"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-040",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual ciborgue e líder da Seção 9 é a protagonista de 'Ghost in the Shell'?",
+    "options": [
+      "Ryoko Yakushimaru",
+      "Balsa",
+      "Rei Ayanami",
+      "Major Motoko Kusanagi"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-041",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Yu Yu Hakusho', qual golpe principal Yusuke Urameshi dispara concentrando energia na ponta do dedo?",
+    "options": [
+      "Rasengan",
+      "Kamehameha",
+      "Getsuga Tensho",
+      "Leigan (Raio Espiritual)"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-042",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o nome do jogo de realidade virtual letal em que os jogadores ficam presos no primeiro arco de 'Sword Art Online'?",
+    "options": [
+      "Aincrad",
+      "Underworld",
+      "Alfheim",
+      "Gun Gale Online"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-043",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Code Geass', qual habilidade sobrenatural Lelouch vi Britannia recebe de C.C. nos seus olhos?",
+    "options": [
+      "Nen",
+      "Quirk",
+      "Geass",
+      "Haki"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-044",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o primeiro Pokémon inicial recebido por Ash Ketchum na região de Kanto?",
+    "options": [
+      "Pikachu",
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-045",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Dragon Ball', quantas esferas do dragão são necessárias reunir para invocar Shenlong na Terra?",
+    "options": [
+      "3 esferas",
+      "5 esferas",
+      "7 esferas",
+      "9 esferas"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-046",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o objetivo máximo de Gon Freecss ao se tornar um caçador profissional em 'Hunter x Hunter'?",
+    "options": [
+      "Salvar sua vila natal",
+      "Vingar sua família",
+      "Vencer o Hunter Exam",
+      "Encontrar seu pai (Ging Freecss)"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-047",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Chainsaw Man', qual pequeno demônio-motosserra forma um pacto e vira o coração de Denji?",
+    "options": [
+      "Pochita",
+      "Aki Hayakawa",
+      "Makima",
+      "Power"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-048",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Steins;Gate', qual aparelho doméstico acoplado a um telefone celular funciona como máquina do tempo acidental?",
+    "options": [
+      "Micro-ondas",
+      "Rádio",
+      "Televisor",
+      "Geladeira"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-049",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual capitão do Esquadrão de Reconhecimento em 'Attack on Titan' é apelidado de 'o soldado mais forte da humanidade'?",
+    "options": [
+      "Mike Zacharias",
+      "Erwin Smith",
+      "Hange Zoe",
+      "Levi Ackerman"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-050",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Inuyasha', qual joia mágica quebrada os protagonistas precisam juntar os fragmentos espalhados?",
+    "options": [
+      "Pergaminho Sagrado",
+      "Colar Rosário",
+      "Espada Tessaiga",
+      "Joia de Quatro Almas (Shikon no Tama)"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-051",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual alquimista federal e melhor amigo de Roy Mustang é tragicamente assassinado em 'Fullmetal Alchemist'?",
+    "options": [
+      "Maes Hughes",
+      "Kimblee",
+      "Alex Louis Armstrong",
+      "Ling Yao"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-052",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual clássico mecha de 1979 criado por Yoshiyuki Tomino iniciou a era dos 'robôs reais' no Japão?",
+    "options": [
+      "Voltron",
+      "Macross",
+      "Mobile Suit Gundam",
+      "Neon Genesis Evangelion"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-053",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Sailor Moon', qual gata preta mágica com uma lua crescente na testa guia Usagi Tsukino?",
+    "options": [
+      "Diana",
+      "Kero",
+      "Artemis",
+      "Luna"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-054",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual prodígio detetive rivaliza mentalmente com Light Yagami na primeira metade de 'Death Note'?",
+    "options": [
+      "Mello",
+      "Near",
+      "L (L Lawliet)",
+      "Soichiro Yagami"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-055",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Fairy Tail', qual tipo de magia rara é utilizada pelo protagonista Natsu Dragneel?",
+    "options": [
+      "Dragon Slayer do Fogo",
+      "Magia Celestial",
+      "Magia de Requip",
+      "Magia de Gelo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-056",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual anime de vôlei super popular acompanha a trajetória da equipe do colégio Karasuno?",
+    "options": [
+      "Kuroko no Basket",
+      "Ace of Diamond",
+      "Haikyuu!!",
+      "Slam Dunk"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-057",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Black Clover', qual garoto desprovido de qualquer poder mágico recebe um grimório de cinco folhas?",
+    "options": [
+      "Yami Sukehiro",
+      "Yuno",
+      "Asta",
+      "Noelle Silva"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-058",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é a classificação dos espíritos monstruosos combatidos pela Soul Society em 'Bleach'?",
+    "options": [
+      "Hollows",
+      "Shinigamis",
+      "Quincys",
+      "Arrancars"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-059",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Tokyo Ghoul', qual estudante se torna meio-ghoul após receber transplante de órgãos de Rize Kamishiro?",
+    "options": [
+      "Touka Kirishima",
+      "Ken Kaneki",
+      "Shu Tsukiyama",
+      "Uta"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-060",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual guerreiro Sayajin do futuro viaja no tempo em 'Dragon Ball Z' para alertar sobre os androides?",
+    "options": [
+      "Vegeta",
+      "Gohan",
+      "Trunks",
+      "Goten"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-061",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Berserk', qual comandante do Bando do Falcão sacrifica seus companheiros durante o Eclipse para virar Femto?",
+    "options": [
+      "Griffith",
+      "Zodd",
+      "Casca",
+      "Guts"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-062",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é a alcunha pirata do protagonista Monkey D. Luffy em 'One Piece'?",
+    "options": [
+      "Sanji Perna Negra",
+      "Zoro Caçador de Piratas",
+      "Luffy do Chapéu de Palha",
+      "Barba Negra"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-063",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Mob Psycho 100', qual trapaceiro carismático atua como mestre espiritual autodeclarado de Mob?",
+    "options": [
+      "Reigen Arataka",
+      "Dimple",
+      "Mob (Shigeo Kageyama)",
+      "Ritsu Kageyama"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-064",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o nome da garotinha telepata adotada pela família Forger em 'Spy x Family'?",
+    "options": [
+      "Loid Forger",
+      "Yor Forger",
+      "Anya Forger",
+      "Bond"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-065",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Os Cavaleiros do Zodíaco', qual armadura de ouro guarda a primeira das Doze Casas do Santuário?",
+    "options": [
+      "Áries",
+      "Câncer",
+      "Gêmeos",
+      "Touro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-066",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual espadachim errante com uma cicatriz em cruz no rosto tenta expiar seu passado em 'Samurai X' (Rurouni Kenshin)?",
+    "options": [
+      "Kenshin Himura",
+      "Aoshi Shinomori",
+      "Sanosuke Sagara",
+      "Saito Hajime"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-067",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em 'Jujutsu Kaisen', qual lendário 'Rei das Maldições' possui 20 dedos selados que Yuji Itadori passa a consumir?",
+    "options": [
+      "Hanami",
+      "Mahito",
+      "Jogo",
+      "Ryomen Sukuna"
+    ],
+    "correct_index": 3
+  }
+]

@@ -1,0 +1,11 @@
+node_modules/
+
+# Dados de runtime (placar geral + histórico de perguntas). O banco de
+# perguntas em data/questions/ e o schema/lógica em db.js continuam
+# versionados normalmente — só o banco gerado em runtime fica de fora.
+data/quizarena.db
+data/quizarena.db-*
+data/player-stats.json*
+data/question-history.json*
+
+.env

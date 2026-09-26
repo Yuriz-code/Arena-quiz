@@ -1,0 +1,275 @@
+[
+  {
+    "id": "mus-001",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual instrumento é conhecido como 'rei dos instrumentos'?",
+    "options": [
+      "Violino",
+      "Órgão de tubos",
+      "Piano",
+      "Violoncelo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-002",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Quantas cordas tem um violão clássico padrão?",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "4"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-003",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda gravou o álbum 'Abbey Road'?",
+    "options": [
+      "Rolling Stones",
+      "Pink Floyd",
+      "The Beatles",
+      "Queen"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-004",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Quem compôs a ópera 'O Guarani'?",
+    "options": [
+      "Heitor Villa-Lobos",
+      "Carlos Gomes",
+      "Ernesto Nazareth",
+      "Chiquinha Gonzaga"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-005",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual gênero musical brasileiro tem origem na Bahia e forte presença do berimbau?",
+    "options": [
+      "Capoeira/toque de berimbau",
+      "Samba-canção",
+      "Forró",
+      "Maracatu"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-006",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem é considerado o 'Pai do Choro' no Brasil?",
+    "options": [
+      "Jacob do Bandolim",
+      "Waldir Azevedo",
+      "Joaquim Callado",
+      "Pixinguinha"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-007",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda britânica lançou o álbum \"Abbey Road\"?",
+    "options": [
+      "The Rolling Stones",
+      "The Beatles",
+      "Pink Floyd",
+      "Queen"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-008",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Quem é conhecido como o \"Rei do Pop\"?",
+    "options": [
+      "Elvis Presley",
+      "Prince",
+      "Michael Jackson",
+      "Freddie Mercury"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-009",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantora brasileira é conhecida como uma das grandes vozes do rock nacional, com o hit \"Ovelha Negra\"?",
+    "options": [
+      "Gal Costa",
+      "Cássia Eller",
+      "Rita Lee",
+      "Elis Regina"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-010",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Quem compôs a ópera \"A Flauta Mágica\"?",
+    "options": [
+      "Franz Schubert",
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Ludwig van Beethoven"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-011",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor ficou surdo e mesmo assim compôs sinfonias como a Nona?",
+    "options": [
+      "Chopin",
+      "Mozart",
+      "Bach",
+      "Ludwig van Beethoven"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-012",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual é o instrumento principal tocado por um pianista?",
+    "options": [
+      "Flauta",
+      "Bateria",
+      "Piano",
+      "Violino"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-013",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Tom Jobim é considerado um dos fundadores de qual gênero musical brasileiro?",
+    "options": [
+      "Bossa Nova",
+      "Samba",
+      "Sertanejo",
+      "Forró"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-014",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual banda gravou a música \"Bohemian Rhapsody\"?",
+    "options": [
+      "Led Zeppelin",
+      "The Beatles",
+      "The Who",
+      "Queen"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-015",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Em que década surgiu o movimento musical Tropicália no Brasil?",
+    "options": [
+      "Década de 1950",
+      "Década de 1960",
+      "Década de 1970",
+      "Década de 1980"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-016",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Quem canta o clássico hit \"Thriller\"?",
+    "options": [
+      "Michael Jackson",
+      "Lionel Richie",
+      "Stevie Wonder",
+      "Prince"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-017",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual instrumento de cordas é tocado com um arco?",
+    "options": [
+      "Violão",
+      "Violino",
+      "Baixo",
+      "Piano"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-018",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem compôs a \"Nona Sinfonia\", que inclui a \"Ode à Alegria\"?",
+    "options": [
+      "Richard Wagner",
+      "Johannes Brahms",
+      "Franz Liszt",
+      "Ludwig van Beethoven"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-019",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantora ficou conhecida por hits como \"Halo\" e \"Single Ladies\"?",
+    "options": [
+      "Beyoncé",
+      "Britney Spears",
+      "Rihanna",
+      "Christina Aguilera"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-020",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Qual gênero musical brasileiro é tocado tradicionalmente com sanfona, zabumba e triângulo?",
+    "options": [
+      "Forró",
+      "Samba",
+      "Axé",
+      "Bossa Nova"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-021",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual banda de rock é famosa pelo álbum \"The Dark Side of the Moon\"?",
+    "options": [
+      "Pink Floyd",
+      "Deep Purple",
+      "Led Zeppelin",
+      "Queen"
+    ],
+    "correct_index": 0
+  }
+]

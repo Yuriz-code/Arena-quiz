@@ -1,0 +1,262 @@
+[
+  {
+    "id": "art-001",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou a obra 'A Noite Estrelada'?",
+    "options": [
+      "Salvador Dalí",
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Pablo Picasso"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "art-002",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou a Mona Lisa?",
+    "options": [
+      "Donatello",
+      "Rafael",
+      "Michelangelo",
+      "Leonardo da Vinci"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "art-003",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual movimento artístico Pablo Picasso ajudou a fundar?",
+    "options": [
+      "Surrealismo",
+      "Impressionismo",
+      "Barroco",
+      "Cubismo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "art-004",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Quem pintou os painéis do teto da Capela Sistina?",
+    "options": [
+      "Rafael",
+      "Michelangelo",
+      "Ticiano",
+      "Bernini"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-005",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual artista brasileira é conhecida pela obra 'Abaporu'?",
+    "options": [
+      "Tarsila do Amaral",
+      "Anita Malfatti",
+      "Djanira",
+      "Lygia Clark"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-006",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "O movimento Art Nouveau se popularizou principalmente em qual período?",
+    "options": [
+      "Século XVII",
+      "Fim do século XIX/início do XX",
+      "Século XVIII",
+      "Meados do século XX"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-007",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou \"A Noite Estrelada\"?",
+    "options": [
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Claude Monet"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "art-008",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou \"Guernica\"?",
+    "options": [
+      "Pablo Picasso",
+      "Diego Rivera",
+      "Joan Miró",
+      "Frida Kahlo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-009",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual escultura renascentista de Michelangelo representa o rei bíblico Davi?",
+    "options": [
+      "O Pensador",
+      "Davi",
+      "Pietà",
+      "Moisés"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "art-010",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual pintora mexicana é famosa por seus autorretratos?",
+    "options": [
+      "Tarsila do Amaral",
+      "Anita Malfatti",
+      "Georgia O'Keeffe",
+      "Frida Kahlo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "art-011",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual artista brasileira pintou \"Abaporu\"?",
+    "options": [
+      "Cândido Portinari",
+      "Anita Malfatti",
+      "Frida Kahlo",
+      "Tarsila do Amaral"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "art-012",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual movimento artístico é associado a Claude Monet e Edgar Degas?",
+    "options": [
+      "Impressionismo",
+      "Barroco",
+      "Cubismo",
+      "Expressionismo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-013",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Quem esculpiu \"O Pensador\"?",
+    "options": [
+      "Gian Lorenzo Bernini",
+      "Donatello",
+      "Auguste Rodin",
+      "Michelangelo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "art-014",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Em que país nasceu o pintor Leonardo da Vinci?",
+    "options": [
+      "Holanda",
+      "Espanha",
+      "Itália",
+      "França"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "art-015",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual artista é conhecido por suas obras com latas de sopa Campbell?",
+    "options": [
+      "Andy Warhol",
+      "Roy Lichtenstein",
+      "Jackson Pollock",
+      "Keith Haring"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-016",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Qual técnica de pintura tornou Jackson Pollock famoso?",
+    "options": [
+      "Afresco",
+      "Aquarela",
+      "Pontilhismo",
+      "Respingos de tinta (dripping)"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "art-017",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Quem pintou \"O Grito\"?",
+    "options": [
+      "Gustav Klimt",
+      "Vincent van Gogh",
+      "Henri Matisse",
+      "Edvard Munch"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "art-018",
+    "category": "artes",
+    "difficulty": "medio",
+    "question": "Qual artista brasileiro pintou \"Os Retirantes\"?",
+    "options": [
+      "Cândido Portinari",
+      "Anita Malfatti",
+      "Di Cavalcanti",
+      "Tarsila do Amaral"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "art-019",
+    "category": "artes",
+    "difficulty": "dificil",
+    "question": "Em que cidade italiana está localizada a Galeria Uffizi?",
+    "options": [
+      "Milão",
+      "Veneza",
+      "Roma",
+      "Florença"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "art-020",
+    "category": "artes",
+    "difficulty": "facil",
+    "question": "Qual pintor holandês é famoso pela obra \"A Moça com Brinco de Pérola\"?",
+    "options": [
+      "Vincent van Gogh",
+      "Piet Mondrian",
+      "Johannes Vermeer",
+      "Rembrandt"
+    ],
+    "correct_index": 2
+  }
+]
