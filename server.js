@@ -180,30 +180,33 @@ const BASE_POINTS = { facil: 100, medio: 200, dificil: 300 };
 const ANSWER_NETWORK_GRACE_MS = 300;
 
 // ----------------------------------------------------------------------------
-// Sequência de acertos e power-ups. A cada STREAK_MILESTONE acertos SEGUIDOS,
-// o jogador ganha 1 carga de um power-up (alternando o tipo a cada marco).
+// Sequência de acertos e power-ups. Ao atingir certos marcos de acertos SEGUIDOS,
+// o jogador ganha 1 carga do power-up correspondente (ver POWERUP_MILESTONES).
 // Tudo calculado e validado no servidor (igual à pontuação) — o cliente só
 // pede pra usar um power-up que já tem; nunca decide o efeito sozinho.
 // ----------------------------------------------------------------------------
-const STREAK_MILESTONE = 3;
-const POWERUP_TYPES = ['fiftyFifty', 'doublePoints'];
+// Cada power-up tem o seu próprio marco de sequência:
+//   50/50          → a cada 5 acertos seguidos (5, 10, 15, ...)
+//   Pontos em Dobro → a cada 6 acertos seguidos (6, 12, 18, ...)
+const POWERUP_MILESTONES = { fiftyFifty: 5, doublePoints: 6 };
+const POWERUP_TYPES = Object.keys(POWERUP_MILESTONES);
 
 function freshPowerups() {
   return { fiftyFifty: 0, doublePoints: 0 };
 }
 
 /**
- * Marco de sequência atingido? Alterna o tipo concedido a cada marco (3 =
- * 50/50, 6 = pontos em dobro, 9 = 50/50, ...) pra dar variedade sem sortear
- * (sorteio tornaria os testes automatizados não-determinísticos à toa).
- * @returns {string|null} o tipo concedido, ou null se não bateu marco agora
+ * Marco de sequência atingido? Concede 1 carga de cada power-up cujo marco
+ * bateu agora (os marcos só coincidem em 30 acertos seguidos).
+ * @returns {string[]|null} os tipos concedidos, ou null se não bateu marco agora
  */
 function grantStreakPowerupIfMilestone(player) {
-  if (player.currentStreak <= 0 || player.currentStreak % STREAK_MILESTONE !== 0) return null;
-  const milestoneIndex = player.currentStreak / STREAK_MILESTONE;
-  const type = milestoneIndex % 2 === 1 ? 'fiftyFifty' : 'doublePoints';
-  player.powerups[type] += 1;
-  return type;
+  if (player.currentStreak <= 0) return null;
+  const granted = Object.entries(POWERUP_MILESTONES)
+    .filter(([, every]) => player.currentStreak % every === 0)
+    .map(([type]) => type);
+  for (const type of granted) player.powerups[type] += 1;
+  return granted.length ? granted : null;
 }
 
 // ----------------------------------------------------------------------------
@@ -1235,20 +1238,18 @@ io.on('connection', (socket) => {
     startGame(room);
   });
 
-  // ---- Jogar de novo (revanche na mesma sala) -------------------------------
-  // Só faz sentido a partir do pódio (partida terminada). Reaproveita a MESMA
-  // sala/código e as configurações já escolhidas (tempo por rodada, nº de
-  // perguntas, categorias) — quem quiser mudar algo ajusta antes no painel do
-  // host, que continua disponível (a sala não passa pelo lobby de novo, mas
-  // os controles de host:set_* funcionam em qualquer fase que não seja
-  // question/reveal). startGame() já cuida de zerar placar, sequência de
-  // acertos, power-ups e histórico de perguntas usadas NESTA partida.
+  // ---- Jogar de novo (recriar a sala com os mesmos jogadores) ---------------
+  // Só faz sentido a partir do pódio (partida terminada). Em vez de iniciar
+  // a partida na hora, devolve a MESMA sala (mesmo código, mesmos jogadores,
+  // mesmo chat e mesmas configurações) para o lobby, com o placar zerado.
+  // Assim o host pode ajustar tempo/nº de perguntas/categorias, jogadores que
+  // não querem continuar podem sair, e quem tem o código/convite ainda pode
+  // entrar antes de o host clicar em "Iniciar partida" (host:start_game).
   socket.on('host:rematch', ({ roomId, sessionToken } = {}, ack) => {
     const room = requireHost(roomId, sessionToken);
     if (!room) return ack?.({ ok: false, reason: 'NOT_HOST' });
     if (room.phase !== 'podium') return ack?.({ ok: false, reason: 'GAME_NOT_OVER' });
-    if (room.connectedCount() < MIN_PLAYERS_TO_START) return ack?.({ ok: false, reason: 'NOT_ENOUGH_PLAYERS' });
-    startGame(room);
+    resetRoomToLobby(room);
     ack?.({ ok: true });
   });
 
@@ -1533,7 +1534,7 @@ function makePlayer(sessionToken, nickname, avatar, socketId, ip, isHostFlag, de
     correctCount: 0,
     wrongCount: 0,
     totalDeltaMs: 0,
-    // Sequência de acertos e power-ups (ver STREAK_MILESTONE/grantStreakPowerupIfMilestone).
+    // Sequência de acertos e power-ups (ver POWERUP_MILESTONES/grantStreakPowerupIfMilestone).
     currentStreak: 0,
     bestStreak: 0,
     powerups: freshPowerups(),
@@ -1653,10 +1654,8 @@ function buildSnapshotFor(room, player) {
   };
 }
 
-function startGame(room) {
-  room.startedWithPlayers = room.connectedCount();
-  room.usedQuestionIds.clear();
-  room.currentQuestionNumber = 0;
+/** Zera tudo que é específico de UMA partida (placar, sequência, power-ups). */
+function resetPlayersForNewGame(room) {
   for (const p of room.players.values()) {
     p.score = 0;
     p.correctCount = 0;
@@ -1668,6 +1667,31 @@ function startGame(room) {
     p.pendingDoublePoints = false;
     p.fiftyFiftyActive = null;
   }
+}
+
+/**
+ * Volta a sala do pódio para o lobby mantendo código, jogadores, host, chat,
+ * banimentos e configurações. Usado pela revanche (host:rematch).
+ */
+function resetRoomToLobby(room) {
+  clearTimeout(room.questionTimer);
+  clearTimeout(room.nextQuestionTimer);
+  room.phase = 'lobby';
+  room.currentQuestion = null;
+  room.currentQuestionNumber = 0;
+  room.answers = new Map();
+  room.usedQuestionIds.clear();
+  room.startedWithPlayers = 0;
+  resetPlayersForNewGame(room);
+  touch(room);
+  broadcastLobbyState(room);
+}
+
+function startGame(room) {
+  room.startedWithPlayers = room.connectedCount();
+  room.usedQuestionIds.clear();
+  room.currentQuestionNumber = 0;
+  resetPlayersForNewGame(room);
   nextQuestion(room);
 }
 

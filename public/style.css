@@ -527,6 +527,9 @@ input[type="text"]:focus-visible, input[type="password"]:focus-visible {
 .scoreboard-row.is-you .player-name::after { content: " (você)"; color: var(--accent); font-weight: 600; }
 
 /* ---------- Pódio ---------- */
+.podium-actions { display: flex; flex-direction: column; gap: 10px; margin-top: 8px; }
+.podium-actions [hidden] { display: none; }
+.rematch-waiting { margin: 0; text-align: center; color: var(--text-dim); font-size: 0.95rem; }
 .podium-title { font-family: var(--font-display); font-size: 1.8rem; text-align: center; margin: 0 0 8px; }
 .podium-winner-announce {
   text-align: center; color: var(--text-dim); font-size: 1rem; margin: 0 0 24px;

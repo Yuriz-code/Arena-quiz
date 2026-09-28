@@ -1085,6 +1085,7 @@
     renderPlayerList(payload.players);
 
     $('host-panel').hidden = !state.isHost;
+    updatePodiumActions();
     $('guest-waiting').style.display = state.isHost ? 'none' : 'flex';
 
     if (state.isHost) {
@@ -1332,12 +1333,14 @@
     $('reveal-points').textContent = mine?.correct ? `+${mine.points} pontos` : 'Sem pontos nesta rodada';
 
     // Aviso de power-up ganho nesta rodada (marco de sequência batido — ver
-    // STREAK_MILESTONE/grantStreakPowerupIfMilestone em server.js). A carga
+    // POWERUP_MILESTONES/grantStreakPowerupIfMilestone em server.js). A carga
     // em si já foi somada no servidor e chega pro dono dela via 'you:state'
     // no início da próxima pergunta; este aviso é só feedback visual de QUE
     // ela foi ganha, por isso não mexe em state.powerups.
     const powerupNotice = $('reveal-powerup-notice');
-    const earnedLabel = mine?.powerupGranted ? POWERUP_EARNED_LABELS[mine.powerupGranted] : null;
+    const earnedLabel = mine?.powerupGranted?.length
+      ? mine.powerupGranted.map((t) => POWERUP_EARNED_LABELS[t]).filter(Boolean).join(' + ')
+      : null;
     if (earnedLabel) {
       powerupNotice.textContent = `🎉 Sequência de ${mine.streak}! Você ganhou: ${earnedLabel}`;
       powerupNotice.hidden = false;
@@ -1426,6 +1429,7 @@
       note.textContent = `Partida com menos de ${minRankedPlayers} jogadores: conta no seu placar pessoal, mas não vale para o ranking.`;
     }
 
+    updatePodiumActions();
     showScreen('podium'); // o próprio showScreen recarrega o ranking
   }
 
@@ -1679,9 +1683,44 @@
     });
   }
 
+  // Botões do pódio: o host recria a sala (volta ao lobby com os mesmos
+  // jogadores); os demais aguardam. Reavaliado a cada lobby_state, porque a
+  // liderança pode mudar (transferência, host saiu) enquanto o pódio está aberto.
+  function updatePodiumActions() {
+    const rematchBtn = $('btn-rematch');
+    if (!rematchBtn) return;
+    rematchBtn.hidden = !state.isHost;
+    $('rematch-waiting').hidden = state.isHost;
+  }
+
+  $('btn-rematch').addEventListener('click', () => {
+    const btn = $('btn-rematch');
+    if (!state.socket || !state.socket.connected) return window.alert('Sem conexão com o servidor no momento. Aguarde reconectar e tente de novo.');
+    btn.disabled = true;
+    emitWithTimeout('host:rematch', { roomId: state.roomId, sessionToken: state.sessionToken }, 8000, (res) => {
+      btn.disabled = false;
+      if (res && res.ok) return; // o servidor manda lobby_state e onLobbyState leva todo mundo ao lobby
+      const messages = {
+        NOT_HOST: 'Só o host pode recriar a sala.',
+        GAME_NOT_OVER: 'A partida ainda não terminou.',
+      };
+      window.alert(messages[res && res.reason] || (res && res.error) || 'Não foi possível recriar a sala. Tente novamente.');
+    });
+  });
+
+  // Sai da sala de verdade (para não deixar um "jogador fantasma" esperando o
+  // tempo de reconexão) e volta ao início.
   $('btn-play-again').addEventListener('click', () => {
-    clearSession();
-    location.href = location.origin;
+    const { roomId, sessionToken } = state;
+    const goHome = () => {
+      clearSession();
+      location.href = location.origin;
+    };
+    if (state.socket && state.socket.connected && roomId && sessionToken) {
+      emitWithTimeout('leave_room', { roomId, sessionToken }, 3000, goHome);
+    } else {
+      goHome();
+    }
   });
 
   $('btn-clear-leaderboard').addEventListener('click', () => {
@@ -1804,6 +1843,7 @@
               updatedScoreboard: snap.scoreboard,
             });
           } else if (snap.phase === 'podium') {
+            updatePodiumActions();
             showScreen('podium');
           } else {
             showScreen('lobby');

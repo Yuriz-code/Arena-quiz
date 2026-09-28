@@ -9,6 +9,9 @@ sem build step), para até 8 jogadores remotos.
 - Criação/entrada em salas por código de 4 caracteres
 - Lobby com controles de host: tempo por rodada, nº de perguntas, categorias,
   transferir liderança, expulsar e banir (por IP + sessionToken)
+- **Jogar de novo**: no pódio o host clica em "Jogar de novo com os mesmos jogadores" e a
+  sala (mesmo código, jogadores, chat e configurações) volta ao lobby com o placar zerado —
+  sem precisar recriar/entrar de novo; quem não quiser continuar sai pelo "Voltar ao início"
 - Sessão persistente via `sessionToken` (UUID) guardado em `sessionStorage`:
   recarregar a página reconecta automaticamente à sala e à pergunta em curso
 - Reconexão com grace period de 45s (o jogo não pausa; o timer continua)
@@ -218,6 +221,7 @@ Arquivos em `tests/`:
 | Arquivo                    | Cobre                                                                 |
 |-----------------------------|------------------------------------------------------------------------|
 | `full-game.test.js`         | Lobby → perguntas → pódio; placar geral acumulando entre partidas     |
+| `rematch.test.js`           | Revanche: pódio → lobby com os mesmos jogadores e placar zerado; só o host, só após o fim |
 | `reconnect.test.js`         | Reconexão dentro do grace period; expiração e remoção definitiva      |
 | `moderation.test.js`        | Expulsar, banir (+ bloqueio por IP), proteção contra não-host, transferir liderança |
 | `chat.test.js`              | Envio/recebimento, histórico para quem entra depois, limite anti-spam |
