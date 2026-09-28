@@ -168,6 +168,21 @@ Isso não afeta `data/questions/*.json` (o banco de perguntas): esses
 arquivos fazem parte do código-fonte, são versionados no Git e não
 precisam de disco persistente.
 
+**"Criei uma conta e ela sumiu" (incluindo em teste local)**: o sintoma
+mais comum não é um bug no código — é `server/data/quizarena.db` ficando
+pra trás quando o projeto é atualizado/reinstalado numa pasta nova. Toda
+vez que o servidor sobe, ele imprime o caminho absoluto do banco que abriu
+(`[db] Banco de dados em: ...`) e avisa se é um banco **novo** — se isso
+aparecer depois de uma atualização e você esperava ver suas contas de
+antes, é exatamente isso: o arquivo antigo ficou na pasta anterior. Duas
+soluções, na prática a mesma ideia do disco persistente acima:
+- Ao atualizar o código (nova versão, novo deploy), copie o arquivo
+  `server/data/quizarena.db` (e os `-wal`/`-shm` ao lado, se existirem) da
+  instalação antiga para a nova antes de iniciar o servidor; ou
+- Aponte `DATA_DIR` para uma pasta fixa **fora** da pasta do projeto (ex.:
+  `DATA_DIR=/home/voce/quizarena-data` localmente, ou o disco persistente
+  do Render em produção) — assim, atualizar o código nunca mexe nos dados.
+
 ### Variáveis de ambiente de limites anti-abuso
 
 Todas têm um padrão razoável para uso pequeno/médio; ajuste se sua

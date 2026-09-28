@@ -248,6 +248,7 @@
       chat.unread = 0;
       renderChatBadge();
       scrollChatToBottom(true);
+      updateChatCounter();
       $('chat-input').focus();
     } else {
       // volta a mostrar o botão se ainda estamos numa tela com chat
@@ -267,6 +268,14 @@
     const list = $('chat-messages');
     const nearBottom = list.scrollHeight - list.scrollTop - list.clientHeight < 80;
     if (force || nearBottom) list.scrollTop = list.scrollHeight;
+    if (force || nearBottom) $('chat-jump').hidden = true;
+  }
+
+  function updateChatCounter() {
+    const remaining = 200 - $('chat-input').value.length;
+    const counter = $('chat-counter');
+    counter.textContent = String(remaining);
+    counter.dataset.low = String(remaining <= 20);
   }
 
   function appendChatMessage(msg, { countUnread }) {
@@ -294,8 +303,13 @@
     while (list.children.length > CHAT_DOM_LIMIT) list.removeChild(list.firstChild);
     $('chat-empty').hidden = true;
 
-    if (chat.open) scrollChatToBottom(stick || wasNearBottom);
-    else if (countUnread && !msg.mine) { chat.unread += 1; renderChatBadge(); }
+    if (chat.open) {
+      if (stick || wasNearBottom) scrollChatToBottom(stick || wasNearBottom);
+      // Mensagem de outra pessoa chegou com o painel aberto, mas rolado pra
+      // cima (lendo algo mais antigo) — avisa sem forçar a rolagem, porque
+      // puxar a tela sem pedir é mais irritante do que útil.
+      else if (!msg.mine) $('chat-jump').hidden = false;
+    } else if (countUnread && !msg.mine) { chat.unread += 1; renderChatBadge(); }
   }
 
   /** Linha de aviso do sistema (ex.: mensagem censurada) — centralizada, sem autor. */
@@ -344,10 +358,11 @@
       $('chat-send').disabled = false;
       if (res && res.ok) {
         input.value = '';
+        updateChatCounter();
         input.focus();
         return;
       }
-      if (res && res.reason === 'CENSORED') { input.value = ''; input.focus(); } // foi "enviada" e barrada
+      if (res && res.reason === 'CENSORED') { input.value = ''; updateChatCounter(); input.focus(); } // foi "enviada" e barrada
       const messages = {
         RATE_LIMIT: 'Calma! Você está enviando mensagens rápido demais.',
         NOT_IN_ROOM: 'Você não está mais nesta sala.',
@@ -361,9 +376,15 @@
   $('chat-toggle').addEventListener('click', () => setChatOpen(true));
   $('chat-close').addEventListener('click', () => setChatOpen(false));
   $('chat-send').addEventListener('click', sendChatMessage);
+  $('chat-input').addEventListener('input', updateChatCounter);
   $('chat-input').addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && !e.isComposing) { e.preventDefault(); sendChatMessage(); }
     else if (e.key === 'Escape') setChatOpen(false);
+  });
+  $('chat-jump').addEventListener('click', () => scrollChatToBottom(true));
+  $('chat-messages').addEventListener('scroll', () => {
+    const list = $('chat-messages');
+    if (list.scrollHeight - list.scrollTop - list.clientHeight < 80) $('chat-jump').hidden = true;
   });
 
   // ------------------------------------------------------------------

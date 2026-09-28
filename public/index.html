@@ -25,10 +25,14 @@
     <button id="chat-close" class="chat-close" type="button" aria-label="Fechar chat">✕</button>
   </div>
   <ol id="chat-messages" class="chat-messages" aria-live="polite"></ol>
+  <button id="chat-jump" class="chat-jump" type="button" hidden>↓ Novas mensagens</button>
   <p id="chat-empty" class="chat-empty">Nenhuma mensagem ainda. Diga oi! 👋</p>
   <p id="chat-error" class="chat-error" role="alert"></p>
   <div class="chat-compose">
-    <input id="chat-input" type="text" maxlength="200" placeholder="Escreva uma mensagem…" autocomplete="off" enterkeyhint="send" />
+    <div class="chat-input-wrap">
+      <input id="chat-input" type="text" maxlength="200" placeholder="Escreva uma mensagem…" autocomplete="off" enterkeyhint="send" />
+      <span id="chat-counter" class="chat-counter">200</span>
+    </div>
     <button id="chat-send" class="chat-send" type="button">Enviar</button>
   </div>
 </aside>

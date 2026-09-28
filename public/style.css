@@ -610,7 +610,7 @@ input[type="text"]:focus-visible, input[type="password"]:focus-visible {
   right: 16px;
   bottom: calc(16px + env(safe-area-inset-bottom, 0px));
   z-index: 70;
-  width: min(360px, calc(100vw - 32px));
+  width: min(300px, calc(100vw - 32px));
   height: min(70vh, 480px);
   display: flex; flex-direction: column;
   background: var(--surface);
@@ -649,8 +649,14 @@ input[type="text"]:focus-visible, input[type="password"]:focus-visible {
 .chat-msg--mine .chat-msg-text { background: rgba(255,138,61,0.16); border-color: rgba(255,138,61,0.45); }
 .chat-error { color: var(--bad); font-size: 0.8rem; min-height: 0; margin: 0; padding: 0 12px; }
 .chat-error:empty { display: none; }
-.chat-compose { display: flex; gap: 8px; padding: 10px 12px; border-top: 1px solid var(--border); }
-.chat-compose input[type="text"] { padding: 10px 12px; font-size: 0.95rem; min-width: 0; flex: 1; }
+.chat-compose { display: flex; gap: 8px; padding: 10px 12px; border-top: 1px solid var(--border); align-items: center; }
+.chat-input-wrap { position: relative; flex: 1; min-width: 0; }
+.chat-compose input[type="text"] { padding: 10px 40px 10px 12px; font-size: 0.95rem; width: 100%; }
+.chat-counter {
+  position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+  font-size: 0.7rem; color: var(--text-faint); pointer-events: none;
+}
+.chat-counter[data-low="true"] { color: var(--bad); font-weight: 600; }
 .chat-send {
   appearance: none; border: none; cursor: pointer;
   background: var(--accent); color: var(--accent-contrast);
@@ -658,10 +664,22 @@ input[type="text"]:focus-visible, input[type="password"]:focus-visible {
 }
 .chat-send:disabled { opacity: 0.45; cursor: not-allowed; }
 
+/* Pílula "novas mensagens" — some quando o painel está perto do fim; aparece
+   quando chega mensagem de outra pessoa e a rolagem está mais acima, pra não
+   deixar a novidade passar despercebida sem forçar a rolagem da pessoa. */
+.chat-jump {
+  align-self: center; margin: -4px 0 8px;
+  background: var(--accent); color: var(--accent-contrast);
+  border: none; border-radius: 999px; padding: 6px 14px;
+  font-size: 0.78rem; font-weight: 600; cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+}
+.chat-jump[hidden] { display: none; }
+
 /* Telas largas: com o chat aberto, o jogo desloca pro lado em vez de ficar sob o painel. */
 .app { transition: padding-right 0.2s ease; }
 @media (min-width: 900px) {
-  body.chat-open .app { padding-right: 392px; }
+  body.chat-open .app { padding-right: 332px; } /* largura do painel (300px) + as duas margens de 16px */
 }
 /* Celular: painel como gaveta baixa, pra cobrir o mínimo possível da pergunta. */
 @media (max-width: 899px) {

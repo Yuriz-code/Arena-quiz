@@ -575,6 +575,14 @@ function pruneOldAuthTokens(maxAgeMs) {
 
 migrateLegacyJsonIfNeeded();
 
+// Log de diagnóstico sempre visível no início: é a forma mais rápida de
+// perceber "por que minha conta/placar sumiu depois de atualizar o
+// código" — se DATA_DIR não estiver fixado num lugar estável (fora da
+// pasta do código, ou um disco persistente em produção), cada nova cópia
+// do projeto abre um banco NOVO E VAZIO neste caminho, mesmo que o código
+// em si esteja correto. Ver a seção de persistência no README.
+console.log(`[db] Banco de dados em: ${DB_PATH}${isNewDatabase ? ' (novo — nenhuma conta/placar anterior encontrado aqui)' : ''}`);
+
 function close() {
   try { db.close(); } catch { /* melhor esforço no encerramento */ }
 }
