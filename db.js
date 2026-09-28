@@ -21,6 +21,7 @@
 'use strict';
 
 const path = require('path');
+const os = require('os');
 const fs = require('fs');
 const crypto = require('crypto');
 const { DatabaseSync } = require('node:sqlite');
@@ -29,9 +30,18 @@ const { DatabaseSync } = require('node:sqlite');
 // --disable-warning=ExperimentalWarning no script "start" do package.json —
 // um listener de process.on('warning') NÃO impede a impressão padrão do Node.
 
-const DATA_DIR = process.env.DATA_DIR
-  ? path.resolve(process.env.DATA_DIR)
-  : path.join(__dirname, 'data');
+const persistence = require('./persistence');
+
+// Onde ficam os dados (ver persistence.js): DATA_DIR, senão ~/.quizarena —
+// fora da pasta do projeto, para atualizar/substituir o código não apagar
+// contas nem placar.
+const { dir: DATA_DIR, source: DATA_DIR_SOURCE } = persistence.resolveDataDir();
+const BACKUP_DIR = persistence.resolveBackupDir(DATA_DIR);
+const BACKUP_KEEP = Math.max(1, Number(process.env.BACKUP_KEEP) || 14);
+// 0 desliga só o backup periódico (início e encerramento continuam).
+const BACKUP_INTERVAL_MINUTES = process.env.BACKUP_INTERVAL_MINUTES !== undefined
+  ? Number(process.env.BACKUP_INTERVAL_MINUTES) || 0
+  : 360;
 
 try {
   fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -39,7 +49,39 @@ try {
   console.error(`Não foi possível criar DATA_DIR (${DATA_DIR}):`, err.message);
 }
 
-const DB_PATH = path.join(DATA_DIR, 'quizarena.db');
+const DB_PATH = path.join(DATA_DIR, persistence.DB_FILE);
+
+// Antes de abrir: (1) traz o banco antigo que morava na pasta do projeto;
+// (2) se não há banco (disco novo/apagado), restaura o backup mais recente.
+const adoptedLegacy = persistence.adoptLegacyDatabase(DATA_DIR);
+const remote = require('./remote-backup');
+const remoteConfig = remote.getConfig();
+
+// Sem banco local + backup no GitHub configurado (Render: disco novo a cada
+// deploy): baixa o backup remoto ANTES de abrir o banco. Roda num processo
+// filho porque este arquivo é síncrono. Se falhar, o servidor NÃO sobe:
+// começar vazio e depois enviar esse banco vazio por cima do backup bom
+// seria pior. (REMOTE_RESTORE_OPTIONAL=1 aceita subir vazio mesmo assim.)
+const dbFileAtBoot = path.join(DATA_DIR, persistence.DB_FILE);
+if (remoteConfig && !(fs.existsSync(dbFileAtBoot) && fs.statSync(dbFileAtBoot).size > 0)) {
+  try {
+    process.stdout.write(require('child_process').execFileSync(
+      process.execPath, [path.join(__dirname, 'scripts', 'remote-restore.js')],
+      { env: process.env, timeout: 90_000, stdio: ['ignore', 'pipe', 'inherit'] }
+    ));
+  } catch (err) {
+    if (process.env.REMOTE_RESTORE_OPTIONAL === '1') {
+      console.error('[db] Restauração remota falhou; subindo com banco novo (REMOTE_RESTORE_OPTIONAL=1).');
+    } else {
+      throw new Error('Restauração do backup remoto (GitHub) falhou — abortando para não sobrescrever o backup com um banco vazio. Veja o erro acima.');
+    }
+  }
+}
+
+const restoredFrom = persistence.restoreLatestBackupIfNeeded(DATA_DIR, BACKUP_DIR);
+if (adoptedLegacy) console.log(`[db] Banco antigo de ${persistence.LEGACY_DATA_DIR} copiado para ${DB_PATH}.`);
+if (restoredFrom) console.log(`[db] Nenhum banco encontrado: restaurado o backup ${restoredFrom}.`);
+
 const isNewDatabase = !fs.existsSync(DB_PATH);
 const db = new DatabaseSync(DB_PATH);
 
@@ -47,6 +89,34 @@ const db = new DatabaseSync(DB_PATH);
 // corrupção que o modo padrão se o processo for encerrado abruptamente.
 db.exec('PRAGMA journal_mode = WAL;');
 db.exec('PRAGMA synchronous = NORMAL;');
+
+/** O banco tem algo que valha proteger? (nunca gera backup de banco vazio: ele empurraria os bons pela rotação) */
+function hasUserData() {
+  try {
+    return ['users', 'player_stats', 'game_log'].some(
+      (t) => db.prepare(`SELECT 1 FROM ${t} LIMIT 1`).get() !== undefined
+    );
+  } catch {
+    return false; // tabelas ainda não existem
+  }
+}
+
+/** Backup agora (a menos que o banco esteja vazio ou idêntico ao último backup). */
+function backupNow(label = '', { force = false } = {}) {
+  try {
+    if (!force && !hasUserData()) return null;
+    const file = persistence.createBackup(db, BACKUP_DIR, label, { skipIfSame: !force });
+    if (file) persistence.pruneBackups(BACKUP_DIR, BACKUP_KEEP);
+    return file;
+  } catch (err) {
+    console.error('[db] Falha ao criar backup:', err.message);
+    return null;
+  }
+}
+
+// Snapshot ANTES das migrações de esquema abaixo: se a versão nova do código
+// mexer no banco, o estado anterior à atualização fica guardado.
+const startupBackup = isNewDatabase ? null : backupNow('inicio');
 
 db.exec(`
   CREATE TABLE IF NOT EXISTS player_stats (
@@ -581,15 +651,79 @@ migrateLegacyJsonIfNeeded();
 // pasta do código, ou um disco persistente em produção), cada nova cópia
 // do projeto abre um banco NOVO E VAZIO neste caminho, mesmo que o código
 // em si esteja correto. Ver a seção de persistência no README.
-console.log(`[db] Banco de dados em: ${DB_PATH}${isNewDatabase ? ' (novo — nenhuma conta/placar anterior encontrado aqui)' : ''}`);
+console.log(`[db] Banco de dados em: ${DB_PATH} (${DATA_DIR_SOURCE})${isNewDatabase ? ' — novo, nenhuma conta/placar anterior encontrado aqui' : ''}`);
+console.log(`[db] Backups em: ${BACKUP_DIR} (mantém ${BACKUP_KEEP}${startupBackup ? `; backup de início: ${path.basename(startupBackup)}` : ''})`);
+
+// Backup periódico. unref(): o timer nunca segura o processo vivo.
+if (BACKUP_INTERVAL_MINUTES > 0) {
+  setInterval(() => backupNow('auto'), BACKUP_INTERVAL_MINUTES * 60 * 1000).unref();
+}
+
+// ---- Envio do backup para o GitHub -----------------------------------------
+const REMOTE_INTERVAL_MINUTES = process.env.GITHUB_BACKUP_INTERVAL_MINUTES !== undefined
+  ? Number(process.env.GITHUB_BACKUP_INTERVAL_MINUTES) || 0
+  : 10;
+// total_changes() = linhas alteradas por ESTA conexão desde que abriu: contador
+// exato de "houve gravação?", sem depender de relógio/mtime de arquivo. O que já
+// veio do backup remoto (ou das migrações do boot) não precisa voltar.
+const totalChanges = () => Number(db.prepare('SELECT total_changes() AS n').get().n);
+let lastRemotePushChanges = totalChanges();
+let remotePushing = null;
+
+/**
+ * Envia o estado atual ao GitHub se houve alteração desde o último envio e o
+ * banco tem dados. Nunca lança: falha de rede vira log e nova tentativa no
+ * próximo ciclo. `force` ignora a checagem de alteração.
+ */
+function pushRemote({ force = false } = {}) {
+  if (!remoteConfig) return Promise.resolve(false);
+  if (remotePushing) return remotePushing; // já tem um envio em andamento
+  const changesNow = totalChanges();
+  if (!hasUserData() || (!force && changesNow <= lastRemotePushChanges)) return Promise.resolve(false);
+  let snapshot;
+  remotePushing = (async () => {
+    try {
+      snapshot = exportSnapshot();
+      await remote.upload(remoteConfig, fs.readFileSync(snapshot), `backup ${new Date().toISOString()}`);
+      lastRemotePushChanges = changesNow;
+      return true;
+    } catch (err) {
+      console.error('[backup-remoto] Falha ao enviar para o GitHub:', err.message);
+      return false;
+    } finally {
+      if (snapshot) fs.rm(snapshot, { force: true }, () => {});
+      remotePushing = null;
+    }
+  })();
+  return remotePushing;
+}
+
+if (remoteConfig) {
+  console.log(`[db] Backup remoto no GitHub: ${remoteConfig.repo}/${remoteConfig.path}`);
+  if (REMOTE_INTERVAL_MINUTES > 0) {
+    setInterval(() => { pushRemote(); }, REMOTE_INTERVAL_MINUTES * 60 * 1000).unref();
+  }
+}
+
+/** Snapshot avulso num arquivo temporário (para download pelo admin). O chamador apaga o arquivo. */
+function exportSnapshot() {
+  const file = path.join(os.tmpdir(), `quizarena-export-${Date.now()}-${crypto.randomBytes(4).toString('hex')}.db`);
+  db.prepare('VACUUM INTO ?').run(file);
+  return file;
+}
 
 function close() {
+  backupNow('encerramento'); // último estado gravado antes de fechar
   try { db.close(); } catch { /* melhor esforço no encerramento */ }
 }
 
 module.exports = {
   DATA_DIR,
   DB_PATH,
+  BACKUP_DIR,
+  backupNow,
+  pushRemote,
+  exportSnapshot,
   loadAllPlayerStats,
   upsertPlayerStatsBatch,
   clearAllPlayerStats,

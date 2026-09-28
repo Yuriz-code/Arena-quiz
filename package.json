@@ -8,6 +8,8 @@
     "start": "node --disable-warning=ExperimentalWarning server.js",
     "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
     "test": "node --disable-warning=ExperimentalWarning --test",
+    "backup": "node --disable-warning=ExperimentalWarning scripts/backup.js",
+    "restore": "node --disable-warning=ExperimentalWarning scripts/restore.js",
     "generate-questions": "node scripts/generate-questions.js ./scripts/raw-bank-full.json ./data/questions",
     "generate-questions:example": "node scripts/generate-questions.js ./scripts/raw-bank.example.json ./data/questions"
   },

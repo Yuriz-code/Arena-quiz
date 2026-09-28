@@ -652,6 +652,27 @@ app.get('/health', (req, res) => {
   });
 });
 
+// Baixar um backup completo do banco (contas + placar + histórico) antes de
+// trocar de servidor/host. Protegido pelo mesmo ADMIN_CLEAR_CODE (e pelo mesmo
+// bloqueio por tentativas erradas) do "limpar placar geral". O código vai no
+// cabeçalho x-admin-code — nunca na URL, para não ficar em logs.
+//   curl -H "x-admin-code: SEU_CODIGO" -o quizarena-backup.db https://seu-site/admin/backup
+app.get('/admin/backup', (req, res) => {
+  res.set('Cache-Control', 'no-store');
+  const check = checkAdminCode(req.ip, String(req.get('x-admin-code') || ''));
+  if (!check.ok) return res.status(403).json({ error: check.error });
+  let file;
+  try {
+    file = db.exportSnapshot();
+  } catch (err) {
+    console.error('[admin] Falha ao exportar backup:', err.message);
+    return res.status(500).json({ error: 'Não foi possível gerar o backup.' });
+  }
+  res.download(file, `quizarena-backup-${new Date().toISOString().slice(0, 10)}.db`, () => {
+    fs.unlink(file, () => {});
+  });
+});
+
 app.get('/', (req, res) => {
   // O HTML em si NUNCA deve ficar em cache — é ele quem diz qual versão dos
   // assets usar, então o navegador precisa sempre buscar o mais recente.
@@ -1972,7 +1993,10 @@ function shutdown() {
   historyWriter.flushSync();
   playerStatsWriter.flushSync();
   return new Promise((resolve) => {
-    io.close(() => {
+    io.close(async () => {
+      // Deploy/suspensão do Render manda SIGTERM: último envio do backup ao
+      // GitHub antes de o disco sumir (limitado a 20s; nunca lança).
+      await Promise.race([db.pushRemote(), new Promise((r) => setTimeout(r, 20_000).unref())]);
       db.close();
       resolve();
     });

@@ -165,26 +165,108 @@ código:
 2. Defina a variável de ambiente `DATA_DIR=/data`.
 3. Pronto: `quizarena.db` passa a viver no disco persistente e sobrevive a
    deploys, reinícios e restarts do serviço. Sem `DATA_DIR` definido, o
-   banco fica em `server/data/quizarena.db` (padrão para uso local).
+   banco fica em `~/.quizarena/quizarena.db` (pasta do usuário, **fora** da
+   pasta do projeto — ver "Atualizar o código sem perder contas e placar").
 
 Isso não afeta `data/questions/*.json` (o banco de perguntas): esses
 arquivos fazem parte do código-fonte, são versionados no Git e não
 precisam de disco persistente.
 
-**"Criei uma conta e ela sumiu" (incluindo em teste local)**: o sintoma
-mais comum não é um bug no código — é `server/data/quizarena.db` ficando
-pra trás quando o projeto é atualizado/reinstalado numa pasta nova. Toda
-vez que o servidor sobe, ele imprime o caminho absoluto do banco que abriu
-(`[db] Banco de dados em: ...`) e avisa se é um banco **novo** — se isso
-aparecer depois de uma atualização e você esperava ver suas contas de
-antes, é exatamente isso: o arquivo antigo ficou na pasta anterior. Duas
-soluções, na prática a mesma ideia do disco persistente acima:
-- Ao atualizar o código (nova versão, novo deploy), copie o arquivo
-  `server/data/quizarena.db` (e os `-wal`/`-shm` ao lado, se existirem) da
-  instalação antiga para a nova antes de iniciar o servidor; ou
-- Aponte `DATA_DIR` para uma pasta fixa **fora** da pasta do projeto (ex.:
-  `DATA_DIR=/home/voce/quizarena-data` localmente, ou o disco persistente
-  do Render em produção) — assim, atualizar o código nunca mexe nos dados.
+### Atualizar o código sem perder contas e placar
+
+Contas, placar geral, histórico e reports vivem no banco `quizarena.db`. Para
+que atualizar os arquivos nunca os apague, há três camadas automáticas:
+
+1. **Banco fora da pasta do código.** Sem `DATA_DIR`, o banco fica em
+   `~/.quizarena/` (pasta do usuário). Substituir, apagar ou recriar a pasta
+   `server/` não toca nele. Se você vinha de uma versão que guardava o banco
+   em `server/data/quizarena.db`, ele é **copiado sozinho** para o novo local
+   na primeira subida (o original não é apagado).
+2. **Backups automáticos** (`~/.quizarena/backups/`, ou `BACKUP_DIR`):
+   - ao **iniciar** — antes de qualquer migração de esquema da versão nova, ou
+     seja, o estado anterior à atualização fica guardado;
+   - a cada 6 horas (`BACKUP_INTERVAL_MINUTES`, `0` desliga só este);
+   - ao **encerrar** o servidor.
+
+   Só os 14 mais recentes ficam (`BACKUP_KEEP`). Reiniciar sem mudanças não
+   cria cópias repetidas, e banco vazio nunca gera backup (não empurra os
+   bons para fora da rotação).
+3. **Auto-restauração.** Se no boot não existe banco (disco novo, pasta
+   apagada) mas há um backup íntegro em `BACKUP_DIR`, o mais recente é
+   restaurado sozinho. O log mostra `[db] ... restaurado o backup ...`.
+
+Ao subir, o servidor imprime o caminho do banco e dos backups
+(`[db] Banco de dados em: ...`) e avisa quando o banco é **novo**.
+
+**Backup e restauração manuais**
+
+```bash
+npm run backup                       # snapshot em <backups>/ (pode rodar com o servidor ligado)
+npm run backup -- ./meu-backup.db    # ou num arquivo à sua escolha
+npm run restore -- ./meu-backup.db   # PARE o servidor antes; o banco atual é guardado em <backups>/
+npm run restore -- --latest          # restaura o backup mais recente
+```
+
+**Baixar um backup pela internet** (útil antes de trocar de servidor/host),
+com `ADMIN_CLEAR_CODE` configurado — o código vai no cabeçalho, nunca na URL:
+
+```bash
+curl -H "x-admin-code: SEU_CODIGO" -o quizarena-backup.db https://seu-site/admin/backup
+```
+
+Para usar o arquivo baixado em outro servidor, ponha-o em `BACKUP_DIR` (com
+nome `quizarena-*.db`) e inicie sem banco, ou use `npm run restore`.
+
+> **Limite honesto:** se `DATA_DIR` e `BACKUP_DIR` ficam no **mesmo disco
+> efêmero** (Render sem Disk, container sem volume), o host apaga os dois
+> juntos a cada deploy. No Render gratuito use o backup no GitHub (seção
+> seguinte); com disco pago, use o disco persistente descrito acima (`DATA_DIR=/data`) e, se quiser uma
+> segunda camada, aponte `BACKUP_DIR` para outro volume ou baixe cópias
+> periodicamente pela rota `/admin/backup`.
+
+### Render gratuito + GitHub: contas e placar que sobrevivem a deploys
+
+No Render gratuito o disco é apagado a cada deploy **e** sempre que o serviço
+"dorme" por inatividade. Como o banco e os backups locais moram nesse disco,
+sozinhos eles somem. A solução sem pagar disco: o servidor guarda o backup num
+**repositório privado do GitHub** e o restaura sozinho quando sobe sem banco.
+
+**Configuração (uma vez):**
+
+1. Crie um repositório **privado** só para o backup (ex.: `quizarena-backup`),
+   já **inicializado** (marque "Add a README"). Precisa ser privado: o banco
+   contém hashes de senha.
+2. Em *GitHub → Settings → Developer settings → Personal access tokens →
+   Fine-grained tokens*: crie um token com acesso **somente a esse
+   repositório** e a permissão **Contents: Read and write**.
+3. No Render (*Environment*), adicione:
+
+   | Variável               | Valor                          |
+   |------------------------|--------------------------------|
+   | `GITHUB_BACKUP_REPO`   | `seu-usuario/quizarena-backup` |
+   | `GITHUB_BACKUP_TOKEN`  | o token do passo 2             |
+
+   Opcionais: `GITHUB_BACKUP_BRANCH` (padrão `main`), `GITHUB_BACKUP_PATH`
+   (padrão `quizarena.db.gz`), `GITHUB_BACKUP_INTERVAL_MINUTES` (padrão `10`).
+
+**Como funciona:**
+- Quando há gravação nova (conta criada, partida terminada, troca de senha…),
+  o banco é enviado a cada 10 min, e **uma última vez ao receber o
+  desligamento** (deploy ou suspensão do Render). Cada envio é um commit que
+  sobrescreve um único arquivo; o histórico do Git guarda as versões antigas.
+- Ao subir **sem banco local** (deploy novo), o servidor baixa o backup do
+  GitHub antes de abrir o banco. Os logs mostram `[backup-remoto] banco
+  restaurado de ...`.
+- Se o GitHub estiver fora do ar nessa hora, o servidor **não sobe** (o Render
+  tenta de novo). É de propósito: subir vazio e depois enviar esse banco vazio
+  por cima do backup bom seria pior. `REMOTE_RESTORE_OPTIONAL=1` desliga essa
+  trava.
+- Banco vazio nunca é enviado.
+
+**Limite:** o que aconteceu depois do último envio (até ~10 min) pode se perder
+se o Render derrubar o processo sem aviso (falha/`SIGKILL`); em deploy e
+suspensão normais o envio final acontece. Para zero perda, use um Render Disk
+(pago) com `DATA_DIR=/data`.
 
 ### Variáveis de ambiente de limites anti-abuso
 
@@ -222,6 +304,8 @@ Arquivos em `tests/`:
 |-----------------------------|------------------------------------------------------------------------|
 | `full-game.test.js`         | Lobby → perguntas → pódio; placar geral acumulando entre partidas     |
 | `rematch.test.js`           | Revanche: pódio → lobby com os mesmos jogadores e placar zerado; só o host, só após o fim |
+| `persistence.test.js`       | Backup ao encerrar, auto-restauração com banco apagado, rotação, sem duplicatas, scripts backup/restore |
+| `remote-backup.test.js`     | Backup no GitHub (servidor falso): envio, restauração em disco novo, trava se o GitHub cair, arquivo corrompido |
 | `reconnect.test.js`         | Reconexão dentro do grace period; expiração e remoção definitiva      |
 | `moderation.test.js`        | Expulsar, banir (+ bloqueio por IP), proteção contra não-host, transferir liderança |
 | `chat.test.js`              | Envio/recebimento, histórico para quem entra depois, limite anti-spam |
@@ -332,12 +416,14 @@ texto da pergunta e os motivos — o roteiro pra decidir o que corrigir em
 server/
 ├── server.js                  # servidor autoritativo (Express + Socket.IO)
 ├── db.js                      # persistência SQLite (placar, histórico, reports, log de partidas)
+├── persistence.js             # pasta de dados estável, backups automáticos e auto-restauração
+├── remote-backup.js           # backup remoto num repositório privado do GitHub (Render gratuito)
 ├── chat-guard.js               # censura de spoiler no chat (também usado na deduplicação de perguntas)
 ├── Dockerfile / .dockerignore
 ├── tests/                     # suíte automatizada (node --test + socket.io-client)
 ├── package.json
 ├── data/questions/*.json      # banco particionado por categoria (gerado — não editar à mão)
-├── data/quizarena.db          # placar + histórico + reports (gerado em runtime; use DATA_DIR em produção)
+├── (dados)  ~/.quizarena/quizarena.db   # contas + placar + histórico + reports (fora do projeto; DATA_DIR muda o local)
 ├── scripts/
 │   ├── raw-bank-full.json      # banco bruto de verdade (fonte única do conteúdo)
 │   ├── question-schema.js      # categorias/dificuldades válidas + validação (compartilhado)
