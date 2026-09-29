@@ -3,7 +3,7 @@
 # Exige Node >=22.5 por causa do módulo nativo node:sqlite (ver db.js) —
 # por isso a imagem base é a 22, não a "lts" genérica (que hoje ainda
 # resolveria para 22, mas pode mudar de LTS antes deste Dockerfile).
-FROM node:22-slim
+FROM node:22.22-slim
 
 WORKDIR /app
 
@@ -11,12 +11,11 @@ WORKDIR /app
 # código mudar (não as dependências), a camada de npm install é reaproveitada.
 COPY package.json package-lock.json ./
 
-# --omit=dev: nada de socket.io-client (usado só pelos testes) na imagem de
-# produção. Usa "install" em vez de "ci" de propósito: se o lockfile ficar
-# levemente fora de sincronia com o package.json entre alterações, o build
-# não quebra — ele reconcilia sozinho (ao custo de builds um pouco menos
-# reprodutíveis que "ci" garantiria).
-RUN npm install --omit=dev
+# npm ci: instala EXATAMENTE o que está no package-lock.json (build
+# reprodutível; falha se package.json e lockfile divergirem — rode
+# `npm install` localmente e versione o lockfile). --omit=dev deixa de fora o
+# socket.io-client (usado só pelos testes).
+RUN npm ci --omit=dev
 
 COPY . .
 
@@ -28,6 +27,8 @@ RUN mkdir -p data && chown -R node:node /app
 
 ENV NODE_ENV=production
 ENV PORT=3000
+# TRUST_PROXY NÃO é definido aqui de propósito: o padrão seguro é 0 (ignora
+# X-Forwarded-For). Atrás de proxy, passe -e TRUST_PROXY=1 (ver README).
 EXPOSE 3000
 
 # Ver server.js: rota /health devolve 200 com contadores agregados. O Render

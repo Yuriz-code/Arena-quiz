@@ -1,0 +1,18 @@
+# Exemplo local/VPS. Com proxy na frente (Nginx/Caddy/Traefik), mantenha
+# TRUST_PROXY=1 e NÃO publique a porta 3000 para a internet — só o proxy.
+services:
+  quizarena:
+    build: .
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      DATA_DIR: /data
+      TRUST_PROXY: "1"            # use "0" se expuser a porta 3000 direto, sem proxy
+      ADMIN_CLEAR_CODE: ${ADMIN_CLEAR_CODE:?defina ADMIN_CLEAR_CODE}
+    volumes:
+      - quizarena_data:/data
+    ports:
+      - "127.0.0.1:3000:3000"     # só o proxy local acessa
+    restart: unless-stopped
+volumes:
+  quizarena_data:

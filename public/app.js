@@ -1051,9 +1051,9 @@
       const amHost = state.playerId !== null && state.playerId === state.hostPlayerId;
       const canModerate = amHost && p.playerId !== state.playerId;
       li.innerHTML = `
-        <span class="player-avatar">${p.avatar}</span>
+        <span class="player-avatar">${escapeHtml(String(p.avatar))}</span>
         <span class="player-name">${escapeHtml(p.nickname)}${p.isHost ? ' <span class="player-crown">👑</span>' : ''}</span>
-        <span class="status-dot" data-status="${p.connectionStatus}" title="${p.connectionStatus}"></span>
+        <span class="status-dot" data-status="${escapeHtml(String(p.connectionStatus))}" title="${escapeHtml(String(p.connectionStatus))}"></span>
       `;
       if (canModerate) {
         const actions = document.createElement('span');
@@ -1304,10 +1304,10 @@
       const li = document.createElement('li');
       li.className = isMe ? 'scoreboard-row is-you' : 'scoreboard-row';
       li.innerHTML = `
-        <span class="scoreboard-rank">${rank}</span>
-        <span class="player-avatar">${avatar}</span>
+        <span class="scoreboard-rank">${escapeHtml(String(rank))}</span>
+        <span class="player-avatar">${escapeHtml(String(avatar))}</span>
         <span class="player-name">${escapeHtml(nickname)}</span>
-        <span class="scoreboard-score">${score} pts</span>
+        <span class="scoreboard-score">${escapeHtml(String(score))} pts</span>
       `;
       el.appendChild(li);
     });
@@ -1408,10 +1408,10 @@
       slot.dataset.place = String(p.position);
       const barLabel = p.position === 1 ? `🏆 ${p.position}º` : `${p.position}º`;
       slot.innerHTML = `
-        <span class="podium-avatar">${p.avatar}</span>
+        <span class="podium-avatar">${escapeHtml(String(p.avatar))}</span>
         <span class="podium-name">${escapeHtml(p.nickname)}</span>
-        <span class="podium-score">${p.totalScore} pts</span>
-        <div class="podium-bar">${barLabel}</div>
+        <span class="podium-score">${escapeHtml(String(p.totalScore))} pts</span>
+        <div class="podium-bar">${escapeHtml(String(barLabel))}</div>
       `;
       top3Container.appendChild(slot);
     });
@@ -1758,10 +1758,15 @@
   // ------------------------------------------------------------------
   // Utilidades
   // ------------------------------------------------------------------
+  // Escapa também aspas: várias interpolações caem dentro de atributos
+  // (data-status="...", title="..."), onde textContent→innerHTML NÃO basta.
   function escapeHtml(str) {
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
   /**

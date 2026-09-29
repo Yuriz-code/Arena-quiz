@@ -284,7 +284,61 @@ instância tiver um público maior ou um host com menos memória.
 | `MIN_RANKED_PLAYERS`           | `3`         | Jogadores mínimos na largada para a partida valer no ranking           |
 | `LEADERBOARD_MIN_GAMES`        | (por período) | Força um mínimo único de partidas p/ Média e Precisão (padrão: 5 / 3 / 2) |
 | `MIN_TOTAL_QUESTIONS`          | `3`         | Mínimo de perguntas que o host pode escolher (os testes usam 1)        |
-| `CORS_ORIGIN`                   | (aberto, `*`) | Origem(ns) permitidas no Socket.IO, separadas por vírgula. Só importa se o frontend for servido por um domínio diferente do backend — nesse caso, defina antes de ir para produção |
+| `CORS_ORIGIN`                   | dev: `*` · produção: só mesma origem | Origem(ns) permitidas no Socket.IO, separadas por vírgula (ou `*` para liberar tudo de propósito). Em produção (`NODE_ENV=production`, como no Dockerfile), sem esta variável **só a mesma origem** é aceita — o frontend servido por este processo não precisa de CORS. Só defina se o frontend estiver em outro domínio |
+| `TRUST_PROXY`                   | `0` (`1` no Render) | Nº de proxies reversos confiáveis na frente do servidor. Com `0`, o cabeçalho `X-Forwarded-For` é **ignorado** (não dá para forjar IP). Atrás de Render/Railway/Fly/Nginx simples use `1`; sem isso, todos os jogadores parecem ter o IP do proxy — ver "Atrás de proxy" abaixo |
+
+### Cabeçalhos de segurança
+
+O servidor envia `helmet` com CSP restrita (`script-src 'self'`, fontes só do
+Google Fonts, `frame-ancestors 'none'`) e não expõe `X-Powered-By`. Se você
+adicionar scripts/estilos externos ao `index.html`, inclua a origem em
+`server.js` (bloco `helmet`), ou o navegador os bloqueará.
+
+### Atrás de proxy: por que todos aparecem com o mesmo IP
+
+Hosts como Render, Railway, Fly ou um Nginx colocam um **proxy reverso** na
+frente do Node: a conexão TCP chega com o IP do proxy, e o IP real do jogador
+vem no cabeçalho `X-Forwarded-For`. Como esse cabeçalho pode ser forjado pelo
+cliente, o servidor só o usa se você disser quantos proxies confiáveis existem
+(`TRUST_PROXY`). Sem isso, todos os jogadores parecem ter o **mesmo IP** e
+dividem limites, bloqueios e banimentos.
+
+| Onde roda | Configuração |
+|-----------|--------------|
+| Render | automático (`RENDER` detectado → `TRUST_PROXY=1`); o `render.yaml` também define |
+| Railway / Fly / Nginx / Caddy / Traefik simples (1 proxy) | `TRUST_PROXY=1` |
+| CDN + proxy (ex.: Cloudflare → Nginx) | `TRUST_PROXY=2` |
+| Node exposto direto, sem proxy | `TRUST_PROXY=0` (padrão) |
+
+No boot o log mostra `[rede] TRUST_PROXY=...`. Se chegar `X-Forwarded-For` com
+`TRUST_PROXY=0`, o servidor avisa uma vez no log (sinal de proxy não
+configurado). Arquivos prontos: `render.yaml` (na raiz do repositório), `docker-compose.yml` e
+`.env.example`.
+
+### Estrutura do servidor
+
+`server.js` continua sendo o ponto de entrada (salas, sockets, fluxo do jogo),
+mas a lógica independente foi extraída em módulos testáveis:
+
+| Módulo | Conteúdo |
+|--------|----------|
+| `client-ip.js` | IP do cliente atrás de proxy (`TRUST_PROXY`) |
+| `rate-limits.js` | Limitadores por chave: bloqueio por tentativas e janela deslizante (login, admin, cadastro, criação de sala) |
+| `passwords.js` | scrypt, código de recuperação, comparação em tempo constante |
+| `scoring.js` | Pontuação, folga de rede e curva de dificuldade (funções puras) |
+
+### CI e dependências
+
+`.github/workflows/ci.yml` roda `npm ci`, `npm test`, `npm audit` e o
+`docker build` a cada push/PR; `.github/dependabot.yml` abre PRs semanais de
+atualização. O `Dockerfile` usa `npm ci` (exige `package-lock.json`
+sincronizado: rode `npm install` localmente após mudar dependências).
+
+### PWA
+
+`public/manifest.webmanifest` + ícones permitem "Adicionar à tela inicial" no
+celular. Não há service worker: o jogo precisa de conexão em tempo real, então
+não há modo offline.
 
 ## Testes automatizados
 
@@ -310,6 +364,10 @@ Arquivos em `tests/`:
 | `moderation.test.js`        | Expulsar, banir (+ bloqueio por IP), proteção contra não-host, transferir liderança |
 | `chat.test.js`              | Envio/recebimento, histórico para quem entra depois, limite anti-spam |
 | `censorship.test.js`        | Censura de spoiler (texto da opção e "letra B") durante a pergunta, liberada após o reveal |
+| `client-ip.test.js`         | Resolução de IP atrás de proxy (`TRUST_PROXY`): `X-Forwarded-For` forjado é ignorado |
+| `security.test.js`          | Cabeçalhos/CSP, spoof de `X-Forwarded-For` vs. limite por IP, payloads malformados |
+| `scoring-unit.test.js`      | Pontuação, folga de rede, bônus e curva de dificuldade |
+| `rate-limits-unit.test.js`  | Limitadores, scrypt, código de recuperação |
 | `report.test.js`            | Reportar pergunta (motivo válido, motivo inválido, pergunta que já mudou) |
 
 Ao adicionar uma funcionalidade nova, o ideal é escrever o teste antes (ou
@@ -322,7 +380,7 @@ nesta conversa.
 ```bash
 cd server
 docker build -t quizarena-server .
-docker run -p 3000:3000 -e DATA_DIR=/data -v quizarena_data:/data quizarena-server
+docker run -p 3000:3000 -e DATA_DIR=/data -e TRUST_PROXY=1 -v quizarena_data:/data quizarena-server   # TRUST_PROXY=1 só se houver proxy na frente
 ```
 
 A imagem usa `node:22-slim` (exige Node ≥22.5 por causa do `node:sqlite`,

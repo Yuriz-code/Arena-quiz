@@ -13,6 +13,11 @@ const crypto = require('crypto');
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
+const helmet = require('helmet');
+const { parseTrustProxy, resolveClientIp } = require('./client-ip');
+const { hashPassword, verifyPassword, generateRecoveryCode, normalizeRecoveryCode, safeEqualStrings } = require('./passwords');
+const { ANSWER_NETWORK_GRACE_MS, round2, isBonusQuestionNumber, desiredDifficultyFor, calculateScore } = require('./scoring');
+const { createAttemptLimiter, createWindowLimiter } = require('./rate-limits');
 const { revealsAnswer } = require('./chat-guard');
 const db = require('./db'); // placar geral, histórico anti-repetição e log de partidas (SQLite)
 const { buildBoard, METRICS, PERIODS } = require('./leaderboard'); // ordenação/posição dos rankings
@@ -74,16 +79,26 @@ const ROOM_SWEEP_INTERVAL_MS = 60 * 1000; // varre a cada 1 min
 // variável definida, mantém o padrão aberto (mesmo comportamento de antes)
 // para não quebrar quem já estava rodando frontend e backend separados sem
 // configurar nada — mas avisa no boot, porque isso deveria ser explícito.
+const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+// Em produção, sem CORS_ORIGIN, o padrão agora é SOMENTE mesma origem (o
+// frontend é servido por este processo, então CORS nem é necessário). Para
+// liberar tudo de propósito, defina CORS_ORIGIN='*'. Fora de produção (dev,
+// testes) o padrão continua aberto para não atrapalhar.
 const CORS_ORIGIN = process.env.CORS_ORIGIN
-  ? process.env.CORS_ORIGIN.split(',').map((s) => s.trim()).filter(Boolean)
-  : '*';
+  ? (process.env.CORS_ORIGIN.trim() === '*'
+      ? '*'
+      : process.env.CORS_ORIGIN.split(',').map((s) => s.trim()).filter(Boolean))
+  : (IS_PRODUCTION ? false : '*');
 if (CORS_ORIGIN === '*') {
   console.warn(
-    '⚠️  CORS_ORIGIN não definido — o Socket.IO está aceitando conexões de QUALQUER origem. ' +
-    'Se o frontend for servido por este mesmo processo (padrão local/Docker), pode ignorar. ' +
-    'Se o frontend rodar num domínio separado, defina CORS_ORIGIN com a(s) origem(ns) permitida(s).'
+    '⚠️  Socket.IO aceitando conexões de QUALQUER origem (CORS aberto). ' +
+    'Se o frontend for servido por este mesmo processo, remova CORS_ORIGIN (produção) ou defina as origens permitidas.'
   );
 }
+
+// Quantos proxies confiáveis existem na frente (ver client-ip.js).
+const TRUST_PROXY_HOPS = parseTrustProxy(process.env.TRUST_PROXY);
+console.log(`[rede] TRUST_PROXY=${TRUST_PROXY_HOPS} (${TRUST_PROXY_HOPS ? `confiando em ${TRUST_PROXY_HOPS} proxy(s) para o IP do cliente` : 'X-Forwarded-For ignorado'})`);
 
 // Motivos fechados pro botão "reportar pergunta" — evita texto livre (que
 // exigiria moderação própria) mantendo o relato útil pra quem revisar depois.
@@ -119,23 +134,6 @@ const MAX_PASSWORD_LENGTH = 72; // scrypt não tem limite prático; isso só bar
 // cadastro aceitava até 20 (USERNAME_REGEX): quem escolhia um nome de 17-20
 // aparecia truncado dentro da sala. Alinhado num único limite.
 const MAX_NICKNAME_LENGTH = 20;
-// Código de recuperação de senha: 12 caracteres hex (base16) em 3 blocos de
-// 4 (ex.: "A1B2-C3D4-E5F6"), fácil de anotar à mão. Mostrado uma única vez
-// (cadastro, ou de novo a cada "esqueci a senha" bem-sucedido) e guardado só
-// como hash (mesmo esquema scrypt da senha, ver hashPassword/verifyPassword).
-function generateRecoveryCode() {
-  const raw = crypto.randomBytes(6).toString('hex').toUpperCase(); // 12 chars
-  return raw.match(/.{1,4}/g).join('-');
-}
-
-// O hash é sempre sobre a forma NORMALIZADA (só os 12 hexadecimais, sem
-// hífen/espaço/caixa) — os hífens em "A1B2-C3D4-E5F6" são só apresentação
-// pra facilitar anotar à mão. Sem isso, alguém que digitasse o código sem os
-// hífens (ou com espaço no lugar) seria recusado mesmo acertando o código,
-// porque o hash foi calculado sobre bytes diferentes.
-function normalizeRecoveryCode(code) {
-  return String(code || '').toUpperCase().replace(/[^0-9A-F]/g, '');
-}
 // Sessões de login inativas há mais que isso são apagadas por uma limpeza
 // periódica (ver setInterval mais abaixo) — não afeta quem usa a conta com
 // regularidade; só reduz tokens esquecidos em aparelhos já não usados.
@@ -167,17 +165,9 @@ const CHAT_MAX_LENGTH = 200;        // caracteres por mensagem
 const CHAT_HISTORY_LIMIT = 50;      // mensagens guardadas por sala (enviadas a quem entra/reconecta)
 const CHAT_RATE_WINDOW_MS = 10_000; // janela do limite de envio
 const CHAT_RATE_MAX = 5;            // máximo de mensagens por jogador dentro da janela
-const REVEAL_PAUSE_MS = 4_000; // tempo mostrando o gabarito antes da próxima pergunta
-
-const BASE_POINTS = { facil: 100, medio: 200, dificil: 300 };
-// A sala espera esse tanto A MAIS que roundTimeMs antes de revelar (dá tempo
-// de pacotes que já saíram do jogador, mas ainda estão na rede, chegarem) —
-// ver o setTimeout do questionTimer em nextQuestion(). calculateScore usa
-// EXATAMENTE o mesmo valor pra decidir se aceita a resposta; do contrário,
-// uma resposta que o servidor deliberadamente esperou (e recebeu) seria
-// pontuada como errada só por ter chegado nesses últimos milissegundos —
-// penalizando sobretudo quem tem conexão mais lenta, de forma arbitrária.
-const ANSWER_NETWORK_GRACE_MS = 300;
+// Tempo mostrando o gabarito antes da próxima pergunta. Configurável só para os
+// testes (partidas longas); em produção fica no padrão de 4s.
+const REVEAL_PAUSE_MS = Number(process.env.REVEAL_PAUSE_MS) || 4_000;
 
 // ----------------------------------------------------------------------------
 // Sequência de acertos e power-ups. Ao atingir certos marcos de acertos SEGUIDOS,
@@ -533,10 +523,6 @@ class Room {
   }
 }
 
-function round2(n) {
-  return Math.round(n * 100) / 100;
-}
-
 /** Marca a sala como "ativa agora" — chamado em toda interação real (ver usos abaixo). */
 function touch(room) {
   if (room) room.lastActivityAt = Date.now();
@@ -552,20 +538,8 @@ function touch(room) {
 function sweepIdleRooms() {
   const now = Date.now();
 
-  // Poda entradas velhas do limitador de criação de salas por IP — sem isso,
-  // o Map cresceria para sempre (um IP visitante por dia, nunca removido).
-  for (const [ip, timestamps] of roomCreateTimestampsByIp) {
-    const recent = timestamps.filter((t) => now - t < ROOM_CREATE_WINDOW_MS);
-    if (recent.length === 0) roomCreateTimestampsByIp.delete(ip);
-    else if (recent.length !== timestamps.length) roomCreateTimestampsByIp.set(ip, recent);
-  }
-
-  // Mesma poda para o limitador de cadastro de contas por IP.
-  for (const [ip, timestamps] of registerAttemptsByIp) {
-    const recent = timestamps.filter((t) => now - t < REGISTER_WINDOW_MS);
-    if (recent.length === 0) registerAttemptsByIp.delete(ip);
-    else if (recent.length !== timestamps.length) registerAttemptsByIp.set(ip, recent);
-  }
+  // Poda dos limitadores por IP — sem isso os Maps cresceriam para sempre.
+  for (const limiter of [roomCreateLimiter, registerLimiter, loginLimiter, adminLimiter]) limiter.sweep(now);
 
   for (const room of rooms.values()) {
     if (now - room.lastActivityAt <= ROOM_IDLE_TIMEOUT_MS) continue;
@@ -603,6 +577,36 @@ authTokenSweepTimer.unref();
 // ----------------------------------------------------------------------------
 
 const app = express();
+app.disable('x-powered-by');
+// Mesmo critério do Socket.IO (client-ip.js): só confia nos N proxies configurados.
+app.set('trust proxy', TRUST_PROXY_HOPS);
+
+// Cabeçalhos de segurança + CSP. O frontend usa apenas scripts próprios; a
+// única origem externa é o Google Fonts. `style-src-attr 'unsafe-inline'`
+// cobre os poucos atributos style="" do HTML (a CSP não afeta atribuições via
+// JS como el.style.width = ...). upgrade-insecure-requests fica desligado
+// para não quebrar testes em rede local via http://IP:3000.
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      useDefaults: false,
+      directives: {
+        'default-src': ["'self'"],
+        'script-src': ["'self'"],
+        'style-src': ["'self'", 'https://fonts.googleapis.com'],
+        'style-src-attr': ["'unsafe-inline'"],
+        'font-src': ["'self'", 'https://fonts.gstatic.com'],
+        'img-src': ["'self'", 'data:'],
+        'connect-src': ["'self'", 'ws:', 'wss:'],
+        'object-src': ["'none'"],
+        'base-uri': ["'self'"],
+        'form-action': ["'self'"],
+        'frame-ancestors': ["'none'"],
+      },
+    },
+    referrerPolicy: { policy: 'no-referrer' },
+  })
+);
 
 // ----------------------------------------------------------------------------
 // Cache-busting automático dos assets estáticos (app.js / style.css)
@@ -617,7 +621,7 @@ const PUBLIC_DIR = path.join(__dirname, 'public');
 
 function fileContentHash(filePath) {
   try {
-    return crypto.createHash('md5').update(fs.readFileSync(filePath)).digest('hex').slice(0, 10);
+    return crypto.createHash('sha256').update(fs.readFileSync(filePath)).digest('hex').slice(0, 10);
   } catch (err) {
     console.error(`Não foi possível calcular hash de ${filePath}:`, err.message);
     return String(Date.now()); // fallback: pelo menos muda a cada reinício do processo
@@ -659,7 +663,7 @@ app.get('/health', (req, res) => {
 //   curl -H "x-admin-code: SEU_CODIGO" -o quizarena-backup.db https://seu-site/admin/backup
 app.get('/admin/backup', (req, res) => {
   res.set('Cache-Control', 'no-store');
-  const check = checkAdminCode(req.ip, String(req.get('x-admin-code') || ''));
+  const check = checkAdminCode(req.ip, String(req.get('x-admin-code') || ''));  // req.ip respeita 'trust proxy' (TRUST_PROXY)
   if (!check.ok) return res.status(403).json({ error: check.error });
   let file;
   try {
@@ -702,11 +706,22 @@ const io = new Server(httpServer, {
   maxHttpBufferSize: MAX_HTTP_BUFFER_SIZE, // ver comentário no topo do arquivo
 });
 
+let warnedProxyMisconfig = false;
+
 function clientIpOf(socket) {
-  return (
-    socket.handshake.headers['x-forwarded-for']?.split(',')[0].trim() ||
-    socket.handshake.address
-  );
+  const xff = socket.handshake.headers['x-forwarded-for'];
+  // Sinal clássico de configuração errada: chega X-Forwarded-For (há proxy na
+  // frente) mas TRUST_PROXY=0. Resultado: todos os jogadores parecem ter o IP
+  // do proxy e compartilham limites/bloqueios/banimentos. Avisa uma vez só.
+  if (xff && TRUST_PROXY_HOPS === 0 && !warnedProxyMisconfig) {
+    warnedProxyMisconfig = true;
+    console.warn(
+      '⚠️  Recebi X-Forwarded-For mas TRUST_PROXY=0: se este servidor está atrás de proxy ' +
+      '(Render, Railway, Fly, Nginx...), defina TRUST_PROXY=1, senão todos os jogadores ' +
+      `aparecem com o mesmo IP (${socket.handshake.address}).`
+    );
+  }
+  return resolveClientIp(socket.handshake.address, xff, TRUST_PROXY_HOPS);
 }
 
 // ----------------------------------------------------------------------------
@@ -717,35 +732,27 @@ function clientIpOf(socket) {
 
 const MAX_ADMIN_ATTEMPTS = 5;
 const ADMIN_LOCKOUT_MS = 5 * 60 * 1000; // 5 minutos
-
-/** @type {Map<string, {failCount:number, lockedUntil:number}>} */
-const adminAttemptsByIp = new Map();
+const adminLimiter = createAttemptLimiter({ maxFailures: MAX_ADMIN_ATTEMPTS, lockoutMs: ADMIN_LOCKOUT_MS });
 
 function checkAdminCode(ip, code) {
   if (!ADMIN_CLEAR_CODE) {
     return { ok: false, error: 'Recurso desativado neste servidor (ADMIN_CLEAR_CODE não configurado).' };
   }
 
-  const entry = adminAttemptsByIp.get(ip) || { failCount: 0, lockedUntil: 0 };
-
-  if (Date.now() < entry.lockedUntil) {
-    const secondsLeft = Math.ceil((entry.lockedUntil - Date.now()) / 1000);
+  const secondsLeft = adminLimiter.secondsLocked(ip);
+  if (secondsLeft > 0) {
     return { ok: false, error: `Muitas tentativas erradas. Tente novamente em ${secondsLeft}s.` };
   }
 
-  if (code !== ADMIN_CLEAR_CODE) {
-    entry.failCount += 1;
-    if (entry.failCount >= MAX_ADMIN_ATTEMPTS) {
-      entry.lockedUntil = Date.now() + ADMIN_LOCKOUT_MS;
-      entry.failCount = 0;
-      adminAttemptsByIp.set(ip, entry);
+  if (!safeEqualStrings(code, ADMIN_CLEAR_CODE)) {
+    const { locked } = adminLimiter.fail(ip);
+    if (locked) {
       return { ok: false, error: `Muitas tentativas erradas. Bloqueado por ${Math.round(ADMIN_LOCKOUT_MS / 60000)} minutos.` };
     }
-    adminAttemptsByIp.set(ip, entry);
     return { ok: false, error: 'Código inválido.' };
   }
 
-  adminAttemptsByIp.delete(ip); // código certo: zera o histórico de tentativas
+  adminLimiter.success(ip); // código certo: zera o histórico de tentativas
   return { ok: true };
 }
 
@@ -756,8 +763,7 @@ function checkAdminCode(ip, code) {
 /** @type {Map<string, Set<string>>} ip -> conjunto de socket.id conectados agora */
 const socketsByIp = new Map();
 
-/** @type {Map<string, number[]>} ip -> timestamps (ms) das criações de sala recentes */
-const roomCreateTimestampsByIp = new Map();
+const roomCreateLimiter = createWindowLimiter({ windowMs: ROOM_CREATE_WINDOW_MS, max: ROOM_CREATE_MAX_PER_WINDOW });
 
 function countRoomsHostedByIp(ip) {
   let count = 0;
@@ -769,11 +775,7 @@ function canCreateRoom(ip) {
   if (rooms.size >= MAX_ROOMS) return { ok: false, reason: 'SERVER_FULL' };
   if (countRoomsHostedByIp(ip) >= MAX_ROOMS_PER_IP) return { ok: false, reason: 'TOO_MANY_ROOMS_FOR_IP' };
 
-  const now = Date.now();
-  const recent = (roomCreateTimestampsByIp.get(ip) || []).filter((t) => now - t < ROOM_CREATE_WINDOW_MS);
-  if (recent.length >= ROOM_CREATE_MAX_PER_WINDOW) return { ok: false, reason: 'RATE_LIMIT' };
-  recent.push(now);
-  roomCreateTimestampsByIp.set(ip, recent);
+  if (!roomCreateLimiter.consume(ip)) return { ok: false, reason: 'RATE_LIMIT' };
   return { ok: true };
 }
 
@@ -825,28 +827,6 @@ function sanitizeAvatar(avatar) {
 }
 
 // ----------------------------------------------------------------------------
-// Senha de conta: hash com scrypt (nativo do Node — nenhuma dependência nova
-// precisa entrar no package.json). Formato salvo: "<salt-hex>:<hash-hex>".
-// Comparação sempre via timingSafeEqual (=== vazaria a senha por timing).
-// ----------------------------------------------------------------------------
-const SCRYPT_KEYLEN = 64;
-
-function hashPassword(password) {
-  const salt = crypto.randomBytes(16).toString('hex');
-  const hash = crypto.scryptSync(password, salt, SCRYPT_KEYLEN).toString('hex');
-  return `${salt}:${hash}`;
-}
-
-function verifyPassword(password, stored) {
-  const [salt, hashHex] = String(stored || '').split(':');
-  if (!salt || !hashHex) return false;
-  const candidate = crypto.scryptSync(password, salt, SCRYPT_KEYLEN);
-  const expected = Buffer.from(hashHex, 'hex');
-  if (candidate.length !== expected.length) return false; // timingSafeEqual exige mesmo tamanho
-  return crypto.timingSafeEqual(candidate, expected);
-}
-
-// ----------------------------------------------------------------------------
 // Proteção contra força bruta no login de contas — mesmo princípio do
 // bloqueio do código de admin (ver checkAdminCode), mas por IP em vez de por
 // usuário: evita que alguém tente adivinhar a senha de várias contas
@@ -854,31 +834,22 @@ function verifyPassword(password, stored) {
 // ----------------------------------------------------------------------------
 const MAX_LOGIN_ATTEMPTS = 8;
 const LOGIN_LOCKOUT_MS = 5 * 60 * 1000; // 5 minutos
-
-/** @type {Map<string, {failCount:number, lockedUntil:number}>} */
-const loginAttemptsByIp = new Map();
+const loginLimiter = createAttemptLimiter({ maxFailures: MAX_LOGIN_ATTEMPTS, lockoutMs: LOGIN_LOCKOUT_MS });
 
 function checkLoginAllowed(ip) {
-  const entry = loginAttemptsByIp.get(ip);
-  if (entry && Date.now() < entry.lockedUntil) {
-    const secondsLeft = Math.ceil((entry.lockedUntil - Date.now()) / 1000);
+  const secondsLeft = loginLimiter.secondsLocked(ip);
+  if (secondsLeft > 0) {
     return { ok: false, error: `Muitas tentativas erradas. Tente novamente em ${secondsLeft}s.` };
   }
   return { ok: true };
 }
 
 function registerLoginFailure(ip) {
-  const entry = loginAttemptsByIp.get(ip) || { failCount: 0, lockedUntil: 0 };
-  entry.failCount += 1;
-  if (entry.failCount >= MAX_LOGIN_ATTEMPTS) {
-    entry.lockedUntil = Date.now() + LOGIN_LOCKOUT_MS;
-    entry.failCount = 0;
-  }
-  loginAttemptsByIp.set(ip, entry);
+  loginLimiter.fail(ip);
 }
 
 function registerLoginSuccess(ip) {
-  loginAttemptsByIp.delete(ip);
+  loginLimiter.success(ip);
 }
 
 // ----------------------------------------------------------------------------
@@ -891,16 +862,10 @@ function registerLoginSuccess(ip) {
 const REGISTER_WINDOW_MS = 60 * 60 * 1000; // 1 hora
 const REGISTER_MAX_PER_WINDOW = Number(process.env.REGISTER_MAX_PER_WINDOW) || 10;
 
-/** @type {Map<string, number[]>} ip -> timestamps (ms) de cadastros recentes */
-const registerAttemptsByIp = new Map();
+const registerLimiter = createWindowLimiter({ windowMs: REGISTER_WINDOW_MS, max: REGISTER_MAX_PER_WINDOW });
 
 function checkRegisterAllowed(ip) {
-  const now = Date.now();
-  const recent = (registerAttemptsByIp.get(ip) || []).filter((t) => now - t < REGISTER_WINDOW_MS);
-  if (recent.length >= REGISTER_MAX_PER_WINDOW) return false;
-  recent.push(now);
-  registerAttemptsByIp.set(ip, recent);
-  return true;
+  return registerLimiter.consume(ip);
 }
 
 // ----------------------------------------------------------------------------
@@ -920,6 +885,20 @@ io.on('connection', (socket) => {
   }
   ipSockets.add(socket.id);
   socketsByIp.set(ip, ipSockets);
+
+  // Validação mínima de payload para TODOS os eventos: o primeiro argumento
+  // precisa ser um objeto simples (ou a função de ack, ou ausente). Sem isso,
+  // `socket.emit('submit_answer', null)` faz a desestruturação lançar uma
+  // exceção dentro do handler. Aqui o evento é descartado antes de chegar lá.
+  socket.use(([, ...args], next) => {
+    const first = args[0];
+    const ok =
+      first === undefined ||
+      typeof first === 'function' ||
+      (first !== null && typeof first === 'object' && !Array.isArray(first));
+    if (!ok) return next(new Error('INVALID_PAYLOAD'));
+    next();
+  });
 
   // Assim que conecta, já manda o placar geral atual — assim a tela inicial
   // pode exibi-lo sem precisar esperar o fim de uma partida.
@@ -1100,7 +1079,7 @@ io.on('connection', (socket) => {
   });
 
   // ---- Criar sala ----------------------------------------------------------
-  socket.on('create_room', ({ nickname, avatar, deviceId, authToken }, ack) => {
+  socket.on('create_room', ({ nickname, avatar, deviceId, authToken } = {}, ack) => {
     try {
       const gate = canCreateRoom(ip);
       if (!gate.ok) return ack?.({ ok: false, reason: gate.reason });
@@ -1131,7 +1110,7 @@ io.on('connection', (socket) => {
   });
 
   // ---- Entrar em sala existente --------------------------------------------
-  socket.on('join_room', ({ roomId, nickname, avatar, deviceId, authToken }, ack) => {
+  socket.on('join_room', ({ roomId, nickname, avatar, deviceId, authToken } = {}, ack) => {
     const account = accountFromAuthToken(authToken);
     if (account === false) return ack?.({ ok: false, reason: 'AUTH_EXPIRED' });
     if (!account && nicknameReservedByAccount(sanitizeNickname(nickname))) {
@@ -1176,7 +1155,7 @@ io.on('connection', (socket) => {
   });
 
   // ---- Reconexão -------------------------------------------------------------
-  socket.on('rejoin_room', ({ sessionToken, roomId }, ack) => {
+  socket.on('rejoin_room', ({ sessionToken, roomId } = {}, ack) => {
     const room = rooms.get(roomId);
     const player = room?.players.get(sessionToken);
     if (!room || !player) return ack?.({ ok: false, reason: 'SESSION_NOT_FOUND' });
@@ -1200,7 +1179,7 @@ io.on('connection', (socket) => {
   });
 
   // ---- Ações do host ---------------------------------------------------------
-  socket.on('host:set_round_time', ({ roomId, sessionToken, seconds }) => {
+  socket.on('host:set_round_time', ({ roomId, sessionToken, seconds } = {}) => {
     const room = requireHost(roomId, sessionToken);
     if (!room || (room.phase !== 'lobby' && room.phase !== 'podium')) return;
     if (!VALID_ROUND_TIMES_SECONDS.includes(seconds)) return; // nunca confia em valor arbitrário do cliente
@@ -1208,7 +1187,7 @@ io.on('connection', (socket) => {
     broadcastLobbyState(room);
   });
 
-  socket.on('host:set_categories', ({ roomId, sessionToken, categoryIds }) => {
+  socket.on('host:set_categories', ({ roomId, sessionToken, categoryIds } = {}) => {
     const room = requireHost(roomId, sessionToken);
     if (!room || (room.phase !== 'lobby' && room.phase !== 'podium')) return;
     const valid = Array.isArray(categoryIds)
@@ -1219,7 +1198,7 @@ io.on('connection', (socket) => {
     broadcastLobbyState(room);
   });
 
-  socket.on('host:set_total_questions', ({ roomId, sessionToken, total }) => {
+  socket.on('host:set_total_questions', ({ roomId, sessionToken, total } = {}) => {
     const room = requireHost(roomId, sessionToken);
     if (!room || (room.phase !== 'lobby' && room.phase !== 'podium')) return;
     const n = Number(total);
@@ -1228,7 +1207,7 @@ io.on('connection', (socket) => {
     broadcastLobbyState(room);
   });
 
-  socket.on('host:transfer_leadership', ({ roomId, sessionToken, targetPlayerId }) => {
+  socket.on('host:transfer_leadership', ({ roomId, sessionToken, targetPlayerId } = {}) => {
     const room = requireHost(roomId, sessionToken);
     const target = room?.findPlayerById(targetPlayerId);
     if (!room || !target) return;
@@ -1236,14 +1215,14 @@ io.on('connection', (socket) => {
     broadcastLobbyState(room);
   });
 
-  socket.on('host:kick_player', ({ roomId, sessionToken, targetPlayerId }) => {
+  socket.on('host:kick_player', ({ roomId, sessionToken, targetPlayerId } = {}) => {
     const room = requireHost(roomId, sessionToken);
     const target = room?.findPlayerById(targetPlayerId);
     if (!room || !target || target.sessionToken === room.hostSessionToken) return;
     removePlayer(room, target, 'kicked');
   });
 
-  socket.on('host:ban_player', ({ roomId, sessionToken, targetPlayerId }) => {
+  socket.on('host:ban_player', ({ roomId, sessionToken, targetPlayerId } = {}) => {
     const room = requireHost(roomId, sessionToken);
     const target = room?.findPlayerById(targetPlayerId);
     if (!room || !target || target.sessionToken === room.hostSessionToken) return;
@@ -1252,7 +1231,7 @@ io.on('connection', (socket) => {
     removePlayer(room, target, 'banned');
   });
 
-  socket.on('host:start_game', ({ roomId, sessionToken }) => {
+  socket.on('host:start_game', ({ roomId, sessionToken } = {}) => {
     const room = requireHost(roomId, sessionToken);
     if (!room || room.phase !== 'lobby') return;
     if (room.connectedCount() < MIN_PLAYERS_TO_START) return;
@@ -1323,7 +1302,7 @@ io.on('connection', (socket) => {
     ack?.({ ok: true });
   });
 
-  socket.on('submit_answer', ({ roomId, sessionToken, questionId, chosenIndex }) => {
+  socket.on('submit_answer', ({ roomId, sessionToken, questionId, chosenIndex } = {}) => {
     const room = rooms.get(roomId);
     const player = room?.players.get(sessionToken);
     if (!room || !player || player.socketId !== socket.id) return;
@@ -1475,7 +1454,7 @@ io.on('connection', (socket) => {
   });
 
   // ---- Admin: limpar o placar geral (protegido por código secreto) -------------
-  socket.on('admin:clear_leaderboard', ({ code }, ack) => {
+  socket.on('admin:clear_leaderboard', ({ code } = {}, ack) => {
     const check = checkAdminCode(ip, code);
     if (!check.ok) {
       ack?.({ ok: false, error: check.error });
@@ -1716,23 +1695,6 @@ function startGame(room) {
   nextQuestion(room);
 }
 
-/**
- * Curva de dificuldade da partida: começa fácil, esquenta no meio, fica
- * difícil no final. A cada 5ª pergunta (5, 10, 15…) é uma "pergunta bônus":
- * sempre difícil e vale pontuação em dobro (ver calculateScore).
- */
-function isBonusQuestionNumber(questionNumber) {
-  return questionNumber % 5 === 0;
-}
-
-function desiredDifficultyFor(questionNumber, totalQuestions) {
-  if (isBonusQuestionNumber(questionNumber)) return 'dificil';
-  const progress = questionNumber / totalQuestions;
-  if (progress <= 0.34) return 'facil';
-  if (progress <= 0.67) return 'medio';
-  return 'dificil';
-}
-
 function pickNextQuestion(room, desiredDifficulty) {
   const buildPool = (respectHistory, respectDifficulty) => {
     const pool = [];
@@ -1807,37 +1769,6 @@ function nextQuestion(room) {
   }
 
   room.questionTimer = setTimeout(() => revealQuestion(room), room.settings.roundTimeMs + ANSWER_NETWORK_GRACE_MS);
-}
-
-/**
- * Fonte única da verdade: deltaMs é calculado exclusivamente a partir de
- * timestamps gerados pelo próprio processo Node.js (Date.now()), nunca a
- * partir de qualquer valor vindo do cliente.
- */
-function calculateScore(question, chosenIndex, answerReceivedAtServerTs) {
-  const timeLimitMs = question.__roomTimeLimitMs || 15000;
-  const deltaMs = answerReceivedAtServerTs - question.startedAtServerTs;
-
-  // Aceita até timeLimitMs + a mesma folga de rede que o agendamento do
-  // reveal já concede (ver ANSWER_NETWORK_GRACE_MS) — sem isso, uma resposta
-  // que chegou dentro do prazo que o servidor realmente esperava era
-  // rejeitada só pela latência de quem respondeu, não por ter demorado de
-  // verdade pra decidir.
-  if (deltaMs < 0 || deltaMs > timeLimitMs + ANSWER_NETWORK_GRACE_MS) {
-    return { chosenIndex, deltaMs, correct: false, points: 0 };
-  }
-
-  const correct = chosenIndex === question.correct_index;
-  if (!correct) return { chosenIndex, deltaMs, correct: false, points: 0 };
-
-  // O bônus de velocidade nunca deve refletir a folga de rede — só ela
-  // decide se a resposta ENTRA, não finge que chegou mais rápido do que
-  // chegou. Por isso o cálculo do fator usa o delta limitado a timeLimitMs.
-  const clampedDeltaMs = Math.min(deltaMs, timeLimitMs);
-  const speedFactor = 0.5 + 0.5 * (1 - clampedDeltaMs / timeLimitMs);
-  let rawPoints = BASE_POINTS[question.difficulty] * speedFactor;
-  if (question.__isBonus) rawPoints *= 2; // pergunta bônus: pontuação em dobro
-  return { chosenIndex, deltaMs, correct: true, points: round2(rawPoints) };
 }
 
 /**
