@@ -447,7 +447,7 @@ perguntas é cacheado em memória por categoria.
 
 ### Categoria de religião consolidada
 
-A categoria "religiao" reúne, num só recorte, as 61 perguntas do tema
+A categoria "religiao" reúne, num só recorte, as 100 perguntas do tema
 (Cristianismo, Judaísmo, Islamismo e outras religiões — hinduísmo, budismo,
 religiões afro-brasileiras, xintoísmo, taoísmo, zoroastrismo, sikhismo,
 espiritismo). Chegou a ser dividida em 4 subtemas separados, mas voltou a
@@ -504,10 +504,9 @@ server/
   sobrevivem — ver seção de persistência). Para escalar horizontalmente
   entre múltiplas instâncias, use o `@socket.io/redis-adapter` e mova
   `rooms`/`sessionIndex` para Redis.
-- Banco de perguntas com 433 itens reais (validados e sem duplicatas, ver
-  relatório do gerador) distribuídos de forma desigual entre as 12
-  categorias (21 a 68 cada); use a importação por CSV ou edite
-  `raw-bank-full.json` para chegar a 100/categoria (1.200 no total).
+- Banco de perguntas com 1.200 itens (100 por categoria: 34 fáceis, 33 médias e 33 difíceis,
+  com nível difícil acessível a quem não tem curso superior), validados e sem duplicatas.
+  Para ampliar, use a importação por CSV ou edite `raw-bank-full.json`.
 - `node:sqlite` é um recurso experimental do Node (estável desde a 22.5,
   mas a própria documentação do Node avisa que a API pode mudar em versões
   futuras). Se isso for um problema para o seu ambiente, dá para trocar por

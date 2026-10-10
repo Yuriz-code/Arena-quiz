@@ -2,13 +2,13 @@
   {
     "id": "mus-001",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual instrumento é conhecido como 'rei dos instrumentos'?",
+    "difficulty": "facil",
+    "question": "Quem é conhecido como o \"Rei do Pop\"?",
     "options": [
-      "Violino",
-      "Órgão de tubos",
-      "Piano",
-      "Violoncelo"
+      "Elvis Presley",
+      "Michael Jackson",
+      "Prince",
+      "Justin Bieber"
     ],
     "correct_index": 1
   },
@@ -16,64 +16,64 @@
     "id": "mus-002",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Quantas cordas tem um violão clássico padrão?",
+    "question": "Quem é conhecido como o \"Rei do Rock\"?",
     "options": [
-      "7",
-      "5",
-      "6",
-      "4"
+      "Elvis Presley",
+      "Chuck Berry",
+      "Little Richard",
+      "Mick Jagger"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "mus-003",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Qual banda gravou o álbum 'Abbey Road'?",
+    "question": "Qual banda britânica de Liverpool cantou \"Hey Jude\"?",
     "options": [
-      "Rolling Stones",
-      "Pink Floyd",
+      "The Rolling Stones",
       "Queen",
-      "The Beatles"
+      "The Beatles",
+      "Led Zeppelin"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "mus-004",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Quem compôs a ópera 'O Guarani'?",
+    "difficulty": "facil",
+    "question": "Qual banda tinha Freddie Mercury como vocalista?",
     "options": [
-      "Heitor Villa-Lobos",
-      "Carlos Gomes",
-      "Ernesto Nazareth",
-      "Chiquinha Gonzaga"
+      "Pink Floyd",
+      "The Beatles",
+      "Queen",
+      "Scorpions"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "mus-005",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Qual gênero musical brasileiro tem origem na Bahia e forte presença do berimbau?",
+    "difficulty": "facil",
+    "question": "Qual é o ritmo brasileiro mais associado ao Carnaval?",
     "options": [
-      "Samba-canção",
-      "Capoeira/toque de berimbau",
+      "Sertanejo",
       "Forró",
-      "Maracatu"
+      "Funk",
+      "Samba"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "mus-006",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Quem é considerado o 'Pai do Choro' no Brasil?",
+    "difficulty": "facil",
+    "question": "Qual instrumento tem teclas brancas e pretas?",
     "options": [
-      "Jacob do Bandolim",
-      "Waldir Azevedo",
-      "Joaquim Callado",
-      "Pixinguinha"
+      "Flauta",
+      "Bateria",
+      "Piano",
+      "Violão"
     ],
     "correct_index": 2
   },
@@ -81,64 +81,64 @@
     "id": "mus-007",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Qual banda britânica lançou o álbum \"Abbey Road\"?",
+    "question": "Quantas cordas tem um violão tradicional?",
     "options": [
-      "The Beatles",
-      "The Rolling Stones",
-      "Pink Floyd",
-      "Queen"
+      "8",
+      "4",
+      "5",
+      "6"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "mus-008",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Quem é conhecido como o \"Rei do Pop\"?",
+    "question": "Quem é conhecido como o \"Rei do Baião\"?",
     "options": [
-      "Elvis Presley",
-      "Prince",
-      "Freddie Mercury",
-      "Michael Jackson"
+      "Dominguinhos",
+      "Luiz Gonzaga",
+      "Gilberto Gil",
+      "Jackson do Pandeiro"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "mus-009",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Qual cantora brasileira é conhecida como uma das grandes vozes do rock nacional, com o hit \"Ovelha Negra\"?",
+    "difficulty": "facil",
+    "question": "Qual gênero musical tem João Gilberto e Tom Jobim como grandes nomes?",
     "options": [
-      "Gal Costa",
-      "Rita Lee",
-      "Cássia Eller",
-      "Elis Regina"
+      "Jovem Guarda",
+      "Bossa Nova",
+      "Sertanejo",
+      "Tropicália"
     ],
     "correct_index": 1
   },
   {
     "id": "mus-010",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Quem compôs a ópera \"A Flauta Mágica\"?",
+    "difficulty": "facil",
+    "question": "Qual cantora brasileira é chamada de \"Rainha do Rock\"?",
     "options": [
-      "Franz Schubert",
-      "Johann Sebastian Bach",
-      "Wolfgang Amadeus Mozart",
-      "Ludwig van Beethoven"
+      "Gal Costa",
+      "Elis Regina",
+      "Rita Lee",
+      "Maria Bethânia"
     ],
     "correct_index": 2
   },
   {
     "id": "mus-011",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual compositor ficou surdo e mesmo assim compôs sinfonias como a Nona?",
+    "difficulty": "facil",
+    "question": "Qual dupla sertaneja canta \"Evidências\"?",
     "options": [
-      "Chopin",
-      "Mozart",
-      "Bach",
-      "Ludwig van Beethoven"
+      "Jorge & Mateus",
+      "Zezé Di Camargo & Luciano",
+      "Bruno & Marrone",
+      "Chitãozinho & Xororó"
     ],
     "correct_index": 3
   },
@@ -146,181 +146,181 @@
     "id": "mus-012",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Qual é o instrumento principal tocado por um pianista?",
+    "question": "Qual cantora é conhecida por \"Single Ladies\"?",
     "options": [
-      "Flauta",
-      "Bateria",
-      "Piano",
-      "Violino"
+      "Shakira",
+      "Beyoncé",
+      "Adele",
+      "Rihanna"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "mus-013",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Tom Jobim é considerado um dos fundadores de qual gênero musical brasileiro?",
+    "difficulty": "facil",
+    "question": "Qual cantora britânica canta \"Someone Like You\"?",
     "options": [
-      "Bossa Nova",
-      "Samba",
-      "Sertanejo",
-      "Forró"
+      "Taylor Swift",
+      "Katy Perry",
+      "Adele",
+      "Lady Gaga"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "mus-014",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Qual banda gravou a música \"Bohemian Rhapsody\"?",
+    "question": "Qual cantora é conhecida por \"Bad Romance\"?",
     "options": [
-      "Led Zeppelin",
-      "Queen",
-      "The Beatles",
-      "The Who"
+      "Lady Gaga",
+      "Madonna",
+      "Britney Spears",
+      "Rihanna"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "mus-015",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Em que década surgiu o movimento musical Tropicália no Brasil?",
+    "difficulty": "facil",
+    "question": "Qual cantor britânico canta \"Shape of You\"?",
     "options": [
-      "Década de 1960",
-      "Década de 1950",
-      "Década de 1970",
-      "Década de 1980"
+      "Sam Smith",
+      "Justin Bieber",
+      "Bruno Mars",
+      "Ed Sheeran"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "mus-016",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Quem canta o clássico hit \"Thriller\"?",
+    "difficulty": "facil",
+    "question": "Qual grupo sul-coreano de sete integrantes fez o hit \"Dynamite\"?",
     "options": [
-      "Michael Jackson",
-      "Lionel Richie",
-      "Stevie Wonder",
-      "Prince"
+      "Blackpink",
+      "BTS",
+      "EXO",
+      "Twice"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "mus-017",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Qual instrumento de cordas é tocado com um arco?",
+    "question": "Qual cantora norte-americana lançou o álbum \"Midnights\", com a música \"Anti-Hero\"?",
     "options": [
-      "Violão",
-      "Baixo",
-      "Violino",
-      "Piano"
+      "Olivia Rodrigo",
+      "Billie Eilish",
+      "Taylor Swift",
+      "Dua Lipa"
     ],
     "correct_index": 2
   },
   {
     "id": "mus-018",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Quem compôs a \"Nona Sinfonia\", que inclui a \"Ode à Alegria\"?",
+    "difficulty": "facil",
+    "question": "Qual instrumento é símbolo da capoeira e tem um arco com cabaça?",
     "options": [
-      "Ludwig van Beethoven",
-      "Richard Wagner",
-      "Johannes Brahms",
-      "Franz Liszt"
+      "Pandeiro",
+      "Berimbau",
+      "Agogô",
+      "Atabaque"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "mus-019",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Qual cantora ficou conhecida por hits como \"Halo\" e \"Single Ladies\"?",
+    "difficulty": "facil",
+    "question": "Qual trio de instrumentos forma o forró pé de serra?",
     "options": [
-      "Britney Spears",
-      "Rihanna",
-      "Beyoncé",
-      "Christina Aguilera"
+      "Piano, baixo e bateria",
+      "Sanfona, zabumba e triângulo",
+      "Guitarra, baixo e bateria",
+      "Violão, cavaquinho e pandeiro"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "mus-020",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Qual gênero musical brasileiro é tocado tradicionalmente com sanfona, zabumba e triângulo?",
+    "question": "Qual cantora baiana canta \"Sorte Grande\" e \"Festa\"?",
     "options": [
-      "Forró",
-      "Samba",
-      "Axé",
-      "Bossa Nova"
+      "Gal Costa",
+      "Maria Bethânia",
+      "Ivete Sangalo",
+      "Claudia Leitte"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "mus-021",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Qual banda de rock é famosa pelo álbum \"The Dark Side of the Moon\"?",
+    "difficulty": "facil",
+    "question": "Qual cantor baiano é autor de \"Aquele Abraço\"?",
     "options": [
-      "Deep Purple",
-      "Led Zeppelin",
-      "Queen",
-      "Pink Floyd"
+      "Raul Seixas",
+      "Gilberto Gil",
+      "Caetano Veloso",
+      "Tom Zé"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "mus-022",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Qual é o instrumento de percussão típico do samba, tocado com as mãos e muito usado nas rodas de samba?",
+    "question": "Qual é o apelido do cantor baiano Raul Seixas?",
     "options": [
-      "Pandeiro",
-      "Cavaquinho",
-      "Cuíca",
-      "Tamborim"
+      "Rei do Baião",
+      "Poeta da Vila",
+      "Cowboy Fora da Lei",
+      "Maluco Beleza"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "mus-023",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Quem canta o hit \"Shape of You\"?",
+    "question": "Qual cantor brasileiro cantou \"Exagerado\" e \"O Tempo Não Para\"?",
     "options": [
-      "Shawn Mendes",
-      "Justin Bieber",
-      "Charlie Puth",
-      "Ed Sheeran"
+      "Lulu Santos",
+      "Roberto Carlos",
+      "Renato Russo",
+      "Cazuza"
     ],
     "correct_index": 3
   },
   {
     "id": "mus-024",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Qual cantor brasileiro ficou mundialmente famoso com o hit \"Ai Se Eu Te Pego\"?",
+    "difficulty": "facil",
+    "question": "Qual banda tinha Renato Russo como vocalista?",
     "options": [
-      "Gusttavo Lima",
-      "Luan Santana",
-      "Wesley Safadão",
-      "Michel Teló"
+      "Titãs",
+      "Os Paralamas do Sucesso",
+      "Barão Vermelho",
+      "Legião Urbana"
     ],
     "correct_index": 3
   },
   {
     "id": "mus-025",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Qual é o gênero musical que tem Bob Marley como um de seus maiores ícones?",
+    "difficulty": "facil",
+    "question": "Qual cantor brasileiro é conhecido como \"o Rei\"?",
     "options": [
-      "Ska",
-      "Reggae",
-      "Rock",
-      "Samba"
+      "Tim Maia",
+      "Roberto Carlos",
+      "Erasmo Carlos",
+      "Jorge Ben Jor"
     ],
     "correct_index": 1
   },
@@ -328,38 +328,38 @@
     "id": "mus-026",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Qual banda brasileira de rock lançou o hit \"Pais e Filhos\"?",
+    "question": "Marília Mendonça ficou famosa em qual estilo musical?",
     "options": [
-      "Capital Inicial",
-      "Legião Urbana",
-      "Titãs",
-      "Engenheiros do Hawaii"
+      "Sertanejo",
+      "Axé",
+      "Funk",
+      "Rock"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "mus-027",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual compositor austríaco do século XVIII, considerado uma criança prodígio, compôs mais de 600 obras antes de morrer aos 35 anos?",
+    "difficulty": "facil",
+    "question": "Quem cantou o sucesso mundial \"Ai Se Eu Te Pego\"?",
     "options": [
-      "Ludwig van Beethoven",
-      "Johann Sebastian Bach",
-      "Wolfgang Amadeus Mozart",
-      "Franz Schubert"
+      "Thiaguinho",
+      "Luan Santana",
+      "Michel Teló",
+      "Gusttavo Lima"
     ],
     "correct_index": 2
   },
   {
     "id": "mus-028",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Qual é outro nome popular para a harmônica, instrumento de sopro muito usado no blues e no forró?",
+    "difficulty": "facil",
+    "question": "Qual ritmo típico de Recife e Olinda é dançado com pequenas sombrinhas coloridas?",
     "options": [
-      "Gaita",
-      "Sanfona",
-      "Berimbau",
-      "Flauta"
+      "Frevo",
+      "Axé",
+      "Samba",
+      "Brega"
     ],
     "correct_index": 0
   },
@@ -367,38 +367,38 @@
     "id": "mus-029",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Qual cantora é conhecida como a \"Rainha do Pop\" e por hits como \"Like a Virgin\"?",
+    "question": "Qual gênero nasceu nas favelas e periferias do Rio de Janeiro com batida marcante?",
     "options": [
-      "Cher",
-      "Cyndi Lauper",
-      "Whitney Houston",
-      "Madonna"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "mus-030",
-    "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual instrumento de cordas dedilhado, de origem árabe, é usado tradicionalmente no fado português?",
-    "options": [
-      "Bandolim",
-      "Cavaquinho",
-      "Guitarra portuguesa",
-      "Viola caipira"
+      "Bossa Nova",
+      "Choro",
+      "Funk carioca",
+      "Forró"
     ],
     "correct_index": 2
   },
   {
+    "id": "mus-030",
+    "category": "musica",
+    "difficulty": "facil",
+    "question": "Quantas notas musicais existem na escala básica (dó, ré, mi, fá, sol, lá, si)?",
+    "options": [
+      "7",
+      "8",
+      "12",
+      "5"
+    ],
+    "correct_index": 0
+  },
+  {
     "id": "mus-031",
     "category": "musica",
-    "difficulty": "medio",
-    "question": "Qual é o nome do gênero musical brasileiro que mistura funk, batidas eletrônicas e teve origem nas favelas cariocas nos anos 1990?",
+    "difficulty": "facil",
+    "question": "Qual é a primeira nota da escala musical?",
     "options": [
-      "Brega funk",
-      "Funk carioca",
-      "Tecnobrega",
-      "Piseiro"
+      "Lá",
+      "Dó",
+      "Mi",
+      "Ré"
     ],
     "correct_index": 1
   },
@@ -406,25 +406,25 @@
     "id": "mus-032",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Quantas teclas tem um piano de cauda padrão?",
+    "question": "Qual instrumento de cordas é tocado com arco e é menor que o violoncelo?",
     "options": [
-      "76",
-      "88",
-      "96",
-      "100"
+      "Harpa",
+      "Cavaquinho",
+      "Violão",
+      "Violino"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "mus-033",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Qual cantora americana é conhecida como a 'Diva da Música Pop' e por hits como 'I Will Always Love You'?",
+    "question": "De qual país é a cantora Shakira?",
     "options": [
-      "Mariah Carey",
-      "Whitney Houston",
-      "Celine Dion",
-      "Barbra Streisand"
+      "Argentina",
+      "Colômbia",
+      "México",
+      "Espanha"
     ],
     "correct_index": 1
   },
@@ -432,155 +432,155 @@
     "id": "mus-034",
     "category": "musica",
     "difficulty": "facil",
-    "question": "Qual banda brasileira de rock lançou o hit 'Tempo Perdido' e teve Renato Russo como vocalista?",
+    "question": "Qual instrumento de percussão é usado no samba e produz som grave, tocado com baqueta?",
     "options": [
-      "Titãs",
-      "Legião Urbana",
-      "Capital Inicial",
-      "Engenheiros do Hawaii"
+      "Berimbau",
+      "Surdo",
+      "Triângulo",
+      "Zabumba"
     ],
     "correct_index": 1
   },
   {
     "id": "mus-035",
     "category": "musica",
-    "difficulty": "facil",
-    "question": "Qual instrumento de percussão de uma bateria de escola de samba é o mais grave, marcando a base do ritmo?",
+    "difficulty": "medio",
+    "question": "Quem compôs a Nona Sinfonia, mesmo estando surdo?",
     "options": [
-      "Tamborim",
-      "Surdo",
-      "Caixa",
-      "Cuíca"
+      "Johann Sebastian Bach",
+      "Wolfgang Amadeus Mozart",
+      "Frédéric Chopin",
+      "Ludwig van Beethoven"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "mus-036",
     "category": "musica",
-    "difficulty": "facil",
-    "question": "Qual banda de rock britânica é formada por Mick Jagger e Keith Richards?",
+    "difficulty": "medio",
+    "question": "Quem compôs \"As Quatro Estações\"?",
     "options": [
-      "The Who",
-      "The Rolling Stones",
-      "Led Zeppelin",
-      "Deep Purple"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "mus-037",
-    "category": "musica",
-    "difficulty": "facil",
-    "question": "Qual é o nome do instrumento de cordas dedilhado, típico do samba e do choro, menor que o violão?",
-    "options": [
-      "Cavaquinho",
-      "Bandolim",
-      "Violino",
-      "Viola caipira"
+      "Antonio Vivaldi",
+      "Johann Sebastian Bach",
+      "Giuseppe Verdi",
+      "Joseph Haydn"
     ],
     "correct_index": 0
   },
   {
+    "id": "mus-037",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Quem compôs a ópera \"A Flauta Mágica\"?",
+    "options": [
+      "Gioachino Rossini",
+      "Richard Wagner",
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "correct_index": 3
+  },
+  {
     "id": "mus-038",
     "category": "musica",
-    "difficulty": "facil",
-    "question": "Qual banda brasileira, liderada por Herbert Vianna, ficou famosa com o hit 'Alagados'?",
+    "difficulty": "medio",
+    "question": "Qual banda gravou \"The Dark Side of the Moon\"?",
     "options": [
-      "Titãs",
-      "Paralamas do Sucesso",
-      "Barão Vermelho",
-      "RPM"
+      "Led Zeppelin",
+      "The Who",
+      "Pink Floyd",
+      "Genesis"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "mus-039",
     "category": "musica",
-    "difficulty": "facil",
-    "question": "Qual é o nome do gênero musical de origem jamaicana caracterizado por batidas aceleradas e MCs que cantam rapidamente?",
+    "difficulty": "medio",
+    "question": "Qual álbum de Michael Jackson é o mais vendido da história?",
     "options": [
-      "Reggae",
-      "Dancehall",
-      "Ska",
-      "Dub"
+      "Dangerous",
+      "Thriller",
+      "Off the Wall",
+      "Bad"
     ],
     "correct_index": 1
   },
   {
     "id": "mus-040",
     "category": "musica",
-    "difficulty": "facil",
-    "question": "Qual cantor brasileiro é conhecido como o 'Rei do Baião'?",
+    "difficulty": "medio",
+    "question": "Qual cantora é conhecida por \"Like a Virgin\"?",
     "options": [
-      "Luiz Gonzaga",
-      "Jackson do Pandeiro",
-      "Dominguinhos",
-      "Gilberto Gil"
+      "Madonna",
+      "Cyndi Lauper",
+      "Cher",
+      "Whitney Houston"
     ],
     "correct_index": 0
   },
   {
     "id": "mus-041",
     "category": "musica",
-    "difficulty": "facil",
-    "question": "Qual cantora britânica é conhecida por hits como 'Rolling in the Deep' e 'Someone Like You'?",
+    "difficulty": "medio",
+    "question": "Qual cantora ficou famosa pela versão de \"I Will Always Love You\" no filme \"O Guarda-Costas\"?",
     "options": [
-      "Amy Winehouse",
-      "Adele",
-      "Duffy",
-      "Florence Welch"
+      "Celine Dion",
+      "Mariah Carey",
+      "Tina Turner",
+      "Whitney Houston"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "mus-042",
     "category": "musica",
     "difficulty": "medio",
-    "question": "Quem compôs a música do Hino Nacional Brasileiro?",
+    "question": "Quem é o vocalista dos Rolling Stones?",
     "options": [
-      "Carlos Gomes",
-      "Francisco Manuel da Silva",
-      "Heitor Villa-Lobos",
-      "Joaquim Osório Duque-Estrada"
+      "Mick Jagger",
+      "Roger Daltrey",
+      "Keith Richards",
+      "Paul McCartney"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "mus-043",
     "category": "musica",
     "difficulty": "medio",
-    "question": "Qual compositor brasileiro é o principal nome da música erudita nacional, autor das 'Bachianas Brasileiras'?",
+    "question": "Quem era o baterista dos Beatles?",
     "options": [
-      "Carlos Gomes",
-      "Heitor Villa-Lobos",
-      "Cláudio Santoro",
-      "Camargo Guarnieri"
+      "Ringo Starr",
+      "Charlie Watts",
+      "Mick Fleetwood",
+      "George Harrison"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "mus-044",
     "category": "musica",
     "difficulty": "medio",
-    "question": "Qual cantora brasileira, morta em 1982, é considerada uma das maiores intérpretes da MPB, com o álbum 'Elis & Tom'?",
+    "question": "Quem compôs \"Aquarela do Brasil\"?",
     "options": [
-      "Elis Regina",
-      "Maria Bethânia",
-      "Gal Costa",
-      "Rita Lee"
+      "Noel Rosa",
+      "Pixinguinha",
+      "Ary Barroso",
+      "Dorival Caymmi"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "mus-045",
     "category": "musica",
     "difficulty": "medio",
-    "question": "Qual dupla de cantores baianos é considerada a principal fundadora do movimento Tropicalista?",
+    "question": "Qual compositor baiano é autor de \"Oração de Mãe Menininha\" e \"Maracangalha\"?",
     "options": [
-      "Chico Buarque e Caetano Veloso",
-      "Caetano Veloso e Gilberto Gil",
-      "Gilberto Gil e Chico Buarque",
-      "Tom Zé e Caetano Veloso"
+      "Gilberto Gil",
+      "Dorival Caymmi",
+      "Vinicius de Moraes",
+      "Caetano Veloso"
     ],
     "correct_index": 1
   },
@@ -588,25 +588,25 @@
     "id": "mus-046",
     "category": "musica",
     "difficulty": "medio",
-    "question": "Qual é o nome do gênero musical eletrônico surgido nos anos 1980-90, caracterizado por batidas repetitivas e tocado em festas rave?",
+    "question": "Em qual cidade baiana nasceu Caetano Veloso?",
     "options": [
-      "Jazz Fusion",
-      "Música Eletrônica (Techno/House)",
-      "Funk Soul",
-      "Disco"
+      "Ilhéus",
+      "Itabuna",
+      "Salvador",
+      "Santo Amaro"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "mus-047",
     "category": "musica",
     "difficulty": "medio",
-    "question": "Qual cantor sertanejo forma dupla com Zezé Di Camargo?",
+    "question": "Qual cantora é irmã de Caetano Veloso?",
     "options": [
-      "Chitãozinho",
-      "Luciano",
-      "Bruno",
-      "Leonardo"
+      "Gal Costa",
+      "Maria Bethânia",
+      "Elis Regina",
+      "Nana Caymmi"
     ],
     "correct_index": 1
   },
@@ -614,182 +614,689 @@
     "id": "mus-048",
     "category": "musica",
     "difficulty": "medio",
-    "question": "Qual banda de rock americana é famosa por hits como 'Smells Like Teen Spirit' e teve Kurt Cobain como vocalista?",
+    "question": "Qual cantora baiana ficou famosa com \"Baby\" e \"Meu Nome É Gal\"?",
     "options": [
-      "Pearl Jam",
-      "Nirvana",
-      "Soundgarden",
-      "Alice in Chains"
+      "Maria Bethânia",
+      "Rita Lee",
+      "Elza Soares",
+      "Gal Costa"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "mus-049",
     "category": "musica",
     "difficulty": "medio",
-    "question": "Qual é o nome do gênero musical brasileiro que mistura ritmos nordestinos com rock, criado nos anos 1990 principalmente por Chico Science?",
+    "question": "Qual cantor interpretou \"Alegria, Alegria\" no Festival da Canção de 1967?",
     "options": [
-      "Mangue Beat",
-      "Axé Music",
-      "Brega Funk",
-      "Piseiro"
+      "Gilberto Gil",
+      "Milton Nascimento",
+      "Chico Buarque",
+      "Caetano Veloso"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "mus-050",
     "category": "musica",
     "difficulty": "medio",
-    "question": "Qual cantora brasileira é irmã do músico Caetano Veloso e uma das vozes mais importantes da MPB?",
+    "question": "Qual compositor é autor de \"Construção\" e \"Cotidiano\"?",
     "options": [
-      "Gal Costa",
-      "Maria Bethânia",
-      "Elis Regina",
-      "Rita Lee"
+      "Caetano Veloso",
+      "Gilberto Gil",
+      "Vinicius de Moraes",
+      "Chico Buarque"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "mus-051",
     "category": "musica",
     "difficulty": "medio",
-    "question": "Qual é o nome do instrumento de teclas antigo, antecessor do piano, muito usado na música barroca?",
+    "question": "Quem compôs \"Garota de Ipanema\" com Vinicius de Moraes?",
     "options": [
-      "Acordeão",
-      "Cravo (cravo-cêmbalo)",
-      "Órgão de tubos",
-      "Celesta"
+      "Tom Jobim",
+      "João Gilberto",
+      "Chico Buarque",
+      "Toquinho"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "mus-052",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual compositor alemão é autor de óperas como 'O Anel do Nibelungo' e revolucionou a música do século XIX?",
+    "difficulty": "medio",
+    "question": "Qual dupla sertaneja canta \"É o Amor\"?",
     "options": [
-      "Johannes Brahms",
-      "Richard Wagner",
-      "Johann Strauss II",
-      "Felix Mendelssohn"
+      "Chitãozinho & Xororó",
+      "Bruno & Marrone",
+      "Leandro & Leonardo",
+      "Zezé Di Camargo & Luciano"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "mus-053",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual compositor russo escreveu o balé 'O Lago dos Cisnes'?",
+    "difficulty": "medio",
+    "question": "Qual banda brasileira cantou \"Sonífera Ilha\" e \"Epitáfio\"?",
     "options": [
-      "Sergei Prokofiev",
-      "Piotr Ilitch Tchaikovsky",
-      "Igor Stravinsky",
-      "Dmitri Shostakovich"
+      "Skank",
+      "Titãs",
+      "Os Paralamas do Sucesso",
+      "Engenheiros do Hawaii"
     ],
     "correct_index": 1
   },
   {
     "id": "mus-054",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual cantor e compositor brasileiro, exilado durante a ditadura militar, é autor de 'Cálice', em parceria com Gilberto Gil?",
+    "difficulty": "medio",
+    "question": "Qual banda brasileira cantou \"Alagados\"?",
     "options": [
-      "Caetano Veloso",
-      "Chico Buarque",
-      "Milton Nascimento",
-      "Geraldo Vandré"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "mus-055",
-    "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual é o nome do movimento musical do início do século XX que rompeu com a tonalidade tradicional, tendo Arnold Schoenberg como pioneiro?",
-    "options": [
-      "Serialismo/Atonalismo",
-      "Impressionismo Musical",
-      "Minimalismo",
-      "Neoclassicismo"
+      "Os Paralamas do Sucesso",
+      "Barão Vermelho",
+      "Ira!",
+      "Capital Inicial"
     ],
     "correct_index": 0
   },
   {
-    "id": "mus-056",
+    "id": "mus-055",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual cantor de blues americano, conhecido como 'Rei do Blues', tocava uma guitarra apelidada de 'Lucille'?",
+    "difficulty": "medio",
+    "question": "Quem era o vocalista da banda Charlie Brown Jr.?",
     "options": [
-      "Muddy Waters",
-      "B.B. King",
-      "John Lee Hooker",
-      "Buddy Guy"
+      "Champignon",
+      "Chorão",
+      "Digão",
+      "Marcelo Yuka"
     ],
     "correct_index": 1
+  },
+  {
+    "id": "mus-056",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual estilo musical tem Cartola e Nelson Cavaquinho como grandes nomes?",
+    "options": [
+      "Choro",
+      "Sertanejo",
+      "Forró",
+      "Samba"
+    ],
+    "correct_index": 3
   },
   {
     "id": "mus-057",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual compositor italiano é autor das óperas 'Aída' e 'La Traviata'?",
+    "difficulty": "medio",
+    "question": "Qual banda de rock é autora de \"Smells Like Teen Spirit\"?",
     "options": [
-      "Giacomo Puccini",
-      "Giuseppe Verdi",
-      "Gioachino Rossini",
-      "Vincenzo Bellini"
+      "Nirvana",
+      "Soundgarden",
+      "Foo Fighters",
+      "Pearl Jam"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "mus-058",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual é o nome do ritmo afro-brasileiro ligado à religiosidade de matriz africana, associado ao candomblé e ao orixá Oxum?",
+    "difficulty": "medio",
+    "question": "Qual rapper norte-americano canta \"Lose Yourself\"?",
     "options": [
-      "Maracatu",
-      "Ijexá",
-      "Coco de Roda",
-      "Jongo"
+      "Jay-Z",
+      "Eminem",
+      "Snoop Dogg",
+      "50 Cent"
     ],
     "correct_index": 1
   },
   {
     "id": "mus-059",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual banda de rock progressivo britânica é autora do álbum conceitual 'The Wall' (1979)?",
+    "difficulty": "medio",
+    "question": "Qual cantor é autor de \"Purple Rain\"?",
     "options": [
-      "Genesis",
-      "Pink Floyd",
-      "Yes",
-      "King Crimson"
+      "Stevie Wonder",
+      "Michael Jackson",
+      "Prince",
+      "Lionel Richie"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "mus-060",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual compositor barroco alemão é autor das 'Variações Goldberg' e das 'Suítes para Violoncelo Solo'?",
+    "difficulty": "medio",
+    "question": "Qual banda de rock canta \"Livin' on a Prayer\"?",
     "options": [
-      "Johann Sebastian Bach",
-      "Georg Friedrich Händel",
-      "Antonio Vivaldi",
-      "Henry Purcell"
+      "Aerosmith",
+      "Bon Jovi",
+      "Guns N' Roses",
+      "Def Leppard"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "mus-061",
     "category": "musica",
-    "difficulty": "dificil",
-    "question": "Qual cantora norte-americana de soul e R&B, conhecida como a 'Rainha do Soul', gravou o clássico 'Respect'?",
+    "difficulty": "medio",
+    "question": "Qual banda é autora de \"Sweet Child O' Mine\"?",
     "options": [
-      "Diana Ross",
-      "Aretha Franklin",
-      "Tina Turner",
-      "Whitney Houston"
+      "Guns N' Roses",
+      "Metallica",
+      "AC/DC",
+      "Aerosmith"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-062",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual banda é autora de \"Enter Sandman\"?",
+    "options": [
+      "Megadeth",
+      "Iron Maiden",
+      "Metallica",
+      "Slayer"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-063",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual banda australiana canta \"Back in Black\"?",
+    "options": [
+      "Kiss",
+      "AC/DC",
+      "Deep Purple",
+      "Black Sabbath"
     ],
     "correct_index": 1
+  },
+  {
+    "id": "mus-064",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual cantor jamaicano popularizou o reggae com \"No Woman, No Cry\"?",
+    "options": [
+      "Shaggy",
+      "Jimmy Cliff",
+      "Bob Marley",
+      "Peter Tosh"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-065",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual dança de casal é típica da Argentina?",
+    "options": [
+      "Salsa",
+      "Tango",
+      "Merengue",
+      "Samba"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-066",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual banda britânica canta \"Wonderwall\"?",
+    "options": [
+      "Radiohead",
+      "Coldplay",
+      "Blur",
+      "Oasis"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-067",
+    "category": "musica",
+    "difficulty": "medio",
+    "question": "Qual banda britânica canta \"Viva la Vida\"?",
+    "options": [
+      "Oasis",
+      "Coldplay",
+      "Muse",
+      "Radiohead"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-068",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem compôs \"O Lago dos Cisnes\"?",
+    "options": [
+      "Piotr Tchaikovsky",
+      "Antonio Vivaldi",
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-069",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem compôs o \"Bolero\", famosa peça orquestral?",
+    "options": [
+      "Claude Debussy",
+      "Georges Bizet",
+      "Maurice Ravel",
+      "Erik Satie"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-070",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem compôs a ópera \"Carmen\"?",
+    "options": [
+      "Georges Bizet",
+      "Giacomo Puccini",
+      "Gioachino Rossini",
+      "Giuseppe Verdi"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-071",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem compôs a ópera \"O Barbeiro de Sevilha\"?",
+    "options": [
+      "Giacomo Puccini",
+      "Gaetano Donizetti",
+      "Giuseppe Verdi",
+      "Gioachino Rossini"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-072",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem compôs a ópera \"La Traviata\"?",
+    "options": [
+      "Giuseppe Verdi",
+      "Wolfgang Amadeus Mozart",
+      "Giacomo Puccini",
+      "Richard Wagner"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-073",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem compôs \"Tocata e Fuga em Ré Menor\"?",
+    "options": [
+      "Johann Sebastian Bach",
+      "Franz Liszt",
+      "Antonio Vivaldi",
+      "Georg Friedrich Handel"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-074",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor brasileiro escreveu as \"Bachianas Brasileiras\"?",
+    "options": [
+      "Heitor Villa-Lobos",
+      "Tom Jobim",
+      "Pixinguinha",
+      "Carlos Gomes"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-075",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor brasileiro escreveu a ópera \"O Guarani\"?",
+    "options": [
+      "Alberto Nepomuceno",
+      "Camargo Guarnieri",
+      "Carlos Gomes",
+      "Heitor Villa-Lobos"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-076",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual música de Luiz Gonzaga e Humberto Teixeira é considerada um hino do Nordeste?",
+    "options": [
+      "Kalu",
+      "Pagode Russo",
+      "Carcará",
+      "Asa Branca"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-077",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual movimento musical dos anos 1960 teve Caetano Veloso e Gilberto Gil e uniu guitarras elétricas à MPB?",
+    "options": [
+      "Tropicália",
+      "Clube da Esquina",
+      "Bossa Nova",
+      "Jovem Guarda"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-078",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual movimento musical dos anos 1960 teve Roberto Carlos e Erasmo Carlos?",
+    "options": [
+      "Jovem Guarda",
+      "Tropicália",
+      "Manguebeat",
+      "Bossa Nova"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-079",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual movimento musical foi criado em Recife nos anos 1990 por Chico Science?",
+    "options": [
+      "Axé",
+      "Tropicália",
+      "Brega",
+      "Manguebeat"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-080",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual banda tinha Chico Science como vocalista?",
+    "options": [
+      "Nação Zumbi",
+      "O Rappa",
+      "Cidade Negra",
+      "Raimundos"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-081",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual banda de reggae brasileira tem Toni Garrido como vocalista?",
+    "options": [
+      "Tribo de Jah",
+      "Cidade Negra",
+      "Natiruts",
+      "Ponto de Equilíbrio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-082",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual banda de reggae de Brasília cantou \"Quero Ser Feliz Também\"?",
+    "options": [
+      "Cidade Negra",
+      "Natiruts",
+      "Armandinho",
+      "Tribo de Jah"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "mus-083",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual bloco afro de Salvador, fundado em 1974, foi o primeiro do tipo?",
+    "options": [
+      "Ilê Aiyê",
+      "Muzenza",
+      "Malê Debalê",
+      "Olodum"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-084",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual bloco de Salvador gravou clipe com Michael Jackson no Pelourinho?",
+    "options": [
+      "Olodum",
+      "Filhos de Gandhy",
+      "Ilê Aiyê",
+      "Timbalada"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-085",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem fundou o grupo Timbalada?",
+    "options": [
+      "Gilberto Gil",
+      "Caetano Veloso",
+      "Carlinhos Brown",
+      "Daniela Mercury"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-086",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantora baiana é autora de \"O Canto da Cidade\"?",
+    "options": [
+      "Claudia Leitte",
+      "Ivete Sangalo",
+      "Margareth Menezes",
+      "Daniela Mercury"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-087",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual grupo baiano ficou famoso por \"Segure o Tchan\"?",
+    "options": [
+      "Banda Eva",
+      "Asa de Águia",
+      "É o Tchan",
+      "Chiclete com Banana"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-088",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual banda baiana teve Ivete Sangalo como vocalista no começo da carreira?",
+    "options": [
+      "Banda Eva",
+      "Asa de Águia",
+      "Chiclete com Banana",
+      "Cheiro de Amor"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-089",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantor pernambucano canta \"Anunciação\" e \"La Belle de Jour\"?",
+    "options": [
+      "Alceu Valença",
+      "Zé Ramalho",
+      "Lenine",
+      "Geraldo Azevedo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-090",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantor paraibano canta \"Chão de Giz\"?",
+    "options": [
+      "Alceu Valença",
+      "Lenine",
+      "Chico César",
+      "Zé Ramalho"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-091",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantora ficou famosa pela interpretação de \"Como Nossos Pais\"?",
+    "options": [
+      "Nara Leão",
+      "Gal Costa",
+      "Elis Regina",
+      "Maysa"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-092",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantora era chamada de \"Pimentinha\"?",
+    "options": [
+      "Rita Lee",
+      "Clara Nunes",
+      "Gal Costa",
+      "Elis Regina"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-093",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantora de samba era conhecida como \"A Guerreira\"?",
+    "options": [
+      "Clara Nunes",
+      "Beth Carvalho",
+      "Alcione",
+      "Elza Soares"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-094",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual cantora de samba é conhecida como \"Madrinha do Samba\"?",
+    "options": [
+      "Clara Nunes",
+      "Dona Ivone Lara",
+      "Beth Carvalho",
+      "Alcione"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-095",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Quem era o vocalista da banda Led Zeppelin?",
+    "options": [
+      "Jimmy Page",
+      "Roger Daltrey",
+      "Robert Plant",
+      "Ozzy Osbourne"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-096",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual guitarrista tocou \"Purple Haze\" e ficou famoso por incendiar a guitarra?",
+    "options": [
+      "Jimi Hendrix",
+      "Jimmy Page",
+      "Eric Clapton",
+      "B.B. King"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "mus-097",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual grupo sueco ficou famoso com \"Dancing Queen\"?",
+    "options": [
+      "Europe",
+      "Roxette",
+      "Ace of Base",
+      "ABBA"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-098",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual banda irlandesa tem Bono como vocalista?",
+    "options": [
+      "The Cranberries",
+      "Thin Lizzy",
+      "Snow Patrol",
+      "U2"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "mus-099",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual banda tem Sting como vocalista?",
+    "options": [
+      "Duran Duran",
+      "Dire Straits",
+      "The Police",
+      "Genesis"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "mus-100",
+    "category": "musica",
+    "difficulty": "dificil",
+    "question": "Qual compositor era conhecido como \"Poeta da Vila\"?",
+    "options": [
+      "Noel Rosa",
+      "Wilson Batista",
+      "Adoniran Barbosa",
+      "Cartola"
+    ],
+    "correct_index": 0
   }
 ]

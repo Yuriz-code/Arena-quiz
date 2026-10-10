@@ -3,51 +3,51 @@
     "id": "his-001",
     "category": "historia",
     "difficulty": "facil",
-    "question": "Em que continente fica o Egito Antigo?",
+    "question": "Quem proclamou a independência do Brasil, em 1822?",
     "options": [
-      "Europa",
-      "América",
-      "Ásia",
-      "África"
+      "Tiradentes",
+      "Dom Pedro I",
+      "Getúlio Vargas",
+      "Dom João VI"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-002",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Em que ano ocorreu a Queda do Muro de Berlim?",
+    "difficulty": "facil",
+    "question": "Em que ano os portugueses chegaram ao Brasil com Pedro Álvares Cabral?",
     "options": [
-      "1989",
-      "1987",
-      "1991",
-      "1993"
+      "1822",
+      "1500",
+      "1889",
+      "1492"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "his-003",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Quem foi o primeiro imperador do Brasil?",
+    "difficulty": "facil",
+    "question": "Quem foi o primeiro presidente do Brasil?",
     "options": [
-      "Dom Pedro II",
-      "Marechal Deodoro",
-      "Dom Pedro I",
-      "Dom João VI"
+      "Juscelino Kubitschek",
+      "Getúlio Vargas",
+      "Floriano Peixoto",
+      "Marechal Deodoro da Fonseca"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "his-004",
     "category": "historia",
-    "difficulty": "dificil",
-    "question": "Em que ano foi assinado o Tratado de Tordesilhas?",
+    "difficulty": "facil",
+    "question": "Em que ano foi proclamada a República no Brasil?",
     "options": [
-      "1488",
-      "1494",
-      "1500",
-      "1512"
+      "1822",
+      "1889",
+      "1930",
+      "1888"
     ],
     "correct_index": 1
   },
@@ -55,38 +55,38 @@
     "id": "his-005",
     "category": "historia",
     "difficulty": "facil",
-    "question": "Qual civilização construiu as pirâmides de Gizé?",
+    "question": "Qual princesa assinou a Lei Áurea, que aboliu a escravidão no Brasil?",
     "options": [
-      "Egípcia",
-      "Grega",
-      "Maia",
-      "Romana"
+      "Princesa Isabel",
+      "Anita Garibaldi",
+      "Carlota Joaquina",
+      "Dona Leopoldina"
     ],
     "correct_index": 0
   },
   {
     "id": "his-006",
     "category": "historia",
-    "difficulty": "dificil",
-    "question": "Quem liderou a Revolta dos Alfaiates na Bahia (1798)?",
+    "difficulty": "facil",
+    "question": "Em que ano foi assinada a Lei Áurea?",
     "options": [
-      "João de Deus do Nascimento",
-      "Zumbi dos Palmares",
-      "Tiradentes",
-      "Frei Caneca"
+      "1822",
+      "1888",
+      "1871",
+      "1889"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "his-007",
     "category": "historia",
     "difficulty": "facil",
-    "question": "Em que ano começou a Segunda Guerra Mundial?",
+    "question": "Qual civilização antiga construiu as pirâmides de Gizé?",
     "options": [
-      "1939",
-      "1929",
-      "1918",
-      "1945"
+      "Egípcia",
+      "Maia",
+      "Grega",
+      "Romana"
     ],
     "correct_index": 0
   },
@@ -94,51 +94,51 @@
     "id": "his-008",
     "category": "historia",
     "difficulty": "facil",
-    "question": "Quem foi o primeiro presidente do Brasil?",
+    "question": "Qual navegador chegou à América em 1492?",
     "options": [
-      "Getúlio Vargas",
-      "Juscelino Kubitschek",
-      "Prudente de Morais",
-      "Deodoro da Fonseca"
+      "Fernão de Magalhães",
+      "Pedro Álvares Cabral",
+      "Cristóvão Colombo",
+      "Vasco da Gama"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "his-009",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual revolução ocorreu na França em 1789?",
+    "difficulty": "facil",
+    "question": "Em que ano começou a Segunda Guerra Mundial?",
     "options": [
-      "Revolução Russa",
-      "Revolução Francesa",
-      "Revolução Industrial",
-      "Revolução Americana"
+      "1941",
+      "1945",
+      "1914",
+      "1939"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "his-010",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Em que ano o Muro de Berlim caiu?",
+    "difficulty": "facil",
+    "question": "Quem foi o líder da Alemanha nazista durante a Segunda Guerra Mundial?",
     "options": [
-      "1979",
-      "1985",
-      "1991",
-      "1989"
+      "Benito Mussolini",
+      "Francisco Franco",
+      "Josef Stalin",
+      "Adolf Hitler"
     ],
     "correct_index": 3
   },
   {
     "id": "his-011",
     "category": "historia",
-    "difficulty": "dificil",
-    "question": "Qual tratado encerrou oficialmente a Primeira Guerra Mundial?",
+    "difficulty": "facil",
+    "question": "Em que ano caiu o Muro de Berlim?",
     "options": [
-      "Tratado de Utrecht",
-      "Tratado de Versalhes",
-      "Tratado de Tordesilhas",
-      "Tratado de Paris"
+      "1991",
+      "1989",
+      "1961",
+      "1975"
     ],
     "correct_index": 1
   },
@@ -146,25 +146,25 @@
     "id": "his-012",
     "category": "historia",
     "difficulty": "facil",
-    "question": "Quem foi o principal líder da Revolução Cubana de 1959?",
+    "question": "Qual cidade romana ficou soterrada pelas cinzas do vulcão Vesúvio?",
     "options": [
-      "Fidel Castro",
-      "Simón Bolívar",
-      "Hugo Chávez",
-      "Che Guevara"
+      "Pompeia",
+      "Esparta",
+      "Cartago",
+      "Atenas"
     ],
     "correct_index": 0
   },
   {
     "id": "his-013",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Em que século os portugueses chegaram ao território que hoje é o Brasil?",
+    "difficulty": "facil",
+    "question": "Qual foi o principal produto explorado pelos portugueses no início da colonização do Brasil?",
     "options": [
-      "Século XIV",
-      "Século XV",
-      "Século XVII",
-      "Século XVI"
+      "Borracha",
+      "Café",
+      "Ouro",
+      "Pau-brasil"
     ],
     "correct_index": 3
   },
@@ -172,90 +172,90 @@
     "id": "his-014",
     "category": "historia",
     "difficulty": "facil",
-    "question": "Qual rio era considerado essencial para a agricultura e a vida no Egito Antigo?",
+    "question": "Qual presidente brasileiro construiu Brasília?",
     "options": [
-      "Nilo",
-      "Eufrates",
-      "Jordão",
-      "Tigre"
+      "Juscelino Kubitschek",
+      "Getúlio Vargas",
+      "Jânio Quadros",
+      "Eurico Gaspar Dutra"
     ],
     "correct_index": 0
   },
   {
     "id": "his-015",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual imperador francês foi derrotado na Batalha de Waterloo?",
+    "difficulty": "facil",
+    "question": "Em que ano foi inaugurada Brasília, a capital do Brasil?",
     "options": [
-      "Luís XVI",
-      "Carlos Magno",
-      "Luís XIV",
-      "Napoleão Bonaparte"
+      "1956",
+      "1960",
+      "1950",
+      "1964"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-016",
     "category": "historia",
-    "difficulty": "dificil",
-    "question": "Em que ano foi assinada a Lei Áurea, que aboliu a escravidão no Brasil?",
+    "difficulty": "facil",
+    "question": "Quem liderou a Inconfidência Mineira e foi enforcado em 1792?",
     "options": [
-      "1889",
-      "1822",
-      "1850",
-      "1888"
+      "Dom Pedro I",
+      "Tiradentes",
+      "Zumbi dos Palmares",
+      "Frei Caneca"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-017",
     "category": "historia",
     "difficulty": "facil",
-    "question": "Quem chegou ao Brasil em 1500, segundo a história oficial?",
+    "question": "Quem foi o grande líder do Quilombo dos Palmares?",
     "options": [
-      "Fernão de Magalhães",
-      "Vasco da Gama",
-      "Cristóvão Colombo",
-      "Pedro Álvares Cabral"
+      "Zumbi",
+      "Tiradentes",
+      "Antônio Conselheiro",
+      "Lampião"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "his-018",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual foi a capital do Império Romano?",
+    "difficulty": "facil",
+    "question": "Como ficou conhecida a guerra que aconteceu entre 1914 e 1918?",
     "options": [
-      "Constantinopla",
-      "Roma",
-      "Atenas",
-      "Cartago"
+      "Primeira Guerra Mundial",
+      "Guerra do Paraguai",
+      "Guerra Fria",
+      "Segunda Guerra Mundial"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "his-019",
     "category": "historia",
-    "difficulty": "dificil",
-    "question": "Quem liderou a resistência não-violenta contra o domínio britânico na Índia?",
+    "difficulty": "facil",
+    "question": "Qual país lançou bombas atômicas sobre Hiroshima e Nagasaki em 1945?",
     "options": [
-      "Ho Chi Minh",
-      "Mahatma Gandhi",
-      "Jawaharlal Nehru",
-      "Nelson Mandela"
+      "Estados Unidos",
+      "Reino Unido",
+      "Alemanha",
+      "União Soviética"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "his-020",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Em que ano ocorreu a Proclamação da República no Brasil?",
+    "difficulty": "facil",
+    "question": "Qual rainha do Egito Antigo se aliou a Júlio César e Marco Antônio?",
     "options": [
-      "1889",
-      "1888",
-      "1822",
-      "1500"
+      "Cleópatra",
+      "Nefertiti",
+      "Safo",
+      "Hatshepsut"
     ],
     "correct_index": 0
   },
@@ -263,194 +263,194 @@
     "id": "his-021",
     "category": "historia",
     "difficulty": "facil",
-    "question": "A Queda do Muro de Berlim, em 1989, é vista como símbolo do fim de qual conflito?",
+    "question": "Qual imperador francês foi derrotado na Batalha de Waterloo?",
     "options": [
-      "Guerra da Coreia",
-      "Guerra Fria",
-      "Segunda Guerra Mundial",
-      "Guerra do Vietnã"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "his-022",
-    "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual evento em 1914 foi o estopim direto para o início da Primeira Guerra Mundial?",
-    "options": [
-      "O assassinato do Arquiduque Francisco Ferdinando",
-      "A Revolução Russa",
-      "A invasão da Polônia",
-      "O naufrágio do Titanic"
+      "Napoleão Bonaparte",
+      "Luís XIV",
+      "Carlos Magno",
+      "Charles de Gaulle"
     ],
     "correct_index": 0
   },
   {
+    "id": "his-022",
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Qual revolução derrubou a monarquia francesa a partir de 1789?",
+    "options": [
+      "Revolução Americana",
+      "Revolução Francesa",
+      "Revolução Industrial",
+      "Revolução Russa"
+    ],
+    "correct_index": 1
+  },
+  {
     "id": "his-023",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual faraó egípcio teve sua tumba quase intacta descoberta em 1922 por Howard Carter?",
+    "difficulty": "facil",
+    "question": "Em qual país nasceu o movimento do Renascimento?",
     "options": [
-      "Quéops",
-      "Ramsés II",
-      "Akhenaton",
-      "Tutancâmon"
+      "França",
+      "Itália",
+      "Inglaterra",
+      "Espanha"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-024",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Quem liderou a Revolução Russa de 1917 e fundou o Estado Soviético?",
+    "difficulty": "facil",
+    "question": "Quem foi o primeiro homem a pisar na Lua, em 1969?",
     "options": [
-      "Leon Trótski",
-      "Josef Stálin",
-      "Nicolau II",
-      "Vladimir Lenin"
+      "Yuri Gagarin",
+      "Buzz Aldrin",
+      "John Glenn",
+      "Neil Armstrong"
     ],
     "correct_index": 3
   },
   {
     "id": "his-025",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual líder sul-africano passou 27 anos na prisão e tornou-se presidente após o fim do Apartheid?",
+    "difficulty": "facil",
+    "question": "Quem foi o primeiro ser humano a ir ao espaço, em 1961?",
     "options": [
-      "Desmond Tutu",
-      "Nelson Mandela",
-      "Thabo Mbeki",
-      "Jacob Zuma"
+      "Yuri Gagarin",
+      "Alan Shepard",
+      "Neil Armstrong",
+      "Buzz Aldrin"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "his-026",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Em qual país teve início a Revolução Industrial no século XVIII?",
+    "difficulty": "facil",
+    "question": "Qual povo construiu a cidade de Machu Picchu, nos Andes?",
     "options": [
-      "Estados Unidos",
-      "França",
-      "Inglaterra",
-      "Alemanha"
+      "Olmeca",
+      "Maia",
+      "Inca",
+      "Asteca"
     ],
     "correct_index": 2
   },
   {
     "id": "his-027",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual general e imperador francês conquistou grande parte da Europa no início do século XIX?",
+    "difficulty": "facil",
+    "question": "Qual presidente comandou o Brasil durante o Estado Novo (1937-1945)?",
     "options": [
-      "Luís XVI",
-      "Luís XIV",
-      "Napoleão Bonaparte",
-      "Carlos Magno"
+      "Eurico Gaspar Dutra",
+      "Getúlio Vargas",
+      "Juscelino Kubitschek",
+      "Jânio Quadros"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "his-028",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "A queda de qual cidade em 1453 marcou tradicionalmente o fim da Idade Média?",
+    "difficulty": "facil",
+    "question": "Quem foi preso por 27 anos e depois se tornou presidente da África do Sul?",
     "options": [
-      "Constantinopla",
-      "Roma",
-      "Alexandria",
-      "Jerusalém"
+      "Steve Biko",
+      "Thabo Mbeki",
+      "Nelson Mandela",
+      "Desmond Tutu"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "his-029",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual civilização pré-colombiana construiu a cidadela de Machu Picchu?",
+    "difficulty": "facil",
+    "question": "Qual foi a primeira capital do Brasil?",
     "options": [
-      "Astecas",
-      "Maias",
-      "Incas",
-      "Olmecas"
+      "Rio de Janeiro",
+      "São Paulo",
+      "Salvador",
+      "Brasília"
     ],
     "correct_index": 2
   },
   {
     "id": "his-030",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Quem proclamou a Independência do Brasil em 1822?",
+    "difficulty": "facil",
+    "question": "Qual cidade foi capital do Brasil imediatamente antes de Brasília?",
     "options": [
-      "Dom Pedro II",
-      "Marechal Deodoro",
-      "Dom João VI",
-      "Dom Pedro I"
+      "Belo Horizonte",
+      "São Paulo",
+      "Salvador",
+      "Rio de Janeiro"
     ],
     "correct_index": 3
   },
   {
     "id": "his-031",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual conflito bélico opôs indiretamente Estados Unidos e União Soviética ao longo de boa parte do século XX?",
+    "difficulty": "facil",
+    "question": "Qual presidente dos Estados Unidos aboliu a escravidão durante a Guerra Civil americana?",
     "options": [
-      "Guerra do Vietnã",
-      "Guerra Fria",
-      "Guerra do Golfo",
-      "Guerra da Coreia"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "his-032",
-    "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual documento assinado pelo rei João Sem Terra em 1215 limitou o poder monárquico na Inglaterra?",
-    "options": [
-      "Bill of Rights",
-      "Ato de União",
-      "Declaração de Direitos",
-      "Magna Carta"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "his-033",
-    "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual presidente norte-americano assinou a Proclamação de Emancipação durante a Guerra Civil Americana?",
-    "options": [
-      "Ulysses Grant",
       "Thomas Jefferson",
       "George Washington",
+      "Theodore Roosevelt",
       "Abraham Lincoln"
     ],
     "correct_index": 3
   },
   {
+    "id": "his-032",
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Qual país construiu a Grande Muralha, uma das maiores obras da história?",
+    "options": [
+      "Japão",
+      "Mongólia",
+      "China",
+      "Índia"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "his-033",
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Qual povo viveu no México e construiu a cidade de Tenochtitlán?",
+    "options": [
+      "Maias",
+      "Tupis",
+      "Astecas",
+      "Incas"
+    ],
+    "correct_index": 2
+  },
+  {
     "id": "his-034",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual civilização antiga floresceu entre os rios Tigre e Eufrates?",
+    "question": "Em que ano ocorreu a Revolução Russa que levou os bolcheviques ao poder?",
     "options": [
-      "Persa",
-      "Egípcia",
-      "Fenícia",
-      "Mesopotâmica"
+      "1917",
+      "1939",
+      "1922",
+      "1905"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "his-035",
     "category": "historia",
     "difficulty": "medio",
-    "question": "O ataque surpresa a qual base naval levou os Estados Unidos a entrarem na Segunda Guerra Mundial?",
+    "question": "Quem liderou os bolcheviques na Revolução Russa de 1917?",
     "options": [
-      "Okinawa",
-      "Pearl Harbor",
-      "Midway",
-      "Normandia"
+      "Josef Stalin",
+      "Lênin",
+      "Leon Trótski",
+      "Nicolau II"
     ],
     "correct_index": 1
   },
@@ -458,12 +458,12 @@
     "id": "his-036",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Quem governou o Brasil como presidente e ditador de 1930 a 1945?",
+    "question": "Contra qual país o Brasil lutou na guerra entre 1864 e 1870?",
     "options": [
-      "Eurico Gaspar Dutra",
-      "Getúlio Vargas",
-      "Juscelino Kubitschek",
-      "Washington Luís"
+      "Argentina",
+      "Paraguai",
+      "Uruguai",
+      "Bolívia"
     ],
     "correct_index": 1
   },
@@ -471,25 +471,25 @@
     "id": "his-037",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual cidade-estado grega era famosa por sua rígida disciplina e formação estritamente militar?",
+    "question": "Qual tratado dividiu as terras do Novo Mundo entre Portugal e Espanha em 1494?",
     "options": [
-      "Tebas",
-      "Esparta",
-      "Atenas",
-      "Corinto"
+      "Tratado de Versalhes",
+      "Tratado de Madri",
+      "Tratado de Utrecht",
+      "Tratado de Tordesilhas"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "his-038",
     "category": "historia",
     "difficulty": "medio",
-    "question": "A tomada de qual fortaleza parisiense em 14 de julho de 1789 simbolizou o início da Revolução Francesa?",
+    "question": "Em que ano a família real portuguesa chegou ao Brasil, fugindo de Napoleão?",
     "options": [
-      "Torre de Londres",
-      "Louvre",
-      "Bastilha",
-      "Palácio de Versalhes"
+      "1500",
+      "1789",
+      "1808",
+      "1822"
     ],
     "correct_index": 2
   },
@@ -497,64 +497,64 @@
     "id": "his-039",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual expedição militar e religiosa os europeus organizaram durante a Idade Média para retomar Jerusalém?",
+    "question": "Quem foi o último imperador do Brasil?",
     "options": [
-      "Cruzadas",
-      "Reconquista",
-      "Inquisição",
-      "Guerras Púnicas"
+      "Dom Pedro I",
+      "Dom Pedro III",
+      "Dom João VI",
+      "Dom Pedro II"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "his-040",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Quem iniciou a Reforma Protestante ao fixar suas 95 Teses em 1517?",
+    "question": "Qual tratado encerrou oficialmente a Primeira Guerra Mundial?",
     "options": [
-      "Martinho Lutero",
-      "João Calvino",
-      "Henrique VIII",
-      "Ulrico Zuínglio"
+      "Tratado de Paris",
+      "Tratado de Tordesilhas",
+      "Tratado de Versalhes",
+      "Tratado de Viena"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "his-041",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Entre quais décadas vigorou o regime de ditadura militar no Brasil (1964–1985)?",
+    "question": "Qual evento foi o estopim da Primeira Guerra Mundial?",
     "options": [
-      "Décadas de 1960 a 1980",
-      "Décadas de 1930 a 1940",
-      "Décadas de 1880 a 1900",
-      "Décadas de 1940 a 1950"
+      "Queda do czar russo",
+      "Assassinato do arquiduque Francisco Ferdinando",
+      "Invasão da Polônia",
+      "Ataque a Pearl Harbor"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "his-042",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual líder romano foi assassinado nos Idos de Março de 44 a.C. por membros do Senado?",
+    "question": "Qual ataque japonês levou os Estados Unidos a entrar na Segunda Guerra Mundial?",
     "options": [
-      "Augusto",
-      "Marco Antônio",
-      "Júlio César",
-      "Pompeu"
+      "Pearl Harbor",
+      "Stalingrado",
+      "Okinawa",
+      "Dunquerque"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "his-043",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual conflito travado entre França e Inglaterra durou mais de um século, entre 1337 e 1453?",
+    "question": "Como ficou conhecido o desembarque aliado na Normandia, em 1944?",
     "options": [
-      "Guerra dos Cem Anos",
-      "Guerra das Duas Rosas",
-      "Guerra da Sucessão Espanhola",
-      "Guerra dos Sete Anos"
+      "Dia D",
+      "Operação Barbarossa",
+      "Blitzkrieg",
+      "Batalha das Ardenas"
     ],
     "correct_index": 0
   },
@@ -562,38 +562,38 @@
     "id": "his-044",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Quem era a governante do Egito Antigo durante a conquista romana liderada por Otaviano?",
+    "question": "Em que ano começou a ditadura militar no Brasil?",
     "options": [
-      "Nefertiti",
-      "Hatshepsut",
-      "Cleópatra",
-      "Néfertari"
+      "1945",
+      "1964",
+      "1930",
+      "1985"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "his-045",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual crise econômica mundial começou com o crash da Bolsa de Valores de Nova York em 1929?",
+    "question": "Como ficou conhecido o movimento popular de 1984 que pedia eleições diretas para presidente?",
     "options": [
-      "Grande Depressão",
-      "Bolha das Pontocom",
-      "Crise do Petróleo",
-      "Crise de 2008"
+      "Constituinte",
+      "Diretas Já",
+      "Caras-pintadas",
+      "Tenentismo"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "his-046",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual dinastia chinesa foi responsável pelo início da construção da Grande Muralha unificada?",
+    "question": "Qual presidente brasileiro renunciou em 1961, após poucos meses de governo?",
     "options": [
-      "Dinastia Ming",
-      "Dinastia Tang",
-      "Dinastia Han",
-      "Dinastia Qin"
+      "Tancredo Neves",
+      "João Goulart",
+      "Café Filho",
+      "Jânio Quadros"
     ],
     "correct_index": 3
   },
@@ -601,38 +601,38 @@
     "id": "his-047",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual foi o principal produto da economia colonial do Brasil nos séculos XVI e XVII?",
+    "question": "Quem foi eleito presidente em 1985, mas morreu antes de tomar posse?",
     "options": [
-      "Café",
-      "Borracha",
-      "Cana-de-açúcar",
-      "Ouro"
+      "Tancredo Neves",
+      "José Sarney",
+      "Leonel Brizola",
+      "Ulysses Guimarães"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "his-048",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual batalha naval na costa da Grécia, em 480 a.C., barrou o avanço do Império Persa?",
+    "question": "Qual plano econômico de 1994 criou o Real e controlou a hiperinflação?",
     "options": [
-      "Batalha de Platéias",
-      "Batalha de Salamina",
-      "Batalha das Termópilas",
-      "Batalha de Maratona"
+      "Plano Real",
+      "Plano Collor",
+      "Plano Cruzado",
+      "Plano Bresser"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "his-049",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual conferência de 1884–1885 dividiu o continente africano entre potências europeias?",
+    "question": "Em qual país começou a Revolução Industrial?",
     "options": [
-      "Conferência de Potsdam",
-      "Conferência de Berlim",
-      "Congresso de Viena",
-      "Conferência de Yalta"
+      "França",
+      "Inglaterra",
+      "Alemanha",
+      "Estados Unidos"
     ],
     "correct_index": 1
   },
@@ -640,12 +640,12 @@
     "id": "his-050",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual rainha consorte foi decapitada durante o período mais radical da Revolução Francesa?",
+    "question": "Qual rei francês ficou conhecido como \"Rei Sol\"?",
     "options": [
-      "Catarina de Médici",
-      "Maria Antonieta",
-      "Ana Bolena",
-      "Josefina de Beauharnais"
+      "Napoleão III",
+      "Luís XIV",
+      "Luís XVI",
+      "Carlos X"
     ],
     "correct_index": 1
   },
@@ -653,142 +653,142 @@
     "id": "his-051",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual movimento artístico e cultural marcou a transição da Idade Média para a Idade Moderna?",
+    "question": "Qual conquistador espanhol derrubou o Império Asteca?",
     "options": [
-      "Barroco",
-      "Iluminismo",
-      "Romantismo",
-      "Renascimento"
+      "Hernán Cortés",
+      "Cristóvão Colombo",
+      "Francisco Pizarro",
+      "Pedro de Alvarado"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "his-052",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Em qual país asiático ocorreu a Revolta dos Boxers, entre 1899 e 1901, contra potências estrangeiras?",
+    "question": "Qual conquistador espanhol derrubou o Império Inca?",
     "options": [
-      "Japão",
-      "China",
-      "Vietnã",
-      "Coreia"
+      "Francisco Pizarro",
+      "Pedro Álvares Cabral",
+      "Hernán Cortés",
+      "Américo Vespúcio"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "his-053",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual navegador liderou a primeira expedição a dar a volta ao mundo, a partir de 1519?",
+    "question": "Qual país foi o grande rival dos Estados Unidos na Guerra Fria?",
     "options": [
-      "Pedro Álvares Cabral",
-      "Cristóvão Colombo",
-      "Fernão de Magalhães",
-      "Vasco da Gama"
+      "Alemanha",
+      "União Soviética",
+      "Japão",
+      "China"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "his-054",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual cidade foi o primeiro alvo de uma bomba atômica na história, em agosto de 1945?",
+    "question": "Em que ano a União Soviética foi dissolvida?",
     "options": [
-      "Tóquio",
-      "Hiroshima",
-      "Nagasaki",
-      "Quioto"
+      "1999",
+      "1989",
+      "1991",
+      "1985"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "his-055",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual princesa assinou a Lei Áurea em 1888, extinguindo a escravidão no Brasil?",
+    "question": "Quem foi o primeiro imperador de Roma?",
     "options": [
-      "Rainha Vitória",
-      "Maria I de Portugal",
-      "Princesa Isabel",
-      "Princesa Leopoldina"
+      "Nero",
+      "Júlio César",
+      "Constantino",
+      "Augusto"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "his-056",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual aliança militar ocidental foi fundada em 1949 para conter o bloco soviético?",
+    "question": "Qual civilização antiga criou a democracia na cidade de Atenas?",
     "options": [
-      "ONU",
-      "União Europeia",
-      "OTAN",
-      "Pacto de Varsóvia"
+      "Grega",
+      "Egípcia",
+      "Romana",
+      "Persa"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "his-057",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual código mesopotâmico ficou conhecido pela regra de 'olho por olho, dente por dente'?",
+    "question": "Qual foi a revolta de 1798 em Salvador que defendia o fim da escravidão e igualdade social?",
     "options": [
-      "Código Justiniano",
-      "Código de Hamurabi",
-      "Lei das Doze Tábuas",
-      "Código de Ur-Nammu"
+      "Guerra dos Farrapos",
+      "Cabanagem",
+      "Inconfidência Mineira",
+      "Conjuração Baiana"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "his-058",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual rainha governou a Grã-Bretanha durante o ápice da expansão imperial, no século XIX?",
+    "question": "Em que data se comemora a Independência da Bahia?",
     "options": [
-      "Rainha Elizabeth I",
-      "Rainha Maria II",
-      "Rainha Vitória",
-      "Rainha Ana"
+      "21 de abril",
+      "2 de julho",
+      "15 de novembro",
+      "7 de setembro"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "his-059",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual presidente dos Estados Unidos renunciou ao cargo após o escândalo de Watergate, em 1974?",
+    "question": "Qual heroína da independência da Bahia lutou disfarçada de homem?",
     "options": [
-      "Richard Nixon",
-      "Jimmy Carter",
-      "Lyndon Johnson",
-      "Gerald Ford"
+      "Anita Garibaldi",
+      "Dandara",
+      "Maria Quitéria",
+      "Chica da Silva"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "his-060",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual rede de rotas comerciais ligava o Oriente e a China ao Mar Mediterrâneo?",
+    "question": "Em qual estado brasileiro aconteceu a Guerra de Canudos?",
     "options": [
-      "Rota das Especiarias",
-      "Rota Transaariana",
-      "Rota do Âmbar",
-      "Rota da Seda"
+      "Pernambuco",
+      "Bahia",
+      "Minas Gerais",
+      "Ceará"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "his-061",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Quem liderou as forças agrárias do sul durante a Revolução Mexicana?",
+    "question": "Quem foi o líder religioso do arraial de Canudos?",
     "options": [
-      "Venustiano Carranza",
-      "Pancho Villa",
-      "Emiliano Zapata",
-      "Porfírio Díaz"
+      "Padre Cícero",
+      "Lampião",
+      "Antônio Conselheiro",
+      "Zumbi"
     ],
     "correct_index": 2
   },
@@ -796,64 +796,506 @@
     "id": "his-062",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual povo mesoamericano antigo esculpiu imensas cabeças colossais de basalto?",
+    "question": "Qual general cartaginês atravessou os Alpes com elefantes para atacar Roma?",
     "options": [
-      "Maias",
-      "Astecas",
-      "Olmecas",
-      "Zapotecas"
+      "Aníbal",
+      "Alexandre",
+      "Cipião",
+      "Átila"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "his-063",
     "category": "historia",
     "difficulty": "medio",
-    "question": "Qual iluminista francês teorizou a separação dos poderes em Executivo, Legislativo e Judiciário?",
+    "question": "Alexandre, o Grande, era rei de qual reino?",
     "options": [
-      "Montesquieu",
-      "Voltaire",
-      "Rousseau",
-      "Diderot"
+      "Macedônia",
+      "Egito",
+      "Pérsia",
+      "Esparta"
     ],
     "correct_index": 0
   },
   {
     "id": "his-064",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual imperador romano atribuiu aos cristãos a culpa pelo grande incêndio de Roma de 64 d.C.?",
+    "difficulty": "dificil",
+    "question": "Qual país formou com Brasil e Argentina a Tríplice Aliança na Guerra do Paraguai?",
     "options": [
-      "Nero",
-      "Calígula",
-      "Cláudio",
-      "Trajano"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "his-065",
-    "category": "historia",
-    "difficulty": "medio",
-    "question": "Em qual país norte-africano teve início a onda de protestos da Primavera Árabe, em 2010?",
-    "options": [
-      "Marrocos",
-      "Egito",
-      "Tunísia",
-      "Líbia"
+      "Bolívia",
+      "Peru",
+      "Uruguai",
+      "Chile"
     ],
     "correct_index": 2
   },
   {
+    "id": "his-065",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual imperador romano dividiu o império entre seus filhos em 395, separando Oriente e Ocidente?",
+    "options": [
+      "Marco Aurélio",
+      "Constantino",
+      "Nero",
+      "Teodósio I"
+    ],
+    "correct_index": 3
+  },
+  {
     "id": "his-066",
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual conflito oitocentista colocou o Império Russo contra turcos, britânicos e franceses?",
+    "difficulty": "dificil",
+    "question": "Em que ano caiu Constantinopla, marcando o fim do Império Bizantino?",
     "options": [
-      "Guerra Napoleônica",
-      "Guerra Russo-Japonesa",
-      "Guerra da Crimeia",
-      "Guerra Russo-Turca"
+      "1453",
+      "1517",
+      "1492",
+      "1204"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "his-067",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em que ano é tradicionalmente situada a queda do Império Romano do Ocidente?",
+    "options": [
+      "1054",
+      "800",
+      "476",
+      "395"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "his-068",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Entre quais países aconteceu a Guerra dos Cem Anos?",
+    "options": [
+      "Roma e Cartago",
+      "Inglaterra e França",
+      "Espanha e Portugal",
+      "Prússia e Áustria"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "his-069",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Joana d'Arc lutou pelo exército de qual país?",
+    "options": [
+      "Espanha",
+      "Inglaterra",
+      "Itália",
+      "França"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "his-070",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Quem iniciou a Reforma Protestante ao divulgar suas 95 teses, em 1517?",
+    "options": [
+      "Erasmo de Roterdã",
+      "Martinho Lutero",
+      "Henrique VIII",
+      "João Calvino"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "his-071",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em qual século a Peste Negra devastou a Europa?",
+    "options": [
+      "Século XIV",
+      "Século XVI",
+      "Século XVIII",
+      "Século X"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "his-072",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual revolta de escravizados levou à independência do Haiti, em 1804?",
+    "options": [
+      "Revolução Mexicana",
+      "Revolução Cubana",
+      "Revolução Haitiana",
+      "Revolta dos Malês"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "his-073",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em que ano ocorreu a Revolta dos Malês, em Salvador?",
+    "options": [
+      "1822",
+      "1798",
+      "1835",
+      "1888"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "his-074",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em qual estado brasileiro aconteceu a Revolução Farroupilha?",
+    "options": [
+      "Bahia",
+      "Pernambuco",
+      "Maranhão",
+      "Rio Grande do Sul"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "his-075",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Quem chegou ao poder com a Revolução de 1930 no Brasil?",
+    "options": [
+      "Getúlio Vargas",
+      "Artur Bernardes",
+      "Júlio Prestes",
+      "Washington Luís"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "his-076",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em que ano foi decretado o AI-5, o mais duro ato da ditadura militar brasileira?",
+    "options": [
+      "1968",
+      "1979",
+      "1975",
+      "1964"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "his-077",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em que ano foi promulgada a atual Constituição brasileira, chamada de \"Constituição Cidadã\"?",
+    "options": [
+      "1891",
+      "1988",
+      "1967",
+      "1946"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "his-078",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em que ano foi aprovada a Lei do Ventre Livre?",
+    "options": [
+      "1888",
+      "1871",
+      "1850",
+      "1831"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "his-079",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "O que determinou a Lei Eusébio de Queirós, de 1850?",
+    "options": [
+      "Concedeu voto às mulheres",
+      "Aboliu a escravidão",
+      "Proibiu o tráfico de escravizados para o Brasil",
+      "Criou a República"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "his-080",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Quem proclamou a República Popular da China em 1949?",
+    "options": [
+      "Deng Xiaoping",
+      "Mao Tsé-Tung",
+      "Sun Yat-sen",
+      "Chiang Kai-shek"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "his-081",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual evento de 1929 deu início à Grande Depressão?",
+    "options": [
+      "Quebra da Bolsa de Nova York",
+      "Crise do petróleo",
+      "Guerra da Coreia",
+      "Plano Marshall"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "his-082",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em qual país ocorreu a Crise dos Mísseis, de 1962, que quase levou a uma guerra nuclear?",
+    "options": [
+      "Cuba",
+      "Coreia",
+      "Vietnã",
+      "Alemanha"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "his-083",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual foi o objetivo do Plano Marshall após a Segunda Guerra?",
+    "options": [
+      "Financiar a corrida espacial",
+      "Conquistar a Ásia",
+      "Armar a Alemanha",
+      "Reconstruir a Europa"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "his-084",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual rei inglês rompeu com a Igreja de Roma e teve seis esposas?",
+    "options": [
+      "Eduardo I",
+      "Ricardo III",
+      "Henrique VIII",
+      "Jorge III"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "his-085",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual ditador governou Portugal por décadas, até 1968?",
+    "options": [
+      "Francisco Franco",
+      "Benito Mussolini",
+      "Marcelo Caetano",
+      "António de Oliveira Salazar"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "his-086",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em que ano ocorreu a Revolução dos Cravos, que derrubou a ditadura em Portugal?",
+    "options": [
+      "1974",
+      "1961",
+      "1968",
+      "1982"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "his-087",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Entre quais rios se desenvolveu a antiga Mesopotâmia?",
+    "options": [
+      "Tigre e Eufrates",
+      "Danúbio e Reno",
+      "Ganges e Indo",
+      "Nilo e Congo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "his-088",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual povo da Mesopotâmia criou a escrita cuneiforme?",
+    "options": [
+      "Gregos",
+      "Egípcios",
+      "Sumérios",
+      "Fenícios"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "his-089",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual famoso conjunto de leis foi criado na Babilônia pelo rei Hamurabi?",
+    "options": [
+      "Código de Justiniano",
+      "Lei das Doze Tábuas",
+      "Código de Hamurabi",
+      "Código Napoleônico"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "his-090",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual cidade grega era famosa por sua sociedade militarizada e rivalizava com Atenas?",
+    "options": [
+      "Corinto",
+      "Olímpia",
+      "Esparta",
+      "Tebas"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "his-091",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual líder fundou o grande Império Mongol no século XIII?",
+    "options": [
+      "Gengis Khan",
+      "Napoleão",
+      "Alexandre",
+      "Átila"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "his-092",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual navegador português chegou à Índia por mar em 1498?",
+    "options": [
+      "Bartolomeu Dias",
+      "Vasco da Gama",
+      "Cristóvão Colombo",
+      "Pedro Álvares Cabral"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "his-093",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Quem foi o primeiro governador-geral do Brasil, que fundou Salvador?",
+    "options": [
+      "Mem de Sá",
+      "Duarte Coelho",
+      "Tomé de Sousa",
+      "Martim Afonso de Sousa"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "his-094",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Em que ano foi fundada a cidade de Salvador?",
+    "options": [
+      "1763",
+      "1530",
+      "1549",
+      "1500"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "his-095",
+    "category": "historia",
+    "difficulty": "facil",
+    "question": "Qual civilização antiga é famosa pelos Jogos Olímpicos e pela filosofia de Sócrates e Platão?",
+    "options": [
+      "Persa",
+      "Grega",
+      "Fenícia",
+      "Egípcia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "his-096",
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Quem foi o líder indígena que lutou contra os portugueses no Brasil e ficou conhecido pelo lema \"Esta terra tem dono\"?",
+    "options": [
+      "Cunhambebe",
+      "Zumbi",
+      "Tiradentes",
+      "Sepé Tiaraju"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "his-097",
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual foi o nome do movimento cultural e artístico que valorizava o ser humano e a razão na Europa, a partir do século XIV?",
+    "options": [
+      "Barroco",
+      "Renascimento",
+      "Romantismo",
+      "Iluminismo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "his-098",
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual presidente brasileiro foi deposto pelo golpe militar de 1964?",
+    "options": [
+      "João Goulart",
+      "Café Filho",
+      "Juscelino Kubitschek",
+      "Jânio Quadros"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "his-099",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Quem foi o primeiro presidente civil do Brasil, eleito em 1894?",
+    "options": [
+      "Campos Sales",
+      "Prudente de Morais",
+      "Floriano Peixoto",
+      "Rodrigues Alves"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "his-100",
+    "category": "historia",
+    "difficulty": "dificil",
+    "question": "Qual foi o nome do período da história brasileira em que o café dominava a economia e o poder político, de 1894 a 1930?",
+    "options": [
+      "Segundo Reinado",
+      "Era Vargas",
+      "República Velha",
+      "Estado Novo"
     ],
     "correct_index": 2
   }

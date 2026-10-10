@@ -11,7 +11,9 @@ const { waitForEvent, createRoom, joinRoom } = require('./_client');
 before(async () => { await server.ready; });
 after(async () => { await server.shutdown(); });
 
-// Regressão: "religiao" tem só ~6 perguntas difíceis. Uma partida de 30
+// Regressão: originalmente "religiao" tinha só ~6 perguntas difíceis (hoje o banco
+// tem 33 por categoria, então este teste passou a ser um teste geral de partida
+// longa sem repetição; a lógica de relaxar a dificuldade segue no server.js). Uma partida de 30
 // perguntas pede muito mais que isso (a curva reserva o último terço + todas
 // as bônus para "dificil"). O servidor precisa relaxar a dificuldade em vez de
 // travar, repetir pergunta ou encerrar a partida antes da hora.

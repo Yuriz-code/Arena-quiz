@@ -3,389 +3,389 @@
     "id": "rel-001",
     "category": "religiao",
     "difficulty": "facil",
-    "question": "Qual religião tem o Papa como líder máximo?",
+    "question": "Qual é o livro sagrado do Cristianismo?",
     "options": [
-      "Anglicanismo",
-      "Catolicismo",
-      "Ortodoxa",
-      "Protestantismo"
+      "Torá",
+      "Alcorão",
+      "Bíblia",
+      "Bhagavad Gita"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "rel-002",
     "category": "religiao",
     "difficulty": "facil",
-    "question": "Qual é o livro sagrado do Cristianismo?",
+    "question": "Qual é o livro sagrado do Islã?",
     "options": [
-      "Torá",
-      "Bhagavad Gita",
+      "Vedas",
       "Alcorão",
+      "Torá",
       "Bíblia"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "rel-003",
     "category": "religiao",
     "difficulty": "facil",
-    "question": "Em que cidade nasceu Jesus Cristo, segundo a tradição cristã?",
+    "question": "Qual é o livro sagrado do Judaísmo?",
     "options": [
-      "Belém",
-      "Jerusalém",
-      "Roma",
-      "Nazaré"
+      "Bhagavad Gita",
+      "Alcorão",
+      "Tripitaka",
+      "Torá"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "rel-004",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual figura é considerada a mãe de Jesus Cristo no Cristianismo?",
+    "difficulty": "facil",
+    "question": "Quem é o líder máximo da Igreja Católica?",
     "options": [
-      "Marta",
-      "Maria",
-      "Isabel",
-      "Madalena"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "rel-005",
-    "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual papa católico convocou o histórico Concílio Vaticano II em 1962?",
-    "options": [
-      "Papa Pio XII",
-      "Papa João XXIII",
-      "Papa Paulo VI",
-      "Papa João Paulo II"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "rel-006",
-    "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual imperador romano converteu-se ao Cristianismo e transferiu a capital imperial para Constantinopla?",
-    "options": [
-      "Constantino I",
-      "Juliano",
-      "Diocleciano",
-      "Teodósio I"
+      "O Papa",
+      "O Imã",
+      "O Rabino",
+      "O Dalai Lama"
     ],
     "correct_index": 0
   },
   {
-    "id": "rel-007",
+    "id": "rel-005",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual sacramento católico simboliza a purificação do pecado original e a entrada na Igreja?",
+    "difficulty": "facil",
+    "question": "Em qual cidade nasceu Jesus, segundo a tradição cristã?",
     "options": [
-      "Crisma",
-      "Batismo",
-      "Eucaristia",
-      "Confissão"
+      "Roma",
+      "Nazaré",
+      "Jerusalém",
+      "Belém"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
-    "id": "rel-008",
+    "id": "rel-006",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual apóstolo de Jesus é tradicionalmente considerado pela Igreja Católica como o primeiro papa?",
+    "difficulty": "facil",
+    "question": "Qual celebração cristã comemora o nascimento de Jesus?",
     "options": [
-      "João",
-      "Tiago",
-      "Pedro",
-      "Paulo"
+      "Pentecostes",
+      "Páscoa",
+      "Natal",
+      "Epifania"
     ],
     "correct_index": 2
   },
   {
+    "id": "rel-007",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual celebração cristã comemora a ressurreição de Jesus?",
+    "options": [
+      "Quaresma",
+      "Natal",
+      "Páscoa",
+      "Corpus Christi"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-008",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Quantos apóstolos Jesus escolheu para acompanhá-lo?",
+    "options": [
+      "40",
+      "7",
+      "10",
+      "12"
+    ],
+    "correct_index": 3
+  },
+  {
     "id": "rel-009",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual cisma religioso em 1054 dividiu a Igreja cristã entre Igreja Católica e Igreja Ortodoxa?",
+    "difficulty": "facil",
+    "question": "Para qual cidade os muçulmanos se voltam ao fazer suas orações diárias?",
     "options": [
-      "Cisma do Ocidente",
-      "Concílio de Niceia",
-      "Reforma Protestante",
-      "Grande Cisma do Oriente"
+      "Jerusalém",
+      "Cairo",
+      "Bagdá",
+      "Meca"
     ],
     "correct_index": 3
   },
   {
     "id": "rel-010",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual ramo do Cristianismo surgiu no século XVI a partir de protestos contra indulgências e autoridade papal?",
+    "difficulty": "facil",
+    "question": "Como se chama o templo dos judeus?",
     "options": [
-      "Protestantismo",
-      "Ortodoxia",
-      "Catolicismo",
-      "Anglicanismo"
+      "Mesquita",
+      "Sinagoga",
+      "Pagode",
+      "Catedral"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "rel-011",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual anjo da tradição judaico-cristã e islâmica anunciou à Virgem Maria o nascimento de Jesus?",
+    "difficulty": "facil",
+    "question": "Como se chama o templo dos muçulmanos?",
     "options": [
-      "Arcanjo Miguel",
-      "Arcanjo Uriel",
-      "Arcanjo Gabriel",
-      "Arcanjo Rafael"
+      "Templo budista",
+      "Mesquita",
+      "Igreja",
+      "Sinagoga"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "rel-012",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual apóstolo traiu Jesus Cristo entregando-o às autoridades por trinta moedas de prata?",
+    "difficulty": "facil",
+    "question": "Como se chama o líder religioso do judaísmo?",
     "options": [
-      "Simão",
-      "Judas Iscariotes",
-      "Tomé",
-      "Pedro"
+      "Imã",
+      "Rabino",
+      "Padre",
+      "Pastor"
     ],
     "correct_index": 1
   },
   {
     "id": "rel-013",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual é o principal símbolo religioso do Cristianismo?",
+    "difficulty": "facil",
+    "question": "Qual é o título do líder espiritual do budismo tibetano?",
     "options": [
-      "Estrela de Davi",
-      "Cruz",
-      "Crescente",
-      "Roda do Dharma"
+      "Papa",
+      "Aiatolá",
+      "Rabino",
+      "Dalai Lama"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "rel-014",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual teólogo francês formulou a doutrina da predestinação absoluta durante a Reforma Protestante?",
+    "difficulty": "facil",
+    "question": "Quem foi o fundador do Budismo?",
     "options": [
-      "João Calvino",
-      "John Knox",
-      "Martinho Lutero",
-      "Ulrico Zwínglio"
+      "Confúcio",
+      "Maomé",
+      "Moisés",
+      "Sidarta Gautama, o Buda"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "rel-015",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual rito sacramental protestante e católico comemora a Última Ceia com pão e vinho?",
+    "difficulty": "facil",
+    "question": "Quem é considerado o profeta fundador do Islã?",
     "options": [
-      "Batismo",
-      "Unção dos Enfermos",
-      "Eucaristia (ou Santa Ceia)",
-      "Crisma"
+      "Maomé",
+      "Abraão",
+      "Jesus",
+      "Moisés"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "rel-016",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual festa católica comemora a descida do Espírito Santo sobre os apóstolos cinquenta dias após a Páscoa?",
+    "difficulty": "facil",
+    "question": "Qual profeta recebeu os Dez Mandamentos no Monte Sinai?",
     "options": [
-      "Epifania",
-      "Páscoa",
-      "Pentecostes",
-      "Corpus Christi"
+      "Davi",
+      "Abraão",
+      "Elias",
+      "Moisés"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-017",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual é o livro sagrado do Judaísmo composto pelos cinco primeiros livros da Bíblia hebraica?",
+    "difficulty": "facil",
+    "question": "Qual personagem bíblico construiu a arca para sobreviver ao dilúvio?",
     "options": [
-      "Mishná",
-      "Talmude",
-      "Torá",
-      "Talmud Bavli"
+      "Abraão",
+      "Jonas",
+      "Moisés",
+      "Noé"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-018",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual é o livro sagrado do Judaísmo?",
+    "difficulty": "facil",
+    "question": "Qual personagem bíblico enfrentou o gigante Golias?",
     "options": [
-      "Alcorão",
-      "Bíblia",
-      "Torá",
-      "Vedas"
+      "Davi",
+      "Sansão",
+      "Saul",
+      "Josué"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "rel-019",
     "category": "religiao",
     "difficulty": "facil",
-    "question": "Quantos mandamentos, segundo a tradição bíblica, Moisés recebeu de Deus?",
+    "question": "Qual personagem bíblico foi engolido por um grande peixe?",
     "options": [
-      "5",
+      "Jonas",
+      "Noé",
+      "Paulo",
+      "Pedro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-020",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Qual é o primeiro livro da Bíblia?",
+    "options": [
+      "Mateus",
+      "Gênesis",
+      "Êxodo",
+      "Salmos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-021",
+    "category": "religiao",
+    "difficulty": "facil",
+    "question": "Quantos mandamentos Moisés recebeu, segundo a Bíblia?",
+    "options": [
       "12",
+      "5",
       "7",
       "10"
     ],
     "correct_index": 3
   },
   {
-    "id": "rel-020",
+    "id": "rel-022",
     "category": "religiao",
     "difficulty": "facil",
-    "question": "Qual é o dia sagrado de descanso semanal no Judaísmo?",
+    "question": "Qual oração Jesus ensinou aos discípulos?",
     "options": [
-      "Shabat",
-      "Yom Kippur",
-      "Domingo",
-      "Ramadã"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "rel-021",
-    "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual conjunto de leis divinas Moisés teria recebido no Monte Sinai segundo a tradição bíblica?",
-    "options": [
-      "A Torá completa",
-      "O Talmude",
-      "As Bem-Aventuranças",
-      "Os Dez Mandamentos"
+      "Salve-Rainha",
+      "Credo",
+      "Ave-Maria",
+      "Pai-Nosso"
     ],
     "correct_index": 3
   },
   {
-    "id": "rel-022",
-    "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual patriarca bíblico é considerado o ancestral fundador comum do Judaísmo, Cristianismo e Islã?",
-    "options": [
-      "Isaque",
-      "Noé",
-      "Abraão",
-      "Moisés"
-    ],
-    "correct_index": 2
-  },
-  {
     "id": "rel-023",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual festa judaica de oito dias celebra a rededicação do Segundo Templo através do acendimento da Menorá?",
+    "difficulty": "facil",
+    "question": "Como é chamada a mãe de Jesus?",
     "options": [
-      "Yom Kipur",
-      "Hanukkah (Chanucá)",
-      "Pessach",
-      "Purim"
+      "Isabel",
+      "Madalena",
+      "Marta",
+      "Maria"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "rel-024",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual cidade é considerada sagrada simultaneamente por cristãos, judeus e muçulmanos?",
+    "difficulty": "facil",
+    "question": "Quem batizou Jesus no rio Jordão?",
     "options": [
-      "Jerusalém",
-      "Belém",
-      "Roma",
-      "Meca"
+      "João Batista",
+      "Paulo",
+      "Tiago",
+      "Pedro"
     ],
     "correct_index": 0
   },
   {
     "id": "rel-025",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual cerimônia de transição no Judaísmo celebra a maioridade religiosa de um jovem aos 13 anos?",
+    "difficulty": "facil",
+    "question": "Qual é a santa padroeira do Brasil?",
     "options": [
-      "Yom Kipur",
-      "Shabat",
-      "Brit Milá",
-      "Bar Mitzvah"
+      "Santa Luzia",
+      "Nossa Senhora de Fátima",
+      "Santa Rita",
+      "Nossa Senhora Aparecida"
     ],
     "correct_index": 3
   },
   {
     "id": "rel-026",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual é o templo ou casa de oração e estudos do Judaísmo?",
+    "difficulty": "facil",
+    "question": "Qual religião de matriz africana é muito praticada na Bahia e cultua orixás?",
     "options": [
-      "Igreja",
-      "Templo",
-      "Sinagoga",
-      "Mesquita"
+      "Candomblé",
+      "Budismo",
+      "Xintoísmo",
+      "Hinduísmo"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "rel-027",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual rei de Israel e autor de muitos salmos derrotou o gigante Golias com uma funda quando jovem?",
+    "difficulty": "facil",
+    "question": "Qual orixá é a rainha do mar?",
     "options": [
-      "Salomão",
-      "Saul",
-      "Samuel",
-      "Davi"
+      "Iansã",
+      "Nanã",
+      "Iemanjá",
+      "Oxum"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "rel-028",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual é o dia mais sagrado e solene do calendário judaico, conhecido como o 'Dia do Perdão'?",
+    "difficulty": "facil",
+    "question": "Qual festa acontece em 2 de fevereiro no Rio Vermelho, em Salvador?",
     "options": [
-      "Pessach",
-      "Rosh Hashaná",
-      "Yom Kipur",
-      "Sucot"
+      "Festa de Santa Bárbara",
+      "Círio de Nazaré",
+      "Festa de Iemanjá",
+      "Lavagem do Bonfim"
     ],
     "correct_index": 2
   },
   {
     "id": "rel-029",
     "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual é o livro sagrado central do Islamismo?",
+    "difficulty": "facil",
+    "question": "Qual festa de Salvador tem a lavagem das escadarias de uma igreja em janeiro?",
     "options": [
-      "Bhagavad Gita",
-      "Alcorão",
-      "Tao Te Ching",
-      "Torá"
+      "Festa de Santa Luzia",
+      "Lavagem do Bonfim",
+      "Carnaval",
+      "Festa de Iemanjá"
     ],
     "correct_index": 1
   },
   {
     "id": "rel-030",
     "category": "religiao",
-    "difficulty": "dificil",
-    "question": "Como se chama o jejum anual observado durante o mês sagrado do Islã?",
+    "difficulty": "facil",
+    "question": "Qual é a religião mais praticada na Índia?",
     "options": [
-      "Shahada",
-      "Hajj",
-      "Ramadã",
-      "Zakat"
+      "Budismo",
+      "Cristianismo",
+      "Hinduísmo",
+      "Islamismo"
     ],
     "correct_index": 2
   },
@@ -393,38 +393,38 @@
     "id": "rel-031",
     "category": "religiao",
     "difficulty": "facil",
-    "question": "Qual é o livro sagrado do Islã?",
+    "question": "Qual religião tem o jejum do Ramadã e os cinco pilares?",
     "options": [
-      "Torá",
-      "Tripitaka",
-      "Alcorão",
-      "Bíblia"
+      "Hinduísmo",
+      "Budismo",
+      "Judaísmo",
+      "Islamismo"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "rel-032",
     "category": "religiao",
-    "difficulty": "dificil",
-    "question": "Qual é o nome da peregrinação anual que os muçulmanos fazem a Meca?",
+    "difficulty": "facil",
+    "question": "Como se chama a estrela de seis pontas, símbolo do judaísmo?",
     "options": [
-      "Sharia",
-      "Ramadã",
-      "Hajj",
-      "Zakat"
+      "Cruz",
+      "Estrela de Davi",
+      "Crescente",
+      "Roda do Darma"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "rel-033",
     "category": "religiao",
-    "difficulty": "dificil",
-    "question": "Qual é o nome do mês sagrado de jejum no Islã?",
+    "difficulty": "facil",
+    "question": "Qual é o dia de descanso semanal (Shabat) no judaísmo?",
     "options": [
-      "Ramadã",
-      "Hajj",
-      "Zakat",
-      "Eid"
+      "Sábado",
+      "Domingo",
+      "Sexta-feira",
+      "Segunda-feira"
     ],
     "correct_index": 0
   },
@@ -432,90 +432,90 @@
     "id": "rel-034",
     "category": "religiao",
     "difficulty": "facil",
-    "question": "Qual é o nome do templo sagrado dos muçulmanos localizado em Meca?",
+    "question": "Qual doutrina religiosa foi codificada por Allan Kardec?",
     "options": [
-      "Caaba",
-      "Cúpula da Rocha",
-      "Mesquita de Medina",
-      "Mesquita Azul"
+      "Candomblé",
+      "Umbanda",
+      "Budismo",
+      "Espiritismo"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "rel-035",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual é a cidade mais sagrada para os muçulmanos, onde fica a Caaba?",
+    "question": "Qual destes é um dos quatro evangelhos do Novo Testamento?",
     "options": [
-      "Bagdá",
-      "Jerusalém",
-      "Medina",
-      "Meca"
+      "João",
+      "Paulo",
+      "Pedro",
+      "Tiago"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "rel-036",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Quais são as duas principais vertentes históricas em que o Islã se divide?",
+    "question": "Qual apóstolo traiu Jesus?",
     "options": [
-      "Drusos e Alauitas",
-      "Sunitas e Xiitas",
-      "Ismaelitas e Zaiditas",
-      "Sufis e Ahmadis"
+      "Pedro",
+      "André",
+      "Judas Iscariotes",
+      "Tomé"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "rel-037",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual é o local de culto coletivo e adoração dos muçulmanos?",
+    "question": "Qual apóstolo negou Jesus três vezes antes do galo cantar?",
     "options": [
-      "Mesquita",
-      "Igreja",
-      "Sinagoga",
-      "Templo"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "rel-038",
-    "category": "religiao",
-    "difficulty": "facil",
-    "question": "Em que cidade nasceu Buda, segundo a tradição budista?",
-    "options": [
-      "Jerusalém",
-      "Meca",
-      "Varanasi",
-      "Lumbini"
+      "Tiago",
+      "João",
+      "Filipe",
+      "Pedro"
     ],
     "correct_index": 3
   },
   {
+    "id": "rel-038",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual apóstolo duvidou da ressurreição até ver as marcas nas mãos de Jesus?",
+    "options": [
+      "Mateus",
+      "Tomé",
+      "Pedro",
+      "André"
+    ],
+    "correct_index": 1
+  },
+  {
     "id": "rel-039",
     "category": "religiao",
-    "difficulty": "dificil",
-    "question": "Qual religião de matriz africana, praticada no Brasil, cultua os Orixás?",
+    "difficulty": "medio",
+    "question": "Em qual monte Moisés recebeu os mandamentos, segundo a Bíblia?",
     "options": [
-      "Candomblé",
-      "Xintoísmo",
-      "Xamanismo",
-      "Vodu"
+      "Monte das Oliveiras",
+      "Monte Sinai",
+      "Monte Carmelo",
+      "Monte Ararate"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "rel-040",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Quem é considerado o fundador do Budismo?",
+    "question": "O que o Pentecostes celebra no Cristianismo?",
     "options": [
-      "Sidarta Gautama (Buda)",
-      "Confúcio",
-      "Mahavira",
-      "Lao-Tsé"
+      "A vinda do Espírito Santo",
+      "A crucificação",
+      "A ressurreição",
+      "O nascimento de Jesus"
     ],
     "correct_index": 0
   },
@@ -523,38 +523,38 @@
     "id": "rel-041",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual é o nome do texto sagrado hindu que narra o diálogo entre Krishna e Arjuna?",
+    "question": "Qual é o último livro da Bíblia cristã?",
     "options": [
-      "Alcorão",
-      "Torá",
-      "Bhagavad Gita",
-      "Tao Te Ching"
+      "Apocalipse",
+      "Judas",
+      "Malaquias",
+      "Atos"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "rel-042",
     "category": "religiao",
-    "difficulty": "dificil",
-    "question": "Qual é o termo para o ciclo de nascimento, morte e renascimento em religiões orientais como Hinduísmo e Budismo?",
+    "difficulty": "medio",
+    "question": "Quantos livros tem a Bíblia protestante?",
     "options": [
-      "Karma",
-      "Nirvana",
-      "Dharma",
-      "Samsara"
+      "73",
+      "27",
+      "39",
+      "66"
     ],
     "correct_index": 3
   },
   {
     "id": "rel-043",
     "category": "religiao",
-    "difficulty": "dificil",
-    "question": "Qual religião monoteísta antiga, originária da Pérsia, é praticada pelos zoroastristas?",
+    "difficulty": "medio",
+    "question": "Quantos livros tem a Bíblia católica?",
     "options": [
-      "Mitraísmo",
-      "Maniqueísmo",
-      "Manicheísmo",
-      "Zoroastrismo"
+      "66",
+      "80",
+      "72",
+      "73"
     ],
     "correct_index": 3
   },
@@ -562,51 +562,51 @@
     "id": "rel-044",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual líder religioso e místico alcançou a iluminação debaixo da árvore Bodhi, tornando-se o Buda?",
+    "question": "Qual é o menor país do mundo, sede da Igreja Católica?",
     "options": [
-      "Confúcio",
-      "Mahavira",
-      "Lao-Tsé",
-      "Siddhartha Gautama"
+      "San Marino",
+      "Mônaco",
+      "Vaticano",
+      "Malta"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "rel-045",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual deusa ou orixá das religiões de matriz afro-brasileira é associada aos mares e oceanos?",
+    "question": "Como se chama o mês de jejum dos muçulmanos?",
     "options": [
-      "Oxum",
-      "Iemanjá",
-      "Iansã",
-      "Nanã"
+      "Ramadã",
+      "Hanucá",
+      "Yom Kipur",
+      "Quaresma"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "rel-046",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual conceito no Hinduísmo e Budismo define a lei de causa e efeito das ações de um indivíduo?",
+    "question": "Qual festa judaica é conhecida como a festa das luzes?",
     "options": [
-      "Moksha",
-      "Dharma",
-      "Samsara",
-      "Carma"
+      "Hanucá",
+      "Purim",
+      "Yom Kipur",
+      "Pessach"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "rel-047",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual divindade hindu com cabeça de elefante é venerada como o removedor de obstáculos?",
+    "question": "Qual festa judaica celebra a libertação dos hebreus do Egito?",
     "options": [
-      "Ganesha",
-      "Hanuman",
-      "Vishnu",
-      "Shiva"
+      "Pessach",
+      "Hanucá",
+      "Purim",
+      "Sucot"
     ],
     "correct_index": 0
   },
@@ -614,25 +614,25 @@
     "id": "rel-048",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual é o título dado ao líder espiritual e temporal tradicional do Budismo Tibetano?",
+    "question": "Qual é o dia mais sagrado do judaísmo, dedicado ao jejum e ao perdão?",
     "options": [
-      "Rinpoche",
-      "Lama Tulku",
-      "Panchen Lama",
-      "Dalai Lama"
+      "Yom Kipur",
+      "Purim",
+      "Hanucá",
+      "Pessach"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "rel-049",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "No Candomblé e na Umbanda, qual orixá é considerado o guardião dos caminhos e mensageiro dos deuses?",
+    "question": "Qual é o ensinamento central do Budismo sobre o sofrimento?",
     "options": [
-      "Ogum",
-      "Oxóssi",
-      "Exu",
-      "Omulu"
+      "Os Vedas",
+      "Os Cinco Pilares",
+      "As Quatro Nobres Verdades",
+      "Os Dez Mandamentos"
     ],
     "correct_index": 2
   },
@@ -640,77 +640,77 @@
     "id": "rel-050",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual é a trindade suprema de divindades do Hinduísmo, conhecida como Trimúrti?",
+    "question": "Qual religião acredita em carma e reencarnação e cultua deuses como Vishnu e Shiva?",
     "options": [
-      "Rama, Krishna e Hanuman",
-      "Indra, Agni e Surya",
-      "Shiva, Kali e Durga",
-      "Brahma, Vishnu e Shiva"
+      "Islamismo",
+      "Judaísmo",
+      "Hinduísmo",
+      "Cristianismo"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "rel-051",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual tradição espiritual e religiosa nativa do Japão venera espíritos da natureza chamados Kami?",
+    "question": "Qual livro sagrado hindu traz o diálogo entre Krishna e Arjuna?",
     "options": [
-      "Budismo Zen",
-      "Taoísmo",
-      "Confucionismo",
-      "Xintoísmo"
+      "Alcorão",
+      "Tripitaka",
+      "Bhagavad Gita",
+      "Torá"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "rel-052",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual filósofo chinês antigo fundou o Taoísmo com o texto clássico 'Tao Te Ching'?",
+    "question": "Qual líder indiano, conhecido como Mahatma, pregava a não violência?",
     "options": [
-      "Lao Tsé",
-      "Chuang Tzu",
-      "Confúcio",
-      "Mêncio"
+      "Buda",
+      "Rabindranath Tagore",
+      "Jawaharlal Nehru",
+      "Mohandas Gandhi"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "rel-053",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual orixá ligado à justiça, ao trovão e ao fogo empunha o machado bipene (oxê)?",
+    "question": "Qual orixá é o senhor do trovão e da justiça?",
     "options": [
-      "Obaluaê",
-      "Xangô",
-      "Ogum",
-      "Oxumaré"
+      "Iemanjá",
+      "Oxóssi",
+      "Oxum",
+      "Xangô"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "rel-054",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual animal é considerado sagrado e símbolo de maternidade e abundância no Hinduísmo tradicional?",
+    "question": "Qual orixá é o senhor dos caminhos, do ferro e da guerra?",
     "options": [
-      "Vaca",
-      "Elefante",
-      "Cobra",
-      "Macaco"
+      "Obaluaê",
+      "Ogum",
+      "Oxóssi",
+      "Oxalá"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "rel-055",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual termo teológico designa a crença na existência de um único Deus?",
+    "question": "Qual orixá é associado à água doce, ao ouro e à beleza?",
     "options": [
-      "Ateísmo",
-      "Monoteísmo",
-      "Politeísmo",
-      "Panteísmo"
+      "Iemanjá",
+      "Oxum",
+      "Nanã",
+      "Iansã"
     ],
     "correct_index": 1
   },
@@ -718,38 +718,38 @@
     "id": "rel-056",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual estado supremo de libertação do ciclo de renascimentos e sofrimento é buscado no Budismo?",
+    "question": "Qual orixá é associado às tempestades e aos ventos?",
     "options": [
-      "Nirvana",
-      "Karma",
-      "Samsara",
-      "Dharma"
+      "Oxum",
+      "Iemanjá",
+      "Nanã",
+      "Iansã"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "rel-057",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Em qual religião monoteísta originada na Índia os homens praticantes usam turbantes e deixam o cabelo sem cortar?",
+    "question": "Qual orixá é considerado o pai maior, ligado à paz e à cor branca?",
     "options": [
-      "Jainismo",
-      "Sikhismo",
-      "Budismo",
-      "Hinduísmo"
+      "Oxalá",
+      "Ogum",
+      "Exu",
+      "Xangô"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "rel-058",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual orixá guerreiro associado ao ferro, à tecnologia e aos caminhos abertos é cultuado no Candomblé?",
+    "question": "Como se chama a casa de culto do candomblé?",
     "options": [
-      "Ogum",
-      "Xangô",
-      "Exu",
-      "Oxóssi"
+      "Terreiro",
+      "Catedral",
+      "Sinagoga",
+      "Mesquita"
     ],
     "correct_index": 0
   },
@@ -757,12 +757,12 @@
     "id": "rel-059",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual é o nome das escrituras sagradas mais antigas do Hinduísmo, compostas em sânscrito védico?",
+    "question": "Como se chama a líder espiritual de um terreiro de candomblé?",
     "options": [
-      "Bhagavad Gita",
-      "Upanixades",
-      "Vedas",
-      "Puranas"
+      "Pastora",
+      "Rabina",
+      "Ialorixá",
+      "Madre"
     ],
     "correct_index": 2
   },
@@ -770,26 +770,533 @@
     "id": "rel-060",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual educador francês codificou a doutrina espírita no século XIX através de 'O Livro dos Espíritos'?",
+    "question": "Qual é considerado o terreiro de candomblé mais antigo de Salvador?",
     "options": [
-      "Léon Denis",
-      "Allan Kardec",
-      "Divaldo Franco",
-      "Chico Xavier"
+      "Bogum",
+      "Gantois",
+      "Ilê Axé Opô Afonjá",
+      "Casa Branca do Engenho Velho"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "rel-061",
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual orixá ancião da criação é representado pela cor branca e pelo respeito à vida e à paz?",
+    "question": "Qual famosa ialorixá comandou o terreiro do Gantois e foi muito respeitada na Bahia?",
     "options": [
-      "Obaluaê",
-      "Oxalá",
-      "Nanã",
-      "Oxum"
+      "Mãe Menininha do Gantois",
+      "Mãe Aninha",
+      "Mãe Stella de Oxóssi",
+      "Mãe Cleusa"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-062",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual livro de Allan Kardec, de 1857, é a base do Espiritismo?",
+    "options": [
+      "O Livro dos Espíritos",
+      "O Evangelho Segundo o Espiritismo",
+      "Nosso Lar",
+      "Violetas na Janela"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-063",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual médium brasileiro ficou mundialmente conhecido por suas psicografias?",
+    "options": [
+      "Divaldo Franco",
+      "Allan Kardec",
+      "Chico Xavier",
+      "Zé Arigó"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-064",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual papa renunciou ao cargo em 2013?",
+    "options": [
+      "Pio XII",
+      "Francisco",
+      "João Paulo II",
+      "Bento XVI"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-065",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual papa nasceu na Argentina?",
+    "options": [
+      "Paulo VI",
+      "Bento XVI",
+      "Francisco",
+      "João Paulo II"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-066",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual papa polonês liderou a Igreja Católica de 1978 a 2005?",
+    "options": [
+      "Bento XVI",
+      "João Paulo II",
+      "João XXIII",
+      "Paulo VI"
     ],
     "correct_index": 1
+  },
+  {
+    "id": "rel-067",
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual religião foi fundada por Guru Nanak, na Índia?",
+    "options": [
+      "Jainismo",
+      "Budismo",
+      "Sikhismo",
+      "Hinduísmo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-068",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual papa convocou o Concílio Vaticano II?",
+    "options": [
+      "João XXIII",
+      "Paulo VI",
+      "João Paulo II",
+      "Pio XII"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-069",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual imperador romano concedeu liberdade aos cristãos com o Edito de Milão?",
+    "options": [
+      "Teodósio",
+      "Constantino",
+      "Nero",
+      "Diocleciano"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-070",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual apóstolo se converteu na estrada de Damasco e escreveu muitas cartas do Novo Testamento?",
+    "options": [
+      "Paulo",
+      "João",
+      "Tiago",
+      "Pedro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-071",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual personagem bíblico foi vendido pelos irmãos e depois virou governador do Egito?",
+    "options": [
+      "Benjamim",
+      "Jacó",
+      "José",
+      "Moisés"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-072",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual personagem bíblico tinha sua força ligada aos cabelos?",
+    "options": [
+      "Golias",
+      "Gideão",
+      "Davi",
+      "Sansão"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-073",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual rei de Israel construiu o primeiro templo de Jerusalém?",
+    "options": [
+      "Davi",
+      "Saul",
+      "Herodes",
+      "Salomão"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-074",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Quem foi o primeiro rei de Israel, segundo a Bíblia?",
+    "options": [
+      "Davi",
+      "Saul",
+      "Salomão",
+      "Josué"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-075",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual livro da Bíblia narra a saída dos hebreus do Egito?",
+    "options": [
+      "Êxodo",
+      "Números",
+      "Levítico",
+      "Gênesis"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-076",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Quanto tempo durou a chuva do dilúvio, segundo a história de Noé?",
+    "options": [
+      "40 dias e 40 noites",
+      "100 dias",
+      "12 dias",
+      "7 dias"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-077",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual livro do Antigo Testamento tem cânticos como \"O Senhor é meu pastor\"?",
+    "options": [
+      "Provérbios",
+      "Salmos",
+      "Eclesiastes",
+      "Cantares"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-078",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual era a profissão de José, pai de Jesus, segundo a Bíblia?",
+    "options": [
+      "Carpinteiro",
+      "Pastor",
+      "Pescador",
+      "Soldado"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-079",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual cidade é sagrada para judeus, cristãos e muçulmanos?",
+    "options": [
+      "Meca",
+      "Jerusalém",
+      "Roma",
+      "Atenas"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-080",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Em qual cidade ficam a Cúpula da Rocha e a mesquita de Al-Aqsa?",
+    "options": [
+      "Medina",
+      "Cairo",
+      "Jerusalém",
+      "Meca"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-081",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Em qual cidade nasceu o profeta Maomé?",
+    "options": [
+      "Bagdá",
+      "Meca",
+      "Medina",
+      "Jerusalém"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-082",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Como se chama o líder das orações em uma mesquita?",
+    "options": [
+      "Rabino",
+      "Imã",
+      "Padre",
+      "Guru"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-083",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Como se chama a peregrinação a Meca, que todo muçulmano deve fazer ao menos uma vez, se puder?",
+    "options": [
+      "Ramadã",
+      "Hégira",
+      "Hajj",
+      "Jihad"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-084",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Quantas vezes por dia os muçulmanos praticantes devem orar?",
+    "options": [
+      "5",
+      "3",
+      "2",
+      "7"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-085",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Quais são as três grandes religiões monoteístas ligadas a Abraão?",
+    "options": [
+      "Xintoísmo, Budismo e Confucionismo",
+      "Sikhismo, Jainismo e Hinduísmo",
+      "Judaísmo, Cristianismo e Islamismo",
+      "Hinduísmo, Budismo e Taoísmo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-086",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual religião tradicional do Japão cultua os kami?",
+    "options": [
+      "Xintoísmo",
+      "Confucionismo",
+      "Budismo",
+      "Taoísmo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-087",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual filósofo chinês está ligado ao Confucionismo?",
+    "options": [
+      "Confúcio",
+      "Lao-Tsé",
+      "Sun Tzu",
+      "Buda"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-088",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual filósofo chinês é associado ao Taoísmo?",
+    "options": [
+      "Buda",
+      "Lao-Tsé",
+      "Confúcio",
+      "Mêncio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-089",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "O que o símbolo yin-yang representa?",
+    "options": [
+      "Guerra",
+      "Poder",
+      "Riqueza",
+      "Equilíbrio entre forças opostas"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-090",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Em qual mês acontece a Lavagem do Bonfim, em Salvador?",
+    "options": [
+      "Janeiro",
+      "Dezembro",
+      "Junho",
+      "Fevereiro"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-091",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual igreja de Salvador é famosa pelas fitinhas coloridas?",
+    "options": [
+      "Igreja do Carmo",
+      "Catedral Basílica",
+      "Igreja do Senhor do Bonfim",
+      "Igreja de São Francisco"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-092",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual santo é celebrado em 13 de junho, muito festejado no Nordeste?",
+    "options": [
+      "São Pedro",
+      "São Jorge",
+      "São João",
+      "Santo Antônio"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-093",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual santo é celebrado em 24 de junho, com fogueiras e quadrilhas?",
+    "options": [
+      "São Pedro",
+      "São Jorge",
+      "São João Batista",
+      "Santo Antônio"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-094",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Com qual santa católica Iansã é sincretizada na Bahia?",
+    "options": [
+      "Santa Luzia",
+      "Santa Bárbara",
+      "Santa Rita",
+      "Nossa Senhora da Conceição"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-095",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Com qual santo católico Xangô é sincretizado na Bahia?",
+    "options": [
+      "São Jorge",
+      "São Jerônimo",
+      "São Pedro",
+      "Santo Antônio"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "rel-096",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do conjunto de textos sagrados do Budismo?",
+    "options": [
+      "Talmude",
+      "Vedas",
+      "Tripitaka",
+      "Alcorão"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-097",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual livro sagrado é a base da Igreja de Jesus Cristo dos Santos dos Últimos Dias, junto à Bíblia?",
+    "options": [
+      "Torá",
+      "Alcorão",
+      "Bhagavad Gita",
+      "Livro de Mórmon"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "rel-098",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Quem traduziu a Bíblia para o alemão durante a Reforma Protestante?",
+    "options": [
+      "Martinho Lutero",
+      "João Calvino",
+      "Erasmo de Roterdã",
+      "Ulrico Zuínglio"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "rel-099",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Como se chama o período cristão de quarenta dias que antecede a Páscoa?",
+    "options": [
+      "Pentecostes",
+      "Advento",
+      "Quaresma",
+      "Epifania"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "rel-100",
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Como se chama o período cristão de preparação para o Natal?",
+    "options": [
+      "Quaresma",
+      "Epifania",
+      "Pentecostes",
+      "Advento"
+    ],
+    "correct_index": 3
   }
 ]

@@ -2,13 +2,13 @@
   {
     "id": "cin-001",
     "category": "cinema",
-    "difficulty": "medio",
-    "question": "Quem dirigiu o filme 'Pulp Fiction' (1994)?",
+    "difficulty": "facil",
+    "question": "Qual filme da Pixar conta a história de um peixe-palhaço que procura o filho?",
     "options": [
-      "David Fincher",
-      "Quentin Tarantino",
-      "Christopher Nolan",
-      "Martin Scorsese"
+      "Rio",
+      "Procurando Nemo",
+      "Moana",
+      "Shrek"
     ],
     "correct_index": 1
   },
@@ -16,64 +16,64 @@
     "id": "cin-002",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Qual filme venceu o Oscar de Melhor Filme em 2020?",
+    "question": "Qual bruxo órfão, de cicatriz em forma de raio, é o herói de uma famosa saga de livros e filmes?",
     "options": [
-      "Parasita",
-      "1917",
-      "Coringa",
-      "Jojo Rabbit"
+      "Merlin",
+      "Harry Potter",
+      "Gandalf",
+      "Percy Jackson"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "cin-003",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Quem interpreta o Homem de Ferro no Universo Cinematográfico Marvel?",
+    "question": "Quem dirigiu o filme \"Titanic\", de 1997?",
     "options": [
-      "Robert Downey Jr.",
-      "Mark Ruffalo",
-      "Chris Evans",
-      "Chris Hemsworth"
+      "Steven Spielberg",
+      "Martin Scorsese",
+      "Christopher Nolan",
+      "James Cameron"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "cin-004",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual diretor é conhecido por filmar sempre em formato 4:3, como em 'Grand Budapest Hotel'?",
+    "difficulty": "facil",
+    "question": "Em \"Star Wars\", quem revela ser o pai de Luke Skywalker?",
     "options": [
-      "Wes Anderson",
-      "Denis Villeneuve",
-      "Yorgos Lanthimos",
-      "Tim Burton"
+      "Darth Vader",
+      "Han Solo",
+      "Yoda",
+      "Obi-Wan Kenobi"
     ],
     "correct_index": 0
   },
   {
     "id": "cin-005",
     "category": "cinema",
-    "difficulty": "medio",
-    "question": "Em que ano foi lançado o primeiro filme de 'Star Wars'?",
+    "difficulty": "facil",
+    "question": "Em \"Toy Story\", qual é o nome do boneco caubói?",
     "options": [
-      "1980",
-      "1983",
-      "1975",
-      "1977"
+      "Woody",
+      "Slinky",
+      "Rex",
+      "Buzz Lightyear"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cin-006",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual filme brasileiro foi indicado ao Oscar de Melhor Filme Internacional em 1999?",
+    "difficulty": "facil",
+    "question": "Qual é o nome do ogro verde que protagoniza uma famosa animação?",
     "options": [
-      "Central do Brasil",
-      "Tropa de Elite",
-      "O Auto da Compadecida",
-      "Cidade de Deus"
+      "Shrek",
+      "Burro",
+      "Lorde Farquaad",
+      "Fiona"
     ],
     "correct_index": 0
   },
@@ -81,64 +81,64 @@
     "id": "cin-007",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Quem dirigiu o filme \"Tubarão\" (1975)?",
+    "question": "Qual filme brasileiro de 2002 retrata a violência em uma comunidade do Rio de Janeiro?",
     "options": [
-      "James Cameron",
-      "George Lucas",
-      "Steven Spielberg",
-      "Martin Scorsese"
+      "Central do Brasil",
+      "Cidade de Deus",
+      "O Auto da Compadecida",
+      "Dona Flor e Seus Dois Maridos"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "cin-008",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Qual filme sobre o naufrágio do Titanic ganhou o Oscar de Melhor Filme em 1998?",
+    "question": "Qual filme da Disney tem a princesa Elsa e a canção \"Let It Go\"?",
     "options": [
-      "Gladiador",
-      "Coração Valente",
-      "Forrest Gump",
-      "Titanic"
+      "Enrolados",
+      "Moana",
+      "Frozen",
+      "Valente"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "cin-009",
     "category": "cinema",
-    "difficulty": "medio",
-    "question": "Quem interpretou o Coringa no filme \"Coringa\" (2019)?",
+    "difficulty": "facil",
+    "question": "Qual é o nome verdadeiro do Homem de Ferro nos filmes da Marvel?",
     "options": [
-      "Jack Nicholson",
-      "Joaquin Phoenix",
-      "Heath Ledger",
-      "Jared Leto"
+      "Peter Parker",
+      "Tony Stark",
+      "Steve Rogers",
+      "Bruce Banner"
     ],
     "correct_index": 1
   },
   {
     "id": "cin-010",
     "category": "cinema",
-    "difficulty": "medio",
-    "question": "Qual estúdio de animação produziu \"Toy Story\"?",
+    "difficulty": "facil",
+    "question": "Qual herói da Marvel usa um escudo e se chama Capitão América?",
     "options": [
-      "Disney Animation",
-      "DreamWorks",
-      "Pixar",
-      "Illumination"
+      "Thor",
+      "Tony Stark",
+      "Steve Rogers",
+      "Clint Barton"
     ],
     "correct_index": 2
   },
   {
     "id": "cin-011",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Quem dirigiu a trilogia original de \"O Poderoso Chefão\"?",
+    "difficulty": "facil",
+    "question": "Qual ator interpreta o pirata Jack Sparrow em \"Piratas do Caribe\"?",
     "options": [
-      "Francis Ford Coppola",
-      "Stanley Kubrick",
-      "Martin Scorsese",
-      "Sergio Leone"
+      "Johnny Depp",
+      "Orlando Bloom",
+      "Tom Cruise",
+      "Brad Pitt"
     ],
     "correct_index": 0
   },
@@ -146,259 +146,259 @@
     "id": "cin-012",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Em qual franquia aparece o personagem pirata Jack Sparrow?",
+    "question": "Qual animação da Disney conta a história do leão Simba?",
     "options": [
-      "Jogos Vorazes",
-      "Percy Jackson",
-      "Piratas do Caribe",
-      "Harry Potter"
+      "Madagascar",
+      "O Rei Leão",
+      "Aladdin",
+      "Tarzan"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "cin-013",
     "category": "cinema",
-    "difficulty": "medio",
-    "question": "Qual atriz interpretou Hermione Granger na saga Harry Potter?",
+    "difficulty": "facil",
+    "question": "Qual atriz interpretou a boneca Barbie no filme de 2023?",
     "options": [
-      "Emma Watson",
-      "Kristen Stewart",
-      "Natalie Portman",
-      "Emma Stone"
+      "Anne Hathaway",
+      "Scarlett Johansson",
+      "Emma Stone",
+      "Margot Robbie"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "cin-014",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Qual diretor é conhecido por filmes como \"Kill Bill\" e \"Pulp Fiction\"?",
+    "question": "Qual é a identidade secreta do Hulk?",
     "options": [
-      "Guy Ritchie",
-      "Christopher Nolan",
-      "Quentin Tarantino",
-      "David Fincher"
+      "Tony Stark",
+      "Steve Rogers",
+      "Peter Parker",
+      "Bruce Banner"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "cin-015",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual filme sul-coreano foi o primeiro não falado em inglês a ganhar o Oscar de Melhor Filme?",
+    "difficulty": "facil",
+    "question": "Qual filme de 1993 mostra dinossauros recriados em um parque?",
     "options": [
-      "Adoráveis Mulheres",
-      "Parasita",
-      "Coringa",
-      "1917"
+      "Godzilla",
+      "Avatar",
+      "Jurassic Park",
+      "King Kong"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "cin-016",
     "category": "cinema",
-    "difficulty": "medio",
-    "question": "Quem dirigiu a trilogia cinematográfica \"O Senhor dos Anéis\"?",
+    "difficulty": "facil",
+    "question": "Qual diretor fez \"Tubarão\" e \"E.T. – O Extraterrestre\"?",
     "options": [
       "James Cameron",
-      "Peter Jackson",
-      "Ridley Scott",
-      "Tim Burton"
+      "George Lucas",
+      "Tim Burton",
+      "Steven Spielberg"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cin-017",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Qual é o apelido do tubarão mecânico usado nas filmagens de \"Tubarão\" (1975)?",
+    "question": "Quem criou a saga \"Star Wars\"?",
     "options": [
-      "Jaws",
-      "Baby",
-      "Bruce",
-      "Nemo"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "cin-018",
-    "category": "cinema",
-    "difficulty": "medio",
-    "question": "Quem interpreta Tony Stark / Homem de Ferro no Universo Cinematográfico Marvel?",
-    "options": [
-      "Mark Ruffalo",
-      "Robert Downey Jr.",
-      "Chris Evans",
-      "Chris Hemsworth"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "cin-019",
-    "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual diretor é conhecido por filmes como \"Amadeus\" e \"Um Estranho no Ninho\"?",
-    "options": [
-      "Stanley Kubrick",
-      "Ridley Scott",
-      "Milos Forman",
-      "Roman Polanski"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "cin-020",
-    "category": "cinema",
-    "difficulty": "facil",
-    "question": "Qual estúdio criou a franquia \"Star Wars\"?",
-    "options": [
-      "Universal",
-      "Marvel Studios",
-      "Warner Bros.",
-      "Lucasfilm"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "cin-021",
-    "category": "cinema",
-    "difficulty": "medio",
-    "question": "Qual foi o primeiro longa-metragem de animação totalmente feito por computador?",
-    "options": [
-      "A Era do Gelo",
-      "Toy Story",
-      "Procurando Nemo",
-      "Shrek"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "cin-022",
-    "category": "cinema",
-    "difficulty": "facil",
-    "question": "Quem dirigiu a trilogia original de \"Star Wars\" (Episódios IV a VI)?",
-    "options": [
+      "J. J. Abrams",
       "Steven Spielberg",
-      "James Cameron",
       "Ridley Scott",
       "George Lucas"
     ],
     "correct_index": 3
   },
   {
-    "id": "cin-023",
+    "id": "cin-018",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Qual ator interpreta o personagem Neo na trilogia \"Matrix\"?",
+    "question": "Qual filme da Pixar tem um robozinho que limpa o lixo da Terra?",
     "options": [
-      "Tom Cruise",
-      "Brad Pitt",
-      "Keanu Reeves",
-      "Will Smith"
+      "Tron",
+      "Robôs",
+      "Operação Big Hero",
+      "WALL-E"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-019",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Em \"Divertida Mente\", qual emoção é a líder e tem a cor amarela?",
+    "options": [
+      "Alegria",
+      "Tristeza",
+      "Raiva",
+      "Medo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-020",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Quem interpretou o Homem-Aranha na trilogia dirigida por Sam Raimi?",
+    "options": [
+      "Andrew Garfield",
+      "Chris Evans",
+      "Tobey Maguire",
+      "Tom Holland"
     ],
     "correct_index": 2
   },
   {
+    "id": "cin-021",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual humorista brasileiro é famoso por interpretar o Didi, dos Trapalhões?",
+    "options": [
+      "Paulo Gustavo",
+      "Chico Anysio",
+      "Renato Aragão",
+      "Jô Soares"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-022",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Em qual filme Paulo Gustavo interpreta Dona Hermínia?",
+    "options": [
+      "Minha Mãe É uma Peça",
+      "Tapa na Pantera",
+      "De Pernas pro Ar",
+      "Vai que Cola"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-023",
+    "category": "cinema",
+    "difficulty": "facil",
+    "question": "Qual prêmio de cinema é uma estatueta dourada famosa mundialmente?",
+    "options": [
+      "Emmy",
+      "Grammy",
+      "Palma de Ouro",
+      "Oscar"
+    ],
+    "correct_index": 3
+  },
+  {
     "id": "cin-024",
     "category": "cinema",
-    "difficulty": "medio",
-    "question": "Qual diretor é conhecido por filmes de suspense como \"Psicose\" e \"Os Pássaros\"?",
+    "difficulty": "facil",
+    "question": "Qual filme tem Neo, que escolhe entre a pílula vermelha e a azul?",
     "options": [
-      "Steven Spielberg",
-      "Alfred Hitchcock",
-      "Stanley Kubrick",
-      "Martin Scorsese"
+      "Blade Runner",
+      "A Origem",
+      "Matrix",
+      "Tron"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "cin-025",
     "category": "cinema",
-    "difficulty": "medio",
-    "question": "Qual foi o primeiro filme do Universo Cinematográfico Marvel (MCU), lançado em 2008?",
+    "difficulty": "facil",
+    "question": "Qual princesa da Disney é uma sereia?",
     "options": [
-      "Thor",
-      "Homem de Ferro",
-      "Capitão América",
-      "Hulk"
+      "Bela",
+      "Jasmine",
+      "Cinderela",
+      "Ariel"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cin-026",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Qual atriz interpreta a personagem Katniss Everdeen na saga \"Jogos Vorazes\"?",
+    "question": "Em \"Procurando Nemo\", qual é o nome da peixe azul que tem pouca memória?",
     "options": [
-      "Emma Watson",
-      "Kristen Stewart",
-      "Jennifer Lawrence",
-      "Shailene Woodley"
+      "Coral",
+      "Marlin",
+      "Bruce",
+      "Dory"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "cin-027",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual filme de Christopher Nolan explora sonhos dentro de sonhos e conta com Leonardo DiCaprio no elenco?",
+    "difficulty": "facil",
+    "question": "Qual atriz interpreta a Mulher-Maravilha nos filmes recentes?",
     "options": [
-      "Interestelar",
-      "Amnésia (Memento)",
-      "O Grande Truque",
-      "A Origem (Inception)"
+      "Margot Robbie",
+      "Brie Larson",
+      "Gal Gadot",
+      "Scarlett Johansson"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "cin-028",
     "category": "cinema",
-    "difficulty": "medio",
-    "question": "Quem dirigiu o filme \"Parasita\" (2019), vencedor do Oscar de Melhor Filme?",
+    "difficulty": "facil",
+    "question": "Qual saga de filmes é sobre o anel único e o hobbit Frodo?",
     "options": [
-      "Park Chan-wook",
-      "Kim Ki-duk",
-      "Lee Chang-dong",
-      "Bong Joon-ho"
+      "Star Wars",
+      "O Senhor dos Anéis",
+      "Harry Potter",
+      "As Crônicas de Nárnia"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "cin-029",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Qual é o nome do vilão principal na trilogia original \"Star Wars\"?",
+    "question": "Qual herói protege a cidade de Gotham vestido de morcego?",
     "options": [
-      "Darth Maul",
-      "Imperador Palpatine",
-      "Boba Fett",
-      "Darth Vader"
+      "Aquaman",
+      "Batman",
+      "Flash",
+      "Superman"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "cin-030",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual atriz venceu o Oscar de Melhor Atriz por seu papel no filme \"La La Land\" (2017)?",
+    "difficulty": "facil",
+    "question": "Qual animação tem o carro de corrida Relâmpago McQueen?",
     "options": [
-      "Emma Stone",
-      "Natalie Portman",
-      "Meryl Streep",
-      "Amy Adams"
+      "Speed Racer",
+      "Planes",
+      "Carros",
+      "Turbo"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cin-031",
     "category": "cinema",
-    "difficulty": "medio",
-    "question": "Qual estúdio é responsável pela franquia de filmes \"Harry Potter\"?",
+    "difficulty": "facil",
+    "question": "Qual animação apresenta pequenos seres amarelos chamados Minions?",
     "options": [
-      "Warner Bros.",
-      "Universal Pictures",
-      "Walt Disney Pictures",
-      "Sony Pictures"
+      "Meu Malvado Favorito",
+      "Kung Fu Panda",
+      "Rio",
+      "Madagascar"
     ],
     "correct_index": 0
   },
@@ -406,12 +406,12 @@
     "id": "cin-032",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Quem interpreta o personagem Jack Dawson no filme 'Titanic' (1997)?",
+    "question": "Em qual animação a arara Blu viaja até uma cidade brasileira?",
     "options": [
-      "Brad Pitt",
-      "Leonardo DiCaprio",
-      "Matt Damon",
-      "Tom Cruise"
+      "Madagascar",
+      "Rio",
+      "Zootopia",
+      "Moana"
     ],
     "correct_index": 1
   },
@@ -419,155 +419,155 @@
     "id": "cin-033",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Qual ator interpreta Harry Potter nos filmes da saga?",
+    "question": "Qual ator interpreta Jack no filme \"Titanic\"?",
     "options": [
-      "Rupert Grint",
-      "Daniel Radcliffe",
-      "Tom Felton",
-      "James Phelps"
+      "Johnny Depp",
+      "Brad Pitt",
+      "Tom Cruise",
+      "Leonardo DiCaprio"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cin-034",
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Qual é o nome do leão que ruge na abertura dos filmes da MGM?",
+    "question": "Qual personagem é o ratinho símbolo dos estúdios Disney?",
     "options": [
-      "Simba",
-      "Leo",
-      "Aslan",
-      "Alex"
+      "Jerry",
+      "Speedy Gonzales",
+      "Stuart Little",
+      "Mickey Mouse"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cin-035",
     "category": "cinema",
-    "difficulty": "facil",
-    "question": "Qual estúdio de animação produziu os filmes 'Shrek' e 'Madagascar'?",
+    "difficulty": "medio",
+    "question": "Qual filme sul-coreano ganhou o Oscar de Melhor Filme em 2020?",
     "options": [
-      "Pixar",
-      "DreamWorks Animation",
-      "Illumination",
-      "Blue Sky Studios"
+      "1917",
+      "Coringa",
+      "Roma",
+      "Parasita"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cin-036",
     "category": "cinema",
-    "difficulty": "facil",
-    "question": "Quem interpreta o personagem Wolverine na franquia X-Men?",
+    "difficulty": "medio",
+    "question": "Quem dirigiu os filmes \"A Origem\" e \"Interestelar\"?",
     "options": [
-      "Hugh Jackman",
-      "Patrick Stewart",
-      "Ian McKellen",
-      "Ryan Reynolds"
+      "David Fincher",
+      "Ridley Scott",
+      "Christopher Nolan",
+      "Denis Villeneuve"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cin-037",
     "category": "cinema",
-    "difficulty": "facil",
-    "question": "Qual é o nome do vilão principal na trilogia de filmes 'De Volta para o Futuro'?",
+    "difficulty": "medio",
+    "question": "Quem interpreta o Coringa no filme de 2019 que lhe rendeu o Oscar de Melhor Ator?",
     "options": [
-      "Biff Tannen",
-      "Doc Brown",
-      "George McFly",
-      "Marty McFly"
+      "Jack Nicholson",
+      "Heath Ledger",
+      "Joaquin Phoenix",
+      "Jared Leto"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cin-038",
     "category": "cinema",
-    "difficulty": "facil",
-    "question": "Quem interpreta o personagem Batman no filme 'Batman: O Cavaleiro das Trevas' (2008)?",
+    "difficulty": "medio",
+    "question": "Qual atriz brasileira foi indicada ao Oscar de Melhor Atriz por \"Ainda Estou Aqui\"?",
     "options": [
-      "Ben Affleck",
-      "Christian Bale",
-      "George Clooney",
-      "Val Kilmer"
+      "Sônia Braga",
+      "Fernanda Torres",
+      "Regina Casé",
+      "Fernanda Montenegro"
     ],
     "correct_index": 1
   },
   {
     "id": "cin-039",
     "category": "cinema",
-    "difficulty": "facil",
-    "question": "Qual filme de animação da Pixar conta a história de um robô solitário que limpa uma Terra poluída e abandonada?",
+    "difficulty": "medio",
+    "question": "Qual filme brasileiro ganhou o Oscar de Melhor Filme Internacional em 2025?",
     "options": [
-      "Up: Altas Aventuras",
-      "WALL-E",
-      "Vida de Inseto",
-      "Os Incríveis"
+      "O Auto da Compadecida",
+      "Cidade de Deus",
+      "Ainda Estou Aqui",
+      "Central do Brasil"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "cin-040",
     "category": "cinema",
-    "difficulty": "facil",
-    "question": "Qual atriz interpreta a Mulher-Maravilha nos filmes do universo estendido da DC?",
+    "difficulty": "medio",
+    "question": "Quem dirigiu o filme \"Pulp Fiction\"?",
     "options": [
-      "Margot Robbie",
-      "Gal Gadot",
-      "Scarlett Johansson",
-      "Brie Larson"
+      "Quentin Tarantino",
+      "Martin Scorsese",
+      "Spike Lee",
+      "Joel Coen"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cin-041",
     "category": "cinema",
-    "difficulty": "facil",
-    "question": "Qual diretor mexicano venceu o Oscar de Melhor Diretor por 'A Forma da Água' (2018)?",
+    "difficulty": "medio",
+    "question": "Qual animação da Pixar se passa no mundo dos mortos, inspirada no Dia de Los Muertos mexicano?",
     "options": [
-      "Alfonso Cuarón",
-      "Guillermo del Toro",
-      "Alejandro González Iñárritu",
-      "Robert Rodriguez"
+      "Valente",
+      "Encanto",
+      "Viva – A Vida é uma Festa",
+      "Soul"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "cin-042",
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Qual filme de Christopher Nolan retrata a vida do físico J. Robert Oppenheimer e venceu o Oscar de Melhor Filme em 2024?",
+    "question": "Qual ator interpreta Forrest Gump?",
     "options": [
-      "Dunkirk",
-      "Oppenheimer",
-      "Interestelar",
-      "Tenet"
+      "Tom Hanks",
+      "Robin Williams",
+      "Tom Cruise",
+      "Kevin Costner"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cin-043",
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Qual diretor é conhecido pelos filmes 'Bastardos Inglórios' e 'Django Livre'?",
+    "question": "Qual atriz interpretou Hermione Granger nos filmes de Harry Potter?",
     "options": [
-      "Martin Scorsese",
-      "Quentin Tarantino",
-      "David Fincher",
-      "Guy Ritchie"
+      "Keira Knightley",
+      "Natalie Portman",
+      "Emma Stone",
+      "Emma Watson"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cin-044",
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Qual filme de terror de 1973, sobre uma garota possuída, foi indicado ao Oscar de Melhor Filme?",
+    "question": "Qual vilão de \"O Rei Leão\" é irmão de Mufasa?",
     "options": [
-      "Halloween",
-      "O Exorcista",
-      "A Profecia",
-      "Poltergeist"
+      "Gaston",
+      "Scar",
+      "Jafar",
+      "Hades"
     ],
     "correct_index": 1
   },
@@ -575,38 +575,38 @@
     "id": "cin-045",
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Quem dirigiu a saga de filmes 'De Volta para o Futuro'?",
+    "question": "Qual saga de filmes é baseada nos livros de Suzanne Collins e tem Katniss Everdeen?",
     "options": [
-      "Steven Spielberg",
-      "Robert Zemeckis",
-      "Ivan Reitman",
-      "Chris Columbus"
+      "Jogos Vorazes",
+      "Divergente",
+      "Crepúsculo",
+      "Maze Runner"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cin-046",
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Qual atriz interpreta a personagem Viúva Negra no Universo Cinematográfico Marvel?",
+    "question": "Qual saga de filmes tem a humana Bella Swan e o vampiro Edward Cullen?",
     "options": [
-      "Elizabeth Olsen",
-      "Scarlett Johansson",
-      "Brie Larson",
-      "Zoe Saldana"
+      "Crepúsculo",
+      "Jogos Vorazes",
+      "Divergente",
+      "Percy Jackson"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cin-047",
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Qual filme brasileiro dirigido por Fernando Meirelles retrata a violência nas favelas do Rio de Janeiro nos anos 1970 e 80?",
+    "question": "Qual filme de 2009 se passa em Pandora e tem os Na'vi?",
     "options": [
-      "Central do Brasil",
-      "Cidade de Deus",
-      "Tropa de Elite",
-      "Carandiru"
+      "Prometheus",
+      "Avatar",
+      "Matrix",
+      "Gravidade"
     ],
     "correct_index": 1
   },
@@ -614,25 +614,25 @@
     "id": "cin-048",
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Qual é o nome do estúdio responsável por filmes como 'Divertida Mente' e 'Procurando Nemo'?",
+    "question": "Quem dirigiu \"O Poderoso Chefão\"?",
     "options": [
-      "DreamWorks",
-      "Pixar",
-      "Illumination",
-      "Sony Pictures Animation"
+      "Francis Ford Coppola",
+      "Brian De Palma",
+      "Sidney Lumet",
+      "Martin Scorsese"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cin-049",
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Quem interpreta o Capitão Jack Sparrow na franquia 'Piratas do Caribe'?",
+    "question": "Qual filme deu início ao Universo Cinematográfico da Marvel em 2008?",
     "options": [
-      "Orlando Bloom",
-      "Johnny Depp",
-      "Geoffrey Rush",
-      "Javier Bardem"
+      "Thor",
+      "Homem de Ferro",
+      "Os Vingadores",
+      "O Incrível Hulk"
     ],
     "correct_index": 1
   },
@@ -640,156 +640,663 @@
     "id": "cin-050",
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Qual filme, dirigido pelas 'Daniels' (Daniel Kwan e Daniel Scheinert), venceu o Oscar de Melhor Filme em 2023?",
+    "question": "Qual ator interpretou o Wolverine nos filmes dos X-Men?",
     "options": [
-      "Tudo em Todo Lugar ao Mesmo Tempo",
-      "Os Fabelmans",
-      "Elvis",
-      "Top Gun: Maverick"
+      "Chris Hemsworth",
+      "Hugh Jackman",
+      "Ryan Reynolds",
+      "Christian Bale"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "cin-051",
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Qual atriz brasileira foi indicada ao Oscar de Melhor Atriz por 'Ainda Estou Aqui', dirigido por Walter Salles?",
+    "question": "Qual ator interpretou o deus Thor nos filmes da Marvel?",
     "options": [
-      "Fernanda Montenegro",
-      "Fernanda Torres",
-      "Sônia Braga",
-      "Alice Braga"
+      "Chris Hemsworth",
+      "Chris Evans",
+      "Chris Pine",
+      "Chris Pratt"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cin-052",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual foi o primeiro filme brasileiro a vencer o Oscar de Melhor Filme Internacional, em 2025?",
+    "difficulty": "medio",
+    "question": "Qual filme brasileiro de 1998 mostra uma ex-professora que ajuda um menino a achar o pai?",
     "options": [
+      "O Quatrilho",
       "Central do Brasil",
       "Cidade de Deus",
-      "Ainda Estou Aqui",
-      "Bacurau"
+      "Carandiru"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "cin-053",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual diretor brasileiro dirigiu o filme 'Ainda Estou Aqui' (2024)?",
+    "difficulty": "medio",
+    "question": "Qual filme brasileiro é baseado na obra de Ariano Suassuna e tem João Grilo e Chicó?",
     "options": [
-      "Fernando Meirelles",
-      "Walter Salles",
-      "Kleber Mendonça Filho",
-      "José Padilha"
+      "O Auto da Compadecida",
+      "Vidas Secas",
+      "Dona Flor e Seus Dois Maridos",
+      "Deus e o Diabo na Terra do Sol"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cin-054",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual filme de 1941, dirigido e estrelado por Orson Welles, é frequentemente citado entre os melhores da história do cinema?",
+    "difficulty": "medio",
+    "question": "Qual escritor baiano é autor do romance que originou \"Dona Flor e Seus Dois Maridos\"?",
     "options": [
-      "Casablanca",
-      "Cidadão Kane",
-      "E o Vento Levou",
-      "Rebeca"
+      "Graciliano Ramos",
+      "Guimarães Rosa",
+      "Castro Alves",
+      "Jorge Amado"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cin-055",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual diretor japonês, considerado mestre do cinema, dirigiu 'Rashomon' e 'Os Sete Samurais'?",
+    "difficulty": "medio",
+    "question": "Qual filme de terror tem o palhaço Pennywise?",
     "options": [
-      "Yasujiro Ozu",
-      "Akira Kurosawa",
-      "Hayao Miyazaki",
-      "Takeshi Kitano"
+      "Invocação do Mal",
+      "Annabelle",
+      "Sorria",
+      "It: A Coisa"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cin-056",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual atriz venceu o Oscar de Melhor Atriz por 'O Cisne Negro' (2010)?",
+    "difficulty": "medio",
+    "question": "Qual animação de Hayao Miyazaki ganhou o Oscar de Melhor Animação em 2003?",
     "options": [
-      "Nicole Kidman",
-      "Natalie Portman",
-      "Jennifer Lawrence",
-      "Anne Hathaway"
+      "A Viagem de Chihiro",
+      "Princesa Mononoke",
+      "Meu Vizinho Totoro",
+      "O Castelo Animado"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cin-057",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual foi o primeiro filme da história a ganhar o Oscar de Melhor Filme, na cerimônia de 1929?",
+    "difficulty": "medio",
+    "question": "Qual personagem de \"O Senhor dos Anéis\" diz \"meu precioso\"?",
     "options": [
-      "Wings (Asas)",
-      "Sunrise",
-      "O Cantor de Jazz",
-      "Metropolis"
+      "Gollum",
+      "Sauron",
+      "Boromir",
+      "Saruman"
     ],
     "correct_index": 0
   },
   {
     "id": "cin-058",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual diretor é conhecido por filmes como 'O Iluminado' e 'Laranja Mecânica'?",
+    "difficulty": "medio",
+    "question": "Qual filme traz Will Smith como um pai sem casa que busca emprego com o filho?",
     "options": [
-      "Stanley Kubrick",
-      "Alfred Hitchcock",
-      "William Friedkin",
-      "Roman Polanski"
+      "Eu, Robô",
+      "Eu Sou a Lenda",
+      "Homens de Preto",
+      "À Procura da Felicidade"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "cin-059",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual atriz interpretou a Rainha Elizabeth II no filme 'A Rainha' (2006), vencendo o Oscar de Melhor Atriz?",
+    "difficulty": "medio",
+    "question": "Por qual filme Leonardo DiCaprio ganhou o Oscar de Melhor Ator?",
     "options": [
-      "Judi Dench",
-      "Helen Mirren",
-      "Meryl Streep",
-      "Emma Thompson"
+      "Ilha do Medo",
+      "Django Livre",
+      "O Regresso",
+      "O Lobo de Wall Street"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "cin-060",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual diretor mexicano venceu o Oscar de Melhor Diretor por 'Birdman' (2015) e 'O Regresso' (2016), em anos consecutivos?",
+    "difficulty": "medio",
+    "question": "Qual é o nome da cidade fictícia onde vive o Batman?",
     "options": [
-      "Alfonso Cuarón",
-      "Alejandro González Iñárritu",
-      "Guillermo del Toro",
-      "Guillermo Arriaga"
+      "Central City",
+      "Springfield",
+      "Metrópolis",
+      "Gotham City"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cin-061",
     "category": "cinema",
-    "difficulty": "dificil",
-    "question": "Qual diretor sueco é autor de clássicos do cinema de arte como 'O Sétimo Selo' e 'Morangos Silvestres'?",
+    "difficulty": "medio",
+    "question": "Qual atriz interpreta Katniss Everdeen em \"Jogos Vorazes\"?",
     "options": [
-      "Ingmar Bergman",
-      "Roy Andersson",
-      "Lukas Moodysson",
-      "Lasse Hallström"
+      "Emma Stone",
+      "Shailene Woodley",
+      "Kristen Stewart",
+      "Jennifer Lawrence"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-062",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem dirigiu o filme \"Tropa de Elite\"?",
+    "options": [
+      "Fernando Meirelles",
+      "Walter Salles",
+      "Kleber Mendonça Filho",
+      "José Padilha"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-063",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Quem dirigiu o filme \"Cidade de Deus\"?",
+    "options": [
+      "Walter Salles",
+      "Fernando Meirelles",
+      "José Padilha",
+      "Héctor Babenco"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-064",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual ator brasileiro interpreta o Capitão Nascimento em \"Tropa de Elite\"?",
+    "options": [
+      "Wagner Moura",
+      "Selton Mello",
+      "Lázaro Ramos",
+      "Rodrigo Santoro"
     ],
     "correct_index": 0
+  },
+  {
+    "id": "cin-065",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual filme da Disney se passa na Colômbia e tem a família Madrigal?",
+    "options": [
+      "Viva – A Vida é uma Festa",
+      "Moana",
+      "Raya e o Último Dragão",
+      "Encanto"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-066",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual animação tem o robô inflável Baymax?",
+    "options": [
+      "O Gigante de Ferro",
+      "WALL-E",
+      "Robôs",
+      "Operação Big Hero"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-067",
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual animação traz o ratinho Remy, que sonha ser chef de cozinha em Paris?",
+    "options": [
+      "Rio",
+      "Procurando Nemo",
+      "Ratatouille",
+      "Carros"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-068",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme de 1997 ganhou 11 Oscars?",
+    "options": [
+      "Avatar",
+      "Gladiador",
+      "Titanic",
+      "Forrest Gump"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-069",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual foi o primeiro longa-metragem de animação da Disney, lançado em 1937?",
+    "options": [
+      "Dumbo",
+      "Branca de Neve e os Sete Anões",
+      "Pinóquio",
+      "Bambi"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-070",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Em qual cidade francesa acontece o festival de cinema que concede a Palma de Ouro?",
+    "options": [
+      "Berlim",
+      "Cannes",
+      "Toronto",
+      "Veneza"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-071",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual diretor fez \"Psicose\" e \"Os Pássaros\"?",
+    "options": [
+      "Orson Welles",
+      "Alfred Hitchcock",
+      "Stanley Kubrick",
+      "Billy Wilder"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-072",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme de Orson Welles é frequentemente apontado como um dos maiores da história?",
+    "options": [
+      "Psicose",
+      "E o Vento Levou",
+      "Casablanca",
+      "Cidadão Kane"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-073",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual cantora e atriz protagonizou \"Nasce uma Estrela\" (2018) com Bradley Cooper?",
+    "options": [
+      "Rihanna",
+      "Beyoncé",
+      "Adele",
+      "Lady Gaga"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-074",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme de Stanley Kubrick tem o computador HAL 9000?",
+    "options": [
+      "Laranja Mecânica",
+      "O Iluminado",
+      "Nascido para Matar",
+      "2001: Uma Odisseia no Espaço"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-075",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme de terror com Jack Nicholson se passa em um hotel isolado no inverno?",
+    "options": [
+      "O Exorcista",
+      "Halloween",
+      "Carrie, a Estranha",
+      "O Iluminado"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-076",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do cachorro de Dorothy em \"O Mágico de Oz\"?",
+    "options": [
+      "Totó",
+      "Rex",
+      "Lassie",
+      "Pluto"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-077",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual personagem arqueólogo usa chicote e chapéu nos filmes dirigidos por Spielberg?",
+    "options": [
+      "Lara Croft",
+      "Han Solo",
+      "Rick O'Connell",
+      "Indiana Jones"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-078",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual cineasta baiano dirigiu \"Deus e o Diabo na Terra do Sol\"?",
+    "options": [
+      "Glauber Rocha",
+      "Rogério Sganzerla",
+      "Nelson Pereira dos Santos",
+      "Cacá Diegues"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-079",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme brasileiro dirigido por Kleber Mendonça Filho e Juliano Dornelles ganhou prêmio em Cannes em 2019?",
+    "options": [
+      "Pacarrete",
+      "Aquarius",
+      "O Som ao Redor",
+      "Bacurau"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-080",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual cineasta brasileiro dirigiu \"Central do Brasil\"?",
+    "options": [
+      "Héctor Babenco",
+      "Walter Salles",
+      "Fernando Meirelles",
+      "Bruno Barreto"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-081",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual é o sobrenome da família mafiosa em \"O Poderoso Chefão\"?",
+    "options": [
+      "Gambino",
+      "Corleone",
+      "Genovese",
+      "Soprano"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-082",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual ator interpretou Vito Corleone no primeiro \"O Poderoso Chefão\"?",
+    "options": [
+      "James Caan",
+      "Al Pacino",
+      "Marlon Brando",
+      "Robert De Niro"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-083",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual ator interpretou Michael Corleone em \"O Poderoso Chefão\"?",
+    "options": [
+      "Robert Duvall",
+      "Robert De Niro",
+      "Marlon Brando",
+      "Al Pacino"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-084",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual ator vive Bruce Wayne na trilogia do Batman dirigida por Christopher Nolan?",
+    "options": [
+      "Robert Pattinson",
+      "Ben Affleck",
+      "Michael Keaton",
+      "Christian Bale"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-085",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual ator interpretou o Coringa em \"O Cavaleiro das Trevas\" (2008) e ganhou Oscar póstumo?",
+    "options": [
+      "Jared Leto",
+      "Jack Nicholson",
+      "Heath Ledger",
+      "Joaquin Phoenix"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-086",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do protagonista da série de filmes \"Matrix\"?",
+    "options": [
+      "Neo",
+      "Trinity",
+      "Morpheus",
+      "Agente Smith"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-087",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual clássico de 1939 tem Scarlett O'Hara e Rhett Butler?",
+    "options": [
+      "Casablanca",
+      "Ben-Hur",
+      "Cidadão Kane",
+      "E o Vento Levou"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-088",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual animação de Miyazaki tem uma criatura gigante e fofa que é também um gato-ônibus?",
+    "options": [
+      "Kiki: Entregas Rápidas",
+      "Meu Vizinho Totoro",
+      "O Castelo no Céu",
+      "Ponyo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-089",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual estúdio criou \"Toy Story\", o primeiro longa totalmente feito em computação gráfica?",
+    "options": [
+      "Blue Sky",
+      "DreamWorks",
+      "Pixar",
+      "Illumination"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-090",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme de 2010, de Christopher Nolan, trata de invadir sonhos dentro de sonhos?",
+    "options": [
+      "Dunkirk",
+      "Interestelar",
+      "A Origem",
+      "Tenet"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-091",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual animação da DreamWorks tem um panda que vira mestre de kung fu?",
+    "options": [
+      "Kung Fu Panda",
+      "Madagascar",
+      "Shrek",
+      "Como Treinar o Seu Dragão"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-092",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual ator interpretou o mago Gandalf na trilogia \"O Senhor dos Anéis\"?",
+    "options": [
+      "Patrick Stewart",
+      "Ian Holm",
+      "Christopher Lee",
+      "Ian McKellen"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-093",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual ator-mirim viveu o garoto que vê gente morta em \"O Sexto Sentido\"?",
+    "options": [
+      "Elijah Wood",
+      "Daniel Radcliffe",
+      "Macaulay Culkin",
+      "Haley Joel Osment"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-094",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual autor escreveu o livro que inspirou \"Ainda Estou Aqui\"?",
+    "options": [
+      "Rubem Fonseca",
+      "Chico Buarque",
+      "Luiz Ruffato",
+      "Marcelo Rubens Paiva"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "cin-095",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual ator brasileiro interpreta Rubens Paiva em \"Ainda Estou Aqui\"?",
+    "options": [
+      "Rodrigo Santoro",
+      "Selton Mello",
+      "Lázaro Ramos",
+      "Wagner Moura"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cin-096",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme estreou em 2023 no mesmo dia que \"Oppenheimer\", no fenômeno \"Barbenheimer\"?",
+    "options": [
+      "Barbie",
+      "Super Mario Bros.",
+      "Missão: Impossível",
+      "The Flash"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-097",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual ator interpretou J. Robert Oppenheimer no filme de Christopher Nolan?",
+    "options": [
+      "Robert Downey Jr.",
+      "Matt Damon",
+      "Cillian Murphy",
+      "Emily Blunt"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-098",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da nave de Han Solo em \"Star Wars\"?",
+    "options": [
+      "Serenity",
+      "Enterprise",
+      "Millennium Falcon",
+      "Nostromo"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cin-099",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme de 1982 tem um alienígena que quer \"telefonar para casa\"?",
+    "options": [
+      "E.T. – O Extraterrestre",
+      "Alien",
+      "Predador",
+      "Contatos Imediatos do Terceiro Grau"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cin-100",
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual filme de 1994 tem Tim Robbins e Morgan Freeman em uma prisão?",
+    "options": [
+      "À Espera de um Milagre",
+      "O Resgate do Soldado Ryan",
+      "Fuga de Alcatraz",
+      "Um Sonho de Liberdade"
+    ],
+    "correct_index": 3
   }
 ]

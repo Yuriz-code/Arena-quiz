@@ -2,78 +2,78 @@
   {
     "id": "lit-001",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Quem escreveu 'Dom Casmurro'?",
+    "difficulty": "facil",
+    "question": "Quem escreveu o romance \"Dom Casmurro\"?",
     "options": [
-      "Clarice Lispector",
+      "Aluísio Azevedo",
+      "Lima Barreto",
       "Machado de Assis",
-      "Graciliano Ramos",
       "José de Alencar"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "lit-002",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Quem escreveu a saga 'Harry Potter'?",
+    "question": "Quem escreveu \"O Pequeno Príncipe\"?",
     "options": [
-      "J.K. Rowling",
-      "C.S. Lewis",
-      "George R.R. Martin",
-      "J.R.R. Tolkien"
+      "Monteiro Lobato",
+      "Antoine de Saint-Exupéry",
+      "Victor Hugo",
+      "Júlio Verne"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "lit-003",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Qual é o autor de 'Romeu e Julieta'?",
+    "question": "Quem criou o Sítio do Picapau Amarelo?",
     "options": [
-      "Victor Hugo",
-      "Charles Dickens",
-      "William Shakespeare",
-      "Oscar Wilde"
+      "Monteiro Lobato",
+      "Maurício de Sousa",
+      "Ziraldo",
+      "Ruth Rocha"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "lit-004",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Quem escreveu 'Grande Sertão: Veredas'?",
+    "difficulty": "facil",
+    "question": "Qual personagem do Sítio do Picapau Amarelo é uma boneca de pano falante?",
     "options": [
-      "Érico Veríssimo",
-      "Jorge Amado",
-      "Guimarães Rosa",
-      "Rachel de Queiroz"
+      "Cuca",
+      "Emília",
+      "Tia Nastácia",
+      "Narizinho"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "lit-005",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual obra de Machado de Assis é narrada por um defunto-autor?",
+    "difficulty": "facil",
+    "question": "Quem criou o bruxo Harry Potter?",
     "options": [
-      "Iaiá Garcia",
-      "Memórias Póstumas de Brás Cubas",
-      "Esaú e Jacó",
-      "Quincas Borba"
+      "C. S. Lewis",
+      "J. K. Rowling",
+      "Roald Dahl",
+      "J. R. R. Tolkien"
     ],
     "correct_index": 1
   },
   {
     "id": "lit-006",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Quem escreveu 'Cem Anos de Solidão'?",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"Romeu e Julieta\"?",
     "options": [
-      "Pablo Neruda",
-      "Mario Vargas Llosa",
-      "Jorge Luis Borges",
-      "Gabriel García Márquez"
+      "Victor Hugo",
+      "Charles Dickens",
+      "Miguel de Cervantes",
+      "William Shakespeare"
     ],
     "correct_index": 3
   },
@@ -81,129 +81,129 @@
     "id": "lit-007",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Quem é a autora da saga \"Harry Potter\"?",
+    "question": "Quem escreveu \"O Senhor dos Anéis\"?",
     "options": [
-      "Suzanne Collins",
-      "J.R.R. Tolkien",
-      "C.S. Lewis",
-      "J.K. Rowling"
+      "C. S. Lewis",
+      "J. K. Rowling",
+      "J. R. R. Tolkien",
+      "George R. R. Martin"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "lit-008",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Quem escreveu \"Romeu e Julieta\"?",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"Capitães da Areia\"?",
     "options": [
-      "Oscar Wilde",
-      "William Shakespeare",
-      "Charles Dickens",
-      "Victor Hugo"
+      "Jorge Amado",
+      "José Lins do Rego",
+      "Graciliano Ramos",
+      "Érico Veríssimo"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "lit-009",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Qual escritor brasileiro escreveu \"Grande Sertão: Veredas\"?",
+    "difficulty": "facil",
+    "question": "Em qual cidade se passa a maior parte de \"Capitães da Areia\"?",
     "options": [
-      "Jorge Amado",
-      "João Guimarães Rosa",
-      "Clarice Lispector",
-      "Machado de Assis"
+      "Rio de Janeiro",
+      "São Paulo",
+      "Recife",
+      "Salvador"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "lit-010",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Quem escreveu o romance \"Cem Anos de Solidão\"?",
+    "difficulty": "facil",
+    "question": "Quem escreveu o romance \"Iracema\"?",
     "options": [
-      "Mario Vargas Llosa",
-      "Pablo Neruda",
-      "Gabriel García Márquez",
-      "Jorge Luis Borges"
+      "Gonçalves Dias",
+      "Castro Alves",
+      "Machado de Assis",
+      "José de Alencar"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "lit-011",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Quem escreveu \"O Pequeno Príncipe\"?",
+    "question": "Quem escreveu \"O Cortiço\"?",
     "options": [
-      "Albert Camus",
-      "Victor Hugo",
-      "Jules Verne",
-      "Antoine de Saint-Exupéry"
+      "Raul Pompeia",
+      "Aluísio Azevedo",
+      "Lima Barreto",
+      "Machado de Assis"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "lit-012",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Qual escritora brasileira é autora de \"A Hora da Estrela\"?",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"A Metamorfose\", em que um homem acorda transformado em inseto?",
     "options": [
-      "Rachel de Queiroz",
-      "Lygia Fagundes Telles",
-      "Clarice Lispector",
-      "Cecília Meireles"
+      "Fiódor Dostoiévski",
+      "Jean-Paul Sartre",
+      "Albert Camus",
+      "Franz Kafka"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "lit-013",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Quem escreveu a \"Divina Comédia\"?",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"Dom Quixote\"?",
     "options": [
+      "Luís de Camões",
+      "William Shakespeare",
       "Dante Alighieri",
-      "Francesco Petrarca",
-      "Petrarca",
-      "Giovanni Boccaccio"
+      "Miguel de Cervantes"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "lit-014",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Quem escreveu \"Iracema\" e \"O Guarani\"?",
+    "question": "Quem escreveu \"As Crônicas de Nárnia\"?",
     "options": [
-      "Machado de Assis",
-      "José de Alencar",
-      "Gonçalves Dias",
-      "Castro Alves"
+      "C. S. Lewis",
+      "Roald Dahl",
+      "J. K. Rowling",
+      "J. R. R. Tolkien"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "lit-015",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Qual é o sobrenome do autor da trilogia \"O Senhor dos Anéis\"?",
+    "difficulty": "facil",
+    "question": "Qual conto de fadas tem uma menina de capuz vermelho e um lobo?",
     "options": [
-      "Martin",
-      "Tolkien",
-      "Rowling",
-      "Lewis"
+      "Chapeuzinho Vermelho",
+      "Cinderela",
+      "Branca de Neve",
+      "Rapunzel"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "lit-016",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Quem escreveu \"Crime e Castigo\"?",
+    "difficulty": "facil",
+    "question": "Qual conto de fadas tem uma princesa que perde o sapatinho de cristal?",
     "options": [
-      "Fiódor Dostoiévski",
-      "Liev Tolstói",
-      "Nikolai Gógol",
-      "Anton Tchekhov"
+      "Cinderela",
+      "A Pequena Sereia",
+      "Branca de Neve",
+      "A Bela Adormecida"
     ],
     "correct_index": 0
   },
@@ -211,155 +211,155 @@
     "id": "lit-017",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Qual poeta brasileiro é conhecido como \"Poeta dos Escravos\" por seus poemas abolicionistas?",
+    "question": "Quem escreveu os contos \"A Pequena Sereia\" e \"O Patinho Feio\"?",
     "options": [
-      "Castro Alves",
-      "Gonçalves Dias",
-      "Olavo Bilac",
-      "Manuel Bandeira"
+      "Hans Christian Andersen",
+      "Irmãos Grimm",
+      "Monteiro Lobato",
+      "Charles Perrault"
     ],
     "correct_index": 0
   },
   {
     "id": "lit-018",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Quem escreveu \"1984\" e \"A Revolução dos Bichos\"?",
+    "difficulty": "facil",
+    "question": "Quem foi a adolescente judia que escreveu um diário famoso enquanto se escondia dos nazistas?",
     "options": [
-      "Ray Bradbury",
-      "H.G. Wells",
-      "George Orwell",
-      "Aldous Huxley"
+      "Clarice Lispector",
+      "Cecília Meireles",
+      "Anne Frank",
+      "Carolina Maria de Jesus"
     ],
     "correct_index": 2
   },
   {
     "id": "lit-019",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual escritor português escreveu \"Os Lusíadas\"?",
+    "difficulty": "facil",
+    "question": "Qual escritora inglesa escreveu \"Orgulho e Preconceito\"?",
     "options": [
-      "Eça de Queirós",
-      "Luís de Camões",
-      "Fernando Pessoa",
-      "José Saramago"
+      "Virginia Woolf",
+      "Charlotte Brontë",
+      "Jane Austen",
+      "Agatha Christie"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "lit-020",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Quem escreveu a série de livros \"Percy Jackson\"?",
+    "question": "Qual escritora é conhecida como a \"Rainha do Crime\"?",
     "options": [
-      "Suzanne Collins",
-      "J.K. Rowling",
-      "Rick Riordan",
-      "Veronica Roth"
+      "Patricia Highsmith",
+      "Agatha Christie",
+      "Jane Austen",
+      "J. K. Rowling"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "lit-021",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Quem escreveu 'A Metamorfose'?",
+    "difficulty": "facil",
+    "question": "Quem criou o detetive Sherlock Holmes?",
     "options": [
-      "Franz Kafka",
-      "Albert Camus",
-      "Fiódor Dostoiévski",
-      "Marcel Proust"
+      "Edgar Allan Poe",
+      "Agatha Christie",
+      "Arthur Conan Doyle",
+      "Georges Simenon"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "lit-022",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Quem escreveu \"Os Miseráveis\"?",
+    "question": "Quem é o parceiro e narrador das histórias de Sherlock Holmes?",
     "options": [
-      "Alexandre Dumas",
-      "Émile Zola",
-      "Gustave Flaubert",
-      "Victor Hugo"
+      "Moriarty",
+      "Dr. Watson",
+      "Lestrade",
+      "Mycroft"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "lit-023",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Qual escritor brasileiro escreveu \"Vidas Secas\", um dos principais nomes do romance de 30?",
+    "question": "Quem criou o \"Menino Maluquinho\"?",
     "options": [
-      "Graciliano Ramos",
-      "Jorge Amado",
-      "José Lins do Rego",
-      "Rachel de Queiroz"
+      "Pedro Bandeira",
+      "Ziraldo",
+      "Maurício de Sousa",
+      "Monteiro Lobato"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "lit-024",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Quem escreveu \"Dom Quixote\"?",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"O Auto da Compadecida\"?",
     "options": [
-      "Lope de Vega",
-      "Federico García Lorca",
-      "Miguel de Cervantes",
-      "Gabriel García Márquez"
+      "Jorge Amado",
+      "Graciliano Ramos",
+      "Ariano Suassuna",
+      "Guimarães Rosa"
     ],
     "correct_index": 2
   },
   {
     "id": "lit-025",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Qual escritora inglesa escreveu \"Orgulho e Preconceito\"?",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"Vidas Secas\"?",
     "options": [
-      "Charlotte Brontë",
-      "Jane Austen",
-      "Emily Dickinson",
-      "Virginia Woolf"
+      "Jorge Amado",
+      "José Lins do Rego",
+      "Rachel de Queiroz",
+      "Graciliano Ramos"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "lit-026",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Quem escreveu a trilogia \"Jogos Vorazes\"?",
+    "question": "Quem escreveu \"Grande Sertão: Veredas\"?",
     "options": [
-      "Veronica Roth",
-      "Stephenie Meyer",
-      "Suzanne Collins",
-      "J.K. Rowling"
+      "João Guimarães Rosa",
+      "Jorge Amado",
+      "Graciliano Ramos",
+      "Euclides da Cunha"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "lit-027",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual movimento literário brasileiro, anterior ao Modernismo, valorizava temas indígenas e nacionalistas, com José de Alencar como destaque?",
+    "difficulty": "facil",
+    "question": "Quem escreveu \"A Hora da Estrela\"?",
     "options": [
-      "Modernismo",
-      "Barroco",
-      "Realismo",
-      "Romantismo"
+      "Cecília Meireles",
+      "Rachel de Queiroz",
+      "Clarice Lispector",
+      "Lygia Fagundes Telles"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "lit-028",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Quem escreveu \"O Cortiço\", romance naturalista brasileiro?",
+    "difficulty": "facil",
+    "question": "Qual poeta brasileiro escreveu \"Canção do Exílio\"?",
     "options": [
-      "Machado de Assis",
-      "Lima Barreto",
-      "Euclides da Cunha",
-      "Aluísio Azevedo"
+      "Casimiro de Abreu",
+      "Castro Alves",
+      "Álvares de Azevedo",
+      "Gonçalves Dias"
     ],
     "correct_index": 3
   },
@@ -367,51 +367,51 @@
     "id": "lit-029",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Quem escreveu a saga \"Crepúsculo\"?",
+    "question": "Qual poeta baiano é conhecido como o \"Poeta dos Escravos\"?",
     "options": [
-      "Stephenie Meyer",
-      "Cassandra Clare",
-      "Veronica Roth",
-      "John Green"
+      "Castro Alves",
+      "Gregório de Matos",
+      "Gonçalves Dias",
+      "Jorge Amado"
     ],
     "correct_index": 0
   },
   {
     "id": "lit-030",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual escritor português escreveu \"Memorial do Convento\" e recebeu o Prêmio Nobel de Literatura em 1998?",
+    "difficulty": "facil",
+    "question": "Qual poeta escreveu \"No Meio do Caminho tinha uma pedra\"?",
     "options": [
-      "Fernando Pessoa",
-      "Eça de Queirós",
-      "António Lobo Antunes",
-      "José Saramago"
+      "Manuel Bandeira",
+      "Carlos Drummond de Andrade",
+      "Vinicius de Moraes",
+      "Cecília Meireles"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "lit-031",
     "category": "literatura",
-    "difficulty": "medio",
-    "question": "Quem escreveu \"Capitães da Areia\", romance ambientado na Bahia?",
+    "difficulty": "facil",
+    "question": "Qual livro tem uma menina que cai na toca de um coelho?",
     "options": [
-      "Jorge Amado",
-      "Graciliano Ramos",
-      "Érico Veríssimo",
-      "Rachel de Queiroz"
+      "O Mágico de Oz",
+      "Alice no País das Maravilhas",
+      "Peter Pan",
+      "Pinóquio"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "lit-032",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Quem escreveu 'A Moreninha', considerado um dos primeiros romances urbanos brasileiros?",
+    "question": "Qual personagem tem o nariz que cresce quando mente?",
     "options": [
-      "Machado de Assis",
-      "Joaquim Manuel de Macedo",
-      "José de Alencar",
-      "Aluísio Azevedo"
+      "Peter Pan",
+      "Pinóquio",
+      "Mogli",
+      "Aladdin"
     ],
     "correct_index": 1
   },
@@ -419,12 +419,12 @@
     "id": "lit-033",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Quem escreveu a saga de livros 'As Crônicas de Nárnia'?",
+    "question": "Quem escreveu \"Os Lusíadas\"?",
     "options": [
-      "J.R.R. Tolkien",
-      "C.S. Lewis",
-      "Philip Pullman",
-      "Roald Dahl"
+      "Machado de Assis",
+      "Luís de Camões",
+      "Eça de Queirós",
+      "Fernando Pessoa"
     ],
     "correct_index": 1
   },
@@ -432,129 +432,129 @@
     "id": "lit-034",
     "category": "literatura",
     "difficulty": "facil",
-    "question": "Quem escreveu 'Alice no País das Maravilhas'?",
+    "question": "Como se chama o gênero de texto escrito em versos?",
     "options": [
-      "Lewis Carroll",
-      "Hans Christian Andersen",
-      "Charles Dickens",
-      "J.M. Barrie"
+      "Romance",
+      "Notícia",
+      "Poesia",
+      "Crônica"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "lit-035",
     "category": "literatura",
-    "difficulty": "facil",
-    "question": "Quem é o autor da peça 'Hamlet'?",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"O Alquimista\"?",
     "options": [
-      "Christopher Marlowe",
-      "William Shakespeare",
-      "Molière",
-      "Sófocles"
+      "Jorge Amado",
+      "Rubem Fonseca",
+      "Luis Fernando Verissimo",
+      "Paulo Coelho"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "lit-036",
     "category": "literatura",
-    "difficulty": "facil",
-    "question": "Quem escreveu o romance que originou o filme 'O Poderoso Chefão'?",
+    "difficulty": "medio",
+    "question": "Qual cidade baiana é cenário de \"Gabriela, Cravo e Canela\"?",
     "options": [
-      "Mario Puzo",
-      "Ernest Hemingway",
-      "Truman Capote",
-      "John Grisham"
+      "Porto Seguro",
+      "Ilhéus",
+      "Itabuna",
+      "Salvador"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "lit-037",
     "category": "literatura",
-    "difficulty": "facil",
-    "question": "Quem escreveu 'Diário de Um Banana' ('Diary of a Wimpy Kid')?",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Gabriela, Cravo e Canela\"?",
     "options": [
-      "Jeff Kinney",
-      "R.L. Stine",
-      "Dav Pilkey",
-      "Rick Riordan"
+      "Graciliano Ramos",
+      "Érico Veríssimo",
+      "Jorge Amado",
+      "Ariano Suassuna"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "lit-038",
     "category": "literatura",
-    "difficulty": "facil",
-    "question": "Quem escreveu o livro 'O Alquimista'?",
+    "difficulty": "medio",
+    "question": "Em qual cidade baiana nasceu o escritor Jorge Amado?",
     "options": [
-      "Rubem Fonseca",
-      "Paulo Coelho",
-      "Jorge Amado",
-      "Machado de Assis"
+      "Salvador",
+      "Itabuna",
+      "Ilhéus",
+      "Cachoeira"
     ],
     "correct_index": 1
   },
   {
     "id": "lit-039",
     "category": "literatura",
-    "difficulty": "facil",
-    "question": "Qual escritor brasileiro foi o fundador e primeiro presidente da Academia Brasileira de Letras?",
+    "difficulty": "medio",
+    "question": "Qual obra de Machado de Assis tem um narrador que já morreu?",
     "options": [
-      "José de Alencar",
-      "Machado de Assis",
-      "Castro Alves",
-      "Euclides da Cunha"
+      "Quincas Borba",
+      "Dom Casmurro",
+      "Memórias Póstumas de Brás Cubas",
+      "Helena"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "lit-040",
     "category": "literatura",
-    "difficulty": "facil",
-    "question": "Quem escreveu 'Peter Pan'?",
+    "difficulty": "medio",
+    "question": "Qual personagem de \"Dom Casmurro\" é famosa pelos \"olhos de ressaca\"?",
     "options": [
-      "J.M. Barrie",
-      "Lewis Carroll",
-      "Rudyard Kipling",
-      "A.A. Milne"
+      "Sofia",
+      "Capitu",
+      "Helena",
+      "Virgília"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "lit-041",
     "category": "literatura",
-    "difficulty": "facil",
-    "question": "Quem escreveu a saga de fantasia 'As Crônicas de Gelo e Fogo' ('A Guerra dos Tronos')?",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"O Primo Basílio\"?",
     "options": [
-      "George R.R. Martin",
-      "J.R.R. Tolkien",
-      "Brandon Sanderson",
-      "Patrick Rothfuss"
+      "Camilo Castelo Branco",
+      "José Saramago",
+      "Eça de Queirós",
+      "Machado de Assis"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "lit-042",
     "category": "literatura",
     "difficulty": "medio",
-    "question": "Qual escritor brasileiro escreveu 'Os Sertões', obra que retrata a Guerra de Canudos?",
+    "question": "Quem escreveu \"Laços de Família\"?",
     "options": [
-      "Euclides da Cunha",
-      "Graciliano Ramos",
-      "Lima Barreto",
-      "Monteiro Lobato"
+      "Rachel de Queiroz",
+      "Cecília Meireles",
+      "Lygia Fagundes Telles",
+      "Clarice Lispector"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "lit-043",
     "category": "literatura",
     "difficulty": "medio",
-    "question": "Quem escreveu 'Memórias Póstumas de Brás Cubas'?",
+    "question": "Quem escreveu o romance \"1984\"?",
     "options": [
-      "José de Alencar",
-      "Machado de Assis",
-      "Aluísio Azevedo",
-      "Raul Pompeia"
+      "Aldous Huxley",
+      "George Orwell",
+      "Ray Bradbury",
+      "H. G. Wells"
     ],
     "correct_index": 1
   },
@@ -562,38 +562,38 @@
     "id": "lit-044",
     "category": "literatura",
     "difficulty": "medio",
-    "question": "Qual escritor criou o universo infantil do Sítio do Picapau Amarelo?",
+    "question": "Quem escreveu \"A Revolução dos Bichos\"?",
     "options": [
-      "Monteiro Lobato",
-      "Ziraldo",
-      "Ruth Rocha",
-      "Ana Maria Machado"
+      "Franz Kafka",
+      "Ernest Hemingway",
+      "Aldous Huxley",
+      "George Orwell"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "lit-045",
     "category": "literatura",
     "difficulty": "medio",
-    "question": "Quem escreveu o romance distópico 'Admirável Mundo Novo'?",
+    "question": "Quem escreveu \"Frankenstein\"?",
     "options": [
-      "George Orwell",
-      "Aldous Huxley",
-      "Ray Bradbury",
-      "Philip K. Dick"
+      "Mary Shelley",
+      "Jane Austen",
+      "Emily Brontë",
+      "Bram Stoker"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "lit-046",
     "category": "literatura",
     "difficulty": "medio",
-    "question": "Qual escritora britânica criou o detetive Hercule Poirot?",
+    "question": "Quem escreveu \"Drácula\"?",
     "options": [
-      "Dorothy L. Sayers",
-      "Agatha Christie",
-      "P.D. James",
-      "Ruth Rendell"
+      "Edgar Allan Poe",
+      "Bram Stoker",
+      "Stephen King",
+      "Mary Shelley"
     ],
     "correct_index": 1
   },
@@ -601,12 +601,12 @@
     "id": "lit-047",
     "category": "literatura",
     "difficulty": "medio",
-    "question": "Quem escreveu 'O Retrato de Dorian Gray'?",
+    "question": "Quem escreveu \"O Código Da Vinci\"?",
     "options": [
-      "Oscar Wilde",
-      "Bram Stoker",
-      "Robert Louis Stevenson",
-      "Arthur Conan Doyle"
+      "Dan Brown",
+      "John Grisham",
+      "Paulo Coelho",
+      "Stephen King"
     ],
     "correct_index": 0
   },
@@ -614,182 +614,689 @@
     "id": "lit-048",
     "category": "literatura",
     "difficulty": "medio",
-    "question": "Qual escritor russo escreveu 'Guerra e Paz' e 'Anna Kariênina'?",
+    "question": "Quem escreveu \"Cem Anos de Solidão\"?",
     "options": [
-      "Fiódor Dostoiévski",
-      "Liev Tolstói",
-      "Anton Tchekhov",
-      "Ivan Turguêniev"
+      "Gabriel García Márquez",
+      "Mario Vargas Llosa",
+      "Pablo Neruda",
+      "Jorge Luis Borges"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "lit-049",
     "category": "literatura",
     "difficulty": "medio",
-    "question": "Quem escreveu a peça 'O Auto da Compadecida'?",
+    "question": "Qual autor escreveu \"A Volta ao Mundo em 80 Dias\"?",
     "options": [
-      "Ariano Suassuna",
-      "Nelson Rodrigues",
-      "Chico Buarque",
-      "Dias Gomes"
+      "Mark Twain",
+      "Alexandre Dumas",
+      "Júlio Verne",
+      "H. G. Wells"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "lit-050",
     "category": "literatura",
     "difficulty": "medio",
-    "question": "Qual escritor criou o detetive Sherlock Holmes?",
+    "question": "Quem escreveu \"Os Miseráveis\"?",
     "options": [
-      "Agatha Christie",
-      "Arthur Conan Doyle",
-      "Edgar Allan Poe",
-      "Wilkie Collins"
+      "Gustave Flaubert",
+      "Honoré de Balzac",
+      "Victor Hugo",
+      "Alexandre Dumas"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "lit-051",
     "category": "literatura",
     "difficulty": "medio",
-    "question": "Quem escreveu 'A Culpa é das Estrelas' ('The Fault in Our Stars')?",
+    "question": "Quem escreveu \"Os Três Mosqueteiros\"?",
     "options": [
-      "John Green",
-      "Nicholas Sparks",
-      "Rainbow Rowell",
-      "Jay Asher"
+      "Júlio Verne",
+      "Molière",
+      "Victor Hugo",
+      "Alexandre Dumas"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "lit-052",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual escritor francês escreveu 'Em Busca do Tempo Perdido', obra fundamental da literatura moderna?",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Moby Dick\"?",
     "options": [
-      "Albert Camus",
-      "Marcel Proust",
-      "Jean-Paul Sartre",
-      "André Gide"
+      "Mark Twain",
+      "Jack London",
+      "Ernest Hemingway",
+      "Herman Melville"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "lit-053",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Quem escreveu 'Ulysses', romance modernista ambientado em Dublin?",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Crime e Castigo\"?",
     "options": [
-      "James Joyce",
-      "Samuel Beckett",
-      "Oscar Wilde",
-      "W.B. Yeats"
+      "Liev Tolstói",
+      "Nikolai Gógol",
+      "Fiódor Dostoiévski",
+      "Anton Tchékhov"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "lit-054",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual escritora inglesa do século XIX, autora de 'O Morro dos Ventos Uivantes', pertencia a uma família de escritoras irmãs?",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Guerra e Paz\"?",
     "options": [
-      "Charlotte Brontë",
-      "Emily Brontë",
-      "Jane Austen",
-      "George Eliot"
+      "Maksim Górki",
+      "Liev Tolstói",
+      "Anton Tchékhov",
+      "Fiódor Dostoiévski"
     ],
     "correct_index": 1
   },
   {
     "id": "lit-055",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Quem escreveu o poema épico 'Paraíso Perdido'?",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"O Velho e o Mar\"?",
     "options": [
-      "William Blake",
-      "John Milton",
-      "Alexander Pope",
-      "Lord Byron"
+      "John Steinbeck",
+      "Ernest Hemingway",
+      "F. Scott Fitzgerald",
+      "Mark Twain"
     ],
     "correct_index": 1
   },
   {
     "id": "lit-056",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual escritor argentino é famoso por contos e ensaios como 'Ficções' e 'O Aleph'?",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Alice no País das Maravilhas\"?",
     "options": [
-      "Julio Cortázar",
-      "Jorge Luis Borges",
-      "Ernesto Sabato",
-      "Adolfo Bioy Casares"
+      "J. M. Barrie",
+      "Lewis Carroll",
+      "Roald Dahl",
+      "C. S. Lewis"
     ],
     "correct_index": 1
   },
   {
     "id": "lit-057",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual escritora brasileira, nascida na Ucrânia, é autora de 'A Paixão Segundo G.H.' e 'Perto do Coração Selvagem'?",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"A Culpa É das Estrelas\"?",
     "options": [
-      "Clarice Lispector",
-      "Cecília Meireles",
-      "Rachel de Queiroz",
-      "Lygia Fagundes Telles"
+      "Stephenie Meyer",
+      "Rick Riordan",
+      "Suzanne Collins",
+      "John Green"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "lit-058",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Quem escreveu 'O Nome da Rosa', romance policial ambientado em um mosteiro medieval?",
+    "difficulty": "medio",
+    "question": "Quem escreveu a série \"Jogos Vorazes\"?",
     "options": [
-      "Umberto Eco",
-      "Italo Calvino",
-      "Primo Levi",
-      "Dario Fo"
+      "Stephenie Meyer",
+      "Veronica Roth",
+      "Rick Riordan",
+      "Suzanne Collins"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "lit-059",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual dramaturgo brasileiro escreveu 'Vestido de Noiva' e é considerado um renovador do teatro nacional?",
+    "difficulty": "medio",
+    "question": "Quem escreveu a série \"Percy Jackson\"?",
     "options": [
-      "Nelson Rodrigues",
-      "Ariano Suassuna",
-      "Oduvaldo Vianna Filho",
-      "Plínio Marcos"
+      "Rick Riordan",
+      "C. S. Lewis",
+      "J. K. Rowling",
+      "Suzanne Collins"
     ],
     "correct_index": 0
   },
   {
     "id": "lit-060",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual escritor colombiano, além de 'Cem Anos de Solidão', escreveu 'O Amor nos Tempos do Cólera'?",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Macunaíma\"?",
     "options": [
-      "Mario Vargas Llosa",
-      "Gabriel García Márquez",
-      "Carlos Fuentes",
-      "Julio Cortázar"
+      "Oswald de Andrade",
+      "Carlos Drummond de Andrade",
+      "Manuel Bandeira",
+      "Mário de Andrade"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "lit-061",
     "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual poeta modernista brasileiro escreveu 'No Meio do Caminho' e integrou a Semana de Arte Moderna de 1922?",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Os Sertões\", sobre a Guerra de Canudos?",
     "options": [
-      "Carlos Drummond de Andrade",
-      "Manuel Bandeira",
-      "Mário de Andrade",
-      "Oswald de Andrade"
+      "Euclides da Cunha",
+      "Graciliano Ramos",
+      "Lima Barreto",
+      "Machado de Assis"
     ],
     "correct_index": 0
+  },
+  {
+    "id": "lit-062",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Morte e Vida Severina\"?",
+    "options": [
+      "Ferreira Gullar",
+      "Manuel Bandeira",
+      "João Cabral de Melo Neto",
+      "Carlos Drummond de Andrade"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-063",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Soneto da Fidelidade\"?",
+    "options": [
+      "Manuel Bandeira",
+      "Vinicius de Moraes",
+      "Cecília Meireles",
+      "Carlos Drummond de Andrade"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-064",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Triste Fim de Policarpo Quaresma\"?",
+    "options": [
+      "Graciliano Ramos",
+      "Lima Barreto",
+      "Machado de Assis",
+      "Aluísio Azevedo"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-065",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem é o autor do romance baiano \"Torto Arado\"?",
+    "options": [
+      "Ariano Suassuna",
+      "Itamar Vieira Junior",
+      "Jorge Amado",
+      "Milton Hatoum"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-066",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual poeta baiano do período barroco ficou conhecido como \"Boca do Inferno\"?",
+    "options": [
+      "Castro Alves",
+      "Padre Antônio Vieira",
+      "Gregório de Matos",
+      "Tomás Antônio Gonzaga"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-067",
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"O Menino do Pijama Listrado\"?",
+    "options": [
+      "Khaled Hosseini",
+      "John Green",
+      "John Boyne",
+      "Markus Zusak"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-068",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu \"A Divina Comédia\"?",
+    "options": [
+      "Dante Alighieri",
+      "Petrarca",
+      "Boccaccio",
+      "Virgílio"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-069",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem é considerado, pela tradição, o autor da \"Ilíada\" e da \"Odisseia\"?",
+    "options": [
+      "Platão",
+      "Sófocles",
+      "Virgílio",
+      "Homero"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-070",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual é o herói da \"Odisseia\", que demora anos para voltar para casa?",
+    "options": [
+      "Aquiles",
+      "Ulisses",
+      "Páris",
+      "Heitor"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-071",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu \"O Estrangeiro\"?",
+    "options": [
+      "Albert Camus",
+      "Victor Hugo",
+      "Jean-Paul Sartre",
+      "Gustave Flaubert"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-072",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Em \"Dom Casmurro\", qual é o nome do narrador?",
+    "options": [
+      "José Dias",
+      "Escobar",
+      "Bentinho",
+      "Pádua"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-073",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Em \"Dom Casmurro\", quem é o melhor amigo de Bentinho?",
+    "options": [
+      "Pádua",
+      "Escobar",
+      "Capitu",
+      "José Dias"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-074",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Sobre qual guerra Euclides da Cunha escreveu \"Os Sertões\"?",
+    "options": [
+      "Guerra do Contestado",
+      "Guerra de Canudos",
+      "Guerra do Paraguai",
+      "Revolução Farroupilha"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-075",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da cachorrinha de \"Vidas Secas\"?",
+    "options": [
+      "Fiel",
+      "Baleia",
+      "Pitoco",
+      "Lola"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-076",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Em \"Vidas Secas\", qual é o nome do vaqueiro protagonista?",
+    "options": [
+      "Fabiano",
+      "Seu Tomás",
+      "Sinhá Vitória",
+      "Soldado Amarelo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-077",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Em \"Capitães da Areia\", quem é o líder do bando?",
+    "options": [
+      "Volta Seca",
+      "Sem-Pernas",
+      "Professor",
+      "Pedro Bala"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-078",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Em \"O Auto da Compadecida\", qual é o grande amigo de João Grilo?",
+    "options": [
+      "Padeiro",
+      "Eurico",
+      "Chicó",
+      "Severino"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-079",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Em \"Gabriela, Cravo e Canela\", qual é o nome do árabe dono do bar?",
+    "options": [
+      "Nacib",
+      "Tonico Bastos",
+      "Coronel Ramiro",
+      "Mundinho Falcão"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-080",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Como se chama a vila fictícia criada por García Márquez em \"Cem Anos de Solidão\"?",
+    "options": [
+      "Macondo",
+      "Yoknapatawpha",
+      "Santa María",
+      "Comala"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-081",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Em \"O Pequeno Príncipe\", qual flor ele cuida em seu asteroide?",
+    "options": [
+      "Uma margarida",
+      "Uma rosa",
+      "Um girassol",
+      "Uma orquídea"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-082",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual viagem é narrada em \"Os Lusíadas\"?",
+    "options": [
+      "A viagem de Vasco da Gama às Índias",
+      "A viagem de Cabral ao Brasil",
+      "A viagem de Colombo",
+      "A volta ao mundo de Magalhães"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-083",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual poeta português usou heterônimos como Álvaro de Campos?",
+    "options": [
+      "Eça de Queirós",
+      "Luís de Camões",
+      "José Saramago",
+      "Fernando Pessoa"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-084",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor português ganhou o Nobel de Literatura em 1998?",
+    "options": [
+      "Eça de Queirós",
+      "Luís de Camões",
+      "Fernando Pessoa",
+      "José Saramago"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-085",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual é o poema de Castro Alves que denuncia o tráfico de escravizados?",
+    "options": [
+      "O Navio Negreiro",
+      "Canção do Exílio",
+      "Meus Oito Anos",
+      "Iracema"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-086",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu o poema \"Meus Oito Anos\"?",
+    "options": [
+      "Gonçalves Dias",
+      "Casimiro de Abreu",
+      "Álvares de Azevedo",
+      "Castro Alves"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-087",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual escritor modernista escreveu o \"Manifesto Antropófago\"?",
+    "options": [
+      "Mário de Andrade",
+      "Manuel Bandeira",
+      "Carlos Drummond de Andrade",
+      "Oswald de Andrade"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-088",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu \"Quarto de Despejo\"?",
+    "options": [
+      "Carolina Maria de Jesus",
+      "Conceição Evaristo",
+      "Rachel de Queiroz",
+      "Clarice Lispector"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-089",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu \"Memórias de um Sargento de Milícias\"?",
+    "options": [
+      "José de Alencar",
+      "Machado de Assis",
+      "Aluísio Azevedo",
+      "Manuel Antônio de Almeida"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "lit-090",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem foi a primeira mulher a entrar na Academia Brasileira de Letras?",
+    "options": [
+      "Rachel de Queiroz",
+      "Lygia Fagundes Telles",
+      "Cecília Meireles",
+      "Clarice Lispector"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-091",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual é o principal prêmio literário do mundo, entregue em Estocolmo?",
+    "options": [
+      "Jabuti",
+      "Prêmio Nobel de Literatura",
+      "Booker",
+      "Pulitzer"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-092",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual é um dos principais prêmios literários do Brasil?",
+    "options": [
+      "Prêmio Nobel",
+      "Pulitzer",
+      "Prêmio Jabuti",
+      "Oscar"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-093",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem foi o primeiro presidente da Academia Brasileira de Letras?",
+    "options": [
+      "José de Alencar",
+      "Machado de Assis",
+      "Joaquim Nabuco",
+      "Rui Barbosa"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-094",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem é o grande vilão da saga \"Harry Potter\"?",
+    "options": [
+      "Lord Voldemort",
+      "Severo Snape",
+      "Draco Malfoy",
+      "Quirrell"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "lit-095",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Em \"Dom Quixote\", como se chama o fiel escudeiro do cavaleiro?",
+    "options": [
+      "Rocinante",
+      "Sancho Pança",
+      "Merlin",
+      "Dulcineia"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-096",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual personagem de Tolkien é o mago que guia os heróis em \"O Senhor dos Anéis\"?",
+    "options": [
+      "Saruman",
+      "Elrond",
+      "Gandalf",
+      "Radagast"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-097",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu \"Matilda\" e \"A Fantástica Fábrica de Chocolate\"?",
+    "options": [
+      "C. S. Lewis",
+      "J. K. Rowling",
+      "Roald Dahl",
+      "Lewis Carroll"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-098",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do defunto que narra o romance de Machado de Assis publicado em 1881?",
+    "options": [
+      "Bentinho",
+      "Quincas Borba",
+      "Brás Cubas",
+      "Rubião"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "lit-099",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual estilo literário retrata o ambiente popular com visão científica em \"O Cortiço\"?",
+    "options": [
+      "Romantismo",
+      "Naturalismo",
+      "Modernismo",
+      "Barroco"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "lit-100",
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Qual romance de José de Alencar tem como protagonistas Peri e Ceci?",
+    "options": [
+      "Lucíola",
+      "O Guarani",
+      "Senhora",
+      "Iracema"
+    ],
+    "correct_index": 1
   }
 ]
