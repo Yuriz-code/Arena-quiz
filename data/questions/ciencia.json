@@ -5,12 +5,12 @@
     "difficulty": "facil",
     "question": "Qual planeta é conhecido como \"Planeta Vermelho\"?",
     "options": [
-      "Júpiter",
-      "Saturno",
+      "Marte",
       "Vênus",
-      "Marte"
+      "Saturno",
+      "Júpiter"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cie-002",
@@ -18,12 +18,12 @@
     "difficulty": "facil",
     "question": "Qual é o maior planeta do Sistema Solar?",
     "options": [
-      "Júpiter",
       "Saturno",
-      "Netuno",
-      "Terra"
+      "Terra",
+      "Júpiter",
+      "Netuno"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cie-003",
@@ -31,12 +31,12 @@
     "difficulty": "facil",
     "question": "Qual é a estrela que ilumina e aquece a Terra?",
     "options": [
+      "Sol",
       "Lua",
       "Estrela Polar",
-      "Sol",
       "Sirius"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "cie-004",
@@ -44,10 +44,10 @@
     "difficulty": "facil",
     "question": "Qual é o satélite natural da Terra?",
     "options": [
-      "Europa",
+      "Fobos",
       "Lua",
       "Titã",
-      "Fobos"
+      "Europa"
     ],
     "correct_index": 1
   },
@@ -57,12 +57,12 @@
     "difficulty": "facil",
     "question": "Quantos planetas tem o Sistema Solar?",
     "options": [
-      "8",
+      "7",
       "9",
       "10",
-      "7"
+      "8"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "cie-006",
@@ -70,9 +70,9 @@
     "difficulty": "facil",
     "question": "Qual gás os seres humanos precisam respirar para viver?",
     "options": [
-      "Nitrogênio",
-      "Oxigênio",
       "Hidrogênio",
+      "Oxigênio",
+      "Nitrogênio",
       "Hélio"
     ],
     "correct_index": 1
@@ -84,11 +84,11 @@
     "question": "Qual é a fórmula química da água?",
     "options": [
       "NaCl",
+      "CO2",
       "O2",
-      "H2O",
-      "CO2"
+      "H2O"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "cie-008",
@@ -96,12 +96,12 @@
     "difficulty": "facil",
     "question": "Em qual temperatura a água congela, ao nível do mar?",
     "options": [
-      "0 °C",
       "100 °C",
-      "10 °C",
-      "20 °C"
+      "20 °C",
+      "0 °C",
+      "10 °C"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cie-009",
@@ -109,12 +109,12 @@
     "difficulty": "facil",
     "question": "Em qual temperatura a água ferve, ao nível do mar?",
     "options": [
-      "120 °C",
+      "50 °C",
       "90 °C",
-      "100 °C",
-      "50 °C"
+      "120 °C",
+      "100 °C"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "cie-010",
@@ -122,12 +122,12 @@
     "difficulty": "facil",
     "question": "Qual órgão bombeia o sangue pelo corpo?",
     "options": [
-      "Rim",
-      "Coração",
       "Pulmão",
-      "Fígado"
+      "Rim",
+      "Fígado",
+      "Coração"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cie-011",
@@ -135,12 +135,12 @@
     "difficulty": "facil",
     "question": "Quais órgãos usamos principalmente para respirar?",
     "options": [
-      "Pulmões",
       "Intestino",
       "Estômago",
-      "Coração"
+      "Coração",
+      "Pulmões"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "cie-012",
@@ -148,12 +148,12 @@
     "difficulty": "facil",
     "question": "Quantos ossos tem o corpo de um adulto?",
     "options": [
-      "206",
-      "106",
+      "150",
       "300",
-      "150"
+      "206",
+      "106"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cie-013",
@@ -161,12 +161,12 @@
     "difficulty": "facil",
     "question": "Qual é o maior animal do planeta?",
     "options": [
-      "Elefante",
       "Girafa",
+      "Baleia-azul",
       "Tubarão-baleia",
-      "Baleia-azul"
+      "Elefante"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "cie-014",
@@ -174,12 +174,12 @@
     "difficulty": "facil",
     "question": "Qual é o animal terrestre mais rápido?",
     "options": [
-      "Guepardo",
-      "Leão",
       "Avestruz",
-      "Cavalo"
+      "Cavalo",
+      "Leão",
+      "Guepardo"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "cie-015",
@@ -188,11 +188,11 @@
     "question": "Como se chama o processo pelo qual as plantas produzem alimento usando luz do sol?",
     "options": [
       "Fermentação",
+      "Fotossíntese",
       "Digestão",
-      "Respiração",
-      "Fotossíntese"
+      "Respiração"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "cie-016",
@@ -200,12 +200,12 @@
     "difficulty": "facil",
     "question": "Qual cientista formulou a lei da gravidade ao observar a queda de uma maçã, segundo a lenda?",
     "options": [
+      "Albert Einstein",
       "Charles Darwin",
-      "Isaac Newton",
       "Galileu Galilei",
-      "Albert Einstein"
+      "Isaac Newton"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cie-017",
@@ -213,12 +213,12 @@
     "difficulty": "facil",
     "question": "Qual cientista criou a Teoria da Relatividade?",
     "options": [
-      "Stephen Hawking",
       "Galileu Galilei",
       "Albert Einstein",
+      "Stephen Hawking",
       "Isaac Newton"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "cie-018",
@@ -226,12 +226,12 @@
     "difficulty": "facil",
     "question": "Quem propôs a teoria da evolução por seleção natural?",
     "options": [
-      "Jean-Baptiste Lamarck",
       "Gregor Mendel",
       "Charles Darwin",
+      "Jean-Baptiste Lamarck",
       "Louis Pasteur"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "cie-019",
@@ -239,12 +239,12 @@
     "difficulty": "facil",
     "question": "Qual vitamina o corpo produz com ajuda da luz do sol?",
     "options": [
-      "Vitamina B12",
-      "Vitamina D",
       "Vitamina A",
-      "Vitamina C"
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina B12"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "cie-020",
@@ -252,12 +252,12 @@
     "difficulty": "facil",
     "question": "Qual planeta é famoso por seus anéis?",
     "options": [
-      "Saturno",
-      "Marte",
+      "Vênus",
       "Mercúrio",
-      "Vênus"
+      "Saturno",
+      "Marte"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cie-021",
@@ -265,12 +265,12 @@
     "difficulty": "facil",
     "question": "Qual é o menor planeta do Sistema Solar?",
     "options": [
-      "Mercúrio",
-      "Terra",
       "Marte",
+      "Terra",
+      "Mercúrio",
       "Vênus"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cie-022",
@@ -291,12 +291,12 @@
     "difficulty": "facil",
     "question": "Qual é o osso da coxa, o mais longo do corpo?",
     "options": [
-      "Úmero",
-      "Rádio",
       "Tíbia",
-      "Fêmur"
+      "Úmero",
+      "Fêmur",
+      "Rádio"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "cie-024",
@@ -317,12 +317,12 @@
     "difficulty": "facil",
     "question": "Quantos sentidos clássicos tem o ser humano?",
     "options": [
+      "5",
       "4",
       "7",
-      "6",
-      "5"
+      "6"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cie-026",
@@ -330,12 +330,12 @@
     "difficulty": "facil",
     "question": "Qual gás as plantas absorvem do ar na fotossíntese?",
     "options": [
-      "Oxigênio",
+      "Gás carbônico",
       "Nitrogênio",
-      "Hélio",
-      "Gás carbônico"
+      "Oxigênio",
+      "Hélio"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cie-027",
@@ -343,9 +343,9 @@
     "difficulty": "facil",
     "question": "Qual ciência estuda os seres vivos?",
     "options": [
-      "Física",
-      "Química",
       "Geologia",
+      "Química",
+      "Física",
       "Biologia"
     ],
     "correct_index": 3
@@ -356,10 +356,10 @@
     "difficulty": "facil",
     "question": "Qual ciência estuda os astros e o universo?",
     "options": [
-      "Meteorologia",
+      "Geologia",
       "Biologia",
       "Astronomia",
-      "Geologia"
+      "Meteorologia"
     ],
     "correct_index": 2
   },
@@ -369,12 +369,12 @@
     "difficulty": "facil",
     "question": "Qual aparelho serve para medir a temperatura?",
     "options": [
-      "Cronômetro",
-      "Barômetro",
       "Termômetro",
-      "Higrômetro"
+      "Higrômetro",
+      "Cronômetro",
+      "Barômetro"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "cie-030",
@@ -382,12 +382,12 @@
     "difficulty": "facil",
     "question": "Qual é o único mamífero capaz de voar de verdade?",
     "options": [
-      "Pardal",
-      "Morcego",
+      "Borboleta",
       "Pinguim",
-      "Borboleta"
+      "Pardal",
+      "Morcego"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cie-031",
@@ -408,12 +408,12 @@
     "difficulty": "facil",
     "question": "Como se chama a transformação da lagarta em borboleta?",
     "options": [
-      "Metamorfose",
-      "Fotossíntese",
+      "Evolução",
       "Hibernação",
-      "Evolução"
+      "Metamorfose",
+      "Fotossíntese"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cie-033",
@@ -421,12 +421,12 @@
     "difficulty": "facil",
     "question": "O que acontece com a luz branca ao passar por um prisma?",
     "options": [
+      "Fica mais escura",
       "Desaparece",
-      "Decompõe-se nas cores do arco-íris",
       "Vira som",
-      "Fica mais escura"
+      "Decompõe-se nas cores do arco-íris"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cie-034",
@@ -435,11 +435,11 @@
     "question": "Qual é o maior animal terrestre?",
     "options": [
       "Girafa",
-      "Elefante-africano",
       "Hipopótamo",
-      "Rinoceronte"
+      "Rinoceronte",
+      "Elefante-africano"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cie-035",
@@ -448,8 +448,8 @@
     "question": "Qual é o símbolo químico do ouro?",
     "options": [
       "Fe",
-      "Go",
       "Ag",
+      "Go",
       "Au"
     ],
     "correct_index": 3
@@ -460,12 +460,12 @@
     "difficulty": "medio",
     "question": "Qual é o símbolo químico da prata?",
     "options": [
-      "Pt",
-      "Pr",
       "Ag",
+      "Pr",
+      "Pt",
       "Au"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "cie-037",
@@ -473,12 +473,12 @@
     "difficulty": "medio",
     "question": "Qual é o símbolo químico do sódio?",
     "options": [
-      "Na",
+      "So",
       "S",
       "Sd",
-      "So"
+      "Na"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "cie-038",
@@ -487,8 +487,8 @@
     "question": "Qual é o símbolo químico do ferro?",
     "options": [
       "F",
-      "Ir",
       "Fr",
+      "Ir",
       "Fe"
     ],
     "correct_index": 3
@@ -499,10 +499,10 @@
     "difficulty": "medio",
     "question": "Qual é o número atômico do hidrogênio?",
     "options": [
-      "2",
+      "0",
       "1",
-      "8",
-      "0"
+      "2",
+      "8"
     ],
     "correct_index": 1
   },
@@ -512,12 +512,12 @@
     "difficulty": "medio",
     "question": "Qual é o gás mais abundante na atmosfera terrestre?",
     "options": [
-      "Gás carbônico",
       "Oxigênio",
-      "Hidrogênio",
-      "Nitrogênio"
+      "Gás carbônico",
+      "Nitrogênio",
+      "Hidrogênio"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "cie-041",
@@ -526,11 +526,11 @@
     "question": "Qual é a velocidade aproximada da luz no vácuo?",
     "options": [
       "1.000.000 km/s",
+      "30.000 km/s",
       "150.000 km/s",
-      "300.000 km/s",
-      "30.000 km/s"
+      "300.000 km/s"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "cie-042",
@@ -538,12 +538,12 @@
     "difficulty": "medio",
     "question": "Qual é o planeta mais quente do Sistema Solar?",
     "options": [
-      "Vênus",
+      "Marte",
       "Mercúrio",
       "Júpiter",
-      "Marte"
+      "Vênus"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "cie-043",
@@ -552,8 +552,8 @@
     "question": "Qual é o maior osso do corpo humano?",
     "options": [
       "Fêmur",
-      "Tíbia",
       "Úmero",
+      "Tíbia",
       "Coluna vertebral"
     ],
     "correct_index": 0
@@ -564,12 +564,12 @@
     "difficulty": "medio",
     "question": "Qual célula do sangue transporta oxigênio?",
     "options": [
+      "Leucócito",
       "Plaqueta",
       "Hemácia",
-      "Leucócito",
       "Plasma"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "cie-045",
@@ -577,36 +577,36 @@
     "difficulty": "medio",
     "question": "Qual célula do sangue atua principalmente na defesa do organismo?",
     "options": [
-      "Hemácia",
-      "Leucócito",
       "Neurônio",
-      "Plaqueta"
+      "Plaqueta",
+      "Hemácia",
+      "Leucócito"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cie-046",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual é a principal função das plaquetas?",
+    "question": "Quem desenvolveu a primeira vacina, contra a varíola?",
     "options": [
-      "Coagulação do sangue",
-      "Digerir alimentos",
-      "Defender o corpo",
-      "Transportar oxigênio"
+      "Alexander Fleming",
+      "Oswaldo Cruz",
+      "Louis Pasteur",
+      "Edward Jenner"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "cie-047",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual tipo sanguíneo é conhecido como doador universal?",
+    "question": "Quem descobriu a penicilina?",
     "options": [
-      "A positivo",
-      "B negativo",
-      "AB positivo",
-      "O negativo"
+      "Louis Pasteur",
+      "Marie Curie",
+      "Robert Koch",
+      "Alexander Fleming"
     ],
     "correct_index": 3
   },
@@ -614,38 +614,38 @@
     "id": "cie-048",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Quem desenvolveu a primeira vacina, contra a varíola?",
+    "question": "Qual cientista brasileiro combateu a febre amarela no Rio de Janeiro?",
     "options": [
-      "Alexander Fleming",
-      "Edward Jenner",
       "Oswaldo Cruz",
-      "Louis Pasteur"
+      "Vital Brazil",
+      "Adolfo Lutz",
+      "Carlos Chagas"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cie-049",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Quem descobriu a penicilina?",
+    "question": "Qual cientista, o pai da genética, estudou ervilhas?",
     "options": [
-      "Robert Koch",
-      "Marie Curie",
+      "Gregor Mendel",
       "Louis Pasteur",
-      "Alexander Fleming"
+      "Charles Darwin",
+      "James Watson"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cie-050",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual cientista brasileiro combateu a febre amarela no Rio de Janeiro?",
+    "question": "Qual é a forma da estrutura do DNA?",
     "options": [
-      "Carlos Chagas",
-      "Adolfo Lutz",
-      "Vital Brazil",
-      "Oswaldo Cruz"
+      "Cubo",
+      "Triângulo",
+      "Círculo",
+      "Dupla hélice"
     ],
     "correct_index": 3
   },
@@ -653,51 +653,51 @@
     "id": "cie-051",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual cientista brasileiro descobriu a doença que leva seu nome, transmitida pelo barbeiro?",
+    "question": "Qual camada da atmosfera protege a Terra de parte da radiação ultravioleta?",
     "options": [
-      "Emílio Ribas",
-      "Oswaldo Cruz",
-      "Carlos Chagas",
-      "Vital Brazil"
+      "Troposfera",
+      "Exosfera",
+      "Ionosfera",
+      "Camada de ozônio"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "cie-052",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual cientista ganhou dois prêmios Nobel, em Física e em Química?",
+    "question": "Qual é a camada da atmosfera em que vivemos?",
     "options": [
-      "Ada Lovelace",
-      "Rosalind Franklin",
-      "Jane Goodall",
-      "Marie Curie"
+      "Troposfera",
+      "Mesosfera",
+      "Termosfera",
+      "Estratosfera"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cie-053",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual cientista, o pai da genética, estudou ervilhas?",
+    "question": "Qual gás é o principal responsável pelo agravamento do efeito estufa causado pelo ser humano?",
     "options": [
-      "Louis Pasteur",
-      "Gregor Mendel",
-      "Charles Darwin",
-      "James Watson"
+      "Dióxido de carbono",
+      "Nitrogênio",
+      "Hélio",
+      "Oxigênio"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cie-054",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "O que significa a sigla DNA?",
+    "question": "Qual é a unidade de força no Sistema Internacional?",
     "options": [
-      "Aminoácido nuclear",
-      "Ácido desoxirribonucleico",
-      "Ácido ribonucleico",
-      "Dinucleotídeo natural"
+      "Joule",
+      "Newton",
+      "Watt",
+      "Pascal"
     ],
     "correct_index": 1
   },
@@ -705,38 +705,38 @@
     "id": "cie-055",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual é a forma da estrutura do DNA?",
+    "question": "Qual é a unidade de energia no Sistema Internacional?",
     "options": [
-      "Círculo",
-      "Cubo",
-      "Dupla hélice",
-      "Triângulo"
+      "Watt",
+      "Joule",
+      "Volt",
+      "Newton"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "cie-056",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual camada da atmosfera protege a Terra de parte da radiação ultravioleta?",
+    "question": "Qual é a unidade de potência elétrica?",
     "options": [
-      "Troposfera",
-      "Exosfera",
-      "Camada de ozônio",
-      "Ionosfera"
+      "Watt",
+      "Joule",
+      "Ampère",
+      "Volt"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "cie-057",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual é a camada da atmosfera em que vivemos?",
+    "question": "Qual planeta tem uma enorme tempestade chamada de Grande Mancha Vermelha?",
     "options": [
-      "Termosfera",
-      "Mesosfera",
-      "Troposfera",
-      "Estratosfera"
+      "Saturno",
+      "Marte",
+      "Júpiter",
+      "Netuno"
     ],
     "correct_index": 2
   },
@@ -744,38 +744,38 @@
     "id": "cie-058",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual gás é o principal responsável pelo agravamento do efeito estufa causado pelo ser humano?",
+    "question": "Qual metal é líquido à temperatura ambiente?",
     "options": [
-      "Hélio",
-      "Dióxido de carbono",
-      "Nitrogênio",
-      "Oxigênio"
+      "Alumínio",
+      "Chumbo",
+      "Mercúrio",
+      "Ferro"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "cie-059",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual é a unidade de força no Sistema Internacional?",
+    "question": "Qual é o elemento químico mais leve?",
     "options": [
-      "Pascal",
-      "Newton",
-      "Joule",
-      "Watt"
+      "Hidrogênio",
+      "Hélio",
+      "Lítio",
+      "Oxigênio"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cie-060",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual é a unidade de energia no Sistema Internacional?",
+    "question": "Qual é a fórmula do sal de cozinha?",
     "options": [
-      "Volt",
-      "Joule",
-      "Watt",
-      "Newton"
+      "CaCO3",
+      "NaCl",
+      "H2SO4",
+      "KCl"
     ],
     "correct_index": 1
   },
@@ -783,38 +783,38 @@
     "id": "cie-061",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual é a unidade de potência elétrica?",
+    "question": "Qual é a unidade básica da vida?",
     "options": [
-      "Ampère",
-      "Volt",
-      "Joule",
-      "Watt"
+      "Átomo",
+      "Órgão",
+      "Célula",
+      "Tecido"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "cie-062",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual planeta tem uma enorme tempestade chamada de Grande Mancha Vermelha?",
+    "question": "Quais órgãos filtram o sangue e produzem a urina?",
     "options": [
-      "Marte",
-      "Júpiter",
-      "Netuno",
-      "Saturno"
+      "Fígado",
+      "Pulmões",
+      "Coração",
+      "Rins"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cie-063",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Como se chamou o primeiro satélite artificial, lançado em 1957?",
+    "question": "Quais são os três estados físicos mais comuns da matéria?",
     "options": [
-      "Apollo 11",
-      "Explorer 1",
-      "Sputnik 1",
-      "Voyager 1"
+      "Duro, mole e fino",
+      "Frio, morno e quente",
+      "Sólido, líquido e gasoso",
+      "Leve, médio e pesado"
     ],
     "correct_index": 2
   },
@@ -822,103 +822,103 @@
     "id": "cie-064",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual metal é líquido à temperatura ambiente?",
+    "question": "Como se chama a rocha derretida que escorre de um vulcão em erupção?",
     "options": [
-      "Ferro",
-      "Mercúrio",
-      "Alumínio",
-      "Chumbo"
+      "Lava",
+      "Carvão",
+      "Cinza",
+      "Argila"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cie-065",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual é o elemento químico mais leve?",
+    "question": "Qual parte da célula guarda o material genético?",
     "options": [
-      "Lítio",
-      "Hidrogênio",
-      "Hélio",
-      "Oxigênio"
+      "Membrana",
+      "Citoplasma",
+      "Ribossomo",
+      "Núcleo"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cie-066",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual é a fórmula do sal de cozinha?",
+    "question": "Qual gás as plantas liberam na fotossíntese?",
     "options": [
-      "KCl",
-      "H2SO4",
-      "CaCO3",
-      "NaCl"
+      "Oxigênio",
+      "Metano",
+      "Nitrogênio",
+      "Gás carbônico"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cie-067",
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual é a unidade básica da vida?",
+    "question": "Como se chama a passagem da água do estado líquido para o gasoso?",
     "options": [
-      "Átomo",
-      "Tecido",
-      "Órgão",
-      "Célula"
+      "Evaporação",
+      "Solidificação",
+      "Condensação",
+      "Fusão"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cie-068",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual organela é responsável pela produção de energia nas células?",
+    "question": "Qual é a principal função das plaquetas?",
     "options": [
-      "Ribossomo",
-      "Lisossomo",
-      "Núcleo",
-      "Mitocôndria"
+      "Coagulação do sangue",
+      "Transportar oxigênio",
+      "Digerir alimentos",
+      "Defender o corpo"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cie-069",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual organela das células vegetais realiza a fotossíntese?",
+    "question": "Qual tipo sanguíneo é conhecido como doador universal?",
     "options": [
-      "Núcleo",
-      "Cloroplasto",
-      "Mitocôndria",
-      "Vacúolo"
+      "O negativo",
+      "AB positivo",
+      "A positivo",
+      "B negativo"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cie-070",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual proteína do sangue transporta oxigênio?",
+    "question": "Qual cientista brasileiro descobriu a doença que leva seu nome, transmitida pelo barbeiro?",
     "options": [
-      "Colágeno",
-      "Insulina",
-      "Queratina",
-      "Hemoglobina"
+      "Oswaldo Cruz",
+      "Carlos Chagas",
+      "Vital Brazil",
+      "Emílio Ribas"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "cie-071",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual hormônio controla o nível de açúcar no sangue?",
+    "question": "Qual cientista ganhou dois prêmios Nobel, em Física e em Química?",
     "options": [
-      "Adrenalina",
-      "Cortisol",
-      "Insulina",
-      "Testosterona"
+      "Jane Goodall",
+      "Rosalind Franklin",
+      "Marie Curie",
+      "Ada Lovelace"
     ],
     "correct_index": 2
   },
@@ -926,12 +926,12 @@
     "id": "cie-072",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual órgão produz a insulina?",
+    "question": "O que significa a sigla DNA?",
     "options": [
-      "Fígado",
-      "Pâncreas",
-      "Estômago",
-      "Rim"
+      "Dinucleotídeo natural",
+      "Ácido desoxirribonucleico",
+      "Ácido ribonucleico",
+      "Aminoácido nuclear"
     ],
     "correct_index": 1
   },
@@ -939,43 +939,108 @@
     "id": "cie-073",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Quais órgãos filtram o sangue e produzem a urina?",
+    "question": "Como se chamou o primeiro satélite artificial, lançado em 1957?",
     "options": [
-      "Rins",
-      "Pulmões",
-      "Fígado",
-      "Coração"
+      "Explorer 1",
+      "Apollo 11",
+      "Sputnik 1",
+      "Voyager 1"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "cie-074",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Quantos cromossomos tem uma célula humana normal?",
+    "question": "Qual organela é responsável pela produção de energia nas células?",
     "options": [
-      "44",
-      "46",
-      "23",
-      "48"
+      "Núcleo",
+      "Ribossomo",
+      "Mitocôndria",
+      "Lisossomo"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "cie-075",
     "category": "ciencia",
     "difficulty": "dificil",
+    "question": "Qual organela das células vegetais realiza a fotossíntese?",
+    "options": [
+      "Núcleo",
+      "Cloroplasto",
+      "Vacúolo",
+      "Mitocôndria"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "cie-076",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual proteína do sangue transporta oxigênio?",
+    "options": [
+      "Queratina",
+      "Colágeno",
+      "Hemoglobina",
+      "Insulina"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-077",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual hormônio controla o nível de açúcar no sangue?",
+    "options": [
+      "Insulina",
+      "Cortisol",
+      "Testosterona",
+      "Adrenalina"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "cie-078",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual órgão produz a insulina?",
+    "options": [
+      "Rim",
+      "Fígado",
+      "Pâncreas",
+      "Estômago"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-079",
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Quantos cromossomos tem uma célula humana normal?",
+    "options": [
+      "23",
+      "44",
+      "46",
+      "48"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "cie-080",
+    "category": "ciencia",
+    "difficulty": "dificil",
     "question": "Qual é a velocidade aproximada do som no ar?",
     "options": [
       "34 m/s",
-      "300.000 m/s",
       "3.000 m/s",
+      "300.000 m/s",
       "340 m/s"
     ],
     "correct_index": 3
   },
   {
-    "id": "cie-076",
+    "id": "cie-081",
     "category": "ciencia",
     "difficulty": "dificil",
     "question": "Qual lei diz que toda ação tem uma reação de mesma intensidade e sentido oposto?",
@@ -988,119 +1053,54 @@
     "correct_index": 1
   },
   {
-    "id": "cie-077",
+    "id": "cie-082",
     "category": "ciencia",
     "difficulty": "dificil",
     "question": "Qual é a unidade de tensão elétrica?",
-    "options": [
-      "Watt",
-      "Volt",
-      "Ampère",
-      "Ohm"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "cie-078",
-    "category": "ciencia",
-    "difficulty": "dificil",
-    "question": "Qual é a unidade de resistência elétrica?",
     "options": [
       "Watt",
       "Ohm",
       "Ampère",
       "Volt"
     ],
-    "correct_index": 1
-  },
-  {
-    "id": "cie-079",
-    "category": "ciencia",
-    "difficulty": "dificil",
-    "question": "Qual é o pH da água pura?",
-    "options": [
-      "5",
-      "7",
-      "0",
-      "14"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "cie-080",
-    "category": "ciencia",
-    "difficulty": "dificil",
-    "question": "Quais são os três estados físicos mais comuns da matéria?",
-    "options": [
-      "Frio, morno e quente",
-      "Sólido, líquido e gasoso",
-      "Duro, mole e fino",
-      "Leve, médio e pesado"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "cie-081",
-    "category": "ciencia",
-    "difficulty": "dificil",
-    "question": "O que é um eclipse solar?",
-    "options": [
-      "O Sol deixa de brilhar",
-      "A Lua passa entre o Sol e a Terra",
-      "A Terra passa entre o Sol e a Lua",
-      "A Lua explode"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "cie-082",
-    "category": "ciencia",
-    "difficulty": "dificil",
-    "question": "O que causa as marés?",
-    "options": [
-      "Os ventos",
-      "A atração gravitacional da Lua e do Sol",
-      "As correntes de ar",
-      "Os terremotos"
-    ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cie-083",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "O que causa as estações do ano?",
+    "question": "Qual é a unidade de resistência elétrica?",
     "options": [
-      "A distância da Terra ao Sol",
-      "As fases da Lua",
-      "A inclinação do eixo da Terra",
-      "As manchas solares"
+      "Ampère",
+      "Ohm",
+      "Volt",
+      "Watt"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "cie-084",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual é a estrela mais próxima da Terra depois do Sol?",
+    "question": "Qual é o pH da água pura?",
     "options": [
-      "Proxima Centauri",
-      "Sirius",
-      "Betelgeuse",
-      "Estrela Polar"
+      "0",
+      "7",
+      "14",
+      "5"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "cie-085",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual planeta é chamado de \"Estrela d'Alva\"?",
+    "question": "O que é um eclipse solar?",
     "options": [
-      "Mercúrio",
-      "Marte",
-      "Vênus",
-      "Júpiter"
+      "O Sol deixa de brilhar",
+      "A Terra passa entre o Sol e a Lua",
+      "A Lua passa entre o Sol e a Terra",
+      "A Lua explode"
     ],
     "correct_index": 2
   },
@@ -1108,25 +1108,25 @@
     "id": "cie-086",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual lua de Saturno tem atmosfera densa?",
+    "question": "O que causa as marés?",
     "options": [
-      "Io",
-      "Europa",
-      "Titã",
-      "Ganimedes"
+      "Os terremotos",
+      "Os ventos",
+      "As correntes de ar",
+      "A atração gravitacional da Lua e do Sol"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "cie-087",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual astronauta brasileiro foi ao espaço em 2006?",
+    "question": "O que causa as estações do ano?",
     "options": [
-      "Carlos Chagas",
-      "Sérgio Vaz",
-      "Ricardo Galvão",
-      "Marcos Pontes"
+      "As fases da Lua",
+      "As manchas solares",
+      "A distância da Terra ao Sol",
+      "A inclinação do eixo da Terra"
     ],
     "correct_index": 3
   },
@@ -1134,77 +1134,77 @@
     "id": "cie-088",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Quem é considerado o \"pai da aviação\" no Brasil?",
+    "question": "Qual é a estrela mais próxima da Terra depois do Sol?",
     "options": [
-      "Santos-Dumont",
-      "Oswaldo Cruz",
-      "Pedro Álvares Cabral",
-      "Os irmãos Wright"
+      "Betelgeuse",
+      "Próxima Centauri",
+      "Estrela Polar",
+      "Sirius"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "cie-089",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual cientista grego teria gritado \"Eureka!\" ao descobrir o princípio do empuxo?",
+    "question": "Qual planeta é chamado de \"Estrela d'Alva\"?",
     "options": [
-      "Aristóteles",
-      "Arquimedes",
-      "Euclides",
-      "Pitágoras"
+      "Marte",
+      "Mercúrio",
+      "Vênus",
+      "Júpiter"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "cie-090",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual matemático grego é famoso pelo teorema do triângulo retângulo?",
+    "question": "Qual lua de Saturno tem atmosfera densa?",
     "options": [
-      "Tales",
-      "Arquimedes",
-      "Euclides",
-      "Pitágoras"
+      "Titã",
+      "Ganimedes",
+      "Europa",
+      "Io"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "cie-091",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Quem organizou a primeira tabela periódica dos elementos?",
+    "question": "Qual astronauta brasileiro foi ao espaço em 2006?",
     "options": [
-      "Niels Bohr",
-      "Antoine Lavoisier",
-      "Dmitri Mendeleiev",
-      "Marie Curie"
+      "Marcos Pontes",
+      "Sérgio Vaz",
+      "Ricardo Galvão",
+      "Carlos Chagas"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "cie-092",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Como se chama a rocha derretida que escorre de um vulcão em erupção?",
+    "question": "Quem é considerado o \"pai da aviação\" no Brasil?",
     "options": [
-      "Cinza",
-      "Argila",
-      "Carvão",
-      "Lava"
+      "Pedro Álvares Cabral",
+      "Oswaldo Cruz",
+      "Santos-Dumont",
+      "Os irmãos Wright"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "cie-093",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual escala é usada para medir a intensidade dos terremotos?",
+    "question": "Qual cientista grego teria gritado \"Eureka!\" ao descobrir o princípio do empuxo?",
     "options": [
-      "Escala Beaufort",
-      "Escala de Mohs",
-      "Escala Richter",
-      "Escala Celsius"
+      "Pitágoras",
+      "Euclides",
+      "Arquimedes",
+      "Aristóteles"
     ],
     "correct_index": 2
   },
@@ -1212,12 +1212,12 @@
     "id": "cie-094",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "O que mede um barômetro?",
+    "question": "Qual matemático grego é famoso pelo teorema do triângulo retângulo?",
     "options": [
-      "Velocidade do vento",
-      "Umidade",
-      "Pressão atmosférica",
-      "Temperatura"
+      "Euclides",
+      "Arquimedes",
+      "Pitágoras",
+      "Tales"
     ],
     "correct_index": 2
   },
@@ -1225,51 +1225,51 @@
     "id": "cie-095",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual é o menor osso do corpo humano?",
+    "question": "Quem organizou a primeira tabela periódica dos elementos?",
     "options": [
-      "Martelo",
-      "Estribo",
-      "Bigorna",
-      "Rádio"
+      "Antoine Lavoisier",
+      "Marie Curie",
+      "Niels Bohr",
+      "Dmitri Mendeleiev"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "cie-096",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Quem descobriu os raios X?",
+    "question": "Qual escala é usada para medir a intensidade dos terremotos?",
     "options": [
-      "Marie Curie",
-      "Wilhelm Röntgen",
-      "Nikola Tesla",
-      "Albert Einstein"
+      "Escala Celsius",
+      "Escala Beaufort",
+      "Escala Richter",
+      "Escala de Mohs"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "cie-097",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual parte da célula guarda o material genético?",
+    "question": "O que mede um barômetro?",
     "options": [
-      "Núcleo",
-      "Ribossomo",
-      "Citoplasma",
-      "Membrana"
+      "Temperatura",
+      "Pressão atmosférica",
+      "Velocidade do vento",
+      "Umidade"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "cie-098",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual planeta do Sistema Solar gira praticamente \"deitado\" em relação ao seu eixo?",
+    "question": "Qual é o menor osso do corpo humano?",
     "options": [
-      "Saturno",
-      "Urano",
-      "Netuno",
-      "Marte"
+      "Rádio",
+      "Estribo",
+      "Martelo",
+      "Bigorna"
     ],
     "correct_index": 1
   },
@@ -1277,26 +1277,26 @@
     "id": "cie-099",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual gás as plantas liberam na fotossíntese?",
+    "question": "Quem descobriu os raios X?",
     "options": [
-      "Gás carbônico",
-      "Oxigênio",
-      "Nitrogênio",
-      "Metano"
+      "Wilhelm Röntgen",
+      "Nikola Tesla",
+      "Marie Curie",
+      "Albert Einstein"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "cie-100",
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Como se chama a passagem da água do estado líquido para o gasoso?",
+    "question": "Qual planeta do Sistema Solar gira praticamente \"deitado\" em relação ao seu eixo?",
     "options": [
-      "Fusão",
-      "Evaporação",
-      "Solidificação",
-      "Condensação"
+      "Saturno",
+      "Marte",
+      "Netuno",
+      "Urano"
     ],
-    "correct_index": 1
+    "correct_index": 3
   }
 ]

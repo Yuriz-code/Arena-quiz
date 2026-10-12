@@ -5,12 +5,12 @@
     "difficulty": "facil",
     "question": "Quem pintou a Mona Lisa?",
     "options": [
-      "Michelangelo",
       "Van Gogh",
       "Leonardo da Vinci",
+      "Michelangelo",
       "Rafael"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "art-002",
@@ -18,12 +18,12 @@
     "difficulty": "facil",
     "question": "Quem pintou \"A Noite Estrelada\"?",
     "options": [
-      "Salvador Dalí",
-      "Claude Monet",
+      "Pablo Picasso",
       "Vincent van Gogh",
-      "Pablo Picasso"
+      "Claude Monet",
+      "Salvador Dalí"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "art-003",
@@ -32,11 +32,11 @@
     "question": "Qual pintor espanhol criou a obra \"Guernica\"?",
     "options": [
       "Joan Miró",
+      "Pablo Picasso",
       "Francisco Goya",
-      "Salvador Dalí",
-      "Pablo Picasso"
+      "Salvador Dalí"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "art-004",
@@ -44,12 +44,12 @@
     "difficulty": "facil",
     "question": "Quem pintou o teto da Capela Sistina, no Vaticano?",
     "options": [
-      "Botticelli",
       "Michelangelo",
+      "Botticelli",
       "Rafael",
       "Leonardo da Vinci"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "art-005",
@@ -57,12 +57,12 @@
     "difficulty": "facil",
     "question": "Em qual museu de Paris está exposta a Mona Lisa?",
     "options": [
-      "Louvre",
       "MASP",
+      "Galeria Uffizi",
       "Museu do Prado",
-      "Galeria Uffizi"
+      "Louvre"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "art-006",
@@ -70,9 +70,9 @@
     "difficulty": "facil",
     "question": "Qual artista brasileira pintou o \"Abaporu\"?",
     "options": [
-      "Anita Malfatti",
       "Di Cavalcanti",
       "Cândido Portinari",
+      "Anita Malfatti",
       "Tarsila do Amaral"
     ],
     "correct_index": 3
@@ -83,12 +83,12 @@
     "difficulty": "facil",
     "question": "Quais são as três cores primárias na pintura tradicional?",
     "options": [
+      "Vermelho, amarelo e azul",
       "Preto, branco e cinza",
       "Verde, laranja e roxo",
-      "Rosa, verde e azul",
-      "Vermelho, amarelo e azul"
+      "Rosa, verde e azul"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "art-008",
@@ -96,12 +96,12 @@
     "difficulty": "facil",
     "question": "Como se chama a arte japonesa de dobrar papel?",
     "options": [
+      "Haiku",
       "Bonsai",
       "Origami",
-      "Ikebana",
-      "Haiku"
+      "Ikebana"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "art-009",
@@ -120,12 +120,12 @@
     "id": "art-010",
     "category": "artes",
     "difficulty": "facil",
-    "question": "Quem esculpiu a famosa estátua \"Davi\"?",
+    "question": "Quem esculpiu em mármore a famosa estátua \"Davi\", exposta em Florença?",
     "options": [
       "Michelangelo",
+      "Donatello",
       "Bernini",
-      "Auguste Rodin",
-      "Donatello"
+      "Auguste Rodin"
     ],
     "correct_index": 0
   },
@@ -135,9 +135,9 @@
     "difficulty": "facil",
     "question": "Qual movimento artístico de Salvador Dalí é famoso por relógios derretidos?",
     "options": [
+      "Cubismo",
       "Realismo",
       "Impressionismo",
-      "Cubismo",
       "Surrealismo"
     ],
     "correct_index": 3
@@ -149,11 +149,11 @@
     "question": "Qual pintor holandês cortou parte da própria orelha?",
     "options": [
       "Rembrandt",
-      "Vincent van Gogh",
+      "Vermeer",
       "Piet Mondrian",
-      "Vermeer"
+      "Vincent van Gogh"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "art-013",
@@ -162,9 +162,9 @@
     "question": "Qual artista pintou a série \"Os Girassóis\"?",
     "options": [
       "Vincent van Gogh",
+      "Claude Monet",
       "Paul Cézanne",
-      "Paul Gauguin",
-      "Claude Monet"
+      "Paul Gauguin"
     ],
     "correct_index": 0
   },
@@ -174,12 +174,12 @@
     "difficulty": "facil",
     "question": "Quem projetou a maior parte dos prédios públicos de Brasília?",
     "options": [
-      "Oscar Niemeyer",
       "Lúcio Costa",
+      "Oscar Niemeyer",
       "Burle Marx",
       "Le Corbusier"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "art-015",
@@ -187,12 +187,12 @@
     "difficulty": "facil",
     "question": "Quem criou o Plano Piloto de Brasília?",
     "options": [
+      "Oscar Niemeyer",
       "Burle Marx",
       "Lúcio Costa",
-      "Oscar Niemeyer",
       "Juscelino Kubitschek"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "art-016",
@@ -200,12 +200,12 @@
     "difficulty": "facil",
     "question": "Como se chama a tábua onde o pintor mistura suas tintas?",
     "options": [
-      "Pincel",
-      "Paleta",
+      "Cavalete",
       "Espátula",
-      "Cavalete"
+      "Pincel",
+      "Paleta"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "art-017",
@@ -215,10 +215,10 @@
     "options": [
       "Gravura",
       "Aquarela",
-      "Mosaico",
-      "Colagem"
+      "Colagem",
+      "Mosaico"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-018",
@@ -226,12 +226,12 @@
     "difficulty": "facil",
     "question": "Como se chama a pintura feita com tinta diluída em água, de aspecto transparente?",
     "options": [
-      "Óleo sobre tela",
-      "Guache",
       "Aquarela",
-      "Afresco"
+      "Afresco",
+      "Óleo sobre tela",
+      "Guache"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "art-019",
@@ -240,11 +240,11 @@
     "question": "A que estilo de pintura pertence Claude Monet?",
     "options": [
       "Cubismo",
-      "Impressionismo",
+      "Pop Art",
       "Barroco",
-      "Pop Art"
+      "Impressionismo"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "art-020",
@@ -252,12 +252,12 @@
     "difficulty": "facil",
     "question": "Qual pintor brasileiro fez a obra \"Os Retirantes\"?",
     "options": [
-      "Tarsila do Amaral",
-      "Alfredo Volpi",
       "Di Cavalcanti",
-      "Cândido Portinari"
+      "Cândido Portinari",
+      "Alfredo Volpi",
+      "Tarsila do Amaral"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "art-021",
@@ -265,12 +265,12 @@
     "difficulty": "facil",
     "question": "Qual artista pop pintou Marilyn Monroe e latas de sopa?",
     "options": [
+      "Roy Lichtenstein",
       "Andy Warhol",
       "Keith Haring",
-      "Roy Lichtenstein",
       "Jackson Pollock"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "art-022",
@@ -293,10 +293,10 @@
     "options": [
       "Papel",
       "Vidro",
-      "Argila",
-      "Tecido"
+      "Tecido",
+      "Argila"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-024",
@@ -305,11 +305,11 @@
     "question": "Qual artista mexicana é famosa por autorretratos e sobrancelhas marcantes?",
     "options": [
       "Georgia O'Keeffe",
+      "Frida Kahlo",
       "Tarsila do Amaral",
-      "Camille Claudel",
-      "Frida Kahlo"
+      "Camille Claudel"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "art-025",
@@ -317,12 +317,12 @@
     "difficulty": "facil",
     "question": "Como se chama o suporte que segura a tela do pintor?",
     "options": [
-      "Esquadro",
+      "Paleta",
       "Pincel",
-      "Cavalete",
-      "Paleta"
+      "Esquadro",
+      "Cavalete"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-026",
@@ -330,12 +330,12 @@
     "difficulty": "facil",
     "question": "Quem pintou \"O Grito\"?",
     "options": [
+      "Francisco Goya",
       "Vincent van Gogh",
       "Gustav Klimt",
-      "Edvard Munch",
-      "Francisco Goya"
+      "Edvard Munch"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-027",
@@ -343,12 +343,12 @@
     "difficulty": "facil",
     "question": "Qual artista brasileiro do período colonial ficou conhecido como Aleijadinho?",
     "options": [
+      "Cândido Portinari",
       "Mestre Valentim",
       "Antônio Francisco Lisboa",
-      "Cândido Portinari",
       "Mestre Ataíde"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "art-028",
@@ -357,9 +357,9 @@
     "question": "Qual cor se obtém misturando azul e amarelo?",
     "options": [
       "Verde",
-      "Marrom",
       "Roxo",
-      "Laranja"
+      "Laranja",
+      "Marrom"
     ],
     "correct_index": 0
   },
@@ -369,12 +369,12 @@
     "difficulty": "facil",
     "question": "Qual cor se obtém misturando vermelho e amarelo?",
     "options": [
-      "Roxo",
       "Laranja",
+      "Verde",
       "Rosa",
-      "Verde"
+      "Roxo"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "art-030",
@@ -382,12 +382,12 @@
     "difficulty": "facil",
     "question": "Como se chama o espetáculo teatral cantado, com orquestra, como \"La Traviata\"?",
     "options": [
+      "Circo",
       "Mímica",
       "Ópera",
-      "Circo",
       "Balé"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "art-031",
@@ -395,8 +395,8 @@
     "difficulty": "facil",
     "question": "Qual dança clássica é feita nas pontas dos pés?",
     "options": [
-      "Frevo",
       "Samba",
+      "Frevo",
       "Tango",
       "Balé"
     ],
@@ -409,9 +409,9 @@
     "question": "Qual é o nome da escultura de um cristo de braços abertos no Rio de Janeiro?",
     "options": [
       "Cristo Redentor",
+      "Cristo Rei",
       "Cristo de Lisboa",
-      "Cristo da Paz",
-      "Cristo Rei"
+      "Cristo da Paz"
     ],
     "correct_index": 0
   },
@@ -421,12 +421,12 @@
     "difficulty": "facil",
     "question": "Qual é o nome da estátua americana que fica na ilha de Nova York e foi presente da França?",
     "options": [
-      "Estátua da Liberdade",
-      "Cristo Redentor",
       "Esfinge",
-      "Davi"
+      "Davi",
+      "Cristo Redentor",
+      "Estátua da Liberdade"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "art-034",
@@ -436,10 +436,10 @@
     "options": [
       "Afresco",
       "Mosaico",
-      "Grafite",
-      "Vitral"
+      "Vitral",
+      "Grafite"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-035",
@@ -449,10 +449,10 @@
     "options": [
       "Caravaggio",
       "Rafael",
-      "Leonardo da Vinci",
-      "Michelangelo"
+      "Michelangelo",
+      "Leonardo da Vinci"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-036",
@@ -460,12 +460,12 @@
     "difficulty": "medio",
     "question": "Quem pintou \"O Nascimento de Vênus\"?",
     "options": [
+      "Rafael",
       "Sandro Botticelli",
       "Leonardo da Vinci",
-      "Rafael",
       "Ticiano"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "art-037",
@@ -473,12 +473,12 @@
     "difficulty": "medio",
     "question": "Quem pintou \"Moça com Brinco de Pérola\"?",
     "options": [
-      "Rembrandt",
       "Frans Hals",
-      "Jan van Eyck",
-      "Johannes Vermeer"
+      "Rembrandt",
+      "Johannes Vermeer",
+      "Jan van Eyck"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "art-038",
@@ -486,12 +486,12 @@
     "difficulty": "medio",
     "question": "Quem pintou \"A Ronda Noturna\"?",
     "options": [
-      "Rembrandt",
-      "Johannes Vermeer",
       "Rubens",
-      "Francisco Goya"
+      "Rembrandt",
+      "Francisco Goya",
+      "Johannes Vermeer"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "art-039",
@@ -499,12 +499,12 @@
     "difficulty": "medio",
     "question": "Qual movimento artístico foi iniciado por Picasso e Georges Braque?",
     "options": [
-      "Dadaísmo",
-      "Surrealismo",
+      "Fauvismo",
       "Cubismo",
-      "Fauvismo"
+      "Dadaísmo",
+      "Surrealismo"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "art-040",
@@ -512,10 +512,10 @@
     "difficulty": "medio",
     "question": "Qual movimento modernista brasileiro foi inspirado no quadro \"Abaporu\"?",
     "options": [
-      "Concretismo",
+      "Barroco",
       "Movimento Antropofágico",
       "Tropicalismo",
-      "Barroco"
+      "Concretismo"
     ],
     "correct_index": 1
   },
@@ -525,12 +525,12 @@
     "difficulty": "medio",
     "question": "Em que ano aconteceu a Semana de Arte Moderna, em São Paulo?",
     "options": [
-      "1922",
       "1900",
-      "1889",
-      "1945"
+      "1945",
+      "1922",
+      "1889"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "art-042",
@@ -538,12 +538,12 @@
     "difficulty": "medio",
     "question": "Qual pintor francês é famoso por retratar bailarinas?",
     "options": [
-      "Édouard Manet",
-      "Pierre-Auguste Renoir",
+      "Claude Monet",
       "Edgar Degas",
-      "Claude Monet"
+      "Pierre-Auguste Renoir",
+      "Édouard Manet"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "art-043",
@@ -551,12 +551,12 @@
     "difficulty": "medio",
     "question": "Qual artista austríaco pintou \"O Beijo\", com muito dourado?",
     "options": [
-      "Gustav Klimt",
-      "Edvard Munch",
       "Henri Matisse",
-      "Egon Schiele"
+      "Egon Schiele",
+      "Edvard Munch",
+      "Gustav Klimt"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "art-044",
@@ -564,12 +564,12 @@
     "difficulty": "medio",
     "question": "Quem pintou \"A Persistência da Memória\"?",
     "options": [
-      "Joan Miró",
+      "Salvador Dalí",
       "Max Ernst",
-      "René Magritte",
-      "Salvador Dalí"
+      "Joan Miró",
+      "René Magritte"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "art-045",
@@ -577,12 +577,12 @@
     "difficulty": "medio",
     "question": "Em qual cidade fica o Museu do Prado?",
     "options": [
-      "Lisboa",
       "Madri",
+      "Lisboa",
       "Barcelona",
       "Paris"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "art-046",
@@ -590,12 +590,12 @@
     "difficulty": "medio",
     "question": "Qual escultura de Michelangelo, no Vaticano, mostra Maria segurando Cristo morto?",
     "options": [
-      "Davi",
-      "Moisés",
       "Pietà",
-      "O Pensador"
+      "O Pensador",
+      "Moisés",
+      "Davi"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "art-047",
@@ -605,8 +605,8 @@
     "options": [
       "Salvador Dalí",
       "Antoni Gaudí",
-      "Pablo Picasso",
-      "Santiago Calatrava"
+      "Santiago Calatrava",
+      "Pablo Picasso"
     ],
     "correct_index": 1
   },
@@ -617,11 +617,11 @@
     "question": "Em qual cidade espanhola fica a basílica da Sagrada Família?",
     "options": [
       "Sevilha",
-      "Madri",
       "Barcelona",
+      "Madri",
       "Valência"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "art-049",
@@ -629,12 +629,12 @@
     "difficulty": "medio",
     "question": "Qual estilo artístico é marcante nas igrejas douradas de Salvador, como a de São Francisco?",
     "options": [
+      "Barroco",
       "Neoclássico",
-      "Gótico",
       "Moderno",
-      "Barroco"
+      "Gótico"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "art-050",
@@ -642,12 +642,12 @@
     "difficulty": "medio",
     "question": "Qual artista plástico argentino radicado na Bahia ficou famoso por retratar o povo e o candomblé?",
     "options": [
-      "Cândido Portinari",
-      "Carybé",
       "Di Cavalcanti",
-      "Alfredo Volpi"
+      "Cândido Portinari",
+      "Alfredo Volpi",
+      "Carybé"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "art-051",
@@ -655,10 +655,10 @@
     "difficulty": "medio",
     "question": "Qual artista chileno-brasileiro criou a famosa escadaria colorida no Rio de Janeiro?",
     "options": [
-      "Romero Britto",
-      "Jorge Selarón",
       "Vik Muniz",
-      "Eduardo Kobra"
+      "Jorge Selarón",
+      "Eduardo Kobra",
+      "Romero Britto"
     ],
     "correct_index": 1
   },
@@ -669,9 +669,9 @@
     "question": "Qual artista brasileiro de cores vibrantes e estilo pop vive em Miami?",
     "options": [
       "Romero Britto",
-      "Vik Muniz",
       "Os Gêmeos",
-      "Eduardo Kobra"
+      "Eduardo Kobra",
+      "Vik Muniz"
     ],
     "correct_index": 0
   },
@@ -681,8 +681,8 @@
     "difficulty": "medio",
     "question": "Qual artista brasileiro é famoso por murais coloridos gigantes, como \"Etnias\"?",
     "options": [
-      "Romero Britto",
       "Vik Muniz",
+      "Romero Britto",
       "Eduardo Kobra",
       "Beatriz Milhazes"
     ],
@@ -696,10 +696,10 @@
     "options": [
       "Mark Rothko",
       "Willem de Kooning",
-      "Jackson Pollock",
-      "Andy Warhol"
+      "Andy Warhol",
+      "Jackson Pollock"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-055",
@@ -707,12 +707,12 @@
     "difficulty": "medio",
     "question": "Quem pintou \"O Jardim das Delícias Terrenas\"?",
     "options": [
-      "Francisco Goya",
-      "Albrecht Dürer",
       "Pieter Bruegel",
-      "Hieronymus Bosch"
+      "Albrecht Dürer",
+      "Hieronymus Bosch",
+      "Francisco Goya"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "art-056",
@@ -720,12 +720,12 @@
     "difficulty": "medio",
     "question": "Qual pintor francês é o criador do quadro \"Impressão, Nascer do Sol\"?",
     "options": [
+      "Edgar Degas",
       "Gustave Courbet",
       "Paul Cézanne",
-      "Claude Monet",
-      "Edgar Degas"
+      "Claude Monet"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-057",
@@ -734,11 +734,11 @@
     "question": "Qual artista brasileiro ficou famoso por fazer retratos com material reciclado no aterro de Jardim Gramacho?",
     "options": [
       "Cildo Meireles",
-      "Romero Britto",
+      "Vik Muniz",
       "Eduardo Kobra",
-      "Vik Muniz"
+      "Romero Britto"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "art-058",
@@ -746,12 +746,12 @@
     "difficulty": "medio",
     "question": "Como se chama a arte japonesa de arranjo de flores?",
     "options": [
-      "Sumi-ê",
-      "Bonsai",
+      "Ikebana",
       "Origami",
-      "Ikebana"
+      "Sumi-ê",
+      "Bonsai"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "art-059",
@@ -759,12 +759,12 @@
     "difficulty": "medio",
     "question": "Como se chama a arte japonesa de cultivar árvores em miniatura?",
     "options": [
+      "Haicai",
       "Bonsai",
       "Ikebana",
-      "Origami",
-      "Haicai"
+      "Origami"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "art-060",
@@ -772,12 +772,12 @@
     "difficulty": "medio",
     "question": "Qual manifestação mistura luta, dança e música e é símbolo da cultura afro-brasileira?",
     "options": [
-      "Quadrilha",
-      "Maracatu",
+      "Frevo",
       "Capoeira",
-      "Frevo"
+      "Maracatu",
+      "Quadrilha"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "art-061",
@@ -785,10 +785,10 @@
     "difficulty": "medio",
     "question": "Como se chama a técnica de pintar sobre parede com reboco ainda úmido?",
     "options": [
-      "Guache",
+      "Aquarela",
       "Afresco",
-      "Óleo sobre tela",
-      "Aquarela"
+      "Guache",
+      "Óleo sobre tela"
     ],
     "correct_index": 1
   },
@@ -798,12 +798,12 @@
     "difficulty": "medio",
     "question": "Qual obra de Portinari está no prédio da ONU, em Nova York?",
     "options": [
-      "Criança Morta",
       "O Lavrador de Café",
-      "Guerra e Paz",
-      "Retirantes"
+      "Criança Morta",
+      "Retirantes",
+      "Guerra e Paz"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-063",
@@ -811,12 +811,12 @@
     "difficulty": "medio",
     "question": "Em qual cidade espanhola fica o museu Guggenheim projetado por Frank Gehry?",
     "options": [
-      "Madri",
       "Bilbao",
+      "Barcelona",
       "Valência",
-      "Barcelona"
+      "Madri"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "art-064",
@@ -824,12 +824,12 @@
     "difficulty": "medio",
     "question": "Quem pintou \"A Liberdade Guiando o Povo\"?",
     "options": [
-      "Eugène Delacroix",
       "Gustave Courbet",
+      "Jacques-Louis David",
       "Francisco Goya",
-      "Jacques-Louis David"
+      "Eugène Delacroix"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "art-065",
@@ -837,10 +837,10 @@
     "difficulty": "medio",
     "question": "Qual artista brasileiro é famoso pelas pinturas de bandeirinhas e casinhas coloridas?",
     "options": [
-      "Tarsila do Amaral",
+      "Di Cavalcanti",
       "Alfredo Volpi",
-      "Cândido Portinari",
-      "Di Cavalcanti"
+      "Tarsila do Amaral",
+      "Cândido Portinari"
     ],
     "correct_index": 1
   },
@@ -850,12 +850,12 @@
     "difficulty": "medio",
     "question": "Como se chama o estilo de pintura que mostra frutas, flores e objetos arrumados sobre uma mesa?",
     "options": [
-      "Paisagem",
       "Natureza-morta",
       "Retrato",
-      "Marinha"
+      "Marinha",
+      "Paisagem"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "art-067",
@@ -863,12 +863,12 @@
     "difficulty": "medio",
     "question": "Qual estilo de arte não tenta representar objetos reais, usando só formas, linhas e cores?",
     "options": [
-      "Renascimento",
+      "Arte abstrata",
       "Realismo",
-      "Barroco",
-      "Arte abstrata"
+      "Renascimento",
+      "Barroco"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "art-068",
@@ -876,25 +876,25 @@
     "difficulty": "dificil",
     "question": "Quem pintou \"A Escola de Atenas\"?",
     "options": [
+      "Leonardo da Vinci",
       "Rafael",
-      "Michelangelo",
       "Sandro Botticelli",
-      "Leonardo da Vinci"
+      "Michelangelo"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "art-069",
     "category": "artes",
     "difficulty": "dificil",
-    "question": "Qual escultor italiano fez a obra \"Êxtase de Santa Teresa\"?",
+    "question": "Qual movimento artístico dos anos 1960 usou imagens de latas, quadrinhos e celebridades?",
     "options": [
-      "Michelangelo",
-      "Antonio Canova",
-      "Gian Lorenzo Bernini",
-      "Donatello"
+      "Cubismo",
+      "Barroco",
+      "Realismo",
+      "Pop Art"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-070",
@@ -902,23 +902,23 @@
     "difficulty": "dificil",
     "question": "Qual artista expôs um urinol com o título \"Fonte\" e chocou o mundo da arte?",
     "options": [
-      "Man Ray",
       "Marcel Duchamp",
       "Andy Warhol",
-      "Salvador Dalí"
+      "Salvador Dalí",
+      "Man Ray"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "art-071",
     "category": "artes",
     "difficulty": "dificil",
-    "question": "Quem pintou \"As Meninas\" (Las Meninas)?",
+    "question": "Qual artista pernambucano ficou famoso pelas figuras de barro do cotidiano do Nordeste?",
     "options": [
-      "Bartolomé Murillo",
-      "Francisco Goya",
-      "Diego Velázquez",
-      "El Greco"
+      "Carybé",
+      "Cândido Portinari",
+      "Mestre Vitalino",
+      "Aleijadinho"
     ],
     "correct_index": 2
   },
@@ -929,9 +929,9 @@
     "question": "Qual pintor espanhol pintou \"Saturno Devorando Seu Filho\"?",
     "options": [
       "Francisco Goya",
-      "Salvador Dalí",
+      "Pablo Picasso",
       "Diego Velázquez",
-      "Pablo Picasso"
+      "Salvador Dalí"
     ],
     "correct_index": 0
   },
@@ -941,10 +941,10 @@
     "difficulty": "dificil",
     "question": "Qual artista holandês é conhecido por quadros com quadrados coloridos separados por linhas pretas?",
     "options": [
-      "Paul Klee",
+      "Kazimir Malevich",
       "Piet Mondrian",
-      "Wassily Kandinsky",
-      "Kazimir Malevich"
+      "Paul Klee",
+      "Wassily Kandinsky"
     ],
     "correct_index": 1
   },
@@ -954,12 +954,12 @@
     "difficulty": "dificil",
     "question": "Qual pintor russo é considerado um dos pioneiros da arte abstrata?",
     "options": [
-      "Kazimir Malevich",
       "Marc Chagall",
-      "Ilya Repin",
-      "Wassily Kandinsky"
+      "Wassily Kandinsky",
+      "Kazimir Malevich",
+      "Ilya Repin"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "art-075",
@@ -968,11 +968,11 @@
     "question": "Quem desenhou o \"Homem Vitruviano\"?",
     "options": [
       "Michelangelo",
-      "Giorgio Vasari",
       "Albrecht Dürer",
-      "Leonardo da Vinci"
+      "Leonardo da Vinci",
+      "Giorgio Vasari"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "art-076",
@@ -980,12 +980,12 @@
     "difficulty": "dificil",
     "question": "Quem pintou a série \"Nenúfares\"?",
     "options": [
-      "Camille Pissarro",
       "Georges Seurat",
       "Claude Monet",
+      "Camille Pissarro",
       "Pierre-Auguste Renoir"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "art-077",
@@ -994,11 +994,11 @@
     "question": "Qual pintor brasileiro é autor de \"Samba\" e de cenas de mulatas e carnaval?",
     "options": [
       "Tarsila do Amaral",
-      "Cândido Portinari",
       "Di Cavalcanti",
-      "Alfredo Volpi"
+      "Alfredo Volpi",
+      "Cândido Portinari"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "art-078",
@@ -1006,12 +1006,12 @@
     "difficulty": "dificil",
     "question": "Qual artista brasileira pintou \"Operários\"?",
     "options": [
-      "Lasar Segall",
-      "Anita Malfatti",
       "Tarsila do Amaral",
+      "Anita Malfatti",
+      "Lasar Segall",
       "Djanira"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "art-079",
@@ -1020,11 +1020,11 @@
     "question": "Qual artista brasileira pintou \"A Boba\", obra do início do modernismo?",
     "options": [
       "Pagu",
+      "Anita Malfatti",
       "Lygia Clark",
-      "Tarsila do Amaral",
-      "Anita Malfatti"
+      "Tarsila do Amaral"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "art-080",
@@ -1032,12 +1032,12 @@
     "difficulty": "dificil",
     "question": "Qual estilo arquitetônico, com arcos pontiagudos e vitrais, marcou catedrais como Notre-Dame?",
     "options": [
-      "Barroco",
-      "Românico",
       "Neoclássico",
-      "Gótico"
+      "Românico",
+      "Gótico",
+      "Barroco"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "art-081",
@@ -1045,25 +1045,25 @@
     "difficulty": "dificil",
     "question": "Qual escultora francesa foi aluna e amante de Rodin?",
     "options": [
-      "Camille Claudel",
       "Louise Bourgeois",
+      "Camille Claudel",
       "Frida Kahlo",
       "Berthe Morisot"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "art-082",
     "category": "artes",
     "difficulty": "dificil",
-    "question": "Qual famosa estátua grega sem braços está exposta no Louvre?",
+    "question": "Qual famosa estátua grega sem braços, exposta no Louvre, representa a deusa Afrodite?",
     "options": [
-      "Vitória de Samotrácia",
-      "Vênus de Milo",
       "Discóbolo",
-      "Davi"
+      "Vitória de Samotrácia",
+      "Davi",
+      "Vênus de Milo"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "art-083",
@@ -1072,22 +1072,22 @@
     "question": "Qual escultura grega representa um atleta lançando disco?",
     "options": [
       "Davi",
+      "Apolo",
       "Laocoonte",
-      "Discóbolo",
-      "Apolo"
+      "Discóbolo"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-084",
     "category": "artes",
     "difficulty": "dificil",
-    "question": "Qual pintor de origem grega pintou \"O Enterro do Conde de Orgaz\"?",
+    "question": "Qual país é considerado o berço do grafite moderno, nos metrôs e muros dos anos 1970?",
     "options": [
-      "El Greco",
-      "Francisco de Zurbarán",
-      "Diego Velázquez",
-      "Bartolomé Murillo"
+      "Estados Unidos",
+      "França",
+      "Japão",
+      "Brasil"
     ],
     "correct_index": 0
   },
@@ -1097,12 +1097,12 @@
     "difficulty": "dificil",
     "question": "Em qual país fica a Capela Sistina?",
     "options": [
-      "França",
-      "Itália",
       "Espanha",
-      "Cidade do Vaticano"
+      "França",
+      "Cidade do Vaticano",
+      "Suíça"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "art-086",
@@ -1110,12 +1110,12 @@
     "difficulty": "dificil",
     "question": "Qual balé famoso tem música composta por Tchaikovsky e cisnes encantados?",
     "options": [
-      "Giselle",
-      "Dom Quixote",
+      "Coppélia",
       "O Lago dos Cisnes",
-      "Coppélia"
+      "Giselle",
+      "Dom Quixote"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "art-087",
@@ -1124,9 +1124,9 @@
     "question": "Qual pintor impressionista fez \"O Almoço dos Remadores\"?",
     "options": [
       "Pierre-Auguste Renoir",
+      "Edgar Degas",
       "Claude Monet",
-      "Édouard Manet",
-      "Edgar Degas"
+      "Édouard Manet"
     ],
     "correct_index": 0
   },
@@ -1149,12 +1149,12 @@
     "difficulty": "dificil",
     "question": "Qual artista belga pintou o quadro \"Isto não é um cachimbo\"?",
     "options": [
-      "René Magritte",
-      "Joan Miró",
       "Max Ernst",
-      "Salvador Dalí"
+      "Salvador Dalí",
+      "Joan Miró",
+      "René Magritte"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "art-090",
@@ -1162,12 +1162,12 @@
     "difficulty": "dificil",
     "question": "Qual artista britânico anônimo é famoso por grafites com crítica social?",
     "options": [
-      "Shepard Fairey",
-      "Keith Haring",
       "Banksy",
-      "Jean-Michel Basquiat"
+      "Jean-Michel Basquiat",
+      "Shepard Fairey",
+      "Keith Haring"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "art-091",
@@ -1176,11 +1176,11 @@
     "question": "Qual artista brasileiro criou a instalação \"Tropicália\", que deu nome ao movimento?",
     "options": [
       "Athos Bulcão",
-      "Cildo Meireles",
       "Lygia Clark",
-      "Hélio Oiticica"
+      "Hélio Oiticica",
+      "Cildo Meireles"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "art-092",
@@ -1188,25 +1188,25 @@
     "difficulty": "dificil",
     "question": "Qual artista brasileira criou a série de esculturas articuladas chamadas \"Bichos\"?",
     "options": [
+      "Tomie Ohtake",
       "Lygia Clark",
       "Hélio Oiticica",
-      "Mira Schendel",
-      "Tomie Ohtake"
+      "Mira Schendel"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "art-093",
     "category": "artes",
     "difficulty": "dificil",
-    "question": "Qual pintor flamengo é autor de \"O Casal Arnolfini\"?",
+    "question": "Qual dupla de irmãos paulistanos é famosa pelo grafite de personagens amarelos?",
     "options": [
-      "Johannes Vermeer",
-      "Hieronymus Bosch",
-      "Rembrandt",
-      "Jan van Eyck"
+      "Tarsila e Anita Malfatti",
+      "Eduardo Kobra e Romero Britto",
+      "Os Gêmeos",
+      "Vik Muniz e Cildo Meireles"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "art-094",
@@ -1227,12 +1227,12 @@
     "difficulty": "dificil",
     "question": "Qual movimento rompeu com a arte tradicional usando o absurdo, após a Primeira Guerra?",
     "options": [
+      "Dadaísmo",
       "Impressionismo",
       "Realismo",
-      "Dadaísmo",
       "Barroco"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "art-096",
@@ -1240,10 +1240,10 @@
     "difficulty": "dificil",
     "question": "Em qual cidade espanhola nasceu Pablo Picasso, em 1881?",
     "options": [
-      "Sevilha",
+      "Barcelona",
       "Málaga",
       "Madri",
-      "Barcelona"
+      "Sevilha"
     ],
     "correct_index": 1
   },
@@ -1253,12 +1253,12 @@
     "difficulty": "dificil",
     "question": "Qual cidade mineira é símbolo do barroco brasileiro e abriga obras de Aleijadinho?",
     "options": [
-      "Olinda",
       "Diamantina",
-      "Paraty",
-      "Ouro Preto"
+      "Olinda",
+      "Ouro Preto",
+      "Paraty"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "art-098",
@@ -1279,12 +1279,12 @@
     "difficulty": "dificil",
     "question": "Qual pintor barroco italiano é famoso pelo uso dramático de luz e sombra?",
     "options": [
-      "Ticiano",
       "Sandro Botticelli",
-      "Caravaggio",
-      "Rafael"
+      "Rafael",
+      "Ticiano",
+      "Caravaggio"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "art-100",
@@ -1292,11 +1292,11 @@
     "difficulty": "dificil",
     "question": "Qual período artístico valorizou o ser humano e a ciência, após a Idade Média?",
     "options": [
-      "Romantismo",
-      "Barroco",
       "Renascimento",
-      "Modernismo"
+      "Modernismo",
+      "Barroco",
+      "Romantismo"
     ],
-    "correct_index": 2
+    "correct_index": 0
   }
 ]

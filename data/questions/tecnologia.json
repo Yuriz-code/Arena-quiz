@@ -6,11 +6,11 @@
     "question": "Qual empresa criou o iPhone?",
     "options": [
       "Samsung",
-      "Microsoft",
       "Apple",
+      "Microsoft",
       "Google"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "tec-002",
@@ -18,12 +18,12 @@
     "difficulty": "facil",
     "question": "Qual empresa criou o sistema operacional Windows?",
     "options": [
-      "Microsoft",
-      "Google",
       "Apple",
-      "IBM"
+      "IBM",
+      "Microsoft",
+      "Google"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "tec-003",
@@ -31,12 +31,12 @@
     "difficulty": "facil",
     "question": "Qual é o site de buscas mais usado do mundo?",
     "options": [
-      "Yahoo",
-      "Bing",
+      "Google",
       "DuckDuckGo",
-      "Google"
+      "Bing",
+      "Yahoo"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "tec-004",
@@ -44,10 +44,10 @@
     "difficulty": "facil",
     "question": "Qual rede social é famosa pelos vídeos curtos e dancinhas?",
     "options": [
-      "LinkedIn",
+      "Telegram",
       "TikTok",
       "Facebook",
-      "Telegram"
+      "LinkedIn"
     ],
     "correct_index": 1
   },
@@ -57,12 +57,12 @@
     "difficulty": "facil",
     "question": "Qual aplicativo de mensagens de ícone verde é muito usado no Brasil?",
     "options": [
-      "Messenger",
-      "Telegram",
+      "WhatsApp",
       "Signal",
-      "WhatsApp"
+      "Messenger",
+      "Telegram"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "tec-006",
@@ -83,12 +83,12 @@
     "difficulty": "facil",
     "question": "O que significa a sigla PC?",
     "options": [
-      "Placa de circuito",
       "Computador pessoal",
-      "Painel de controle",
-      "Programa central"
+      "Placa de circuito",
+      "Programa central",
+      "Painel de controle"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "tec-008",
@@ -96,12 +96,12 @@
     "difficulty": "facil",
     "question": "Qual peça é considerada o \"cérebro\" do computador?",
     "options": [
-      "Monitor",
-      "HD",
       "Teclado",
-      "Processador (CPU)"
+      "HD",
+      "Processador (CPU)",
+      "Monitor"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "tec-009",
@@ -109,12 +109,12 @@
     "difficulty": "facil",
     "question": "Como se chama a tela que responde ao toque dos dedos?",
     "options": [
-      "Touchscreen",
+      "Teclado",
       "Mouse",
       "Joystick",
-      "Teclado"
+      "Touchscreen"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "tec-010",
@@ -122,12 +122,12 @@
     "difficulty": "facil",
     "question": "Qual é o sistema operacional dos iPhones?",
     "options": [
-      "iOS",
-      "Windows Phone",
+      "Linux",
       "Android",
-      "Linux"
+      "iOS",
+      "Windows Phone"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "tec-011",
@@ -135,12 +135,12 @@
     "difficulty": "facil",
     "question": "Qual é o sistema operacional do Google para celulares?",
     "options": [
-      "iOS",
       "Windows",
       "Android",
-      "macOS"
+      "macOS",
+      "iOS"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "tec-012",
@@ -148,8 +148,8 @@
     "difficulty": "facil",
     "question": "Qual empresa criou o console PlayStation?",
     "options": [
-      "Microsoft",
       "Sega",
+      "Microsoft",
       "Nintendo",
       "Sony"
     ],
@@ -161,12 +161,12 @@
     "difficulty": "facil",
     "question": "Qual console de videogame pertence à Microsoft?",
     "options": [
-      "Xbox",
-      "PlayStation",
       "Dreamcast",
-      "Nintendo Switch"
+      "Nintendo Switch",
+      "Xbox",
+      "PlayStation"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "tec-014",
@@ -175,9 +175,9 @@
     "question": "Qual console híbrido da Nintendo foi lançado em 2017?",
     "options": [
       "Nintendo Switch",
-      "PS Vita",
+      "Game Boy",
       "Wii U",
-      "Game Boy"
+      "PS Vita"
     ],
     "correct_index": 0
   },
@@ -187,12 +187,12 @@
     "difficulty": "facil",
     "question": "Qual personagem da Nintendo é um encanador de macacão e boné vermelhos?",
     "options": [
-      "Sonic",
-      "Luigi",
       "Mario",
-      "Pac-Man"
+      "Pac-Man",
+      "Sonic",
+      "Luigi"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "tec-016",
@@ -200,12 +200,12 @@
     "difficulty": "facil",
     "question": "Qual jogo tem blocos para construir, picaretas e criaturas chamadas Creepers?",
     "options": [
-      "Among Us",
       "Fortnite",
       "Minecraft",
+      "Among Us",
       "Roblox"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "tec-017",
@@ -213,12 +213,12 @@
     "difficulty": "facil",
     "question": "Qual jogo clássico tem uma bolinha amarela que come fantasmas?",
     "options": [
-      "Pac-Man",
+      "Pong",
       "Sonic",
       "Tetris",
-      "Pong"
+      "Pac-Man"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "tec-018",
@@ -226,12 +226,12 @@
     "difficulty": "facil",
     "question": "Qual rede social foi criada por Mark Zuckerberg?",
     "options": [
-      "TikTok",
-      "Twitter",
+      "LinkedIn",
       "Facebook",
-      "LinkedIn"
+      "TikTok",
+      "Twitter"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "tec-019",
@@ -239,12 +239,12 @@
     "difficulty": "facil",
     "question": "Qual plataforma de vídeos tem o botão \"Inscrever-se\"?",
     "options": [
-      "YouTube",
-      "Spotify",
       "Netflix",
-      "Twitch"
+      "Spotify",
+      "Twitch",
+      "YouTube"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "tec-020",
@@ -252,12 +252,12 @@
     "difficulty": "facil",
     "question": "Qual serviço de filmes e séries por assinatura tem logo vermelho?",
     "options": [
-      "Twitch",
-      "Spotify",
+      "Netflix",
       "YouTube",
-      "Netflix"
+      "Spotify",
+      "Twitch"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "tec-021",
@@ -265,12 +265,12 @@
     "difficulty": "facil",
     "question": "Qual aplicativo de música por streaming tem logo verde?",
     "options": [
-      "Deezer",
       "Spotify",
-      "Apple Music",
-      "YouTube Music"
+      "Deezer",
+      "YouTube Music",
+      "Apple Music"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "tec-022",
@@ -278,9 +278,9 @@
     "difficulty": "facil",
     "question": "Qual aplicativo é muito usado para pedir carros de passageiros?",
     "options": [
-      "Airbnb",
-      "iFood",
       "Waze",
+      "iFood",
+      "Airbnb",
       "Uber"
     ],
     "correct_index": 3
@@ -304,12 +304,12 @@
     "difficulty": "facil",
     "question": "Qual aplicativo mostra mapas e o trânsito em tempo real?",
     "options": [
-      "Spotify",
       "Telegram",
       "Waze",
-      "Zoom"
+      "Zoom",
+      "Spotify"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "tec-025",
@@ -318,11 +318,11 @@
     "question": "Qual meio de pagamento instantâneo foi criado pelo Banco Central do Brasil?",
     "options": [
       "Boleto",
-      "Pix",
       "TED",
+      "Pix",
       "DOC"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "tec-026",
@@ -330,12 +330,12 @@
     "difficulty": "facil",
     "question": "O que significa \"fazer download\"?",
     "options": [
-      "Imprimir um arquivo",
-      "Baixar um arquivo da internet",
       "Enviar um arquivo",
-      "Apagar um arquivo"
+      "Apagar um arquivo",
+      "Baixar um arquivo da internet",
+      "Imprimir um arquivo"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "tec-027",
@@ -343,12 +343,12 @@
     "difficulty": "facil",
     "question": "Qual símbolo é usado em todo endereço de e-mail?",
     "options": [
+      "E comercial (&)",
       "Hashtag (#)",
       "Porcentagem (%)",
-      "Arroba (@)",
-      "E comercial (&)"
+      "Arroba (@)"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "tec-028",
@@ -356,12 +356,12 @@
     "difficulty": "facil",
     "question": "Qual dispositivo movimenta a setinha na tela do computador?",
     "options": [
-      "Mouse",
-      "Impressora",
       "Monitor",
+      "Impressora",
+      "Mouse",
       "Teclado"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "tec-029",
@@ -369,10 +369,10 @@
     "difficulty": "facil",
     "question": "Qual é o nome da assistente virtual da Apple?",
     "options": [
-      "Alexa",
       "Bixby",
+      "Cortana",
       "Siri",
-      "Cortana"
+      "Alexa"
     ],
     "correct_index": 2
   },
@@ -382,12 +382,12 @@
     "difficulty": "facil",
     "question": "Qual é o nome da assistente virtual da Amazon?",
     "options": [
-      "Siri",
-      "Google Assistente",
       "Alexa",
-      "Bixby"
+      "Siri",
+      "Bixby",
+      "Google Assistente"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "tec-031",
@@ -395,12 +395,12 @@
     "difficulty": "facil",
     "question": "Qual empresa foi fundada por Jeff Bezos?",
     "options": [
-      "Apple",
-      "Google",
+      "Microsoft",
       "Amazon",
-      "Microsoft"
+      "Google",
+      "Apple"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "tec-032",
@@ -408,12 +408,12 @@
     "difficulty": "facil",
     "question": "Qual aparelho é um meio-termo entre o celular e o notebook, com tela grande e sensível ao toque?",
     "options": [
-      "Smartwatch",
       "Fone de ouvido",
       "Drone",
-      "Tablet"
+      "Tablet",
+      "Smartwatch"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "tec-033",
@@ -421,9 +421,9 @@
     "difficulty": "facil",
     "question": "Qual aparelho voa controlado a distância e tem hélices?",
     "options": [
+      "Impressora",
       "Roteador",
       "Scanner",
-      "Impressora",
       "Drone"
     ],
     "correct_index": 3
@@ -434,12 +434,12 @@
     "difficulty": "facil",
     "question": "O que é inteligência artificial?",
     "options": [
-      "Máquinas que realizam tarefas que exigem inteligência humana",
       "Uma rede social",
-      "Um vírus",
-      "Um tipo de cabo"
+      "Máquinas que realizam tarefas que exigem inteligência humana",
+      "Um tipo de cabo",
+      "Um vírus"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "tec-035",
@@ -447,10 +447,10 @@
     "difficulty": "medio",
     "question": "Quem fundou a Microsoft ao lado de Paul Allen?",
     "options": [
-      "Mark Zuckerberg",
+      "Steve Jobs",
       "Jeff Bezos",
       "Bill Gates",
-      "Steve Jobs"
+      "Mark Zuckerberg"
     ],
     "correct_index": 2
   },
@@ -460,12 +460,12 @@
     "difficulty": "medio",
     "question": "Quem fundou a Apple ao lado de Steve Wozniak?",
     "options": [
-      "Steve Jobs",
       "Bill Gates",
-      "Elon Musk",
-      "Larry Page"
+      "Steve Jobs",
+      "Larry Page",
+      "Elon Musk"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "tec-037",
@@ -473,9 +473,9 @@
     "difficulty": "medio",
     "question": "Quem criou o Facebook em 2004?",
     "options": [
-      "Evan Spiegel",
-      "Mark Zuckerberg",
       "Kevin Systrom",
+      "Mark Zuckerberg",
+      "Evan Spiegel",
       "Jack Dorsey"
     ],
     "correct_index": 1
@@ -484,12 +484,12 @@
     "id": "tec-038",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual empresário é dono da SpaceX?",
+    "question": "Qual empresário fundou a SpaceX?",
     "options": [
-      "Mark Zuckerberg",
+      "Bill Gates",
       "Elon Musk",
       "Jeff Bezos",
-      "Bill Gates"
+      "Mark Zuckerberg"
     ],
     "correct_index": 1
   },
@@ -499,36 +499,36 @@
     "difficulty": "medio",
     "question": "Quem criou o Google?",
     "options": [
-      "Bill Gates e Paul Allen",
-      "Steve Jobs e Steve Wozniak",
+      "Larry Page e Sergey Brin",
       "Mark Zuckerberg e Eduardo Saverin",
-      "Larry Page e Sergey Brin"
+      "Bill Gates e Paul Allen",
+      "Steve Jobs e Steve Wozniak"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "tec-040",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Para que serve a linguagem HTML?",
+    "question": "Qual navegador da Microsoft substituiu o Internet Explorer?",
     "options": [
-      "Estruturar páginas da web",
-      "Criar vírus",
-      "Proteger o computador",
-      "Enviar e-mails"
+      "Firefox",
+      "Safari",
+      "Chrome",
+      "Edge"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "tec-041",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual linguagem de programação foi criada por Guido van Rossum?",
+    "question": "Qual navegador é da Mozilla?",
     "options": [
-      "Ruby",
-      "Java",
-      "C",
-      "Python"
+      "Opera",
+      "Safari",
+      "Chrome",
+      "Firefox"
     ],
     "correct_index": 3
   },
@@ -536,38 +536,38 @@
     "id": "tec-042",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual navegador da Microsoft substituiu o Internet Explorer?",
+    "question": "Qual componente guarda os arquivos de forma permanente em computadores mais antigos?",
     "options": [
-      "Safari",
-      "Chrome",
-      "Firefox",
-      "Edge"
+      "Placa-mãe",
+      "HD",
+      "CPU",
+      "RAM"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "tec-043",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual navegador é da Mozilla?",
+    "question": "O que é um vírus de computador?",
     "options": [
-      "Chrome",
-      "Opera",
-      "Safari",
-      "Firefox"
+      "Um cabo defeituoso",
+      "Um tipo de teclado",
+      "Programa malicioso que causa danos",
+      "Um jogo"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "tec-044",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Para que serve a memória RAM do computador?",
+    "question": "O que é phishing?",
     "options": [
-      "Mostrar imagens",
-      "Guardar dados dos programas em uso",
-      "Guardar arquivos para sempre",
-      "Conectar à internet"
+      "Uma peça do computador",
+      "Golpe que finge ser algo confiável para roubar dados",
+      "Um antivírus",
+      "Um tipo de pesca"
     ],
     "correct_index": 1
   },
@@ -575,129 +575,129 @@
     "id": "tec-045",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual componente guarda os arquivos de forma permanente em computadores mais antigos?",
+    "question": "Qual destas é uma senha mais segura?",
     "options": [
-      "RAM",
-      "Placa-mãe",
-      "HD",
-      "CPU"
+      "Nome do pet",
+      "Longa, com letras, números e símbolos",
+      "Data de nascimento",
+      "123456"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "tec-046",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "O que é um SSD?",
+    "question": "Qual rede social da Meta é famosa por fotos, Reels e Stories?",
     "options": [
-      "Armazenamento rápido, sem partes móveis",
-      "Um processador",
-      "Uma placa de som",
-      "Um tipo de monitor"
+      "Pinterest",
+      "LinkedIn",
+      "Instagram",
+      "Snapchat"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "tec-047",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "O que é um vírus de computador?",
+    "question": "Qual rede social é voltada para carreira e currículos?",
     "options": [
-      "Um jogo",
-      "Um cabo defeituoso",
-      "Um tipo de teclado",
-      "Programa malicioso que causa danos"
+      "LinkedIn",
+      "Pinterest",
+      "TikTok",
+      "Instagram"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "tec-048",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "O que é phishing?",
+    "question": "Qual empresa criou o personagem Sonic?",
     "options": [
-      "Golpe que finge ser algo confiável para roubar dados",
-      "Uma peça do computador",
-      "Um antivírus",
-      "Um tipo de pesca"
+      "Sony",
+      "Nintendo",
+      "Atari",
+      "Sega"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "tec-049",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual destas é uma senha mais segura?",
+    "question": "Qual empresa sul-coreana fabrica os celulares Galaxy?",
     "options": [
-      "Nome do pet",
-      "Longa, com letras, números e símbolos",
-      "123456",
-      "Data de nascimento"
+      "Samsung",
+      "Sony",
+      "Huawei",
+      "LG"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "tec-050",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual rede social da Meta é famosa por fotos, Reels e Stories?",
+    "question": "Qual empresa é dona do WhatsApp e do Instagram?",
     "options": [
-      "Snapchat",
-      "Pinterest",
-      "Instagram",
-      "LinkedIn"
+      "Meta",
+      "Google",
+      "Microsoft",
+      "Apple"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "tec-051",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual rede social é voltada para carreira e currículos?",
+    "question": "Qual empresa é dona do YouTube?",
     "options": [
-      "Instagram",
-      "TikTok",
-      "LinkedIn",
-      "Pinterest"
+      "Meta",
+      "Netflix",
+      "Amazon",
+      "Google"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "tec-052",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual empresa criou o personagem Sonic?",
+    "question": "O que é o 5G?",
     "options": [
-      "Sony",
-      "Sega",
-      "Atari",
-      "Nintendo"
+      "Uma marca de celular",
+      "Um tipo de cabo",
+      "A quinta geração das redes móveis",
+      "Um antivírus"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "tec-053",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual empresa chinesa é dona do TikTok?",
+    "question": "O que é um QR Code?",
     "options": [
-      "Huawei",
-      "Alibaba",
-      "Tencent",
-      "ByteDance"
+      "Um vírus",
+      "Uma foto",
+      "Código de barras quadrado lido pela câmera",
+      "Uma senha"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "tec-054",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual empresa sul-coreana fabrica os celulares Galaxy?",
+    "question": "Para que serve o GPS?",
     "options": [
-      "Samsung",
-      "LG",
-      "Huawei",
-      "Sony"
+      "Descobrir localização por satélites",
+      "Editar vídeos",
+      "Ouvir música",
+      "Traduzir idiomas"
     ],
     "correct_index": 0
   },
@@ -705,51 +705,51 @@
     "id": "tec-055",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual empresa é dona do WhatsApp e do Instagram?",
+    "question": "O que significa \"nuvem\" (cloud) em tecnologia?",
     "options": [
-      "Google",
-      "Meta",
-      "Apple",
-      "Microsoft"
+      "Guardar e acessar dados pela internet",
+      "Uma tela especial",
+      "Um jogo",
+      "Um tipo de antivírus"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "tec-056",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual empresa é dona do YouTube?",
+    "question": "O que é o Bluetooth?",
     "options": [
-      "Google",
-      "Amazon",
-      "Netflix",
-      "Meta"
+      "Uma rede social",
+      "Conexão sem fio de curto alcance",
+      "Um cabo",
+      "Um antivírus"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "tec-057",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "O que é o 5G?",
+    "question": "Qual sistema operacional gratuito e de código aberto tem um pinguim como símbolo?",
     "options": [
-      "A quinta geração das redes móveis",
-      "Um antivírus",
-      "Um tipo de cabo",
-      "Uma marca de celular"
+      "Windows",
+      "macOS",
+      "Linux",
+      "Android"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "tec-058",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "O que é um QR Code?",
+    "question": "Qual aparelho a Apple lançou em 2007, revolucionando os celulares?",
     "options": [
-      "Um vírus",
-      "Uma senha",
-      "Código de barras quadrado lido pela câmera",
-      "Uma foto"
+      "iPod",
+      "iPad",
+      "iPhone",
+      "Apple Watch"
     ],
     "correct_index": 2
   },
@@ -757,12 +757,12 @@
     "id": "tec-059",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Para que serve o GPS?",
+    "question": "Qual empresa é dona do sistema Android?",
     "options": [
-      "Traduzir idiomas",
-      "Editar vídeos",
-      "Descobrir localização por satélites",
-      "Ouvir música"
+      "Microsoft",
+      "Apple",
+      "Google",
+      "Samsung"
     ],
     "correct_index": 2
   },
@@ -770,95 +770,199 @@
     "id": "tec-060",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "O que significa \"nuvem\" (cloud) em tecnologia?",
+    "question": "Quantos bits tem um byte?",
     "options": [
-      "Guardar e acessar dados pela internet",
-      "Um jogo",
-      "Uma tela especial",
-      "Um tipo de antivírus"
+      "16",
+      "4",
+      "10",
+      "8"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "tec-061",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "O que é o Bluetooth?",
+    "question": "O que é um \"bug\" em um programa?",
     "options": [
-      "Conexão sem fio de curto alcance",
-      "Um antivírus",
-      "Uma rede social",
-      "Um cabo"
+      "Um cabo",
+      "Um recurso novo",
+      "Um erro ou falha",
+      "Um antivírus"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "tec-062",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual sistema operacional gratuito e de código aberto tem um pinguim como símbolo?",
+    "question": "Qual é o sistema operacional dos computadores Mac?",
     "options": [
-      "Android",
-      "Linux",
-      "Windows",
-      "macOS"
+      "macOS",
+      "Chrome OS",
+      "iOS",
+      "Linux"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "tec-063",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual aparelho a Apple lançou em 2007, revolucionando os celulares?",
+    "question": "Como é chamada a região da Califórnia, berço de grandes empresas de tecnologia?",
     "options": [
-      "iPod",
-      "iPhone",
-      "iPad",
-      "Apple Watch"
+      "Vale do Ouro",
+      "Vale da Prata",
+      "Vale do Cobre",
+      "Vale do Silício"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "tec-064",
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual empresa é dona do sistema Android?",
+    "question": "Qual é o nome da rede mundial de computadores interligados?",
     "options": [
-      "Google",
-      "Apple",
-      "Samsung",
-      "Microsoft"
+      "Extranet",
+      "Ethernet",
+      "Intranet",
+      "Internet"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "tec-065",
     "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Quem é considerada a primeira programadora da história?",
+    "difficulty": "medio",
+    "question": "Qual empresa criou a assistente Alexa e o leitor Kindle?",
     "options": [
-      "Marie Curie",
-      "Ada Lovelace",
-      "Hedy Lamarr",
-      "Grace Hopper"
+      "Google",
+      "Apple",
+      "Samsung",
+      "Amazon"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "tec-066",
     "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Quem ajudou a decifrar o código Enigma e é pioneiro da computação?",
+    "difficulty": "medio",
+    "question": "Para que serve um roteador?",
     "options": [
-      "John von Neumann",
-      "Alan Turing",
-      "Charles Babbage",
-      "Tim Berners-Lee"
+      "Distribuir a internet para vários aparelhos",
+      "Carregar o celular",
+      "Imprimir documentos",
+      "Gravar vídeos"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "tec-067",
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual é a loja oficial de aplicativos do Android?",
+    "options": [
+      "App Store",
+      "Microsoft Store",
+      "Steam",
+      "Google Play"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "tec-068",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Para que serve a linguagem HTML?",
+    "options": [
+      "Criar vírus",
+      "Proteger o computador",
+      "Enviar e-mails",
+      "Estruturar páginas da web"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "tec-069",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual linguagem de programação foi criada por Guido van Rossum?",
+    "options": [
+      "Python",
+      "Ruby",
+      "C",
+      "Java"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-070",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Para que serve a memória RAM do computador?",
+    "options": [
+      "Guardar dados dos programas em uso",
+      "Guardar arquivos para sempre",
+      "Mostrar imagens",
+      "Conectar à internet"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-071",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "O que é um SSD?",
+    "options": [
+      "Uma placa de som",
+      "Um tipo de monitor",
+      "Armazenamento rápido, sem partes móveis",
+      "Um processador"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "tec-072",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual empresa chinesa é dona do TikTok?",
+    "options": [
+      "Huawei",
+      "Tencent",
+      "ByteDance",
+      "Alibaba"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "tec-073",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Quem é considerada a primeira programadora da história?",
+    "options": [
+      "Hedy Lamarr",
+      "Grace Hopper",
+      "Marie Curie",
+      "Ada Lovelace"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "tec-074",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Quem ajudou a decifrar o código Enigma e é pioneiro da computação?",
+    "options": [
+      "Alan Turing",
+      "Charles Babbage",
+      "John von Neumann",
+      "Tim Berners-Lee"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-075",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "Quem criou a World Wide Web?",
@@ -871,59 +975,59 @@
     "correct_index": 3
   },
   {
-    "id": "tec-068",
+    "id": "tec-076",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "Em que ano o iPhone foi lançado?",
     "options": [
+      "2010",
       "2007",
       "2004",
-      "2001",
+      "2001"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-077",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Em que ano o Google foi fundado?",
+    "options": [
+      "1998",
+      "2004",
+      "1985",
       "2010"
     ],
     "correct_index": 0
   },
   {
-    "id": "tec-069",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Em que ano o Google foi fundado?",
-    "options": [
-      "2004",
-      "2010",
-      "1985",
-      "1998"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "tec-070",
+    "id": "tec-078",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "Em que ano o Facebook foi lançado?",
     "options": [
-      "1998",
       "2008",
+      "2004",
       "2001",
-      "2004"
+      "1998"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
-    "id": "tec-071",
+    "id": "tec-079",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "Em que ano o YouTube foi criado?",
     "options": [
       "2002",
       "1999",
-      "2005",
-      "2010"
+      "2010",
+      "2005"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
-    "id": "tec-072",
+    "id": "tec-080",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "O que é uma URL?",
@@ -936,150 +1040,111 @@
     "correct_index": 2
   },
   {
-    "id": "tec-073",
+    "id": "tec-081",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "O que é um algoritmo?",
     "options": [
-      "Um tipo de vírus",
+      "Sequência de passos para resolver um problema",
       "Um cabo",
-      "Um aplicativo",
-      "Sequência de passos para resolver um problema"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "tec-074",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "O que é um bit?",
-    "options": [
-      "Um tipo de cabo",
-      "Um programa",
-      "Oito bytes",
-      "A menor unidade de informação, 0 ou 1"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "tec-075",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Quantos bits tem um byte?",
-    "options": [
-      "16",
-      "4",
-      "8",
-      "10"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "tec-076",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Qual sistema de numeração os computadores usam internamente?",
-    "options": [
-      "Binário",
-      "Romano",
-      "Decimal",
-      "Maia"
+      "Um tipo de vírus",
+      "Um aplicativo"
     ],
     "correct_index": 0
-  },
-  {
-    "id": "tec-077",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Qual empresa fabrica os processadores Core?",
-    "options": [
-      "Nvidia",
-      "Qualcomm",
-      "Samsung",
-      "Intel"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "tec-078",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Qual empresa é famosa pelas placas de vídeo GeForce?",
-    "options": [
-      "Nvidia",
-      "Sony",
-      "Qualcomm",
-      "Intel"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "tec-079",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Para que serve um firewall?",
-    "options": [
-      "Filtrar o tráfego e proteger a rede",
-      "Editar vídeos",
-      "Aumentar o brilho da tela",
-      "Guardar fotos"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "tec-080",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "O que é criptografia?",
-    "options": [
-      "Apagar arquivos",
-      "Transformar informação em código para protegê-la",
-      "Compactar fotos",
-      "Copiar arquivos"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "tec-081",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "O que é um \"bug\" em um programa?",
-    "options": [
-      "Um antivírus",
-      "Um erro ou falha",
-      "Um recurso novo",
-      "Um cabo"
-    ],
-    "correct_index": 1
   },
   {
     "id": "tec-082",
     "category": "tecnologia",
     "difficulty": "dificil",
-    "question": "Qual foi o primeiro computador eletrônico digital de uso geral, de 1946?",
+    "question": "O que é um bit?",
     "options": [
-      "Altair",
-      "IBM PC",
-      "UNIVAC",
-      "ENIAC"
+      "A menor unidade de informação, 0 ou 1",
+      "Um tipo de cabo",
+      "Oito bytes",
+      "Um programa"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "tec-083",
     "category": "tecnologia",
     "difficulty": "dificil",
-    "question": "Qual é o sistema operacional dos computadores Mac?",
+    "question": "Qual sistema de numeração os computadores usam internamente?",
     "options": [
-      "iOS",
-      "macOS",
-      "Chrome OS",
-      "Linux"
+      "Maia",
+      "Binário",
+      "Romano",
+      "Decimal"
     ],
     "correct_index": 1
   },
   {
     "id": "tec-084",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual empresa fabrica os processadores Core?",
+    "options": [
+      "Intel",
+      "Qualcomm",
+      "Samsung",
+      "Nvidia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-085",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual empresa é famosa pelas placas de vídeo GeForce?",
+    "options": [
+      "Sony",
+      "Intel",
+      "Nvidia",
+      "Qualcomm"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "tec-086",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Para que serve um firewall?",
+    "options": [
+      "Editar vídeos",
+      "Aumentar o brilho da tela",
+      "Filtrar o tráfego e proteger a rede",
+      "Guardar fotos"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "tec-087",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "O que é criptografia?",
+    "options": [
+      "Compactar fotos",
+      "Transformar informação em código para protegê-la",
+      "Apagar arquivos",
+      "Copiar arquivos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "tec-088",
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual foi o primeiro computador eletrônico digital de uso geral, de 1946?",
+    "options": [
+      "ENIAC",
+      "IBM PC",
+      "Altair",
+      "UNIVAC"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "tec-089",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "Quem criou o sistema operacional Linux?",
@@ -1092,72 +1157,72 @@
     "correct_index": 1
   },
   {
-    "id": "tec-085",
+    "id": "tec-090",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "Qual é o pseudônimo do criador do Bitcoin?",
     "options": [
-      "Vitalik Buterin",
-      "Elon Musk",
       "Mark Zuckerberg",
+      "Elon Musk",
+      "Vitalik Buterin",
       "Satoshi Nakamoto"
     ],
     "correct_index": 3
   },
   {
-    "id": "tec-086",
+    "id": "tec-091",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "Qual empresa criou o ChatGPT?",
     "options": [
-      "Google",
       "Microsoft",
+      "Google",
       "Meta",
       "OpenAI"
     ],
     "correct_index": 3
   },
   {
-    "id": "tec-087",
+    "id": "tec-092",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "O que é \"machine learning\"?",
     "options": [
-      "Sistemas que aprendem padrões a partir de dados",
-      "Um tipo de memória",
       "Um sistema de som",
-      "Um programa de reciclagem"
+      "Um programa de reciclagem",
+      "Um tipo de memória",
+      "Sistemas que aprendem padrões a partir de dados"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
-    "id": "tec-088",
+    "id": "tec-093",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "O que é blockchain?",
     "options": [
-      "Bloqueio de sites",
       "Registro digital descentralizado organizado em blocos",
       "Um antivírus",
+      "Bloqueio de sites",
       "Uma rede social"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
-    "id": "tec-089",
+    "id": "tec-094",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "Qual unidade mede a frequência de um processador?",
     "options": [
-      "Watt",
       "Hertz",
-      "Volt",
-      "Byte"
+      "Byte",
+      "Watt",
+      "Volt"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
-    "id": "tec-090",
+    "id": "tec-095",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "Qual unidade é usada para medir a velocidade da internet?",
@@ -1170,106 +1235,41 @@
     "correct_index": 1
   },
   {
-    "id": "tec-091",
+    "id": "tec-096",
     "category": "tecnologia",
     "difficulty": "dificil",
     "question": "O que significa o \"S\" em HTTPS?",
     "options": [
-      "Seguro (Secure)",
+      "Servidor",
       "Sistema",
-      "Software",
-      "Servidor"
+      "Seguro (Secure)",
+      "Software"
     ],
-    "correct_index": 0
-  },
-  {
-    "id": "tec-092",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Como se chama o ataque que sequestra arquivos e exige um resgate?",
-    "options": [
-      "Spam",
-      "Phishing",
-      "Adware",
-      "Ransomware"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "tec-093",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Qual banco digital brasileiro é conhecido pela cor roxa?",
-    "options": [
-      "PicPay",
-      "C6 Bank",
-      "Inter",
-      "Nubank"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "tec-094",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Como é chamada a região da Califórnia, berço de grandes empresas de tecnologia?",
-    "options": [
-      "Vale do Cobre",
-      "Vale do Silício",
-      "Vale da Prata",
-      "Vale do Ouro"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "tec-095",
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Qual é o nome da rede mundial de computadores interligados?",
-    "options": [
-      "Ethernet",
-      "Extranet",
-      "Intranet",
-      "Internet"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "tec-096",
-    "category": "tecnologia",
-    "difficulty": "medio",
-    "question": "Qual empresa criou a assistente Alexa e o leitor Kindle?",
-    "options": [
-      "Amazon",
-      "Google",
-      "Samsung",
-      "Apple"
-    ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "tec-097",
     "category": "tecnologia",
-    "difficulty": "medio",
-    "question": "Para que serve um roteador?",
+    "difficulty": "dificil",
+    "question": "Como se chama o ataque que sequestra arquivos e exige um resgate?",
     "options": [
-      "Gravar vídeos",
-      "Imprimir documentos",
-      "Carregar o celular",
-      "Distribuir a internet para vários aparelhos"
+      "Ransomware",
+      "Phishing",
+      "Adware",
+      "Spam"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "tec-098",
     "category": "tecnologia",
-    "difficulty": "medio",
-    "question": "Qual é a loja oficial de aplicativos do Android?",
+    "difficulty": "dificil",
+    "question": "Qual banco digital brasileiro é conhecido pela cor roxa?",
     "options": [
-      "App Store",
-      "Microsoft Store",
-      "Google Play",
-      "Steam"
+      "C6 Bank",
+      "PicPay",
+      "Nubank",
+      "Inter"
     ],
     "correct_index": 2
   },
@@ -1279,10 +1279,10 @@
     "difficulty": "dificil",
     "question": "Qual é a função de uma VPN?",
     "options": [
-      "Limpar arquivos",
       "Acelerar o processador",
+      "Aumentar a memória",
       "Criar uma conexão privada e segura pela internet",
-      "Aumentar a memória"
+      "Limpar arquivos"
     ],
     "correct_index": 2
   },
@@ -1292,11 +1292,11 @@
     "difficulty": "dificil",
     "question": "Em que ano o Pix foi lançado no Brasil?",
     "options": [
-      "2018",
       "2023",
-      "2020",
-      "2015"
+      "2018",
+      "2015",
+      "2020"
     ],
-    "correct_index": 2
+    "correct_index": 3
   }
 ]

@@ -5,12 +5,12 @@
     "difficulty": "facil",
     "question": "Quantos jogadores de cada time ficam em campo em uma partida de futebol?",
     "options": [
-      "10",
       "9",
-      "11",
-      "12"
+      "12",
+      "10",
+      "11"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "esp-002",
@@ -18,12 +18,12 @@
     "difficulty": "facil",
     "question": "Qual país venceu mais Copas do Mundo masculinas?",
     "options": [
-      "Brasil",
-      "Alemanha",
       "Itália",
-      "Argentina"
+      "Argentina",
+      "Alemanha",
+      "Brasil"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "esp-003",
@@ -31,12 +31,12 @@
     "difficulty": "facil",
     "question": "Quantas Copas do Mundo masculinas o Brasil já ganhou?",
     "options": [
-      "3",
-      "6",
       "5",
-      "4"
+      "3",
+      "4",
+      "6"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "esp-004",
@@ -44,12 +44,12 @@
     "difficulty": "facil",
     "question": "Quem é conhecido como o \"Rei do Futebol\"?",
     "options": [
-      "Zico",
-      "Maradona",
+      "Garrincha",
       "Pelé",
-      "Garrincha"
+      "Zico",
+      "Maradona"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "esp-005",
@@ -57,12 +57,12 @@
     "difficulty": "facil",
     "question": "Em qual país foi realizada a Copa do Mundo de 2014?",
     "options": [
-      "Rússia",
-      "Brasil",
       "Alemanha",
-      "África do Sul"
+      "África do Sul",
+      "Brasil",
+      "Rússia"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "esp-006",
@@ -70,8 +70,8 @@
     "difficulty": "facil",
     "question": "Qual esporte usa raquete, rede e bola amarela de feltro?",
     "options": [
-      "Golfe",
       "Vôlei",
+      "Golfe",
       "Tênis",
       "Basquete"
     ],
@@ -83,12 +83,12 @@
     "difficulty": "facil",
     "question": "Quantos jogadores de cada time ficam em quadra no vôlei?",
     "options": [
-      "5",
       "7",
-      "6",
-      "8"
+      "8",
+      "5",
+      "6"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "esp-008",
@@ -97,9 +97,9 @@
     "question": "Quantos jogadores de cada time ficam em quadra no basquete?",
     "options": [
       "6",
-      "7",
+      "11",
       "5",
-      "11"
+      "7"
     ],
     "correct_index": 2
   },
@@ -109,12 +109,12 @@
     "difficulty": "facil",
     "question": "Qual esporte tem tacada, buraco e green?",
     "options": [
-      "Beisebol",
-      "Tênis",
       "Golfe",
-      "Críquete"
+      "Tênis",
+      "Críquete",
+      "Beisebol"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "esp-010",
@@ -122,12 +122,12 @@
     "difficulty": "facil",
     "question": "Qual é, aproximadamente, a distância de uma maratona?",
     "options": [
-      "42 km",
       "10 km",
+      "42 km",
       "21 km",
       "50 km"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "esp-011",
@@ -135,12 +135,12 @@
     "difficulty": "facil",
     "question": "Qual esporte Michael Jordan consagrou como um dos maiores jogadores da história?",
     "options": [
-      "Golfe",
-      "Beisebol",
       "Basquete",
-      "Futebol"
+      "Futebol",
+      "Beisebol",
+      "Golfe"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "esp-012",
@@ -148,12 +148,12 @@
     "difficulty": "facil",
     "question": "Qual cidade brasileira sediou as Olimpíadas de 2016?",
     "options": [
-      "Salvador",
       "Rio de Janeiro",
       "São Paulo",
-      "Brasília"
+      "Brasília",
+      "Salvador"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-013",
@@ -161,12 +161,12 @@
     "difficulty": "facil",
     "question": "Qual craque argentino levantou a taça da Copa do Mundo de 2022?",
     "options": [
-      "Diego Maradona",
-      "Sergio Agüero",
       "Ángel Di María",
-      "Lionel Messi"
+      "Diego Maradona",
+      "Lionel Messi",
+      "Sergio Agüero"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "esp-014",
@@ -174,9 +174,9 @@
     "difficulty": "facil",
     "question": "Qual esporte pratica o velocista Usain Bolt?",
     "options": [
+      "Natação",
       "Ciclismo",
       "Boxe",
-      "Natação",
       "Atletismo"
     ],
     "correct_index": 3
@@ -200,12 +200,12 @@
     "difficulty": "facil",
     "question": "Quantos jogadores de cada time ficam em quadra no futsal?",
     "options": [
+      "11",
       "6",
       "5",
-      "7",
-      "11"
+      "7"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "esp-017",
@@ -213,12 +213,12 @@
     "difficulty": "facil",
     "question": "Qual ídolo do Flamengo é conhecido como \"Galinho de Quintino\"?",
     "options": [
+      "Romário",
       "Júnior",
       "Zico",
-      "Romário",
       "Bebeto"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "esp-018",
@@ -226,12 +226,12 @@
     "difficulty": "facil",
     "question": "Qual esporte tem saque, cortada e bloqueio?",
     "options": [
-      "Handebol",
-      "Tênis",
       "Basquete",
-      "Vôlei"
+      "Vôlei",
+      "Tênis",
+      "Handebol"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "esp-019",
@@ -240,11 +240,11 @@
     "question": "Qual cartão o árbitro mostra para expulsar um jogador no futebol?",
     "options": [
       "Amarelo",
-      "Azul",
       "Vermelho",
-      "Verde"
+      "Verde",
+      "Azul"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "esp-020",
@@ -253,11 +253,11 @@
     "question": "Qual time de Salvador é conhecido como \"Tricolor de Aço\"?",
     "options": [
       "São Paulo",
-      "Bahia",
       "Fluminense",
+      "Bahia",
       "Vitória"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "esp-021",
@@ -265,12 +265,12 @@
     "difficulty": "facil",
     "question": "Qual time de Salvador é conhecido como \"Leão da Barra\"?",
     "options": [
-      "Jacuipense",
       "Atlético de Alagoinhas",
-      "Vitória",
-      "Bahia"
+      "Jacuipense",
+      "Bahia",
+      "Vitória"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "esp-022",
@@ -278,12 +278,12 @@
     "difficulty": "facil",
     "question": "Qual time carioca tem a camisa rubro-negra?",
     "options": [
-      "Vasco",
-      "Botafogo",
       "Fluminense",
-      "Flamengo"
+      "Botafogo",
+      "Flamengo",
+      "Vasco"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "esp-023",
@@ -291,12 +291,12 @@
     "difficulty": "facil",
     "question": "Qual time paulista é conhecido como \"Timão\"?",
     "options": [
-      "Corinthians",
-      "Palmeiras",
       "São Paulo",
-      "Santos"
+      "Santos",
+      "Corinthians",
+      "Palmeiras"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "esp-024",
@@ -304,10 +304,10 @@
     "difficulty": "facil",
     "question": "Qual craque brasileiro é conhecido como \"Fenômeno\"?",
     "options": [
-      "Romário",
+      "Rivaldo",
       "Ronaldo",
-      "Ronaldinho Gaúcho",
-      "Rivaldo"
+      "Romário",
+      "Ronaldinho Gaúcho"
     ],
     "correct_index": 1
   },
@@ -317,12 +317,12 @@
     "difficulty": "facil",
     "question": "Em qual esporte a brasileira Rebeca Andrade é estrela olímpica?",
     "options": [
-      "Ginástica artística",
       "Judô",
       "Natação",
-      "Vôlei"
+      "Vôlei",
+      "Ginástica artística"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "esp-026",
@@ -331,11 +331,11 @@
     "question": "Em qual esporte Marta foi eleita várias vezes a melhor do mundo?",
     "options": [
       "Basquete",
-      "Futebol",
       "Vôlei",
-      "Handebol"
+      "Handebol",
+      "Futebol"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "esp-027",
@@ -343,10 +343,10 @@
     "difficulty": "facil",
     "question": "Em qual esporte o brasileiro Gabriel Medina é campeão mundial?",
     "options": [
-      "Vôlei de praia",
+      "Skate",
       "Natação",
       "Surfe",
-      "Skate"
+      "Vôlei de praia"
     ],
     "correct_index": 2
   },
@@ -358,10 +358,10 @@
     "options": [
       "Judô",
       "Esgrima",
-      "Boxe",
-      "Luta greco-romana"
+      "Luta greco-romana",
+      "Boxe"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "esp-029",
@@ -369,12 +369,12 @@
     "difficulty": "facil",
     "question": "Qual esporte de luta usa tatame e quimono e foi criado no Japão?",
     "options": [
+      "Taekwondo",
       "Boxe",
       "Judô",
-      "Capoeira",
-      "Taekwondo"
+      "Capoeira"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "esp-030",
@@ -382,12 +382,12 @@
     "difficulty": "facil",
     "question": "Em qual esporte se joga o Super Bowl, com bola oval?",
     "options": [
+      "Futebol americano",
       "Hóquei",
       "Beisebol",
-      "Basquete",
-      "Futebol americano"
+      "Basquete"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "esp-031",
@@ -395,12 +395,12 @@
     "difficulty": "facil",
     "question": "Qual esporte fez de Ayrton Senna um ídolo mundial?",
     "options": [
-      "Ciclismo",
       "Automobilismo",
       "Motociclismo",
+      "Ciclismo",
       "Atletismo"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-032",
@@ -408,12 +408,12 @@
     "difficulty": "facil",
     "question": "Quantos anéis coloridos tem a bandeira olímpica?",
     "options": [
-      "4",
-      "5",
       "7",
-      "6"
+      "6",
+      "4",
+      "5"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "esp-033",
@@ -421,12 +421,12 @@
     "difficulty": "facil",
     "question": "Qual esporte é considerado a maior paixão nacional dos brasileiros?",
     "options": [
-      "Basquete",
       "Futebol",
-      "Vôlei",
-      "Natação"
+      "Natação",
+      "Basquete",
+      "Vôlei"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-034",
@@ -434,12 +434,12 @@
     "difficulty": "facil",
     "question": "Quanto tempo dura uma partida oficial de futebol, sem contar acréscimos?",
     "options": [
-      "90 minutos",
       "80 minutos",
-      "60 minutos",
-      "120 minutos"
+      "90 minutos",
+      "120 minutos",
+      "60 minutos"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "esp-035",
@@ -447,12 +447,12 @@
     "difficulty": "medio",
     "question": "Qual país sediou a Copa do Mundo de 2022?",
     "options": [
-      "Brasil",
       "Rússia",
-      "Emirados Árabes Unidos",
-      "Catar"
+      "Catar",
+      "Brasil",
+      "Emirados Árabes Unidos"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "esp-036",
@@ -462,10 +462,10 @@
     "options": [
       "Croácia",
       "Alemanha",
-      "Brasil",
-      "França"
+      "França",
+      "Brasil"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "esp-037",
@@ -474,8 +474,8 @@
     "question": "Qual seleção foi campeã da Copa do Mundo de 2014?",
     "options": [
       "Brasil",
-      "Holanda",
       "Argentina",
+      "Holanda",
       "Alemanha"
     ],
     "correct_index": 3
@@ -486,12 +486,12 @@
     "difficulty": "medio",
     "question": "Qual foi o placar do jogo entre Brasil e Alemanha na semifinal da Copa de 2014?",
     "options": [
-      "7 a 1 para a Alemanha",
       "5 a 0 para a Alemanha",
-      "3 a 1 para a Alemanha",
-      "4 a 2 para a Alemanha"
+      "7 a 1 para a Alemanha",
+      "4 a 2 para a Alemanha",
+      "3 a 1 para a Alemanha"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "esp-039",
@@ -500,9 +500,9 @@
     "question": "Qual jogador marcou os dois gols do Brasil na final da Copa de 2002 contra a Alemanha?",
     "options": [
       "Rivaldo",
-      "Ronaldinho Gaúcho",
+      "Kaká",
       "Ronaldo",
-      "Kaká"
+      "Ronaldinho Gaúcho"
     ],
     "correct_index": 2
   },
@@ -510,116 +510,116 @@
     "id": "esp-040",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Quem é o maior artilheiro da história das Copas do Mundo masculinas, com 16 gols?",
+    "question": "Em qual cidade fica o estádio do Maracanã?",
     "options": [
-      "Miroslav Klose",
-      "Lionel Messi",
-      "Pelé",
-      "Ronaldo"
+      "Salvador",
+      "São Paulo",
+      "Rio de Janeiro",
+      "Brasília"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "esp-041",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Em qual cidade fica o estádio do Maracanã?",
+    "question": "Qual piloto brasileiro morreu em 1994 durante o Grande Prêmio de San Marino, em Ímola?",
     "options": [
-      "Brasília",
-      "Salvador",
-      "São Paulo",
-      "Rio de Janeiro"
+      "Rubens Barrichello",
+      "Ayrton Senna",
+      "Nelson Piquet",
+      "Emerson Fittipaldi"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "esp-042",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Qual piloto brasileiro morreu em 1994 durante o Grande Prêmio de San Marino, em Ímola?",
-    "options": [
-      "Emerson Fittipaldi",
-      "Ayrton Senna",
-      "Nelson Piquet",
-      "Rubens Barrichello"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "esp-043",
-    "category": "esportes",
-    "difficulty": "medio",
-    "question": "Qual piloto brasileiro foi campeão mundial de F1 em 1972 e 1974?",
-    "options": [
-      "Nelson Piquet",
-      "Ayrton Senna",
-      "Emerson Fittipaldi",
-      "Felipe Massa"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "esp-044",
-    "category": "esportes",
-    "difficulty": "medio",
     "question": "Qual piloto alemão foi heptacampeão da F1, dominando os anos 1990 e 2000?",
     "options": [
-      "Nico Rosberg",
       "Sebastian Vettel",
       "Nick Heidfeld",
+      "Nico Rosberg",
       "Michael Schumacher"
     ],
     "correct_index": 3
   },
   {
-    "id": "esp-045",
+    "id": "esp-043",
     "category": "esportes",
     "difficulty": "medio",
     "question": "Qual tenista brasileiro, o \"Guga\", ganhou três vezes Roland Garros?",
     "options": [
-      "Thomaz Bellucci",
-      "Marcelo Melo",
       "Gustavo Kuerten",
+      "Marcelo Melo",
+      "Thomaz Bellucci",
       "Fernando Meligeni"
     ],
-    "correct_index": 2
+    "correct_index": 0
+  },
+  {
+    "id": "esp-044",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é o torneio de tênis disputado na grama, em Londres?",
+    "options": [
+      "Aberto da Austrália",
+      "Wimbledon",
+      "US Open",
+      "Roland Garros"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-045",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual tenista espanhol é conhecido como \"Rei do Saibro\"?",
+    "options": [
+      "Roger Federer",
+      "Rafael Nadal",
+      "Carlos Alcaraz",
+      "Novak Djokovic"
+    ],
+    "correct_index": 1
   },
   {
     "id": "esp-046",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Qual é o torneio de tênis disputado na grama, em Londres?",
+    "question": "Qual país criou o judô?",
     "options": [
-      "US Open",
-      "Wimbledon",
-      "Roland Garros",
-      "Aberto da Austrália"
+      "Coreia do Sul",
+      "Brasil",
+      "China",
+      "Japão"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "esp-047",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Qual tenista espanhol é conhecido como \"Rei do Saibro\"?",
+    "question": "Qual judoca brasileira ganhou o ouro nos Jogos Olímpicos do Rio, em 2016?",
     "options": [
-      "Rafael Nadal",
-      "Carlos Alcaraz",
-      "Novak Djokovic",
-      "Roger Federer"
+      "Sarah Menezes",
+      "Rafaela Silva",
+      "Mayra Aguiar",
+      "Maria Portela"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "esp-048",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Qual país criou o judô?",
+    "question": "Qual nadador brasileiro ganhou o ouro nos 50 m livre em Pequim 2008?",
     "options": [
-      "Coreia do Sul",
-      "China",
-      "Japão",
-      "Brasil"
+      "Bruno Fratus",
+      "Thiago Pereira",
+      "César Cielo",
+      "Gustavo Borges"
     ],
     "correct_index": 2
   },
@@ -627,12 +627,12 @@
     "id": "esp-049",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Qual judoca brasileira ganhou o ouro nos Jogos Olímpicos do Rio, em 2016?",
+    "question": "Até quantos pontos vai um set normal de vôlei, com diferença mínima de dois pontos?",
     "options": [
-      "Rafaela Silva",
-      "Mayra Aguiar",
-      "Maria Portela",
-      "Sarah Menezes"
+      "25",
+      "21",
+      "30",
+      "15"
     ],
     "correct_index": 0
   },
@@ -640,12 +640,12 @@
     "id": "esp-050",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Qual nadador brasileiro ganhou o ouro nos 50 m livre em Pequim 2008?",
+    "question": "Qual jogador de basquete é chamado de \"King James\"?",
     "options": [
-      "Bruno Fratus",
-      "Gustavo Borges",
-      "César Cielo",
-      "Thiago Pereira"
+      "Michael Jordan",
+      "Stephen Curry",
+      "LeBron James",
+      "Kobe Bryant"
     ],
     "correct_index": 2
   },
@@ -653,121 +653,56 @@
     "id": "esp-051",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Até quantos pontos vai um set normal de vôlei, com diferença mínima de dois pontos?",
+    "question": "Qual time de basquete Michael Jordan levou a seis títulos da NBA?",
     "options": [
-      "21",
-      "30",
-      "15",
-      "25"
+      "Boston Celtics",
+      "Chicago Bulls",
+      "Miami Heat",
+      "Los Angeles Lakers"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "esp-052",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Qual jogador de basquete é chamado de \"King James\"?",
+    "question": "Em qual país nasceu o futebol moderno?",
     "options": [
-      "Stephen Curry",
-      "Kobe Bryant",
-      "Michael Jordan",
-      "LeBron James"
+      "Brasil",
+      "Inglaterra",
+      "Alemanha",
+      "Itália"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "esp-053",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Qual time de basquete Michael Jordan levou a seis títulos da NBA?",
+    "question": "Qual clube brasileiro foi campeão mundial em 1981, com Zico?",
     "options": [
-      "Boston Celtics",
-      "Chicago Bulls",
-      "Los Angeles Lakers",
-      "Miami Heat"
+      "Flamengo",
+      "Palmeiras",
+      "Vasco",
+      "Grêmio"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-054",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Em qual país nasceu o futebol moderno?",
+    "question": "Qual time paulista foi o clube de Pelé durante quase toda a carreira?",
     "options": [
-      "Inglaterra",
-      "Itália",
-      "Alemanha",
-      "Brasil"
+      "São Paulo",
+      "Corinthians",
+      "Palmeiras",
+      "Santos"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "esp-055",
-    "category": "esportes",
-    "difficulty": "medio",
-    "question": "Qual clube argentino é o maior campeão da Copa Libertadores?",
-    "options": [
-      "Boca Juniors",
-      "Estudiantes",
-      "River Plate",
-      "Independiente"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "esp-056",
-    "category": "esportes",
-    "difficulty": "medio",
-    "question": "Qual clube brasileiro foi campeão mundial em 1981, com Zico?",
-    "options": [
-      "Grêmio",
-      "Vasco",
-      "Palmeiras",
-      "Flamengo"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "esp-057",
-    "category": "esportes",
-    "difficulty": "medio",
-    "question": "Qual clube brasileiro foi bicampeão mundial em 1992 e 1993?",
-    "options": [
-      "Grêmio",
-      "São Paulo",
-      "Corinthians",
-      "Palmeiras"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "esp-058",
-    "category": "esportes",
-    "difficulty": "medio",
-    "question": "Qual clube brasileiro foi campeão mundial de clubes em 2000 e 2012?",
-    "options": [
-      "Santos",
-      "Flamengo",
-      "Palmeiras",
-      "Corinthians"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "esp-059",
-    "category": "esportes",
-    "difficulty": "medio",
-    "question": "Qual time paulista foi o clube de Pelé durante quase toda a carreira?",
-    "options": [
-      "Santos",
-      "Palmeiras",
-      "São Paulo",
-      "Corinthians"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "esp-060",
     "category": "esportes",
     "difficulty": "medio",
     "question": "Qual time inglês joga no estádio Old Trafford?",
@@ -780,33 +715,33 @@
     "correct_index": 0
   },
   {
-    "id": "esp-061",
+    "id": "esp-056",
     "category": "esportes",
     "difficulty": "medio",
     "question": "Qual time espanhol joga no estádio Santiago Bernabéu?",
     "options": [
-      "Sevilla",
-      "Real Madrid",
       "Atlético de Madrid",
+      "Real Madrid",
+      "Sevilla",
       "Barcelona"
     ],
     "correct_index": 1
   },
   {
-    "id": "esp-062",
+    "id": "esp-057",
     "category": "esportes",
     "difficulty": "medio",
     "question": "Em qual estádio joga o Barcelona, da Espanha?",
     "options": [
       "San Siro",
+      "Mestalla",
       "Santiago Bernabéu",
-      "Camp Nou",
-      "Mestalla"
+      "Camp Nou"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
-    "id": "esp-063",
+    "id": "esp-058",
     "category": "esportes",
     "difficulty": "medio",
     "question": "Qual seleção venceu o Brasil na final da Copa América de 2021, no Maracanã?",
@@ -819,54 +754,119 @@
     "correct_index": 0
   },
   {
-    "id": "esp-064",
+    "id": "esp-059",
     "category": "esportes",
     "difficulty": "medio",
     "question": "Em qual cidade foram realizados os Jogos Olímpicos disputados em 2021, adiados pela pandemia?",
     "options": [
-      "Paris",
       "Tóquio",
+      "Rio de Janeiro",
       "Pequim",
-      "Rio de Janeiro"
+      "Paris"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-060",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Quantos títulos mundiais de F1 tem Nelson Piquet?",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-061",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual país sediou a Copa do Mundo de 2010?",
+    "options": [
+      "Brasil",
+      "África do Sul",
+      "Rússia",
+      "Alemanha"
     ],
     "correct_index": 1
+  },
+  {
+    "id": "esp-062",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual país fica a cidade de Wimbledon, sede de um dos maiores torneios de tênis?",
+    "options": [
+      "Austrália",
+      "Inglaterra",
+      "França",
+      "Estados Unidos"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "esp-063",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual cidade joga o Boca Juniors?",
+    "options": [
+      "Buenos Aires",
+      "Rosário",
+      "Santiago",
+      "Montevidéu"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-064",
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual cidade foram realizados os primeiros Jogos Olímpicos da era moderna, em 1896?",
+    "options": [
+      "Paris",
+      "Londres",
+      "Atenas",
+      "Roma"
+    ],
+    "correct_index": 2
   },
   {
     "id": "esp-065",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Quantos títulos mundiais de F1 tem Nelson Piquet?",
+    "question": "De quantos em quantos anos acontecem os Jogos Olímpicos de Verão?",
     "options": [
       "5",
       "4",
       "3",
       "2"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "esp-066",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Qual país sediou a Copa do Mundo de 2010?",
+    "question": "Qual é a famosa corrida de bicicleta disputada na França?",
     "options": [
-      "África do Sul",
-      "Alemanha",
-      "Brasil",
-      "Rússia"
+      "Vuelta a España",
+      "Tour de France",
+      "Giro d'Italia",
+      "Paris-Roubaix"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "esp-067",
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Em qual país fica a cidade de Wimbledon, sede de um dos maiores torneios de tênis?",
+    "question": "Qual esporte tem os termos \"strike\" e \"home run\"?",
     "options": [
-      "França",
-      "Estados Unidos",
-      "Inglaterra",
-      "Austrália"
+      "Futebol americano",
+      "Críquete",
+      "Beisebol",
+      "Golfe"
     ],
     "correct_index": 2
   },
@@ -874,25 +874,25 @@
     "id": "esp-068",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual seleção foi campeã da Copa do Mundo de 1998?",
+    "question": "Quem é o maior artilheiro da história das Copas do Mundo masculinas, com 16 gols?",
     "options": [
-      "Itália",
-      "Brasil",
-      "França",
-      "Alemanha"
+      "Lionel Messi",
+      "Pelé",
+      "Ronaldo",
+      "Miroslav Klose"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "esp-069",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual seleção foi campeã da Copa do Mundo de 2010?",
+    "question": "Qual piloto brasileiro foi campeão mundial de F1 em 1972 e 1974?",
     "options": [
-      "Alemanha",
-      "Uruguai",
-      "Espanha",
-      "Holanda"
+      "Nelson Piquet",
+      "Felipe Massa",
+      "Emerson Fittipaldi",
+      "Ayrton Senna"
     ],
     "correct_index": 2
   },
@@ -900,285 +900,285 @@
     "id": "esp-070",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual seleção foi campeã da Copa do Mundo de 2006?",
+    "question": "Qual clube argentino é o maior campeão da Copa Libertadores?",
     "options": [
-      "França",
-      "Itália",
-      "Portugal",
-      "Alemanha"
+      "Boca Juniors",
+      "Estudiantes",
+      "River Plate",
+      "Independiente"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "esp-071",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Em que ano o Brasil conquistou o pentacampeonato mundial?",
+    "question": "Qual clube brasileiro foi bicampeão mundial em 1992 e 1993?",
     "options": [
-      "2002",
-      "1998",
-      "2006",
-      "1994"
+      "Grêmio",
+      "Corinthians",
+      "São Paulo",
+      "Palmeiras"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "esp-072",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Em que ano o Brasil conquistou o tricampeonato mundial, com Pelé?",
+    "question": "Qual clube brasileiro foi campeão mundial de clubes em 2000 e 2012?",
     "options": [
-      "1974",
-      "1962",
-      "1966",
-      "1970"
+      "Palmeiras",
+      "Corinthians",
+      "Flamengo",
+      "Santos"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "esp-073",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Em que ano o Brasil ganhou sua primeira Copa do Mundo?",
+    "question": "Qual seleção foi campeã da Copa do Mundo de 1998?",
     "options": [
-      "1950",
-      "1958",
-      "1962",
-      "1970"
+      "França",
+      "Itália",
+      "Alemanha",
+      "Brasil"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-074",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Em qual Copa o Brasil perdeu a final em casa para o Uruguai, no \"Maracanazo\"?",
+    "question": "Qual seleção foi campeã da Copa do Mundo de 2010?",
     "options": [
-      "1958",
-      "1962",
-      "1954",
-      "1950"
+      "Uruguai",
+      "Holanda",
+      "Espanha",
+      "Alemanha"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "esp-075",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual seleção foi campeã da Copa do Mundo de 2006?",
+    "options": [
+      "Alemanha",
+      "França",
+      "Itália",
+      "Portugal"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-076",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Em que ano o Brasil conquistou o pentacampeonato mundial?",
+    "options": [
+      "1998",
+      "1994",
+      "2002",
+      "2006"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-077",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Em que ano o Brasil conquistou o tricampeonato mundial, com Pelé?",
+    "options": [
+      "1966",
+      "1974",
+      "1970",
+      "1962"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-078",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Em que ano o Brasil ganhou sua primeira Copa do Mundo?",
+    "options": [
+      "1958",
+      "1962",
+      "1970",
+      "1950"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "esp-079",
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Em qual Copa o Brasil perdeu a final em casa para o Uruguai, no \"Maracanazo\"?",
+    "options": [
+      "1962",
+      "1954",
+      "1950",
+      "1958"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "esp-080",
     "category": "esportes",
     "difficulty": "dificil",
     "question": "Qual jogador argentino fez o gol com a mão que ficou conhecido como \"Mão de Deus\", em 1986?",
     "options": [
       "Diego Maradona",
       "Gabriel Batistuta",
-      "Lionel Messi",
-      "Mario Kempes"
+      "Mario Kempes",
+      "Lionel Messi"
     ],
     "correct_index": 0
-  },
-  {
-    "id": "esp-076",
-    "category": "esportes",
-    "difficulty": "dificil",
-    "question": "Qual craque brasileiro ficou conhecido como \"Anjo das Pernas Tortas\"?",
-    "options": [
-      "Garrincha",
-      "Zico",
-      "Pelé",
-      "Jairzinho"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "esp-077",
-    "category": "esportes",
-    "difficulty": "dificil",
-    "question": "Qual craque português jogou no Real Madrid e ganhou várias Bolas de Ouro?",
-    "options": [
-      "Rui Costa",
-      "Eusébio",
-      "Luís Figo",
-      "Cristiano Ronaldo"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "esp-078",
-    "category": "esportes",
-    "difficulty": "dificil",
-    "question": "Qual seleção venceu a primeira Copa do Mundo, em 1930?",
-    "options": [
-      "Brasil",
-      "Argentina",
-      "Uruguai",
-      "Itália"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "esp-079",
-    "category": "esportes",
-    "difficulty": "dificil",
-    "question": "Quantas Copas do Mundo masculinas a Alemanha já ganhou?",
-    "options": [
-      "4",
-      "2",
-      "5",
-      "3"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "esp-080",
-    "category": "esportes",
-    "difficulty": "dificil",
-    "question": "Quem foi o técnico do Brasil campeão mundial em 2002?",
-    "options": [
-      "Carlos Alberto Parreira",
-      "Dunga",
-      "Mano Menezes",
-      "Luiz Felipe Scolari"
-    ],
-    "correct_index": 3
   },
   {
     "id": "esp-081",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Quem foi o técnico do Brasil campeão mundial em 1994?",
+    "question": "Qual craque brasileiro ficou conhecido como \"Anjo das Pernas Tortas\"?",
     "options": [
-      "Zagallo",
-      "Telê Santana",
-      "Carlos Alberto Parreira",
-      "Luiz Felipe Scolari"
+      "Jairzinho",
+      "Zico",
+      "Pelé",
+      "Garrincha"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "esp-082",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Quem foi o capitão do Brasil que levantou a taça da Copa de 1994?",
+    "question": "Qual craque português jogou no Real Madrid e ganhou várias Bolas de Ouro?",
     "options": [
-      "Taffarel",
-      "Dunga",
-      "Romário",
-      "Bebeto"
+      "Cristiano Ronaldo",
+      "Luís Figo",
+      "Rui Costa",
+      "Eusébio"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-083",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual atacante do Brasil era chamado de \"Baixinho\" e foi craque da Copa de 1994?",
+    "question": "Qual seleção venceu a primeira Copa do Mundo, em 1930?",
     "options": [
-      "Raí",
-      "Bebeto",
-      "Zinho",
-      "Romário"
+      "Uruguai",
+      "Brasil",
+      "Argentina",
+      "Itália"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "esp-084",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Em qual cidade joga o Boca Juniors?",
+    "question": "Quantas Copas do Mundo masculinas a Alemanha já ganhou?",
     "options": [
-      "Montevidéu",
-      "Buenos Aires",
-      "Rosário",
-      "Santiago"
+      "5",
+      "3",
+      "4",
+      "2"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "esp-085",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual é o estádio onde o Bahia mais joga, em Salvador?",
+    "question": "Quem foi o técnico do Brasil campeão mundial em 2002?",
     "options": [
-      "Barradão",
-      "Arena Fonte Nova",
-      "Pituaçu",
-      "Mané Garrincha"
+      "Dunga",
+      "Mano Menezes",
+      "Carlos Alberto Parreira",
+      "Luiz Felipe Scolari"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "esp-086",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual é o nome do estádio do Vitória, em Salvador?",
+    "question": "Quem foi o técnico do Brasil campeão mundial em 1994?",
     "options": [
-      "Maracanã",
-      "Pituaçu",
-      "Barradão",
-      "Fonte Nova"
+      "Telê Santana",
+      "Zagallo",
+      "Luiz Felipe Scolari",
+      "Carlos Alberto Parreira"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "esp-087",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Quantos títulos mundiais de F1 teve Ayrton Senna?",
+    "question": "Quem foi o capitão do Brasil que levantou a taça da Copa de 1994?",
     "options": [
-      "4",
-      "2",
-      "3",
-      "5"
+      "Romário",
+      "Taffarel",
+      "Bebeto",
+      "Dunga"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "esp-088",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Em qual cidade foram realizados os primeiros Jogos Olímpicos da era moderna, em 1896?",
+    "question": "Qual atacante do Brasil era chamado de \"Baixinho\" e foi craque da Copa de 1994?",
     "options": [
-      "Atenas",
-      "Roma",
-      "Londres",
-      "Paris"
+      "Raí",
+      "Zinho",
+      "Romário",
+      "Bebeto"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "esp-089",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "De quantos em quantos anos acontecem os Jogos Olímpicos de Verão?",
+    "question": "Qual é o estádio onde o Bahia mais joga, em Salvador?",
     "options": [
-      "3",
-      "4",
-      "5",
-      "2"
+      "Arena Fonte Nova",
+      "Barradão",
+      "Mané Garrincha",
+      "Pituaçu"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-090",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual tenista sérvio é o recordista de títulos de Grand Slam entre os homens?",
+    "question": "Qual é o nome do estádio do Vitória, em Salvador?",
     "options": [
-      "Roger Federer",
-      "Andy Murray",
-      "Rafael Nadal",
-      "Novak Djokovic"
+      "Fonte Nova",
+      "Barradão",
+      "Maracanã",
+      "Pituaçu"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "esp-091",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual tenista suíço era apelidado de \"Expresso Suíço\"?",
+    "question": "Quantos títulos mundiais de F1 teve Ayrton Senna?",
     "options": [
-      "Rafael Nadal",
-      "Roger Federer",
-      "Andy Murray",
-      "Stan Wawrinka"
+      "2",
+      "3",
+      "5",
+      "4"
     ],
     "correct_index": 1
   },
@@ -1186,12 +1186,12 @@
     "id": "esp-092",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual é a famosa corrida de bicicleta disputada na França?",
+    "question": "Qual tenista sérvio é o recordista de títulos de Grand Slam entre os homens?",
     "options": [
-      "Tour de France",
-      "Vuelta a España",
-      "Giro d'Italia",
-      "Paris-Roubaix"
+      "Novak Djokovic",
+      "Andy Murray",
+      "Rafael Nadal",
+      "Roger Federer"
     ],
     "correct_index": 0
   },
@@ -1199,12 +1199,12 @@
     "id": "esp-093",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual é a cor da camisa do líder do Tour de France?",
+    "question": "Qual tenista suíço era apelidado de \"Expresso Suíço\"?",
     "options": [
-      "Azul",
-      "Verde",
-      "Vermelha",
-      "Amarela"
+      "Andy Murray",
+      "Stan Wawrinka",
+      "Rafael Nadal",
+      "Roger Federer"
     ],
     "correct_index": 3
   },
@@ -1212,14 +1212,14 @@
     "id": "esp-094",
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual esporte tem os termos \"strike\" e \"home run\"?",
+    "question": "Qual é a cor da camisa do líder do Tour de France?",
     "options": [
-      "Beisebol",
-      "Golfe",
-      "Críquete",
-      "Futebol americano"
+      "Vermelha",
+      "Azul",
+      "Verde",
+      "Amarela"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "esp-095",
@@ -1227,8 +1227,8 @@
     "difficulty": "dificil",
     "question": "Qual luta brasileira foi criada e popularizada pela família Gracie?",
     "options": [
-      "Judô",
       "Capoeira",
+      "Judô",
       "Jiu-jitsu brasileiro",
       "Muay thai"
     ],
@@ -1240,12 +1240,12 @@
     "difficulty": "dificil",
     "question": "Qual lutador brasileiro, apelidado de \"Spider\", foi campeão peso-médio do UFC?",
     "options": [
-      "Lyoto Machida",
       "Anderson Silva",
       "Minotauro Nogueira",
-      "José Aldo"
+      "José Aldo",
+      "Lyoto Machida"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-097",
@@ -1255,8 +1255,8 @@
     "options": [
       "Wimbledon",
       "Copa Davis",
-      "ATP Finals",
-      "Masters 1000"
+      "Masters 1000",
+      "ATP Finals"
     ],
     "correct_index": 1
   },
@@ -1266,12 +1266,12 @@
     "difficulty": "dificil",
     "question": "Em qual país nasceu o críquete?",
     "options": [
-      "Índia",
       "Inglaterra",
-      "Austrália",
-      "África do Sul"
+      "Índia",
+      "África do Sul",
+      "Austrália"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "esp-099",
@@ -1279,12 +1279,12 @@
     "difficulty": "dificil",
     "question": "Qual craque brasileiro ganhou a Bola de Ouro em 2007?",
     "options": [
-      "Cristiano Ronaldo",
-      "Lionel Messi",
       "Kaká",
-      "Ronaldinho Gaúcho"
+      "Ronaldinho Gaúcho",
+      "Cristiano Ronaldo",
+      "Lionel Messi"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "esp-100",

@@ -7,10 +7,10 @@
     "options": [
       "Sasuke Uchiha",
       "Itachi Uchiha",
-      "Kakashi Hatake",
-      "Naruto Uzumaki"
+      "Naruto Uzumaki",
+      "Kakashi Hatake"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "ani-002",
@@ -18,12 +18,12 @@
     "difficulty": "facil",
     "question": "Qual é o sonho de Naruto?",
     "options": [
-      "Ser Rei dos Piratas",
       "Ser Hokage",
+      "Ser Shinigami",
       "Ser Hunter",
-      "Ser Shinigami"
+      "Ser Rei dos Piratas"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "ani-003",
@@ -31,12 +31,12 @@
     "difficulty": "facil",
     "question": "Qual é o sonho de Monkey D. Luffy em \"One Piece\"?",
     "options": [
-      "Encontrar o pai",
       "Ser o mais forte do mundo",
       "Ser o Rei dos Piratas",
+      "Encontrar o pai",
       "Ser Hokage"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "ani-004",
@@ -57,12 +57,12 @@
     "difficulty": "facil",
     "question": "Qual é a raça de Goku, em \"Dragon Ball\"?",
     "options": [
+      "Humano",
       "Namekuseijin",
       "Saiyajin",
-      "Majin",
-      "Humano"
+      "Majin"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "ani-006",
@@ -71,11 +71,11 @@
     "question": "Qual Pokémon amarelo é o mascote da franquia?",
     "options": [
       "Bulbasaur",
-      "Squirtle",
+      "Pikachu",
       "Charmander",
-      "Pikachu"
+      "Squirtle"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "ani-007",
@@ -83,12 +83,12 @@
     "difficulty": "facil",
     "question": "Quem é o treinador protagonista do anime \"Pokémon\"?",
     "options": [
-      "Ash Ketchum",
       "Brock",
+      "Ash Ketchum",
       "Gary Oak",
       "Misty"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "ani-008",
@@ -96,12 +96,12 @@
     "difficulty": "facil",
     "question": "Qual estúdio japonês produziu \"A Viagem de Chihiro\"?",
     "options": [
-      "Studio Ghibli",
-      "Madhouse",
       "Kyoto Animation",
-      "Toei Animation"
+      "Studio Ghibli",
+      "Toei Animation",
+      "Madhouse"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "ani-009",
@@ -110,9 +110,9 @@
     "question": "Qual é o nome da protagonista de \"Sailor Moon\" na versão japonesa?",
     "options": [
       "Usagi Tsukino",
+      "Rei Hino",
       "Ami Mizuno",
-      "Minako Aino",
-      "Rei Hino"
+      "Minako Aino"
     ],
     "correct_index": 0
   },
@@ -122,12 +122,12 @@
     "difficulty": "facil",
     "question": "Qual é o cavaleiro protagonista de \"Os Cavaleiros do Zodíaco\"?",
     "options": [
-      "Ikki de Fênix",
       "Hyoga de Cisne",
       "Shun de Andrômeda",
-      "Seiya de Pégaso"
+      "Seiya de Pégaso",
+      "Ikki de Fênix"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "ani-011",
@@ -135,12 +135,12 @@
     "difficulty": "facil",
     "question": "Em \"Death Note\", quem encontra o caderno da morte?",
     "options": [
-      "Light Yagami",
       "L",
+      "Misa Amane",
       "Near",
-      "Misa Amane"
+      "Light Yagami"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "ani-012",
@@ -148,12 +148,12 @@
     "difficulty": "facil",
     "question": "Quem é o protagonista de \"Attack on Titan\"?",
     "options": [
-      "Armin Arlert",
-      "Mikasa Ackerman",
+      "Eren Yeager",
       "Levi Ackerman",
-      "Eren Yeager"
+      "Armin Arlert",
+      "Mikasa Ackerman"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "ani-013",
@@ -161,12 +161,12 @@
     "difficulty": "facil",
     "question": "Quem é o protagonista de \"Demon Slayer\"?",
     "options": [
+      "Inosuke Hashibira",
       "Giyu Tomioka",
       "Tanjiro Kamado",
-      "Zenitsu Agatsuma",
-      "Inosuke Hashibira"
+      "Zenitsu Agatsuma"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "ani-014",
@@ -174,12 +174,12 @@
     "difficulty": "facil",
     "question": "Qual é o nome da irmã de Tanjiro que virou demônio em \"Demon Slayer\"?",
     "options": [
-      "Kanao",
       "Nezuko",
+      "Kanao",
       "Shinobu",
       "Mitsuri"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "ani-015",
@@ -187,12 +187,12 @@
     "difficulty": "facil",
     "question": "Quem é o protagonista de \"My Hero Academia\"?",
     "options": [
-      "Izuku Midoriya",
       "Katsuki Bakugo",
+      "Shoto Todoroki",
       "All Might",
-      "Shoto Todoroki"
+      "Izuku Midoriya"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "ani-016",
@@ -201,9 +201,9 @@
     "question": "Quem são os irmãos protagonistas de \"Fullmetal Alchemist\"?",
     "options": [
       "Goku e Gohan",
-      "Naruto e Sasuke",
+      "Eren e Mikasa",
       "Edward e Alphonse Elric",
-      "Eren e Mikasa"
+      "Naruto e Sasuke"
     ],
     "correct_index": 2
   },
@@ -213,12 +213,12 @@
     "difficulty": "facil",
     "question": "Qual personagem de anime é um gato-robô que veio do futuro?",
     "options": [
-      "Pikachu",
-      "Doraemon",
       "Luna",
-      "Meowth"
+      "Meowth",
+      "Doraemon",
+      "Pikachu"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "ani-018",
@@ -226,12 +226,12 @@
     "difficulty": "facil",
     "question": "Qual é o nome do garoto que é amigo de Doraemon?",
     "options": [
-      "Nobita",
-      "Suneo",
       "Gian",
-      "Dekisugi"
+      "Suneo",
+      "Dekisugi",
+      "Nobita"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "ani-019",
@@ -239,12 +239,12 @@
     "difficulty": "facil",
     "question": "Qual golpe famoso de Goku começa com \"Kame\"?",
     "options": [
-      "Rasengan",
-      "Chidori",
       "Bankai",
-      "Kamehameha"
+      "Chidori",
+      "Kamehameha",
+      "Rasengan"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "ani-020",
@@ -252,12 +252,12 @@
     "difficulty": "facil",
     "question": "Qual técnica de Naruto é uma esfera giratória de chakra?",
     "options": [
-      "Kamehameha",
       "Chidori",
-      "Genkidama",
-      "Rasengan"
+      "Rasengan",
+      "Kamehameha",
+      "Genkidama"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "ani-021",
@@ -265,12 +265,12 @@
     "difficulty": "facil",
     "question": "Qual é a vila ninja de origem de Naruto?",
     "options": [
-      "Vila da Névoa",
+      "Vila da Folha (Konoha)",
       "Vila da Nuvem",
       "Vila da Areia",
-      "Vila da Folha (Konoha)"
+      "Vila da Névoa"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "ani-022",
@@ -278,12 +278,12 @@
     "difficulty": "facil",
     "question": "Qual fruta do diabo deu a Luffy o corpo de borracha?",
     "options": [
-      "Gomu Gomu no Mi",
       "Hito Hito no Mi",
-      "Yami Yami no Mi",
-      "Mera Mera no Mi"
+      "Gomu Gomu no Mi",
+      "Mera Mera no Mi",
+      "Yami Yami no Mi"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "ani-023",
@@ -291,10 +291,10 @@
     "difficulty": "facil",
     "question": "Como se chama a tripulação de Luffy em \"One Piece\"?",
     "options": [
+      "Revolucionários",
       "Marinha",
-      "Piratas do Barba Branca",
       "Chapéu de Palha",
-      "Revolucionários"
+      "Piratas do Barba Branca"
     ],
     "correct_index": 2
   },
@@ -304,10 +304,10 @@
     "difficulty": "facil",
     "question": "Quantas esferas do dragão são necessárias para invocar Shenlong?",
     "options": [
-      "9",
-      "7",
       "5",
-      "12"
+      "7",
+      "12",
+      "9"
     ],
     "correct_index": 1
   },
@@ -317,12 +317,12 @@
     "difficulty": "facil",
     "question": "Qual é a cor do cabelo de Goku quando vira Super Saiyajin?",
     "options": [
-      "Dourado",
+      "Azul",
       "Vermelho",
       "Branco",
-      "Azul"
+      "Dourado"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "ani-026",
@@ -330,12 +330,12 @@
     "difficulty": "facil",
     "question": "Qual é o tipo do Pokémon Charmander?",
     "options": [
+      "Planta",
       "Água",
       "Fogo",
-      "Planta",
       "Elétrico"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "ani-027",
@@ -343,12 +343,12 @@
     "difficulty": "facil",
     "question": "Qual é a evolução do Pikachu?",
     "options": [
+      "Pichu",
       "Jolteon",
       "Raichu",
-      "Pichu",
       "Electabuzz"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "ani-028",
@@ -370,11 +370,11 @@
     "question": "Qual shinigami acompanha Light em \"Death Note\"?",
     "options": [
       "L",
-      "Rem",
+      "Ryuk",
       "Near",
-      "Ryuk"
+      "Rem"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "ani-030",
@@ -384,8 +384,8 @@
     "options": [
       "Luna",
       "Mimi",
-      "Diana",
-      "Artemis"
+      "Artemis",
+      "Diana"
     ],
     "correct_index": 0
   },
@@ -408,12 +408,12 @@
     "difficulty": "facil",
     "question": "Em \"Yu-Gi-Oh!\", os personagens duelam com o quê?",
     "options": [
-      "Bolas",
+      "Carros",
       "Espadas",
-      "Cartas",
-      "Carros"
+      "Bolas",
+      "Cartas"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "ani-033",
@@ -421,10 +421,10 @@
     "difficulty": "facil",
     "question": "Qual Digimon é o parceiro de Tai em \"Digimon\"?",
     "options": [
-      "Palmon",
+      "Patamon",
       "Agumon",
       "Gabumon",
-      "Patamon"
+      "Palmon"
     ],
     "correct_index": 1
   },
@@ -447,12 +447,12 @@
     "difficulty": "medio",
     "question": "Quem criou o mangá \"Naruto\"?",
     "options": [
-      "Hajime Isayama",
       "Masashi Kishimoto",
-      "Akira Toriyama",
-      "Eiichiro Oda"
+      "Eiichiro Oda",
+      "Hajime Isayama",
+      "Akira Toriyama"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "ani-036",
@@ -460,12 +460,12 @@
     "difficulty": "medio",
     "question": "Quem criou o mangá \"One Piece\"?",
     "options": [
-      "Masashi Kishimoto",
       "Akira Toriyama",
-      "Tite Kubo",
-      "Eiichiro Oda"
+      "Masashi Kishimoto",
+      "Eiichiro Oda",
+      "Tite Kubo"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "ani-037",
@@ -473,62 +473,62 @@
     "difficulty": "medio",
     "question": "Quem criou o mangá \"Attack on Titan\"?",
     "options": [
-      "Kohei Horikoshi",
       "Eiichiro Oda",
-      "Hajime Isayama",
-      "Tite Kubo"
+      "Kohei Horikoshi",
+      "Tite Kubo",
+      "Hajime Isayama"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "ani-038",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Quem criou o mangá \"Bleach\"?",
+    "question": "Quem é o melhor amigo e rival de Naruto?",
     "options": [
-      "Hiromu Arakawa",
-      "Eiichiro Oda",
-      "Masashi Kishimoto",
-      "Tite Kubo"
+      "Kakashi Hatake",
+      "Rock Lee",
+      "Sasuke Uchiha",
+      "Shikamaru Nara"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "ani-039",
-    "category": "animes",
-    "difficulty": "medio",
-    "question": "Quem é o melhor amigo e rival de Naruto?",
-    "options": [
-      "Sasuke Uchiha",
-      "Shikamaru Nara",
-      "Rock Lee",
-      "Kakashi Hatake"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "ani-040",
     "category": "animes",
     "difficulty": "medio",
     "question": "Quem é o professor do Time 7 em \"Naruto\"?",
     "options": [
       "Jiraiya",
       "Might Guy",
-      "Iruka Umino",
-      "Kakashi Hatake"
+      "Kakashi Hatake",
+      "Iruka Umino"
     ],
-    "correct_index": 3
+    "correct_index": 2
+  },
+  {
+    "id": "ani-040",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual criatura vive selada dentro de Naruto?",
+    "options": [
+      "Matatabi",
+      "Kurama, a Raposa de Nove Caudas",
+      "Shukaku",
+      "Gyuki"
+    ],
+    "correct_index": 1
   },
   {
     "id": "ani-041",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual criatura vive selada dentro de Naruto?",
+    "question": "Quantas espadas Zoro usa em \"One Piece\"?",
     "options": [
-      "Shukaku",
-      "Matatabi",
-      "Kurama, a Raposa de Nove Caudas",
-      "Gyuki"
+      "4",
+      "1",
+      "3",
+      "2"
     ],
     "correct_index": 2
   },
@@ -536,25 +536,25 @@
     "id": "ani-042",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Quantas espadas Zoro usa em \"One Piece\"?",
+    "question": "Quem é o cozinheiro da tripulação de Luffy?",
     "options": [
-      "3",
-      "2",
-      "4",
-      "1"
+      "Zoro",
+      "Usopp",
+      "Franky",
+      "Sanji"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "ani-043",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Quem é o cozinheiro da tripulação de Luffy?",
+    "question": "Quem é a navegadora da tripulação de Luffy?",
     "options": [
-      "Franky",
-      "Sanji",
-      "Usopp",
-      "Zoro"
+      "Nico Robin",
+      "Nami",
+      "Boa Hancock",
+      "Vivi"
     ],
     "correct_index": 1
   },
@@ -562,90 +562,90 @@
     "id": "ani-044",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Quem é a navegadora da tripulação de Luffy?",
+    "question": "Qual é o nome da rena médica da tripulação de Luffy?",
     "options": [
-      "Boa Hancock",
-      "Nico Robin",
-      "Nami",
-      "Vivi"
+      "Franky",
+      "Brook",
+      "Usopp",
+      "Tony Tony Chopper"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "ani-045",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual é o nome da rena médica da tripulação de Luffy?",
+    "question": "Qual é o nome do filho mais velho de Goku?",
     "options": [
-      "Tony Tony Chopper",
-      "Usopp",
-      "Franky",
-      "Brook"
+      "Trunks",
+      "Vegeta",
+      "Gohan",
+      "Goten"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "ani-046",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual é o nome do filho mais velho de Goku?",
+    "question": "Quem é o príncipe dos saiyajins e grande rival de Goku?",
     "options": [
-      "Trunks",
-      "Gohan",
+      "Freeza",
+      "Cell",
       "Vegeta",
-      "Goten"
+      "Piccolo"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "ani-047",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Quem é o príncipe dos saiyajins e grande rival de Goku?",
+    "question": "Qual vilão espacial destruiu o planeta Vegeta em \"Dragon Ball\"?",
     "options": [
-      "Vegeta",
-      "Piccolo",
+      "Cell",
+      "Broly",
       "Freeza",
-      "Cell"
+      "Majin Boo"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "ani-048",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual vilão espacial destruiu o planeta Vegeta em \"Dragon Ball\"?",
-    "options": [
-      "Freeza",
-      "Cell",
-      "Majin Boo",
-      "Broly"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "ani-049",
-    "category": "animes",
-    "difficulty": "medio",
     "question": "Qual é o nome do detetive que investiga o Kira em \"Death Note\"?",
     "options": [
       "Mello",
-      "Watari",
       "Near",
+      "Watari",
       "L"
     ],
     "correct_index": 3
   },
   {
-    "id": "ani-050",
+    "id": "ani-049",
     "category": "animes",
     "difficulty": "medio",
     "question": "Quem é conhecido como o soldado mais forte da humanidade em \"Attack on Titan\"?",
     "options": [
       "Erwin Smith",
       "Levi Ackerman",
-      "Eren Yeager",
-      "Reiner Braun"
+      "Reiner Braun",
+      "Eren Yeager"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-050",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é a primeira respiração que Tanjiro usa em \"Demon Slayer\"?",
+    "options": [
+      "Respiração do Trovão",
+      "Respiração da Água",
+      "Respiração da Besta",
+      "Respiração do Fogo"
     ],
     "correct_index": 1
   },
@@ -653,38 +653,38 @@
     "id": "ani-051",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual é a primeira respiração que Tanjiro usa em \"Demon Slayer\"?",
-    "options": [
-      "Respiração da Água",
-      "Respiração do Fogo",
-      "Respiração do Trovão",
-      "Respiração da Besta"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "ani-052",
-    "category": "animes",
-    "difficulty": "medio",
     "question": "Quem é o principal vilão de \"Demon Slayer\"?",
     "options": [
-      "Akaza",
       "Doma",
       "Kokushibo",
+      "Akaza",
       "Muzan Kibutsuji"
     ],
     "correct_index": 3
   },
   {
-    "id": "ani-053",
+    "id": "ani-052",
     "category": "animes",
     "difficulty": "medio",
     "question": "Quem é o mentor de Izuku em \"My Hero Academia\"?",
     "options": [
       "Aizawa",
       "All Might",
-      "Hawks",
-      "Endeavor"
+      "Endeavor",
+      "Hawks"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-053",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual é o princípio central da alquimia em \"Fullmetal Alchemist\"?",
+    "options": [
+      "Pedra filosofal",
+      "Troca equivalente",
+      "Lei da gravidade",
+      "Lei da selva"
     ],
     "correct_index": 1
   },
@@ -692,25 +692,25 @@
     "id": "ani-054",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual é o princípio central da alquimia em \"Fullmetal Alchemist\"?",
+    "question": "Quem é o protagonista de \"Hunter x Hunter\"?",
     "options": [
-      "Lei da selva",
-      "Lei da gravidade",
-      "Pedra filosofal",
-      "Troca equivalente"
+      "Leorio",
+      "Gon Freecss",
+      "Kurapika",
+      "Killua Zoldyck"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "ani-055",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Quem é o protagonista de \"Hunter x Hunter\"?",
+    "question": "Quem é o melhor amigo de Gon em \"Hunter x Hunter\"?",
     "options": [
       "Leorio",
+      "Hisoka",
       "Kurapika",
-      "Killua Zoldyck",
-      "Gon Freecss"
+      "Killua Zoldyck"
     ],
     "correct_index": 3
   },
@@ -718,12 +718,12 @@
     "id": "ani-056",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Quem é o melhor amigo de Gon em \"Hunter x Hunter\"?",
+    "question": "Quem é o protagonista de \"Jujutsu Kaisen\"?",
     "options": [
-      "Kurapika",
-      "Leorio",
-      "Killua Zoldyck",
-      "Hisoka"
+      "Nobara Kugisaki",
+      "Satoru Gojo",
+      "Yuji Itadori",
+      "Megumi Fushiguro"
     ],
     "correct_index": 2
   },
@@ -731,25 +731,25 @@
     "id": "ani-057",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Quem é o protagonista de \"Jujutsu Kaisen\"?",
+    "question": "Qual maldição vive dentro de Yuji Itadori?",
     "options": [
-      "Yuji Itadori",
-      "Satoru Gojo",
-      "Nobara Kugisaki",
-      "Megumi Fushiguro"
+      "Jogo",
+      "Geto",
+      "Sukuna",
+      "Mahito"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "ani-058",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual maldição vive dentro de Yuji Itadori?",
+    "question": "Qual diretor é cofundador do Studio Ghibli?",
     "options": [
-      "Jogo",
-      "Sukuna",
-      "Mahito",
-      "Geto"
+      "Satoshi Kon",
+      "Hayao Miyazaki",
+      "Mamoru Hosoda",
+      "Makoto Shinkai"
     ],
     "correct_index": 1
   },
@@ -757,168 +757,168 @@
     "id": "ani-059",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual diretor é cofundador do Studio Ghibli?",
+    "question": "Quem dirigiu o filme de animação \"Your Name\"?",
     "options": [
-      "Satoshi Kon",
-      "Mamoru Hosoda",
+      "Isao Takahata",
+      "Makoto Shinkai",
       "Hayao Miyazaki",
-      "Makoto Shinkai"
+      "Mamoru Hosoda"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "ani-060",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Quem dirigiu o filme de animação \"Your Name\"?",
+    "question": "Qual deusa reencarnada é protegida pelos cavaleiros de bronze em \"Os Cavaleiros do Zodíaco\"?",
     "options": [
-      "Isao Takahata",
-      "Hayao Miyazaki",
-      "Makoto Shinkai",
-      "Mamoru Hosoda"
+      "Afrodite",
+      "Hera",
+      "Ártemis",
+      "Atena"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "ani-061",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual garoto pilota o EVA-01 em \"Neon Genesis Evangelion\"?",
+    "question": "Qual é o nome da protagonista de \"Sakura Card Captors\"?",
     "options": [
-      "Kensuke Aida",
-      "Toji Suzuhara",
-      "Shinji Ikari",
-      "Kaworu Nagisa"
+      "Sakura Kinomoto",
+      "Tomoyo Daidouji",
+      "Naoko Yanagisawa",
+      "Meiling Li"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "ani-062",
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual deusa reencarnada é protegida pelos cavaleiros de bronze em \"Os Cavaleiros do Zodíaco\"?",
+    "question": "Qual é a cidade natal de Ash Ketchum em \"Pokémon\"?",
     "options": [
-      "Atena",
-      "Ártemis",
-      "Afrodite",
-      "Hera"
+      "Cidade de Cerulean",
+      "Cidade de Viridian",
+      "Vila Pallet",
+      "Cidade de Pewter"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "ani-063",
-    "category": "animes",
-    "difficulty": "medio",
-    "question": "Qual é o nome da protagonista de \"Sakura Card Captors\"?",
-    "options": [
-      "Naoko Yanagisawa",
-      "Tomoyo Daidouji",
-      "Meiling Li",
-      "Sakura Kinomoto"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "ani-064",
-    "category": "animes",
-    "difficulty": "medio",
-    "question": "Qual é a cidade natal de Ash Ketchum em \"Pokémon\"?",
-    "options": [
-      "Vila Pallet",
-      "Cidade de Pewter",
-      "Cidade de Cerulean",
-      "Cidade de Viridian"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "ani-065",
-    "category": "animes",
-    "difficulty": "medio",
-    "question": "Qual personagem é o astro de \"Cowboy Bebop\", um caçador de recompensas?",
-    "options": [
-      "Jet Black",
-      "Spike Spiegel",
-      "Faye Valentine",
-      "Edward"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "ani-066",
     "category": "animes",
     "difficulty": "medio",
     "question": "Qual guerreiro careca, melhor amigo de Goku, tem seis pontos na testa?",
     "options": [
       "Chaos",
       "Kuririn",
-      "Yamcha",
-      "Tenshinhan"
+      "Tenshinhan",
+      "Yamcha"
     ],
     "correct_index": 1
   },
   {
-    "id": "ani-067",
+    "id": "ani-064",
     "category": "animes",
     "difficulty": "medio",
     "question": "Qual é o nome da garota de cabelo rosa do Time 7 em \"Naruto\"?",
     "options": [
       "Tenten",
+      "Sakura Haruno",
       "Hinata Hyuga",
-      "Ino Yamanaka",
-      "Sakura Haruno"
+      "Ino Yamanaka"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-065",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em \"O Serviço de Entregas da Kiki\", qual é a profissão da jovem protagonista?",
+    "options": [
+      "Bruxa entregadora",
+      "Soldada",
+      "Cozinheira",
+      "Pirata"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-066",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em \"One Punch Man\", como Saitama derrota a maioria dos inimigos?",
+    "options": [
+      "Com uma espada",
+      "Com fogo",
+      "Com magia",
+      "Com um único soco"
     ],
     "correct_index": 3
+  },
+  {
+    "id": "ani-067",
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual console da Nintendo recebeu os primeiros jogos de Pokémon?",
+    "options": [
+      "Game Boy",
+      "Nintendo 64",
+      "GameCube",
+      "Super Nintendo"
+    ],
+    "correct_index": 0
   },
   {
     "id": "ani-068",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Quem é o pai de Naruto?",
+    "question": "Quem criou o mangá \"Bleach\"?",
     "options": [
-      "Jiraiya",
-      "Minato Namikaze",
-      "Hashirama Senju",
-      "Fugaku Uchiha"
+      "Tite Kubo",
+      "Eiichiro Oda",
+      "Masashi Kishimoto",
+      "Hiromu Arakawa"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "ani-069",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Quem é o irmão mais velho de Sasuke Uchiha?",
+    "question": "Qual garoto pilota o EVA-01 em \"Neon Genesis Evangelion\"?",
     "options": [
-      "Obito Uchiha",
-      "Itachi Uchiha",
-      "Madara Uchiha",
-      "Shisui Uchiha"
+      "Toji Suzuhara",
+      "Kaworu Nagisa",
+      "Kensuke Aida",
+      "Shinji Ikari"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "ani-070",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Quem é conhecida como a Quinta Hokage em \"Naruto\"?",
+    "question": "Qual personagem é o astro de \"Cowboy Bebop\", um caçador de recompensas?",
     "options": [
-      "Sakura Haruno",
-      "Mei Terumi",
-      "Kushina Uzumaki",
-      "Tsunade"
+      "Spike Spiegel",
+      "Faye Valentine",
+      "Edward",
+      "Jet Black"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "ani-071",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Qual organização criminosa de capas pretas com nuvens vermelhas aparece em \"Naruto\"?",
+    "question": "Quem é o pai de Naruto?",
     "options": [
-      "Anbu",
-      "Sete Espadachins da Névoa",
-      "Akatsuki",
-      "Raiz"
+      "Fugaku Uchiha",
+      "Jiraiya",
+      "Minato Namikaze",
+      "Hashirama Senju"
     ],
     "correct_index": 2
   },
@@ -926,38 +926,38 @@
     "id": "ani-072",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Quem foi o Rei dos Piratas antes de Luffy sonhar com o título, em \"One Piece\"?",
+    "question": "Quem é o irmão mais velho de Sasuke Uchiha?",
     "options": [
-      "Barba Negra",
-      "Shanks",
-      "Barba Branca",
-      "Gol D. Roger"
+      "Madara Uchiha",
+      "Itachi Uchiha",
+      "Obito Uchiha",
+      "Shisui Uchiha"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "ani-073",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Qual objeto Shanks deixou com Luffy ao partir?",
+    "question": "Quem é conhecida como a Quinta Hokage em \"Naruto\"?",
     "options": [
-      "Chapéu de palha",
-      "Espada",
-      "Mapa",
-      "Navio"
+      "Sakura Haruno",
+      "Kushina Uzumaki",
+      "Mei Terumi",
+      "Tsunade"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "ani-074",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Qual irmão de Luffy morreu na guerra de Marineford?",
+    "question": "Qual organização criminosa de capas pretas com nuvens vermelhas aparece em \"Naruto\"?",
     "options": [
-      "Shanks",
-      "Zoro",
-      "Sabo",
-      "Portgas D. Ace"
+      "Anbu",
+      "Raiz",
+      "Sete Espadachins da Névoa",
+      "Akatsuki"
     ],
     "correct_index": 3
   },
@@ -965,12 +965,12 @@
     "id": "ani-075",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Como se chama o perigoso oceano que os piratas atravessam em \"One Piece\"?",
+    "question": "Quem foi o Rei dos Piratas antes de Luffy sonhar com o título, em \"One Piece\"?",
     "options": [
-      "Grand Line",
-      "Red Line",
-      "Calm Belt",
-      "East Blue"
+      "Gol D. Roger",
+      "Barba Negra",
+      "Shanks",
+      "Barba Branca"
     ],
     "correct_index": 0
   },
@@ -978,90 +978,90 @@
     "id": "ani-076",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Quem encontrou e criou Goku quando ele era bebê, como avô adotivo?",
+    "question": "Qual objeto Shanks deixou com Luffy ao partir?",
     "options": [
-      "Vovô Gohan",
-      "Bulma",
-      "Piccolo",
-      "Mestre Kame"
+      "Mapa",
+      "Chapéu de palha",
+      "Navio",
+      "Espada"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "ani-077",
     "category": "animes",
     "difficulty": "dificil",
+    "question": "Qual irmão de Luffy morreu na guerra de Marineford?",
+    "options": [
+      "Sabo",
+      "Portgas D. Ace",
+      "Shanks",
+      "Zoro"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-078",
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Como se chama o perigoso oceano que os piratas atravessam em \"One Piece\"?",
+    "options": [
+      "East Blue",
+      "Calm Belt",
+      "Red Line",
+      "Grand Line"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "ani-079",
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Quem encontrou e criou Goku quando ele era bebê, como avô adotivo?",
+    "options": [
+      "Bulma",
+      "Vovô Gohan",
+      "Piccolo",
+      "Mestre Kame"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "ani-080",
+    "category": "animes",
+    "difficulty": "dificil",
     "question": "Qual mestre ensinou o Kamehameha a Goku?",
     "options": [
-      "Kaioh",
       "Piccolo",
+      "Kaioh",
       "Mestre Kame",
       "Mr. Satan"
     ],
     "correct_index": 2
   },
   {
-    "id": "ani-078",
+    "id": "ani-081",
     "category": "animes",
     "difficulty": "dificil",
     "question": "Qual personagem criou o radar do dragão em \"Dragon Ball\"?",
     "options": [
-      "Videl",
-      "Bulma",
       "Chi-Chi",
-      "C-18"
+      "Bulma",
+      "C-18",
+      "Videl"
     ],
     "correct_index": 1
-  },
-  {
-    "id": "ani-079",
-    "category": "animes",
-    "difficulty": "dificil",
-    "question": "Quem é o pai de Light Yagami em \"Death Note\"?",
-    "options": [
-      "Soichiro Yagami",
-      "Watari",
-      "Aizawa",
-      "Matsuda"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "ani-080",
-    "category": "animes",
-    "difficulty": "dificil",
-    "question": "Quem são os amigos de infância de Eren em \"Attack on Titan\"?",
-    "options": [
-      "Sasha e Historia",
-      "Jean e Connie",
-      "Reiner e Bertholdt",
-      "Armin Arlert e Mikasa Ackerman"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "ani-081",
-    "category": "animes",
-    "difficulty": "dificil",
-    "question": "Qual titã Eren herda de seu pai em \"Attack on Titan\"?",
-    "options": [
-      "Titã de Ataque",
-      "Titã Fêmea",
-      "Titã Encouraçado",
-      "Titã Colossal"
-    ],
-    "correct_index": 0
   },
   {
     "id": "ani-082",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Como se chama a organização que caça demônios em \"Demon Slayer\"?",
+    "question": "Quem é o pai de Light Yagami em \"Death Note\"?",
     "options": [
-      "Anbu",
-      "Corpo de Caçadores de Demônios",
-      "Sociedade de Almas",
-      "Marinha"
+      "Watari",
+      "Soichiro Yagami",
+      "Aizawa",
+      "Matsuda"
     ],
     "correct_index": 1
   },
@@ -1069,51 +1069,51 @@
     "id": "ani-083",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Que máscara de animal Inosuke usa em \"Demon Slayer\"?",
+    "question": "Quem são os amigos de infância de Eren em \"Attack on Titan\"?",
     "options": [
-      "Lobo",
-      "Javali",
-      "Urso",
-      "Raposa"
+      "Reiner e Bertholdt",
+      "Sasha e Historia",
+      "Armin Arlert e Mikasa Ackerman",
+      "Jean e Connie"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "ani-084",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Qual respiração Zenitsu usa em \"Demon Slayer\"?",
+    "question": "Qual titã Eren herda de seu pai em \"Attack on Titan\"?",
     "options": [
-      "Respiração da Água",
-      "Respiração do Fogo",
-      "Respiração do Trovão",
-      "Respiração da Névoa"
+      "Titã Colossal",
+      "Titã Fêmea",
+      "Titã Encouraçado",
+      "Titã de Ataque"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "ani-085",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Qual é o nome da escola de heróis de \"My Hero Academia\"?",
+    "question": "Como se chama a organização que caça demônios em \"Demon Slayer\"?",
     "options": [
-      "Ketsubutsu",
-      "Shiketsu",
-      "U.A.",
-      "Seiai"
+      "Marinha",
+      "Corpo de Caçadores de Demônios",
+      "Anbu",
+      "Sociedade de Almas"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "ani-086",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Qual é a individualidade (Quirk) de Bakugo?",
+    "question": "Que máscara de animal Inosuke usa em \"Demon Slayer\"?",
     "options": [
-      "Fogo e gelo",
-      "Endurecimento",
-      "Explosão",
-      "Super força"
+      "Raposa",
+      "Urso",
+      "Javali",
+      "Lobo"
     ],
     "correct_index": 2
   },
@@ -1121,25 +1121,25 @@
     "id": "ani-087",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Quem entrega o primeiro Pokémon a Ash, na versão brasileira do anime?",
+    "question": "Qual respiração Zenitsu usa em \"Demon Slayer\"?",
     "options": [
-      "Professor Carvalho",
-      "Professor Sycamore",
-      "Professor Birch",
-      "Professor Elm"
+      "Respiração da Névoa",
+      "Respiração do Fogo",
+      "Respiração da Água",
+      "Respiração do Trovão"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "ani-088",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Quem é o líder de ginásio da cidade de Pewter, em \"Pokémon\"?",
+    "question": "Qual é o nome da escola de heróis de \"My Hero Academia\"?",
     "options": [
-      "Erika",
-      "Brock",
-      "Misty",
-      "Tenente Surge"
+      "Shiketsu",
+      "U.A.",
+      "Seiai",
+      "Ketsubutsu"
     ],
     "correct_index": 1
   },
@@ -1147,51 +1147,51 @@
     "id": "ani-089",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Quem é a líder de ginásio da cidade de Cerulean, em \"Pokémon\"?",
+    "question": "Qual é a individualidade (Quirk) de Bakugo?",
     "options": [
-      "Sabrina",
-      "Misty",
-      "Brock",
-      "Erika"
+      "Fogo e gelo",
+      "Super força",
+      "Explosão",
+      "Endurecimento"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "ani-090",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Qual cavaleiro é o irmão de Shun em \"Os Cavaleiros do Zodíaco\"?",
+    "question": "Quem entrega o primeiro Pokémon a Ash, na versão brasileira do anime?",
     "options": [
-      "Hyoga de Cisne",
-      "Shiryu de Dragão",
-      "Seiya de Pégaso",
-      "Ikki de Fênix"
+      "Professor Birch",
+      "Professor Elm",
+      "Professor Carvalho",
+      "Professor Sycamore"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "ani-091",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Qual cavaleiro de bronze representa a constelação do Cisne?",
+    "question": "Quem é o líder de ginásio da cidade de Pewter, em \"Pokémon\"?",
     "options": [
-      "Shun",
-      "Shiryu",
-      "Ikki",
-      "Hyoga"
+      "Brock",
+      "Misty",
+      "Erika",
+      "Tenente Surge"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "ani-092",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Qual guerreira é a Sailor do planeta Mercúrio?",
+    "question": "Quem é a líder de ginásio da cidade de Cerulean, em \"Pokémon\"?",
     "options": [
-      "Sailor Mars",
-      "Sailor Mercury (Ami)",
-      "Sailor Venus",
-      "Sailor Jupiter"
+      "Erika",
+      "Misty",
+      "Brock",
+      "Sabrina"
     ],
     "correct_index": 1
   },
@@ -1199,25 +1199,25 @@
     "id": "ani-093",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Qual é o nome do dojutsu famoso do clã Uchiha em \"Naruto\"?",
+    "question": "Qual cavaleiro é o irmão de Shun em \"Os Cavaleiros do Zodíaco\"?",
     "options": [
-      "Tenseigan",
-      "Byakugan",
-      "Rinnegan",
-      "Sharingan"
+      "Seiya de Pégaso",
+      "Hyoga de Cisne",
+      "Ikki de Fênix",
+      "Shiryu de Dragão"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "ani-094",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Qual dojutsu pertence ao clã Hyuga em \"Naruto\"?",
+    "question": "Qual cavaleiro de bronze representa a constelação do Cisne?",
     "options": [
-      "Byakugan",
-      "Mangekyou",
-      "Sharingan",
-      "Rinnegan"
+      "Hyoga",
+      "Ikki",
+      "Shun",
+      "Shiryu"
     ],
     "correct_index": 0
   },
@@ -1225,17 +1225,43 @@
     "id": "ani-095",
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Em \"O Serviço de Entregas da Kiki\", qual é a profissão da jovem protagonista?",
+    "question": "Qual guerreira é a Sailor do planeta Mercúrio?",
     "options": [
-      "Cozinheira",
-      "Bruxa entregadora",
-      "Soldada",
-      "Pirata"
+      "Sailor Venus",
+      "Sailor Mercury (Ami)",
+      "Sailor Jupiter",
+      "Sailor Mars"
     ],
     "correct_index": 1
   },
   {
     "id": "ani-096",
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do dojutsu famoso do clã Uchiha em \"Naruto\"?",
+    "options": [
+      "Tenseigan",
+      "Byakugan",
+      "Sharingan",
+      "Rinnegan"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "ani-097",
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Qual dojutsu pertence ao clã Hyuga em \"Naruto\"?",
+    "options": [
+      "Byakugan",
+      "Mangekyou",
+      "Rinnegan",
+      "Sharingan"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "ani-098",
     "category": "animes",
     "difficulty": "dificil",
     "question": "Em \"A Viagem de Chihiro\", quem é o garoto que ajuda Chihiro e se transforma em dragão?",
@@ -1248,40 +1274,14 @@
     "correct_index": 0
   },
   {
-    "id": "ani-097",
-    "category": "animes",
-    "difficulty": "dificil",
-    "question": "Em \"One Punch Man\", como Saitama derrota a maioria dos inimigos?",
-    "options": [
-      "Com fogo",
-      "Com magia",
-      "Com um único soco",
-      "Com uma espada"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "ani-098",
-    "category": "animes",
-    "difficulty": "dificil",
-    "question": "Qual console da Nintendo recebeu os primeiros jogos de Pokémon?",
-    "options": [
-      "Nintendo 64",
-      "Game Boy",
-      "GameCube",
-      "Super Nintendo"
-    ],
-    "correct_index": 1
-  },
-  {
     "id": "ani-099",
     "category": "animes",
     "difficulty": "dificil",
     "question": "Qual é o nome da arqueóloga da tripulação de Luffy em \"One Piece\"?",
     "options": [
       "Nico Robin",
-      "Nami",
       "Boa Hancock",
+      "Nami",
       "Vivi"
     ],
     "correct_index": 0
@@ -1292,11 +1292,11 @@
     "difficulty": "dificil",
     "question": "Qual mestre, o \"Sábio Pervertido dos Sapos\", treinou Naruto?",
     "options": [
-      "Tsunade",
-      "Orochimaru",
+      "Jiraiya",
       "Kakashi Hatake",
-      "Jiraiya"
+      "Tsunade",
+      "Orochimaru"
     ],
-    "correct_index": 3
+    "correct_index": 0
   }
 ]

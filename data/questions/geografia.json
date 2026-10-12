@@ -5,12 +5,12 @@
     "difficulty": "facil",
     "question": "Qual é a capital do Brasil?",
     "options": [
-      "Brasília",
       "Salvador",
-      "Rio de Janeiro",
-      "São Paulo"
+      "Brasília",
+      "São Paulo",
+      "Rio de Janeiro"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "geo-002",
@@ -19,11 +19,11 @@
     "question": "Qual é o maior país do mundo em extensão territorial?",
     "options": [
       "Estados Unidos",
-      "Rússia",
       "Canadá",
-      "China"
+      "China",
+      "Rússia"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "geo-003",
@@ -31,10 +31,10 @@
     "difficulty": "facil",
     "question": "Qual é o maior oceano do planeta?",
     "options": [
-      "Oceano Índico",
-      "Oceano Pacífico",
       "Oceano Atlântico",
-      "Oceano Ártico"
+      "Oceano Pacífico",
+      "Oceano Ártico",
+      "Oceano Índico"
     ],
     "correct_index": 1
   },
@@ -46,8 +46,8 @@
     "options": [
       "Rio São Francisco",
       "Rio Amazonas",
-      "Rio Tocantins",
-      "Rio Paraná"
+      "Rio Paraná",
+      "Rio Tocantins"
     ],
     "correct_index": 1
   },
@@ -57,12 +57,12 @@
     "difficulty": "facil",
     "question": "Em qual continente fica o Egito?",
     "options": [
-      "Europa",
-      "Ásia",
+      "América",
       "África",
-      "América"
+      "Ásia",
+      "Europa"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "geo-006",
@@ -70,12 +70,12 @@
     "difficulty": "facil",
     "question": "Qual é a capital da França?",
     "options": [
-      "Lyon",
       "Marselha",
       "Paris",
-      "Bruxelas"
+      "Bruxelas",
+      "Lyon"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "geo-007",
@@ -85,8 +85,8 @@
     "options": [
       "Montevidéu",
       "Buenos Aires",
-      "Santiago",
-      "Lima"
+      "Lima",
+      "Santiago"
     ],
     "correct_index": 1
   },
@@ -96,12 +96,12 @@
     "difficulty": "facil",
     "question": "Qual é o continente onde fica o Brasil?",
     "options": [
-      "América do Sul",
-      "África",
       "Europa",
-      "América do Norte"
+      "América do Norte",
+      "África",
+      "América do Sul"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "geo-009",
@@ -109,12 +109,12 @@
     "difficulty": "facil",
     "question": "Qual é a capital do estado da Bahia?",
     "options": [
-      "Salvador",
-      "Feira de Santana",
       "Vitória da Conquista",
-      "Ilhéus"
+      "Feira de Santana",
+      "Ilhéus",
+      "Salvador"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "geo-010",
@@ -122,12 +122,12 @@
     "difficulty": "facil",
     "question": "Qual é a capital de Portugal?",
     "options": [
-      "Coimbra",
       "Porto",
-      "Madri",
-      "Lisboa"
+      "Lisboa",
+      "Coimbra",
+      "Madri"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "geo-011",
@@ -135,12 +135,12 @@
     "difficulty": "facil",
     "question": "Qual é a capital do Japão?",
     "options": [
-      "Tóquio",
-      "Pequim",
       "Quioto",
+      "Pequim",
+      "Tóquio",
       "Osaka"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "geo-012",
@@ -148,12 +148,12 @@
     "difficulty": "facil",
     "question": "Qual é o maior estado brasileiro em área?",
     "options": [
-      "Pará",
-      "Minas Gerais",
+      "Amazonas",
       "Mato Grosso",
-      "Amazonas"
+      "Minas Gerais",
+      "Pará"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "geo-013",
@@ -162,11 +162,11 @@
     "question": "Qual país tem formato de bota e fica na Europa?",
     "options": [
       "Grécia",
-      "Itália",
       "Espanha",
+      "Itália",
       "Portugal"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "geo-014",
@@ -174,12 +174,12 @@
     "difficulty": "facil",
     "question": "Qual é a montanha mais alta do mundo?",
     "options": [
-      "Aconcágua",
       "Monte Fuji",
+      "Monte Everest",
       "Monte Kilimanjaro",
-      "Monte Everest"
+      "Aconcágua"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "geo-015",
@@ -188,11 +188,11 @@
     "question": "Em qual país fica a Torre Eiffel?",
     "options": [
       "Itália",
+      "Alemanha",
       "França",
-      "Inglaterra",
-      "Alemanha"
+      "Inglaterra"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "geo-016",
@@ -201,9 +201,9 @@
     "question": "Em qual país fica a Estátua da Liberdade?",
     "options": [
       "Estados Unidos",
-      "Canadá",
       "França",
-      "Inglaterra"
+      "Inglaterra",
+      "Canadá"
     ],
     "correct_index": 0
   },
@@ -213,12 +213,12 @@
     "difficulty": "facil",
     "question": "Qual é o idioma mais falado no Brasil?",
     "options": [
-      "Português",
       "Inglês",
       "Tupi",
+      "Português",
       "Espanhol"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "geo-018",
@@ -226,12 +226,12 @@
     "difficulty": "facil",
     "question": "Qual é o menor continente do mundo?",
     "options": [
-      "Oceania",
-      "América do Sul",
       "Antártida",
+      "América do Sul",
+      "Oceania",
       "Europa"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "geo-019",
@@ -240,8 +240,8 @@
     "question": "Qual é a capital dos Estados Unidos?",
     "options": [
       "Chicago",
-      "Nova York",
       "Los Angeles",
+      "Nova York",
       "Washington, D.C."
     ],
     "correct_index": 3
@@ -252,10 +252,10 @@
     "difficulty": "facil",
     "question": "Qual é a capital da Inglaterra e do Reino Unido?",
     "options": [
-      "Manchester",
+      "Liverpool",
       "Edimburgo",
       "Londres",
-      "Liverpool"
+      "Manchester"
     ],
     "correct_index": 2
   },
@@ -263,27 +263,27 @@
     "id": "geo-021",
     "category": "geografia",
     "difficulty": "facil",
-    "question": "Qual deserto é o maior deserto quente do mundo?",
+    "question": "Qual é o maior deserto quente do mundo?",
     "options": [
+      "Saara",
       "Atacama",
-      "Kalahari",
       "Gobi",
-      "Saara"
+      "Kalahari"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "geo-022",
     "category": "geografia",
     "difficulty": "facil",
-    "question": "Qual país é conhecido pelo Canguru e fica na Oceania?",
+    "question": "Qual país da Oceania é famoso pelos cangurus?",
     "options": [
-      "Indonésia",
-      "Nova Zelândia",
       "África do Sul",
-      "Austrália"
+      "Nova Zelândia",
+      "Austrália",
+      "Indonésia"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "geo-023",
@@ -291,12 +291,12 @@
     "difficulty": "facil",
     "question": "Qual é o estado brasileiro conhecido por ter o Pelourinho e o Carnaval de Salvador?",
     "options": [
-      "Ceará",
-      "Bahia",
       "Pernambuco",
-      "Rio de Janeiro"
+      "Rio de Janeiro",
+      "Bahia",
+      "Ceará"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "geo-024",
@@ -304,12 +304,12 @@
     "difficulty": "facil",
     "question": "Qual linha imaginária divide a Terra em hemisfério norte e hemisfério sul?",
     "options": [
-      "Trópico de Câncer",
-      "Trópico de Capricórnio",
       "Linha do Equador",
-      "Meridiano de Greenwich"
+      "Meridiano de Greenwich",
+      "Trópico de Capricórnio",
+      "Trópico de Câncer"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "geo-025",
@@ -317,8 +317,8 @@
     "difficulty": "facil",
     "question": "Quantos estados tem o Brasil, sem contar o Distrito Federal?",
     "options": [
-      "25",
       "27",
+      "25",
       "26",
       "24"
     ],
@@ -330,12 +330,12 @@
     "difficulty": "facil",
     "question": "Qual é o país vizinho do Brasil ao sul, onde se fala espanhol e fica Montevidéu?",
     "options": [
-      "Uruguai",
-      "Paraguai",
       "Chile",
+      "Paraguai",
+      "Uruguai",
       "Bolívia"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "geo-027",
@@ -343,161 +343,18 @@
     "difficulty": "facil",
     "question": "Qual país tem como capital Roma?",
     "options": [
-      "Grécia",
-      "Espanha",
+      "Turquia",
       "Itália",
-      "Turquia"
+      "Espanha",
+      "Grécia"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "geo-028",
     "category": "geografia",
     "difficulty": "facil",
     "question": "Qual é o país mais populoso da América do Sul?",
-    "options": [
-      "Colômbia",
-      "Argentina",
-      "Peru",
-      "Brasil"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "geo-029",
-    "category": "geografia",
-    "difficulty": "facil",
-    "question": "Qual é o nome do oceano que banha a costa leste do Brasil?",
-    "options": [
-      "Oceano Atlântico",
-      "Oceano Ártico",
-      "Oceano Pacífico",
-      "Oceano Índico"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "geo-030",
-    "category": "geografia",
-    "difficulty": "facil",
-    "question": "Qual é a cidade mais populosa do Brasil?",
-    "options": [
-      "Rio de Janeiro",
-      "São Paulo",
-      "Salvador",
-      "Brasília"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "geo-031",
-    "category": "geografia",
-    "difficulty": "facil",
-    "question": "Qual é a capital da Espanha?",
-    "options": [
-      "Sevilha",
-      "Madri",
-      "Barcelona",
-      "Lisboa"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "geo-032",
-    "category": "geografia",
-    "difficulty": "facil",
-    "question": "Em qual país fica a Grande Muralha?",
-    "options": [
-      "Japão",
-      "Coreia do Sul",
-      "China",
-      "Índia"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "geo-033",
-    "category": "geografia",
-    "difficulty": "facil",
-    "question": "Qual é o nome do maior bioma brasileiro, que cobre grande parte do Norte do país?",
-    "options": [
-      "Cerrado",
-      "Caatinga",
-      "Amazônia",
-      "Pampa"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "geo-034",
-    "category": "geografia",
-    "difficulty": "facil",
-    "question": "Qual é a capital do Canadá?",
-    "options": [
-      "Ottawa",
-      "Montreal",
-      "Vancouver",
-      "Toronto"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "geo-035",
-    "category": "geografia",
-    "difficulty": "medio",
-    "question": "Qual é o rio mais extenso do mundo, segundo a maioria das medições?",
-    "options": [
-      "Rio Nilo",
-      "Rio Amazonas",
-      "Rio Mississippi",
-      "Rio Yangtzé"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "geo-036",
-    "category": "geografia",
-    "difficulty": "medio",
-    "question": "Qual é a capital da Austrália?",
-    "options": [
-      "Sydney",
-      "Melbourne",
-      "Camberra",
-      "Brisbane"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "geo-037",
-    "category": "geografia",
-    "difficulty": "medio",
-    "question": "Qual país tem a maior costa marítima do mundo?",
-    "options": [
-      "Rússia",
-      "Canadá",
-      "Austrália",
-      "Estados Unidos"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "geo-038",
-    "category": "geografia",
-    "difficulty": "medio",
-    "question": "Qual é o único país que ocupa um continente inteiro?",
-    "options": [
-      "Brasil",
-      "Canadá",
-      "Austrália",
-      "Groenlândia"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "geo-039",
-    "category": "geografia",
-    "difficulty": "medio",
-    "question": "Qual é o maior país da América do Sul em área?",
     "options": [
       "Argentina",
       "Brasil",
@@ -507,106 +364,249 @@
     "correct_index": 1
   },
   {
-    "id": "geo-040",
+    "id": "geo-029",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do oceano que banha a costa leste do Brasil?",
+    "options": [
+      "Oceano Pacífico",
+      "Oceano Atlântico",
+      "Oceano Ártico",
+      "Oceano Índico"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-030",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a cidade mais populosa do Brasil?",
+    "options": [
+      "Brasília",
+      "Salvador",
+      "Rio de Janeiro",
+      "São Paulo"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "geo-031",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital da Espanha?",
+    "options": [
+      "Lisboa",
+      "Barcelona",
+      "Sevilha",
+      "Madri"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "geo-032",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Em qual país fica a Grande Muralha?",
+    "options": [
+      "Japão",
+      "Coreia do Sul",
+      "Índia",
+      "China"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "geo-033",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é o nome do maior bioma brasileiro, que cobre grande parte do Norte do país?",
+    "options": [
+      "Amazônia",
+      "Cerrado",
+      "Pampa",
+      "Caatinga"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "geo-034",
+    "category": "geografia",
+    "difficulty": "facil",
+    "question": "Qual é a capital do Canadá?",
+    "options": [
+      "Vancouver",
+      "Montreal",
+      "Ottawa",
+      "Toronto"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "geo-035",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual grande rio africano atravessa o Egito até o Mar Mediterrâneo?",
+    "options": [
+      "Rio Nilo",
+      "Rio Níger",
+      "Rio Zambeze",
+      "Rio Congo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "geo-036",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual país tem a maior costa marítima do mundo?",
+    "options": [
+      "Estados Unidos",
+      "Rússia",
+      "Canadá",
+      "Austrália"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "geo-037",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o único país que ocupa um continente inteiro?",
+    "options": [
+      "Brasil",
+      "Austrália",
+      "Groenlândia",
+      "Canadá"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "geo-038",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o maior país da América do Sul em área?",
+    "options": [
+      "Argentina",
+      "Peru",
+      "Colômbia",
+      "Brasil"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "geo-039",
     "category": "geografia",
     "difficulty": "medio",
     "question": "Qual país ultrapassou a China como o mais populoso do mundo?",
     "options": [
-      "Índia",
       "Paquistão",
       "Estados Unidos",
+      "Índia",
       "Indonésia"
     ],
-    "correct_index": 0
+    "correct_index": 2
+  },
+  {
+    "id": "geo-040",
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Em qual país fica o Taj Mahal?",
+    "options": [
+      "Bangladesh",
+      "Índia",
+      "Paquistão",
+      "Nepal"
+    ],
+    "correct_index": 1
   },
   {
     "id": "geo-041",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Em qual país fica o Taj Mahal?",
+    "question": "Qual cordilheira atravessa a América do Sul de norte a sul?",
     "options": [
-      "Índia",
-      "Paquistão",
-      "Bangladesh",
-      "Nepal"
+      "Montes Urais",
+      "Alpes",
+      "Cordilheira dos Andes",
+      "Himalaia"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "geo-042",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual cordilheira atravessa a América do Sul de norte a sul?",
+    "question": "Qual é a capital da Alemanha?",
     "options": [
-      "Alpes",
-      "Himalaia",
-      "Cordilheira dos Andes",
-      "Montes Urais"
+      "Hamburgo",
+      "Berlim",
+      "Munique",
+      "Frankfurt"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "geo-043",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é a capital da Alemanha?",
+    "question": "Qual é a capital do Chile?",
     "options": [
-      "Berlim",
-      "Frankfurt",
-      "Hamburgo",
-      "Munique"
+      "Bogotá",
+      "Valparaíso",
+      "Lima",
+      "Santiago"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "geo-044",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é o maior lago de água doce em superfície do mundo?",
+    "question": "Qual é o menor país do mundo em área?",
     "options": [
-      "Lago Vitória",
-      "Lago Superior",
-      "Lago Baikal",
-      "Lago Titicaca"
+      "San Marino",
+      "Mônaco",
+      "Liechtenstein",
+      "Vaticano"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "geo-045",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é a capital da Turquia?",
+    "question": "Qual estreito separa a Espanha do Marrocos?",
     "options": [
-      "Istambul",
-      "Ancara",
-      "Izmir",
-      "Antália"
+      "Canal da Mancha",
+      "Estreito de Bering",
+      "Estreito de Magalhães",
+      "Estreito de Gibraltar"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "geo-046",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é a capital do Chile?",
+    "question": "Qual é o estado brasileiro com maior população?",
     "options": [
-      "Santiago",
-      "Lima",
-      "Bogotá",
-      "Valparaíso"
+      "Bahia",
+      "Minas Gerais",
+      "São Paulo",
+      "Rio de Janeiro"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "geo-047",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é o menor país do mundo em área?",
+    "question": "Qual rio banha a cidade de Paris?",
     "options": [
-      "Mônaco",
-      "San Marino",
-      "Vaticano",
-      "Liechtenstein"
+      "Rio Danúbio",
+      "Rio Reno",
+      "Rio Sena",
+      "Rio Tâmisa"
     ],
     "correct_index": 2
   },
@@ -614,25 +614,25 @@
     "id": "geo-048",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual estreito separa a Espanha do Marrocos?",
+    "question": "Qual é o principal rio do Nordeste, conhecido como \"Velho Chico\"?",
     "options": [
-      "Estreito de Bering",
-      "Estreito de Gibraltar",
-      "Estreito de Magalhães",
-      "Canal da Mancha"
+      "Rio Parnaíba",
+      "Rio Paraguaçu",
+      "Rio Jaguaribe",
+      "Rio São Francisco"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "geo-049",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é o estado brasileiro com maior população?",
+    "question": "Qual é o ponto mais alto do Brasil?",
     "options": [
-      "São Paulo",
-      "Minas Gerais",
-      "Bahia",
-      "Rio de Janeiro"
+      "Pico da Neblina",
+      "Pico Paraná",
+      "Pico da Bandeira",
+      "Monte Roraima"
     ],
     "correct_index": 0
   },
@@ -640,51 +640,51 @@
     "id": "geo-050",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual rio banha a cidade de Paris?",
+    "question": "Qual é a capital da Rússia?",
     "options": [
-      "Rio Sena",
-      "Rio Reno",
-      "Rio Tâmisa",
-      "Rio Danúbio"
+      "Minsk",
+      "Moscou",
+      "São Petersburgo",
+      "Kiev"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "geo-051",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é o principal rio do Nordeste, conhecido como \"Velho Chico\"?",
+    "question": "Qual mar fica entre a Europa e a África e banha países como Itália e Egito?",
     "options": [
-      "Rio Paraguaçu",
-      "Rio Jaguaribe",
-      "Rio São Francisco",
-      "Rio Parnaíba"
+      "Mar Vermelho",
+      "Mar Negro",
+      "Mar Báltico",
+      "Mar Mediterrâneo"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "geo-052",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é o ponto mais alto do Brasil?",
+    "question": "Qual é a capital do Peru?",
     "options": [
-      "Pico da Neblina",
-      "Pico Paraná",
-      "Monte Roraima",
-      "Pico da Bandeira"
+      "Bogotá",
+      "Quito",
+      "La Paz",
+      "Lima"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "geo-053",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual país africano é o mais populoso do continente?",
+    "question": "Qual é a capital da Colômbia?",
     "options": [
-      "Egito",
-      "Etiópia",
-      "Nigéria",
-      "África do Sul"
+      "Medellín",
+      "Caracas",
+      "Bogotá",
+      "Quito"
     ],
     "correct_index": 2
   },
@@ -692,38 +692,38 @@
     "id": "geo-054",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é a capital da Rússia?",
+    "question": "Qual país é conhecido como a \"Terra do Sol Nascente\"?",
     "options": [
-      "Kiev",
-      "Minsk",
-      "São Petersburgo",
-      "Moscou"
+      "Japão",
+      "China",
+      "Tailândia",
+      "Coreia do Sul"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "geo-055",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual mar fica entre a Europa e a África e banha países como Itália e Egito?",
+    "question": "Qual é o continente mais populoso do mundo?",
     "options": [
-      "Mar Báltico",
-      "Mar Mediterrâneo",
-      "Mar Negro",
-      "Mar Vermelho"
+      "Europa",
+      "América do Norte",
+      "Ásia",
+      "África"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "geo-056",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual país é formado por mais de 17 mil ilhas?",
+    "question": "Qual é o bioma que predomina no sertão nordestino?",
     "options": [
-      "Indonésia",
-      "Filipinas",
-      "Japão",
-      "Grécia"
+      "Caatinga",
+      "Pampa",
+      "Mata Atlântica",
+      "Cerrado"
     ],
     "correct_index": 0
   },
@@ -731,77 +731,77 @@
     "id": "geo-057",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é a capital do Peru?",
+    "question": "Qual país vizinho divide com o Brasil as Cataratas do Iguaçu?",
     "options": [
-      "La Paz",
-      "Quito",
-      "Lima",
-      "Bogotá"
+      "Bolívia",
+      "Chile",
+      "Peru",
+      "Argentina"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "geo-058",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é a capital da Colômbia?",
+    "question": "Qual país europeu é famoso por seus fiordes?",
     "options": [
-      "Medellín",
-      "Quito",
-      "Caracas",
-      "Bogotá"
+      "Noruega",
+      "Grécia",
+      "Portugal",
+      "Hungria"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "geo-059",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual país é conhecido como a \"Terra do Sol Nascente\"?",
+    "question": "Qual é a capital da Venezuela?",
     "options": [
-      "Coreia do Sul",
-      "Japão",
-      "China",
-      "Tailândia"
+      "Lima",
+      "Bogotá",
+      "Caracas",
+      "Quito"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "geo-060",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é a capital da Itália?",
+    "question": "Qual é a capital do Egito?",
     "options": [
-      "Nápoles",
-      "Veneza",
-      "Milão",
-      "Roma"
+      "Cairo",
+      "Luxor",
+      "Giza",
+      "Alexandria"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "geo-061",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é o maior deserto do mundo, considerando também os polares?",
+    "question": "Qual é a capital da Coreia do Sul?",
     "options": [
-      "Saara",
-      "Antártida",
-      "Arábia",
-      "Gobi"
+      "Pyongyang",
+      "Tóquio",
+      "Seul",
+      "Busan"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "geo-062",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é o bioma que predomina no sertão nordestino?",
+    "question": "Qual é a capital do México?",
     "options": [
-      "Pampa",
-      "Caatinga",
-      "Cerrado",
-      "Mata Atlântica"
+      "Guadalajara",
+      "Cidade do México",
+      "Cancún",
+      "Monterrey"
     ],
     "correct_index": 1
   },
@@ -809,116 +809,116 @@
     "id": "geo-063",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual país vizinho divide com o Brasil as Cataratas do Iguaçu?",
+    "question": "Qual país tem como capital Havana?",
     "options": [
-      "Argentina",
-      "Peru",
-      "Chile",
-      "Bolívia"
+      "República Dominicana",
+      "Porto Rico",
+      "Jamaica",
+      "Cuba"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "geo-064",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é a capital da Bolívia, sede do governo?",
+    "question": "Qual é a capital da Grécia?",
     "options": [
-      "La Paz",
-      "Assunção",
-      "Quito",
-      "Lima"
+      "Creta",
+      "Esparta",
+      "Tessalônica",
+      "Atenas"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "geo-065",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual país europeu é famoso por seus fiordes?",
+    "question": "Qual é o rio que corta a cidade de Londres?",
     "options": [
-      "Portugal",
-      "Noruega",
-      "Hungria",
-      "Grécia"
+      "Rio Tejo",
+      "Rio Reno",
+      "Rio Sena",
+      "Rio Tâmisa"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "geo-066",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual capital brasileira é cortada pela linha do Equador?",
+    "question": "Qual é o estado brasileiro mais ao sul do país?",
     "options": [
-      "Manaus",
-      "São Luís",
-      "Macapá",
-      "Belém"
+      "Paraná",
+      "Santa Catarina",
+      "Mato Grosso do Sul",
+      "Rio Grande do Sul"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "geo-067",
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é a capital da Venezuela?",
+    "question": "Qual produto deu fama e riqueza à região de Ilhéus, na Bahia?",
     "options": [
-      "Quito",
-      "Bogotá",
-      "Lima",
-      "Caracas"
+      "Soja",
+      "Café",
+      "Cacau",
+      "Algodão"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "geo-068",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital da Nova Zelândia?",
+    "question": "Qual é a capital da Austrália?",
     "options": [
-      "Auckland",
+      "Brisbane",
       "Sydney",
-      "Christchurch",
-      "Wellington"
+      "Camberra",
+      "Melbourne"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "geo-069",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital do Marrocos?",
+    "question": "Qual é o maior lago de água doce em superfície do mundo?",
     "options": [
-      "Rabat",
-      "Túnis",
-      "Marrakech",
-      "Casablanca"
+      "Lago Titicaca",
+      "Lago Baikal",
+      "Lago Vitória",
+      "Lago Superior"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "geo-070",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital do Egito?",
+    "question": "Qual é a capital da Turquia?",
     "options": [
-      "Luxor",
-      "Giza",
-      "Alexandria",
-      "Cairo"
+      "Ancara",
+      "Antália",
+      "Izmir",
+      "Istambul"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "geo-071",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital da Suíça?",
+    "question": "Qual país africano é o mais populoso do continente?",
     "options": [
-      "Genebra",
-      "Basileia",
-      "Berna",
-      "Zurique"
+      "Etiópia",
+      "África do Sul",
+      "Nigéria",
+      "Egito"
     ],
     "correct_index": 2
   },
@@ -926,38 +926,38 @@
     "id": "geo-072",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital do Quênia?",
+    "question": "Qual país é formado por mais de 17 mil ilhas?",
     "options": [
-      "Nairóbi",
-      "Mombaça",
-      "Adis Abeba",
-      "Kampala"
+      "Grécia",
+      "Filipinas",
+      "Indonésia",
+      "Japão"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "geo-073",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual país tem a cidade de Istambul, que fica entre dois continentes?",
+    "question": "Qual é o maior deserto do mundo, considerando também os polares?",
     "options": [
-      "Egito",
-      "Grécia",
-      "Irã",
-      "Turquia"
+      "Antártida",
+      "Saara",
+      "Gobi",
+      "Arábia"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "geo-074",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital da Índia?",
+    "question": "Qual é a capital da Bolívia, sede do governo?",
     "options": [
-      "Nova Délhi",
-      "Mumbai",
-      "Bangalore",
-      "Calcutá"
+      "La Paz",
+      "Assunção",
+      "Lima",
+      "Quito"
     ],
     "correct_index": 0
   },
@@ -965,90 +965,90 @@
     "id": "geo-075",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital da Coreia do Sul?",
+    "question": "Qual capital brasileira é cortada pela linha do Equador?",
     "options": [
-      "Seul",
-      "Tóquio",
-      "Pyongyang",
-      "Busan"
+      "Belém",
+      "Manaus",
+      "São Luís",
+      "Macapá"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "geo-076",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital do México?",
+    "question": "Qual é a capital da Nova Zelândia?",
     "options": [
-      "Monterrey",
-      "Guadalajara",
-      "Cidade do México",
-      "Cancún"
+      "Sydney",
+      "Auckland",
+      "Christchurch",
+      "Wellington"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "geo-077",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual país tem como capital Havana?",
+    "question": "Qual é a capital do Marrocos?",
     "options": [
-      "Jamaica",
-      "Cuba",
-      "Porto Rico",
-      "República Dominicana"
+      "Marrakech",
+      "Túnis",
+      "Rabat",
+      "Casablanca"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "geo-078",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital do Paraguai?",
+    "question": "Qual é a capital da Suíça?",
     "options": [
-      "Ciudad del Este",
-      "Montevidéu",
-      "Lima",
-      "Assunção"
+      "Zurique",
+      "Basileia",
+      "Berna",
+      "Genebra"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "geo-079",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital do Equador?",
+    "question": "Qual é a capital do Quênia?",
     "options": [
-      "Bogotá",
-      "Guayaquil",
-      "Lima",
-      "Quito"
+      "Nairóbi",
+      "Adis Abeba",
+      "Mombaça",
+      "Kampala"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "geo-080",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital da Suécia?",
+    "question": "Qual país tem a cidade de Istambul, que fica entre dois continentes?",
     "options": [
-      "Copenhague",
-      "Oslo",
-      "Estocolmo",
-      "Helsinque"
+      "Turquia",
+      "Grécia",
+      "Irã",
+      "Egito"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "geo-081",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital da Grécia?",
+    "question": "Qual é a capital da Índia?",
     "options": [
-      "Esparta",
-      "Atenas",
-      "Creta",
-      "Tessalônica"
+      "Mumbai",
+      "Nova Délhi",
+      "Calcutá",
+      "Bangalore"
     ],
     "correct_index": 1
   },
@@ -1056,25 +1056,25 @@
     "id": "geo-082",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é o rio que corta a cidade de Londres?",
+    "question": "Qual é a capital do Paraguai?",
     "options": [
-      "Rio Sena",
-      "Rio Tâmisa",
-      "Rio Reno",
-      "Rio Tejo"
+      "Montevidéu",
+      "Ciudad del Este",
+      "Lima",
+      "Assunção"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "geo-083",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Em qual ilha baiana fica a vila de Morro de São Paulo?",
+    "question": "Qual é a capital do Equador?",
     "options": [
-      "Itaparica",
-      "Marajó",
-      "Fernando de Noronha",
-      "Tinharé"
+      "Lima",
+      "Bogotá",
+      "Guayaquil",
+      "Quito"
     ],
     "correct_index": 3
   },
@@ -1082,64 +1082,64 @@
     "id": "geo-084",
     "category": "geografia",
     "difficulty": "dificil",
+    "question": "Qual é a capital da Suécia?",
+    "options": [
+      "Estocolmo",
+      "Copenhague",
+      "Oslo",
+      "Helsinque"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "geo-085",
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Em qual ilha baiana fica a vila de Morro de São Paulo?",
+    "options": [
+      "Tinharé",
+      "Marajó",
+      "Fernando de Noronha",
+      "Itaparica"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "geo-086",
+    "category": "geografia",
+    "difficulty": "dificil",
     "question": "Qual é o maior bioma de savana brasileiro, que ocupa o centro do país?",
     "options": [
-      "Pampa",
       "Pantanal",
+      "Pampa",
       "Cerrado",
       "Caatinga"
     ],
     "correct_index": 2
   },
   {
-    "id": "geo-085",
+    "id": "geo-087",
     "category": "geografia",
     "difficulty": "dificil",
     "question": "Qual é a maior planície alagável do mundo, localizada em parte no Brasil?",
     "options": [
+      "Pantanal",
       "Mata Atlântica",
-      "Pampa",
       "Amazônia",
-      "Pantanal"
+      "Pampa"
     ],
-    "correct_index": 3
-  },
-  {
-    "id": "geo-086",
-    "category": "geografia",
-    "difficulty": "dificil",
-    "question": "Qual é o estado brasileiro mais ao sul do país?",
-    "options": [
-      "Mato Grosso do Sul",
-      "Paraná",
-      "Santa Catarina",
-      "Rio Grande do Sul"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "geo-087",
-    "category": "geografia",
-    "difficulty": "dificil",
-    "question": "Qual é o único estado brasileiro que faz fronteira com a Guiana Francesa?",
-    "options": [
-      "Roraima",
-      "Amazonas",
-      "Amapá",
-      "Pará"
-    ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "geo-088",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual país tem a maior população de língua portuguesa depois do Brasil?",
+    "question": "Qual é o único estado brasileiro que faz fronteira com a Guiana Francesa?",
     "options": [
-      "Portugal",
-      "Angola",
-      "Moçambique",
-      "Cabo Verde"
+      "Pará",
+      "Amapá",
+      "Roraima",
+      "Amazonas"
     ],
     "correct_index": 1
   },
@@ -1147,92 +1147,92 @@
     "id": "geo-089",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital de Angola?",
+    "question": "Qual é o maior estado do Nordeste em área?",
     "options": [
-      "Maputo",
-      "Luanda",
-      "Lisboa",
-      "Praia"
+      "Maranhão",
+      "Piauí",
+      "Bahia",
+      "Ceará"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "geo-090",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital de Moçambique?",
+    "question": "Qual é a capital de Angola?",
     "options": [
-      "Harare",
       "Luanda",
-      "Maputo",
-      "Nairóbi"
+      "Lisboa",
+      "Praia",
+      "Maputo"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "geo-091",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital da Holanda (Países Baixos)?",
+    "question": "Qual é a capital de Moçambique?",
     "options": [
-      "Amsterdã",
-      "Roterdã",
-      "Bruxelas",
-      "Haia"
+      "Luanda",
+      "Maputo",
+      "Harare",
+      "Nairóbi"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "geo-092",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital da Polônia?",
+    "question": "Qual é a capital da Holanda (Países Baixos)?",
     "options": [
-      "Praga",
-      "Varsóvia",
-      "Cracóvia",
-      "Budapeste"
+      "Haia",
+      "Roterdã",
+      "Amsterdã",
+      "Bruxelas"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "geo-093",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital da Tailândia?",
+    "question": "Qual é a capital da Polônia?",
     "options": [
-      "Manila",
-      "Phuket",
-      "Bangcoc",
-      "Hanói"
+      "Varsóvia",
+      "Cracóvia",
+      "Praga",
+      "Budapeste"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "geo-094",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital da Arábia Saudita?",
+    "question": "Qual é a capital da Tailândia?",
     "options": [
-      "Riade",
-      "Meca",
-      "Jidá",
-      "Dubai"
+      "Manila",
+      "Hanói",
+      "Bangcoc",
+      "Phuket"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "geo-095",
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual produto deu fama e riqueza à região de Ilhéus, na Bahia?",
+    "question": "Qual é a capital da Arábia Saudita?",
     "options": [
-      "Cacau",
-      "Café",
-      "Soja",
-      "Algodão"
+      "Dubai",
+      "Jidá",
+      "Riade",
+      "Meca"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "geo-096",
@@ -1240,12 +1240,12 @@
     "difficulty": "dificil",
     "question": "Qual é a capital da Noruega?",
     "options": [
-      "Estocolmo",
       "Helsinque",
+      "Oslo",
       "Bergen",
-      "Oslo"
+      "Estocolmo"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "geo-097",
@@ -1253,12 +1253,12 @@
     "difficulty": "dificil",
     "question": "Qual canal artificial liga o Oceano Atlântico ao Pacífico, na América Central?",
     "options": [
-      "Canal da Mancha",
       "Canal do Panamá",
       "Canal de Suez",
+      "Canal da Mancha",
       "Canal de Corinto"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "geo-098",
@@ -1266,12 +1266,12 @@
     "difficulty": "dificil",
     "question": "Qual canal artificial liga o Mar Mediterrâneo ao Mar Vermelho?",
     "options": [
-      "Canal da Mancha",
       "Canal de Suez",
       "Canal de Kiel",
-      "Canal do Panamá"
+      "Canal do Panamá",
+      "Canal da Mancha"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "geo-099",
@@ -1280,9 +1280,9 @@
     "question": "Qual é a capital da Dinamarca?",
     "options": [
       "Copenhague",
-      "Oslo",
+      "Berlim",
       "Estocolmo",
-      "Berlim"
+      "Oslo"
     ],
     "correct_index": 0
   },
@@ -1293,10 +1293,10 @@
     "question": "Qual é a capital da Finlândia?",
     "options": [
       "Tallinn",
-      "Oslo",
       "Estocolmo",
-      "Helsinque"
+      "Helsinque",
+      "Oslo"
     ],
-    "correct_index": 3
+    "correct_index": 2
   }
 ]

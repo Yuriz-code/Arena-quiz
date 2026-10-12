@@ -5,8 +5,8 @@
     "difficulty": "facil",
     "question": "Qual esponja do mar vive na Fenda do Biquíni?",
     "options": [
-      "Patrick Estrela",
       "Lula Molusco",
+      "Patrick Estrela",
       "Bob Esponja",
       "Sandy Bochechas"
     ],
@@ -18,25 +18,25 @@
     "difficulty": "facil",
     "question": "Quem é o melhor amigo do Bob Esponja?",
     "options": [
-      "Sr. Siriguejo",
       "Plâncton",
+      "Patrick Estrela",
       "Lula Molusco",
-      "Patrick Estrela"
+      "Sr. Siriguejo"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "des-003",
     "category": "desenhos",
     "difficulty": "facil",
-    "question": "Em \"Tom e Jerry\", qual é o nome do ratinho que sempre escapa do gato?",
+    "question": "Em um clássico desenho, qual ratinho esperto vive escapando do gato Tom?",
     "options": [
+      "Mighty Mouse",
       "Jerry",
-      "Mickey",
       "Speedy Gonzales",
-      "Tom"
+      "Mickey"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "des-004",
@@ -57,12 +57,12 @@
     "difficulty": "facil",
     "question": "Qual é o cachorro de estimação do Mickey Mouse?",
     "options": [
+      "Bolt",
       "Pluto",
       "Scooby-Doo",
-      "Bolt",
       "Pateta"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "des-006",
@@ -70,12 +70,12 @@
     "difficulty": "facil",
     "question": "Qual amigo de Scooby-Doo adora sanduíches e vive com medo?",
     "options": [
+      "Fred",
       "Daphne",
       "Velma",
-      "Salsicha",
-      "Fred"
+      "Salsicha"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "des-007",
@@ -83,12 +83,12 @@
     "difficulty": "facil",
     "question": "Qual coelho da Warner come cenouras e diz \"E aí, Doutor?\"",
     "options": [
-      "Patolino",
-      "Pica-Pau",
       "Frajola",
-      "Pernalonga"
+      "Pica-Pau",
+      "Pernalonga",
+      "Patolino"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "des-008",
@@ -97,8 +97,8 @@
     "question": "Qual passarinho amarelo vive fugindo do gato Frajola?",
     "options": [
       "Piu-Piu",
-      "Patolino",
       "Gaguinho",
+      "Patolino",
       "Pica-Pau"
     ],
     "correct_index": 0
@@ -109,12 +109,12 @@
     "difficulty": "facil",
     "question": "Quem criou a Turma da Mônica?",
     "options": [
+      "Mauricio de Sousa",
       "Angeli",
       "Henfil",
-      "Ziraldo",
-      "Mauricio de Sousa"
+      "Ziraldo"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "des-010",
@@ -135,10 +135,10 @@
     "difficulty": "facil",
     "question": "Qual personagem da Turma da Mônica é famoso por fugir da água?",
     "options": [
-      "Do Contra",
+      "Cebolinha",
       "Jeremias",
       "Cascão",
-      "Cebolinha"
+      "Do Contra"
     ],
     "correct_index": 2
   },
@@ -148,12 +148,12 @@
     "difficulty": "facil",
     "question": "Qual comida a Magali mais adora?",
     "options": [
-      "Cenoura",
-      "Chocolate",
       "Melancia",
-      "Pizza"
+      "Pizza",
+      "Chocolate",
+      "Cenoura"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "des-013",
@@ -161,9 +161,9 @@
     "difficulty": "facil",
     "question": "Onde vive o Chico Bento, na Turma da Mônica?",
     "options": [
+      "Em uma ilha",
       "No Rio de Janeiro",
       "Em uma cidade grande",
-      "Em uma ilha",
       "Na roça, na Vila Abobrinha"
     ],
     "correct_index": 3
@@ -174,10 +174,10 @@
     "difficulty": "facil",
     "question": "Qual é a namorada do Mickey Mouse?",
     "options": [
-      "Margarida",
+      "Clarabela",
       "Pata",
       "Minnie",
-      "Clarabela"
+      "Margarida"
     ],
     "correct_index": 2
   },
@@ -187,12 +187,12 @@
     "difficulty": "facil",
     "question": "Qual é a namorada do Pato Donald?",
     "options": [
-      "Margarida",
       "Minnie",
       "Pateta",
-      "Clarabela"
+      "Clarabela",
+      "Margarida"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "des-016",
@@ -200,10 +200,10 @@
     "difficulty": "facil",
     "question": "Qual é o nome do pai da família em \"Os Simpsons\"?",
     "options": [
-      "Moe",
       "Ned",
+      "Bart",
       "Homer",
-      "Bart"
+      "Moe"
     ],
     "correct_index": 2
   },
@@ -213,9 +213,9 @@
     "difficulty": "facil",
     "question": "Qual filho dos Simpsons adora skate e travessuras?",
     "options": [
+      "Lisa",
       "Milhouse",
       "Nelson",
-      "Lisa",
       "Bart"
     ],
     "correct_index": 3
@@ -226,12 +226,12 @@
     "difficulty": "facil",
     "question": "Qual é a cidade onde vivem os Simpsons?",
     "options": [
-      "Springfield",
       "Quahog",
       "South Park",
+      "Springfield",
       "Pedra Bela"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "des-019",
@@ -239,12 +239,12 @@
     "difficulty": "facil",
     "question": "Qual animal é a personagem Peppa Pig?",
     "options": [
-      "Vaca",
-      "Coelha",
+      "Ovelha",
       "Porquinha",
-      "Ovelha"
+      "Vaca",
+      "Coelha"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "des-020",
@@ -252,12 +252,12 @@
     "difficulty": "facil",
     "question": "Qual menino lidera a equipe de cães da \"Patrulha Canina\"?",
     "options": [
-      "Marshall",
-      "Chase",
+      "Ryder",
       "Skye",
-      "Ryder"
+      "Marshall",
+      "Chase"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "des-021",
@@ -267,10 +267,10 @@
     "options": [
       "Pocoyo",
       "Peppa Pig",
-      "Dora, a Aventureira",
-      "Backyardigans"
+      "Backyardigans",
+      "Dora, a Aventureira"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "des-022",
@@ -278,12 +278,12 @@
     "difficulty": "facil",
     "question": "Qual relógio dá poderes de alienígenas ao Ben 10?",
     "options": [
-      "Omnitrix",
       "Cronômetro",
+      "Ômega",
       "Polimorfo",
-      "Ômega"
+      "Omnitrix"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "des-023",
@@ -291,12 +291,12 @@
     "difficulty": "facil",
     "question": "Qual é o nome do garoto de \"Os Padrinhos Mágicos\"?",
     "options": [
-      "Dexter",
-      "A.J.",
       "Chester",
-      "Timmy Turner"
+      "Timmy Turner",
+      "Dexter",
+      "A.J."
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "des-024",
@@ -304,12 +304,12 @@
     "difficulty": "facil",
     "question": "Qual desenho mostra a família da Idade da Pedra com Fred e Barney?",
     "options": [
-      "Scooby-Doo",
-      "Os Flintstones",
       "Zé Colmeia",
-      "Os Jetsons"
+      "Scooby-Doo",
+      "Os Jetsons",
+      "Os Flintstones"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "des-025",
@@ -317,12 +317,12 @@
     "difficulty": "facil",
     "question": "Qual desenho tem quatro tartarugas que aprendem artes marciais com o Mestre Splinter?",
     "options": [
-      "Digimon",
-      "Power Rangers",
       "Ben 10",
-      "As Tartarugas Ninja"
+      "Power Rangers",
+      "As Tartarugas Ninja",
+      "Digimon"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "des-026",
@@ -330,9 +330,9 @@
     "difficulty": "facil",
     "question": "Qual personagem da Disney é um elefante com grandes orelhas que o fazem voar?",
     "options": [
+      "Horton",
       "Babar",
       "Tantor",
-      "Horton",
       "Dumbo"
     ],
     "correct_index": 3
@@ -343,12 +343,12 @@
     "difficulty": "facil",
     "question": "Qual ursinho da Disney adora mel?",
     "options": [
-      "Ursinho Pooh",
-      "Baloo",
       "Teddy",
+      "Baloo",
+      "Ursinho Pooh",
       "Fofão"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "des-028",
@@ -356,9 +356,9 @@
     "difficulty": "facil",
     "question": "Qual desenho tem Florzinha, Lindinha e Docinho?",
     "options": [
-      "Bratz",
-      "Winx Club",
       "Totally Spies",
+      "Winx Club",
+      "Bratz",
       "As Meninas Superpoderosas"
     ],
     "correct_index": 3
@@ -369,10 +369,10 @@
     "difficulty": "facil",
     "question": "Qual urso do Parque Jellystone vive roubando cestas de piquenique?",
     "options": [
-      "Ursinho Pooh",
       "Fozzie",
+      "Baloo",
       "Zé Colmeia",
-      "Baloo"
+      "Ursinho Pooh"
     ],
     "correct_index": 2
   },
@@ -382,25 +382,25 @@
     "difficulty": "facil",
     "question": "Qual desenho brasileiro tem um peixe astronauta como protagonista?",
     "options": [
-      "Peixonauta",
-      "Show da Luna",
       "Pocoyo",
+      "Show da Luna",
+      "Peixonauta",
       "Escola Pra Cachorro"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "des-031",
     "category": "desenhos",
     "difficulty": "facil",
-    "question": "Qual personagem da Turma da Mônica é a dentuça de vestido vermelho que bate nos amigos com o coelho de pelúcia?",
+    "question": "Qual personagem criada por Mauricio de Sousa é a menina de vestido vermelho que bate nos amigos com um coelho de pelúcia?",
     "options": [
-      "Marina",
       "Mônica",
       "Magali",
+      "Marina",
       "Milena"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "des-032",
@@ -408,12 +408,12 @@
     "difficulty": "facil",
     "question": "Qual desenho tem Mordecai e Rigby?",
     "options": [
-      "Apenas um Show",
-      "Ben 10",
       "Steven Universo",
-      "Hora de Aventura"
+      "Hora de Aventura",
+      "Apenas um Show",
+      "Ben 10"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "des-033",
@@ -421,12 +421,12 @@
     "difficulty": "facil",
     "question": "Qual desenho tem Finn, o humano, e Jake, o cão?",
     "options": [
+      "Apenas um Show",
       "Phineas e Ferb",
       "Gravity Falls",
-      "Hora de Aventura",
-      "Apenas um Show"
+      "Hora de Aventura"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "des-034",
@@ -434,12 +434,12 @@
     "difficulty": "facil",
     "question": "Qual é o nome do coelhinho azul de pelúcia da Mônica?",
     "options": [
-      "Bidu",
-      "Mingau",
       "Sansão",
-      "Floquinho"
+      "Bidu",
+      "Floquinho",
+      "Mingau"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "des-035",
@@ -448,11 +448,11 @@
     "question": "Qual desenho tem os Crystal Gems, guardiãs mágicas, e Steven?",
     "options": [
       "Hora de Aventura",
-      "Steven Universo",
       "Apenas um Show",
+      "Steven Universo",
       "Jovens Titãs"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "des-036",
@@ -460,10 +460,10 @@
     "difficulty": "medio",
     "question": "Quem é o patrão do Bob Esponja, dono do restaurante Siri Cascudo?",
     "options": [
-      "Lula Molusco",
+      "Patrick",
       "Sr. Siriguejo",
-      "Plâncton",
-      "Patrick"
+      "Lula Molusco",
+      "Plâncton"
     ],
     "correct_index": 1
   },
@@ -473,8 +473,8 @@
     "difficulty": "medio",
     "question": "Qual é o nome do restaurante onde Bob Esponja trabalha?",
     "options": [
-      "Lanchonete do Bob",
       "Marisqueiro",
+      "Lanchonete do Bob",
       "Cascudinho",
       "Siri Cascudo"
     ],
@@ -486,75 +486,75 @@
     "difficulty": "medio",
     "question": "Qual é o bichinho de estimação do Bob Esponja?",
     "options": [
-      "Scooby",
-      "Gary, o caracol",
+      "Perry",
       "Pluto",
-      "Perry"
+      "Gary, o caracol",
+      "Scooby"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "des-039",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual personagem da Warner tem a frase \"Isso é tudo, pessoal!\"?",
+    "question": "Qual personagem da Warner é um porquinho gago que se despede no fim dos desenhos?",
     "options": [
-      "Piu-Piu",
       "Pernalonga",
+      "Gaguinho",
       "Patolino",
-      "Gaguinho"
+      "Piu-Piu"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "des-040",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Quem é o dono do cachorrinho Floquinho, da Turma da Mônica?",
+    "question": "Qual é o gatinho da Magali na Turma da Mônica?",
     "options": [
-      "Cebolinha",
-      "Mônica",
-      "Cascão",
-      "Franjinha"
+      "Bidu",
+      "Floquinho",
+      "Mingau",
+      "Sansão"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "des-041",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual é o gatinho da Magali na Turma da Mônica?",
+    "question": "Qual personagem da Turma da Mônica é um fantasminha?",
     "options": [
-      "Mingau",
-      "Bidu",
-      "Floquinho",
-      "Sansão"
+      "Franjinha",
+      "Penadinho",
+      "Louco",
+      "Papa-Capim"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "des-042",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual personagem da Turma da Mônica é um fantasminha?",
+    "question": "Quem é o chefe de Homer na usina nuclear dos Simpsons?",
     "options": [
-      "Franjinha",
-      "Louco",
-      "Papa-Capim",
-      "Penadinho"
+      "Ned Flanders",
+      "Sr. Burns",
+      "Moe",
+      "Diretor Skinner"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "des-043",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Quem é o chefe de Homer na usina nuclear dos Simpsons?",
+    "question": "Qual é a filha inteligente dos Simpsons que toca saxofone?",
     "options": [
-      "Sr. Burns",
-      "Ned Flanders",
-      "Moe",
-      "Diretor Skinner"
+      "Lisa",
+      "Maggie",
+      "Patty",
+      "Marge"
     ],
     "correct_index": 0
   },
@@ -562,64 +562,64 @@
     "id": "des-044",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual é a filha inteligente dos Simpsons que toca saxofone?",
+    "question": "Qual personagem dos Simpsons é o vizinho religioso e simpático de Homer?",
     "options": [
-      "Lisa",
-      "Patty",
-      "Marge",
-      "Maggie"
+      "Moe",
+      "Apu",
+      "Ned Flanders",
+      "Krusty"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "des-045",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual personagem dos Simpsons é o vizinho religioso e simpático de Homer?",
+    "question": "Quem são os padrinhos mágicos de Timmy Turner?",
     "options": [
-      "Krusty",
-      "Moe",
-      "Ned Flanders",
-      "Apu"
+      "Tom e Jerry",
+      "Pinky e Cérebro",
+      "Mickey e Minnie",
+      "Cosmo e Wanda"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "des-046",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Quem são os padrinhos mágicos de Timmy Turner?",
+    "question": "Qual alienígena do Ben 10 é feito de fogo?",
     "options": [
-      "Mickey e Minnie",
-      "Cosmo e Wanda",
-      "Tom e Jerry",
-      "Pinky e Cérebro"
+      "Diamante",
+      "XLR8",
+      "Chama",
+      "Quatro Braços"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "des-047",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual alienígena do Ben 10 é feito de fogo?",
+    "question": "Qual jovem titã verde se transforma em animais?",
     "options": [
-      "Diamante",
-      "Chama",
-      "XLR8",
-      "Quatro Braços"
+      "Ciborgue",
+      "Ravena",
+      "Mutano",
+      "Robin"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "des-048",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual jovem titã verde se transforma em animais?",
+    "question": "Qual tartaruga ninja usa bandana azul e espadas?",
     "options": [
-      "Mutano",
-      "Robin",
-      "Ravena",
-      "Ciborgue"
+      "Leonardo",
+      "Rafael",
+      "Donatello",
+      "Michelangelo"
     ],
     "correct_index": 0
   },
@@ -627,64 +627,64 @@
     "id": "des-049",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual tartaruga ninja usa bandana azul e espadas?",
+    "question": "Qual é o nome do rato sábio, mestre das Tartarugas Ninja?",
     "options": [
-      "Rafael",
-      "Leonardo",
-      "Michelangelo",
-      "Donatello"
+      "Mestre Splinter",
+      "Mestre Yoda",
+      "Casey Jones",
+      "Destruidor"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "des-050",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual é o nome do rato sábio, mestre das Tartarugas Ninja?",
+    "question": "Qual é o nome do castelo de He-Man?",
     "options": [
-      "Destruidor",
-      "Mestre Yoda",
-      "Casey Jones",
-      "Mestre Splinter"
+      "Castelo Branco",
+      "Palácio Real",
+      "Castelo de Grayskull",
+      "Torre Negra"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "des-051",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual é o nome do castelo de He-Man?",
+    "question": "Qual é o nome do vilão de \"Caverna do Dragão\"?",
     "options": [
-      "Torre Negra",
-      "Castelo de Grayskull",
-      "Palácio Real",
-      "Castelo Branco"
+      "Vingador",
+      "Mestre dos Magos",
+      "Presto",
+      "Bobby"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "des-052",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual é o nome do vilão de \"Caverna do Dragão\"?",
+    "question": "De qual ilha vem a história de \"Lilo & Stitch\"?",
     "options": [
-      "Vingador",
-      "Presto",
-      "Bobby",
-      "Mestre dos Magos"
+      "Tahiti",
+      "Bahamas",
+      "Havaí",
+      "Fiji"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "des-053",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual é o nome do unicórnio de Bobby em \"Caverna do Dragão\"?",
+    "question": "Qual desenho mostra um cientista e seu neto Morty em aventuras pelo multiverso?",
     "options": [
-      "Uni",
-      "Pégaso",
-      "Spirit",
-      "Max"
+      "Rick and Morty",
+      "Futurama",
+      "South Park",
+      "Uma Família da Pesada"
     ],
     "correct_index": 0
   },
@@ -692,95 +692,56 @@
     "id": "des-054",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual personagem de \"Caverna do Dragão\" é o mago do grupo?",
-    "options": [
-      "Eric",
-      "Diana",
-      "Presto",
-      "Hank"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "des-055",
-    "category": "desenhos",
-    "difficulty": "medio",
-    "question": "De qual ilha vem a história de \"Lilo & Stitch\"?",
-    "options": [
-      "Tahiti",
-      "Fiji",
-      "Bahamas",
-      "Havaí"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "des-056",
-    "category": "desenhos",
-    "difficulty": "medio",
-    "question": "Qual desenho mostra um cientista e seu neto Morty em aventuras pelo multiverso?",
-    "options": [
-      "Uma Família da Pesada",
-      "South Park",
-      "Futurama",
-      "Rick and Morty"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "des-057",
-    "category": "desenhos",
-    "difficulty": "medio",
     "question": "Qual robô beberrão é famoso em \"Futurama\"?",
     "options": [
+      "Robbie",
       "Flexo",
       "Calculon",
-      "Robbie",
       "Bender"
     ],
     "correct_index": 3
   },
   {
-    "id": "des-058",
+    "id": "des-055",
     "category": "desenhos",
     "difficulty": "medio",
     "question": "Em \"South Park\", qual garoto de capuz laranja é conhecido por morrer sempre?",
     "options": [
       "Kenny",
-      "Cartman",
+      "Stan",
       "Kyle",
-      "Stan"
+      "Cartman"
     ],
     "correct_index": 0
   },
   {
-    "id": "des-059",
+    "id": "des-056",
     "category": "desenhos",
     "difficulty": "medio",
     "question": "Em \"Rugrats – Os Anjinhos\", qual é o bebê líder?",
     "options": [
-      "Angélica",
-      "Chuckie",
+      "Phil",
       "Tommy Pickles",
-      "Phil"
-    ],
-    "correct_index": 2
-  },
-  {
-    "id": "des-060",
-    "category": "desenhos",
-    "difficulty": "medio",
-    "question": "Quem é o tio rico do Pato Donald?",
-    "options": [
-      "Pateta",
-      "Tio Patinhas",
-      "Gastão",
-      "Mickey"
+      "Chuckie",
+      "Angélica"
     ],
     "correct_index": 1
   },
   {
-    "id": "des-061",
+    "id": "des-057",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Quem é o tio rico do Pato Donald?",
+    "options": [
+      "Tio Patinhas",
+      "Pateta",
+      "Mickey",
+      "Gastão"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-058",
     "category": "desenhos",
     "difficulty": "medio",
     "question": "Em \"O Laboratório de Dexter\", quem sempre atrapalha as experiências do menino?",
@@ -793,15 +754,54 @@
     "correct_index": 2
   },
   {
-    "id": "des-062",
+    "id": "des-059",
     "category": "desenhos",
     "difficulty": "medio",
     "question": "Qual dos dois ratos de laboratório é o gênio que planeja dominar o mundo?",
     "options": [
-      "Cérebro",
-      "Jerry",
       "Pinky",
+      "Jerry",
+      "Cérebro",
       "Speedy Gonzales"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-060",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o pato maluco da Warner, parceiro do Pernalonga?",
+    "options": [
+      "Gaguinho",
+      "Pato Donald",
+      "Pica-Pau",
+      "Patolino"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-061",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual vilão tenta capturar os Smurfs?",
+    "options": [
+      "Gargamel",
+      "Jafar",
+      "Lorde Farquaad",
+      "Dr. Doofenshmirtz"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-062",
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual esquilo de suéter vermelho lidera o trio musical que canta com voz aguda?",
+    "options": [
+      "Alvin",
+      "Dave",
+      "Theodore",
+      "Simon"
     ],
     "correct_index": 0
   },
@@ -809,25 +809,25 @@
     "id": "des-063",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual é o pato maluco da Warner, parceiro do Pernalonga?",
+    "question": "Qual cachorro da Disney come espaguete com a Dama?",
     "options": [
-      "Pato Donald",
-      "Patolino",
-      "Gaguinho",
-      "Pica-Pau"
+      "Vagabundo",
+      "Bolt",
+      "Pluto",
+      "Pateta"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "des-064",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual vilão tenta capturar os Smurfs?",
+    "question": "Qual é a comida favorita do gato Garfield?",
     "options": [
-      "Jafar",
-      "Dr. Doofenshmirtz",
-      "Lorde Farquaad",
-      "Gargamel"
+      "Pizza",
+      "Peixe",
+      "Hambúrguer",
+      "Lasanha"
     ],
     "correct_index": 3
   },
@@ -835,194 +835,194 @@
     "id": "des-065",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual esquilo de suéter vermelho lidera o trio musical que canta com voz aguda?",
+    "question": "Qual personagem dos Simpsons é o indiano dono da loja de conveniência?",
     "options": [
-      "Simon",
-      "Alvin",
-      "Theodore",
-      "Dave"
+      "Krusty",
+      "Moe",
+      "Diretor Skinner",
+      "Apu"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "des-066",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual cachorro da Disney come espaguete com a Dama?",
+    "question": "Qual é o nome do palhaço de TV dos Simpsons?",
     "options": [
-      "Bolt",
-      "Pateta",
-      "Pluto",
-      "Vagabundo"
+      "Pennywise",
+      "Sideshow Bob",
+      "Krusty",
+      "Bozo"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "des-067",
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual é a comida favorita do gato Garfield?",
+    "question": "Qual é o nome do dono do gato Garfield?",
     "options": [
-      "Peixe",
-      "Pizza",
-      "Lasanha",
-      "Hambúrguer"
+      "Odie",
+      "Jon Arbuckle",
+      "Nermal",
+      "Liz"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "des-068",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual é o vilão minúsculo que quer roubar a fórmula do hambúrguer em \"Bob Esponja\"?",
+    "question": "Quem é o dono do cachorrinho Floquinho, da Turma da Mônica?",
     "options": [
-      "Plâncton",
-      "Lula Molusco",
-      "Sr. Siriguejo",
-      "Gary"
+      "Franjinha",
+      "Cascão",
+      "Cebolinha",
+      "Mônica"
     ],
-    "correct_index": 0
+    "correct_index": 2
   },
   {
     "id": "des-069",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual é o nome da cidade submarina de \"Bob Esponja\" na versão brasileira?",
+    "question": "Qual é o nome do unicórnio de Bobby em \"Caverna do Dragão\"?",
     "options": [
-      "Atlântida",
-      "Atol de Bikini",
-      "Fenda do Biquíni",
-      "Cidade Submersa"
+      "Uni",
+      "Max",
+      "Spirit",
+      "Pégaso"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "des-070",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual vilão sequestra princesas em \"Hora de Aventura\"?",
+    "question": "Qual personagem de \"Caverna do Dragão\" é o mago do grupo?",
     "options": [
-      "Lich",
-      "Rei Gelado",
-      "Marceline",
-      "Princesa Jujuba"
+      "Presto",
+      "Eric",
+      "Hank",
+      "Diana"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "des-071",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual é a vampira de \"Hora de Aventura\"?",
+    "question": "Qual é o vilão minúsculo que quer roubar a fórmula do hambúrguer em \"Bob Esponja\"?",
     "options": [
-      "BMO",
-      "Princesa Jujuba",
-      "Marceline",
-      "Lady Pônei"
+      "Lula Molusco",
+      "Sr. Siriguejo",
+      "Gary",
+      "Plâncton"
     ],
-    "correct_index": 2
+    "correct_index": 3
   },
   {
     "id": "des-072",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual é o nome da esposa de Fred Flintstone?",
+    "question": "Qual é o nome da cidade submarina de \"Bob Esponja\" na versão brasileira?",
     "options": [
-      "Pedrita",
-      "Daisy",
-      "Betty",
-      "Wilma"
+      "Cidade Submersa",
+      "Atlântida",
+      "Fenda do Biquíni",
+      "Atol de Bikini"
     ],
-    "correct_index": 3
+    "correct_index": 2
   },
   {
     "id": "des-073",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual é o nome do cachorro da família Jetson?",
+    "question": "Qual vilão sequestra princesas em \"Hora de Aventura\"?",
     "options": [
-      "Dino",
-      "Astro",
-      "Scooby",
-      "Pluto"
+      "Marceline",
+      "Lich",
+      "Rei Gelado",
+      "Princesa Jujuba"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "des-074",
     "category": "desenhos",
     "difficulty": "dificil",
+    "question": "Qual é a vampira de \"Hora de Aventura\"?",
+    "options": [
+      "Lady Pônei",
+      "Princesa Jujuba",
+      "BMO",
+      "Marceline"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-075",
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Qual é o nome da esposa de Fred Flintstone?",
+    "options": [
+      "Daisy",
+      "Wilma",
+      "Pedrita",
+      "Betty"
+    ],
+    "correct_index": 1
+  },
+  {
+    "id": "des-076",
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do cachorro da família Jetson?",
+    "options": [
+      "Scooby",
+      "Dino",
+      "Pluto",
+      "Astro"
+    ],
+    "correct_index": 3
+  },
+  {
+    "id": "des-077",
+    "category": "desenhos",
+    "difficulty": "dificil",
     "question": "Qual é o nome da robô empregada dos Jetsons?",
     "options": [
-      "Wall-E",
       "Marvin",
+      "Wall-E",
       "Rosie",
       "Bender"
     ],
     "correct_index": 2
   },
   {
-    "id": "des-075",
+    "id": "des-078",
     "category": "desenhos",
     "difficulty": "dificil",
     "question": "Qual vilão trapaceia em \"Corrida Maluca\"?",
     "options": [
-      "Dick Vigarista",
+      "Professor Aéreo",
       "Rufus Lenhador",
-      "Peter Perfeito",
-      "Professor Aéreo"
-    ],
-    "correct_index": 0
-  },
-  {
-    "id": "des-076",
-    "category": "desenhos",
-    "difficulty": "dificil",
-    "question": "Qual é o cachorro de Dick Vigarista?",
-    "options": [
-      "Astro",
-      "Scooby",
-      "Muttley",
-      "Dino"
+      "Dick Vigarista",
+      "Peter Perfeito"
     ],
     "correct_index": 2
-  },
-  {
-    "id": "des-077",
-    "category": "desenhos",
-    "difficulty": "dificil",
-    "question": "Quem é o líder dos Thundercats?",
-    "options": [
-      "Tygra",
-      "Cheetara",
-      "Panthro",
-      "Lion-O"
-    ],
-    "correct_index": 3
-  },
-  {
-    "id": "des-078",
-    "category": "desenhos",
-    "difficulty": "dificil",
-    "question": "Quem é a irmã gêmea de He-Man?",
-    "options": [
-      "Evil-Lyn",
-      "Teela",
-      "Catra",
-      "She-Ra"
-    ],
-    "correct_index": 3
   },
   {
     "id": "des-079",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Quem é o grande vilão de \"He-Man\"?",
+    "question": "Qual é o cachorro de Dick Vigarista?",
     "options": [
-      "Destruidor",
-      "Esqueleto",
-      "Gargamel",
-      "Mumm-Ra"
+      "Dino",
+      "Muttley",
+      "Astro",
+      "Scooby"
     ],
     "correct_index": 1
   },
@@ -1030,51 +1030,51 @@
     "id": "des-080",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Quantos amigos foram levados para o Reino da Caverna do Dragão?",
+    "question": "Quem é o líder dos Thundercats?",
     "options": [
-      "4",
-      "7",
-      "6",
-      "5"
+      "Panthro",
+      "Lion-O",
+      "Cheetara",
+      "Tygra"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "des-081",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual personagem de \"Caverna do Dragão\" é o Ranger, com arco e flecha mágico?",
+    "question": "Quem é a irmã gêmea de He-Man?",
     "options": [
-      "Presto",
-      "Eric",
-      "Bobby",
-      "Hank"
+      "Teela",
+      "She-Ra",
+      "Catra",
+      "Evil-Lyn"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "des-082",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Quem fundou os estúdios onde nasceu o Mickey Mouse?",
+    "question": "Quem é o grande vilão de \"He-Man\"?",
     "options": [
-      "Walter Lantz",
-      "Walt Disney",
-      "Chuck Jones",
-      "Max Fleischer"
+      "Esqueleto",
+      "Destruidor",
+      "Gargamel",
+      "Mumm-Ra"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "des-083",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Em que ano estreou \"Steamboat Willie\", curta famoso com Mickey Mouse?",
+    "question": "Quantos amigos foram levados para o Reino da Caverna do Dragão?",
     "options": [
-      "1950",
-      "1937",
-      "1928",
-      "1940"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
     "correct_index": 2
   },
@@ -1082,51 +1082,51 @@
     "id": "des-084",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual caranguejo acompanha Ariel em \"A Pequena Sereia\"?",
+    "question": "Qual personagem de \"Caverna do Dragão\" é o Ranger, com arco e flecha mágico?",
     "options": [
-      "Sebastião",
-      "Linguado",
-      "Gaspar",
-      "Escamas"
+      "Eric",
+      "Bobby",
+      "Presto",
+      "Hank"
     ],
-    "correct_index": 0
+    "correct_index": 3
   },
   {
     "id": "des-085",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Quem é a babá malvada de Timmy Turner em \"Os Padrinhos Mágicos\"?",
+    "question": "Quem fundou os estúdios onde nasceu o Mickey Mouse?",
     "options": [
-      "Francine",
-      "Trixie",
-      "Vicky",
-      "Tootie"
+      "Max Fleischer",
+      "Walt Disney",
+      "Walter Lantz",
+      "Chuck Jones"
     ],
-    "correct_index": 2
+    "correct_index": 1
   },
   {
     "id": "des-086",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Quem é o cientista rival de Dexter?",
+    "question": "Em que ano estreou \"Steamboat Willie\", curta famoso com Mickey Mouse?",
     "options": [
-      "Dee Dee",
-      "Mandark",
-      "Major Glory",
-      "Macaco"
+      "1928",
+      "1950",
+      "1937",
+      "1940"
     ],
-    "correct_index": 1
+    "correct_index": 0
   },
   {
     "id": "des-087",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "De que são feitas as Meninas Superpoderosas, segundo a abertura do desenho?",
+    "question": "Qual caranguejo acompanha Ariel em \"A Pequena Sereia\"?",
     "options": [
-      "Fogo, água e terra",
-      "Açúcar, tempero e tudo o que há de bom",
-      "Estrelas, luz e magia",
-      "Mel, leite e ovos"
+      "Linguado",
+      "Sebastião",
+      "Gaspar",
+      "Escamas"
     ],
     "correct_index": 1
   },
@@ -1134,157 +1134,157 @@
     "id": "des-088",
     "category": "desenhos",
     "difficulty": "dificil",
+    "question": "Quem é a babá malvada de Timmy Turner em \"Os Padrinhos Mágicos\"?",
+    "options": [
+      "Vicky",
+      "Francine",
+      "Trixie",
+      "Tootie"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-089",
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Quem é o cientista rival de Dexter?",
+    "options": [
+      "Major Glory",
+      "Dee Dee",
+      "Mandark",
+      "Macaco"
+    ],
+    "correct_index": 2
+  },
+  {
+    "id": "des-090",
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "De que são feitas as Meninas Superpoderosas, segundo a abertura do desenho?",
+    "options": [
+      "Açúcar, tempero e tudo o que há de bom",
+      "Fogo, água e terra",
+      "Mel, leite e ovos",
+      "Estrelas, luz e magia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "id": "des-091",
+    "category": "desenhos",
+    "difficulty": "dificil",
     "question": "Em que lugar vive o personagem Chico Bento?",
     "options": [
-      "Rua Sem Saída",
       "Jardim das Flores",
+      "Rua Sem Saída",
       "Vila Abobrinha",
       "Limoeiro"
     ],
     "correct_index": 2
   },
   {
-    "id": "des-089",
+    "id": "des-092",
     "category": "desenhos",
     "difficulty": "dificil",
     "question": "Qual é o bairro onde vivem Mônica e seus amigos?",
     "options": [
-      "Vila Abobrinha",
-      "Limoeiro",
       "Bela Vista",
-      "Pinheiros"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "des-090",
-    "category": "desenhos",
-    "difficulty": "dificil",
-    "question": "Qual é o cachorrinho azul do Franjinha?",
-    "options": [
-      "Mingau",
-      "Bidu",
-      "Floquinho",
-      "Sansão"
-    ],
-    "correct_index": 1
-  },
-  {
-    "id": "des-091",
-    "category": "desenhos",
-    "difficulty": "dificil",
-    "question": "Qual personagem dos Simpsons é o indiano dono da loja de conveniência?",
-    "options": [
-      "Moe",
-      "Krusty",
-      "Diretor Skinner",
-      "Apu"
+      "Vila Abobrinha",
+      "Pinheiros",
+      "Limoeiro"
     ],
     "correct_index": 3
-  },
-  {
-    "id": "des-092",
-    "category": "desenhos",
-    "difficulty": "dificil",
-    "question": "Qual é o nome do palhaço de TV dos Simpsons?",
-    "options": [
-      "Sideshow Bob",
-      "Bozo",
-      "Krusty",
-      "Pennywise"
-    ],
-    "correct_index": 2
   },
   {
     "id": "des-093",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Quem criou \"Os Simpsons\"?",
+    "question": "Qual é o cachorrinho azul do Franjinha?",
     "options": [
-      "Seth MacFarlane",
-      "Mike Judge",
-      "Trey Parker",
-      "Matt Groening"
+      "Bidu",
+      "Floquinho",
+      "Mingau",
+      "Sansão"
     ],
-    "correct_index": 3
+    "correct_index": 0
   },
   {
     "id": "des-094",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Quem criou \"Bob Esponja\"?",
+    "question": "Quem criou \"Os Simpsons\"?",
     "options": [
-      "Stephen Hillenburg",
-      "Genndy Tartakovsky",
-      "Craig McCracken",
-      "Matt Groening"
+      "Mike Judge",
+      "Matt Groening",
+      "Trey Parker",
+      "Seth MacFarlane"
     ],
-    "correct_index": 0
+    "correct_index": 1
   },
   {
     "id": "des-095",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Quem criou \"Tom e Jerry\"?",
+    "question": "Quem criou \"Bob Esponja\"?",
     "options": [
-      "Chuck Jones",
-      "William Hanna e Joseph Barbera",
-      "Tex Avery",
-      "Walt Disney"
+      "Genndy Tartakovsky",
+      "Matt Groening",
+      "Stephen Hillenburg",
+      "Craig McCracken"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "des-096",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Quem são os gêmeos protagonistas de \"Gravity Falls\"?",
+    "question": "Quem criou \"Tom e Jerry\"?",
     "options": [
-      "Steven e Connie",
-      "Dipper e Mabel",
-      "Phineas e Ferb",
-      "Finn e Jake"
+      "Chuck Jones",
+      "Walt Disney",
+      "Tex Avery",
+      "William Hanna e Joseph Barbera"
     ],
-    "correct_index": 1
+    "correct_index": 3
   },
   {
     "id": "des-097",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual é o animal de estimação ornitorrinco em \"Phineas e Ferb\"?",
+    "question": "Quem são os gêmeos protagonistas de \"Gravity Falls\"?",
     "options": [
-      "Pluto",
-      "Perry",
-      "Pinky",
-      "Gary"
+      "Finn e Jake",
+      "Phineas e Ferb",
+      "Dipper e Mabel",
+      "Steven e Connie"
     ],
-    "correct_index": 1
+    "correct_index": 2
   },
   {
     "id": "des-098",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual é o nome do vilão cientista de \"Phineas e Ferb\"?",
+    "question": "Qual é o animal de estimação ornitorrinco em \"Phineas e Ferb\"?",
     "options": [
-      "Dr. Drakken",
-      "Dr. Octopus",
-      "Dr. Eggman",
-      "Dr. Doofenshmirtz"
+      "Pinky",
+      "Perry",
+      "Gary",
+      "Pluto"
     ],
-    "correct_index": 3
+    "correct_index": 1
   },
   {
     "id": "des-099",
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual é o nome do dono do gato Garfield?",
+    "question": "Qual é o nome do vilão cientista de \"Phineas e Ferb\"?",
     "options": [
-      "Liz",
-      "Odie",
-      "Jon Arbuckle",
-      "Nermal"
+      "Dr. Doofenshmirtz",
+      "Dr. Octopus",
+      "Dr. Drakken",
+      "Dr. Eggman"
     ],
-    "correct_index": 2
+    "correct_index": 0
   },
   {
     "id": "des-100",
@@ -1292,11 +1292,11 @@
     "difficulty": "dificil",
     "question": "Qual ratinho mexicano é conhecido como o mais rápido do mundo?",
     "options": [
-      "Jerry",
       "Mighty Mouse",
       "Speedy Gonzales",
+      "Jerry",
       "Mickey Mouse"
     ],
-    "correct_index": 2
+    "correct_index": 1
   }
 ]

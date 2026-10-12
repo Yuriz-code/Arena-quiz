@@ -446,18 +446,6 @@
   {
     "category": "animes",
     "difficulty": "medio",
-    "question": "Quem criou o mangá \"Bleach\"?",
-    "options": [
-      "Tite Kubo",
-      "Masashi Kishimoto",
-      "Eiichiro Oda",
-      "Hiromu Arakawa"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "animes",
-    "difficulty": "medio",
     "question": "Quem é o melhor amigo e rival de Naruto?",
     "options": [
       "Sasuke Uchiha",
@@ -722,18 +710,6 @@
   {
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual garoto pilota o EVA-01 em \"Neon Genesis Evangelion\"?",
-    "options": [
-      "Shinji Ikari",
-      "Kaworu Nagisa",
-      "Toji Suzuhara",
-      "Kensuke Aida"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "animes",
-    "difficulty": "medio",
     "question": "Qual deusa reencarnada é protegida pelos cavaleiros de bronze em \"Os Cavaleiros do Zodíaco\"?",
     "options": [
       "Atena",
@@ -770,18 +746,6 @@
   {
     "category": "animes",
     "difficulty": "medio",
-    "question": "Qual personagem é o astro de \"Cowboy Bebop\", um caçador de recompensas?",
-    "options": [
-      "Spike Spiegel",
-      "Jet Black",
-      "Faye Valentine",
-      "Edward"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "animes",
-    "difficulty": "medio",
     "question": "Qual guerreiro careca, melhor amigo de Goku, tem seis pontos na testa?",
     "options": [
       "Kuririn",
@@ -800,6 +764,78 @@
       "Hinata Hyuga",
       "Ino Yamanaka",
       "Tenten"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em \"O Serviço de Entregas da Kiki\", qual é a profissão da jovem protagonista?",
+    "options": [
+      "Bruxa entregadora",
+      "Cozinheira",
+      "Pirata",
+      "Soldada"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Em \"One Punch Man\", como Saitama derrota a maioria dos inimigos?",
+    "options": [
+      "Com um único soco",
+      "Com uma espada",
+      "Com magia",
+      "Com fogo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "medio",
+    "question": "Qual console da Nintendo recebeu os primeiros jogos de Pokémon?",
+    "options": [
+      "Game Boy",
+      "Super Nintendo",
+      "Nintendo 64",
+      "GameCube"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Quem criou o mangá \"Bleach\"?",
+    "options": [
+      "Tite Kubo",
+      "Masashi Kishimoto",
+      "Eiichiro Oda",
+      "Hiromu Arakawa"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Qual garoto pilota o EVA-01 em \"Neon Genesis Evangelion\"?",
+    "options": [
+      "Shinji Ikari",
+      "Kaworu Nagisa",
+      "Toji Suzuhara",
+      "Kensuke Aida"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "animes",
+    "difficulty": "dificil",
+    "question": "Qual personagem é o astro de \"Cowboy Bebop\", um caçador de recompensas?",
+    "options": [
+      "Spike Spiegel",
+      "Jet Black",
+      "Faye Valentine",
+      "Edward"
     ],
     "correct_index": 0
   },
@@ -1130,48 +1166,12 @@
   {
     "category": "animes",
     "difficulty": "dificil",
-    "question": "Em \"O Serviço de Entregas da Kiki\", qual é a profissão da jovem protagonista?",
-    "options": [
-      "Bruxa entregadora",
-      "Cozinheira",
-      "Pirata",
-      "Soldada"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "animes",
-    "difficulty": "dificil",
     "question": "Em \"A Viagem de Chihiro\", quem é o garoto que ajuda Chihiro e se transforma em dragão?",
     "options": [
       "Haku",
       "Kamaji",
       "Yubaba",
       "Sem-Rosto"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "animes",
-    "difficulty": "dificil",
-    "question": "Em \"One Punch Man\", como Saitama derrota a maioria dos inimigos?",
-    "options": [
-      "Com um único soco",
-      "Com uma espada",
-      "Com magia",
-      "Com fogo"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "animes",
-    "difficulty": "dificil",
-    "question": "Qual console da Nintendo recebeu os primeiros jogos de Pokémon?",
-    "options": [
-      "Game Boy",
-      "Super Nintendo",
-      "Nintendo 64",
-      "GameCube"
     ],
     "correct_index": 0
   },
@@ -1310,7 +1310,7 @@
   {
     "category": "artes",
     "difficulty": "facil",
-    "question": "Quem esculpiu a famosa estátua \"Davi\"?",
+    "question": "Quem esculpiu em mármore a famosa estátua \"Davi\", exposta em Florença?",
     "options": [
       "Michelangelo",
       "Auguste Rodin",
@@ -2018,12 +2018,12 @@
   {
     "category": "artes",
     "difficulty": "dificil",
-    "question": "Qual escultor italiano fez a obra \"Êxtase de Santa Teresa\"?",
+    "question": "Qual movimento artístico dos anos 1960 usou imagens de latas, quadrinhos e celebridades?",
     "options": [
-      "Gian Lorenzo Bernini",
-      "Michelangelo",
-      "Donatello",
-      "Antonio Canova"
+      "Pop Art",
+      "Cubismo",
+      "Barroco",
+      "Realismo"
     ],
     "correct_index": 0
   },
@@ -2042,12 +2042,12 @@
   {
     "category": "artes",
     "difficulty": "dificil",
-    "question": "Quem pintou \"As Meninas\" (Las Meninas)?",
+    "question": "Qual artista pernambucano ficou famoso pelas figuras de barro do cotidiano do Nordeste?",
     "options": [
-      "Diego Velázquez",
-      "Francisco Goya",
-      "El Greco",
-      "Bartolomé Murillo"
+      "Mestre Vitalino",
+      "Aleijadinho",
+      "Carybé",
+      "Cândido Portinari"
     ],
     "correct_index": 0
   },
@@ -2174,7 +2174,7 @@
   {
     "category": "artes",
     "difficulty": "dificil",
-    "question": "Qual famosa estátua grega sem braços está exposta no Louvre?",
+    "question": "Qual famosa estátua grega sem braços, exposta no Louvre, representa a deusa Afrodite?",
     "options": [
       "Vênus de Milo",
       "Vitória de Samotrácia",
@@ -2198,12 +2198,12 @@
   {
     "category": "artes",
     "difficulty": "dificil",
-    "question": "Qual pintor de origem grega pintou \"O Enterro do Conde de Orgaz\"?",
+    "question": "Qual país é considerado o berço do grafite moderno, nos metrôs e muros dos anos 1970?",
     "options": [
-      "El Greco",
-      "Diego Velázquez",
-      "Bartolomé Murillo",
-      "Francisco de Zurbarán"
+      "Estados Unidos",
+      "Brasil",
+      "França",
+      "Japão"
     ],
     "correct_index": 0
   },
@@ -2213,7 +2213,7 @@
     "question": "Em qual país fica a Capela Sistina?",
     "options": [
       "Cidade do Vaticano",
-      "Itália",
+      "Suíça",
       "França",
       "Espanha"
     ],
@@ -2306,12 +2306,12 @@
   {
     "category": "artes",
     "difficulty": "dificil",
-    "question": "Qual pintor flamengo é autor de \"O Casal Arnolfini\"?",
+    "question": "Qual dupla de irmãos paulistanos é famosa pelo grafite de personagens amarelos?",
     "options": [
-      "Jan van Eyck",
-      "Rembrandt",
-      "Johannes Vermeer",
-      "Hieronymus Bosch"
+      "Os Gêmeos",
+      "Eduardo Kobra e Romero Britto",
+      "Vik Muniz e Cildo Meireles",
+      "Tarsila e Anita Malfatti"
     ],
     "correct_index": 0
   },
@@ -2942,30 +2942,6 @@
   {
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual é a principal função das plaquetas?",
-    "options": [
-      "Coagulação do sangue",
-      "Transportar oxigênio",
-      "Defender o corpo",
-      "Digerir alimentos"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "medio",
-    "question": "Qual tipo sanguíneo é conhecido como doador universal?",
-    "options": [
-      "O negativo",
-      "AB positivo",
-      "A positivo",
-      "B negativo"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "medio",
     "question": "Quem desenvolveu a primeira vacina, contra a varíola?",
     "options": [
       "Edward Jenner",
@@ -3002,48 +2978,12 @@
   {
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Qual cientista brasileiro descobriu a doença que leva seu nome, transmitida pelo barbeiro?",
-    "options": [
-      "Carlos Chagas",
-      "Oswaldo Cruz",
-      "Vital Brazil",
-      "Emílio Ribas"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "medio",
-    "question": "Qual cientista ganhou dois prêmios Nobel, em Física e em Química?",
-    "options": [
-      "Marie Curie",
-      "Rosalind Franklin",
-      "Ada Lovelace",
-      "Jane Goodall"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "medio",
     "question": "Qual cientista, o pai da genética, estudou ervilhas?",
     "options": [
       "Gregor Mendel",
       "Charles Darwin",
       "Louis Pasteur",
       "James Watson"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "medio",
-    "question": "O que significa a sigla DNA?",
-    "options": [
-      "Ácido desoxirribonucleico",
-      "Ácido ribonucleico",
-      "Aminoácido nuclear",
-      "Dinucleotídeo natural"
     ],
     "correct_index": 0
   },
@@ -3146,18 +3086,6 @@
   {
     "category": "ciencia",
     "difficulty": "medio",
-    "question": "Como se chamou o primeiro satélite artificial, lançado em 1957?",
-    "options": [
-      "Sputnik 1",
-      "Apollo 11",
-      "Explorer 1",
-      "Voyager 1"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "medio",
     "question": "Qual metal é líquido à temperatura ambiente?",
     "options": [
       "Mercúrio",
@@ -3200,6 +3128,150 @@
       "Átomo",
       "Órgão",
       "Tecido"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Quais órgãos filtram o sangue e produzem a urina?",
+    "options": [
+      "Rins",
+      "Fígado",
+      "Pulmões",
+      "Coração"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Quais são os três estados físicos mais comuns da matéria?",
+    "options": [
+      "Sólido, líquido e gasoso",
+      "Frio, morno e quente",
+      "Leve, médio e pesado",
+      "Duro, mole e fino"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Como se chama a rocha derretida que escorre de um vulcão em erupção?",
+    "options": [
+      "Lava",
+      "Argila",
+      "Carvão",
+      "Cinza"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual parte da célula guarda o material genético?",
+    "options": [
+      "Núcleo",
+      "Membrana",
+      "Citoplasma",
+      "Ribossomo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Qual gás as plantas liberam na fotossíntese?",
+    "options": [
+      "Oxigênio",
+      "Gás carbônico",
+      "Nitrogênio",
+      "Metano"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "medio",
+    "question": "Como se chama a passagem da água do estado líquido para o gasoso?",
+    "options": [
+      "Evaporação",
+      "Condensação",
+      "Solidificação",
+      "Fusão"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual é a principal função das plaquetas?",
+    "options": [
+      "Coagulação do sangue",
+      "Transportar oxigênio",
+      "Defender o corpo",
+      "Digerir alimentos"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual tipo sanguíneo é conhecido como doador universal?",
+    "options": [
+      "O negativo",
+      "AB positivo",
+      "A positivo",
+      "B negativo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual cientista brasileiro descobriu a doença que leva seu nome, transmitida pelo barbeiro?",
+    "options": [
+      "Carlos Chagas",
+      "Oswaldo Cruz",
+      "Vital Brazil",
+      "Emílio Ribas"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Qual cientista ganhou dois prêmios Nobel, em Física e em Química?",
+    "options": [
+      "Marie Curie",
+      "Rosalind Franklin",
+      "Ada Lovelace",
+      "Jane Goodall"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "O que significa a sigla DNA?",
+    "options": [
+      "Ácido desoxirribonucleico",
+      "Ácido ribonucleico",
+      "Aminoácido nuclear",
+      "Dinucleotídeo natural"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "ciencia",
+    "difficulty": "dificil",
+    "question": "Como se chamou o primeiro satélite artificial, lançado em 1957?",
+    "options": [
+      "Sputnik 1",
+      "Apollo 11",
+      "Explorer 1",
+      "Voyager 1"
     ],
     "correct_index": 0
   },
@@ -3260,18 +3332,6 @@
       "Fígado",
       "Rim",
       "Estômago"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "dificil",
-    "question": "Quais órgãos filtram o sangue e produzem a urina?",
-    "options": [
-      "Rins",
-      "Fígado",
-      "Pulmões",
-      "Coração"
     ],
     "correct_index": 0
   },
@@ -3350,18 +3410,6 @@
   {
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Quais são os três estados físicos mais comuns da matéria?",
-    "options": [
-      "Sólido, líquido e gasoso",
-      "Frio, morno e quente",
-      "Leve, médio e pesado",
-      "Duro, mole e fino"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "dificil",
     "question": "O que é um eclipse solar?",
     "options": [
       "A Lua passa entre o Sol e a Terra",
@@ -3400,7 +3448,7 @@
     "difficulty": "dificil",
     "question": "Qual é a estrela mais próxima da Terra depois do Sol?",
     "options": [
-      "Proxima Centauri",
+      "Próxima Centauri",
       "Sirius",
       "Betelgeuse",
       "Estrela Polar"
@@ -3494,18 +3542,6 @@
   {
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Como se chama a rocha derretida que escorre de um vulcão em erupção?",
-    "options": [
-      "Lava",
-      "Argila",
-      "Carvão",
-      "Cinza"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "dificil",
     "question": "Qual escala é usada para medir a intensidade dos terremotos?",
     "options": [
       "Escala Richter",
@@ -3554,48 +3590,12 @@
   {
     "category": "ciencia",
     "difficulty": "dificil",
-    "question": "Qual parte da célula guarda o material genético?",
-    "options": [
-      "Núcleo",
-      "Membrana",
-      "Citoplasma",
-      "Ribossomo"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "dificil",
     "question": "Qual planeta do Sistema Solar gira praticamente \"deitado\" em relação ao seu eixo?",
     "options": [
       "Urano",
       "Netuno",
       "Saturno",
       "Marte"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "dificil",
-    "question": "Qual gás as plantas liberam na fotossíntese?",
-    "options": [
-      "Oxigênio",
-      "Gás carbônico",
-      "Nitrogênio",
-      "Metano"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "ciencia",
-    "difficulty": "dificil",
-    "question": "Como se chama a passagem da água do estado líquido para o gasoso?",
-    "options": [
-      "Evaporação",
-      "Condensação",
-      "Solidificação",
-      "Fusão"
     ],
     "correct_index": 0
   },
@@ -3902,7 +3902,7 @@
   {
     "category": "cinema",
     "difficulty": "facil",
-    "question": "Em \"Procurando Nemo\", qual é o nome da peixe azul que tem pouca memória?",
+    "question": "Em \"Procurando Nemo\", qual é o nome da peixinha azul que tem pouca memória?",
     "options": [
       "Dory",
       "Marlin",
@@ -4166,18 +4166,6 @@
   {
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Quem dirigiu \"O Poderoso Chefão\"?",
-    "options": [
-      "Francis Ford Coppola",
-      "Martin Scorsese",
-      "Brian De Palma",
-      "Sidney Lumet"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "cinema",
-    "difficulty": "medio",
     "question": "Qual filme deu início ao Universo Cinematográfico da Marvel em 2008?",
     "options": [
       "Homem de Ferro",
@@ -4238,36 +4226,12 @@
   {
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Qual escritor baiano é autor do romance que originou \"Dona Flor e Seus Dois Maridos\"?",
-    "options": [
-      "Jorge Amado",
-      "Castro Alves",
-      "Guimarães Rosa",
-      "Graciliano Ramos"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "cinema",
-    "difficulty": "medio",
     "question": "Qual filme de terror tem o palhaço Pennywise?",
     "options": [
       "It: A Coisa",
       "Annabelle",
       "Invocação do Mal",
       "Sorria"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "cinema",
-    "difficulty": "medio",
-    "question": "Qual animação de Hayao Miyazaki ganhou o Oscar de Melhor Animação em 2003?",
-    "options": [
-      "A Viagem de Chihiro",
-      "Meu Vizinho Totoro",
-      "Princesa Mononoke",
-      "O Castelo Animado"
     ],
     "correct_index": 0
   },
@@ -4346,18 +4310,6 @@
   {
     "category": "cinema",
     "difficulty": "medio",
-    "question": "Quem dirigiu o filme \"Cidade de Deus\"?",
-    "options": [
-      "Fernando Meirelles",
-      "José Padilha",
-      "Walter Salles",
-      "Héctor Babenco"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "cinema",
-    "difficulty": "medio",
     "question": "Qual ator brasileiro interpreta o Capitão Nascimento em \"Tropa de Elite\"?",
     "options": [
       "Wagner Moura",
@@ -4405,13 +4357,97 @@
   },
   {
     "category": "cinema",
-    "difficulty": "dificil",
+    "difficulty": "medio",
     "question": "Qual filme de 1997 ganhou 11 Oscars?",
     "options": [
       "Titanic",
       "Avatar",
       "Gladiador",
       "Forrest Gump"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual personagem arqueólogo usa chicote e chapéu nos filmes dirigidos por Spielberg?",
+    "options": [
+      "Indiana Jones",
+      "Han Solo",
+      "Rick O'Connell",
+      "Lara Croft"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual é o nome do protagonista da série de filmes \"Matrix\"?",
+    "options": [
+      "Neo",
+      "Morpheus",
+      "Trinity",
+      "Agente Smith"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "medio",
+    "question": "Qual filme de 1982 tem um alienígena que quer \"telefonar para casa\"?",
+    "options": [
+      "E.T. – O Extraterrestre",
+      "Contatos Imediatos do Terceiro Grau",
+      "Alien",
+      "Predador"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Quem dirigiu \"O Poderoso Chefão\"?",
+    "options": [
+      "Francis Ford Coppola",
+      "Martin Scorsese",
+      "Brian De Palma",
+      "Sidney Lumet"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual escritor baiano é autor do romance que originou \"Dona Flor e Seus Dois Maridos\"?",
+    "options": [
+      "Jorge Amado",
+      "Castro Alves",
+      "Guimarães Rosa",
+      "Graciliano Ramos"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Qual animação de Hayao Miyazaki ganhou o Oscar de Melhor Animação em 2003?",
+    "options": [
+      "A Viagem de Chihiro",
+      "Meu Vizinho Totoro",
+      "Princesa Mononoke",
+      "O Castelo Animado"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "cinema",
+    "difficulty": "dificil",
+    "question": "Quem dirigiu o filme \"Cidade de Deus\"?",
+    "options": [
+      "Fernando Meirelles",
+      "José Padilha",
+      "Walter Salles",
+      "Héctor Babenco"
     ],
     "correct_index": 0
   },
@@ -4514,18 +4550,6 @@
   {
     "category": "cinema",
     "difficulty": "dificil",
-    "question": "Qual personagem arqueólogo usa chicote e chapéu nos filmes dirigidos por Spielberg?",
-    "options": [
-      "Indiana Jones",
-      "Han Solo",
-      "Rick O'Connell",
-      "Lara Croft"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "cinema",
-    "difficulty": "dificil",
     "question": "Qual cineasta baiano dirigiu \"Deus e o Diabo na Terra do Sol\"?",
     "options": [
       "Glauber Rocha",
@@ -4622,18 +4646,6 @@
   {
     "category": "cinema",
     "difficulty": "dificil",
-    "question": "Qual é o nome do protagonista da série de filmes \"Matrix\"?",
-    "options": [
-      "Neo",
-      "Morpheus",
-      "Trinity",
-      "Agente Smith"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "cinema",
-    "difficulty": "dificil",
     "question": "Qual clássico de 1939 tem Scarlett O'Hara e Rhett Butler?",
     "options": [
       "E o Vento Levou",
@@ -4646,7 +4658,7 @@
   {
     "category": "cinema",
     "difficulty": "dificil",
-    "question": "Qual animação de Miyazaki tem uma criatura gigante e fofa que é também um gato-ônibus?",
+    "question": "Qual animação de Miyazaki mostra duas irmãs que conhecem criaturas da floresta e pegam carona em um gato-ônibus?",
     "options": [
       "Meu Vizinho Totoro",
       "Ponyo",
@@ -4778,18 +4790,6 @@
   {
     "category": "cinema",
     "difficulty": "dificil",
-    "question": "Qual filme de 1982 tem um alienígena que quer \"telefonar para casa\"?",
-    "options": [
-      "E.T. – O Extraterrestre",
-      "Contatos Imediatos do Terceiro Grau",
-      "Alien",
-      "Predador"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "cinema",
-    "difficulty": "dificil",
     "question": "Qual filme de 1994 tem Tim Robbins e Morgan Freeman em uma prisão?",
     "options": [
       "Um Sonho de Liberdade",
@@ -4826,12 +4826,12 @@
   {
     "category": "desenhos",
     "difficulty": "facil",
-    "question": "Em \"Tom e Jerry\", qual é o nome do ratinho que sempre escapa do gato?",
+    "question": "Em um clássico desenho, qual ratinho esperto vive escapando do gato Tom?",
     "options": [
       "Jerry",
-      "Tom",
       "Speedy Gonzales",
-      "Mickey"
+      "Mickey",
+      "Mighty Mouse"
     ],
     "correct_index": 0
   },
@@ -5162,7 +5162,7 @@
   {
     "category": "desenhos",
     "difficulty": "facil",
-    "question": "Qual personagem da Turma da Mônica é a dentuça de vestido vermelho que bate nos amigos com o coelho de pelúcia?",
+    "question": "Qual personagem criada por Mauricio de Sousa é a menina de vestido vermelho que bate nos amigos com um coelho de pelúcia?",
     "options": [
       "Mônica",
       "Magali",
@@ -5258,24 +5258,12 @@
   {
     "category": "desenhos",
     "difficulty": "medio",
-    "question": "Qual personagem da Warner tem a frase \"Isso é tudo, pessoal!\"?",
+    "question": "Qual personagem da Warner é um porquinho gago que se despede no fim dos desenhos?",
     "options": [
       "Gaguinho",
       "Pernalonga",
       "Patolino",
       "Piu-Piu"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "desenhos",
-    "difficulty": "medio",
-    "question": "Quem é o dono do cachorrinho Floquinho, da Turma da Mônica?",
-    "options": [
-      "Cebolinha",
-      "Cascão",
-      "Mônica",
-      "Franjinha"
     ],
     "correct_index": 0
   },
@@ -5420,30 +5408,6 @@
       "Mestre dos Magos",
       "Presto",
       "Bobby"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "desenhos",
-    "difficulty": "medio",
-    "question": "Qual é o nome do unicórnio de Bobby em \"Caverna do Dragão\"?",
-    "options": [
-      "Uni",
-      "Pégaso",
-      "Spirit",
-      "Max"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "desenhos",
-    "difficulty": "medio",
-    "question": "Qual personagem de \"Caverna do Dragão\" é o mago do grupo?",
-    "options": [
-      "Presto",
-      "Eric",
-      "Diana",
-      "Hank"
     ],
     "correct_index": 0
   },
@@ -5600,6 +5564,78 @@
       "Pizza",
       "Hambúrguer",
       "Peixe"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual personagem dos Simpsons é o indiano dono da loja de conveniência?",
+    "options": [
+      "Apu",
+      "Moe",
+      "Diretor Skinner",
+      "Krusty"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome do palhaço de TV dos Simpsons?",
+    "options": [
+      "Krusty",
+      "Sideshow Bob",
+      "Bozo",
+      "Pennywise"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "medio",
+    "question": "Qual é o nome do dono do gato Garfield?",
+    "options": [
+      "Jon Arbuckle",
+      "Odie",
+      "Nermal",
+      "Liz"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Quem é o dono do cachorrinho Floquinho, da Turma da Mônica?",
+    "options": [
+      "Cebolinha",
+      "Cascão",
+      "Mônica",
+      "Franjinha"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Qual é o nome do unicórnio de Bobby em \"Caverna do Dragão\"?",
+    "options": [
+      "Uni",
+      "Pégaso",
+      "Spirit",
+      "Max"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "desenhos",
+    "difficulty": "dificil",
+    "question": "Qual personagem de \"Caverna do Dragão\" é o mago do grupo?",
+    "options": [
+      "Presto",
+      "Eric",
+      "Diana",
+      "Hank"
     ],
     "correct_index": 0
   },
@@ -5882,30 +5918,6 @@
   {
     "category": "desenhos",
     "difficulty": "dificil",
-    "question": "Qual personagem dos Simpsons é o indiano dono da loja de conveniência?",
-    "options": [
-      "Apu",
-      "Moe",
-      "Diretor Skinner",
-      "Krusty"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "desenhos",
-    "difficulty": "dificil",
-    "question": "Qual é o nome do palhaço de TV dos Simpsons?",
-    "options": [
-      "Krusty",
-      "Sideshow Bob",
-      "Bozo",
-      "Pennywise"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "desenhos",
-    "difficulty": "dificil",
     "question": "Quem criou \"Os Simpsons\"?",
     "options": [
       "Matt Groening",
@@ -5972,18 +5984,6 @@
       "Dr. Drakken",
       "Dr. Eggman",
       "Dr. Octopus"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "desenhos",
-    "difficulty": "dificil",
-    "question": "Qual é o nome do dono do gato Garfield?",
-    "options": [
-      "Jon Arbuckle",
-      "Odie",
-      "Nermal",
-      "Liz"
     ],
     "correct_index": 0
   },
@@ -6470,18 +6470,6 @@
   {
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Quem é o maior artilheiro da história das Copas do Mundo masculinas, com 16 gols?",
-    "options": [
-      "Miroslav Klose",
-      "Ronaldo",
-      "Pelé",
-      "Lionel Messi"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "esportes",
-    "difficulty": "medio",
     "question": "Em qual cidade fica o estádio do Maracanã?",
     "options": [
       "Rio de Janeiro",
@@ -6500,18 +6488,6 @@
       "Nelson Piquet",
       "Emerson Fittipaldi",
       "Rubens Barrichello"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "esportes",
-    "difficulty": "medio",
-    "question": "Qual piloto brasileiro foi campeão mundial de F1 em 1972 e 1974?",
-    "options": [
-      "Emerson Fittipaldi",
-      "Nelson Piquet",
-      "Felipe Massa",
-      "Ayrton Senna"
     ],
     "correct_index": 0
   },
@@ -6650,48 +6626,12 @@
   {
     "category": "esportes",
     "difficulty": "medio",
-    "question": "Qual clube argentino é o maior campeão da Copa Libertadores?",
-    "options": [
-      "Independiente",
-      "Boca Juniors",
-      "River Plate",
-      "Estudiantes"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "esportes",
-    "difficulty": "medio",
     "question": "Qual clube brasileiro foi campeão mundial em 1981, com Zico?",
     "options": [
       "Flamengo",
       "Vasco",
       "Palmeiras",
       "Grêmio"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "esportes",
-    "difficulty": "medio",
-    "question": "Qual clube brasileiro foi bicampeão mundial em 1992 e 1993?",
-    "options": [
-      "São Paulo",
-      "Corinthians",
-      "Palmeiras",
-      "Grêmio"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "esportes",
-    "difficulty": "medio",
-    "question": "Qual clube brasileiro foi campeão mundial de clubes em 2000 e 2012?",
-    "options": [
-      "Corinthians",
-      "Palmeiras",
-      "Santos",
-      "Flamengo"
     ],
     "correct_index": 0
   },
@@ -6800,6 +6740,126 @@
       "França",
       "Estados Unidos",
       "Austrália"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual cidade joga o Boca Juniors?",
+    "options": [
+      "Buenos Aires",
+      "Montevidéu",
+      "Rosário",
+      "Santiago"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Em qual cidade foram realizados os primeiros Jogos Olímpicos da era moderna, em 1896?",
+    "options": [
+      "Atenas",
+      "Paris",
+      "Londres",
+      "Roma"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "De quantos em quantos anos acontecem os Jogos Olímpicos de Verão?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual é a famosa corrida de bicicleta disputada na França?",
+    "options": [
+      "Tour de France",
+      "Giro d'Italia",
+      "Vuelta a España",
+      "Paris-Roubaix"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "medio",
+    "question": "Qual esporte tem os termos \"strike\" e \"home run\"?",
+    "options": [
+      "Beisebol",
+      "Críquete",
+      "Golfe",
+      "Futebol americano"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Quem é o maior artilheiro da história das Copas do Mundo masculinas, com 16 gols?",
+    "options": [
+      "Miroslav Klose",
+      "Ronaldo",
+      "Pelé",
+      "Lionel Messi"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual piloto brasileiro foi campeão mundial de F1 em 1972 e 1974?",
+    "options": [
+      "Emerson Fittipaldi",
+      "Nelson Piquet",
+      "Felipe Massa",
+      "Ayrton Senna"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual clube argentino é o maior campeão da Copa Libertadores?",
+    "options": [
+      "Independiente",
+      "Boca Juniors",
+      "River Plate",
+      "Estudiantes"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual clube brasileiro foi bicampeão mundial em 1992 e 1993?",
+    "options": [
+      "São Paulo",
+      "Corinthians",
+      "Palmeiras",
+      "Grêmio"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "esportes",
+    "difficulty": "dificil",
+    "question": "Qual clube brasileiro foi campeão mundial de clubes em 2000 e 2012?",
+    "options": [
+      "Corinthians",
+      "Palmeiras",
+      "Santos",
+      "Flamengo"
     ],
     "correct_index": 0
   },
@@ -6998,18 +7058,6 @@
   {
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Em qual cidade joga o Boca Juniors?",
-    "options": [
-      "Buenos Aires",
-      "Montevidéu",
-      "Rosário",
-      "Santiago"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "esportes",
-    "difficulty": "dificil",
     "question": "Qual é o estádio onde o Bahia mais joga, em Salvador?",
     "options": [
       "Arena Fonte Nova",
@@ -7046,30 +7094,6 @@
   {
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Em qual cidade foram realizados os primeiros Jogos Olímpicos da era moderna, em 1896?",
-    "options": [
-      "Atenas",
-      "Paris",
-      "Londres",
-      "Roma"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "esportes",
-    "difficulty": "dificil",
-    "question": "De quantos em quantos anos acontecem os Jogos Olímpicos de Verão?",
-    "options": [
-      "4",
-      "2",
-      "3",
-      "5"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "esportes",
-    "difficulty": "dificil",
     "question": "Qual tenista sérvio é o recordista de títulos de Grand Slam entre os homens?",
     "options": [
       "Novak Djokovic",
@@ -7094,36 +7118,12 @@
   {
     "category": "esportes",
     "difficulty": "dificil",
-    "question": "Qual é a famosa corrida de bicicleta disputada na França?",
-    "options": [
-      "Tour de France",
-      "Giro d'Italia",
-      "Vuelta a España",
-      "Paris-Roubaix"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "esportes",
-    "difficulty": "dificil",
     "question": "Qual é a cor da camisa do líder do Tour de France?",
     "options": [
       "Amarela",
       "Vermelha",
       "Azul",
       "Verde"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "esportes",
-    "difficulty": "dificil",
-    "question": "Qual esporte tem os termos \"strike\" e \"home run\"?",
-    "options": [
-      "Beisebol",
-      "Críquete",
-      "Golfe",
-      "Futebol americano"
     ],
     "correct_index": 0
   },
@@ -7442,7 +7442,7 @@
   {
     "category": "geografia",
     "difficulty": "facil",
-    "question": "Qual deserto é o maior deserto quente do mundo?",
+    "question": "Qual é o maior deserto quente do mundo?",
     "options": [
       "Saara",
       "Gobi",
@@ -7454,7 +7454,7 @@
   {
     "category": "geografia",
     "difficulty": "facil",
-    "question": "Qual país é conhecido pelo Canguru e fica na Oceania?",
+    "question": "Qual país da Oceania é famoso pelos cangurus?",
     "options": [
       "Austrália",
       "Nova Zelândia",
@@ -7610,24 +7610,12 @@
   {
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é o rio mais extenso do mundo, segundo a maioria das medições?",
+    "question": "Qual grande rio africano atravessa o Egito até o Mar Mediterrâneo?",
     "options": [
       "Rio Nilo",
-      "Rio Amazonas",
-      "Rio Mississippi",
-      "Rio Yangtzé"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "medio",
-    "question": "Qual é a capital da Austrália?",
-    "options": [
-      "Camberra",
-      "Sydney",
-      "Melbourne",
-      "Brisbane"
+      "Rio Congo",
+      "Rio Níger",
+      "Rio Zambeze"
     ],
     "correct_index": 0
   },
@@ -7718,30 +7706,6 @@
   {
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é o maior lago de água doce em superfície do mundo?",
-    "options": [
-      "Lago Superior",
-      "Lago Vitória",
-      "Lago Titicaca",
-      "Lago Baikal"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "medio",
-    "question": "Qual é a capital da Turquia?",
-    "options": [
-      "Ancara",
-      "Istambul",
-      "Izmir",
-      "Antália"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "medio",
     "question": "Qual é a capital do Chile?",
     "options": [
       "Santiago",
@@ -7826,18 +7790,6 @@
   {
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual país africano é o mais populoso do continente?",
-    "options": [
-      "Nigéria",
-      "Egito",
-      "África do Sul",
-      "Etiópia"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "medio",
     "question": "Qual é a capital da Rússia?",
     "options": [
       "Moscou",
@@ -7856,18 +7808,6 @@
       "Mar Negro",
       "Mar Vermelho",
       "Mar Báltico"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "medio",
-    "question": "Qual país é formado por mais de 17 mil ilhas?",
-    "options": [
-      "Indonésia",
-      "Japão",
-      "Filipinas",
-      "Grécia"
     ],
     "correct_index": 0
   },
@@ -7910,24 +7850,12 @@
   {
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é a capital da Itália?",
+    "question": "Qual é o continente mais populoso do mundo?",
     "options": [
-      "Roma",
-      "Milão",
-      "Veneza",
-      "Nápoles"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "medio",
-    "question": "Qual é o maior deserto do mundo, considerando também os polares?",
-    "options": [
-      "Antártida",
-      "Saara",
-      "Gobi",
-      "Arábia"
+      "Ásia",
+      "África",
+      "Europa",
+      "América do Norte"
     ],
     "correct_index": 0
   },
@@ -7958,18 +7886,6 @@
   {
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual é a capital da Bolívia, sede do governo?",
-    "options": [
-      "La Paz",
-      "Lima",
-      "Quito",
-      "Assunção"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "medio",
     "question": "Qual país europeu é famoso por seus fiordes?",
     "options": [
       "Noruega",
@@ -7982,24 +7898,204 @@
   {
     "category": "geografia",
     "difficulty": "medio",
-    "question": "Qual capital brasileira é cortada pela linha do Equador?",
-    "options": [
-      "Macapá",
-      "Belém",
-      "Manaus",
-      "São Luís"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "medio",
     "question": "Qual é a capital da Venezuela?",
     "options": [
       "Caracas",
       "Bogotá",
       "Lima",
       "Quito"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é a capital do Egito?",
+    "options": [
+      "Cairo",
+      "Alexandria",
+      "Luxor",
+      "Giza"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é a capital da Coreia do Sul?",
+    "options": [
+      "Seul",
+      "Busan",
+      "Pyongyang",
+      "Tóquio"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é a capital do México?",
+    "options": [
+      "Cidade do México",
+      "Guadalajara",
+      "Monterrey",
+      "Cancún"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual país tem como capital Havana?",
+    "options": [
+      "Cuba",
+      "República Dominicana",
+      "Jamaica",
+      "Porto Rico"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é a capital da Grécia?",
+    "options": [
+      "Atenas",
+      "Tessalônica",
+      "Esparta",
+      "Creta"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o rio que corta a cidade de Londres?",
+    "options": [
+      "Rio Tâmisa",
+      "Rio Sena",
+      "Rio Reno",
+      "Rio Tejo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual é o estado brasileiro mais ao sul do país?",
+    "options": [
+      "Rio Grande do Sul",
+      "Santa Catarina",
+      "Paraná",
+      "Mato Grosso do Sul"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "medio",
+    "question": "Qual produto deu fama e riqueza à região de Ilhéus, na Bahia?",
+    "options": [
+      "Cacau",
+      "Café",
+      "Soja",
+      "Algodão"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é a capital da Austrália?",
+    "options": [
+      "Camberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o maior lago de água doce em superfície do mundo?",
+    "options": [
+      "Lago Superior",
+      "Lago Vitória",
+      "Lago Titicaca",
+      "Lago Baikal"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é a capital da Turquia?",
+    "options": [
+      "Ancara",
+      "Istambul",
+      "Izmir",
+      "Antália"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual país africano é o mais populoso do continente?",
+    "options": [
+      "Nigéria",
+      "Egito",
+      "África do Sul",
+      "Etiópia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual país é formado por mais de 17 mil ilhas?",
+    "options": [
+      "Indonésia",
+      "Japão",
+      "Filipinas",
+      "Grécia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é o maior deserto do mundo, considerando também os polares?",
+    "options": [
+      "Antártida",
+      "Saara",
+      "Gobi",
+      "Arábia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual é a capital da Bolívia, sede do governo?",
+    "options": [
+      "La Paz",
+      "Lima",
+      "Quito",
+      "Assunção"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "geografia",
+    "difficulty": "dificil",
+    "question": "Qual capital brasileira é cortada pela linha do Equador?",
+    "options": [
+      "Macapá",
+      "Belém",
+      "Manaus",
+      "São Luís"
     ],
     "correct_index": 0
   },
@@ -8024,18 +8120,6 @@
       "Casablanca",
       "Marrakech",
       "Túnis"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "dificil",
-    "question": "Qual é a capital do Egito?",
-    "options": [
-      "Cairo",
-      "Alexandria",
-      "Luxor",
-      "Giza"
     ],
     "correct_index": 0
   },
@@ -8090,42 +8174,6 @@
   {
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é a capital da Coreia do Sul?",
-    "options": [
-      "Seul",
-      "Busan",
-      "Pyongyang",
-      "Tóquio"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "dificil",
-    "question": "Qual é a capital do México?",
-    "options": [
-      "Cidade do México",
-      "Guadalajara",
-      "Monterrey",
-      "Cancún"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "dificil",
-    "question": "Qual país tem como capital Havana?",
-    "options": [
-      "Cuba",
-      "República Dominicana",
-      "Jamaica",
-      "Porto Rico"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "dificil",
     "question": "Qual é a capital do Paraguai?",
     "options": [
       "Assunção",
@@ -8156,30 +8204,6 @@
       "Oslo",
       "Copenhague",
       "Helsinque"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "dificil",
-    "question": "Qual é a capital da Grécia?",
-    "options": [
-      "Atenas",
-      "Tessalônica",
-      "Esparta",
-      "Creta"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "dificil",
-    "question": "Qual é o rio que corta a cidade de Londres?",
-    "options": [
-      "Rio Tâmisa",
-      "Rio Sena",
-      "Rio Reno",
-      "Rio Tejo"
     ],
     "correct_index": 0
   },
@@ -8222,18 +8246,6 @@
   {
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual é o estado brasileiro mais ao sul do país?",
-    "options": [
-      "Rio Grande do Sul",
-      "Santa Catarina",
-      "Paraná",
-      "Mato Grosso do Sul"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "dificil",
     "question": "Qual é o único estado brasileiro que faz fronteira com a Guiana Francesa?",
     "options": [
       "Amapá",
@@ -8246,12 +8258,12 @@
   {
     "category": "geografia",
     "difficulty": "dificil",
-    "question": "Qual país tem a maior população de língua portuguesa depois do Brasil?",
+    "question": "Qual é o maior estado do Nordeste em área?",
     "options": [
-      "Angola",
-      "Portugal",
-      "Moçambique",
-      "Cabo Verde"
+      "Bahia",
+      "Maranhão",
+      "Piauí",
+      "Ceará"
     ],
     "correct_index": 0
   },
@@ -8324,18 +8336,6 @@
       "Meca",
       "Jidá",
       "Dubai"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "geografia",
-    "difficulty": "dificil",
-    "question": "Qual produto deu fama e riqueza à região de Ilhéus, na Bahia?",
-    "options": [
-      "Cacau",
-      "Café",
-      "Soja",
-      "Algodão"
     ],
     "correct_index": 0
   },
@@ -8797,6 +8797,18 @@
   },
   {
     "category": "historia",
+    "difficulty": "facil",
+    "question": "Qual civilização antiga é famosa pelos Jogos Olímpicos e pela filosofia de Sócrates e Platão?",
+    "options": [
+      "Grega",
+      "Persa",
+      "Egípcia",
+      "Fenícia"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
     "difficulty": "medio",
     "question": "Em que ano ocorreu a Revolução Russa que levou os bolcheviques ao poder?",
     "options": [
@@ -8875,7 +8887,7 @@
       "Tratado de Versalhes",
       "Tratado de Tordesilhas",
       "Tratado de Viena",
-      "Tratado de Paris"
+      "Tratado de Westfália"
     ],
     "correct_index": 0
   },
@@ -9157,6 +9169,42 @@
   },
   {
     "category": "historia",
+    "difficulty": "medio",
+    "question": "Em qual século a Peste Negra devastou a Europa?",
+    "options": [
+      "Século XIV",
+      "Século XVI",
+      "Século X",
+      "Século XVIII"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual foi o nome do movimento cultural e artístico que valorizava o ser humano e a razão na Europa, a partir do século XIV?",
+    "options": [
+      "Renascimento",
+      "Barroco",
+      "Iluminismo",
+      "Romantismo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
+    "difficulty": "medio",
+    "question": "Qual presidente brasileiro foi deposto pelo golpe militar de 1964?",
+    "options": [
+      "João Goulart",
+      "Jânio Quadros",
+      "Juscelino Kubitschek",
+      "Café Filho"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "historia",
     "difficulty": "dificil",
     "question": "Qual país formou com Brasil e Argentina a Tríplice Aliança na Guerra do Paraguai?",
     "options": [
@@ -9170,12 +9218,12 @@
   {
     "category": "historia",
     "difficulty": "dificil",
-    "question": "Qual imperador romano dividiu o império entre seus filhos em 395, separando Oriente e Ocidente?",
+    "question": "Em que ano o Titanic afundou no Atlântico Norte?",
     "options": [
-      "Teodósio I",
-      "Constantino",
-      "Nero",
-      "Marco Aurélio"
+      "1912",
+      "1905",
+      "1920",
+      "1898"
     ],
     "correct_index": 0
   },
@@ -9236,18 +9284,6 @@
       "João Calvino",
       "Henrique VIII",
       "Erasmo de Roterdã"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "historia",
-    "difficulty": "dificil",
-    "question": "Em qual século a Peste Negra devastou a Europa?",
-    "options": [
-      "Século XIV",
-      "Século XVI",
-      "Século X",
-      "Século XVIII"
     ],
     "correct_index": 0
   },
@@ -9529,20 +9565,8 @@
   },
   {
     "category": "historia",
-    "difficulty": "facil",
-    "question": "Qual civilização antiga é famosa pelos Jogos Olímpicos e pela filosofia de Sócrates e Platão?",
-    "options": [
-      "Grega",
-      "Persa",
-      "Egípcia",
-      "Fenícia"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "historia",
-    "difficulty": "medio",
-    "question": "Quem foi o líder indígena que lutou contra os portugueses no Brasil e ficou conhecido pelo lema \"Esta terra tem dono\"?",
+    "difficulty": "dificil",
+    "question": "Qual líder indígena guarani lutou contra os exércitos de Portugal e Espanha e ficou conhecido pelo lema \"Esta terra tem dono\"?",
     "options": [
       "Sepé Tiaraju",
       "Zumbi",
@@ -9553,24 +9577,12 @@
   },
   {
     "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual foi o nome do movimento cultural e artístico que valorizava o ser humano e a razão na Europa, a partir do século XIV?",
+    "difficulty": "dificil",
+    "question": "Qual presidente brasileiro se suicidou em 1954, deixando uma carta-testamento?",
     "options": [
-      "Renascimento",
-      "Barroco",
-      "Iluminismo",
-      "Romantismo"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "historia",
-    "difficulty": "medio",
-    "question": "Qual presidente brasileiro foi deposto pelo golpe militar de 1964?",
-    "options": [
-      "João Goulart",
-      "Jânio Quadros",
+      "Getúlio Vargas",
       "Juscelino Kubitschek",
+      "Jânio Quadros",
       "Café Filho"
     ],
     "correct_index": 0
@@ -9578,19 +9590,7 @@
   {
     "category": "historia",
     "difficulty": "dificil",
-    "question": "Quem foi o primeiro presidente civil do Brasil, eleito em 1894?",
-    "options": [
-      "Prudente de Morais",
-      "Rodrigues Alves",
-      "Campos Sales",
-      "Floriano Peixoto"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "historia",
-    "difficulty": "dificil",
-    "question": "Qual foi o nome do período da história brasileira em que o café dominava a economia e o poder político, de 1894 a 1930?",
+    "question": "Qual é o nome do período da República brasileira, entre 1889 e 1930, dominado pelas oligarquias do café e do leite?",
     "options": [
       "República Velha",
       "Estado Novo",
@@ -10310,36 +10310,12 @@
   {
     "category": "literatura",
     "difficulty": "medio",
-    "question": "Quem escreveu \"Macunaíma\"?",
-    "options": [
-      "Mário de Andrade",
-      "Oswald de Andrade",
-      "Manuel Bandeira",
-      "Carlos Drummond de Andrade"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "literatura",
-    "difficulty": "medio",
     "question": "Quem escreveu \"Os Sertões\", sobre a Guerra de Canudos?",
     "options": [
       "Euclides da Cunha",
       "Machado de Assis",
       "Graciliano Ramos",
       "Lima Barreto"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "literatura",
-    "difficulty": "medio",
-    "question": "Quem escreveu \"Morte e Vida Severina\"?",
-    "options": [
-      "João Cabral de Melo Neto",
-      "Carlos Drummond de Andrade",
-      "Manuel Bandeira",
-      "Ferreira Gullar"
     ],
     "correct_index": 0
   },
@@ -10358,6 +10334,102 @@
   {
     "category": "literatura",
     "difficulty": "medio",
+    "question": "Quem escreveu \"O Menino do Pijama Listrado\"?",
+    "options": [
+      "John Boyne",
+      "John Green",
+      "Markus Zusak",
+      "Khaled Hosseini"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual é o herói da \"Odisseia\", que demora anos para voltar para casa?",
+    "options": [
+      "Ulisses",
+      "Aquiles",
+      "Heitor",
+      "Páris"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem é o grande vilão da saga \"Harry Potter\"?",
+    "options": [
+      "Lord Voldemort",
+      "Draco Malfoy",
+      "Severo Snape",
+      "Quirrell"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Em \"Dom Quixote\", como se chama o fiel escudeiro do cavaleiro?",
+    "options": [
+      "Sancho Pança",
+      "Dulcineia",
+      "Rocinante",
+      "Merlin"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Qual personagem de Tolkien é o mago que guia os heróis em \"O Senhor dos Anéis\"?",
+    "options": [
+      "Gandalf",
+      "Saruman",
+      "Radagast",
+      "Elrond"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "medio",
+    "question": "Quem escreveu \"Matilda\" e \"A Fantástica Fábrica de Chocolate\"?",
+    "options": [
+      "Roald Dahl",
+      "J. K. Rowling",
+      "C. S. Lewis",
+      "Lewis Carroll"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu \"Macunaíma\"?",
+    "options": [
+      "Mário de Andrade",
+      "Oswald de Andrade",
+      "Manuel Bandeira",
+      "Carlos Drummond de Andrade"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
+    "question": "Quem escreveu \"Morte e Vida Severina\"?",
+    "options": [
+      "João Cabral de Melo Neto",
+      "Carlos Drummond de Andrade",
+      "Manuel Bandeira",
+      "Ferreira Gullar"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "literatura",
+    "difficulty": "dificil",
     "question": "Quem escreveu \"Triste Fim de Policarpo Quaresma\"?",
     "options": [
       "Lima Barreto",
@@ -10369,7 +10441,7 @@
   },
   {
     "category": "literatura",
-    "difficulty": "medio",
+    "difficulty": "dificil",
     "question": "Quem é o autor do romance baiano \"Torto Arado\"?",
     "options": [
       "Itamar Vieira Junior",
@@ -10381,25 +10453,13 @@
   },
   {
     "category": "literatura",
-    "difficulty": "medio",
+    "difficulty": "dificil",
     "question": "Qual poeta baiano do período barroco ficou conhecido como \"Boca do Inferno\"?",
     "options": [
       "Gregório de Matos",
       "Padre Antônio Vieira",
       "Castro Alves",
       "Tomás Antônio Gonzaga"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "literatura",
-    "difficulty": "medio",
-    "question": "Quem escreveu \"O Menino do Pijama Listrado\"?",
-    "options": [
-      "John Boyne",
-      "John Green",
-      "Markus Zusak",
-      "Khaled Hosseini"
     ],
     "correct_index": 0
   },
@@ -10424,18 +10484,6 @@
       "Sófocles",
       "Platão",
       "Virgílio"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual é o herói da \"Odisseia\", que demora anos para voltar para casa?",
-    "options": [
-      "Ulisses",
-      "Aquiles",
-      "Heitor",
-      "Páris"
     ],
     "correct_index": 0
   },
@@ -10658,12 +10706,12 @@
   {
     "category": "literatura",
     "difficulty": "dificil",
-    "question": "Quem escreveu \"Memórias de um Sargento de Milícias\"?",
+    "question": "Qual é o nome do detetive belga de bigodes criado por Agatha Christie?",
     "options": [
-      "Manuel Antônio de Almeida",
-      "Machado de Assis",
-      "José de Alencar",
-      "Aluísio Azevedo"
+      "Hercule Poirot",
+      "Sherlock Holmes",
+      "Miss Marple",
+      "Philip Marlowe"
     ],
     "correct_index": 0
   },
@@ -10706,60 +10754,12 @@
   {
     "category": "literatura",
     "difficulty": "dificil",
-    "question": "Quem foi o primeiro presidente da Academia Brasileira de Letras?",
+    "question": "Qual romance de Jorge Amado conta a história de uma mulher que volta rica de São Paulo para a cidade natal, de onde fora expulsa?",
     "options": [
-      "Machado de Assis",
-      "José de Alencar",
-      "Rui Barbosa",
-      "Joaquim Nabuco"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Quem é o grande vilão da saga \"Harry Potter\"?",
-    "options": [
-      "Lord Voldemort",
-      "Draco Malfoy",
-      "Severo Snape",
-      "Quirrell"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Em \"Dom Quixote\", como se chama o fiel escudeiro do cavaleiro?",
-    "options": [
-      "Sancho Pança",
-      "Dulcineia",
-      "Rocinante",
-      "Merlin"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Qual personagem de Tolkien é o mago que guia os heróis em \"O Senhor dos Anéis\"?",
-    "options": [
-      "Gandalf",
-      "Saruman",
-      "Radagast",
-      "Elrond"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "literatura",
-    "difficulty": "dificil",
-    "question": "Quem escreveu \"Matilda\" e \"A Fantástica Fábrica de Chocolate\"?",
-    "options": [
-      "Roald Dahl",
-      "J. K. Rowling",
-      "C. S. Lewis",
-      "Lewis Carroll"
+      "Tieta do Agreste",
+      "Gabriela, Cravo e Canela",
+      "Capitães da Areia",
+      "Tenda dos Milagres"
     ],
     "correct_index": 0
   },
@@ -11618,60 +11618,60 @@
   {
     "category": "musica",
     "difficulty": "dificil",
-    "question": "Quem compôs o \"Bolero\", famosa peça orquestral?",
+    "question": "Qual cantora é conhecida como a \"Rainha do Pop\"?",
     "options": [
-      "Maurice Ravel",
-      "Claude Debussy",
-      "Erik Satie",
-      "Georges Bizet"
+      "Madonna",
+      "Beyoncé",
+      "Rihanna",
+      "Lady Gaga"
     ],
     "correct_index": 0
   },
   {
     "category": "musica",
     "difficulty": "dificil",
-    "question": "Quem compôs a ópera \"Carmen\"?",
+    "question": "Qual cantor compôs \"Pra Não Dizer Que Não Falei das Flores\"?",
     "options": [
-      "Georges Bizet",
-      "Giuseppe Verdi",
-      "Giacomo Puccini",
-      "Gioachino Rossini"
+      "Geraldo Vandré",
+      "Chico Buarque",
+      "Caetano Veloso",
+      "Raul Seixas"
     ],
     "correct_index": 0
   },
   {
     "category": "musica",
     "difficulty": "dificil",
-    "question": "Quem compôs a ópera \"O Barbeiro de Sevilha\"?",
+    "question": "Qual cantora é conhecida como a \"Rainha do Soul\"?",
     "options": [
-      "Gioachino Rossini",
-      "Giuseppe Verdi",
-      "Giacomo Puccini",
-      "Gaetano Donizetti"
+      "Aretha Franklin",
+      "Whitney Houston",
+      "Tina Turner",
+      "Diana Ross"
     ],
     "correct_index": 0
   },
   {
     "category": "musica",
     "difficulty": "dificil",
-    "question": "Quem compôs a ópera \"La Traviata\"?",
+    "question": "Qual cantora brasileira de voz marcante canta \"Sufoco\" e \"Não Deixe o Samba Morrer\"?",
     "options": [
-      "Giuseppe Verdi",
-      "Giacomo Puccini",
-      "Richard Wagner",
-      "Wolfgang Amadeus Mozart"
+      "Alcione",
+      "Beth Carvalho",
+      "Clara Nunes",
+      "Elza Soares"
     ],
     "correct_index": 0
   },
   {
     "category": "musica",
     "difficulty": "dificil",
-    "question": "Quem compôs \"Tocata e Fuga em Ré Menor\"?",
+    "question": "Qual banda canta \"Hotel California\"?",
     "options": [
-      "Johann Sebastian Bach",
-      "Georg Friedrich Handel",
-      "Antonio Vivaldi",
-      "Franz Liszt"
+      "Eagles",
+      "Fleetwood Mac",
+      "Journey",
+      "Chicago"
     ],
     "correct_index": 0
   },
@@ -11834,7 +11834,7 @@
   {
     "category": "musica",
     "difficulty": "dificil",
-    "question": "Qual grupo baiano ficou famoso por \"Segure o Tchan\"?",
+    "question": "Qual grupo baiano de pagode ficou famoso nos anos 1990 com as dançarinas Carla Perez e Scheila Carvalho?",
     "options": [
       "É o Tchan",
       "Banda Eva",
@@ -12506,18 +12506,6 @@
   {
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Quantos livros tem a Bíblia católica?",
-    "options": [
-      "73",
-      "66",
-      "72",
-      "80"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "religiao",
-    "difficulty": "medio",
     "question": "Qual é o menor país do mundo, sede da Igreja Católica?",
     "options": [
       "Vaticano",
@@ -12638,7 +12626,7 @@
   {
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual orixá é o senhor dos caminhos, do ferro e da guerra?",
+    "question": "Qual orixá é o senhor do ferro, da guerra e da tecnologia?",
     "options": [
       "Ogum",
       "Oxóssi",
@@ -12710,36 +12698,12 @@
   {
     "category": "religiao",
     "difficulty": "medio",
-    "question": "Qual é considerado o terreiro de candomblé mais antigo de Salvador?",
-    "options": [
-      "Casa Branca do Engenho Velho",
-      "Gantois",
-      "Ilê Axé Opô Afonjá",
-      "Bogum"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "religiao",
-    "difficulty": "medio",
     "question": "Qual famosa ialorixá comandou o terreiro do Gantois e foi muito respeitada na Bahia?",
     "options": [
       "Mãe Menininha do Gantois",
       "Mãe Stella de Oxóssi",
       "Mãe Aninha",
       "Mãe Cleusa"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "religiao",
-    "difficulty": "medio",
-    "question": "Qual livro de Allan Kardec, de 1857, é a base do Espiritismo?",
-    "options": [
-      "O Livro dos Espíritos",
-      "O Evangelho Segundo o Espiritismo",
-      "Nosso Lar",
-      "Violetas na Janela"
     ],
     "correct_index": 0
   },
@@ -12800,6 +12764,78 @@
       "Hinduísmo",
       "Jainismo",
       "Budismo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Qual era a profissão de José, pai de Jesus, segundo a Bíblia?",
+    "options": [
+      "Carpinteiro",
+      "Pescador",
+      "Pastor",
+      "Soldado"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Quantas vezes por dia os muçulmanos praticantes devem orar?",
+    "options": [
+      "5",
+      "3",
+      "7",
+      "2"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "medio",
+    "question": "Quais são as três grandes religiões monoteístas ligadas a Abraão?",
+    "options": [
+      "Judaísmo, Cristianismo e Islamismo",
+      "Hinduísmo, Budismo e Taoísmo",
+      "Xintoísmo, Budismo e Confucionismo",
+      "Sikhismo, Jainismo e Hinduísmo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Quantos livros tem a Bíblia católica?",
+    "options": [
+      "73",
+      "66",
+      "72",
+      "80"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual é considerado o terreiro de candomblé mais antigo de Salvador?",
+    "options": [
+      "Casa Branca do Engenho Velho",
+      "Gantois",
+      "Ilê Axé Opô Afonjá",
+      "Bogum"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "religiao",
+    "difficulty": "dificil",
+    "question": "Qual livro de Allan Kardec, de 1857, é a base do Espiritismo?",
+    "options": [
+      "O Livro dos Espíritos",
+      "O Evangelho Segundo o Espiritismo",
+      "Nosso Lar",
+      "Violetas na Janela"
     ],
     "correct_index": 0
   },
@@ -12926,18 +12962,6 @@
   {
     "category": "religiao",
     "difficulty": "dificil",
-    "question": "Qual era a profissão de José, pai de Jesus, segundo a Bíblia?",
-    "options": [
-      "Carpinteiro",
-      "Pescador",
-      "Pastor",
-      "Soldado"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "religiao",
-    "difficulty": "dificil",
     "question": "Qual cidade é sagrada para judeus, cristãos e muçulmanos?",
     "options": [
       "Jerusalém",
@@ -12998,30 +13022,6 @@
   {
     "category": "religiao",
     "difficulty": "dificil",
-    "question": "Quantas vezes por dia os muçulmanos praticantes devem orar?",
-    "options": [
-      "5",
-      "3",
-      "7",
-      "2"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "religiao",
-    "difficulty": "dificil",
-    "question": "Quais são as três grandes religiões monoteístas ligadas a Abraão?",
-    "options": [
-      "Judaísmo, Cristianismo e Islamismo",
-      "Hinduísmo, Budismo e Taoísmo",
-      "Xintoísmo, Budismo e Confucionismo",
-      "Sikhismo, Jainismo e Hinduísmo"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "religiao",
-    "difficulty": "dificil",
     "question": "Qual religião tradicional do Japão cultua os kami?",
     "options": [
       "Xintoísmo",
@@ -13034,7 +13034,7 @@
   {
     "category": "religiao",
     "difficulty": "dificil",
-    "question": "Qual filósofo chinês está ligado ao Confucionismo?",
+    "question": "Qual filósofo chinês do século VI a.C. defendia o respeito aos mais velhos e a ordem social?",
     "options": [
       "Confúcio",
       "Lao-Tsé",
@@ -13646,7 +13646,7 @@
   {
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Qual empresário é dono da SpaceX?",
+    "question": "Qual empresário fundou a SpaceX?",
     "options": [
       "Elon Musk",
       "Jeff Bezos",
@@ -13664,30 +13664,6 @@
       "Bill Gates e Paul Allen",
       "Steve Jobs e Steve Wozniak",
       "Mark Zuckerberg e Eduardo Saverin"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "medio",
-    "question": "Para que serve a linguagem HTML?",
-    "options": [
-      "Estruturar páginas da web",
-      "Criar vírus",
-      "Proteger o computador",
-      "Enviar e-mails"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "medio",
-    "question": "Qual linguagem de programação foi criada por Guido van Rossum?",
-    "options": [
-      "Python",
-      "Java",
-      "C",
-      "Ruby"
     ],
     "correct_index": 0
   },
@@ -13718,36 +13694,12 @@
   {
     "category": "tecnologia",
     "difficulty": "medio",
-    "question": "Para que serve a memória RAM do computador?",
-    "options": [
-      "Guardar dados dos programas em uso",
-      "Guardar arquivos para sempre",
-      "Mostrar imagens",
-      "Conectar à internet"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "medio",
     "question": "Qual componente guarda os arquivos de forma permanente em computadores mais antigos?",
     "options": [
       "HD",
       "RAM",
       "CPU",
       "Placa-mãe"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "medio",
-    "question": "O que é um SSD?",
-    "options": [
-      "Armazenamento rápido, sem partes móveis",
-      "Um tipo de monitor",
-      "Uma placa de som",
-      "Um processador"
     ],
     "correct_index": 0
   },
@@ -13820,18 +13772,6 @@
       "Nintendo",
       "Sony",
       "Atari"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "medio",
-    "question": "Qual empresa chinesa é dona do TikTok?",
-    "options": [
-      "ByteDance",
-      "Tencent",
-      "Alibaba",
-      "Huawei"
     ],
     "correct_index": 0
   },
@@ -13969,6 +13909,162 @@
   },
   {
     "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Quantos bits tem um byte?",
+    "options": [
+      "8",
+      "4",
+      "16",
+      "10"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "O que é um \"bug\" em um programa?",
+    "options": [
+      "Um erro ou falha",
+      "Um recurso novo",
+      "Um antivírus",
+      "Um cabo"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual é o sistema operacional dos computadores Mac?",
+    "options": [
+      "macOS",
+      "iOS",
+      "Linux",
+      "Chrome OS"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Como é chamada a região da Califórnia, berço de grandes empresas de tecnologia?",
+    "options": [
+      "Vale do Silício",
+      "Vale do Ouro",
+      "Vale da Prata",
+      "Vale do Cobre"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual é o nome da rede mundial de computadores interligados?",
+    "options": [
+      "Internet",
+      "Intranet",
+      "Extranet",
+      "Ethernet"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual empresa criou a assistente Alexa e o leitor Kindle?",
+    "options": [
+      "Amazon",
+      "Apple",
+      "Google",
+      "Samsung"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Para que serve um roteador?",
+    "options": [
+      "Distribuir a internet para vários aparelhos",
+      "Imprimir documentos",
+      "Gravar vídeos",
+      "Carregar o celular"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "medio",
+    "question": "Qual é a loja oficial de aplicativos do Android?",
+    "options": [
+      "Google Play",
+      "App Store",
+      "Microsoft Store",
+      "Steam"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Para que serve a linguagem HTML?",
+    "options": [
+      "Estruturar páginas da web",
+      "Criar vírus",
+      "Proteger o computador",
+      "Enviar e-mails"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual linguagem de programação foi criada por Guido van Rossum?",
+    "options": [
+      "Python",
+      "Java",
+      "C",
+      "Ruby"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Para que serve a memória RAM do computador?",
+    "options": [
+      "Guardar dados dos programas em uso",
+      "Guardar arquivos para sempre",
+      "Mostrar imagens",
+      "Conectar à internet"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "O que é um SSD?",
+    "options": [
+      "Armazenamento rápido, sem partes móveis",
+      "Um tipo de monitor",
+      "Uma placa de som",
+      "Um processador"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
+    "difficulty": "dificil",
+    "question": "Qual empresa chinesa é dona do TikTok?",
+    "options": [
+      "ByteDance",
+      "Tencent",
+      "Alibaba",
+      "Huawei"
+    ],
+    "correct_index": 0
+  },
+  {
+    "category": "tecnologia",
     "difficulty": "dificil",
     "question": "Quem é considerada a primeira programadora da história?",
     "options": [
@@ -14090,18 +14186,6 @@
   {
     "category": "tecnologia",
     "difficulty": "dificil",
-    "question": "Quantos bits tem um byte?",
-    "options": [
-      "8",
-      "4",
-      "16",
-      "10"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "dificil",
     "question": "Qual sistema de numeração os computadores usam internamente?",
     "options": [
       "Binário",
@@ -14162,36 +14246,12 @@
   {
     "category": "tecnologia",
     "difficulty": "dificil",
-    "question": "O que é um \"bug\" em um programa?",
-    "options": [
-      "Um erro ou falha",
-      "Um recurso novo",
-      "Um antivírus",
-      "Um cabo"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "dificil",
     "question": "Qual foi o primeiro computador eletrônico digital de uso geral, de 1946?",
     "options": [
       "ENIAC",
       "UNIVAC",
       "Altair",
       "IBM PC"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Qual é o sistema operacional dos computadores Mac?",
-    "options": [
-      "macOS",
-      "iOS",
-      "Linux",
-      "Chrome OS"
     ],
     "correct_index": 0
   },
@@ -14312,66 +14372,6 @@
       "Inter",
       "C6 Bank",
       "PicPay"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Como é chamada a região da Califórnia, berço de grandes empresas de tecnologia?",
-    "options": [
-      "Vale do Silício",
-      "Vale do Ouro",
-      "Vale da Prata",
-      "Vale do Cobre"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "dificil",
-    "question": "Qual é o nome da rede mundial de computadores interligados?",
-    "options": [
-      "Internet",
-      "Intranet",
-      "Extranet",
-      "Ethernet"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "medio",
-    "question": "Qual empresa criou a assistente Alexa e o leitor Kindle?",
-    "options": [
-      "Amazon",
-      "Apple",
-      "Google",
-      "Samsung"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "medio",
-    "question": "Para que serve um roteador?",
-    "options": [
-      "Distribuir a internet para vários aparelhos",
-      "Imprimir documentos",
-      "Gravar vídeos",
-      "Carregar o celular"
-    ],
-    "correct_index": 0
-  },
-  {
-    "category": "tecnologia",
-    "difficulty": "medio",
-    "question": "Qual é a loja oficial de aplicativos do Android?",
-    "options": [
-      "Google Play",
-      "App Store",
-      "Microsoft Store",
-      "Steam"
     ],
     "correct_index": 0
   },
